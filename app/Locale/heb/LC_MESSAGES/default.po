@@ -1,0 +1,5848 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2017-07-07 08:22+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Console/Command/LeaguesShell.php:44
+#: Plugin/Feeds/Console/Command/EnetPulseShell.php:116
+#: Plugin/Feeds/Console/Command/OddServiceShell.php:470
+msgid "Total objects count: %d"
+msgstr "סה"כ ספירת אובייקטים: %d"
+
+#: Console/Command/LeaguesShell.php:45
+#: Plugin/Feeds/Console/Command/EnetPulseShell.php:117
+#: Plugin/Feeds/Console/Command/OddServiceShell.php:471
+msgid "Total queries count: %d"
+msgstr "סך הכל שאילתות: %d"
+
+#: Console/Command/LeaguesShell.php:48
+#: Plugin/Feeds/Console/Command/EnetPulseShell.php:123
+#: Plugin/Feeds/Console/Command/OddServiceShell.php:477
+msgid "i: %d; Offset: %d; Limit: %d"
+msgstr "I: %d ; היסט: %d ; הגבלה: %d"
+
+#: Controller/AppController.php:315
+msgid "Error, not found."
+msgstr "שגיאה 404 - לא נמצא"
+
+#: Controller/AppController.php:354
+#: Plugin/Content/Controller/SlidesController.php:78
+msgid "Item added"
+msgstr "הפריט נוסף"
+
+#: Controller/AppController.php:374;427;490
+msgid "This cannot be added."
+msgstr "לא ניתן להוסיף את זה."
+
+#: Controller/AppController.php:418
+msgid "Changes saved"
+msgstr "שינויים נשמרו"
+
+#: Controller/AppController.php:454
+#: Controller/LanguagesController.php:113
+msgid "Item deleted"
+msgstr "הפריט נמחק"
+
+#: Controller/AppController.php:456
+msgid "This cannot be deleted."
+msgstr "לא ניתן למחוק זאת."
+
+#: Controller/AppController.php:481
+msgid "Item saved"
+msgstr "הפריט נשמר"
+
+#: Controller/BetsController.php:64;104
+msgid "Bet added"
+msgstr "בית נוסף"
+
+#: Controller/BetsController.php:67;107
+msgid "Error adding bet"
+msgstr "שגיאה בהוספת הימור"
+
+#: Controller/DepositsController.php:115;125
+msgid "Bonus code expired or wrong"
+msgstr "קוד הבונוס פג או שגוי"
+
+#: Controller/DepositsController.php:131
+msgid "Your amount is too low for bonus"
+msgstr "הסכום שלך נמוך מדי עבור בונוס"
+
+#: Controller/DepositsController.php:137
+msgid "Your amount is too high for bonus"
+msgstr "הסכום שלך גבוה מדי עבור בונוס"
+
+#: Controller/DepositsController.php:214
+#: Controller/WithdrawsController.php:176
+#: View/Themed/Admin/Risks/admin_warnings.ctp:44;75;106;135
+msgid "User Terminated"
+msgstr "משתמש הסתיים"
+
+#: Controller/DepositsController.php:218
+#: Controller/WithdrawsController.php:180
+msgid "Online"
+msgstr "מחובר"
+
+#: Controller/DepositsController.php:218
+#: Controller/WithdrawsController.php:180
+msgid "Offline"
+msgstr "לא מקוון"
+
+#: Controller/DepositsController.php:225
+#: Controller/TicketsController.php:123
+#: Controller/WithdrawsController.php:187
+msgid "Statuses chart"
+msgstr "תרשים סטטוסים"
+
+#: Controller/DepositsController.php:230
+#: Controller/WithdrawsController.php:191
+#: Model/Deposit.php:428
+#: Model/Withdraw.php:223
+msgid "Completed"
+msgstr "הושלם"
+
+#: Controller/DepositsController.php:234
+#: Controller/WithdrawsController.php:195
+#: Model/Deposit.php:419
+#: Model/Ticket.php:203
+#: Model/Withdraw.php:214
+#: Plugin/Reports/Controller/ReportsController.php:1057
+#: Plugin/Reports/View/Themed/Admin/Elements/staff.ctp:134
+#: Plugin/Reports/View/Themed/Admin/Elements/user.ctp:134
+#: View/Helper/BethHelper.php:121
+msgid "Pending"
+msgstr "בהמתנה"
+
+#: Controller/DepositsController.php:238
+#: Controller/WithdrawsController.php:199
+#: Model/Deposit.php:437
+#: Model/Ticket.php:201
+#: Model/Withdraw.php:232
+#: Plugin/Events/Controller/EventsController.php:63
+#: Plugin/Reports/Controller/ReportsController.php:1062
+#: View/Helper/BethHelper.php:127
+#: View/Themed/Design/Tickets/get_history.ctp:33
+msgid "Cancelled"
+msgstr "בוטל"
+
+#: Controller/DepositsController.php:247
+#: Controller/WithdrawsController.php:208
+msgid "Amount chart"
+msgstr "תרשים כמות"
+
+#: Controller/DepositsController.php:320
+#: Controller/UsersController.php:123
+#: Controller/WithdrawsController.php:285
+msgid "User does not exist!"
+msgstr "משתמש לא קיים!"
+
+#: Controller/DepositsController.php:328
+msgid "Please set correct amount!"
+msgstr "נא להגדיר את הסכום הנכון!"
+
+#: Controller/DepositsController.php:337
+msgid "User %s is credited by %s %s"
+msgstr "משתמש %s מזוכה על ידי %s %s"
+
+#: Controller/DepositsController.php:339
+#: Controller/WithdrawsController.php:304
+msgid "Please check entered amount"
+msgstr "בדוק את הסכום שהוזן"
+
+#: Controller/DepositsController.php:377
+msgid "Deposit not found!"
+msgstr "הפקדה לא נמצאה!"
+
+#: Controller/DepositsController.php:383
+msgid "Deposit already marked as \"completed\"!"
+msgstr "הפקדה כבר מסומן כמו \ "הושלמה \"!"
+
+#: Controller/DepositsController.php:390
+msgid "Deposit request set as completed"
+msgstr "בקשת ההפקדה הוגדרה כהשלמה"
+
+#: Controller/DepositsController.php:403
+msgid "Deposit request cancelled"
+msgstr "בקשת ההפקדה בוטלה"
+
+#: Controller/DepositsController.php:414
+msgid "Money transaction completed"
+msgstr "עסקת הכסף הושלמה"
+
+#: Controller/DepositsController.php:431;473
+msgid "Lowest deposit amount is "
+msgstr "סכום ההפקדה הנמוך ביותר הוא "
+
+#: Controller/DepositsController.php:434;476
+msgid "Highest deposit amount is "
+msgstr "סכום ההפקדה הגבוה ביותר הוא "
+
+#: Controller/DepositsController.php:441
+#: Controller/WithdrawsController.php:89
+msgid "Manual request"
+msgstr "בקשה ידנית"
+
+#: Controller/DepositsController.php:443
+msgid "Deposit is accepted."
+msgstr "ההפקדה מקובלת."
+
+#: Controller/DepositsController.php:445
+msgid "Deposit is failed."
+msgstr "ההפקדה נכשלה."
+
+#: Controller/DepositsController.php:509
+msgid "None"
+msgstr "כלום"
+
+#: Controller/LanguagesController.php:89
+msgid "Language already exist"
+msgstr "השפה כבר קיימת"
+
+#: Controller/LanguagesController.php:92
+msgid "Please contact ChalkPro technical support team for additional languages"
+msgstr "אנא צור קשר עם צוות התמיכה הטכנית ChalkPro בשפות נוספות"
+
+#: Controller/LanguagesController.php:115
+msgid "can't delete item"
+msgstr "לא ניתן למחוק פריט"
+
+#: Controller/MailsController.php:75;101
+msgid "Email successfully sent"
+msgstr "האימייל נשלח בהצלחה"
+
+#: Controller/MailsController.php:77;103
+msgid "Cannot send email. Please try again."
+msgstr "לא ניתן לשלוח דוא"ל. בבקשה נסה שוב."
+
+#: Controller/MailsController.php:132
+msgid "Emails successfully sent"
+msgstr "הודעות אימייל נשלחו בהצלחה"
+
+#: Controller/MailsController.php:134
+msgid "One or more email cannot be send. Please try again."
+msgstr "אימייל אחד או יותר לא ניתן לשלוח. בבקשה נסה שוב."
+
+#: Controller/ReservationTicketsController.php:123
+#: Controller/TicketsController.php:199
+msgid "Cannot find ticket with id: "
+msgstr "לא ניתן למצוא כרטיס עם מזהה: "
+
+#: Controller/ReservationTicketsController.php:202
+msgid "Event with ID: %d no longer available."
+msgstr "אירוע עם מזהה: %d אינו זמין עוד."
+
+#: Controller/ReservationTicketsController.php:208
+msgid "Event %s is already started."
+msgstr "האירוע %s כבר התחיל."
+
+#: Controller/ReservationTicketsController.php:223
+msgid "Event with ID: %d already started."
+msgstr "אירוע עם מזהה: %d כבר התחיל."
+
+#: Controller/ReservationTicketsController.php:345
+#: Controller/TicketsController.php:426
+msgid "Ticket does not exist. Ticket ID: %d"
+msgstr "הכרטיס אינו קיים. מזהה כרטיס: %d"
+
+#: Controller/ReservationTicketsController.php:350
+msgid "Ticket does not exist. Reservation Ticket ID: %d"
+msgstr "הכרטיס אינו קיים. תעודת הזמנת כרטיס: %d"
+
+#: Controller/ResultsController.php:126
+msgid "Please enter event result"
+msgstr "הזן את תוצאות האירוע"
+
+#: Controller/ResultsController.php:133;160;299
+msgid "Results updated"
+msgstr "התוצאות עודכנו"
+
+#: Controller/RisksController.php:45;83;105
+#: Controller/SettingsController.php:45;71;86;100;114;128;142;160;176;194;212
+msgid "Settings saved."
+msgstr "ההגדרות נשמרו."
+
+#: Controller/RisksController.php:47;85
+#: Controller/SettingsController.php:47
+msgid "can't save settings."
+msgstr "לא ניתן לשמור הגדרות."
+
+#: Controller/RisksController.php:107
+msgid "Error, cannot save settings."
+msgstr "שגיאה, לא ניתן לשמור הגדרות."
+
+#: Controller/SettingsController.php:73;88;102;116;130;144;162;178;196;214
+msgid "Can't save settings."
+msgstr "לא ניתן לשמור הגדרות."
+
+#: Controller/TicketsController.php:105
+msgid "Types chart"
+msgstr "סוגי תרשימים"
+
+#: Controller/TicketsController.php:273
+msgid "Cannot find ticket with id: %d "
+msgstr "לא ניתן למצוא כרטיס עם מזהה: %d "
+
+#: Controller/TicketsController.php:287
+msgid "Ticket with id: %d events information update are scheduled. Typically one event updates in one minute."
+msgstr "כרטיס עם מזהה: עדכון מידע על אירועים של %d מתוכנן. בדרך כלל אירוע אחד עדכונים ברגע אחד."
+
+#: Controller/TicketsController.php:322
+msgid "Ticket is not found"
+msgstr "הכרטיס לא נמצא"
+
+#: Controller/TicketsController.php:323
+msgid "Unknown ticket status"
+msgstr "סטטוס כרטיס לא ידוע"
+
+#: Controller/TicketsController.php:324
+msgid "Unknown paid status"
+msgstr "סטטוס בתשלום לא ידוע"
+
+#: Controller/TicketsController.php:327
+msgid "Ok"
+msgstr "אוקיי"
+
+#: Controller/TicketsController.php:374
+msgid "Ticket not found or is already marked as paid"
+msgstr "הכרטיס לא נמצא או מסומן כבר כתשלום"
+
+#: Controller/TicketsController.php:386
+msgid "Insufficient credits"
+msgstr "אין מספיק אשראי"
+
+#: Controller/TicketsController.php:391
+msgid "Ticket is still pending or lost"
+msgstr "הכרטיס עדיין תלוי ועומד"
+
+#: Controller/TicketsController.php:435
+msgid "Ticket already printed. Ticket ID: %d"
+msgstr "הכרטיס כבר הודפס. מזהה כרטיס: %d"
+
+#: Controller/TicketsController.php:439
+msgid "Cannot find ticket. Ticket ID: %d"
+msgstr "לא ניתן למצוא כרטיס. מזהה כרטיס: %d"
+
+#: Controller/UsersController.php:328;610
+msgid "Password changed"
+msgstr "סיסמא שונתה"
+
+#: Controller/UsersController.php:331
+msgid "Wrong old password. Please try again"
+msgstr "סיסמה לא נכונה. בבקשה נסה שוב"
+
+#: Controller/UsersController.php:334;614
+msgid "Passwords do not match. Please try again"
+msgstr "סיסמאות לא תואמות. בבקשה נסה שוב"
+
+#: Controller/UsersController.php:416
+msgid "Account information updated."
+msgstr "פרטי החשבון עודכנו."
+
+#: Controller/UsersController.php:461
+msgid "File too large. File must be less than 2 megabytes."
+msgstr "קובץ גדול מדי. הקובץ חייב להיות קטן מ -2 מגה-בתים."
+
+#: Controller/UsersController.php:466
+msgid "Invalid file type. Only PDF, JPG, GIF and PNG types are accepted."
+msgstr "סוג קובץ לא תקין. רק סוגי PDF, JPG, GIF ו- PNG מתקבלים."
+
+#: Controller/UsersController.php:486
+msgid "User %s ( ID: %d ) is sending documentation files through user panel on website."
+msgstr "משתמש %s (מזהה: %d ) שולח קובצי תיעוד דרך לוח המשתמש באתר."
+
+#: Controller/UsersController.php:487
+msgid "Documents sent successfully."
+msgstr "המסמכים נשלחו בהצלחה."
+
+#: Controller/UsersController.php:489
+msgid "Documents were not sent. Please contact try again or contact support."
+msgstr "מסמכים לא נשלחו. צור קשר שוב נסה או פנה לתמיכה."
+
+#: Controller/UsersController.php:545
+msgid "Account settings updated."
+msgstr "הגדרות החשבון עודכנו."
+
+#: Controller/UsersController.php:547
+msgid "Cannot save settings. Please try again after few moments."
+msgstr "לא ניתן לשמור הגדרות. נסה שוב לאחר מספר דקות."
+
+#: Controller/UsersController.php:634
+msgid "Password reset link sent to your email"
+msgstr "הקישור לאיפוס סיסמה נשלח לדוא"ל שלך"
+
+#: Controller/UsersController.php:637;640
+msgid "E-mail not valid"
+msgstr "אימייל לא חוקי"
+
+#: Controller/UsersController.php:672
+msgid "Promotional code successfully used"
+msgstr "קוד לקידום נעשה בהצלחה"
+
+#: Controller/UsersController.php:674
+msgid "You have already used this promotion code."
+msgstr "כבר השתמשת בקוד לקידום זה."
+
+#: Controller/UsersController.php:678
+msgid "Invalid promotional code"
+msgstr "קוד קידום מכירות לא חוקי"
+
+#: Controller/UsersController.php:696
+msgid "Invalid login details or not confirmed account."
+msgstr "פרטי התחברות לא חוקיים או חשבון לא מאושר."
+
+#: Controller/UsersController.php:702
+msgid "You account is suspended. Please contact support team."
+msgstr "החשבון שלך מושעה. צור קשר עם צוות התמיכה."
+
+#: Controller/UsersController.php:738;743
+msgid "Username or password is incorrect"
+msgstr "שם המשתמש או הסיסמה שגויים"
+
+#: Controller/WithdrawsController.php:69
+msgid "Lowest amount for cashout is "
+msgstr "הסכום הנמוך ביותר עבור cashout הוא "
+
+#: Controller/WithdrawsController.php:71
+msgid "Highest amount for cashout is "
+msgstr "הסכום הגבוה ביותר עבור cashout הוא "
+
+#: Controller/WithdrawsController.php:73
+msgid "Not enough money for this cashout transaction"
+msgstr "לא מספיק כסף עבור עסקה זו cashout"
+
+#: Controller/WithdrawsController.php:75
+msgid "Previous withdrawal transaction is not completed"
+msgstr "עסקת משיכה קודמת לא הושלמה"
+
+#: Controller/WithdrawsController.php:93
+msgid "Your withdrawal request for "
+msgstr "בקשת המשיכה שלך עבור "
+
+#: Controller/WithdrawsController.php:120
+msgid "Bank information updated."
+msgstr "פרטי הבנק עודכנו."
+
+#: Controller/WithdrawsController.php:266
+msgid "Withdraw request set as completed"
+msgstr "ביטול הבקשה הוגדר כהשלמה"
+
+#: Controller/WithdrawsController.php:293
+msgid "Amount should be positive"
+msgstr "הסכום צריך להיות חיובי"
+
+#: Controller/WithdrawsController.php:302
+msgid "User %s is charged by %s %s"
+msgstr "משתמש %s מחויב על ידי %s %s"
+
+#: Controller/WithdrawsController.php:321
+msgid "Withdraw request cancelled"
+msgstr "הבקשה לביטול בוטלה"
+
+#: Controller/WithdrawsController.php:354
+msgid "can't find"
+msgstr "לא יכול למצוא"
+
+#: Controller/Component/TimeZoneComponent.php:332
+msgid "days"
+msgstr "ימים"
+
+#: Controller/Component/TimeZoneComponent.php:332
+msgid "day"
+msgstr "יום"
+
+#: Controller/Component/TimeZoneComponent.php:342
+msgid "h"
+msgstr "h"
+
+#: Controller/Component/TimeZoneComponent.php:352
+msgid "min"
+msgstr "דקות"
+
+#: Event/StaffListener.php:140;144
+#: View/Themed/Admin/Risks/admin_index/agent_admin_index.ctp:32;36;40
+#: View/Themed/Admin/Risks/admin_index/branch_admin_index.ctp:32;36;40;44;48
+msgid "Unlimited"
+msgstr "ללא הגבלה"
+
+#: Event/StaffListener.php:232
+msgid "The agent cannot be created. You have reach your limit. Please contact your service provider."
+msgstr "לא ניתן ליצור את הסוכן. הגעת למגבלה שלך. פנה לספק השירות שלך."
+
+#: Event/UserListener.php:176
+msgid "The user cannot be created. You have reach your limit. Please contact your service provider."
+msgstr "לא ניתן ליצור את המשתמש. הגעת למגבלה שלך. פנה לספק השירות שלך."
+
+#: Model/AppModel.php:170
+#: Model/Bet.php:540;546
+#: Model/Staff.php:116
+#: Model/Ticket.php:209
+#: Model/User.php:540;582
+#: View/Themed/Admin/Elements/list.ctp:84
+#: View/Themed/Admin/Events/admin_index.ctp:110
+#: View/Themed/Admin/Leagues/admin_view.ctp:52
+#: View/Themed/Admin/Sports/admin_view.ctp:55
+#: View/Themed/Design/Live/display_sports.ctp:85
+#: View/Themed/Design/Live/select_sport_league.ctp:85
+#: View/Themed/Design/ReservationTickets/index.ctp:28
+#: View/Themed/Design/Sports/display.ctp:86
+msgid "Yes"
+msgstr "כן"
+
+#: Model/AppModel.php:172
+#: Model/Bet.php:540;546
+#: Model/Staff.php:117
+#: Model/Ticket.php:207;208
+#: Model/User.php:540;582
+#: View/Themed/Admin/Elements/list.ctp:84
+#: View/Themed/Admin/Events/admin_index.ctp:110
+#: View/Themed/Admin/Leagues/admin_view.ctp:54
+#: View/Themed/Admin/Sports/admin_view.ctp:57
+#: View/Themed/Design/ReservationTickets/index.ctp:28
+msgid "No"
+msgstr "לא"
+
+#: Model/AppModel.php:553;721
+#: Model/Group.php:167
+#: Model/ReservationTicket.php:208
+#: Model/Sport.php:285
+#: Plugin/Content/Model/Menu.php:210
+#: Plugin/Content/Model/Page.php:156
+#: View/Themed/Admin/Sports/admin_view.ctp:62
+#: View/Themed/Design/ReservationTickets/index.ctp:31
+#: View/Themed/Design/Tickets/history.ctp:38
+#: View/Themed/Design/Tickets/index.ctp:38
+msgid "View"
+msgstr "הצג"
+
+#: Model/AppModel.php:561;725
+#: Model/Group.php:175
+#: Model/League.php:289
+#: Model/Sport.php:292
+#: Model/Staff.php:365
+#: Model/User.php:409
+#: Plugin/Content/Model/Menu.php:218
+#: Plugin/Content/Model/Page.php:164
+#: View/Themed/Admin/Events/admin_view.ctp:64
+#: View/Themed/Admin/Leagues/admin_view.ctp:58
+#: View/Themed/Admin/Sports/admin_view.ctp:63
+msgid "Edit"
+msgstr "עריכה"
+
+#: Model/AppModel.php:569
+#: Model/Group.php:183
+#: Model/Staff.php:373
+#: Model/User.php:417
+#: Plugin/Content/Model/Menu.php:226
+#: Plugin/Content/Model/Page.php:172
+#: View/Themed/Admin/Events/admin_view.ctp:65
+#: View/Themed/Admin/Leagues/admin_view.ctp:59
+#: View/Themed/Admin/ReservationTickets/admin_view.ctp:65
+#: View/Themed/Admin/Tickets/admin_view.ctp:65
+msgid "Delete"
+msgstr "מחק"
+
+#: Model/AppModel.php:696
+msgid "List"
+msgstr "מודעה"
+
+#: Model/AppModel.php:704;714
+#: View/Themed/Admin/Elements/add.ctp:9
+#: View/Themed/Admin/Elements/Bets/12.ctp:37
+#: View/Themed/Admin/Elements/Bets/1x2.ctp:48
+#: View/Themed/Admin/Elements/Bets/match-result.ctp:48
+#: View/Themed/Admin/Elements/Bets/match-winner.ctp:37
+msgid "Create"
+msgstr "צור"
+
+#: Model/Bet.php:520
+#: Plugin/Feeds/Lib/Betclick/Bet.php:13
+#: View/Themed/Admin/Elements/Events/nordicbet/handicap/head.ctp:5
+msgid "Handicap"
+msgstr "מִגבָּלָה"
+
+#: Model/Bet.php:526
+#: Plugin/Feeds/Lib/Betclick/Bet.php:6
+msgid "Double Chance"
+msgstr "הזדמנות כפולה"
+
+#: Model/Bet.php:532
+msgid "Double Chance Halftime"
+msgstr "פעמיים מחצית זמן"
+
+#: Model/Bet.php:538
+msgid "Home to Score"
+msgstr "דף הבית כדי ציון"
+
+#: Model/Bet.php:544
+msgid "Away to Score"
+msgstr "Away אל ציון"
+
+#: Model/Bet.php:550
+#: Plugin/Feeds/Lib/Betclick/Bet.php:12
+msgid "Under/Over"
+msgstr "מתחת / מעל"
+
+#: Model/Bet.php:556
+msgid "Halftime/Fulltime"
+msgstr "מחצית / זמן מלא"
+
+#: Model/Bet.php:571
+msgid "Bet type \" %s \" is not implemented for printing."
+msgstr "סוג בית \ " %s \" אינו מיושם להדפסה."
+
+#: Model/BonusCode.php:109;136
+#: Model/Currency.php:103;117
+msgid "Code"
+msgstr "קוד"
+
+#: Model/BonusCode.php:114;141
+#: Plugin/Payments/View/EgoPay/index.ctp:11
+#: Plugin/Payments/View/Etranzact/index.ctp:11
+#: Plugin/Payments/View/InterSwitch/index.ctp:11
+#: Plugin/Payments/View/Novinpal/index.ctp:20
+#: Plugin/Payments/View/PerfectMoney/index.ctp:11
+#: View/Themed/Admin/Risks/admin_warnings.ctp:127
+#: View/Themed/Design/Deposits/deposit.ctp:11
+#: View/Themed/Design/Deposits/index.ctp:11;71;72
+#: View/Themed/Design/Deposits/preview.ctp:17
+#: View/Themed/Design/ReservationTickets/index.ctp:12
+#: View/Themed/Design/ReservationTickets/search.ctp:45
+#: View/Themed/Design/ReservationTickets/view.ctp:48
+#: View/Themed/Design/Tickets/history.ctp:12
+#: View/Themed/Design/Tickets/index.ctp:12
+#: View/Themed/Design/Tickets/review.ctp:54
+#: View/Themed/Design/Tickets/view.ctp:54
+#: View/Themed/Design/Withdraws/index-submit.ctp:15
+#: View/Themed/Design/Withdraws/index.ctp:17;49
+msgid "Amount"
+msgstr "סכום"
+
+#: Model/BonusCode.php:119;146
+msgid "Times used"
+msgstr "פעמים בשימוש"
+
+#: Model/BonusCode.php:122;149
+msgid "Expires"
+msgstr "(פג תוקף: ①)"
+
+#: Model/Currency.php:102;116
+#: View/Themed/Admin/Bets/admin_edit.ctp:35
+#: View/Themed/Admin/Countries/admin_add.ctp:13
+#: View/Themed/Admin/Countries/admin_edit.ctp:35
+#: View/Themed/Admin/Elements/Bets/12.ctp:6
+#: View/Themed/Admin/Elements/Bets/1x2.ctp:6
+#: View/Themed/Admin/Elements/Bets/match-result.ctp:6
+#: View/Themed/Admin/Elements/Bets/match-winner.ctp:6
+#: View/Themed/Admin/Events/admin_view.ctp:40
+#: View/Themed/Admin/Live/admin_index.ctp:53
+#: View/Themed/Admin/Mails/contact.ctp:14
+msgid "Name"
+msgstr "שם"
+
+#: Model/Currency.php:104;118
+msgid "Rate"
+msgstr "דירוג"
+
+#: Model/Deposit.php:141
+msgid "Credited by staff"
+msgstr "מוערך על ידי צוות"
+
+#: Model/Deposit.php:153
+#: Model/Withdraw.php:141
+msgid "User %s (ID: %d) account was credited by %s"
+msgstr "משתמש %s (מזהה: %d ) זוכה ל- %s"
+
+#: Model/Deposit.php:459
+#: Model/Withdraw.php:188
+msgid "Complete"
+msgstr "הושלם"
+
+#: Model/Deposit.php:465
+#: Model/Withdraw.php:195
+#: View/Themed/Admin/ReservationTickets/admin_view.ctp:58;67
+#: View/Themed/Admin/Results/admin_all_events.ctp:62
+#: View/Themed/Admin/Results/admin_league.ctp:62
+#: View/Themed/Admin/Tickets/admin_view.ctp:58;67
+#: View/Themed/Design/Tickets/get_history.ctp:27
+msgid "Cancel"
+msgstr "ביטול"
+
+#: Model/Deposit.php:495
+#: Model/Withdraw.php:475
+msgid "Amount from"
+msgstr "הסכום מ"
+
+#: Model/Deposit.php:497
+#: Model/Withdraw.php:477
+msgid "Amount to"
+msgstr "כמות ל"
+
+#: Model/Event.php:227;288
+#: View/Themed/Admin/Elements/user_menu.ctp:32
+msgid "Event name"
+msgstr "שם אירוע"
+
+#: Model/Group.php:234
+msgid "List groups"
+msgstr "קבוצות רשימה"
+
+#: Model/Language.php:93
+#: View/Themed/Admin/Users/admin_settings.ctp:33
+#: View/Themed/Design/Users/settings.ctp:20
+msgid "Language"
+msgstr "שפה"
+
+#: Model/League.php:159;203
+msgid "League name"
+msgstr "שם הליגה"
+
+#: Model/League.php:237
+#: View/Themed/Admin/Risks/admin_leagues.ctp:42
+#: View/Themed/Admin/Risks/admin_sports.ctp:45
+#: View/Themed/Design/ReservationTickets/search.ctp:13
+#: View/Themed/Design/ReservationTickets/view.ctp:8
+#: View/Themed/Design/Tickets/view.ctp:8
+msgid "Sport"
+msgstr "ספּוֹרט"
+
+#: Model/League.php:282
+msgid "View events"
+msgstr "הצג אירועים"
+
+#: Model/League.php:296
+msgid "Add Event"
+msgstr "הוסף אירוע"
+
+#: Model/Mail.php:67
+msgid "Send Mail"
+msgstr "שלח מייל"
+
+#: Model/Mail.php:76
+msgid "Send to All"
+msgstr "שלח לכולם"
+
+#: Model/ReservationTicket.php:133
+#: Model/Ticket.php:214
+#: Plugin/Reports/Controller/ReportsController.php:814;1078
+#: View/Themed/Design/Tickets/betslip.ctp:6
+msgid "Single"
+msgstr "יחיד"
+
+#: Model/ReservationTicket.php:134
+#: Model/Ticket.php:215
+#: Plugin/Reports/Controller/ReportsController.php:818;1083
+#: View/Themed/Design/Tickets/betslip.ctp:7
+msgid "Multi"
+msgstr "רַב"
+
+#: Model/ReservationTicket.php:215
+#: View/Themed/Admin/ReservationTickets/admin_view.ctp:56;64
+#: View/Themed/Admin/Tickets/admin_view.ctp:56;64
+#: View/Themed/Design/ReservationTickets/index.ctp:35
+#: View/Themed/Design/Tickets/get_history.ctp:21
+#: View/Themed/Design/Tickets/history.ctp:44
+#: View/Themed/Design/Tickets/index.ctp:44
+#: View/Themed/Design/Tickets/placed.ctp:16
+#: View/Themed/Design/Tickets/review.ctp:62
+msgid "Print"
+msgstr "_הדפס @@@@"
+
+#: Model/Result.php:44
+#: View/Themed/Admin/Elements/sidebar.ctp:126
+#: View/Themed/Admin/Events/admin_results.ctp:1
+#: View/Themed/Admin/Results/admin_all_all.ctp:32
+#: View/Themed/Admin/Results/admin_event.ctp:28
+msgid "Results"
+msgstr "תוצאות"
+
+#: Model/Result.php:53
+msgid "Finished events in tickets"
+msgstr "אירועים שהסתיימו בכרטיסים"
+
+#: Model/Result.php:62
+msgid "Pending events in tickets"
+msgstr "אירועים ממתינים בכרטיסים"
+
+#: Model/Result.php:71
+msgid "All finished events"
+msgstr "כל האירועים הסתיימו"
+
+#: Model/Setting.php:464
+#: View/Themed/Admin/Risks/admin_warnings.ctp:6
+msgid "Warnings"
+msgstr "אזהרות"
+
+#: Model/Setting.php:473
+#: View/Themed/Admin/Elements/sidebar.ctp:194
+#: View/Themed/Admin/Settings/admin_withdraws_risks.ctp:43
+#: View/Themed/Admin/Users/admin_settings.ctp:1
+#: View/Themed/Design/Layouts/user-panel.ctp:62
+#: View/Themed/Design/Users/settings.ctp:4
+msgid "Settings"
+msgstr "הגדרות"
+
+#: Model/Setting.php:486
+#: View/Themed/Admin/Elements/sidebar.ctp:239
+msgid "General Settings"
+msgstr "הגדרות כלליות"
+
+#: Model/Setting.php:495
+msgid "Ticket Settings"
+msgstr "הגדרות כרטיס"
+
+#: Model/Setting.php:504
+msgid "Currencies"
+msgstr "מטבעות"
+
+#: Model/Setting.php:513
+msgid "SEO Settings"
+msgstr "הגדרות SEO"
+
+#: Model/Setting.php:522
+#: View/Themed/Admin/Elements/sidebar.ctp:226
+msgid "Email templates"
+msgstr "תבניות דוא"ל"
+
+#: Model/Sport.php:299
+#: View/Themed/Admin/Sports/admin_view.ctp:26
+msgid "Add League"
+msgstr "הוסף ליגה"
+
+#: Model/Staff.php:198
+#: Model/User.php:571
+#: View/Themed/Admin/Users/login.ctp:12
+#: View/Themed/Design/Users/register.ctp:23;25
+#: View/Themed/Design/Users/reset-password.ctp:25
+msgid "Password"
+msgstr "סיסמה"
+
+#: Model/Staff.php:264
+msgid "All"
+msgstr "הכל"
+
+#: Model/Staff.php:274
+msgid "Admins ( %d )"
+msgstr "מנהלים ( %d )"
+
+#: Model/Staff.php:284
+msgid "Branches ( %d )"
+msgstr "סניפים ( %d )"
+
+#: Model/Staff.php:294
+msgid "Agents ( %d )"
+msgstr "סוכנים ( %d )"
+
+#: Model/Staff.php:304
+msgid "Cashiers ( %d )"
+msgstr "קופות ( %d )"
+
+#: Model/Staff.php:314
+msgid "Operators ( %d )"
+msgstr "מפעילים ( %d )"
+
+#: Model/Staff.php:382
+msgid "Fund staff"
+msgstr "צוות הקרן"
+
+#: Model/Staff.php:390
+msgid "Charge staff"
+msgstr "צוות הטעינה"
+
+#: Model/Ticket.php:200
+#: Plugin/Reports/Controller/ReportsController.php:1047
+msgid "Won"
+msgstr "זכית"
+
+#: Model/Ticket.php:202
+#: Plugin/Reports/Controller/ReportsController.php:1052
+#: View/Helper/BethHelper.php:124
+msgid "Lost"
+msgstr "אבוד"
+
+#: Model/Ticket.php:312
+msgid "Mark as paid"
+msgstr "סמן כשולם"
+
+#: Model/Ticket.php:904
+msgid "Reservation tickets is not available for live events."
+msgstr "כרטיסי הזמנה אינם זמינים לאירועים בשידור חי."
+
+#: Model/Ticket.php:940
+msgid "Number of maximum bets in ticket is reached."
+msgstr "מספר ההימורים המרבי בכרטיס הוא הגיע."
+
+#: Model/Ticket.php:1035;1041
+msgid "Lowest stake amount is %s %s"
+msgstr "הסכום הנמוך ביותר הוא %s %s"
+
+#: Model/Ticket.php:1043
+msgid "Highest stake amount is %s %s"
+msgstr "הסכום הגבוה ביותר הוא %s %s"
+
+#: Model/Ticket.php:1052
+msgid "Not enough money to place the ticket"
+msgstr "לא מספיק כסף כדי להכניס את הכרטיס"
+
+#: Model/Ticket.php:1079
+msgid "You have reached maximum today's total stake limit which is %s %s"
+msgstr "הגעת למגבלת החשיפה הכוללת של היום, שהיא %s %s"
+
+#: Model/Ticket.php:1098
+msgid "Lowest stake amount is %s%s"
+msgstr "הסכום הנמוך ביותר הוא %s %s"
+
+#: Model/Ticket.php:1101
+msgid "Highest stake amount is %s%s"
+msgstr "הסכום הגבוה ביותר הוא %s %s"
+
+#: Model/Ticket.php:1104
+msgid "Highest winning amount is %s%s"
+msgstr "הסכום המנצח ביותר הוא %s %s"
+
+#: Model/Ticket.php:1107
+msgid "Lowest stake on %s is %d %s"
+msgstr "%s הנמוך ביותר ב- %s הוא %d %s"
+
+#: Model/Ticket.php:1111;1118
+msgid "Highest stake on %s is %s %s"
+msgstr "הנתח הגבוה ביותר ב- %s הוא %s %s"
+
+#: Model/Ticket.php:1115
+msgid "Lowest stake on %s is %s %s"
+msgstr "%s הנמוך ביותר ב- %s הוא %s %s"
+
+#: Model/Ticket.php:1344
+msgid "Please login or register to place the ticket"
+msgstr "אנא התחבר או הירשם למקום הכרטיס"
+
+#: Model/Ticket.php:1348
+msgid "Sorry, you are not allowed to place tickets. Please contact support."
+msgstr "מצטערים, אינך רשאי למקם כרטיסים. צור קשר עם התמיכה."
+
+#: Model/Ticket.php:1352
+msgid "Please select at least %d events to place the ticket"
+msgstr "בחר לפחות %d אירועים למיקום הכרטיס"
+
+#: Model/Ticket.php:1370
+msgid "Following event(s) are already started or no longer active. <br /> Please amend them from BetSlip:"
+msgstr "האירועים הבאים כבר מופעלים או שאינם פעילים עוד. <br /> אנא תקן אותם מ- BetSlip:"
+
+#: Model/Ticket.php:1376
+msgid "Selected event(s) bet(s) are suspended. <br /> Please amend them from BetSlip:"
+msgstr "אירוע / ים נבחרים (אירועים) מושעים. <br /> אנא תקן אותם מ- BetSlip:"
+
+#: Model/Ticket.php:1383
+msgid "Live events are not supported for reservation tickets. <br /> Please amend them from BetSlip:"
+msgstr "אירועים חיים אינם נתמכים להזמנת כרטיסים. <br /> אנא תקן אותם מ- BetSlip:"
+
+#: Model/Ticket.php:1385
+msgid "Selected live event(s) bet(s) are changed. <br /> Please amend them from BetSlip or update:"
+msgstr "אירוע / י אירועים (אירועים) חיים נבחרים. <br /> אנא תקן אותם מ- BetSlip או בעדכון:"
+
+#: Model/Ticket.php:1409
+msgid "Printed"
+msgstr "מודפס"
+
+#: Model/Ticket.php:1440
+#: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:129
+#: View/Themed/Admin/Elements/user_menu.ctp:8
+#: View/Themed/Design/Elements/layout-blocks/right-block/search-ticket.ctp:4
+#: View/Themed/Design/Tickets/history.ctp:10
+#: View/Themed/Design/Tickets/index.ctp:10
+#: View/Themed/Design/Tickets/print_ticket.ctp:11
+#: View/Themed/Design/Tickets/view.ctp:3
+msgid "Ticket ID"
+msgstr "מזהה כרטיס"
+
+#: Model/Ticket.php:1442
+msgid "Amount From"
+msgstr "סכום מ"
+
+#: Model/Ticket.php:1443
+msgid "Amount To"
+msgstr "כמות ל"
+
+#: Model/Ticket.php:1448
+msgid "Potential Winning From"
+msgstr "פוטנציאל זכייה מ"
+
+#: Model/Ticket.php:1449
+msgid "Potential Winning To"
+msgstr "פוטנציאל זכייה"
+
+#: Model/Ticket.php:1456
+msgid "Odd From"
+msgstr "מוזר מ"
+
+#: Model/Ticket.php:1457
+msgid "Odd To"
+msgstr "מוזר"
+
+#: Model/User.php:425
+msgid "Fund"
+msgstr "קרן"
+
+#: Model/User.php:433
+#: View/Themed/Admin/Withdraws/admin_add.ctp:6
+#: View/Themed/Admin/Withdraws/admin_complete.ctp:6
+msgid "Charge"
+msgstr "טעינה"
+
+#: Model/User.php:527;553;570
+#: Plugin/Reports/View/Themed/Admin/Elements/agent.ctp:129
+#: Plugin/Reports/View/Themed/Admin/Elements/agents.ctp:129
+#: Plugin/Reports/View/Themed/Admin/Elements/staff.ctp:129
+#: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:130
+#: Plugin/Reports/View/Themed/Admin/Elements/user.ctp:129
+#: View/Themed/Admin/Users/login.ctp:10
+#: View/Themed/Design/Users/account.ctp:15;17
+#: View/Themed/Design/Users/operator_panel.ctp:32
+#: View/Themed/Design/Users/register.ctp:16;18
+msgid "Username"
+msgstr "שם משתמש"
+
+#: Model/User.php:528;554;572
+#: View/Themed/Admin/Mails/contact.ctp:20
+#: View/Themed/Design/Users/register.ctp:9;11
+#: View/Themed/Design/Users/reset-password.ctp:21
+#: View/Themed/Design/Users/reset.ctp:23
+msgid "Email"
+msgstr "דואל"
+
+#: Model/User.php:529;573
+msgid "First Name"
+msgstr "שם פרטי"
+
+#: Model/User.php:530;574
+msgid "Last Name"
+msgstr "שם משפחה"
+
+#: Model/User.php:531
+msgid "Active"
+msgstr "פָּעִיל"
+
+#: Model/User.php:531
+msgid "Not Activated"
+msgstr "לא הופעל"
+
+#: Model/User.php:531
+msgid "Suspended"
+msgstr "מושהה"
+
+#: Model/User.php:532
+#: View/Themed/Design/Users/docs.ctp:7
+msgid "Verified"
+msgstr "מאומת"
+
+#: Model/User.php:532
+#: View/Themed/Design/Users/docs.ctp:7
+msgid "Not Verified"
+msgstr "לא אומת"
+
+#: Model/User.php:533;575
+msgid "Address1"
+msgstr "כתובת"
+
+#: Model/User.php:534;576
+msgid "Address2"
+msgstr "כתובת"
+
+#: Model/User.php:535;577
+#: View/Themed/Design/Users/account.ctp:38;40
+#: View/Themed/Design/Users/register.ctp:89;91
+msgid "Zip code"
+msgstr "מיקוד"
+
+#: Model/User.php:536;578
+#: View/Themed/Design/Users/account.ctp:47;49
+#: View/Themed/Design/Users/register.ctp:96;98
+msgid "City"
+msgstr "עיר"
+
+#: Model/User.php:537;579
+#: View/Themed/Design/Users/account.ctp:57;59
+#: View/Themed/Design/Users/register.ctp:76;78
+msgid "Country"
+msgstr "מדינה"
+
+#: Model/User.php:538;580
+msgid "Date Of Birth"
+msgstr "תאריך לידה"
+
+#: Model/User.php:539;581
+#: View/Themed/Design/Users/account.ctp:66;68
+#: View/Themed/Design/Users/register.ctp:113;115
+msgid "Mobile number"
+msgstr "מספר טלפון נייד"
+
+#: Model/User.php:541
+msgid "Day Stake Limit"
+msgstr "מגבלת יום"
+
+#: Model/User.php:555
+#: Plugin/Reports/View/Themed/Admin/Elements/staff.ctp:133
+#: Plugin/Reports/View/Themed/Admin/Elements/user.ctp:133
+msgid "Balance"
+msgstr "ייתרה"
+
+#: Model/Withdraw.php:129
+msgid "Charged by Staff"
+msgstr "מחויב על ידי צוות"
+
+#: Plugin/Content/Controller/PagesController.php:118
+#: Plugin/Content/View/Themed/ChalkPro/Pages/main.ctp:60
+#: Plugin/Content/View/Themed/Redesign/Pages/main.ctp:9
+msgid "Football"
+msgstr "כדורגל"
+
+#: Plugin/Content/Controller/PagesController.php:118
+#: Plugin/Content/View/Themed/ChalkPro/Pages/main.ctp:99
+#: Plugin/Content/View/Themed/Redesign/Pages/main.ctp:40
+msgid "Basketball"
+msgstr "כדורסל"
+
+#: Plugin/Content/Controller/PagesController.php:118
+msgid "Tennis"
+msgstr "טֶנִיס"
+
+#: Plugin/Content/Controller/PagesController.php:118
+msgid "IceHockey"
+msgstr "הוקי קרח"
+
+#: Plugin/Content/Controller/SlidesController.php:81
+msgid "Slide cannot be added."
+msgstr "לא ניתן להוסיף את השקף."
+
+#: Plugin/Content/Controller/SlidesController.php:108
+msgid "Slide edited"
+msgstr "Slide נערך"
+
+#: Plugin/Content/Controller/SlidesController.php:111
+msgid "Slide cannot be edited."
+msgstr "לא ניתן לערוך את השקף."
+
+#: Plugin/Content/Model/Menu.php:301
+msgid "List menus"
+msgstr "תפריטי רשימה"
+
+#: Plugin/Content/Model/Slide.php:143
+msgid "Identity number"
+msgstr "מספר זהות"
+
+#: Plugin/Content/Model/Slide.php:149
+msgid "Words in title"
+msgstr "מילים בכותרת"
+
+#: Plugin/Content/Model/Slide.php:154
+msgid "Words in description"
+msgstr "מילים בתיאור"
+
+#: Plugin/Content/Model/Slide.php:159
+msgid "Url link"
+msgstr "קישור כתובת אתר"
+
+#: Plugin/Content/View/Themed/Admin/Menus/admin_add.ctp:6
+#: Plugin/Content/View/Themed/Admin/News/admin_add.ctp:6
+#: Plugin/Reports/View/Themed/Admin/Reports/admin_cashier_daily.ctp:7
+#: Plugin/Reports/View/Themed/Admin/Reports/admin_financial_report.ctp:7
+#: Plugin/Reports/View/Themed/Admin/Reports/admin_operator_daily.ctp:7
+#: Plugin/Reports/View/Themed/Admin/Reports/admin_sportsbook_daily.ctp:7
+#: View/Themed/Admin/Feeds/admin_add.ctp:6
+#: View/Themed/Admin/Groups/admin_add.ctp:6
+#: View/Themed/Admin/Mails/admin_all.ctp:6
+#: View/Themed/Admin/Mails/admin_index.ctp:6
+#: View/Themed/Admin/Results/admin_all_all.ctp:6
+#: View/Themed/Admin/Results/admin_all_events.ctp:6
+#: View/Themed/Admin/Results/admin_all_leagues.ctp:6
+#: View/Themed/Admin/Results/admin_event.ctp:6
+#: View/Themed/Admin/Results/admin_league.ctp:6
+#: View/Themed/Admin/Results/admin_sport.ctp:6
+#: View/Themed/Admin/Results/admin_view.ctp:6
+#: View/Themed/Admin/Staffs/admin_add.ctp:6
+msgid "Create %s"
+msgstr "צור %s"
+
+#: Plugin/Content/View/Themed/Admin/Menus/admin_edit.ctp:6
+#: Plugin/Content/View/Themed/Admin/News/admin_edit.ctp:6
+#: View/Themed/Admin/Feeds/admin_edit.ctp:6
+#: View/Themed/Admin/Groups/admin_edit.ctp:6
+#: View/Themed/Admin/Leagues/admin_edit.ctp:6
+#: View/Themed/Admin/Live/admin_index.ctp:6
+#: View/Themed/Admin/Settings/admin_promo.ctp:6
+#: View/Themed/Admin/Slides/admin_add.ctp:6
+#: View/Themed/Admin/Slides/admin_edit.ctp:6
+#: View/Themed/Admin/Staffs/admin_edit.ctp:6
+#: View/Themed/Admin/Templates/admin_edit.ctp:6
+#: View/Themed/Admin/Tickets/admin_edit.ctp:6
+#: View/Themed/Admin/Users/admin_edit.ctp:6
+msgid "Edit %s"
+msgstr "ערכו %s"
+
+#: Plugin/Content/View/Themed/Admin/Menus/admin_index.ctp:6
+#: Plugin/Content/View/Themed/Admin/Menus/admin_translate.ctp:6
+#: Plugin/Content/View/Themed/Admin/Menus/admin_view.ctp:6
+#: Plugin/Content/View/Themed/Admin/News/admin_index.ctp:6
+#: Plugin/Content/View/Themed/Admin/News/admin_translate.ctp:6
+#: Plugin/Content/View/Themed/Admin/News/admin_view.ctp:6
+#: Plugin/Content/View/Themed/Admin/Pages/admin_add.ctp:6
+#: Plugin/Content/View/Themed/Admin/Pages/admin_edit.ctp:6
+#: Plugin/Content/View/Themed/Admin/Pages/admin_index.ctp:6
+#: Plugin/Content/View/Themed/Admin/Pages/admin_translate.ctp:6
+#: Plugin/Content/View/Themed/Admin/Pages/admin_view.ctp:6
+#: View/Themed/Admin/Bets/admin_edit.ctp:6
+#: View/Themed/Admin/Bets/admin_index.ctp:6
+#: View/Themed/Admin/Bets/admin_view.ctp:6
+#: View/Themed/Admin/BonusCodes/admin_add.ctp:6
+#: View/Themed/Admin/BonusCodes/admin_edit.ctp:6
+#: View/Themed/Admin/BonusCodes/admin_index.ctp:6
+#: View/Themed/Admin/BonusCodes/admin_view.ctp:6
+#: View/Themed/Admin/Countries/admin_edit.ctp:6
+#: View/Themed/Admin/Countries/admin_index.ctp:6
+#: View/Themed/Admin/Countries/admin_translate.ctp:6
+#: View/Themed/Admin/Countries/admin_view.ctp:6
+#: View/Themed/Admin/Currencies/admin_add.ctp:6
+#: View/Themed/Admin/Currencies/admin_edit.ctp:6
+#: View/Themed/Admin/Currencies/admin_index.ctp:6
+#: View/Themed/Admin/Currencies/admin_view.ctp:6
+#: View/Themed/Admin/Deposits/admin_index.ctp:6
+#: View/Themed/Admin/Deposits/admin_view.ctp:6
+#: View/Themed/Admin/Events/admin_add.ctp:6
+#: View/Themed/Admin/Events/admin_edit.ctp:6
+#: View/Themed/Admin/Events/admin_index.ctp:6
+#: View/Themed/Admin/Events/admin_view.ctp:6
+#: View/Themed/Admin/Feeds/admin_index.ctp:6
+#: View/Themed/Admin/Feeds/admin_view.ctp:6
+#: View/Themed/Admin/Groups/admin_index.ctp:6
+#: View/Themed/Admin/Groups/admin_view.ctp:6
+#: View/Themed/Admin/Leagues/admin_add.ctp:6
+#: View/Themed/Admin/Leagues/admin_index.ctp:6
+#: View/Themed/Admin/Leagues/admin_view.ctp:6
+#: View/Themed/Admin/MbMenus/admin_add.ctp:6
+#: View/Themed/Admin/MbMenus/admin_edit.ctp:6
+#: View/Themed/Admin/MbMenus/admin_index.ctp:6
+#: View/Themed/Admin/MbMenus/admin_translate.ctp:6
+#: View/Themed/Admin/MbMenus/admin_view.ctp:6
+#: View/Themed/Admin/MhMenus/admin_add.ctp:6
+#: View/Themed/Admin/MhMenus/admin_edit.ctp:6
+#: View/Themed/Admin/MhMenus/admin_index.ctp:6
+#: View/Themed/Admin/MhMenus/admin_translate.ctp:6
+#: View/Themed/Admin/MhMenus/admin_view.ctp:6
+#: View/Themed/Admin/MtMenus/admin_add.ctp:6
+#: View/Themed/Admin/MtMenus/admin_edit.ctp:6
+#: View/Themed/Admin/MtMenus/admin_index.ctp:6
+#: View/Themed/Admin/MtMenus/admin_translate.ctp:6
+#: View/Themed/Admin/MtMenus/admin_view.ctp:6
+#: View/Themed/Admin/PaymentBonusGroups/admin_add.ctp:6
+#: View/Themed/Admin/PaymentBonusGroups/admin_edit.ctp:6
+#: View/Themed/Admin/PaymentBonusGroups/admin_index.ctp:6
+#: View/Themed/Admin/PaymentBonusGroups/admin_view.ctp:6
+#: View/Themed/Admin/ReservationTickets/admin_index.ctp:6
+#: View/Themed/Admin/Slides/admin_view.ctp:6
+#: View/Themed/Admin/Sports/admin_add.ctp:6
+#: View/Themed/Admin/Sports/admin_edit.ctp:6
+#: View/Themed/Admin/Sports/admin_index.ctp:6
+#: View/Themed/Admin/Sports/admin_translate.ctp:6
+#: View/Themed/Admin/Sports/admin_view.ctp:6
+#: View/Themed/Admin/Templates/admin_add.ctp:6
+#: View/Themed/Admin/Templates/admin_index.ctp:6
+#: View/Themed/Admin/Templates/admin_translate.ctp:6
+#: View/Themed/Admin/Templates/admin_view.ctp:6
+#: View/Themed/Admin/Tickets/admin_index.ctp:6
+#: View/Themed/Admin/Users/admin_index.ctp:6
+#: View/Themed/Admin/Users/admin_index_new.ctp:6
+#: View/Themed/Admin/Users/admin_view.ctp:6
+#: View/Themed/Admin/Withdraws/admin_index.ctp:6
+msgid "List %s"
+msgstr "רשימה %s"
+
+#: Plugin/Content/View/Themed/ChalkPro/Pages/main.ctp:9
+msgid "Last Minute Bets"
+msgstr "הימורים של הרגע האחרון"
+
+#: Plugin/Content/View/Themed/ChalkPro/Pages/main.ctp:14
+msgid "Shortly"
+msgstr "בְּקָרוּב"
+
+#: Plugin/Content/View/Themed/ChalkPro/Pages/main.ctp:22
+msgid "%d events available"
+msgstr "%d אירועים זמינים"
+
+#: Plugin/Content/View/Themed/ChalkPro/Pages/main.ctp:35
+msgid "News"
+msgstr "חֲדָשׁוֹת"
+
+#: Plugin/Content/View/Themed/ChalkPro/Pages/main.ctp:40
+msgid "Read more"
+msgstr "קרא עוד"
+
+#: Plugin/Content/View/Themed/ChalkPro/Pages/main.ctp:59;98;137
+msgid "Bet now"
+msgstr "בית עכשיו"
+
+#: Plugin/Content/View/Themed/ChalkPro/Pages/main.ctp:68;146
+msgid "Draw"
+msgstr "צייר"
+
+#: Plugin/Content/View/Themed/ChalkPro/Pages/main.ctp:138
+#: Plugin/Content/View/Themed/Redesign/Pages/main.ctp:71
+msgid "Ice Hockey"
+msgstr "הוקי קרח"
+
+#: Plugin/Content/View/Themed/Design/Pages/main.ctp:20
+msgid "Last minute bets"
+msgstr "הימורים של הרגע האחרון"
+
+#: Plugin/Events/Controller/EventsController.php:57
+msgid "Renew  successfully scheduled"
+msgstr "התחדש בהצלחה"
+
+#: Plugin/Events/Controller/EventsController.php:64
+msgid "Deleted"
+msgstr "{0}2{/0} {1}          נמחק.{/1}"
+
+#: Plugin/Events/Controller/EventsController.php:65
+msgid "Finished"
+msgstr "הסתיים"
+
+#: Plugin/Events/Controller/EventsController.php:66
+msgid "In progress"
+msgstr "בתהליך"
+
+#: Plugin/Events/Controller/EventsController.php:67
+msgid "Interrupted"
+msgstr "מוּפרָע"
+
+#: Plugin/Events/Controller/EventsController.php:68
+msgid "Not Started"
+msgstr "לא התחיל"
+
+#: Plugin/Events/Controller/EventsController.php:69;75
+msgid "Unknown"
+msgstr "לא ידוע"
+
+#: Plugin/Events/Controller/EventsController.php:76
+msgid "Prematch"
+msgstr "התאמה מראש"
+
+#: Plugin/Events/Controller/EventsController.php:193
+msgid "Select Sport"
+msgstr "בחר באפשרות ספורט"
+
+#: Plugin/Events/Controller/EventsController.php:253
+msgid "Date %s - %s"
+msgstr "השיב/ה: %s (%s)"
+
+#: Plugin/Events/Controller/EventsController.php:283
+msgid "%s / %s / %s"
+msgstr "%1$s @ %2$s: %3$s"
+
+#: Plugin/Events/Controller/EventsController.php:428;433;444
+#: Plugin/Events/Controller/SearchController.php:46;74
+msgid "Sorry, no search results found"
+msgstr "מצטערים, לא נמצאו תוצאות חיפוש"
+
+#: Plugin/Events/Controller/EventsController.php:473
+#: Plugin/Events/Controller/SearchController.php:115
+msgid "No search results found"
+msgstr "לא נמצאו תוצאות חיפוש"
+
+#: Plugin/Events/View/Themed/Design/Events/display.ctp:5
+#: View/Themed/Design/Live/display_event.ctp:5
+msgid "VS"
+msgstr "לעומת."
+
+#: Plugin/Events/View/Themed/Design/Events/display.ctp:10
+#: Plugin/Payments/View/BlockChain/success.ctp:11
+#: Plugin/Payments/View/EgoPay/success.ctp:11
+#: Plugin/Payments/View/Etranzact/callback.ctp:9
+#: Plugin/Payments/View/Etranzact/result.ctp:9
+#: Plugin/Payments/View/LunaWallet/success.ctp:11
+#: Plugin/Payments/View/PaymentApp/result.ctp:8
+#: Plugin/Payments/View/PerfectMoney/success.ctp:11
+#: View/Themed/Design/Deposits/result.ctp:8
+#: View/Themed/Design/Live/display_event.ctp:13
+#: View/Themed/Design/ReservationTickets/search.ctp:63
+#: View/Themed/Design/ReservationTickets/view.ctp:61
+#: View/Themed/Design/Tickets/placed.ctp:14
+#: View/Themed/Design/Tickets/preview.ctp:55
+#: View/Themed/Design/Tickets/review.ctp:60
+#: View/Themed/Design/Tickets/view.ctp:67
+#: View/Themed/Design/Users/register.ctp:146
+msgid "Back"
+msgstr "אחורה"
+
+#: Plugin/Feeds/Console/Command/EnetPulseShell.php:54;80
+msgid "#%d - %s"
+msgstr "%1$ds
+"
+
+#: Plugin/Feeds/Console/Command/EnetPulseShell.php:102
+#: Plugin/Feeds/Console/Command/OddServiceShell.php:454
+msgid "Parsing xml start!"
+msgstr "ניתוח XML התחל!"
+
+#: Plugin/Feeds/Console/Command/EnetPulseShell.php:142
+#: Plugin/Feeds/Console/Command/OddServiceShell.php:493
+msgid "Parsing xml by id: %d"
+msgstr "ניתוח XML לפי מזהה: %d"
+
+#: Plugin/Feeds/Controller/EnetPulseController.php:50
+#: Plugin/Feeds/Controller/OddServiceController.php:132
+msgid "%s XML file does not meets validation rules. Import Aborting."
+msgstr "קובץ XML %s אינו עומד בכללי האימות. ייבוא ​​הפלה."
+
+#: Plugin/Feeds/Controller/FeedsController.php:55;96
+msgid "All feeds updated"
+msgstr "כל העדכונים עודכנו"
+
+#: Plugin/Feeds/Controller/FeedsController.php:68
+msgid "All feeds downloaded"
+msgstr "כל העדכונים שהורדו"
+
+#: Plugin/Feeds/Controller/FeedsController.php:77
+msgid "All feeds parsed"
+msgstr "כל העדכונים מנותחים"
+
+#: Plugin/Feeds/Controller/FeedsController.php:123
+msgid "Feed updated"
+msgstr "העדכון עודכן"
+
+#: Plugin/Feeds/Controller/FeedsController.php:132;161
+msgid "Cannot find feed"
+msgstr "לא ניתן למצוא עדכון"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:4
+msgid "Outright Winner"
+msgstr "הזוכה הסופית"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:5
+msgid "Match Result"
+msgstr "תוצאה בהתאמה"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:7
+msgid "Correct Score"
+msgstr "תוצאה נכונה"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:8
+msgid "Half-Time Result"
+msgstr "תוצאה של חצי שעה"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:9
+msgid "Half-Time / Full-Time"
+msgstr "חצי משרה / משרה מלאה"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:10
+msgid "First Team To Score"
+msgstr "צוות ראשון לציון"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:11
+msgid "Total Goals"
+msgstr "סה"כ יעדים"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:14
+msgid "First Goalscorer"
+msgstr "הראשון Goalscorer"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:15
+msgid "Last Goalscorer"
+msgstr "גולש אחרון"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:16
+msgid "Goalscorer"
+msgstr "גולש"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:17
+msgid "Place 1-4"
+msgstr "מקום. "
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:18
+msgid "Relegation"
+msgstr "הוֹרָדָה בְּדַרגָה"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:19
+msgid "Place 1-3"
+msgstr "מקום. "
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:20
+msgid "Number of Goals"
+msgstr "מספר היעדים"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:21
+msgid "Half-Time Correct Score"
+msgstr "חצי שעה ציון נכון"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:22
+msgid "Match Winner"
+msgstr "זוכה התאמה"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:23
+msgid "Drivers Championship Winner"
+msgstr "נהיגה אליפות הזוכה"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:24
+msgid "Constructors Championship"
+msgstr "אליפות הבנאים"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:25
+msgid "Winner"
+msgstr "זוֹכֵה"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:26
+msgid "Total Points"
+msgstr "כלל הנקודות"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:27
+msgid "Handicap Result"
+msgstr "תוצאה לנכים"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:28
+msgid "Match Result 2"
+msgstr "תוצאה תוצאה 2"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:29
+msgid "Stage Winner"
+msgstr "זוכה הבמה"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:30
+msgid "First Set Total Points"
+msgstr "תחילה הגדר סה"כ נקודות"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:31
+msgid "Sets Handicap"
+msgstr "מגדיר לנכים"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:32
+msgid "Total Sets"
+msgstr "סה"כ סטים"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:33
+msgid "Match Winner 2"
+msgstr "זוכה התאמה 2"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:34
+msgid "Total Goals Odd/Even"
+msgstr "סך הכל מטרות מוזר / אבן"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:35
+msgid "First Period Result"
+msgstr "תוצאה מתקופה ראשונה"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:36
+msgid "Second Period Result"
+msgstr "תוצאה של תוצאה שנייה"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:37
+msgid "Third Period Result"
+msgstr "תוצאה של תקופה שלישית"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:38
+msgid "First Period Total Goals"
+msgstr "התקופה הראשונה סך הכל"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:39
+msgid "Second Period Total Goals"
+msgstr "התקופה השנייה סך הכל מטרות"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:40
+msgid "Third Period Total Goals"
+msgstr "תקופה שלישית סה"כ מטרות"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:41
+msgid "Time of First Goal"
+msgstr "זמן היעד הראשון"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:42
+msgid "First Period Double Chance"
+msgstr "הזדמנות ראשונה"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:43
+msgid "Second Period Double Chance"
+msgstr "הזדמנות שנייה"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:44
+msgid "Third Period Double Chance"
+msgstr "הזדמנות שלישית"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:45
+msgid "Race to 3 Goals"
+msgstr "המירוץ ל 3 מטרות"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:46
+msgid "Away Team Total Goals"
+msgstr "חוץ צוות סך הכל שערים"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:47
+msgid "Home Team Total Goals"
+msgstr "דף הבית צוות סה"כ יעדים"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:48
+msgid "Drivers Winner"
+msgstr "נהגים המנצח"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:49
+msgid "Championship Winner"
+msgstr "זוכה באליפות"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:50
+msgid "Head-to-Head Race"
+msgstr "מירוץ ראש בראש"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:51
+msgid "Total Goals Line"
+msgstr "סה"כ יעדים"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:52
+msgid "Clean Sheet"
+msgstr "דף חלק"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:53
+msgid "Half with Most Goals"
+msgstr "חצי עם רוב המטרות"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:54
+msgid "Match Result/Both Teams to Score"
+msgstr "תוצאה התאמה / שתי הקבוצות כדי ציון"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:55
+msgid "First Half Result/Both Teams to Score"
+msgstr "חצי תוצאה ראשונה / שתי הקבוצות להבקיע"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:56
+msgid "Home Team to Win to Nil"
+msgstr "בית צוות כדי לנצח עד אפס"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:57
+msgid "Away Team to Win to Nil"
+msgstr "צוות חוץ כדי לנצח"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:58
+msgid "1st Half Goals Odd/Even"
+msgstr "מחצית ראשונה מטרות מוזר / אפילו"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:59
+msgid "Away Team Over/Under"
+msgstr "מחוץ לקבוצה /"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:60
+msgid "Home Team Over/Under"
+msgstr "בית צוות מעל / מתחת"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:61
+msgid "Away Team 1st Half Clean Sheet"
+msgstr "חוץ צוות 1/2 1/2 גיליון נקי"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:62
+msgid "Home Team 1st Half Clean Sheet"
+msgstr "דף הבית 1 חצי נקי גיליון"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:63
+msgid "Double Chance & Both Teams to Score"
+msgstr "פעמיים סיכוי & שתי הקבוצות כדי ציון"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:64
+msgid "1st Half Handicap"
+msgstr "מחצית ראשונה"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:65
+msgid "1st Half Over/Under"
+msgstr "מחצית ראשונה / מתחת"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:66
+msgid "1st Half Total Goals"
+msgstr "מחצית ראשונה סך הכל מטרות"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:67
+msgid "Draw no Bet"
+msgstr "לצייר שום בית"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:68
+msgid "Home Team 1st Half Over/Under"
+msgstr "בית צוות חצי"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:69
+msgid "Half Time Both Teams To Score"
+msgstr "חצי שעה שתי הקבוצות להבקיע"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:70
+msgid "Away Team Total Goals Odd/Even"
+msgstr "מחוץ לקבוצה סך הכל מטרות מוזר / אבן"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:71
+msgid "Half Time Draw No Bet"
+msgstr "חצי שעה לצייר לא בית"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:72
+msgid "Next Goal in the 1st Half"
+msgstr "המטרה הבאה במחצית הראשונה"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:73
+msgid "Home Team Total Goals Odd/Even"
+msgstr "בית קבוצה סך הכל מטרות מוזר / אבן"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:74
+msgid "Next Goal in regular time "
+msgstr "הבא יעד בזמן רגיל "
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:75
+msgid "Both Teams to Score"
+msgstr "שתי הקבוצות כדי ציון"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:76
+msgid "Home Team Clean Sheet"
+msgstr "דף הבית צוות נקי גיליון"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:77
+msgid "Away Team Clean Sheet"
+msgstr "מחוץ צוות נקי גיליון"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:78
+msgid "Away Team 1st Half Over/Under"
+msgstr "מחוץ לחצי שנה /"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:79
+msgid "Half Time Double Chance"
+msgstr "חצי הזדמנות כפולה"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:80
+msgid "Match and Goals"
+msgstr "התאמה ויעדים"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:81
+msgid "Next Away Goal Time"
+msgstr "זמן יעד אחר"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:82
+msgid "Next Goal Time"
+msgstr "זמן היעד הבא"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:83
+msgid "Next Home Goal Time"
+msgstr "דף הבית"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:84
+msgid "Player to score 3 or more"
+msgstr "שחקן כדי להבקיע 3 או יותר"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:85
+msgid "Player to Score 2 or more"
+msgstr "שחקן כדי ציון 2 או יותר"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:86
+msgid "Next Goalscorer"
+msgstr "הבא"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:87
+msgid "Over/Under After 85 Minutes"
+msgstr "מעל / מתחת אחרי 85 דקות"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:88
+msgid "Over/Under After 80 Minutes"
+msgstr "מעל / מתחת אחרי 80 דקות"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:89
+msgid "Over/Under After 75 Minutes"
+msgstr "מעל / מתחת אחרי 75 דקות"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:90
+msgid "Over/Under After 70 Minutes"
+msgstr "מעל / תחת אחרי 70 דקות"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:91
+msgid "Over/Under After 65 Minutes"
+msgstr "מעל / מתחת אחרי 65 דקות"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:92
+msgid "Over/Under After 60 Minutes"
+msgstr "מעל / תחת אחרי 60 דקות"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:93
+msgid "Over/Under After 55 Minutes"
+msgstr "מעל / תחת אחרי 55 דקות"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:94
+msgid "Over/Under After 50 Minutes"
+msgstr "מעל / תחת לאחר 50 דקות"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:95
+msgid "Over/Under After 45 Minutes"
+msgstr "מעל / תחת לאחר 45 דקות"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:96
+msgid "Over/Under After 40 Minutes"
+msgstr "מעל / תחת אחרי 40 דקות"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:97
+msgid "Over/Under After 35 Minutes"
+msgstr "מעל / מתחת אחרי 35 דקות"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:98
+msgid "Over/Under After 30 Minutes"
+msgstr "מעל / מתחת לאחר 30 דקות"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:99
+msgid "Over/Under After 25 Minutes"
+msgstr "מעל / תחת אחרי 25 דקות"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:100
+msgid "Over/Under After 20 Minutes"
+msgstr "מעל / תחת אחרי 20 דקות"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:101
+msgid "Game Handicap"
+msgstr "משחק"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:102
+msgid "Total Games"
+msgstr "סה"כ משחקים"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:103
+msgid "Series Winner"
+msgstr "זוכה סדרה"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:104
+msgid "Regular Season Winner"
+msgstr "עונה סדירה"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:105
+msgid "First Round 2 Ball"
+msgstr "סיבוב ראשון 2 כדור"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:106
+msgid "Tournament Match Bet"
+msgstr "טורניר בית תחרות"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:107
+msgid "Total Runs"
+msgstr "סה"כ ריצות"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:108
+msgid "Champion"
+msgstr "אַלוּף"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:109
+msgid "Second Set Winner"
+msgstr "זוכה הגדר השני"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:110
+msgid "First Set Winner"
+msgstr "הגדר תחילה את הזוכה"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:111
+msgid "Winning Team"
+msgstr "הקבוצה המנצחת"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:112
+msgid "Podium"
+msgstr "פּוֹדִיוּם"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:113
+msgid "Points Classification"
+msgstr "קפה קפה"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:114
+msgid "Conference Winner"
+msgstr "זוכה בכנס"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:115
+msgid "Test Set Winner"
+msgstr "מבחן זוכה הגדר"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:116
+msgid "Test2 Set Winner"
+msgstr "Test2 הגדר זוכה"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:117
+msgid "Tie Winner"
+msgstr "לקשור את הזוכה"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:118
+msgid "Half Time Result"
+msgstr "תוצאה של חצי שעה"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:119
+msgid "Half Time / Full Time"
+msgstr "חצי שעה / משרה מלאה"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:120
+msgid "Top European"
+msgstr "אירופה למעלה"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:121
+msgid "Top American"
+msgstr "אמריקאי למעלה"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:122
+msgid "Third Set Winner"
+msgstr "זוכה קבוצה שלישית"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:123
+msgid "Tie Outcome"
+msgstr "לקשור את התוצאה"
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:124
+msgid "Fourth Set Winner"
+msgstr "הזוכה הרביעי להגדיר"
+
+#: Plugin/Feeds/Lib/Betclick/BetPart.php:4;5
+msgid "Under"
+msgstr "תַחַת"
+
+#: Plugin/Feeds/Model/Betclick.php:213
+#: Plugin/Feeds/Model/OddService.php:179
+msgid "%s feed xml empty request has passed."
+msgstr "הבקשה %s feed xml ריקה חלפה."
+
+#: Plugin/Feeds/Model/Betclick.php:217
+#: Plugin/Feeds/Model/OddService.php:183
+msgid "%s feed xml expected %d params count, got %d"
+msgstr "%s feed xml צפוי %d פרמס לספור, יש %d"
+
+#: Plugin/Feeds/Model/Betclick.php:223
+#: Plugin/Feeds/Model/OddService.php:189
+msgid "%s feed xml validate error: %s"
+msgstr "שגיאת אימות %s xml: %s"
+
+#: Plugin/Feeds/Model/Betclick.php:279
+#: Plugin/Feeds/Model/EnetPulse.php:164
+#: Plugin/Feeds/Model/OddService.php:245
+msgid "%s feed cannot save xml entry to database"
+msgstr "%s לא יכול לשמור ערך XML למסד הנתונים"
+
+#: Plugin/Feeds/Model/EnetPulse.php:113
+msgid "%s feed XML unknown tmp_name."
+msgstr "%s עדכון XML tmp_name לא ידוע."
+
+#: Plugin/Feeds/Model/EnetPulse.php:117
+msgid "%s feed xml import possible file upload attack."
+msgstr "%s להאכיל XML ייבוא ​​קובץ אפשרי לטעון התקפה."
+
+#: Plugin/Feeds/Model/EnetPulse.php:179
+msgid "%s feed cannot move tmp xml file"
+msgstr "%s להאכיל לא יכול להעביר קובץ XML tmp"
+
+#: Plugin/Feeds/Model/FeedsAppModel.php:72
+msgid "Update"
+msgstr "עדכן"
+
+#: Plugin/Feeds/Model/FeedsAppModel.php:94
+msgid "Update All"
+msgstr "עדכן הכל"
+
+#: Plugin/Payments/Config/EgoPay.php:20;25
+#: Plugin/Payments/Config/PerfectMoney.php:19;24
+msgid "Account field are required and should be no larger than 50 characters long."
+msgstr "שדה החשבון נדרש ולא יעלה על 50 תווים."
+
+#: Plugin/Payments/Config/EgoPay.php:32
+#: Plugin/Payments/Config/PerfectMoney.php:31
+msgid "Amount field are required and should be a valid monetary amount."
+msgstr "סכום השדה נדרש והוא צריך להיות סכום כספי תקף."
+
+#: Plugin/Payments/Config/EgoPay.php:36
+#: Plugin/Payments/Config/PerfectMoney.php:35
+msgid "Lowest amount for cash out is %s%s"
+msgstr "הסכום הנמוך ביותר עבור מזומנים הוא %s %s"
+
+#: Plugin/Payments/Config/EgoPay.php:40
+#: Plugin/Payments/Config/PerfectMoney.php:39
+msgid "Highest amount for cash out is %s%s"
+msgstr "הסכום הגבוה ביותר עבור מזומנים הוא %s %s"
+
+#: Plugin/Payments/Config/EgoPay.php:44
+#: Plugin/Payments/Config/PerfectMoney.php:43
+msgid "Not enough balance for requested cash out transaction."
+msgstr "לא מספיק איזון עבור העסקה במזומן המבוקש."
+
+#: Plugin/Payments/Config/EgoPay.php:48
+#: Plugin/Payments/Config/PerfectMoney.php:47
+msgid "Cannot add new cash out transaction while previous withdrawal transactions are not completed."
+msgstr "לא ניתן להוסיף עסקה חדשה במזומן כאשר עסקאות משיכה קודמות לא הושלמו."
+
+#: Plugin/Payments/Config/Etranzact.php:16
+#: Plugin/Payments/View/EgoPay/index.ctp:17
+#: Plugin/Payments/View/Etranzact/index.ctp:17
+#: Plugin/Payments/View/InterSwitch/index.ctp:17
+#: Plugin/Payments/View/Novinpal/index.ctp:26
+#: Plugin/Payments/View/PerfectMoney/index.ctp:17
+#: View/Themed/Design/Deposits/deposit.ctp:17
+#: View/Themed/Design/Deposits/index.ctp:3
+#: View/Themed/Design/Layouts/user-panel.ctp:48
+msgid "Deposit"
+msgstr "מערכות המתבססות על השארות פיקדונות"
+
+#: Plugin/Payments/Controller/BlockChainController.php:159
+#: Plugin/Payments/Controller/EgoPayController.php:138
+#: Plugin/Payments/Controller/PerfectMoneyController.php:118
+msgid "You have requested withdraw by %s payment provider."
+msgstr "ביקשת למשוך באמצעות ספק התשלום %s ."
+
+#: Plugin/Payments/Controller/BlockChainController.php:288
+#: Plugin/Payments/Controller/EgoPayController.php:262
+#: Plugin/Payments/Controller/LunaWalletController.php:220
+#: Plugin/Payments/Controller/NovinpalController.php:175
+#: Plugin/Payments/Controller/PerfectMoneyController.php:235
+msgid "You have successfully made payment by %s payment provider."
+msgstr "ביצעת בהצלחה תשלום על ידי ספק התשלום %s ."
+
+#: Plugin/Payments/Controller/EgoPayController.php:104
+#: Plugin/Payments/Controller/NovinpalController.php:103
+msgid "Payment for Deposit %s"
+msgstr "תשלום עבור הפקדה %s"
+
+#: Plugin/Payments/Controller/EgoPayController.php:204
+#: Plugin/Payments/Controller/PerfectMoneyController.php:181
+msgid "Wrong callback params passed. Required: %s \n Passed: %s"
+msgstr "פרעות התקשרות שגוי עברו. נדרש: %s \ n עבר: %s"
+
+#: Plugin/Payments/Controller/EgoPayController.php:214
+#: Plugin/Payments/Controller/PerfectMoneyController.php:191
+msgid "Unknown %s payment ID. Expected IDS got %s"
+msgstr "מזהה תשלום %s לא ידוע. IDS הצפוי קיבל %s"
+
+#: Plugin/Payments/Controller/EgoPayController.php:223
+#: Plugin/Payments/Controller/NovinpalController.php:145
+#: Plugin/Payments/Controller/PerfectMoneyController.php:200
+msgid "Cannot find payment or its already processed by requested data: %s \n Database payment: %s"
+msgstr "לא ניתן למצוא את התשלום או את הנתונים שכבר עובדו על-ידי הנתונים המבוקשים: %s \ n תשלום על בסיס מסד נתונים: %s"
+
+#: Plugin/Payments/Controller/EgoPayController.php:227
+msgid "Invalid payment currency by requested data: %s \n Database payment: %s"
+msgstr "מטבע תשלום לא חוקי לפי נתונים מבוקשים: %s \ n תשלום על בסיס מסד נתונים: %s"
+
+#: Plugin/Payments/Controller/EgoPayController.php:231
+msgid "Invalid payment amount by requested data: %s \n Database payment: %s"
+msgstr "סכום תשלום לא חוקי לפי הנתונים המבוקשים: %s \ n תשלום על בסיס מסד נתונים: %s"
+
+#: Plugin/Payments/Controller/EtranzactController.php:149
+#: Plugin/Payments/Controller/InterSwitchController.php:160
+msgid "You have successfully made deposit for "
+msgstr "ביצעת בהצלחה את ההפקדה עבור "
+
+#: Plugin/Payments/Controller/EtranzactController.php:151
+#: Plugin/Payments/Controller/InterSwitchController.php:162
+msgid "Sorry, we can not find your payment"
+msgstr "מצטערים, לא ניתן למצוא את התשלום שלך"
+
+#: Plugin/Payments/Controller/NovinpalController.php:108
+msgid "Wrong amount. Payment Provider Error Code: %s"
+msgstr "סכום שגוי. קוד שגיאה של ספק השירות: %s"
+
+#: Plugin/Payments/Controller/NovinpalController.php:137
+msgid "Unknown %s payment ID."
+msgstr "מזהה תשלום %s לא ידוע."
+
+#: Plugin/Payments/Controller/PaymentAppController.php:105
+msgid "Provider %s must implement submitPayment() method"
+msgstr "על הספריה %s ליישם את שיטת SubmitPayment ()"
+
+#: Plugin/Payments/Controller/PaymentAppController.php:110
+msgid "Provider %s must implement submitWithdraw() method"
+msgstr "על הספק %s ליישם את שיטת SubmitWithdraw ()"
+
+#: Plugin/Payments/Controller/PerfectMoneyController.php:175
+msgid "Error in callback request passed: %s"
+msgstr "אירעה שגיאה בבקשת איתות: %s"
+
+#: Plugin/Payments/Model/BlockChain.php:148
+#: Plugin/Payments/Model/EgoPay.php:118
+#: Plugin/Payments/Model/LunaWallet.php:148
+#: Plugin/Payments/Model/Novinpal.php:118
+#: Plugin/Payments/Model/PerfectMoney.php:148
+msgid "Unknown %s source"
+msgstr "מקור לא ידוע %s"
+
+#: Plugin/Payments/Model/PaymentAppModel.php:128
+msgid "Config %s.Config not found"
+msgstr "%s תצורה לא נמצא"
+
+#: Plugin/Payments/View/BlockChain/index.ctp:4
+#: Plugin/Payments/View/BlockChain/submit_payment.ctp:3
+#: Plugin/Payments/View/EgoPay/index.ctp:3
+#: Plugin/Payments/View/LunaWallet/index.ctp:4
+#: Plugin/Payments/View/LunaWallet/submit_payment.ctp:3
+#: Plugin/Payments/View/Novinpal/index.ctp:5
+#: Plugin/Payments/View/PerfectMoney/index.ctp:3
+msgid "Make deposit by %s payment provider"
+msgstr "הפקיד באמצעות ספק התשלום %s"
+
+#: Plugin/Payments/View/BlockChain/success.ctp:3
+#: Plugin/Payments/View/EgoPay/success.ctp:3
+#: Plugin/Payments/View/Etranzact/callback.ctp:3
+#: Plugin/Payments/View/Etranzact/index.ctp:3
+#: Plugin/Payments/View/Etranzact/result.ctp:4
+#: Plugin/Payments/View/InterSwitch/index.ctp:3
+#: Plugin/Payments/View/LunaWallet/success.ctp:3
+#: Plugin/Payments/View/PaymentApp/result.ctp:3
+#: Plugin/Payments/View/PerfectMoney/success.ctp:3
+#: View/Themed/Design/Deposits/deposit.ctp:3
+#: View/Themed/Design/Deposits/index.ctp:81
+#: View/Themed/Design/Deposits/result.ctp:3
+msgid "Make Deposit"
+msgstr "הפוך הפקדה"
+
+#: Plugin/Payments/View/BlockChain/success.ctp:7
+#: Plugin/Payments/View/EgoPay/success.ctp:7
+#: Plugin/Payments/View/LunaWallet/success.ctp:7
+#: Plugin/Payments/View/PerfectMoney/success.ctp:7
+msgid "Your payment has been accepted."
+msgstr "התשלום שלך התקבל."
+
+#: Plugin/Payments/View/EgoPay/index.ctp:14
+#: Plugin/Payments/View/Etranzact/index.ctp:14
+#: Plugin/Payments/View/InterSwitch/index.ctp:14
+#: Plugin/Payments/View/Novinpal/index.ctp:23
+#: Plugin/Payments/View/PerfectMoney/index.ctp:14
+#: View/Themed/Design/Deposits/deposit.ctp:14
+#: View/Themed/Design/Deposits/index.ctp:78
+#: View/Themed/Design/Elements/Deposits/bonus_code.ctp:3
+msgid "Bonus code or leave empty"
+msgstr "קוד בונוס או להשאיר ריק"
+
+#: Plugin/PaymentsNew/cakephp-payments-plugin-develop/Lib/Payment/BasePaymentProcessor.php:153
+msgid "Failed to configure %s!"
+msgstr "הגדרת %s נכשלה!"
+
+#: Plugin/PaymentsNew/cakephp-payments-plugin-develop/Lib/Payment/BasePaymentProcessor.php:157
+msgid "Failed to initialize %s!"
+msgstr "נכשל האתחול %s !"
+
+#: Plugin/PaymentsNew/cakephp-payments-plugin-develop/Lib/Payment/BasePaymentProcessor.php:288;347
+msgid "Required value %s is not set!"
+msgstr "הערך הנדרש %s אינו מוגדר!"
+
+#: Plugin/PaymentsNew/cakephp-payments-plugin-develop/Lib/Payment/BasePaymentProcessor.php:326
+msgid "Required value is not set for at least one of those fields: %s"
+msgstr "הערך הנדרש אינו מוגדר לפחות באחד מהשדות הבאים: %s"
+
+#: Plugin/PaymentsNew/cakephp-payments-plugin-develop/Lib/Payment/BasePaymentProcessor.php:370
+msgid "Invalid data type for value %s!"
+msgstr "סוג נתונים לא חוקי עבור הערך %s !"
+
+#: Plugin/PaymentsNew/cakephp-payments-plugin-develop/Lib/Payment/BasePaymentProcessor.php:423
+msgid "The log object must implement a method write($message, $logType)!"
+msgstr "אובייקט יומן חייב ליישם שיטה לכתוב ($ הודעה, $ logType)!"
+
+#: Plugin/Queue/Console/Command/QueueShell.php:24
+msgid "Add a task to the queue."
+msgstr "הוסף משימה לתור."
+
+#: Plugin/Queue/Console/Command/QueueShell.php:27
+msgid "Use this command to add tasks to the queue"
+msgstr "השתמש בפקודה זו כדי להוסיף משימות לתור"
+
+#: Plugin/Queue/Console/Command/QueueShell.php:31
+msgid "The actual command string"
+msgstr "מחרוזת הפקודה בפועל"
+
+#: Plugin/Queue/Console/Command/QueueShell.php:38
+msgid "The type of task command."
+msgstr "סוג פקודת המשימות."
+
+#: Plugin/Queue/Console/Command/QueueShell.php:45
+msgid "optional: strtotime parsable scheduled date to execute. 'Sunday 11 pm','Tuesday 2 am' (default null = no restriction)"
+msgstr "אופציונלי: strtotime parsable מתוזמן תאריך לביצוע. 'יום ראשון 11 בלילה', 'יום שלישי 2 בבוקר' (ברירת מחדל null = ללא הגבלה)"
+
+#: Plugin/Queue/Console/Command/QueueShell.php:50
+msgid "optional: strtotime parsable scheduled end date to execute. 'Monday 4am' (default null = no restriction)"
+msgstr "אופציונלי: strtotime parsable מתוזמן תאריך הסיום כדי לבצע. 'Monday 4am' (ברירת מחדל null = ללא הגבלה)"
+
+#: Plugin/Queue/Console/Command/QueueShell.php:55
+msgid "optional: string of addition to scheduled if window of start and end are missed. Parsable by strtotime. '+1 day', '+1 week' (default null, required if end is not null)"
+msgstr "אופציונלי: מחרוזת של תוספת מתוזמנת אם חלון ההתחלה והסיום מתגעגעים. Parsable על ידי strtotime. 'יום אחד', 'שבוע 1' (ברירת מחדל null, חובה אם סוף אינו ריק)"
+
+#: Plugin/Queue/Console/Command/QueueShell.php:60
+msgid "optional: CPU Percent Limit to run task, 0-100. '95','10' (default null = no restriction)"
+msgstr "אופציונלי: CPU אחוז הגבלה להפעלת משימה, 0-100. '95', '10' (ברירת מחדל null = ללא הגבלה)"
+
+#: Plugin/Queue/Console/Command/QueueShell.php:65
+msgid "optional: Priority of task, lower number the sooner it will run.  '5','100'"
+msgstr "אופציונלי: עדיפות של המשימה, מספר נמוך יותר זה יפעל מוקדם יותר. '5', '100'"
+
+#: Plugin/Queue/Console/Command/QueueShell.php:74
+msgid "Run a task in the queue."
+msgstr "הפעל משימה בתור."
+
+#: Plugin/Queue/Console/Command/QueueShell.php:77
+msgid "Use this command to run a paticular queue"
+msgstr "השתמש בפקודה זו כדי להפעיל תור petular"
+
+#: Plugin/Queue/Console/Command/QueueShell.php:81
+msgid "UUID of queue to run"
+msgstr "UUID של תור לרוץ"
+
+#: Plugin/Queue/Console/Command/QueueShell.php:89
+msgid "View a task in the queue."
+msgstr "הצג משימה בתור."
+
+#: Plugin/Queue/Console/Command/QueueShell.php:92
+msgid "Use this command to view a paticular queue. Including results."
+msgstr "השתמש בפקודה זו כדי להציג תור petular. כולל תוצאות."
+
+#: Plugin/Queue/Console/Command/QueueShell.php:96
+msgid "UUID of queue to view"
+msgstr "UUID של תור כדי להציג"
+
+#: Plugin/Queue/Console/Command/QueueShell.php:104
+msgid "Show what is queued."
+msgstr "הצג מה מונח בתור."
+
+#: Plugin/Queue/Console/Command/QueueShell.php:107
+msgid "Use this command to see what X next in queue."
+msgstr "השתמש בפקודה זו כדי לראות מה X הבא בתור."
+
+#: Plugin/Queue/Console/Command/QueueShell.php:111
+msgid "INT of how many you want to see in the future, \\`10\\`,'5'"
+msgstr "INT של כמה אתה רוצה לראות בעתיד, \\ '10 \\', '5'"
+
+#: Plugin/Queue/Console/Command/QueueShell.php:120
+msgid "Process the queue, runs the next limit items on the queue."
+msgstr "לעבד את התור, מפעילה את הפריטים הגבול הבא על התור."
+
+#: Plugin/Queue/Console/Command/QueueShell.php:124
+msgid "Show the queues in progress."
+msgstr "הצג את התורים בתהליך."
+
+#: Plugin/Queue/Console/Command/QueueShell.php:128
+msgid "Show the in progress count."
+msgstr "הצג את ספירת ההתקדמות."
+
+#: Plugin/Queue/Console/Command/QueueShell.php:132
+msgid "Remove a task from the queue."
+msgstr "הסר משימה מהתור."
+
+#: Plugin/Queue/Console/Command/QueueShell.php:135
+msgid "Use this command to remove a paticular task."
+msgstr "השתמש בפקודה זו כדי להסיר משימה petular."
+
+#: Plugin/Queue/Console/Command/QueueShell.php:139
+msgid "UUID of task to remove. Will not remove in_process tasks."
+msgstr "UUID של המשימה להסיר. לא תסיר משימות in_process."
+
+#: Plugin/Queue/Console/Command/QueueShell.php:145
+msgid "if true will force a delete even on in_progress tasks."
+msgstr "אם נכון יאלץ למחוק גם על משימות in_progress."
+
+#: Plugin/Reports/Controller/ReportsController.php:700
+#: Plugin/Reports/View/Themed/Admin/Elements/financial_daily.ctp:159
+msgid "Funded"
+msgstr "ממומן"
+
+#: Plugin/Reports/Controller/ReportsController.php:704
+#: Plugin/Reports/View/Themed/Admin/Elements/financial_daily.ctp:160
+msgid "Charged"
+msgstr "הוטען"
+
+#: Plugin/Reports/Controller/ReportsController.php:789;1072
+msgid "Ticket types"
+msgstr "סוגי כרטיסים"
+
+#: Plugin/Reports/Controller/ReportsController.php:795
+msgid "Single stake"
+msgstr "נתח יחיד"
+
+#: Plugin/Reports/Controller/ReportsController.php:799
+msgid "Multi stake"
+msgstr "עניין רב"
+
+#: Plugin/Reports/Controller/ReportsController.php:808
+msgid "User finance activity"
+msgstr "פעילות מימון משתמשים"
+
+#: Plugin/Reports/Controller/ReportsController.php:829
+msgid "Income / Outcome"
+msgstr "הכנסה / תוצר"
+
+#: Plugin/Reports/Controller/ReportsController.php:835
+#: Plugin/Reports/View/Themed/Admin/Elements/agent.ctp:132
+#: Plugin/Reports/View/Themed/Admin/Elements/agents.ctp:132
+#: Plugin/Reports/View/Themed/Admin/Elements/branch_agents.ctp:134
+#: Plugin/Reports/View/Themed/Admin/Elements/cashier_daily.ctp:154
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:209
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:227
+#: Plugin/Reports/View/Themed/Admin/Elements/staff.ctp:131
+#: Plugin/Reports/View/Themed/Admin/Elements/user.ctp:131
+msgid "Income"
+msgstr "הַכנָסָה"
+
+#: Plugin/Reports/Controller/ReportsController.php:839
+#: Plugin/Reports/View/Themed/Admin/Elements/agent.ctp:133
+#: Plugin/Reports/View/Themed/Admin/Elements/agents.ctp:133
+#: Plugin/Reports/View/Themed/Admin/Elements/branch_agents.ctp:135
+#: Plugin/Reports/View/Themed/Admin/Elements/cashier_daily.ctp:155
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:210
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:228
+#: Plugin/Reports/View/Themed/Admin/Elements/staff.ctp:132
+#: Plugin/Reports/View/Themed/Admin/Elements/user.ctp:132
+msgid "Outcome"
+msgstr "תוֹצָאָה"
+
+#: Plugin/Reports/Controller/ReportsController.php:848
+msgid "Placed / Withdrawed"
+msgstr "מוצב / משוך"
+
+#: Plugin/Reports/Controller/ReportsController.php:854
+msgid "Placed"
+msgstr "מוּצָב"
+
+#: Plugin/Reports/Controller/ReportsController.php:858;1029
+msgid "Withdrawed"
+msgstr "נסוגה"
+
+#: Plugin/Reports/Controller/ReportsController.php:997
+msgid "Deposited / Withdrawed Amounts"
+msgstr "סכומים מופקדים / משוכפלים"
+
+#: Plugin/Reports/Controller/ReportsController.php:1003
+msgid "Deposited amount"
+msgstr "סכום מופקד"
+
+#: Plugin/Reports/Controller/ReportsController.php:1008
+msgid "Withdrawed amount"
+msgstr "סכום משוך"
+
+#: Plugin/Reports/Controller/ReportsController.php:1018
+msgid "Deposited / Withdrawed"
+msgstr "מופקד / משוך"
+
+#: Plugin/Reports/Controller/ReportsController.php:1024
+msgid "Deposited"
+msgstr "מופקד"
+
+#: Plugin/Reports/Controller/ReportsController.php:1041
+msgid "Ticket statuses"
+msgstr "סטטוסים של כרטיסים"
+
+#: Plugin/Reports/Controller/Component/ReportsComponent.php:143
+msgid "All operators"
+msgstr "כל האופרטורים"
+
+#: Plugin/Reports/Model/ReportsAppModel.php:31
+#: View/Themed/Admin/Elements/sidebar.ctp:46;50
+#: View/Themed/Admin/Elements/statistics.ctp:16
+#: View/Themed/Admin/Staffs/admin_index.ctp:141
+msgid "Users"
+msgstr "משתמשים"
+
+#: Plugin/Reports/Model/ReportsAppModel.php:40
+#: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:120
+#: View/Themed/Admin/Elements/sidebar.ctp:136;140
+#: View/Themed/Admin/Elements/statistics.ctp:32
+#: View/Themed/Admin/Events/admin_view.ctp:42
+#: View/Themed/Admin/Users/admin_tickets.ctp:4
+#: View/Themed/Design/Layouts/user-panel.ctp:41
+#: View/Themed/Design/Tickets/history.ctp:3
+#: View/Themed/Design/Tickets/index.ctp:3
+msgid "Tickets"
+msgstr "כרטיס"
+
+#: Plugin/Reports/Model/ReportsAppModel.php:49
+#: View/Themed/Admin/Elements/sidebar.ctp:159
+#: View/Themed/Admin/Elements/statistics.ctp:51
+#: View/Themed/Admin/Users/admin_deposits.ctp:4
+msgid "Deposits"
+msgstr "פיקדונות"
+
+#: Plugin/Reports/Model/ReportsAppModel.php:58
+#: View/Themed/Admin/Elements/statistics.ctp:69
+#: View/Themed/Admin/Users/admin_withdraws.ctp:4
+#: View/Themed/Design/Layouts/user-panel.ctp:55
+msgid "Withdraws"
+msgstr "נסוג"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/agent.ctp:109
+#: Plugin/Reports/View/Themed/Admin/Elements/agents.ctp:109
+#: Plugin/Reports/View/Themed/Admin/Elements/branch_agents.ctp:109
+#: Plugin/Reports/View/Themed/Admin/Elements/cashier_daily.ctp:101
+#: Plugin/Reports/View/Themed/Admin/Elements/financial_daily.ctp:137
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:122
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:133
+#: Plugin/Reports/View/Themed/Admin/Elements/staff.ctp:109
+#: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:109
+#: Plugin/Reports/View/Themed/Admin/Elements/user.ctp:109
+msgid "Requested at: %s"
+msgstr "התקבלה ב: %s"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/agent.ctp:110
+#: Plugin/Reports/View/Themed/Admin/Elements/agents.ctp:110
+#: Plugin/Reports/View/Themed/Admin/Elements/branch_agents.ctp:110
+#: Plugin/Reports/View/Themed/Admin/Elements/cashier_daily.ctp:102
+#: Plugin/Reports/View/Themed/Admin/Elements/financial_daily.ctp:138
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:123
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:134
+#: Plugin/Reports/View/Themed/Admin/Elements/staff.ctp:110
+#: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:110
+#: Plugin/Reports/View/Themed/Admin/Elements/user.ctp:110
+msgid "Requested by: %s"
+msgstr "מבוקש על ידי: %s"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/agent.ctp:114
+#: Plugin/Reports/View/Themed/Admin/Elements/agents.ctp:114
+#: Plugin/Reports/View/Themed/Admin/Reports/admin_agent.ctp:25
+#: View/Themed/Admin/Elements/sidebar.ctp:371;378
+msgid "Agent report"
+msgstr "דוח הסוכן"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/agent.ctp:115
+#: Plugin/Reports/View/Themed/Admin/Elements/agents.ctp:115
+#: Plugin/Reports/View/Themed/Admin/Elements/branch_agents.ctp:115
+#: Plugin/Reports/View/Themed/Admin/Elements/cashier_daily.ctp:107
+#: Plugin/Reports/View/Themed/Admin/Elements/financial_daily.ctp:143
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:128
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:139
+#: Plugin/Reports/View/Themed/Admin/Elements/staff.ctp:115
+#: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:115
+#: Plugin/Reports/View/Themed/Admin/Elements/user.ctp:115
+msgid "From %s to %s"
+msgstr "מ %s ל %s"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/agent.ctp:120
+#: Plugin/Reports/View/Themed/Admin/Elements/user.ctp:120
+msgid "Users list"
+msgstr "רשימת משתמשים"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/agent.ctp:128
+#: Plugin/Reports/View/Themed/Admin/Elements/agents.ctp:128
+#: Plugin/Reports/View/Themed/Admin/Elements/staff.ctp:128
+#: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:128
+#: Plugin/Reports/View/Themed/Admin/Elements/user.ctp:128
+msgid "Nr"
+msgstr "NR"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/agent.ctp:130
+#: Plugin/Reports/View/Themed/Admin/Elements/agents.ctp:130
+#: Plugin/Reports/View/Themed/Admin/Elements/financial_daily.ctp:158
+#: Plugin/Reports/View/Themed/Admin/Elements/staff.ctp:130
+#: Plugin/Reports/View/Themed/Admin/Elements/user.ctp:130
+msgid "Group"
+msgstr "קבוצה"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/agent.ctp:131
+#: Plugin/Reports/View/Themed/Admin/Elements/agents.ctp:131
+msgid "Commissions"
+msgstr "עמלות"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/agent.ctp:142
+#: Plugin/Reports/View/Themed/Admin/Elements/agents.ctp:141
+#: Plugin/Reports/View/Themed/Admin/Elements/branch_agents.ctp:144
+#: Plugin/Reports/View/Themed/Admin/Elements/staff.ctp:141
+#: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:142;143
+#: Plugin/Reports/View/Themed/Admin/Elements/user.ctp:141
+msgid "%d"
+msgstr "{0}ד{/0} {1}               {/1}"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/agent.ctp:143;144
+#: Plugin/Reports/View/Themed/Admin/Elements/agents.ctp:142;143
+#: Plugin/Reports/View/Themed/Admin/Elements/branch_agents.ctp:125
+#: Plugin/Reports/View/Themed/Admin/Elements/staff.ctp:142;143
+#: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:144;149
+#: Plugin/Reports/View/Themed/Admin/Elements/user.ctp:142;143
+#: View/Themed/Admin/Slides/admin_index.ctp:6
+#: View/Themed/Admin/Staffs/admin_index.ctp:6
+#: View/Themed/Design/Elements/Tickets/BetSlip/flash_message.ctp:7
+#: View/Themed/Design/Users/operator_panel.ctp:40;41
+msgid "%s"
+msgstr "%s"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/agent.ctp:151
+#: Plugin/Reports/View/Themed/Admin/Elements/agents.ctp:144
+msgid "%s %s  ( %s %% )"
+msgstr "%s/%s/%s
+"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/agent.ctp:152;153
+#: Plugin/Reports/View/Themed/Admin/Elements/agents.ctp:145;146
+#: Plugin/Reports/View/Themed/Admin/Elements/branch_agents.ctp:145;146;147;148;181;184
+#: Plugin/Reports/View/Themed/Admin/Elements/cashier_daily.ctp:132;136;166;170
+#: Plugin/Reports/View/Themed/Admin/Elements/financial_daily.ctp:170;171;200;201
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:153;157;178;182;221;225
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:164;168;247;251
+#: Plugin/Reports/View/Themed/Admin/Elements/staff.ctp:144;145;146
+#: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:145;148;180;183
+#: Plugin/Reports/View/Themed/Admin/Elements/user.ctp:144;145;146
+msgid "%.2f %s"
+msgstr "%.2f %s"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/agent.ctp:160
+#: Plugin/Reports/View/Themed/Admin/Elements/agents.ctp:152
+#: Plugin/Reports/View/Themed/Admin/Elements/financial_daily.ctp:177
+#: Plugin/Reports/View/Themed/Admin/Elements/staff.ctp:153
+#: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:155
+#: Plugin/Reports/View/Themed/Admin/Elements/user.ctp:153
+msgid "No data is available"
+msgstr "אין נתונים זמינים"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/agent.ctp:170
+#: Plugin/Reports/View/Themed/Admin/Elements/agents.ctp:162
+#: Plugin/Reports/View/Themed/Admin/Elements/branch_agents.ctp:166
+#: Plugin/Reports/View/Themed/Admin/Elements/cashier_daily.ctp:112
+#: Plugin/Reports/View/Themed/Admin/Elements/financial_daily.ctp:148
+#: Plugin/Reports/View/Themed/Admin/Elements/staff.ctp:163
+#: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:165
+#: Plugin/Reports/View/Themed/Admin/Elements/user.ctp:163
+msgid "Finances"
+msgstr "כספים"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/agent.ctp:177
+#: Plugin/Reports/View/Themed/Admin/Elements/agents.ctp:169
+msgid "Total income: %.2f %s"
+msgstr "סה"כ הכנסה:% .2f% s"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/agent.ctp:178
+#: Plugin/Reports/View/Themed/Admin/Elements/agents.ctp:170
+msgid "Total outcome: %.2f %s"
+msgstr "סה"כ תוצאה:% .2f% s"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/agent.ctp:184
+#: Plugin/Reports/View/Themed/Admin/Elements/agents.ctp:176
+#: Plugin/Reports/View/Themed/Admin/Elements/branch_agents.ctp:190
+#: Plugin/Reports/View/Themed/Admin/Elements/financial_daily.ctp:207
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:232
+#: Plugin/Reports/View/Themed/Admin/Elements/staff.ctp:187
+#: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:189
+#: Plugin/Reports/View/Themed/Admin/Elements/user.ctp:187
+msgid "Total earnings %.2f %s"
+msgstr "סך כל הרווחים.% F% s"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/agent.ctp:187
+#: Plugin/Reports/View/Themed/Admin/Elements/agents.ctp:179
+msgid "Total commissions %.2f %s"
+msgstr "סך כל העמלות% .2f% s"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/agents.ctp:120
+msgid "Agents list"
+msgstr "רשימת סוכנים"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/branch_agents.ctp:114
+msgid "Agents Branch report"
+msgstr "דוח סניפים"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/branch_agents.ctp:133
+#: Plugin/Reports/View/Themed/Admin/Elements/financial_daily.ctp:156
+#: View/Themed/Design/Tickets/preview.ctp:28
+msgid "ID"
+msgstr "ID"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/branch_agents.ctp:136
+msgid "Pending Income"
+msgstr "הכנסה בהמתנה"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/branch_agents.ctp:137
+msgid "Pending Outcome"
+msgstr "תוצאה בהמתנה"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/branch_agents.ctp:138;139
+msgid "-"
+msgstr "843"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/branch_agents.ctp:174
+#: Plugin/Reports/View/Themed/Admin/Elements/financial_daily.ctp:195
+#: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:173
+msgid "Total Income"
+msgstr "הכנסה כוללת"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/branch_agents.ctp:177
+#: Plugin/Reports/View/Themed/Admin/Elements/financial_daily.ctp:196
+#: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:176
+msgid "Total Outcome"
+msgstr "סך כל התוצאה"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/branch_agents.ctp:182
+#: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:181
+msgid "+%s %.2f %s"
+msgstr "+ %s % .2f% s"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/branch_agents.ctp:183
+#: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:182
+msgid "-%s %.2f %s"
+msgstr "- %s % .2f% s"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/cashier_daily.ctp:106
+msgid "Daily report of cashier %s"
+msgstr "דוח יומי של הקופה %s"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/cashier_daily.ctp:118
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:173
+msgid "Statistics"
+msgstr "סטטיסטיקות"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/cashier_daily.ctp:122
+msgid "Today funded:"
+msgstr "ממומן היום:"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/cashier_daily.ctp:123;127
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:155;159
+msgid "%d users"
+msgstr "%d משתמשים"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/cashier_daily.ctp:126
+msgid "Today charged:"
+msgstr "היום טעונה:"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/cashier_daily.ctp:131
+msgid "Amount of total funds:"
+msgstr "סכום הסכום הכולל:"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/cashier_daily.ctp:135
+msgid "Amount of total charges:"
+msgstr "סכום החיובים הכולל:"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/cashier_daily.ctp:146
+#: Plugin/Reports/View/Themed/Admin/Elements/financial_daily.ctp:187
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:201
+msgid "Summary"
+msgstr "סיכום"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/cashier_daily.ctp:159
+msgid "Funded: %.2f %s"
+msgstr "ממומן:% .2f% s"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/cashier_daily.ctp:160
+msgid "Charged: %.2f %s"
+msgstr "טעון:% .2f% s"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/cashier_daily.ctp:165
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:220
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:246
+msgid "Total income:"
+msgstr "הכנסה כוללת:"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/cashier_daily.ctp:169
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:224
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:250
+msgid "Total outcome:"
+msgstr "סה"כ תוצאה:"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/cashier_daily.ctp:177
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:257
+msgid "Total earnings: %.2f %s"
+msgstr "סה"כ רווחים:% .2f% s"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/financial_daily.ctp:142
+#: Plugin/Reports/View/Themed/Admin/Reports/admin_financial_report.ctp:25
+#: View/Themed/Admin/Elements/sidebar.ctp:350
+msgid "Admin financial report"
+msgstr "דוח כספי של מנהל מערכת"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/financial_daily.ctp:157
+#: View/Themed/Admin/ReservationTickets/admin_view.ctp:34
+#: View/Themed/Admin/Risks/admin_warnings.ctp:33;64;95;126;153
+#: View/Themed/Admin/Tickets/admin_view.ctp:34
+#: View/Themed/Design/Deposits/preview.ctp:15
+#: Plugin/Acl/View/Aros/admin_ajax_user_permissions.ctp:12
+msgid "User"
+msgstr "משתמש"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:127
+msgid "Daily report of operator %s"
+msgstr "דוח יומי של %s מפעיל"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:133
+msgid "Offline Tickets"
+msgstr "כרטיסים לא מקוונים"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:139
+msgid "Today place: %d new ticket(s)"
+msgstr "מקום היום: %d כרטיסים חדשים"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:143
+msgid "Single ticket type:"
+msgstr "סוג כרטיס יחיד:"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:144;148;187;191
+msgid "%d ticket(s)"
+msgstr "%d כרטיסים"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:147
+msgid "Multi ticket type:"
+msgstr "סוג כרטיס רב:"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:152
+msgid "Staked on single ticket(s):"
+msgstr "מסומן בכרטיס בודד:"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:156
+msgid "Staked on multi ticket(s):"
+msgstr "מסומן בכרטיסים מרובים:"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:167
+msgid "Offline Finances"
+msgstr "פיננסים לא מקוונים"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:177
+msgid "Stakes income:"
+msgstr "הכנסות ההימור:"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:181
+msgid "Withdraws outcome:"
+msgstr "משיכה תוצאה:"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:186
+msgid "Placed:"
+msgstr "מוּצָב:"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:190
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:158
+msgid "Withdrawed:"
+msgstr "נסוג:"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:214
+msgid "Stakes income %.2f %s"
+msgstr "הכנסה מההכנסות.% Ff% s"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:215
+msgid "Winnings outcome %.2f %s"
+msgstr "תוצאת זכיות% .2f% s"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:234
+msgid "Commissions: %.2f %s"
+msgstr "עמלות:% .2f% s"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/reports_form.ctp:18
+msgid "Please select date range:"
+msgstr "בחר טווח תאריכים:"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/reports_form.ctp:23
+#: View/Themed/Admin/Events/admin_print.ctp:21
+msgid "From"
+msgstr "מ"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/reports_form.ctp:34
+#: View/Themed/Admin/Events/admin_print.ctp:31
+msgid "To"
+msgstr "ל"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/reports_form.ctp:43
+msgid "Show"
+msgstr "הצג"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:138
+msgid "Daily sportsbook report"
+msgstr "דוח ספורט יומי"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:144
+msgid "Online Finances"
+msgstr "פיננסים מקוונים"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:150
+msgid "Today registered: %d new users"
+msgstr "רשומים היום: %d משתמשים חדשים"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:154
+msgid "Deposited:"
+msgstr "מופקד:"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:163
+msgid "Deposited amount:"
+msgstr "סכום מופקד:"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:167
+msgid "Withdrawed amount:"
+msgstr "סכום משוך:"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:178
+msgid "Online and offline tickets"
+msgstr "כרטיסים מקוונים או לא מקוונים"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:184
+msgid "Today placed: %d new tickets"
+msgstr "מיקום: %d כרטיסים חדשים"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:188
+msgid "Single type:"
+msgstr "סוג יחיד:"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:189;193;198;202;206;210
+msgid "%d tickets"
+msgstr "%d כרטיסים"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:192
+msgid "Multi type:"
+msgstr "רב סוג:"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:197
+msgid "Won status:"
+msgstr "סטטוס ניצח:"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:201
+msgid "Lost status:"
+msgstr "סטטוס אבוד:"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:205
+msgid "Pending status:"
+msgstr "סטטוס בהמתנה:"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:209
+msgid "Cancelled status:"
+msgstr "שיבוטל ")."
+
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:232
+msgid "Deposited amount %.2f %s"
+msgstr "סכום מופקד% .2f% s"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:233
+msgid "Withdrawed amount %.2f %s"
+msgstr "סכום נסיגה% .2f% s"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:236
+msgid "Cashier profit %.2f %s"
+msgstr "% רווחי הקופה%"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:237
+msgid "Cashier loss %.2f %s"
+msgstr "הפסד במזומן%"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:240
+msgid "Operator profit %.2f %s"
+msgstr "רווח מפעיל% .2f% s"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:241
+msgid "Operator loss %.2f %s"
+msgstr "הפסד מפעיל%% f% s"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/staff.ctp:114
+#: Plugin/Reports/View/Themed/Admin/Reports/admin_staff.ctp:25
+#: View/Themed/Admin/Elements/sidebar.ctp:357
+msgid "Staff report"
+msgstr "דו"ח צוות"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/staff.ctp:120
+msgid "Staff list"
+msgstr "רשימת אנשי צוות"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/staff.ctp:147
+#: Plugin/Reports/View/Themed/Admin/Elements/user.ctp:147
+msgid "%.2f %s / %.2f %s"
+msgstr "% .2f% s /% .2f% s"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/staff.ctp:170
+#: Plugin/Reports/View/Themed/Admin/Elements/user.ctp:170
+msgid "Staff income: %.2f %s"
+msgstr "הכנסות הצוות:% .2f% s"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/staff.ctp:171
+#: Plugin/Reports/View/Themed/Admin/Elements/user.ctp:171
+msgid "Staff outcome: %.2f %s"
+msgstr "תוצאת הסגל:% .2f% s"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/staff.ctp:172
+#: Plugin/Reports/View/Themed/Admin/Elements/user.ctp:172
+msgid "Pending potential income: +%.2f %s"
+msgstr "הכנסה אפשרית בהמתנה: +%. 2%% s"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/staff.ctp:173
+#: Plugin/Reports/View/Themed/Admin/Elements/user.ctp:173
+msgid "Pending potential outcome: -%.2f %s"
+msgstr "תוצאות אפשריות בהמתנה: -%. 2f% s"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/staff.ctp:179
+#: Plugin/Reports/View/Themed/Admin/Elements/user.ctp:179
+msgid "Factual Income: %.2f %s"
+msgstr "הכנסה עובדתית:% .2f% s"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/staff.ctp:180
+#: Plugin/Reports/View/Themed/Admin/Elements/user.ctp:180
+msgid "Factual Outcome: %.2f %s"
+msgstr "תוצאה עובדתית:% .2f% s"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:114
+#: View/Themed/Admin/Elements/sidebar.ctp:315
+msgid "Tickets report"
+msgstr "דו"ח כרטיסים"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:131
+#: View/Themed/Admin/ReservationTickets/admin_view.ctp:37
+#: View/Themed/Admin/Risks/admin_warnings.ctp:34;65;96
+#: View/Themed/Admin/Tickets/admin_view.ctp:37
+#: View/Themed/Design/Tickets/betslip.ctp:74
+msgid "Stake"
+msgstr "לְהַמֵר"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:132
+#: View/Themed/Admin/Settings/admin_index.ctp:100
+msgid "Service fee"
+msgstr "עמלת שירות"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:133
+#: View/Themed/Admin/Bets/admin_edit.ctp:36
+#: View/Themed/Admin/Countries/admin_add.ctp:14
+#: View/Themed/Admin/Countries/admin_edit.ctp:36
+#: View/Themed/Admin/Elements/Bets/12.ctp:7
+#: View/Themed/Admin/Elements/Bets/1x2.ctp:7
+#: View/Themed/Admin/Elements/Bets/match-result.ctp:7
+#: View/Themed/Admin/Elements/Bets/match-winner.ctp:7
+#: View/Themed/Admin/Events/admin_view.ctp:41
+#: View/Themed/Admin/Live/admin_index.ctp:54
+#: View/Themed/Admin/ReservationTickets/admin_print.ctp:21
+#: View/Themed/Admin/ReservationTickets/admin_view.ctp:36;84
+#: View/Themed/Admin/Risks/admin_warnings.ctp:35;66;97
+#: View/Themed/Admin/Tickets/admin_printTicket.ctp:21
+#: View/Themed/Admin/Tickets/admin_view.ctp:36;84
+#: View/Themed/Admin/Tickets/printing.ctp:21
+#: View/Themed/Design/ReservationTickets/index.ctp:11
+#: View/Themed/Design/ReservationTickets/print_ticket.ctp:21
+#: View/Themed/Design/ReservationTickets/search.ctp:17
+#: View/Themed/Design/ReservationTickets/view.ctp:12
+#: View/Themed/Design/Tickets/history.ctp:11
+#: View/Themed/Design/Tickets/index.ctp:11
+#: View/Themed/Design/Tickets/preview.ctp:22
+#: View/Themed/Design/Tickets/print_ticket.ctp:32
+#: View/Themed/Design/Tickets/review.ctp:27
+#: View/Themed/Design/Tickets/view.ctp:12
+msgid "Odd"
+msgstr "אי זוגי"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:134
+#: View/Themed/Admin/ReservationTickets/admin_view.ctp:39
+#: View/Themed/Admin/Tickets/admin_view.ctp:39
+#: View/Themed/Design/ReservationTickets/search.ctp:48
+#: View/Themed/Design/ReservationTickets/view.ctp:51
+#: View/Themed/Design/Tickets/view.ctp:57
+msgid "Return"
+msgstr "לַחֲזוֹר"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:135
+msgid "STATUS"
+msgstr "STATUS"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:146
+msgid "%d %s"
+msgstr "%1$ds
+"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:147
+msgid "%.2f"
+msgstr "ו"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/user.ctp:114
+#: Plugin/Reports/View/Themed/Admin/Reports/admin_user.ctp:25
+#: View/Themed/Admin/Elements/sidebar.ctp:364
+msgid "User report"
+msgstr "דוח משתמש"
+
+#: Plugin/Reports/View/Themed/Admin/Reports/admin_agent.ctp:7
+#: Plugin/Reports/View/Themed/Admin/Reports/admin_agents.ctp:7
+msgid "Agents %s"
+msgstr "סוכנים %s"
+
+#: Plugin/Reports/View/Themed/Admin/Reports/admin_agents.ctp:25
+msgid "Agents report"
+msgstr "סוכני הדו"ח"
+
+#: Plugin/Reports/View/Themed/Admin/Reports/admin_cashier_daily.ctp:25
+#: View/Themed/Admin/Elements/sidebar.ctp:329
+msgid "Cashier report"
+msgstr "דו"ח קופה"
+
+#: Plugin/Reports/View/Themed/Admin/Reports/admin_cashier_daily.ctp:26
+msgid "Please select cashier(s)"
+msgstr "בחר קופה (קופות)"
+
+#: Plugin/Reports/View/Themed/Admin/Reports/admin_operator_daily.ctp:25
+#: View/Themed/Admin/Elements/sidebar.ctp:336
+msgid "Operator report"
+msgstr "דוח המפעיל"
+
+#: Plugin/Reports/View/Themed/Admin/Reports/admin_operator_daily.ctp:26
+msgid "Please select operator(s)"
+msgstr "בחר מפעיל (ים)"
+
+#: Plugin/Reports/View/Themed/Admin/Reports/admin_staff.ctp:7
+#: Plugin/Reports/View/Themed/Admin/Reports/admin_tickets.ctp:7
+#: View/Themed/Admin/Settings/admin_tickets.ctp:6
+msgid "Tickets %s"
+msgstr "כרטיסים %s"
+
+#: Plugin/Reports/View/Themed/Admin/Reports/admin_tickets.ctp:25
+msgid "Admin tickets report"
+msgstr "דוח כרטיסי ניהול"
+
+#: Plugin/Reports/View/Themed/Admin/Reports/admin_user.ctp:7
+msgid "Users %s"
+msgstr "משתמשים %s"
+
+#: Test/Case/Model/TicketTest.php:84
+msgid "Maximum days stake are: %.2f, counted more. \n Message: %s. \n Case: \n %s"
+msgstr "אחוזי הימים המרבי הם:% .2f, נספר יותר. \ N הודעה:% s. \ N מקרה: \ n% s"
+
+#: Vendor/EnetPulse/Feeds/ObjectQueryFeed.php:69
+#: Vendor/EnetPulse/Feeds/OddsFeed.php:63
+msgid "OddsFeed Import Start. Total Objects ( %d ) To Process"
+msgstr "תחילת ייבוא ​​OddsFeed. סה"כ אובייקטים ( %d ) כדי לעבד"
+
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome.php:112
+msgid "OddsFeed :: Object %s Import Start."
+msgstr "OddsFeed :: התחלה של אובייקט %s ."
+
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome.php:132
+msgid "OddsFeed :: Object %s Map Start."
+msgstr "OddsFeed :: מפת אובייקט %s התחל."
+
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome.php:145
+msgid "OddsFeed :: Object %s Reduce Start."
+msgstr "OddsFeed :: אובייקט %s הקטן את ההפעלה."
+
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome.php:148
+msgid "OddsFeed :: Object %s Reduce Betting Type ( %s ) Process Start ."
+msgstr "OddsFeed :: Object %s הקטנת סוג ההימורים ( %s ) התחל בתהליך."
+
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome.php:159
+msgid "OddsFeed :: Object %s Reduce Betting Type ( %s ) Not Available For Process, Skipping."
+msgstr "אובייקט %s להקטין סוג התערבות ( %s ) לא זמין עבור תהליך, דילוג."
+
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome.php:172
+msgid "OddsFeed :: Object %s Save Objects Start."
+msgstr "OddsFeed :: אובייקטים שמורים של אובייקט %s ."
+
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome.php:173
+msgid "OddsFeed :: Object %s Save Objects Total ( %d ) For Process."
+msgstr "אובייקט %s אובייקטים שמירה סה"כ ( %d ) עבור תהליך."
+
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome.php:176
+msgid "OddsFeed :: Object %s For Save Object Type ( %s ) Total Count ( %d ) To Process."
+msgstr "אובייקט %s לשמירת סוג אובייקט ( %s ) סך הכל ( %d ) כדי לעבד."
+
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_12.php:49
+msgid "OddsFeed :: Object Betting Type %s map() With Items Count ( %d ) Start."
+msgstr "OddsFeed :: אובייקט הימורים סוג %s מפה () עם פריטים ספירה ( %d ) התחל."
+
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_12.php:68
+msgid "OddsFeed :: Object Betting Type %s reduce() With Items Count ( %d ) Start."
+msgstr "OddsFeed :: אובייקט התערבות סוג %s הפחתת () עם פריטים ספירה ( %d ) התחל."
+
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_12.php:86
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_1x2.php:86
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_dc.php:86
+msgid "OddsFeed :: Object Betting Type %s Reset() With Items Count ( %d ) Start."
+msgstr "OddsFeed :: אובייקט התערבות סוג %s איפוס () עם פריטים ספירה ( %d ) התחל."
+
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_12.php:103
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_1x2.php:104
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_dc.php:103
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_ht_ft.php:99
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_oe.php:97
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_ou.php:97
+msgid "OddsFeed :: Object Betting Type %s getInsertFields() With Items Count ( %d ) Start."
+msgstr "OddsFeed :: אובייקט התערבות סוג %s getInsertFields () עם פריטים ספירה ( %d ) התחל."
+
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_12.php:151
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_1x2.php:161
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_dc.php:155
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_ht_ft.php:132
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_oe.php:132
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_ou.php:132
+msgid "OddsFeed :: Object Betting Type %s getUpdateFields() With Items Count ( %d ) Start."
+msgstr "OddsFeed :: אובייקט התערבות סוג %s getUpdateFields () עם פריטים ספירה ( %d ) התחל."
+
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_1x2.php:49
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_dc.php:49
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_ht_ft.php:48
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_oe.php:48
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_ou.php:48
+msgid "OddsFeed :: Object Betting Type %s Map With Items Count ( %d ) Start."
+msgstr "OddsFeed :: אובייקט הימור סוג %s מפה עם פריטים ספירה ( %d ) התחל."
+
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_1x2.php:68
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_dc.php:68
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_ht_ft.php:67
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_oe.php:67
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_ou.php:67
+msgid "OddsFeed :: Object Betting Type %s Reduce With Items Count ( %d ) Start."
+msgstr "OddsFeed :: סוג התערבות של אובייקט %s צמצם עם פריטים ספירה ( %d ) התחל."
+
+#: Vendor/shells/aco_sync.php:83
+msgid "Available ACO sync commands:"
+msgstr "פקודות סינכרון ACO זמינות:"
+
+#: Vendor/shells/aco_sync.php:87
+msgid "For help, run the 'help' command.  For help on a specific command, run 'help <command>'"
+msgstr "לקבלת עזרה, הפעל את הפקודה 'עזרה'. לקבלת עזרה בפקודה ספציפית, הפעל את 'עזרה <פקודה'"
+
+#: Vendor/shells/aco_sync.php:120
+msgid "Deleted %s and all children"
+msgstr "נמחקו %s וכל הילדים"
+
+#: Vendor/shells/aco_sync.php:125
+msgid "Aco Update Complete"
+msgstr "עדכון ACO הושלם"
+
+#: Vendor/shells/aco_sync.php:153
+msgid "Created Aco node: %s"
+msgstr "נוצר aco הצומת: %s"
+
+#: Vendor/shells/aco_sync.php:184
+msgid "Deleted Aco node %s"
+msgstr "נמחק צומת Aco %s"
+
+#: Vendor/shells/aco_sync.php:199
+msgid "Usage: cake aco_sync <command>"
+msgstr "שימוש: עוגה aco_sync <פקודה>"
+
+#: Vendor/shells/aco_sync.php:201
+msgid "Commands:"
+msgstr "פקודות:"
+
+#: Vendor/shells/aco_sync.php:205
+msgid "Add new ACOs for new controllers and actions"
+msgstr "הוסף חדש ACOs עבור בקרי חדשים ופעולות"
+
+#: Vendor/shells/aco_sync.php:206
+msgid "Create new ACO's for controllers and their actions. Does not remove any nodes from ACO table"
+msgstr "יצירת ACO חדש של בקרי פעולותיהם. לא מסיר כל צומת מטבלת ACO"
+
+#: Vendor/shells/aco_sync.php:210
+msgid "Creates new ACO's for missing controllers and actions. Removes orphaned entries in the ACO table."
+msgstr "יוצר ACO חדש של בקרים חסרים ופעולות. מסיר ערכים יתומים בטבלת ה- ACO."
+
+#: Vendor/shells/aco_sync.php:213
+msgid "Displays this help message, or a message on a specific command."
+msgstr "מציג הודעת עזרה זו, או הודעה בפקודה ספציפית."
+
+#: Vendor/shells/aco_sync.php:224
+msgid "Command '%s' not found"
+msgstr "הפקודה ' %s ' לא נמצאה"
+
+#: View/Helper/BethHelper.php:118
+msgid "Win"
+msgstr "תחרות"
+
+#: View/Helper/BethHelper.php:138;158
+msgid "Decimal"
+msgstr "עֶשׂרוֹנִי"
+
+#: View/Helper/BethHelper.php:141;159
+msgid "Fractional"
+msgstr "חֶלקִי"
+
+#: View/Helper/BethHelper.php:144;160
+msgid "American"
+msgstr "אֲמֶרִיקָאִי"
+
+#: View/Themed/Admin/Bets/admin_add.ctp:6
+#: View/Themed/Admin/Users/admin_add.ctp:6
+msgid "Add %s"
+msgstr "הוסף %s"
+
+#: View/Themed/Admin/Bets/admin_edit.ctp:55
+#: View/Themed/Admin/Countries/admin_add.ctp:29
+#: View/Themed/Admin/Countries/admin_edit.ctp:55
+#: View/Themed/Admin/Deposits/admin_add.ctp:31
+#: View/Themed/Admin/Elements/edit.ctp:5
+#: View/Themed/Admin/Elements/translate.ctp:9
+#: View/Themed/Admin/Results/admin_all_all.ctp:65
+#: View/Themed/Admin/Results/admin_event.ctp:67
+#: View/Themed/Admin/Users/admin_settings.ctp:39
+#: View/Themed/Admin/Withdraws/admin_add.ctp:31
+#: View/Themed/Admin/Withdraws/admin_complete.ctp:31
+#: View/Themed/Design/Users/bonus.ctp:21
+#: View/Themed/Design/Users/docs.ctp:17
+msgid "Submit"
+msgstr "שלח"
+
+#: View/Themed/Admin/Countries/admin_add.ctp:4
+msgid "Add bet"
+msgstr "הוסף הימור"
+
+#: View/Themed/Admin/Dashboard/admin_operator.ctp:93;105;117
+#: View/Themed/Admin/Users/admin_statistics.ctp:88;100;112
+msgid "%s%s"
+msgstr "%s"
+
+#: View/Themed/Admin/Dashboard/admin_operator.ctp:98;110
+#: View/Themed/Admin/Users/admin_statistics.ctp:93;105
+msgid "%s%s (%s)"
+msgstr "%s/%s/%s"
+
+#: View/Themed/Admin/Deposits/admin_add.ctp:6
+msgid "Fund %s"
+msgstr "קרן %s"
+
+#: View/Themed/Admin/Deposits/admin_add.ctp:23
+msgid "Fund user"
+msgstr "משתמש הקרן"
+
+#: View/Themed/Admin/Deposits/admin_add.ctp:24
+msgid "To fund just enter amount into the input field and press submit. For example if you want to fund just credit user with 100 "
+msgstr "כדי לממן רק להזין סכום לתוך שדה קלט ולחץ על שלח. לדוגמה, אם אתה רוצה לממן רק משתמש אשראי עם 100 "
+
+#: View/Themed/Admin/Deposits/admin_add.ctp:24
+msgid " just enter that amount into field and press submit"
+msgstr " פשוט להזין את הסכום לתוך שדה ולחץ על שלח"
+
+#: View/Themed/Admin/Elements/list.ctp:12
+#: View/Themed/Admin/Events/admin_index.ctp:37
+#: View/Themed/Admin/Staffs/admin_index.ctp:37
+msgid "Data list"
+msgstr "רשימת נתונים"
+
+#: View/Themed/Admin/Elements/list.ctp:38
+#: View/Themed/Admin/Events/admin_index.ctp:63
+#: View/Themed/Admin/Leagues/admin_view.ctp:34
+#: View/Themed/Admin/ReservationTickets/admin_view.ctp:41;86
+#: View/Themed/Admin/Results/admin_all_events.ctp:42
+#: View/Themed/Admin/Results/admin_league.ctp:42
+#: View/Themed/Admin/Sports/admin_view.ctp:36
+#: View/Themed/Admin/Staffs/admin_index.ctp:65
+#: View/Themed/Admin/Tickets/admin_view.ctp:41;86
+#: Plugin/Acl/View/Elements/design/header.ctp:20
+msgid "Actions"
+msgstr "פעולות"
+
+#: View/Themed/Admin/Elements/list.ctp:43
+#: View/Themed/Admin/Events/admin_index.ctp:68
+#: View/Themed/Admin/Staffs/admin_index.ctp:70
+msgid "Translations"
+msgstr "תרגומים"
+
+#: View/Themed/Admin/Elements/list.ctp:74
+#: View/Themed/Admin/Events/admin_index.ctp:100
+#: View/Themed/Admin/Staffs/admin_index.ctp:101
+#: View/Themed/Design/Deposits/index.ctp:19
+#: View/Themed/Design/Deposits/preview.ctp:22
+#: View/Themed/Design/ReservationTickets/search.ctp:43;46
+#: View/Themed/Design/ReservationTickets/view.ctp:46;49
+#: View/Themed/Design/Tickets/view.ctp:52;55
+msgid "%s %s"
+msgstr "%s / %s"
+
+#: View/Themed/Admin/Elements/list.ctp:127
+#: View/Themed/Admin/Events/admin_index.ctp:149
+#: View/Themed/Admin/Staffs/admin_index.ctp:197
+msgid "Are you sure?"
+msgstr "האם אתה בטוח?"
+
+#: View/Themed/Admin/Elements/list.ctp:155
+#: View/Themed/Admin/Events/admin_index.ctp:177
+#: View/Themed/Admin/Staffs/admin_index.ctp:225
+msgid "Translate"
+msgstr "לתרגם"
+
+#: View/Themed/Admin/Elements/list.ctp:178
+#: View/Themed/Admin/Events/admin_index.ctp:200
+msgid "Total: %s %s"
+msgstr "השיב/ה: %s (%s)"
+
+#: View/Themed/Admin/Elements/list.ctp:197
+#: View/Themed/Admin/Events/admin_index.ctp:219
+#: View/Themed/Admin/Staffs/admin_index.ctp:267
+msgid "No records found"
+msgstr "לא נמצאו רשומות"
+
+#: View/Themed/Admin/Elements/paginator.ctp:4
+#: View/Themed/Design/Elements/paginator.ctp:5
+msgid "Page {:page} of {:pages}, showing {:current} records out of {:count} total, starting on record {:start}, ending on {:end}"
+msgstr "דף {: page} של {: pages}, מראה {: current} רשומות מתוך {: count} סה"כ, מתחיל ברשומה {: start}, מסתיים ב- {: end}"
+
+#: View/Themed/Admin/Elements/paginator.ctp:11
+#: View/Themed/Design/Elements/paginator.ctp:14
+#: Plugin/Acl/View/Aros/admin_user_permissions.ctp:62
+#: Plugin/Acl/View/Aros/admin_users.ctp:64
+msgid "previous"
+msgstr "הקודם"
+
+#: View/Themed/Admin/Elements/paginator.ctp:17
+#: View/Themed/Design/Elements/paginator.ctp:20
+#: Plugin/Acl/View/Aros/admin_user_permissions.ctp:66
+#: Plugin/Acl/View/Aros/admin_users.ctp:68
+msgid "next"
+msgstr "הבא"
+
+#: View/Themed/Admin/Elements/search.ctp:20
+msgid "Search"
+msgstr "חיפוש"
+
+#: View/Themed/Admin/Elements/sidebar.ctp:4
+msgid "Content"
+msgstr "תוכן"
+
+#: View/Themed/Admin/Elements/sidebar.ctp:15
+msgid "Content management"
+msgstr "ניהול תוכן"
+
+#: View/Themed/Admin/Elements/sidebar.ctp:29
+msgid "Menus management"
+msgstr "ניהול תפריטים"
+
+#: View/Themed/Admin/Elements/sidebar.ctp:57
+msgid "Staff"
+msgstr "צוות"
+
+#: View/Themed/Admin/Elements/sidebar.ctp:64
+msgid "Create user"
+msgstr "צור משתמש"
+
+#: View/Themed/Admin/Elements/sidebar.ctp:71
+msgid "Create staff"
+msgstr "צור צוות"
+
+#: View/Themed/Admin/Elements/sidebar.ctp:80;85
+msgid "Live Events"
+msgstr "מופעים ואירועים בפני קהל"
+
+#: View/Themed/Admin/Elements/sidebar.ctp:94
+msgid "Prematch Events"
+msgstr "אירועים מוקדמים"
+
+#: View/Themed/Admin/Elements/sidebar.ctp:106
+msgid "Prematch events"
+msgstr "אירועים מוקדמים"
+
+#: View/Themed/Admin/Elements/sidebar.ctp:113
+msgid "Sports and Leagues"
+msgstr "ספורט וליגות"
+
+#: View/Themed/Admin/Elements/sidebar.ctp:120
+msgid "Events Printing"
+msgstr "הדפסת אירועים"
+
+#: View/Themed/Admin/Elements/sidebar.ctp:146
+#: View/Themed/Design/ReservationTickets/index.ctp:3
+msgid "Reservation Tickets"
+msgstr "כרטיסי הזמנה"
+
+#: View/Themed/Admin/Elements/sidebar.ctp:155
+msgid "Finance"
+msgstr "מימון"
+
+#: View/Themed/Admin/Elements/sidebar.ctp:166
+msgid "Withdrawals"
+msgstr "נסיגות"
+
+#: View/Themed/Admin/Elements/sidebar.ctp:179
+msgid "Deposit settings"
+msgstr "הגדרות הפקדה"
+
+#: View/Themed/Admin/Elements/sidebar.ctp:185
+msgid "Withdraw settings"
+msgstr "משוך הגדרות"
+
+#: View/Themed/Admin/Elements/sidebar.ctp:198
+msgid "General settings"
+msgstr "הגדרות כלליות"
+
+#: View/Themed/Admin/Elements/sidebar.ctp:205
+msgid "Ticket settings"
+msgstr "הגדרות כרטיס"
+
+#: View/Themed/Admin/Elements/sidebar.ctp:235
+msgid "Risk management"
+msgstr "ניהול סיכונים"
+
+#: View/Themed/Admin/Elements/sidebar.ctp:246
+msgid "Limits for Sports"
+msgstr "גבולות עבור ספורט"
+
+#: View/Themed/Admin/Elements/sidebar.ctp:253
+msgid "Limits for Leagues"
+msgstr "גבולות לליגות"
+
+#: View/Themed/Admin/Elements/sidebar.ctp:262
+msgid "Marketing"
+msgstr "שיווק"
+
+#: View/Themed/Admin/Elements/sidebar.ctp:266
+msgid "Create bonus code"
+msgstr "צור קוד בונוס"
+
+#: View/Themed/Admin/Elements/sidebar.ctp:308
+msgid "Users report"
+msgstr "דוח משתמשים"
+
+#: View/Themed/Admin/Elements/sidebar.ctp:322
+msgid "Deposits report"
+msgstr "דו"ח הפקדות"
+
+#: View/Themed/Admin/Elements/sidebar.ctp:343
+msgid "Sportsbook report"
+msgstr "דו"ח"
+
+#: View/Themed/Admin/Elements/translate.ctp:7
+msgid "locale"
+msgstr "אז"
+
+#: View/Themed/Admin/Elements/translate.ctp:8
+msgid "Translate %s"
+msgstr "תרגם %s"
+
+#: View/Themed/Admin/Elements/user_menu.ctp:21
+#: View/Themed/Admin/ReservationTickets/admin_view.ctp:79
+#: View/Themed/Admin/Tickets/admin_view.ctp:79
+msgid "Event ID"
+msgstr "מזהה אירוע"
+
+#: View/Themed/Admin/Elements/user_menu.ctp:45
+msgid "User:"
+msgstr "משתמש:"
+
+#: View/Themed/Admin/Elements/user_menu.ctp:49
+msgid "Level:"
+msgstr "רמה:"
+
+#: View/Themed/Admin/Elements/user_menu.ctp:53
+msgid "Current Time:"
+msgstr "זמן נוכחי:"
+
+#: View/Themed/Admin/Elements/user_menu.ctp:57
+msgid "Current Language:"
+msgstr "שפה נוכחית:"
+
+#: View/Themed/Admin/Elements/user_menu.ctp:62
+msgid "Front Page"
+msgstr "עמוד ראשי"
+
+#: View/Themed/Admin/Elements/Events/OddService/under-over/head.ctp:5
+#: View/Themed/Admin/Elements/Events/nordicbet/under-over-match/head.ctp:7
+#: View/Themed/Admin/Elements/Events/nordicbet/under-over-team/head.ctp:5
+msgid "Under / Over"
+msgstr "מתחת / מעל"
+
+#: View/Themed/Admin/Elements/Events/nordicbet/double-chance/head.ctp:5
+msgid "Double chance"
+msgstr "סיכוי כפול"
+
+#: View/Themed/Admin/Events/admin_print.ctp:6
+msgid "%s Printing"
+msgstr "%s הדפסה"
+
+#: View/Themed/Admin/Events/admin_print.ctp:42
+msgid "Please select sport below:"
+msgstr "אנא בחר ספורט להלן:"
+
+#: View/Themed/Admin/Events/admin_print.ctp:49
+msgid "View Events"
+msgstr "הצג אירועים"
+
+#: View/Themed/Admin/Events/admin_view.ctp:29
+msgid "Add betting types to event"
+msgstr "הוסף סוגי הימורים לאירוע"
+
+#: View/Themed/Admin/Events/admin_view.ctp:35
+#: View/Themed/Admin/Live/admin_index.ctp:48
+msgid "ID: %d Betting type: %s"
+msgstr "מזהה: %d סוג התערבות: %s"
+
+#: View/Themed/Admin/Events/admin_view.ctp:43
+msgid "Staked"
+msgstr "מסוממים"
+
+#: View/Themed/Admin/Events/admin_view.ctp:70
+msgid "Can not find event"
+msgstr "לא ניתן למצוא את האירוע"
+
+#: View/Themed/Admin/Groups/admin_edit.ctp:55
+#: View/Themed/Admin/Risks/admin_index.ctp:68
+#: View/Themed/Admin/Risks/admin_leagues.ctp:63
+#: View/Themed/Admin/Risks/admin_sports.ctp:61
+#: View/Themed/Admin/Settings/admin_deposit.ctp:52
+#: View/Themed/Admin/Settings/admin_deposits.ctp:66
+#: View/Themed/Admin/Settings/admin_deposits_risks.ctp:72
+#: View/Themed/Admin/Settings/admin_index.ctp:136
+#: View/Themed/Admin/Settings/admin_promo.ctp:128
+#: View/Themed/Admin/Settings/admin_referral.ctp:52
+#: View/Themed/Admin/Settings/admin_seo.ctp:82
+#: View/Themed/Admin/Settings/admin_tickets.ctp:62
+#: View/Themed/Admin/Settings/admin_warnings.ctp:72
+#: View/Themed/Admin/Settings/admin_withdraws.ctp:52
+#: View/Themed/Admin/Settings/admin_withdraws_risks.ctp:59
+msgid "Save"
+msgstr "שמור"
+
+#: View/Themed/Admin/Layouts/admin_login.ctp:56
+msgid "Staff Login"
+msgstr "כניסה לצוות"
+
+#: View/Themed/Admin/Leagues/admin_view.ctp:26
+msgid "Events"
+msgstr "אירועים"
+
+#: View/Themed/Admin/Live/admin_index.ctp:31
+msgid "Suspend event"
+msgstr "השעיית אירוע"
+
+#: View/Themed/Admin/Live/admin_index.ctp:35
+msgid "Sport name: %s"
+msgstr "שם הספורט: %s"
+
+#: View/Themed/Admin/Live/admin_index.ctp:36
+msgid "Current time: %s min"
+msgstr "הזמן הנוכחי: %s דקות"
+
+#: View/Themed/Admin/Live/admin_index.ctp:40
+msgid "League name: %s"
+msgstr "שם הליגה: %s"
+
+#: View/Themed/Admin/Live/admin_index.ctp:41
+msgid "Current score: %s"
+msgstr "ציון נוכחי: %s"
+
+#: View/Themed/Admin/Live/admin_index.ctp:44
+msgid "Event name: %s"
+msgstr "שם האירוע: %s"
+
+#: View/Themed/Admin/Live/admin_index.ctp:55
+msgid "Suspend Odd"
+msgstr "להשעות מוזר"
+
+#: View/Themed/Admin/Locales/admin_index.ctp:2
+msgid "Available cultures"
+msgstr "תרבויות זמין"
+
+#: View/Themed/Admin/Locales/admin_index.ctp:4
+msgid "Add a culture"
+msgstr "הוסף תרבות"
+
+#: View/Themed/Admin/Locales/admin_index.ctp:7
+msgid "Add"
+msgstr "הוסף"
+
+#: View/Themed/Admin/Locales/admin_index.ctp:11
+msgid "Cultures this site supports"
+msgstr "תרבויות באתר זה תומך"
+
+#: View/Themed/Admin/Locales/admin_index.ctp:17
+msgid "X"
+msgstr "X"
+
+#: View/Themed/Admin/Locales/admin_index.ctp:17
+msgid "Are you sure you want to delete "
+msgstr "האם אתה בטוח שברצונך למחוק ? "
+
+#: View/Themed/Admin/Mails/admin_all.ctp:26
+msgid "Write promotion letter to all user. Messages will arrive to users email addresses."
+msgstr "כתוב מכתב קידום לכל המשתמשים. הודעות יגיעו לכתובות דוא"ל של משתמשים."
+
+#: View/Themed/Admin/Mails/admin_all.ctp:31
+#: View/Themed/Admin/Mails/admin_index.ctp:32
+msgid "Subject:"
+msgstr "נושא:"
+
+#: View/Themed/Admin/Mails/admin_all.ctp:32
+#: View/Themed/Admin/Mails/admin_index.ctp:33
+msgid "Content:"
+msgstr "תוכן"
+
+#: View/Themed/Admin/Mails/admin_all.ctp:34
+#: View/Themed/Admin/Mails/admin_index.ctp:37
+#: View/Themed/Admin/Mails/contact.ctp:29
+msgid "Send"
+msgstr "שלח"
+
+#: View/Themed/Admin/Mails/admin_index.ctp:26
+msgid "Write promotion letter to certain user. Message will arrive to user email address."
+msgstr "כתוב מכתב קידום למשתמש מסוים. ההודעה תגיע לכתובת הדוא"ל של המשתמש."
+
+#: View/Themed/Admin/Mails/admin_index.ctp:31
+msgid "To:"
+msgstr "עד:"
+
+#: View/Themed/Admin/Mails/contact.ctp:2
+msgid "Contact support team"
+msgstr "צור צוות התמיכה"
+
+#: View/Themed/Admin/Mails/contact.ctp:10
+msgid "Subject"
+msgstr "נושא"
+
+#: View/Themed/Admin/Mails/contact.ctp:24
+msgid "Message"
+msgstr "הודעה"
+
+#: View/Themed/Admin/Reports/admin_report.ctp:53
+msgid "Download"
+msgstr "הורדה"
+
+#: View/Themed/Admin/Reports/admin_report.ctp:57
+msgid "No data in this period"
+msgstr "אין נתונים בתקופה זו"
+
+#: View/Themed/Admin/ReservationTickets/admin_print.ctp:3
+#: View/Themed/Admin/Tickets/admin_printTicket.ctp:3
+#: View/Themed/Admin/Tickets/printing.ctp:3
+#: View/Themed/Design/ReservationTickets/print_ticket.ctp:3
+#: View/Themed/Design/Tickets/print_ticket.ctp:3
+#: View/Themed/Design/Tickets/review.ctp:20
+msgid "Ticket"
+msgstr "כרטיס."
+
+#: View/Themed/Admin/ReservationTickets/admin_print.ctp:7
+#: View/Themed/Admin/Tickets/admin_printTicket.ctp:7
+#: View/Themed/Admin/Tickets/printing.ctp:7
+#: View/Themed/Design/ReservationTickets/print_ticket.ctp:7
+#: View/Themed/Design/Tickets/preview.ctp:9
+#: View/Themed/Design/Tickets/print_ticket.ctp:7
+#: View/Themed/Design/Tickets/review.ctp:11
+msgid "Date and time"
+msgstr "תאריך ושעה"
+
+#: View/Themed/Admin/ReservationTickets/admin_print.ctp:11
+#: View/Themed/Design/ReservationTickets/index.ctp:9
+#: View/Themed/Design/ReservationTickets/print_ticket.ctp:11
+msgid "Reservation Ticket ID"
+msgstr "מזהה כרטיס הזמנה"
+
+#: View/Themed/Admin/ReservationTickets/admin_print.ctp:18
+#: View/Themed/Design/ReservationTickets/print_ticket.ctp:18
+#: View/Themed/Design/Tickets/print_ticket.ctp:29
+msgid "ID / Date"
+msgstr "מזהה / תאריך"
+
+#: View/Themed/Admin/ReservationTickets/admin_print.ctp:19
+#: View/Themed/Admin/ReservationTickets/admin_view.ctp:81
+#: View/Themed/Admin/Tickets/admin_printTicket.ctp:19
+#: View/Themed/Admin/Tickets/admin_view.ctp:81
+#: View/Themed/Admin/Tickets/printing.ctp:19
+#: View/Themed/Design/ReservationTickets/print_ticket.ctp:19
+#: View/Themed/Design/ReservationTickets/search.ctp:14
+#: View/Themed/Design/ReservationTickets/view.ctp:9
+#: View/Themed/Design/Tickets/preview.ctp:20
+#: View/Themed/Design/Tickets/print_ticket.ctp:30
+#: View/Themed/Design/Tickets/review.ctp:25
+#: View/Themed/Design/Tickets/view.ctp:9
+msgid "Event"
+msgstr "אירוע"
+
+#: View/Themed/Admin/ReservationTickets/admin_print.ctp:20
+#: View/Themed/Admin/ReservationTickets/admin_view.ctp:83
+#: View/Themed/Admin/Results/admin_all_all.ctp:40
+#: View/Themed/Admin/Results/admin_event.ctp:42
+#: View/Themed/Admin/Tickets/admin_printTicket.ctp:20
+#: View/Themed/Admin/Tickets/admin_view.ctp:83
+#: View/Themed/Admin/Tickets/printing.ctp:20
+#: View/Themed/Design/ReservationTickets/print_ticket.ctp:20
+#: View/Themed/Design/ReservationTickets/search.ctp:16
+#: View/Themed/Design/ReservationTickets/view.ctp:11
+#: View/Themed/Design/Tickets/preview.ctp:21
+#: View/Themed/Design/Tickets/print_ticket.ctp:31
+#: View/Themed/Design/Tickets/review.ctp:26
+#: View/Themed/Design/Tickets/view.ctp:11
+msgid "Pick"
+msgstr "לִבחוֹר"
+
+#: View/Themed/Admin/ReservationTickets/admin_print.ctp:26
+#: View/Themed/Admin/Tickets/admin_printTicket.ctp:26
+#: View/Themed/Admin/Tickets/printing.ctp:26
+#: View/Themed/Design/ReservationTickets/print_ticket.ctp:26
+#: View/Themed/Design/Tickets/print_ticket.ctp:37
+#: View/Themed/Design/Tickets/review.ctp:32
+msgid "ID:"
+msgstr "זיהוי"
+
+#: View/Themed/Admin/ReservationTickets/admin_print.ctp:47
+#: View/Themed/Design/ReservationTickets/print_ticket.ctp:47
+#: View/Themed/Design/ReservationTickets/search.ctp:42
+#: View/Themed/Design/ReservationTickets/view.ctp:45
+#: View/Themed/Design/Tickets/print_ticket.ctp:58
+#: View/Themed/Design/Tickets/review.ctp:53
+#: View/Themed/Design/Tickets/view.ctp:51
+msgid "Total"
+msgstr "סך הכל"
+
+#: View/Themed/Admin/ReservationTickets/admin_print.ctp:52
+#: View/Themed/Design/ReservationTickets/print_ticket.ctp:52
+#: View/Themed/Design/Tickets/print_ticket.ctp:63
+msgid "Service fee ( %s %s ): %s %s"
+msgstr "דמי שירות ( %s %s ): %s %s"
+
+#: View/Themed/Admin/ReservationTickets/admin_print.ctp:57
+#: View/Themed/Design/ReservationTickets/print_ticket.ctp:57
+#: View/Themed/Design/Tickets/print_ticket.ctp:68
+msgid "Total amount"
+msgstr "סך הכל לתשלום"
+
+#: View/Themed/Admin/ReservationTickets/admin_print.ctp:61
+#: View/Themed/Admin/Tickets/admin_printTicket.ctp:49
+#: View/Themed/Admin/Tickets/printing.ctp:49
+#: View/Themed/Design/ReservationTickets/print_ticket.ctp:61
+#: View/Themed/Design/Tickets/preview.ctp:52
+#: View/Themed/Design/Tickets/print_ticket.ctp:72
+#: View/Themed/Design/Tickets/review.ctp:55
+msgid "Return:"
+msgstr "לַחֲזוֹר:"
+
+#: View/Themed/Admin/ReservationTickets/admin_view.ctp:6
+#: View/Themed/Admin/Staffs/admin_view.ctp:6
+#: View/Themed/Admin/Tickets/admin_view.ctp:6
+msgid "View %s"
+msgstr "צפו ב%s"
+
+#: View/Themed/Admin/ReservationTickets/admin_view.ctp:32
+#: View/Themed/Admin/Tickets/admin_view.ctp:32
+msgid "Ticket Number"
+msgstr "מספר כרטיס"
+
+#: View/Themed/Admin/ReservationTickets/admin_view.ctp:33;80
+#: View/Themed/Admin/Risks/admin_warnings.ctp:32;63;94;125;152
+#: View/Themed/Admin/Tickets/admin_view.ctp:33;80
+#: View/Themed/Design/Deposits/index.ctp:9
+#: View/Themed/Design/ReservationTickets/index.ctp:10
+#: View/Themed/Design/Tickets/get_history.ctp:12
+#: View/Themed/Design/Tickets/history.ctp:9
+#: View/Themed/Design/Tickets/index.ctp:9
+#: View/Themed/Design/Withdraws/index.ctp:12
+msgid "Date"
+msgstr "תאריך"
+
+#: View/Themed/Admin/ReservationTickets/admin_view.ctp:35
+#: View/Themed/Admin/Tickets/admin_view.ctp:35
+msgid "Type"
+msgstr "סוג"
+
+#: View/Themed/Admin/ReservationTickets/admin_view.ctp:38
+#: View/Themed/Admin/Tickets/admin_view.ctp:38
+#: View/Themed/Design/ReservationTickets/index.ctp:13
+#: View/Themed/Design/Tickets/history.ctp:13
+#: View/Themed/Design/Tickets/index.ctp:13
+msgid "Service Fee"
+msgstr "עמלת שירות"
+
+#: View/Themed/Admin/ReservationTickets/admin_view.ctp:40;85
+#: View/Themed/Admin/Tickets/admin_view.ctp:40;85
+#: View/Themed/Design/Deposits/index.ctp:12
+#: View/Themed/Design/Tickets/history.ctp:18
+#: View/Themed/Design/Tickets/index.ctp:18
+#: View/Themed/Design/Tickets/view.ctp:14
+#: View/Themed/Design/Withdraws/index.ctp:16
+msgid "Status"
+msgstr "סטָטוּס"
+
+#: View/Themed/Admin/ReservationTickets/admin_view.ctp:58;67
+#: View/Themed/Admin/Tickets/admin_view.ctp:58;67
+msgid "Ticket will be cancelled. Are you sure you want to cancel?"
+msgstr "הכרטיס יבוטל. אתה בטוח שאתה רוצה לבטל?"
+
+#: View/Themed/Admin/ReservationTickets/admin_view.ctp:61
+#: View/Themed/Admin/Tickets/admin_view.ctp:61
+msgid "No actions are available"
+msgstr "אין פעולות זמינות"
+
+#: View/Themed/Admin/ReservationTickets/admin_view.ctp:65
+#: View/Themed/Admin/Tickets/admin_view.ctp:65
+msgid "Ticket will be deleted. Are you sure you want to delete?"
+msgstr "הכרטיס יימחק. אתה בטוח שאתה רוצה למחוק?"
+
+#: View/Themed/Admin/ReservationTickets/admin_view.ctp:76
+#: View/Themed/Admin/Tickets/admin_view.ctp:76
+msgid "Ticket details"
+msgstr "פרטי כרטיס"
+
+#: View/Themed/Admin/ReservationTickets/admin_view.ctp:82
+#: View/Themed/Admin/Results/admin_all_all.ctp:33
+#: View/Themed/Admin/Results/admin_event.ctp:32
+#: View/Themed/Admin/Tickets/admin_view.ctp:82
+#: View/Themed/Design/ReservationTickets/view.ctp:13
+#: View/Themed/Design/Tickets/view.ctp:13
+msgid "Result"
+msgstr "תוצאה"
+
+#: View/Themed/Admin/ReservationTickets/admin_view.ctp:104
+#: View/Themed/Admin/Tickets/admin_view.ctp:104
+msgid "Insert Result"
+msgstr "הכנס תוצאה"
+
+#: View/Themed/Admin/ReservationTickets/admin_view.ctp:113
+#: View/Themed/Admin/Tickets/admin_view.ctp:113
+msgid "View event"
+msgstr "הצג אירוע"
+
+#: View/Themed/Admin/ReservationTickets/admin_view.ctp:114
+#: View/Themed/Admin/Tickets/admin_view.ctp:114
+msgid "Enter result"
+msgstr "הזן תוצאה"
+
+#: View/Themed/Admin/ReservationTickets/admin_view.ctp:115
+#: View/Themed/Admin/Tickets/admin_view.ctp:115
+msgid "Cancel event"
+msgstr "בטל אירוע"
+
+#: View/Themed/Admin/ReservationTickets/admin_view.ctp:115
+#: View/Themed/Admin/Tickets/admin_view.ctp:115
+msgid "Event will be cancelled. Are you sure you want to cancel?"
+msgstr "האירוע יבוטל. אתה בטוח שאתה רוצה לבטל?"
+
+#: View/Themed/Admin/Results/admin_all_events.ctp:62
+#: View/Themed/Admin/Results/admin_league.ctp:62
+msgid "Are you sure you want to cancel this event?"
+msgstr "האם אתה בטוח שברצונך לבטל אירוע זה?"
+
+#: View/Themed/Admin/Results/admin_all_events.ctp:72
+#: View/Themed/Admin/Results/admin_all_leagues.ctp:58
+#: View/Themed/Admin/Results/admin_all_sports.ctp:59
+msgid "No events found"
+msgstr "לא נמצאו אירועים"
+
+#: View/Themed/Admin/Results/admin_league.ctp:72
+msgid "No events in this league"
+msgstr "אין אירועים בליגה זו"
+
+#: View/Themed/Admin/Risks/admin_index.ctp:6
+#: View/Themed/Admin/Risks/admin_index/agent_admin_index.ctp:6
+#: View/Themed/Admin/Risks/admin_index/branch_admin_index.ctp:6
+msgid "Risk Management Settings"
+msgstr "הגדרות ניהול סיכונים"
+
+#: View/Themed/Admin/Risks/admin_index.ctp:29
+msgid "Setup risk management to settings to secure your sportbook profit and reduce risks."
+msgstr "הגדרת ניהול סיכונים להגדרות כדי לאבטח את הספורט שלך רווח ולהפחית סיכונים."
+
+#: View/Themed/Admin/Risks/admin_index.ctp:47
+#: View/Themed/Admin/Risks/admin_leagues.ctp:44
+#: View/Themed/Admin/Risks/admin_sports.ctp:46
+#: View/Themed/Admin/Risks/admin_index/agent_admin_index.ctp:31
+#: View/Themed/Admin/Risks/admin_index/branch_admin_index.ctp:43
+msgid "Lowest stake"
+msgstr "נתח הנמוך ביותר"
+
+#: View/Themed/Admin/Risks/admin_index.ctp:48
+#: View/Themed/Admin/Risks/admin_index/agent_admin_index.ctp:32
+#: View/Themed/Admin/Risks/admin_index/branch_admin_index.ctp:32;36;44
+msgid "Lowest amount of money that user must have to place a ticket."
+msgstr "הסכום הנמוך ביותר של כסף כי המשתמש חייב להיות במקום כרטיס."
+
+#: View/Themed/Admin/Risks/admin_index.ctp:51
+#: View/Themed/Admin/Risks/admin_leagues.ctp:45
+#: View/Themed/Admin/Risks/admin_sports.ctp:47
+#: View/Themed/Admin/Risks/admin_index/agent_admin_index.ctp:35
+#: View/Themed/Admin/Risks/admin_index/branch_admin_index.ctp:39
+msgid "Highest stake"
+msgstr "הנתון הגבוה ביותר"
+
+#: View/Themed/Admin/Risks/admin_index.ctp:52
+#: View/Themed/Admin/Risks/admin_index/agent_admin_index.ctp:36
+#: View/Themed/Admin/Risks/admin_index/branch_admin_index.ctp:40
+msgid "Highest amount of money that user can use place a ticket."
+msgstr "הסכום הגבוה ביותר של כסף כי המשתמש יכול להשתמש במקום כרטיס."
+
+#: View/Themed/Admin/Risks/admin_index.ctp:55
+#: View/Themed/Admin/Risks/admin_index/agent_admin_index.ctp:39
+#: View/Themed/Admin/Risks/admin_index/branch_admin_index.ctp:47
+msgid "Highest winning amount"
+msgstr "הסכום המנצח ביותר"
+
+#: View/Themed/Admin/Risks/admin_index.ctp:56
+#: View/Themed/Admin/Risks/admin_index/agent_admin_index.ctp:40
+#: View/Themed/Admin/Risks/admin_index/branch_admin_index.ctp:48
+msgid "Highest amount of money that can be won in one ticket."
+msgstr "הסכום הגבוה ביותר של כסף שניתן לזכות בכרטיס אחד."
+
+#: View/Themed/Admin/Risks/admin_index.ctp:59
+msgid "Lowest number of events in one ticket"
+msgstr "המספר הנמוך ביותר של אירועים בכרטיס אחד"
+
+#: View/Themed/Admin/Risks/admin_index.ctp:60
+msgid "Lowest number of events that can be enetered into a ticket."
+msgstr "המספר הנמוך ביותר של אירועים שיכולים להיות enetered לתוך כרטיס."
+
+#: View/Themed/Admin/Risks/admin_index.ctp:63
+msgid "Highest number of events in one ticket"
+msgstr "מספר האירועים הגבוה ביותר בכרטיס אחד"
+
+#: View/Themed/Admin/Risks/admin_index.ctp:64
+msgid "Highest number of events that can be entered a ticket."
+msgstr "המספר הגבוה ביותר של אירועים שניתן להזין כרטיס."
+
+#: View/Themed/Admin/Risks/admin_leagues.ctp:6
+msgid "List Leagues"
+msgstr "רשימת ליגות"
+
+#: View/Themed/Admin/Risks/admin_leagues.ctp:41
+msgid "League ID"
+msgstr "מזהה הליגה"
+
+#: View/Themed/Admin/Risks/admin_leagues.ctp:43
+msgid "League"
+msgstr "לִיגָה"
+
+#: View/Themed/Admin/Risks/admin_leagues.ctp:53;54
+#: View/Themed/Admin/Risks/admin_sports.ctp:53;54
+msgid "No limits"
+msgstr "ללא גבולות"
+
+#: View/Themed/Admin/Risks/admin_sports.ctp:6
+msgid "List Sports"
+msgstr "רשימת ספורט"
+
+#: View/Themed/Admin/Risks/admin_sports.ctp:44
+msgid "Sport ID"
+msgstr "מזהה ספורט"
+
+#: View/Themed/Admin/Risks/admin_warnings.ctp:6
+msgid "List Warnings"
+msgstr "רשימת אזהרות"
+
+#: View/Themed/Admin/Risks/admin_warnings.ctp:25
+msgid "No warnings are available at this moment."
+msgstr "אין אזהרות זמינות כרגע."
+
+#: View/Themed/Admin/Risks/admin_warnings.ctp:28
+msgid "Odds Alert"
+msgstr "התראה קטטה"
+
+#: View/Themed/Admin/Risks/admin_warnings.ctp:31;62;93;124;151
+msgid "Id"
+msgstr "זיהוי"
+
+#: View/Themed/Admin/Risks/admin_warnings.ctp:36;67;98
+#: View/Themed/Design/ReservationTickets/index.ctp:14
+#: View/Themed/Design/Tickets/history.ctp:14
+#: View/Themed/Design/Tickets/index.ctp:14
+msgid "Winning"
+msgstr "לנצח"
+
+#: View/Themed/Admin/Risks/admin_warnings.ctp:59
+msgid "Warning Stakes"
+msgstr "אזהרות אזהרה"
+
+#: View/Themed/Admin/Risks/admin_warnings.ctp:90
+msgid "Warning Winnings"
+msgstr "זכיות אזהרה"
+
+#: View/Themed/Admin/Risks/admin_warnings.ctp:121
+msgid "Warning Deposits"
+msgstr "אזהרה הפקדות"
+
+#: View/Themed/Admin/Risks/admin_warnings.ctp:148
+msgid "Warning Withdraws"
+msgstr "אזהרה מתנתקת"
+
+#: View/Themed/Admin/Risks/admin_warnings.ctp:154
+msgid "amount"
+msgstr "סכום"
+
+#: View/Themed/Admin/Risks/admin_index/branch_admin_index.ctp:31
+msgid "Highest number of agents can be created under the branch"
+msgstr "ניתן ליצור את המספר הגבוה ביותר של סוכנים מתחת לסניף"
+
+#: View/Themed/Admin/Risks/admin_index/branch_admin_index.ctp:35
+msgid "Highest number of users can be created under the agent"
+msgstr "ניתן ליצור את המספר הגבוה ביותר של משתמשים תחת הסוכן"
+
+#: View/Themed/Admin/Settings/admin_deposit.ctp:43
+#: View/Themed/Admin/Settings/admin_deposits.ctp:48
+#: View/Themed/Admin/Settings/admin_deposits_risks.ctp:43
+#: View/Themed/Admin/Settings/admin_index.ctp:44
+#: View/Themed/Admin/Settings/admin_promo.ctp:41;73;103
+#: View/Themed/Admin/Settings/admin_referral.ctp:43
+#: View/Themed/Admin/Settings/admin_seo.ctp:47;61
+#: View/Themed/Admin/Settings/admin_tickets.ctp:43
+#: View/Themed/Admin/Settings/admin_warnings.ctp:47
+#: View/Themed/Admin/Settings/admin_withdraws.ctp:43
+#: View/Themed/Admin/Settings/admin_withdraws_risks.ctp:42
+#: View/Themed/Design/Deposits/index.ctp:10
+#: View/Themed/Design/Withdraws/index.ctp:13
+msgid "Description"
+msgstr "תיאור"
+
+#: View/Themed/Admin/Settings/admin_deposit.ctp:44
+#: View/Themed/Admin/Settings/admin_deposits.ctp:49
+#: View/Themed/Admin/Settings/admin_deposits_risks.ctp:44
+#: View/Themed/Admin/Settings/admin_index.ctp:45
+#: View/Themed/Admin/Settings/admin_promo.ctp:42;74;104
+#: View/Themed/Admin/Settings/admin_referral.ctp:44
+#: View/Themed/Admin/Settings/admin_seo.ctp:48
+#: View/Themed/Admin/Settings/admin_tickets.ctp:44
+#: View/Themed/Admin/Settings/admin_warnings.ctp:48
+#: View/Themed/Admin/Settings/admin_withdraws.ctp:44
+msgid "Value"
+msgstr "ערך"
+
+#: View/Themed/Admin/Settings/admin_deposit.ctp:47
+msgid "Deposit fee percentage"
+msgstr "אחוז דמי הפקדה"
+
+#: View/Themed/Admin/Settings/admin_deposits.ctp:6
+msgid "Payment gateways"
+msgstr "אפשרויות תשלום"
+
+#: View/Themed/Admin/Settings/admin_deposits.ctp:39
+msgid "Please set payment gateways below:"
+msgstr "הגדר את שערי התשלום למטה:"
+
+#: View/Themed/Admin/Settings/admin_deposits.ctp:47
+msgid "Payments"
+msgstr "תשלומים"
+
+#: View/Themed/Admin/Settings/admin_deposits_risks.ctp:6
+msgid "Deposits %s"
+msgstr "פיקדונות %s"
+
+#: View/Themed/Admin/Settings/admin_deposits_risks.ctp:36
+msgid "Setup deposit settings to secure your sportbook profit and reduce risks."
+msgstr "הגדרת הגדרות הפיקדון לאבטח את הספורט שלך רווח ולהפחית סיכונים."
+
+#: View/Themed/Admin/Settings/admin_deposits_risks.ctp:47
+msgid "Allow automated deposits"
+msgstr "אפשר הפקדות אוטומטיות"
+
+#: View/Themed/Admin/Settings/admin_deposits_risks.ctp:51
+msgid "Allow manual deposits"
+msgstr "אפשר פיקדונות ידניים"
+
+#: View/Themed/Admin/Settings/admin_deposits_risks.ctp:55
+msgid "Allow bitcoin deposits"
+msgstr "אפשר פיקדונות bitcoin"
+
+#: View/Themed/Admin/Settings/admin_deposits_risks.ctp:59
+msgid "Allow NovinPal deposits"
+msgstr "אפשר פיקדונות נובינפל"
+
+#: View/Themed/Admin/Settings/admin_deposits_risks.ctp:63
+msgid "Lowest amount for deposit"
+msgstr "הסכום הנמוך ביותר עבור ההפקדה"
+
+#: View/Themed/Admin/Settings/admin_deposits_risks.ctp:67
+msgid "Highest amount for deposit"
+msgstr "הסכום הגבוה ביותר עבור הפקדה"
+
+#: View/Themed/Admin/Settings/admin_index.ctp:6
+msgid "General %s"
+msgstr "%s כללי"
+
+#: View/Themed/Admin/Settings/admin_index.ctp:37
+msgid "General settings controls some of the most basic configuration settings for your site: your site's title and location, who may register an account at your site, and how dates and times are calculated and displayed."
+msgstr "ההגדרות הכלליות שולטות בחלק מהגדרות התצורה הבסיסיות ביותר עבור האתר שלך: כותרת האתר ומיקומו, אשר עשויים לרשום חשבון באתר שלך, וכיצד מחושבים ומוערכים התאריכים והשעות."
+
+#: View/Themed/Admin/Settings/admin_index.ctp:48
+msgid "Website name"
+msgstr "שם האתר"
+
+#: View/Themed/Admin/Settings/admin_index.ctp:49
+msgid "Enter the name of your sportsbook here. Most themes will display this title, at the top of every page, and in the reader's browser titlebar."
+msgstr "הזן את שם הספורטבוק שלך כאן. רוב הנושאים יציגו כותרת זו, בחלק העליון של כל דף, ובכותרת הדפדפן של הקורא."
+
+#: View/Themed/Admin/Settings/admin_index.ctp:52
+msgid "Copyright"
+msgstr "זכויות יוצרים"
+
+#: View/Themed/Admin/Settings/admin_index.ctp:53
+msgid "Owner rights for product use."
+msgstr "זכויות בעלים לשימוש במוצר."
+
+#: View/Themed/Admin/Settings/admin_index.ctp:56
+msgid "Contact Email"
+msgstr "דואל ליצירת קשר:"
+
+#: View/Themed/Admin/Settings/admin_index.ctp:57
+msgid "All information through contact form will come to this email address."
+msgstr "כל הפרטים באמצעות טופס יצירת קשר יגיעו לכתובת דוא"ל זו."
+
+#: View/Themed/Admin/Settings/admin_index.ctp:60
+msgid "Registration"
+msgstr "הרשמה"
+
+#: View/Themed/Admin/Settings/admin_index.ctp:61
+msgid "Enable (Yes) or disable (No) registration on website."
+msgstr "אפשר (כן) או להשבית (לא) רישום באתר."
+
+#: View/Themed/Admin/Settings/admin_index.ctp:64
+#: View/Themed/Admin/Users/login.ctp:2;15
+#: View/Themed/Design/Users/login.ctp:3;46
+msgid "Login"
+msgstr "התחבר"
+
+#: View/Themed/Admin/Settings/admin_index.ctp:65
+msgid "Enable (Yes) or disable (No) login function."
+msgstr "הפעל (כן) או השבתה (לא) פונקציית כניסה."
+
+#: View/Themed/Admin/Settings/admin_index.ctp:68
+msgid "Password reset"
+msgstr "איפוס סיסמא"
+
+#: View/Themed/Admin/Settings/admin_index.ctp:69
+msgid "Enable (Yes) or disable (No) password reset for users."
+msgstr "אפשר (כן) או השבתה (לא) לאפס את הסיסמה עבור משתמשים."
+
+#: View/Themed/Admin/Settings/admin_index.ctp:72
+msgid "Default currency"
+msgstr "מטבע ברירת מחדל"
+
+#: View/Themed/Admin/Settings/admin_index.ctp:73
+msgid "Choose main currency on website. In order to add new please go to Settings -> Currencies."
+msgstr "בחר את המטבע הראשי באתר. כדי להוסיף חדש עבור אל הגדרות -> מטבעות."
+
+#: View/Themed/Admin/Settings/admin_index.ctp:76
+msgid "Default timezone:"
+msgstr "אזור זמן ברירת מחדל:"
+
+#: View/Themed/Admin/Settings/admin_index.ctp:77
+msgid "Select time zone for whole website."
+msgstr "בחר אזור זמן עבור אתר שלם."
+
+#: View/Themed/Admin/Settings/admin_index.ctp:80
+msgid "Default language"
+msgstr "שפת ברירת מחדל"
+
+#: View/Themed/Admin/Settings/admin_index.ctp:81
+msgid "Select website main language. In order to add new language please contact ChalkPro support team."
+msgstr "בחר בשפה הראשית של האתר. כדי להוסיף שפה חדשה, אנא צור קשר עם צוות התמיכה של ChalkPro."
+
+#: View/Themed/Admin/Settings/admin_index.ctp:84
+msgid "Charset"
+msgstr "Charset"
+
+#: View/Themed/Admin/Settings/admin_index.ctp:85
+msgid "Charsets are identifiers used to describe a series of universal characters used in web and internet protocols such as HTML and Microsoft Windows. Default one is \"utf-8\"."
+msgstr "Charsets הם מזהים המשמשים לתיאור סדרה של תווים אוניברסליים המשמשים פרוטוקולי אינטרנט ואינטרנט כגון HTML ו- Microsoft Windows. ברירת המחדל היא \ "utf-8 \"."
+
+#: View/Themed/Admin/Settings/admin_index.ctp:88
+msgid "Items per page"
+msgstr "פריטים לדף"
+
+#: View/Themed/Admin/Settings/admin_index.ctp:89
+msgid "Number of maximum rows which will be displayed in one page (only in administration panel)"
+msgstr "מספר השורות המקסימליות שיוצגו בדף אחד (רק בלוח הניהול)"
+
+#: View/Themed/Admin/Settings/admin_index.ctp:96
+msgid "Percent of commissions from profit for agent"
+msgstr "אחוז עמלות מהרווח לסוכן"
+
+#: View/Themed/Admin/Settings/admin_index.ctp:97
+msgid "Commissions in %"
+msgstr "עמלות ב-%"
+
+#: View/Themed/Admin/Settings/admin_index.ctp:101
+msgid "Service fee in % from stake"
+msgstr "דמי שירות ב% מן המוקד"
+
+#: View/Themed/Admin/Settings/admin_index.ctp:104
+msgid "Weekly balance reset"
+msgstr "איזון שבועי"
+
+#: View/Themed/Admin/Settings/admin_index.ctp:105
+msgid "Enable weekly balance reset."
+msgstr "אפשר איפוס שבועי."
+
+#: View/Themed/Admin/Settings/admin_index.ctp:109;110
+msgid "Weekly balance reset balance"
+msgstr "מאזן איזון שבועי"
+
+#: View/Themed/Admin/Settings/admin_index.ctp:113
+msgid "Weekly balance reset time / day"
+msgstr "איזון שבועי איפוס זמן / יום"
+
+#: View/Themed/Admin/Settings/admin_index.ctp:116
+msgid "The balance reset on set week day at midnight (server time UTC)"
+msgstr "היתרה איפסת ביום מוגדר בשבוע בחצות (זמן השרת UTC)"
+
+#: View/Themed/Admin/Settings/admin_index.ctp:119
+msgid "Balance format: number of decimal places"
+msgstr "פורמט יתרה: מספר מקומות עשרוניים"
+
+#: View/Themed/Admin/Settings/admin_index.ctp:120
+msgid "Number n. For example when n=2 amounts will be displayed in: 1.00. When n=0: 1;"
+msgstr "מספר n. לדוגמה, כאשר n = 2 כמויות יוצגו ב: 1.00. כאשר n = 0: 1;"
+
+#: View/Themed/Admin/Settings/admin_index.ctp:123
+msgid "Reservation ticket"
+msgstr "כרטיס הזמנה"
+
+#: View/Themed/Admin/Settings/admin_index.ctp:124
+msgid "Enable (Yes) or disable (No) reservation ticket on website."
+msgstr "אפשר (כן) או להשבית (לא) כרטיס הזמנה באתר."
+
+#: View/Themed/Admin/Settings/admin_index.ctp:127
+msgid "User upload documentation email"
+msgstr "העלה דוא"ל לתיעוד של משתמש"
+
+#: View/Themed/Admin/Settings/admin_index.ctp:128
+msgid "User docs upload email used user panel on website."
+msgstr "המשתמש Docs להעלות דוא"ל משתמש פאנל המשתמש באתר."
+
+#: View/Themed/Admin/Settings/admin_index.ctp:131
+msgid "Allow user upload documentation"
+msgstr "אפשר למשתמש להעלות תיעוד"
+
+#: View/Themed/Admin/Settings/admin_index.ctp:132
+msgid "Enable (Yes) or disable (No) user docs upload in user panel on website."
+msgstr "הפעל (כן) או השבת (לא) מסמכים של משתמשים שהועלו בחלונית המשתמש באתר."
+
+#: View/Themed/Admin/Settings/admin_promo.ctp:38
+msgid "Left promotion sidebar"
+msgstr "צד שמאל קידום הצד"
+
+#: View/Themed/Admin/Settings/admin_promo.ctp:45
+msgid "Left active"
+msgstr "נותר פעיל"
+
+#: View/Themed/Admin/Settings/admin_promo.ctp:52
+msgid "Show (Yes) or hide (No) left promotion sidebar in front end."
+msgstr "הצג (כן) או הסתר (לא) סרגל צד שמאל בצד הקדמי."
+
+#: View/Themed/Admin/Settings/admin_promo.ctp:59
+msgid "Left sidebar title"
+msgstr "הכותרת בצד שמאל"
+
+#: View/Themed/Admin/Settings/admin_promo.ctp:60
+msgid "Enter left sidebar title."
+msgstr "הזן כותרת צדדית שמאלית."
+
+#: View/Themed/Admin/Settings/admin_promo.ctp:63
+msgid "Left sidebar content"
+msgstr "תוכן צדדי שמאלי"
+
+#: View/Themed/Admin/Settings/admin_promo.ctp:70
+msgid "Right promotion sidebar"
+msgstr "הזכות קידום Sidebar"
+
+#: View/Themed/Admin/Settings/admin_promo.ctp:77
+msgid "Right active"
+msgstr "פעיל"
+
+#: View/Themed/Admin/Settings/admin_promo.ctp:84
+msgid "Show (Yes) or hide (No) right promotion sidebar in front end."
+msgstr "הצג (כן) או הסתר (לא) הצד הימני קידום הצד הקדמי."
+
+#: View/Themed/Admin/Settings/admin_promo.ctp:90
+msgid "Right sidebar title"
+msgstr "כותרת סרגל צד ימין"
+
+#: View/Themed/Admin/Settings/admin_promo.ctp:91
+msgid "Enter right sidebar title."
+msgstr "הזן כותרת סרגל צד ימין."
+
+#: View/Themed/Admin/Settings/admin_promo.ctp:94
+msgid "Right sidebar content"
+msgstr "תוכן בצד ימין"
+
+#: View/Themed/Admin/Settings/admin_promo.ctp:100
+msgid "Bottom promotion sidebar"
+msgstr "הצד התחתון קידום הצדדי"
+
+#: View/Themed/Admin/Settings/admin_promo.ctp:107
+msgid "Bottom active"
+msgstr "התחתון פעיל"
+
+#: View/Themed/Admin/Settings/admin_promo.ctp:114
+msgid "Show (Yes) or hide (No) bottom promotion sidebar in front end."
+msgstr "הצג (כן) או הסתר (לא) סרגל הצד התחתון קידום בחזית."
+
+#: View/Themed/Admin/Settings/admin_promo.ctp:119
+msgid "Bottom sidebar title"
+msgstr "כותרת תחתית תחתונה"
+
+#: View/Themed/Admin/Settings/admin_promo.ctp:120
+msgid "Enter bottom sidebar title."
+msgstr "הזן כותרת צדדית תחתונה."
+
+#: View/Themed/Admin/Settings/admin_promo.ctp:123
+msgid "Bottom sidebar content"
+msgstr "תוכן הצד התחתון"
+
+#: View/Themed/Admin/Settings/admin_referral.ctp:7
+msgid "Referral Settings"
+msgstr "הגדרות הפניה"
+
+#: View/Themed/Admin/Settings/admin_referral.ctp:39
+msgid "All basic configuration referral system. A referrer is a person who makes money by referring players (called referrals) to your sportsbook."
+msgstr "כל מערכת הפניה בסיסית תצורה. מפנה הוא אדם שעושה כסף על ידי הפניית שחקנים (נקרא הפניות) לספורט שלך."
+
+#: View/Themed/Admin/Settings/admin_referral.ctp:47
+msgid "First deposit percentage to referral"
+msgstr "אחוז הפקדה ראשונה להפניה"
+
+#: View/Themed/Admin/Settings/admin_referral.ctp:48
+msgid "Percent which get referrer from first referral deposit. Insert percent from 1 to 100."
+msgstr "אחוז אשר מפנה מפיקדון הפניה הראשון. הכנס אחוזים בין 1 ל -100."
+
+#: View/Themed/Admin/Settings/admin_seo.ctp:6
+msgid "SEO %s"
+msgstr "SEO %s"
+
+#: View/Themed/Admin/Settings/admin_seo.ctp:36
+msgid "What Is <b>SEO</b> / Search Engine Optimization?"
+msgstr "מה זה <b> SEO </ b> / אופטימיזציה למנועי חיפוש?"
+
+#: View/Themed/Admin/Settings/admin_seo.ctp:40
+msgid "SEO stands for \"search engine optimization.\" It is the process of getting traffic from the \"free,\" \"organic,\" \"editorial\" or \"natural\" listings on search engines. All major search engines such as Google, Yahoo and Bing have such results, where web pages and other content such as videos or local listings are shown and ranked based on what the search engine considers most relevant to users. Payment is not involved, as it is with paid search ads."
+msgstr "SEO מייצג את \ "אופטימיזציה למנועי חיפוש. \" זה תהליך של קבלת תנועה מן \ "חופשי, \" \ "אורגני, \" \ "העריכה \" או \ "טבעי \" רישומים במנועי החיפוש. כל מנועי החיפוש הגדולים כגון גוגל, יאהו ובינג יש תוצאות כאלה, שבו דפי אינטרנט ותוכן אחר כגון קטעי וידאו או רישומים מקומיים מוצגים ומדורגים על סמך מה מנוע החיפוש רואה את הרלוונטיות ביותר למשתמשים. התשלום אינו מעורב, כמו במודעות חיפוש בתשלום."
+
+#: View/Themed/Admin/Settings/admin_seo.ctp:53
+msgid "Title tag"
+msgstr "תג כותרת"
+
+#: View/Themed/Admin/Settings/admin_seo.ctp:54
+msgid "A title tag is the main text that describes an online document. It appears in three key places: browsers, search engine results pages, and external websites."
+msgstr "תג הכותרת הוא הטקסט הראשי המתאר מסמך מקוון. הוא מופיע בשלושה מקומות מרכזיים: דפדפנים, דפי תוצאות של מנועי חיפוש ואתרים חיצוניים."
+
+#: View/Themed/Admin/Settings/admin_seo.ctp:57
+msgid "Keywords"
+msgstr "מילות מפתח"
+
+#: View/Themed/Admin/Settings/admin_seo.ctp:58
+msgid "Keywords are words or phrases which desribes your website content. Use comma for separation."
+msgstr "מילות מפתח הן מילים או ביטויים אשר desribes תוכן האתר שלך. השתמש בפסיקים לצורך הפרדה."
+
+#: View/Themed/Admin/Settings/admin_seo.ctp:62
+msgid "This description would appear in search engines."
+msgstr "תיאור זה יופיע במנועי החיפוש."
+
+#: View/Themed/Admin/Settings/admin_seo.ctp:65
+msgid "Reply to email"
+msgstr "השב לדוא"ל"
+
+#: View/Themed/Admin/Settings/admin_seo.ctp:66
+msgid "Email which would be visible in search engines as part of SEO outputs."
+msgstr "דוא"ל אשר יהיה גלוי במנועי החיפוש כחלק מפלט SEO."
+
+#: View/Themed/Admin/Settings/admin_seo.ctp:69
+msgid "Copyright:"
+msgstr "Copyright"
+
+#: View/Themed/Admin/Settings/admin_seo.ctp:70
+msgid "Owner of product which would appear in SEO outputs."
+msgstr "הבעלים של המוצר אשר יופיעו בתפוקות SEO."
+
+#: View/Themed/Admin/Settings/admin_seo.ctp:73
+msgid "Bot content revisit time"
+msgstr "זמן הבילוי מחדש של תוכן Bot"
+
+#: View/Themed/Admin/Settings/admin_seo.ctp:74
+msgid "Write how often search engine bot should revisit you for new content."
+msgstr "כתוב באיזו תדירות בוט מנוע החיפוש צריך לבקר אותך בתוכן חדש."
+
+#: View/Themed/Admin/Settings/admin_seo.ctp:77
+msgid "Author"
+msgstr "מחבר"
+
+#: View/Themed/Admin/Settings/admin_seo.ctp:78
+msgid "Name of product creator."
+msgstr "שם יוצר המוצר."
+
+#: View/Themed/Admin/Settings/admin_tickets.ctp:37
+msgid "Setup tickets settings control frontend functionality."
+msgstr "הגדרת הכרטיסים הגדרות פונקציונליות frontend."
+
+#: View/Themed/Admin/Settings/admin_tickets.ctp:47
+msgid "Ticket printing"
+msgstr "הדפסת כרטיסים"
+
+#: View/Themed/Admin/Settings/admin_tickets.ctp:50
+msgid "Enable (Yes) or disable (No) ticket printing for users and staff."
+msgstr "הפעל (כן) או השבת (לא) הדפסת כרטיסים למשתמשים ולצוות."
+
+#: View/Themed/Admin/Settings/admin_tickets.ctp:57
+msgid "Enable (Yes) or disable (No) ticket preview ticket before it is placed."
+msgstr "הפעל (כן) או השבת (לא) כרטיס תצוגה מקדימה של כרטיס לפני שהוא ממוקם."
+
+#: View/Themed/Admin/Settings/admin_warnings.ctp:6
+msgid "Warnings %s"
+msgstr "אזהרות %s"
+
+#: View/Themed/Admin/Settings/admin_warnings.ctp:42
+msgid "Warning settings would help you to filter warning screen with unnecessary alerts. Please consider what is crucial for you sportsbook and use this function to secure your profit."
+msgstr "הגדרות אזהרה יסייעו לך לסנן את מסך ההתראה בהתראות מיותרות. אנא שקול מה חיוני בשבילך Sportsbook ולהשתמש בפונקציה זו כדי להבטיח את הרווח שלך."
+
+#: View/Themed/Admin/Settings/admin_warnings.ctp:51
+msgid "Deposit alert"
+msgstr "התראת הפקדה"
+
+#: View/Themed/Admin/Settings/admin_warnings.ctp:52
+msgid "System will alert once user deposited same or higher amount of money his/her account."
+msgstr "המערכת תתריע פעם המשתמש הפקיד סכום זהה או גבוה יותר של הכסף שלו / שלה חשבון."
+
+#: View/Themed/Admin/Settings/admin_warnings.ctp:55
+msgid "Withdraw alert"
+msgstr "בטל התראה"
+
+#: View/Themed/Admin/Settings/admin_warnings.ctp:56
+msgid "System will alert once user ask for withdraw same or higher amount of money from his/her account."
+msgstr "המערכת תתריע פעם אחת המשתמש לבקש למשוך אותו או סכום גבוה יותר של כסף מחשבון שלו / שלה."
+
+#: View/Themed/Admin/Settings/admin_warnings.ctp:59
+msgid "Stake alert"
+msgstr "התראה"
+
+#: View/Themed/Admin/Settings/admin_warnings.ctp:60
+msgid "System will alert once user stake a ticket would be with same or higher amount of money."
+msgstr "המערכת תתריע פעם אחת נתח המשתמש יהיה כרטיס יהיה עם כמות זהה או גבוה יותר של כסף."
+
+#: View/Themed/Admin/Settings/admin_warnings.ctp:63
+msgid "Odds alert"
+msgstr "התראה קטטה"
+
+#: View/Themed/Admin/Settings/admin_warnings.ctp:64
+msgid "System will alert once odd will reach or would be higher then set in warning settings"
+msgstr "המערכת תתריע פעם מוזר יגיע או יהיה גבוה יותר ואז להגדיר בהגדרות אזהרה"
+
+#: View/Themed/Admin/Settings/admin_warnings.ctp:67
+msgid "Won amount alert"
+msgstr "התראה על סכום התראה"
+
+#: View/Themed/Admin/Settings/admin_warnings.ctp:68
+msgid "System will alert staff once user will won ticket with same or higher amount."
+msgstr "המערכת תתריע צוות פעם המשתמש יזכה כרטיס עם כמות זהה או גבוה יותר."
+
+#: View/Themed/Admin/Settings/admin_withdraws.ctp:47
+#: View/Themed/Admin/Settings/admin_withdraws_risks.ctp:54
+msgid "Allow withdraws"
+msgstr "לאפשר משיכות"
+
+#: View/Themed/Admin/Settings/admin_withdraws_risks.ctp:6
+msgid "Withdraw %s"
+msgstr "משוך %s"
+
+#: View/Themed/Admin/Settings/admin_withdraws_risks.ctp:36
+msgid "Setup withdraw settings to secure your sportbook profit and reduce risks."
+msgstr "הגדרות לסגת הגדרות לאבטח את הרווח שלך sportbook ולהפחית סיכונים."
+
+#: View/Themed/Admin/Settings/admin_withdraws_risks.ctp:46
+msgid "Lowest amount for withdraw request"
+msgstr "הסכום הנמוך ביותר עבור בקשה לסגת"
+
+#: View/Themed/Admin/Settings/admin_withdraws_risks.ctp:50
+msgid "Highest amount for withdraw request"
+msgstr "הסכום הגבוה ביותר עבור בקשה לסגת"
+
+#: View/Themed/Admin/Sports/admin_view.ctp:6
+#: View/Themed/Design/Elements/layout-blocks/header-block/header-menu.ctp:7
+msgid "Sports"
+msgstr "ספורט"
+
+#: View/Themed/Admin/Sports/admin_view.ctp:6;27
+msgid "Leagues"
+msgstr "ליגות"
+
+#: View/Themed/Admin/Sports/admin_view.ctp:61
+msgid "Create event"
+msgstr "צור אירוע"
+
+#: View/Themed/Admin/Staffs/admin_index.ctp:123
+msgid "Cashiers"
+msgstr "קוּפּוֹת"
+
+#: View/Themed/Admin/Staffs/admin_index.ctp:126
+msgid "Branches"
+msgstr "ענפים"
+
+#: View/Themed/Admin/Staffs/admin_index.ctp:129
+msgid "Administrators"
+msgstr "מנהלים"
+
+#: View/Themed/Admin/Staffs/admin_index.ctp:132
+msgid "Agents"
+msgstr "סוכנים"
+
+#: View/Themed/Admin/Staffs/admin_index.ctp:135
+msgid "Guests"
+msgstr "אורחים"
+
+#: View/Themed/Admin/Staffs/admin_index.ctp:138
+msgid "Operators"
+msgstr "אופרטורים"
+
+#: View/Themed/Admin/Staffs/admin_index.ctp:248
+msgid "Total: %.2f %s"
+msgstr "סה"כ:% .2f% s"
+
+#: View/Themed/Admin/Tickets/admin_printTicket.ctp:11
+#: View/Themed/Admin/Tickets/printing.ctp:11
+#: View/Themed/Design/Tickets/review.ctp:12
+msgid "Ticket id"
+msgstr "מזהה כרטיס"
+
+#: View/Themed/Admin/Tickets/admin_printTicket.ctp:18
+#: View/Themed/Admin/Tickets/printing.ctp:18
+#: View/Themed/Design/Tickets/preview.ctp:19
+#: View/Themed/Design/Tickets/review.ctp:24
+msgid "Event ID / Date"
+msgstr "מזהה אירוע / תאריך"
+
+#: View/Themed/Admin/Tickets/admin_printTicket.ctp:40
+#: View/Themed/Admin/Tickets/printing.ctp:40
+#: View/Themed/Design/Tickets/preview.ctp:50
+msgid "Total:"
+msgstr "סך הכל:"
+
+#: View/Themed/Admin/Tickets/admin_printTicket.ctp:44
+#: View/Themed/Admin/Tickets/printing.ctp:44
+#: View/Themed/Design/Tickets/preview.ctp:51
+msgid "Amount:"
+msgstr "סכום"
+
+#: View/Themed/Admin/Users/admin_index_new.ctp:24
+msgid "Active Users"
+msgstr "משתמשים פעילים"
+
+#: View/Themed/Admin/Users/admin_index_new.ctp:35
+msgid "Registration chart"
+msgstr "תרשים רישום"
+
+#: View/Themed/Admin/Users/admin_settings.ctp:23
+msgid "Odds type"
+msgstr "סוג הסיכויים"
+
+#: View/Themed/Admin/Users/admin_settings.ctp:28
+#: View/Themed/Design/Users/settings.ctp:15
+msgid "Time zone"
+msgstr "אזור זמן"
+
+#: View/Themed/Admin/Users/admin_statistics.ctp:22
+msgid "USER"
+msgstr "משתמש"
+
+#: View/Themed/Admin/Users/admin_statistics.ctp:38
+msgid "BETTING ACTIVITY"
+msgstr "פעילות BETTING"
+
+#: View/Themed/Admin/Users/admin_statistics.ctp:47
+msgid "Registration date"
+msgstr "תאריך רישום"
+
+#: View/Themed/Admin/Users/admin_statistics.ctp:51
+msgid "Total ticket placed"
+msgstr "סך כל הכרטיסים"
+
+#: View/Themed/Admin/Users/admin_statistics.ctp:55
+msgid "Tickets won"
+msgstr "כרטיסים ניצח"
+
+#: View/Themed/Admin/Users/admin_statistics.ctp:59
+msgid "Tickets lost"
+msgstr "כרטיסים איבדו"
+
+#: View/Themed/Admin/Users/admin_statistics.ctp:63
+msgid "Tickets pending"
+msgstr "כרטיסים ממתינים"
+
+#: View/Themed/Admin/Users/admin_statistics.ctp:67
+msgid "Tickets cancelled"
+msgstr "כרטיסים בוטלו"
+
+#: View/Themed/Admin/Users/admin_statistics.ctp:78
+msgid "FINANCIAL ACTIVITY"
+msgstr "פעילות פיננסית"
+
+#: View/Themed/Admin/Users/admin_statistics.ctp:87
+#: View/Themed/Design/Users/operator_panel.ctp:38
+msgid "Current balance"
+msgstr "יתרה נוכחית"
+
+#: View/Themed/Admin/Users/admin_statistics.ctp:91
+msgid "Last deposit"
+msgstr "הפקדה אחרונה"
+
+#: View/Themed/Admin/Users/admin_statistics.ctp:99
+msgid "Average deposit"
+msgstr "פקדון ממוצע"
+
+#: View/Themed/Admin/Users/admin_statistics.ctp:103
+msgid "Last withdrawal"
+msgstr "נסיגה אחרונה"
+
+#: View/Themed/Admin/Users/admin_statistics.ctp:111
+msgid "Average withdrawal"
+msgstr "נסיגה ממוצעת"
+
+#: View/Themed/Admin/Users/confirm.ctp:2
+msgid "Confirmation"
+msgstr ".מאשר"
+
+#: View/Themed/Admin/Users/confirm.ctp:4
+msgid "Email has been confirmed. You can now login."
+msgstr "האימייל אושר. כעת תוכל להתחבר."
+
+#: View/Themed/Admin/Users/confirm.ctp:6
+msgid "Incorect confirmation code"
+msgstr "השג קוד אישור"
+
+#: View/Themed/Admin/Users/login.ctp:22
+msgid "Register now!"
+msgstr "הירשמו עכשיו:"
+
+#: View/Themed/Admin/Users/login.ctp:23
+msgid "Forgotten your password?"
+msgstr "שכחת את הסיסמה שלך?"
+
+#: View/Themed/Admin/Users/password.ctp:2
+#: View/Themed/Design/Users/reset-password.ctp:36
+msgid "Change password"
+msgstr "שנה סיסמה"
+
+#: View/Themed/Admin/Users/password.ctp:12
+msgid "Old password"
+msgstr "סיסמה ישנה"
+
+#: View/Themed/Admin/Users/password.ctp:14
+msgid "New password"
+msgstr "סיסמה חדשה"
+
+#: View/Themed/Admin/Users/password.ctp:16
+#: View/Themed/Design/Users/register.ctp:30;32
+#: View/Themed/Design/Users/reset-password.ctp:29
+msgid "Confirm password"
+msgstr "אשר סיסמא:"
+
+#: View/Themed/Admin/Users/password.ctp:19
+#: View/Themed/Design/Users/settings.ctp:26
+msgid "Change Password"
+msgstr "שינוי סיסמה"
+
+#: View/Themed/Admin/Withdraws/admin_add.ctp:23
+msgid "Charge user %s"
+msgstr "טען את המשתמש %s"
+
+#: View/Themed/Admin/Withdraws/admin_add.ctp:24
+msgid "To charge enter amount and money will be reduced from user account. For example if you want to charge just credit user with 200 "
+msgstr "לחיוב הזן סכום וכסף יופחת מחשבון המשתמש. לדוגמה, אם אתה רוצה לחייב רק משתמש אשראי עם 200 "
+
+#: View/Themed/Admin/Withdraws/admin_add.ctp:24
+msgid " USD just enter that amount into field and press submit"
+msgstr " USD פשוט להזין את הסכום הזה לתוך שדה ולחץ על שלח"
+
+#: View/Themed/Admin/Withdraws/admin_complete.ctp:23
+msgid "Complete withdrawal"
+msgstr "נסיגה מלאה"
+
+#: View/Themed/Admin/Withdraws/admin_complete.ctp:24
+msgid "To complete withdraw enter a message. Message will be shown in user panel. "
+msgstr "להשלמת המשיכה, הזן הודעה. ההודעה תוצג בחלונית המשתמש. "
+
+#: View/Themed/Admin/Withdraws/settings.ctp:2
+msgid "Bank info"
+msgstr "פרטי הבנק"
+
+#: View/Themed/Admin/Withdraws/settings.ctp:3
+msgid "Please provide your bank info"
+msgstr "ספק את פרטי הבנק שלך"
+
+#: View/Themed/Admin/Withdraws/settings.ctp:24
+msgid "Bank name"
+msgstr "שם הבנק"
+
+#: View/Themed/Admin/Withdraws/settings.ctp:29
+msgid "Account number"
+msgstr "מספר החשבון"
+
+#: View/Themed/Admin/Withdraws/settings.ctp:36
+#: View/Themed/Design/Users/account.ctp:79
+msgid "Confirm changes"
+msgstr "אשר שינויים"
+
+#: View/Themed/Design/Deposits/index.ctp:52
+msgid "Bitcoin Payment"
+msgstr "תשלום Bitcoin"
+
+#: View/Themed/Design/Deposits/index.ctp:55
+msgid "Luna Wallet Payment"
+msgstr "Luna תשלום ארנק"
+
+#: View/Themed/Design/Deposits/index.ctp:58
+msgid "Cash"
+msgstr "מזומן"
+
+#: View/Themed/Design/Deposits/index.ctp:61
+msgid "Novinpal Payment"
+msgstr "תשלום Novinpal"
+
+#: View/Themed/Design/Deposits/index.ctp:77
+msgid "Bonus code"
+msgstr "קוד בונוס"
+
+#: View/Themed/Design/Deposits/preview.ctp:4
+msgid "Deposit information:"
+msgstr "פרטי הפקדה:"
+
+#: View/Themed/Design/Deposits/preview.ctp:7
+msgid "Please preview deposit information before confirming."
+msgstr "אנא הצג את פרטי ההפקדה לפני אישור."
+
+#: View/Themed/Design/Deposits/preview.ctp:16
+msgid "Deposit type"
+msgstr "סוג הפקדה"
+
+#: View/Themed/Design/Deposits/preview.ctp:35
+msgid "Request Manual Deposit (Credited Upon Verification)"
+msgstr "בקשת הפקדה ידנית (מאושרת עם אימות)"
+
+#: View/Themed/Design/Elements/Events/Betclick/1x2.ctp:21
+#: View/Themed/Design/Elements/Events/Betclick/correct-score.ctp:23
+msgid "goals"
+msgstr "מטרות"
+
+#: View/Themed/Design/Elements/Events/Betclick/main_12.ctp:9
+#: View/Themed/Design/Elements/Events/Betclick/main_1x2.ctp:8
+#: View/Themed/Design/Live/display_event.ctp:11
+#: View/Themed/Design/Live/display_sports.ctp:79
+msgid "Time: %s min"
+msgstr "זמן: %s דקות"
+
+#: View/Themed/Design/Elements/Events/Betclick/main_12.ctp:10
+#: View/Themed/Design/Elements/Events/Betclick/main_1x2.ctp:9
+#: View/Themed/Design/Live/display_event.ctp:7
+#: View/Themed/Design/Live/display_sports.ctp:78
+msgid "Score: %s"
+msgstr "ציון: %s"
+
+#: View/Themed/Design/Elements/email/html/contact.ctp:5
+#: View/Themed/Design/Elements/email/text/contact.ctp:5
+msgid "From:"
+msgstr "מ:"
+
+#: View/Themed/Design/Elements/email/html/contact.ctp:6
+#: View/Themed/Design/Elements/email/text/contact.ctp:6
+msgid "Email:"
+msgstr "דואר אלקטרוני:"
+
+#: View/Themed/Design/Elements/layout-blocks/header-block/header-menu.ctp:4
+msgid "SIGN UP NOW!"
+msgstr "הרשם עכשיו!"
+
+#: View/Themed/Design/Elements/layout-blocks/header-block/user-box.ctp:8
+msgid "Remember me"
+msgstr "זכור אותי"
+
+#: View/Themed/Design/Elements/layout-blocks/header-block/user-box.ctp:12
+msgid "Reset password!"
+msgstr "אפס סיסמא"
+
+#: View/Themed/Design/Elements/layout-blocks/header-block/user-box.ctp:19
+#: View/Themed/Design/Tickets/betslip.ctp:50
+#: View/Themed/Design/Users/login.ctp:48
+#: View/Themed/Design/Users/register.ctp:145
+msgid "Register"
+msgstr "הירשם"
+
+#: View/Themed/Design/Elements/layout-blocks/header-block/user-box.ctp:31
+msgid "My account"
+msgstr "החשבון שלי"
+
+#: View/Themed/Design/Elements/layout-blocks/header-block/user-box.ctp:32
+msgid "Log out"
+msgstr "התנתק"
+
+#: View/Themed/Design/Elements/layout-blocks/left-block/bet-information.ctp:1
+msgid "Bet Information"
+msgstr "מידע על בית"
+
+#: View/Themed/Design/Elements/layout-blocks/left-block/search-event.ctp:3
+msgid "Bet search by name / ID..."
+msgstr "חיפוש לפי שם / מזהה ..."
+
+#: View/Themed/Design/Elements/layout-blocks/left-block/sports-menu.ctp:4
+msgid "LIVE BETTING"
+msgstr "LIVE BETTING"
+
+#: View/Themed/Design/Elements/layout-blocks/right-block/search-ticket.ctp:2
+msgid "Reservation Ticket"
+msgstr "כרטיס הזמנה"
+
+#: View/Themed/Design/Elements/layout-blocks/right-block/site-news.ctp:2
+msgid "Site News"
+msgstr "חדשות האתר"
+
+#: View/Themed/Design/Elements/layout-slots/footer-slot.ctp:10
+msgid "Methods of funding"
+msgstr "שיטות המימון"
+
+#: View/Themed/Design/Elements/layout-slots/footer-slot.ctp:20
+#: View/Themed/Design/Layouts/user-tools.ctp:45
+msgid "Support"
+msgstr "תמיכה"
+
+#: View/Themed/Design/Elements/layout-slots/footer-slot.ctp:29
+msgid "HELP"
+msgstr "עזרה"
+
+#: View/Themed/Design/Elements/layout-slots/footer-slot.ctp:31
+msgid "Payment Methods"
+msgstr "אמצעי תשלום"
+
+#: View/Themed/Design/Elements/layout-slots/footer-slot.ctp:32
+msgid "Betting Rules"
+msgstr "כללי התערבות"
+
+#: View/Themed/Design/Elements/layout-slots/footer-slot.ctp:33
+msgid "Responsible Gambling"
+msgstr "הימורים אחראים"
+
+#: View/Themed/Design/Elements/layout-slots/footer-slot.ctp:34;43
+msgid "Contact Us"
+msgstr "צור קשר"
+
+#: View/Themed/Design/Elements/layout-slots/footer-slot.ctp:38
+msgid "About"
+msgstr "אודות על"
+
+#: View/Themed/Design/Elements/layout-slots/footer-slot.ctp:40
+msgid "Promotion Page"
+msgstr "דף קידום מכירות"
+
+#: View/Themed/Design/Elements/layout-slots/footer-slot.ctp:41
+msgid "Product Features"
+msgstr "תכונות מוצר"
+
+#: View/Themed/Design/Elements/layout-slots/footer-slot.ctp:42
+msgid "Package Pricing"
+msgstr "תמחור החבילה"
+
+#: View/Themed/Design/Elements/layout-slots/footer-slot.ctp:47
+msgid "Intro"
+msgstr "מבוא"
+
+#: View/Themed/Design/Elements/layout-slots/footer-slot.ctp:49
+msgid " do not believe in hidden costs or ongoing fees. Here, what you see is what you get. Whether you are looking for a unique, customized or turnkey solution for hire or you want to buy the entire package to take your website to the next level, our pricing is clear and simple. Take a look below."
+msgstr " לא מאמין בעלויות נסתרות או דמי מתמשך. הנה, מה שאתה רואה זה מה שאתה מקבל. בין אם אתם מחפשים פתרון ייחודי, מותאם אישית או סוהר לשכור או שאתה רוצה לקנות את החבילה כולה לקחת את האתר שלך לשלב הבא, התמחור שלנו הוא ברור ופשוט. תסתכל למטה."
+
+#: View/Themed/Design/Elements/layout-slots/footer-slot.ctp:57
+msgid "online betting platform offers you the best odds in the market on football betting, and tennis betting as well as dozens of other sports and special events. While sports betting is the key of sportsbook daily supply, we also offer a wide range of odds on some of the world's major political and entertainment events."
+msgstr "פלטפורמת ההימורים המקוון מציע לך את הסיכויים הטובים ביותר בשוק על הימורים כדורגל, טניס התערבות כמו גם עשרות ספורט אחרים ואירועים מיוחדים. בעוד ההימורים בספורט הוא המפתח לספורטבוק מדי יום, אנו מציעים מגוון רחב של סיכויים על כמה מהאירועים המרכזיים בעולם בתחום הבידור והבידור."
+
+#: View/Themed/Design/Elements/layout-slots/footer-slot.ctp:62
+msgid "2016 all rights reserved. Gambling under 18 is forbiden."
+msgstr "2016 כל הזכויות שמורות. הימורים מתחת לגיל 18 אינם מאפשרים."
+
+#: View/Themed/Design/Elements/layout-slots/footer-slot.ctp:62
+msgid "Participation in our sportbook gaming offer is only allowed to persons 18 years of age or older. In order to prevent any abuse, please keep your access data (user ID, password, question-answer combination) in a safe place."
+msgstr "השתתפות בהצגת משחקי הספורט שלנו מותרת רק לבני 18 שנים ומעלה. כדי למנוע ניצול לרעה, שמור את נתוני הגישה שלך (זיהוי משתמש, סיסמה, שילוב של תשובות לשאלות) במקום בטוח."
+
+#: View/Themed/Design/Elements/layout-slots/top-slot.ctp:7
+msgid " Documentation"
+msgstr " תיעוד"
+
+#: View/Themed/Design/Elements/layout-slots/top-slot.ctp:15
+msgid " Sports betting"
+msgstr " הימורי ספורט"
+
+#: View/Themed/Design/Elements/layout-slots/top-slot.ctp:21
+msgid " Live betting"
+msgstr " הימורים חיים"
+
+#: View/Themed/Design/Elements/layout-slots/top-slot.ctp:27
+msgid " Mobile"
+msgstr " טלפון נייד"
+
+#: View/Themed/Design/Layouts/intro.ctp:45
+msgid "We provide wide range of football events. Major Europe leagues daily on "
+msgstr "אנו מספקים מגוון רחב של אירועי כדורגל. אירופה הגדולות ליגות מדי יום "
+
+#: View/Themed/Design/Layouts/intro.ctp:45
+msgid "sportsbook. Check and place your bets."
+msgstr ". בדוק והמקם את ההימורים שלך."
+
+#: View/Themed/Design/Layouts/intro.ctp:46
+msgid "FOOTBALL"
+msgstr "כדורגל"
+
+#: View/Themed/Design/Layouts/intro.ctp:54
+msgid "ATP Masters and many other leagues are available for daily tennis betting on"
+msgstr "ATP מאסטרס ועוד הרבה ליגות זמינים עבור הימורים טניס היומי"
+
+#: View/Themed/Design/Layouts/intro.ctp:54;63
+msgid "portal. Place your best for the win!"
+msgstr "שַׁעַר. מניחים את הטוב ביותר עבור לנצח!"
+
+#: View/Themed/Design/Layouts/intro.ctp:55
+msgid "TENNIS"
+msgstr "טֶנִיס"
+
+#: View/Themed/Design/Layouts/intro.ctp:63
+msgid "NBA, Euoleague and many other leagues are available for daily betting on"
+msgstr "NBA, Euoleague ועוד הרבה ליגות זמינות עבור הימורים מדי יום"
+
+#: View/Themed/Design/Layouts/intro.ctp:64
+msgid "BASKETBALL"
+msgstr "כדורסל"
+
+#: View/Themed/Design/Layouts/intro.ctp:75;108;131
+msgid "Today"
+msgstr "היום"
+
+#: View/Themed/Design/Layouts/user-panel.ctp:69
+#: View/Themed/Design/Users/bonus.ctp:4;17
+msgid "Promotional Code"
+msgstr "קוד קידום מכירות"
+
+#: View/Themed/Design/Layouts/user-panel.ctp:76
+msgid "Account Information"
+msgstr "פרטי חשבון"
+
+#: View/Themed/Design/Layouts/user-panel.ctp:83
+msgid "Upload documentation"
+msgstr "טען תיעוד"
+
+#: View/Themed/Design/Layouts/user-tools.ctp:48
+msgid "Skype us"
+msgstr "סקייפ אותנו"
+
+#: View/Themed/Design/Layouts/user-tools.ctp:49
+msgid "Call us"
+msgstr "התקשר אלינו"
+
+#: View/Themed/Design/Layouts/user-tools.ctp:50
+msgid "Contact us by mail"
+msgstr "צור קשר בדואר"
+
+#: View/Themed/Design/Layouts/user-tools.ctp:51
+msgid "Other contacts"
+msgstr "אנשי קשר אחרים"
+
+#: View/Themed/Design/Live/select_sport_league.ctp:108
+msgid "There are no live events at this moment"
+msgstr "אין כרגע אירועים חיים"
+
+#: View/Themed/Design/ReservationTickets/index.ctp:15
+#: View/Themed/Design/ReservationTickets/search.ctp:7
+#: View/Themed/Design/Tickets/review.ctp:2
+msgid "Ticket placed"
+msgstr "כרטיס ממוקם"
+
+#: View/Themed/Design/ReservationTickets/index.ctp:44
+#: View/Themed/Design/Tickets/index.ctp:53
+msgid "There are no pending tickets"
+msgstr "אין כרטיסים ממתינים"
+
+#: View/Themed/Design/ReservationTickets/index.ctp:50
+#: View/Themed/Design/Tickets/history.ctp:62
+#: View/Themed/Design/Tickets/index.ctp:62
+msgid "Note"
+msgstr "הערה"
+
+#: View/Themed/Design/ReservationTickets/index.ctp:50
+#: View/Themed/Design/Tickets/history.ctp:62
+#: View/Themed/Design/Tickets/index.ctp:62
+msgid "To place ticket please use betslip."
+msgstr "כדי למקם את הכרטיס אנא השתמש בטסליפ."
+
+#: View/Themed/Design/ReservationTickets/search.ctp:5;76
+#: View/Themed/Design/ReservationTickets/view.ctp:3
+msgid "Reservation Ticket information"
+msgstr "פרטי כרטיס הזמנה"
+
+#: View/Themed/Design/ReservationTickets/search.ctp:6
+#: View/Themed/Design/ReservationTickets/view.ctp:3
+msgid "Ticket Ticket ID"
+msgstr "כרטיס כרטיס מזהה"
+
+#: View/Themed/Design/ReservationTickets/search.ctp:7
+msgid "Ticket not placed yet"
+msgstr "הכרטיס עדיין לא ממוקם"
+
+#: View/Themed/Design/ReservationTickets/search.ctp:15
+#: View/Themed/Design/ReservationTickets/view.ctp:10
+#: View/Themed/Design/Tickets/view.ctp:10
+msgid "Betting type"
+msgstr "סוג התערבות"
+
+#: View/Themed/Design/ReservationTickets/search.ctp:59
+#: View/Themed/Design/Tickets/placed.ctp:3
+msgid "Place ticket"
+msgstr "כרטיס מקום"
+
+#: View/Themed/Design/ReservationTickets/search.ctp:61
+msgid "Ticket already placed"
+msgstr "הכרטיס כבר ממוקם"
+
+#: View/Themed/Design/ReservationTickets/search.ctp:76
+msgid " Not Found"
+msgstr " לא נמצא"
+
+#: View/Themed/Design/ReservationTickets/search.ctp:78
+msgid "Ticket not found"
+msgstr "הכרטיס לא נמצא"
+
+#: View/Themed/Design/Tickets/betslip.ctp:1
+msgid "Bet Slip"
+msgstr "בית להחליק"
+
+#: View/Themed/Design/Tickets/betslip.ctp:30
+msgid "Your pick"
+msgstr "הבחירה שלך"
+
+#: View/Themed/Design/Tickets/betslip.ctp:46
+msgid "Information"
+msgstr "מידע"
+
+#: View/Themed/Design/Tickets/betslip.ctp:47
+msgid "Please"
+msgstr "בבקשה."
+
+#: View/Themed/Design/Tickets/betslip.ctp:48
+msgid "Log in"
+msgstr "התחברות"
+
+#: View/Themed/Design/Tickets/betslip.ctp:49
+msgid "or"
+msgstr "או"
+
+#: View/Themed/Design/Tickets/betslip.ctp:51
+msgid "on the website to place tickets."
+msgstr "באתר כדי למקם כרטיסים."
+
+#: View/Themed/Design/Tickets/betslip.ctp:55
+msgid "You need at least one bet to place a ticket."
+msgstr "אתה צריך לפחות הימור אחד כדי לשים כרטיס."
+
+#: View/Themed/Design/Tickets/betslip.ctp:68
+msgid "Total odds"
+msgstr "סך כל הסיכויים"
+
+#: View/Themed/Design/Tickets/betslip.ctp:69
+msgid "Total bets"
+msgstr "סה"כ הימורים"
+
+#: View/Themed/Design/Tickets/betslip.ctp:79
+msgid "Possible Winnings"
+msgstr "זכיות אפשריות"
+
+#: View/Themed/Design/Tickets/betslip.ctp:85;87
+msgid "Place Bet"
+msgstr "מקום בית"
+
+#: View/Themed/Design/Tickets/get_history.ctp:3
+msgid "Ticket History"
+msgstr "היסטוריית כרטיסים"
+
+#: View/Themed/Design/Tickets/get_history.ctp:17
+msgid "Ticket ID:"
+msgstr "מזהה כרטיס:"
+
+#: View/Themed/Design/Tickets/get_history.ctp:27
+msgid "Are you sure about to cancel this ticket?"
+msgstr "האם אתה בטוח לבטל כרטיס זה?"
+
+#: View/Themed/Design/Tickets/get_history.ctp:41
+msgid "No tickets activity available"
+msgstr "אין פעילות כרטיסים זמין"
+
+#: View/Themed/Design/Tickets/history.ctp:16
+#: View/Themed/Design/Tickets/index.ctp:16
+msgid "Paid"
+msgstr "שולם"
+
+#: View/Themed/Design/Tickets/history.ctp:53
+msgid "There are no history tickets"
+msgstr "אין כרטיסים להיסטוריה"
+
+#: View/Themed/Design/Tickets/history.ctp:60
+msgid "Pending tickets"
+msgstr "כרטיסים ממתינים"
+
+#: View/Themed/Design/Tickets/index.ctp:60
+msgid "History"
+msgstr "היסטוריה"
+
+#: View/Themed/Design/Tickets/placed.ctp:11
+msgid "Ticket is placed"
+msgstr "הכרטיס ממוקם"
+
+#: View/Themed/Design/Tickets/placed.ctp:23
+msgid "Ticket not found."
+msgstr "הכרטיס לא נמצא."
+
+#: View/Themed/Design/Tickets/preview.ctp:16
+msgid "Ticket Preview"
+msgstr "תצוגה מקדימה של כרטיס"
+
+#: View/Themed/Design/Tickets/print_ticket.ctp:18
+msgid "Operator"
+msgstr "מַפעִיל"
+
+#: View/Themed/Design/Tickets/print_ticket.ctp:20
+msgid "Placer"
+msgstr "פלאסר"
+
+#: View/Themed/Design/Tickets/review.ctp:57
+msgid "Your ticket is created successfully"
+msgstr "הכרטיס שלך נוצר בהצלחה"
+
+#: View/Themed/Design/Tickets/review.ctp:58
+msgid "Your ticket number is"
+msgstr "מספר הכרטיס שלך הוא"
+
+#: View/Themed/Design/Tickets/view.ctp:3
+msgid "Ticket information"
+msgstr "פרטי כרטיס"
+
+#: View/Themed/Design/Users/account.ctp:4
+msgid "Account information"
+msgstr "פרטי חשבון"
+
+#: View/Themed/Design/Users/account.ctp:9
+msgid "Please provide full personal information to confirm your identity. Owing to regulations, your access to some products, markets and commission discounts may be restricted until you confirm your identity. You can provide personal documents using our secure email service."
+msgstr "אנא ספק פרטים אישיים מלאים כדי לאשר את זהותך. בשל תקנות, הגישה שלך למוצרים מסוימים, שווקים והנחות עמלה עשויה להיות מוגבלת עד שתאשר את זהותך. באפשרותך לספק מסמכים אישיים באמצעות שירות הדוא"ל המאובטח שלנו."
+
+#: View/Themed/Design/Users/account.ctp:24;26
+#: View/Themed/Design/Users/register.ctp:103;105
+msgid "Address"
+msgstr "כתובת"
+
+#: View/Themed/Design/Users/bonus.ctp:6
+msgid "Please add promotional code below to get additional money or other benefit."
+msgstr "הוסף קוד לקידום בהמשך כדי לקבל כסף נוסף או תועלת אחרת."
+
+#: View/Themed/Design/Users/bonus.ctp:18
+msgid "Enter promotion code"
+msgstr "הזן קוד קידום"
+
+#: View/Themed/Design/Users/daily_reports.ctp:31
+msgid "Requested at"
+msgstr "התקבלה בתאריך"
+
+#: View/Themed/Design/Users/daily_reports.ctp:35
+msgid "Requested by"
+msgstr "התבקש על ידי"
+
+#: View/Themed/Design/Users/daily_reports.ctp:57
+#: View/Themed/Design/Users/operator_panel.ctp:80
+msgid "Activity Column"
+msgstr "עמודת פעילות"
+
+#: View/Themed/Design/Users/docs.ctp:4
+msgid "Documentation"
+msgstr "תיעוד"
+
+#: View/Themed/Design/Users/docs.ctp:7
+msgid "Account status: "
+msgstr "מצב חשבון: "
+
+#: View/Themed/Design/Users/docs.ctp:12
+msgid "File to upload. Only .jpeg,.png,.pdf is accepted. File must be not larger than 2Mb. "
+msgstr "קובץ להעלאה. רק .jpeg, .png, .pdf מתקבל. הקובץ חייב להיות גדול מ -2 MB. "
+
+#: View/Themed/Design/Users/login.ctp:9
+msgid "Registration successful. Please check email for confirmation mail."
+msgstr "ההרשמה בוצעה בהצלחה. בדוק את האימייל של דוא"ל אישור."
+
+#: View/Themed/Design/Users/login.ctp:14
+msgid "Account confirmation successful. You can sign in now."
+msgstr "אישור החשבון בוצע בהצלחה. כעת תוכל להיכנס."
+
+#: View/Themed/Design/Users/login.ctp:19
+msgid "Not valid confirmation code."
+msgstr "קוד אישור לא חוקי."
+
+#: View/Themed/Design/Users/login.ctp:40
+msgid "Forgot password?"
+msgstr "שכחת את הסיסמה?"
+
+#: View/Themed/Design/Users/operator_panel.ctp:45
+msgid "Today placed tickets"
+msgstr "היום הכרטיסים"
+
+#: View/Themed/Design/Users/register.ctp:5
+msgid "Create Account"
+msgstr "צור חשבון"
+
+#: View/Themed/Design/Users/register.ctp:48
+msgid "Personal information"
+msgstr "מידע אישי"
+
+#: View/Themed/Design/Users/register.ctp:52;54
+msgid "First name"
+msgstr "שם פרטי"
+
+#: View/Themed/Design/Users/register.ctp:59;61
+msgid "Last name"
+msgstr "שם משפחה"
+
+#: View/Themed/Design/Users/register.ctp:66;68
+msgid "Date of birth"
+msgstr "תאריך לידה"
+
+#: View/Themed/Design/Users/register.ctp:85
+msgid "Contact information"
+msgstr "פרטי התקשרות"
+
+#: View/Themed/Design/Users/register.ctp:120;122
+msgid "Personal question"
+msgstr "שאלה אישית"
+
+#: View/Themed/Design/Users/register.ctp:127;129
+msgid "Personal answer"
+msgstr "תשובה אישית"
+
+#: View/Themed/Design/Users/register.ctp:136
+msgid "I am over 21 years of age and have read and accepted"
+msgstr "אני מעל 21 שנים של גיל ויש לי לקרוא ולקבל"
+
+#: View/Themed/Design/Users/register.ctp:136
+msgid "responsible gambling and conditions"
+msgstr "הימורים אחראי ותנאים"
+
+#: View/Themed/Design/Users/reset-password.ctp:4
+#: View/Themed/Design/Users/reset.ctp:4
+msgid "Reset Password"
+msgstr "איפוס סיסמה"
+
+#: View/Themed/Design/Users/reset.ctp:7
+msgid "Fill in email details below. Password reset link sent to your entered email. You will be able to create a new password which you can use to login."
+msgstr "מלא את פרטי האימייל למטה. הקישור לאיפוס סיסמה נשלח לדוא"ל שהוזן. תוכל ליצור סיסמה חדשה שבה תוכל להשתמש כדי להתחבר."
+
+#: View/Themed/Design/Users/reset.ctp:29
+msgid "Change"
+msgstr "שנה"
+
+#: View/Themed/Design/Users/settings.ctp:10
+msgid "Odds Type"
+msgstr "סוג קטטות"
+
+#: View/Themed/Design/Users/settings.ctp:25
+msgid "Confirm Settings"
+msgstr "אשר את ההגדרות"
+
+#: View/Themed/Design/Withdraws/index-submit.ctp:3
+msgid "Withdraw submit"
+msgstr "בטל את השליחה"
+
+#: View/Themed/Design/Withdraws/index-submit.ctp:14
+#: View/Themed/Design/Withdraws/index.ctp:48
+msgid "Payment amount"
+msgstr "סכום לתשלום"
+
+#: View/Themed/Design/Withdraws/index-submit.ctp:20;21
+msgid "Bank"
+msgstr "בַּנק"
+
+#: View/Themed/Design/Withdraws/index-submit.ctp:26;27
+msgid "Payment account holder"
+msgstr "בעל חשבון תשלום"
+
+#: View/Themed/Design/Withdraws/index-submit.ctp:32;33
+msgid "Payment account number"
+msgstr "מספר חשבון תשלום"
+
+#: View/Themed/Design/Withdraws/index-submit.ctp:38;39
+msgid "Card number"
+msgstr "מספר כרטיס"
+
+#: View/Themed/Design/Withdraws/index-submit.ctp:44;45
+msgid "Other notes"
+msgstr "הערות אחרות"
+
+#: View/Themed/Design/Withdraws/index-submit.ctp:49
+#: View/Themed/Design/Withdraws/index.ctp:53
+msgid "Request Manual Withdraw"
+msgstr "ביטול משיכה ידני"
+
+#: View/Themed/Design/Withdraws/index.ctp:3
+msgid "Withdraw"
+msgstr "לָסֶגֶת"
+
+#: View/Themed/Design/Withdraws/index.ctp:14
+msgid "Withdraw ID"
+msgstr "משוך מזהה"
+
+#: View/Themed/Design/Withdraws/index.ctp:15
+msgid "Withdraw Account"
+msgstr "חשבון משיכה"
+
+#: View/Themed/Design/Withdraws/index.ctp:38
+msgid "Payment provider"
+msgstr "ספק תשלום"
+
+#: View/Themed/Design/Withdraws/index.ctp:43
+msgid "Payment account"
+msgstr "חשבון תשלום"
+
+#: View/Themed/Design/Withdraws/index.ctp:44
+msgid "Withdraw account"
+msgstr "משוך חשבון"
+
+#: Model/Event.php:validation for field name
+msgid "Please add event name"
+msgstr "הוסף שם אירוע"
+
+#: Model/Event.php:validation for field date
+msgid "Please add event date"
+msgstr "הוסף תאריך אירוע"
+
+#: Model/League.php:validation for field name
+msgid "Please add league name"
+msgstr "הוסף שם ליגה"
+
+#: Model/Mail.php:validation for field email
+#: Model/User.php:validation for field email
+msgid "Please enter valid email address"
+msgstr "הזן כתובת דוא"ל חוקית"
+
+#: Model/Mail.php:validation for field subject
+msgid "Please enter subject shorter than 100 length"
+msgstr "הזן נושא קצר מ -100 תווים"
+
+#: Model/Mail.php:validation for field content
+msgid "Please enter message"
+msgstr "הזן הודעה"
+
+#: Model/Staff.php:validation for field username
+#: Model/User.php:validation for field username
+msgid "Alphabets and numbers only"
+msgstr "אלפבית ומספרים בלבד"
+
+#: Model/Staff.php:validation for field username
+msgid "Between 5 to 15 characters"
+msgstr "בין 5 ל -15 תווים"
+
+#: Model/Staff.php:validation for field username
+#: Model/User.php:validation for field username
+msgid "This username has already been taken."
+msgstr "שם משתמש זה כבר נלקח."
+
+#: Model/Staff.php:validation for field password_raw
+msgid "Mimimum 5 characters long"
+msgstr "5 תווים לכל היותר"
+
+#: Model/Template.php:validation for field subject;validation for field content
+#: Plugin/Content/Model/News.php:validation for field title;validation for field summary;validation for field content
+#: Plugin/Content/Model/Page.php:validation for field title;validation for field url;validation for field content
+#: Plugin/Content/Model/Slide.php:validation for field title;validation for field description;validation for field image
+msgid "This field cannot be left blank"
+msgstr "לא ניתן להשאיר שדה זה ריק"
+
+#: Model/User.php:validation for field username
+msgid "Between 3 to 15 characters"
+msgstr "בין 3 ל -15 תווים"
+
+#: Model/User.php:validation for field password_raw;validation for field password_confirm
+msgid "Mimimum 2 characters long"
+msgstr "מקסימום 2 תווים"
+
+#: Model/User.php:validation for field email
+msgid "This email has already been registered."
+msgstr "דוא"ל זה כבר נרשם."
+
+#: Model/User.php:validation for field first_name
+msgid "Please enter your name"
+msgstr "אנא הכנס את שמך"
+
+#: Model/User.php:validation for field last_name
+msgid "Please enter your surname"
+msgstr "הזן את שם המשפחה שלך"
+
+#: Model/User.php:validation for field address1
+msgid "Please enter your street address"
+msgstr "הזן את כתובת הרחוב שלך"
+
+#: Model/User.php:validation for field city
+msgid "Please enter city"
+msgstr "אנא הזן את העיר"
+
+#: Model/User.php:validation for field country
+msgid "Please enter country"
+msgstr "הזן את הארץ"
+
+#: Model/User.php:validation for field date_of_birth
+msgid "User should be over 21 years old to complete registration"
+msgstr "המשתמש צריך להיות מעל 21 שנים כדי להשלים את ההרשמה"
+
+#: Model/User.php:validation for field mobile_number
+msgid "Please enter valid mobile number"
+msgstr "הזן מספר טלפון חוקי חוקי"
+
+#: Model/User.php:validation for field personal_question
+msgid "Please your personal question"
+msgstr "שאל את השאלה האישית שלך"
+
+#: Model/User.php:validation for field personal_answer
+msgid "Please enter valid answer"
+msgstr "הזן תשובה חוקית"
+
+#: Model/User.php:validation for field agree
+msgid "You need to accept the Terms Of Use to be able to register."
+msgstr "אתה צריך לקבל את תנאי השימוש כדי להיות מסוגל להירשם."
+
+#: Plugin/Feeds/Model/EnetPulse.php:validation for field xml
+#: Plugin/Feeds/Model/OddService.php:validation for field data
+msgid "Error uploading file"
+msgstr "שגיאה בהעלאת הקובץ"
+
+#: Plugin/Feeds/Model/OddService.php:validation for field data
+msgid "Unknown server"
+msgstr "שרת לא ידוע"
+
+#: Plugin/Queue/Model/QueueTask.php:validation for field status
+msgid "Please select a valid status"
+msgstr "בחר סטטוס חוקי"
+
+#: Plugin/Queue/Model/QueueTask.php:validation for field type
+msgid "Please select a valid type"
+msgstr "בחר סוג חוקי"
+
+#: Plugin/Queue/Model/QueueTask.php:validation for field type
+msgid "Specified Type is not allowed by your configuration file. check Config/queue.php"
+msgstr "'סוג מוגדר' אינו מותר על ידי קובץ התצורה שלך. Check config / queue.php"
+
+#: Plugin/Queue/Model/QueueTask.php:validation for field scheduled
+msgid "Must be a valid date time stamp."
+msgstr "חייב להיות חותמת תאריך תאריך חוקי."
+
+#: Plugin/Queue/Model/QueueTask.php:validation for field scheduled_end
+msgid "Must be a valid datetime stamp, or null."
+msgstr "חייב להיות חותמת תאריך חוקי, או null."
+
+#: Plugin/Queue/Model/QueueTask.php:validation for field reschedule
+msgid "Cannot be empty when schedule_end is not null.  Must be a strtotime parsable string."
+msgstr "לא ניתן להיות ריק כאשר calendar_end אינו ריק. חייב להיות מחרוזת parsable strtotime."
+
+#: Plugin/Queue/Model/QueueTask.php:validation for field cpu_limit
+msgid "Cpu Percent Limit must be between 0 and 100."
+msgstr "הגבלת אחוז Cpu חייבת להיות בין 0 ל -100."
+
+#: Plugin/Queue/Model/QueueTask.php:validation for field is_required
+msgid "is_required must be a 0 or 1"
+msgstr "Is_required חייב להיות 0 או 1"
+
+#: Plugin/Queue/Model/QueueTask.php:validation for field command
+msgid "No command. Please specify."
+msgstr "אין תגובה. אנא פרט."
+
+#: Plugin/Queue/Model/QueueTask.php:validation for field command
+msgid "Command not valid for type."
+msgstr "הפקודה לא תקפה עבור הסוג."
+
+#: Plugin/Acl/Controller/AclAppController.php:64
+msgid "The role model name is unknown. The ACL plugin bootstrap.php file has to be loaded in order to work. (see the README file)"
+msgstr "שם מודל התפקיד אינו ידוע. יש להתקין את הקובץ bootstrap.php של תוסף ACL כדי לעבוד. (עיין בקובץ README)"
+
+#: Plugin/Acl/Controller/AcosController.php:40
+msgid "The actions in the ACO table have been deleted"
+msgstr "הפעולות בטבלת ה- ACO נמחקו"
+
+#: Plugin/Acl/Controller/AcosController.php:44
+msgid "The actions in the ACO table could not be deleted"
+msgstr "לא ניתן למחוק את הפעולות בטבלת ה- ACO"
+
+#: Plugin/Acl/Controller/ArosController.php:207
+msgid "The user role has been updated"
+msgstr "תפקיד המשתמש עודכן"
+
+#: Plugin/Acl/Controller/ArosController.php:211
+msgid "The user role could not be updated"
+msgstr "לא ניתן לעדכן את תפקיד המשתמש"
+
+#: Plugin/Acl/Controller/ArosController.php:398;496
+msgid "The user '%s' does not exist in the ARO table"
+msgstr "המשתמש ' %s ' אינו קיים בטבלת ARO"
+
+#: Plugin/Acl/Controller/ArosController.php:474
+msgid "The permissions have been cleared"
+msgstr "ההרשאות נמחקו"
+
+#: Plugin/Acl/Controller/ArosController.php:478
+msgid "The permissions could not be cleared"
+msgstr "לא ניתן היה לנקות את ההרשאות"
+
+#: Plugin/Acl/Controller/ArosController.php:502
+msgid "The specific permissions have been cleared"
+msgstr "ההרשאות הספציפיות נמחקו"
+
+#: Plugin/Acl/Controller/ArosController.php:506
+msgid "The specific permissions could not be cleared"
+msgstr "לא ניתן לנקות את ההרשאות הספציפיות"
+
+#: Plugin/Acl/Controller/ArosController.php:526;548
+msgid "The role '%s' does not exist in the ARO table"
+msgstr "התפקיד ' %s ' אינו קיים בטבלת ARO"
+
+#: Plugin/Acl/Controller/Component/AclManagerComponent.php:41
+msgid "the %s directory is not writable"
+msgstr "הספרייה %s אינה ניתנת לכתיבה"
+
+#: Plugin/Acl/Controller/Component/AclManagerComponent.php:289
+msgid "Aco node '%s' created"
+msgstr "צומת ' %s ' נוצר"
+
+#: Plugin/Acl/Controller/Component/AclManagerComponent.php:415
+msgid "Aco node '%s' has been deleted"
+msgstr "צומת ' %s ' נמחק"
+
+#: Plugin/Acl/Controller/Component/AclManagerComponent.php:419
+msgid "Aco node '%s' could not be deleted"
+msgstr "לא ניתן למחוק את הצומת ' %s ' %s Aco"
+
+#: Plugin/Acl/Controller/Component/AclManagerComponent.php:504;516
+msgid "An error occured while saving the specific permission"
+msgstr "אירעה שגיאה בעת שמירת ההרשאה הספציפית"
+
+#: Plugin/Acl/Controller/Component/AclManagerComponent.php:538
+msgid "An error occured while deleting the specific permission"
+msgstr "אירעה שגיאה בעת מחיקת ההרשאה הספציפית"
+
+#: Plugin/Acl/Controller/Component/AclManagerComponent.php:548
+msgid "The specific permission id could not be retrieved"
+msgstr "לא ניתן היה לאחזר את מזהה ההרשאה הספציפי"
+
+#: Plugin/Acl/Controller/Component/AclManagerComponent.php:557
+msgid "The child ACO id could not be retrieved"
+msgstr "לא ניתן היה לאחזר את מזהה ה- ACO של הילד"
+
+#: Plugin/Acl/Controller/Component/AclManagerComponent.php:570
+msgid "Invalid ARO"
+msgstr "ARO לא חוקי"
+
+#: Plugin/Acl/View/Acos/admin_build_acl.ctp:15
+msgid "The following actions ACOs have been created"
+msgstr "בוצעו פעולות ACO של הפעולות הבאות"
+
+#: Plugin/Acl/View/Acos/admin_build_acl.ctp:22
+#: Plugin/Acl/View/Acos/admin_synchronize.ctp:24
+msgid "There was no new actions ACOs to create"
+msgstr "לא היו כל ACOs פעולות חדשות ליצור"
+
+#: Plugin/Acl/View/Acos/admin_build_acl.ctp:29
+msgid "This page allows you to build missing actions ACOs if any."
+msgstr "דף זה מאפשר לך לבנות ACO פעולות חסר אם בכלל."
+
+#: Plugin/Acl/View/Acos/admin_build_acl.ctp:36
+#: Plugin/Acl/View/Acos/admin_has_updates.ctp:12
+#: Plugin/Acl/View/Acos/admin_synchronize.ctp:56
+msgid "Missing ACOs"
+msgstr "חסרות"
+
+#: Plugin/Acl/View/Acos/admin_build_acl.ctp:45
+msgid "Clicking the link will not destroy existing actions ACOs."
+msgstr "לחיצה על הקישור לא תהרוס את פעולות ה- ACO הקיימות."
+
+#: Plugin/Acl/View/Acos/admin_build_acl.ctp:49
+#: Plugin/Acl/View/Aros/admin_check.ctp:43
+msgid "Build"
+msgstr "גירסה"
+
+#: Plugin/Acl/View/Acos/admin_build_acl.ctp:55
+msgid "There is no ACO node to create"
+msgstr "אין צומת ACO ליצור"
+
+#: Plugin/Acl/View/Acos/admin_empty_acos.ctp:12
+msgid "This page allows you to clear all actions ACOs."
+msgstr "דף זה מאפשר לך לנקות את כל ה- ACO של הפעולות."
+
+#: Plugin/Acl/View/Acos/admin_empty_acos.ctp:20
+msgid "Clicking the link will destroy all existing actions ACOs and associated permissions."
+msgstr "לחיצה על הקישור תהרוס את כל פעולות ה- ACO הקיימות ואת ההרשאות הקשורות."
+
+#: Plugin/Acl/View/Acos/admin_empty_acos.ctp:24
+msgid "Clear ACOs"
+msgstr "נקה את ה- ACO"
+
+#: Plugin/Acl/View/Acos/admin_empty_acos.ctp:24
+msgid "Are you sure you want to destroy all existing ACOs ?"
+msgstr "האם אתה בטוח שברצונך להשמיד את כל ה- ACO הקיימים?"
+
+#: Plugin/Acl/View/Acos/admin_empty_acos.ctp:30
+#: Plugin/Acl/View/Acos/admin_prune_acos.ctp:55
+msgid "There is no ACO node to delete"
+msgstr "אין צומת ACO למחיקה"
+
+#: Plugin/Acl/View/Acos/admin_has_updates.ctp:8
+msgid "Some controllers have been modified, resulting in actions that are not referenced as ACO in the database or ACO records that are obsolete"
+msgstr "בקרים מסוימים שונו, וכתוצאה מכך פעולות שאינן מוזכרות כ- ACO במסד הנתונים או ברשומות ACO שאינן מיושנות"
+
+#: Plugin/Acl/View/Acos/admin_has_updates.ctp:21
+#: Plugin/Acl/View/Acos/admin_synchronize.ctp:28
+msgid "Obsolete ACOs"
+msgstr "אקו מיושן"
+
+#: Plugin/Acl/View/Acos/admin_has_updates.ctp:29
+msgid "You can update the ACOs by clicking on the following link"
+msgstr "תוכל לעדכן את ה- ACO על ידי לחיצה על הקישור הבא"
+
+#: Plugin/Acl/View/Acos/admin_has_updates.ctp:30
+msgid "Synchronize ACOs"
+msgstr "סנכרן את ה- ACO"
+
+#: Plugin/Acl/View/Acos/admin_has_updates.ctp:34
+msgid "Please be aware that this message will appear only once. But you can always rebuild the ACOs by going to the ACO tab."
+msgstr "שים לב שהודעה זו תופיע רק פעם אחת. אבל אתה תמיד יכול לבנות מחדש את ACOs על ידי הולך לשונית ACO."
+
+#: Plugin/Acl/View/Acos/admin_prune_acos.ctp:15
+msgid "The following actions ACOs have been pruned"
+msgstr "פעולות ה- ACO הבאות של פעולות גוזמו"
+
+#: Plugin/Acl/View/Acos/admin_prune_acos.ctp:22
+msgid "There was no actions ACOs to prune"
+msgstr "לא היו פעולות ACOs לגזום"
+
+#: Plugin/Acl/View/Acos/admin_prune_acos.ctp:29
+msgid "This page allows you to prune obsolete ACOs."
+msgstr "דף זה מאפשר לך לגזום ACOs מיושן."
+
+#: Plugin/Acl/View/Acos/admin_prune_acos.ctp:36
+#: Plugin/Acl/View/Acos/admin_synchronize.ctp:67
+msgid "Obsolete ACO nodes"
+msgstr "צמתים ACO מיושן"
+
+#: Plugin/Acl/View/Acos/admin_prune_acos.ctp:45
+msgid "Clicking the link will not change or remove permissions for actions ACOs that are not obsolete."
+msgstr "לחיצה על הקישור לא תשנה או תסיר הרשאות עבור פעולות בקרת גישה שאינן מיושנות."
+
+#: Plugin/Acl/View/Acos/admin_prune_acos.ctp:49
+msgid "Prune"
+msgstr "לִגזוֹם"
+
+#: Plugin/Acl/View/Acos/admin_synchronize.ctp:12
+msgid "New ACOs"
+msgstr "חדש ACOs"
+
+#: Plugin/Acl/View/Acos/admin_synchronize.ctp:40
+msgid "There was no action ACO to delete"
+msgstr "לא היה ACO פעולה למחוק"
+
+#: Plugin/Acl/View/Acos/admin_synchronize.ctp:47
+msgid "This page allows you to synchronize the existing controllers and actions with the ACO datatable."
+msgstr "דף זה מאפשר לך לסנכרן את הבקרים והפעולות הקיימים עם ה- ACO datatable."
+
+#: Plugin/Acl/View/Acos/admin_synchronize.ctp:81
+msgid "Clicking the link will not change or remove permissions for existing actions ACOs."
+msgstr "לחיצה על הקישור לא תשנה או תסיר הרשאות עבור קובצי ACO של פעולות קיימות."
+
+#: Plugin/Acl/View/Acos/admin_synchronize.ctp:85
+msgid "Synchronize"
+msgstr "לְסַנכְרֵן"
+
+#: Plugin/Acl/View/Acos/admin_synchronize.ctp:91
+msgid "The ACO datatable is already synchronized"
+msgstr "ה- ACO datatable מסונכרן כבר"
+
+#: Plugin/Acl/View/Aros/admin_ajax_role_permissions.ctp:17
+#: Plugin/Acl/View/Aros/admin_role_permissions.ctp:17
+msgid "Clear permissions table"
+msgstr "נקה טבלת הרשאות"
+
+#: Plugin/Acl/View/Aros/admin_ajax_role_permissions.ctp:17
+#: Plugin/Acl/View/Aros/admin_role_permissions.ctp:17
+msgid "Are you sure you want to delete all roles and users permissions ?"
+msgstr "האם אתה בטוח שברצונך למחוק את כל הרשאות התפקידים וההרשאות של המשתמשים?"
+
+#: Plugin/Acl/View/Aros/admin_ajax_role_permissions.ctp:29
+#: Plugin/Acl/View/Aros/admin_role_permissions.ctp:29
+msgid "grant access to <em>all actions</em>"
+msgstr "להעניק גישה אל <em> כל הפעולות </ em>"
+
+#: Plugin/Acl/View/Aros/admin_ajax_role_permissions.ctp:30
+#: Plugin/Acl/View/Aros/admin_role_permissions.ctp:30
+msgid "deny access to <em>all actions</em>"
+msgstr "למנוע גישה אל <em> כל הפעולות </ em>"
+
+#: Plugin/Acl/View/Aros/admin_ajax_role_permissions.ctp:40
+#: Plugin/Acl/View/Aros/admin_role_permissions.ctp:40
+msgid "Are you sure you want to grant access to all actions of each controller to the role '%s' ?"
+msgstr "האם אתה בטוח שברצונך להעניק גישה לכל הפעולות של כל בקר לתפקיד ' %s '?"
+
+#: Plugin/Acl/View/Aros/admin_ajax_role_permissions.ctp:41
+#: Plugin/Acl/View/Aros/admin_role_permissions.ctp:41
+msgid "Are you sure you want to deny access to all actions of each controller to the role '%s' ?"
+msgstr "האם אתה בטוח שברצונך למנוע גישה לכל הפעולות של כל בקר לתפקיד ' %s '?"
+
+#: Plugin/Acl/View/Aros/admin_ajax_role_permissions.ctp:59
+#: Plugin/Acl/View/Aros/admin_ajax_user_permissions.ctp:60
+#: Plugin/Acl/View/Aros/admin_role_permissions.ctp:59
+#: Plugin/Acl/View/Aros/admin_user_permissions.ctp:123
+msgid "action"
+msgstr "מצב"
+
+#: Plugin/Acl/View/Aros/admin_ajax_role_permissions.ctp:102;168
+#: Plugin/Acl/View/Aros/admin_ajax_user_permissions.ctp:93;140
+msgid "loading"
+msgstr "טוען…"
+
+#: Plugin/Acl/View/Aros/admin_ajax_role_permissions.ctp:107;173
+#: Plugin/Acl/View/Aros/admin_ajax_user_permissions.ctp:98;145
+#: Plugin/Acl/View/Aros/admin_role_permissions.ctp:118;200
+#: Plugin/Acl/View/Aros/ajax_role_denied.ctp:6
+#: Plugin/Acl/View/Aros/ajax_role_granted.ctp:6
+#: Plugin/Acl/View/Aros/ajax_user_denied.ctp:12
+#: Plugin/Acl/View/Aros/ajax_user_granted.ctp:12
+msgid "The ACO node is probably missing. Please try to rebuild the ACOs first."
+msgstr "צומת ה- ACO כנראה חסר. נסה תחילה לבנות מחדש את ה- ACO."
+
+#: Plugin/Acl/View/Aros/admin_ajax_role_permissions.ctp:136
+#: Plugin/Acl/View/Aros/admin_ajax_user_permissions.ctp:117
+#: Plugin/Acl/View/Aros/admin_role_permissions.ctp:147
+#: Plugin/Acl/View/Aros/admin_user_permissions.ctp:190
+msgid "Plugin"
+msgstr "תוסף"
+
+#: Plugin/Acl/View/Aros/admin_ajax_role_permissions.ctp:195
+#: Plugin/Acl/View/Aros/admin_ajax_user_permissions.ctp:162
+#: Plugin/Acl/View/Aros/admin_role_permissions.ctp:222
+#: Plugin/Acl/View/Aros/admin_user_permissions.ctp:249
+msgid "authorized"
+msgstr "מורשה"
+
+#: Plugin/Acl/View/Aros/admin_ajax_role_permissions.ctp:197
+#: Plugin/Acl/View/Aros/admin_ajax_user_permissions.ctp:164
+#: Plugin/Acl/View/Aros/admin_role_permissions.ctp:224
+#: Plugin/Acl/View/Aros/admin_user_permissions.ctp:251
+msgid "blocked"
+msgstr "חסום/ה"
+
+#: Plugin/Acl/View/Aros/admin_ajax_user_permissions.ctp:14
+#: Plugin/Acl/View/Aros/admin_user_permissions.ctp:77
+msgid "Role"
+msgstr "תַפְקִיד"
+
+#: Plugin/Acl/View/Aros/admin_ajax_user_permissions.ctp:30
+#: Plugin/Acl/View/Aros/admin_user_permissions.ctp:93
+#: Plugin/Acl/View/Aros/admin_users.ctp:52
+msgid "Update the user role"
+msgstr "עדכן את תפקיד המשתמש"
+
+#: Plugin/Acl/View/Aros/admin_ajax_user_permissions.ctp:40
+#: Plugin/Acl/View/Aros/admin_user_permissions.ctp:103
+#: Plugin/Acl/View/Elements/design/header.ctp:19
+msgid "Permissions"
+msgstr "הרשאות"
+
+#: Plugin/Acl/View/Aros/admin_ajax_user_permissions.ctp:46
+#: Plugin/Acl/View/Aros/admin_user_permissions.ctp:109
+msgid "This user has specific permissions"
+msgstr "למשתמש זה יש הרשאות ספציפיות"
+
+#: Plugin/Acl/View/Aros/admin_ajax_user_permissions.ctp:48
+#: Plugin/Acl/View/Aros/admin_user_permissions.ctp:111
+msgid "Clear"
+msgstr "נקי"
+
+#: Plugin/Acl/View/Aros/admin_ajax_user_permissions.ctp:48
+#: Plugin/Acl/View/Aros/admin_user_permissions.ctp:111
+msgid "Are you sure you want to clear the permissions specific to this user ?"
+msgstr "האם אתה בטוח שברצונך לנקות את ההרשאות הספציפיות למשתמש זה?"
+
+#: Plugin/Acl/View/Aros/admin_ajax_user_permissions.ctp:60
+#: Plugin/Acl/View/Aros/admin_user_permissions.ctp:123
+msgid "authorization"
+msgstr "הרשאה"
+
+#: Plugin/Acl/View/Aros/admin_check.ctp:12
+msgid "Roles without corresponding Aro"
+msgstr "תפקידים ללא מקבילה Aro"
+
+#: Plugin/Acl/View/Aros/admin_check.ctp:27
+msgid "Users without corresponding Aro"
+msgstr "משתמשים ללא Aro המקביל"
+
+#: Plugin/Acl/View/Aros/admin_check.ctp:49
+msgid "There is no missing ARO."
+msgstr "אין ARO חסר."
+
+#: Plugin/Acl/View/Aros/admin_not_acl_requester.ctp:11;18
+msgid "The <em>%s</em> model is not configured to act as an <em>ACL requester</em>"
+msgstr "המודל <em> %s </ em> אינו מוגדר לשמש <em> מבקש ACL </ em>"
+
+#: Plugin/Acl/View/Aros/admin_not_acl_requester.ctp:25
+msgid "In a classical ACL configuration, the models that represent the users and the roles must act as <em>ACL requesters</em> (see %s)."
+msgstr "בתצורת ACL קלאסית, המודלים המייצגים את המשתמשים והתפקידים חייבים לפעול כ <em> מבקשי ACL </ em> (ראה %s )."
+
+#: Plugin/Acl/View/Aros/admin_not_acl_requester.ctp:26
+msgid "Acts As a Requester"
+msgstr "מעשי כבקשה"
+
+#: Plugin/Acl/View/Aros/admin_not_acl_requester.ctp:30
+msgid "If you wish, you can disable this alert by setting the ACL plugin parameter 'acl.check_act_as_requester' to <em>false</em>."
+msgstr "אם תרצה, תוכל להשבית את ההתראה על ידי הגדרת הפרמטר של תוסף ACL 'acl.check_act_as_requester' ל- <em> false </ em>."
+
+#: Plugin/Acl/View/Aros/admin_user_permissions.ctp:19
+msgid "This page allows to manage users specific rights"
+msgstr "דף זה מאפשר למשתמשים לנהל זכויות ספציפיות"
+
+#: Plugin/Acl/View/Aros/admin_user_permissions.ctp:25;37
+msgid "user"
+msgstr "מבקר"
+
+#: Plugin/Acl/View/Aros/admin_user_permissions.ctp:29
+#: Plugin/Acl/View/Aros/admin_users.ctp:15
+msgid "filter"
+msgstr "מסנן"
+
+#: Plugin/Acl/View/Aros/admin_user_permissions.ctp:47
+msgid "Manage user specific rights"
+msgstr "נהל זכויות ספציפיות למשתמש"
+
+#: Plugin/Acl/View/Aros/admin_users.ctp:11;23
+msgid "name"
+msgstr "שם:"
+
+#: Plugin/Acl/View/Aros/admin_users.ctp:80
+msgid "Some users AROS are missing. Click on a role to assign one to a user."
+msgstr "משתמשים AROS חסרים. לחץ על תפקיד כדי להקצות אחד למשתמש."
+
+#: Plugin/Acl/View/Aros/ajax_role_denied.ctp:6
+#: Plugin/Acl/View/Aros/ajax_role_granted.ctp:6
+msgid "The role node does not exist in the ARO table"
+msgstr "הצומת של התפקיד אינו קיים בטבלת ARO"
+
+#: Plugin/Acl/View/Aros/ajax_user_denied.ctp:8
+#: Plugin/Acl/View/Aros/ajax_user_granted.ctp:8
+msgid "The user node does not exist in the ARO table"
+msgstr "צומת המשתמש אינו קיים בטבלת ARO"
+
+#: Plugin/Acl/View/Aros/ajax_user_denied.ctp:16
+#: Plugin/Acl/View/Aros/ajax_user_granted.ctp:16
+msgid "The ARO or the ACO node is probably missing. Please try to rebuild the ACOs first."
+msgstr "ARO או הצומת ACO כנראה חסר. נסה תחילה לבנות מחדש את ה- ACO."
+
+#: Plugin/Acl/View/Elements/Acos/links.ctp:6
+msgid "Synchronize actions ACOs"
+msgstr "סנכרון פעולות ACO"
+
+#: Plugin/Acl/View/Elements/Acos/links.ctp:6;7;9
+msgid "are you sure ?"
+msgstr "האם אתה בטוח?"
+
+#: Plugin/Acl/View/Elements/Acos/links.ctp:7
+msgid "Clear actions ACOs"
+msgstr "נקה את ה- ACO של פעולות"
+
+#: Plugin/Acl/View/Elements/Acos/links.ctp:8
+msgid "Build actions ACOs"
+msgstr "בנה את ה- ACO של פעולות"
+
+#: Plugin/Acl/View/Elements/Acos/links.ctp:9
+msgid "Prune actions ACOs"
+msgstr "Prune פעולות ACOs"
+
+#: Plugin/Acl/View/Elements/Aros/links.ctp:6
+msgid "Build missing AROs"
+msgstr "לבנות חסר AROs"
+
+#: Plugin/Acl/View/Elements/Aros/links.ctp:7
+msgid "Users roles"
+msgstr "תפקידי משתמשים"
+
+#: Plugin/Acl/View/Elements/Aros/links.ctp:11;15
+msgid "Roles permissions"
+msgstr "תפקידים הרשאות"
+
+#: Plugin/Acl/View/Elements/Aros/links.ctp:17
+msgid "Users permissions"
+msgstr "הרשאות משתמשים"
+
+#: Plugin/Acl/View/Elements/design/header.ctp:10
+msgid "ACL plugin"
+msgstr "תוסף ACL"
+
+#: Plugin/Acl/View/Errors/missing_aco_nodes.ctp:7
+msgid "go to homepage"
+msgstr "עבור לעמוד הבית"
+
+#: Plugin/PaymentsNew/cakephp-payments-plugin-develop/Model/PaymentApiLog.php:48
+msgid "Payment process started"
+msgstr "תהליך התשלום התחיל"
+
+#: Plugin/PaymentsNew/cakephp-payments-plugin-develop/Model/PaymentApiLog.php:68
+msgid "Payment process finished"
+msgstr "תהליך התשלום הסתיים"
+
+#: Plugin/WebSocket/Lib/Network/Http/WebSocket.php:382
+msgid "Class %s not found."
+msgstr "המחלקה %s לא נמצאה."
+
+#: View/Helper/PaginatorHelper.php:99
+msgid "%s does not implement a %s method, it is incompatible with %s"
+msgstr "%s אינו מיישם שיטה %s , הוא אינו תואם ל- %s"
+
+#: View/Helper/PaginatorHelper.php:629
+msgid " of "
+msgstr " של "
+
+#: webroot/test.php:88
+msgid "Debug setting does not allow access to this url."
+msgstr "הגדרת Debug אינה מאפשרת גישה לכתובת אתר זו."
+

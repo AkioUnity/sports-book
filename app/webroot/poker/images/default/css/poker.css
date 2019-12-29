@@ -1,0 +1,121 @@
+FORM {
+    display: inline
+}
+
+BODY {
+    background-color: #000
+}
+
+.betbuttons {
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 9px;
+    color: #FFF;
+    background-color: #300;
+    border: 1px #CCC solid;
+    white-space: normal;
+    font-weight: 700;
+    padding: 1px;
+    margin: 0;
+    overflow: visible
+}
+
+a:link {
+    font-family: <br> Arial,Helvetica,sans-serif;
+    font-size: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700
+}
+
+a:active {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700
+}
+
+a:hover {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700
+}
+
+a:visited {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700
+}
+
+.tblbet {
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: #FC6
+}
+
+.dealertxt {
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 10px;
+    color: #FC3
+}
+
+.plyrinfo {
+    border: 1px #FC3 solid;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    color: #FFF
+}
+
+div#flashHtml {
+    margin: 0 20px;
+    display: none
+}
+
+.gameinfo {
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400
+}
+
+.chattxt {
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 10px;
+    color: #FFF
+}
+
+.dealerinfo {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    color: #999;
+    text-decoration: none
+}
+
+.chatinput {
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    text-decoration: none;
+    background-color: #300;
+    border: 1px #900 solid;
+    color: #FFF
+}
+
+.loadingtxt {
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 10px;
+    color: #FFF
+}
+
+.tablePot {
+    font-size: 14px;
+    font-weight: 700;
+    color: #FC3
+}

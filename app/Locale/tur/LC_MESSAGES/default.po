@@ -1,0 +1,5029 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2014-10-09 19:27+0000\n"
+"PO-Revision-Date: 2017-03-19 10:49+0200\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Bet Yazilim <admin@betyazilim.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: tr\n"
+"X-Generator: Poedit 1.8.11\n"
+
+#: Controller/AppController.php:285
+msgid "Error, not found."
+msgstr "Sayfa bulunamadı"
+
+#: Controller/AppController.php:324
+#: Plugin/Content/Controller/SlidesController.php:78
+msgid "Item added"
+msgstr "Öğe eklendi"
+
+#: Controller/AppController.php:334;387;450
+msgid "This cannot be added."
+msgstr "Bu eklenemez."
+
+#: Controller/AppController.php:378
+msgid "Changes saved"
+msgstr "Değişiklikler kaydedildi "
+
+#: Controller/AppController.php:414 Controller/LanguagesController.php:113
+msgid "Item deleted"
+msgstr "Öğe silindi"
+
+#: Controller/AppController.php:416
+msgid "This cannot be deleted."
+msgstr "Bu silinemez."
+
+#: Controller/AppController.php:441
+msgid "Item saved"
+msgstr "Öğe kaydedildi"
+
+#: Controller/BetsController.php:55;77
+msgid "Bet added"
+msgstr "Bahis eklendi"
+
+#: Controller/BetsController.php:58;80
+msgid "Error adding bet"
+msgstr "Bahis eklerken hata oluştu"
+
+#: Controller/DepositsController.php:111;121
+msgid "Bonus code expired or wrong"
+msgstr "Yanlış veya süresi dolmuş bonus kodu"
+
+#: Controller/DepositsController.php:127
+msgid "Your amount is too low for bonus"
+msgstr "Bonus için miktar çok düşük"
+
+#: Controller/DepositsController.php:133
+msgid "Your amount is too high for bonus"
+msgstr "Bonus için miktar çok yüksek"
+
+#: Controller/DepositsController.php:198 Controller/WithdrawsController.php:143
+#: View/Themed/Admin/Risks/admin_warnings.ctp:44;75;106;135
+msgid "User Terminated"
+msgstr "Kullanıcı Sonlandırıldı"
+
+#: Controller/DepositsController.php:208 Controller/TicketsController.php:107
+#: Controller/WithdrawsController.php:153
+msgid "Statuses chart"
+msgstr "Durum grafiği"
+
+#: Controller/DepositsController.php:213 Controller/WithdrawsController.php:157
+#: Model/Deposit.php:427 Model/Withdraw.php:223
+msgid "Completed"
+msgstr "Tamamlandı"
+
+#: Controller/DepositsController.php:217 Controller/WithdrawsController.php:161
+#: Model/Deposit.php:418 Model/Ticket.php:203 Model/Withdraw.php:214
+#: Plugin/Reports/Controller/ReportsController.php:769
+#: Plugin/Reports/View/Themed/Admin/Elements/staff.ctp:134
+#: Plugin/Reports/View/Themed/Admin/Elements/user.ctp:134
+#: View/Helper/BethHelper.php:121
+msgid "Pending"
+msgstr "Beklemede"
+
+#: Controller/DepositsController.php:221 Controller/WithdrawsController.php:165
+#: Model/Deposit.php:436 Model/Ticket.php:201 Model/Withdraw.php:232
+#: Plugin/Reports/Controller/ReportsController.php:774
+#: View/Helper/BethHelper.php:127
+#: View/Themed/ChalkPro/Tickets/get_history.ctp:32
+#: View/Themed/Redesign/Tickets/get_history.ctp:33
+msgid "Cancelled"
+msgstr "İptal edildi!"
+
+#: Controller/DepositsController.php:230 Controller/WithdrawsController.php:174
+msgid "Amount chart"
+msgstr "Tutar grafiği"
+
+#: Controller/DepositsController.php:276 Controller/WithdrawsController.php:246
+msgid "User does not exist!"
+msgstr "Kullanıcı bulunamadı!"
+
+#: Controller/DepositsController.php:284
+msgid "Please set correct amount!"
+msgstr "Lütfen doğru miktarı ayarlayın!"
+
+#: Controller/DepositsController.php:293
+msgid "User %s is credited by %d %s"
+msgstr "Kullanıcı %s,  %d %s tarafından ödeme yapıldı "
+
+#: Controller/DepositsController.php:295 Controller/WithdrawsController.php:265
+msgid "Please check entered amount"
+msgstr "Lütfen girilen miktarı kontrol edin"
+
+#: Controller/DepositsController.php:333
+msgid "Deposit not found!"
+msgstr "Mevduat bulunamadi!"
+
+#: Controller/DepositsController.php:339
+msgid "Deposit already marked as \"completed\"!"
+msgstr "Para yatırma işlemi zaten \"Tamamlandı\" olarak işaretlenmiş."
+
+#: Controller/DepositsController.php:346
+msgid "Deposit request set as completed"
+msgstr "Para yatırma isteği tamamlandı olarak işaretlendi"
+
+#: Controller/DepositsController.php:359
+msgid "Deposit request cancelled"
+msgstr "Para yatirma isteği iptal edildi"
+
+#: Controller/DepositsController.php:370
+msgid "Money transaction completed"
+msgstr "Para işlemi tamamlandı"
+
+#: Controller/DepositsController.php:387;422
+msgid "Lowest deposit amount is "
+msgstr "En düşük yatırım miktarı "
+
+#: Controller/DepositsController.php:390;425
+msgid "Highest deposit amount is "
+msgstr "En yüksek yatırım miktarı "
+
+#: Controller/DepositsController.php:398 Controller/WithdrawsController.php:73
+msgid "Manual request"
+msgstr "Manuel istek"
+
+#: Controller/DepositsController.php:400
+msgid "Deposit is accepted."
+msgstr "Para yatırım kabul edildi."
+
+#: Controller/DepositsController.php:402
+msgid "Deposit is failed."
+msgstr "Para yatırma başarısız."
+
+#: Controller/DepositsController.php:462
+msgid "None"
+msgstr "Yok"
+
+#: Controller/LanguagesController.php:89
+msgid "Language already exist"
+msgstr "Dil zaten var"
+
+#: Controller/LanguagesController.php:92
+msgid "Please contact ChalkPro technical support team for additional languages"
+msgstr "Ek diller için ChalkPro teknik destek ekibine başvurun"
+
+#: Controller/LanguagesController.php:115
+msgid "can't delete item"
+msgstr "öğe silinemiyor"
+
+#: Controller/MailsController.php:75;101
+msgid "Email successfully sent"
+msgstr "E-posta başarıyla gönderildi."
+
+#: Controller/MailsController.php:77;103
+msgid "Cannot send email. Please try again."
+msgstr "E-posta göndermek mümkün değil. Lütfen tekrar deneyin."
+
+#: Controller/MailsController.php:132
+msgid "Emails successfully sent"
+msgstr "E-postalar başarıyla gönderildi"
+
+#: Controller/MailsController.php:134
+msgid "One or more email cannot be send. Please try again."
+msgstr "Bir veya daha fazla e-posta gönderilemedi. Lütfen tekrar deneyin."
+
+#: Controller/ResultsController.php:118
+msgid "Please enter event result"
+msgstr "Lütfen etkinlik sonucu girin"
+
+#: Controller/ResultsController.php:125;152;282
+msgid "Results updated"
+msgstr "Sonuçlar güncellendi"
+
+#: Controller/RisksController.php:45;83;100
+#: Controller/SettingsController.php:45;71;86;100;114;128;142;160;176;194;212
+msgid "Settings saved."
+msgstr "Ayarlar kaydedildi."
+
+#: Controller/RisksController.php:47;85 Controller/SettingsController.php:47
+msgid "can't save settings."
+msgstr "ayarlar kaydedilemedi."
+
+#: Controller/RisksController.php:102
+msgid "Error, cannot save settings."
+msgstr "Hata, ayarlar kaydedilemedi."
+
+#: Controller/SettingsController.php:73;88;102;116;130;144;162;178;196;214
+msgid "Can't save settings."
+msgstr "Ayarlar kaydedilemedi."
+
+#: Controller/TicketsController.php:89
+msgid "Types chart"
+msgstr "Tür grafiği"
+
+#: Controller/TicketsController.php:183
+msgid "Cannot find ticket with id: "
+msgstr "İstenilen ID ile destek talebi bulunamadı: "
+
+#: Controller/TicketsController.php:257
+msgid "Cannot find ticket with id: %d "
+msgstr "İstenilen ID ile destek talebi bulunamadı: %d "
+
+#: Controller/TicketsController.php:271
+msgid "Ticket with id: %d events information update are scheduled. Typically one event updates in one minute."
+msgstr "Id ile Bilet: %d olayları bilgi güncelleme yapılmaktadır. Bir dakika içinde Tipik bir olay güncellemeleri."
+
+#: Controller/TicketsController.php:306
+#: View/Themed/ChalkPro/Tickets/view.ctp:80
+msgid "Ticket is not found"
+msgstr "Destek talebi bulunamadı"
+
+#: Controller/TicketsController.php:307
+#: View/Themed/ChalkPro/Elements/layout-blocks/left-block/search-ticket.ctp:18
+msgid "Unknown ticket status"
+msgstr "Bilinmeyen destek talebi durumu"
+
+#: Controller/TicketsController.php:308
+#: View/Themed/ChalkPro/Elements/layout-blocks/left-block/search-ticket.ctp:22
+msgid "Unknown paid status"
+msgstr "Bilinmeyen \"ödendi\" durumu"
+
+#: Controller/TicketsController.php:311
+msgid "Ok"
+msgstr "Tamam"
+
+#: Controller/TicketsController.php:358
+msgid "Ticket not found or is already marked as paid"
+msgstr "Destek bileti bulunamadı veya önceden ödendi olarak işaretlendi"
+
+#: Controller/TicketsController.php:370
+msgid "Insufficient credits"
+msgstr "Yetersiz bakiye"
+
+#: Controller/TicketsController.php:375
+msgid "Ticket is still pending or lost"
+msgstr "Destek talebi hala beklemede"
+
+#: Controller/TicketsController.php:410
+msgid "Ticket does not exist. Ticket ID: %d"
+msgstr "Destek talebi mevcut değil. ID: %d"
+
+#: Controller/TicketsController.php:419
+msgid "Ticket already printed. Ticket ID: %d"
+msgstr "Destek talebi zaten yazdırılmış. ID: %d"
+
+#: Controller/TicketsController.php:423
+msgid "Cannot find ticket. Ticket ID: %d"
+msgstr "Destek talebi bulunamadı. ID: %d"
+
+#: Controller/TicketsController.php:525
+msgid "Please select another pick from different event"
+msgstr "Lütfen farklı bir etkinlikten başka bir seçim yapın"
+
+#: Controller/TicketsController.php:657
+msgid "Lowest stake amount is %d%s"
+msgstr "En düşük bahis miktarı %d %s"
+
+#: Controller/TicketsController.php:659
+msgid "Highest stake amount is %d%s"
+msgstr "En yüksek bahis miktarı %d %s"
+
+#: Controller/TicketsController.php:661
+msgid "Highest winning amount is %d%s"
+msgstr "En yüksek kazanan miktarı %d %s"
+
+#: Controller/TicketsController.php:663
+msgid "Unknown Error Occurred. Please try again later."
+msgstr "Bilinmeyen hata oluştu. Lütfen daha sonra tekrar deneyiniz."
+
+#: Controller/UsersController.php:205;414
+msgid "Password changed"
+msgstr "Şifre değiştirildi"
+
+#: Controller/UsersController.php:208
+msgid "Wrong old password. Please try again"
+msgstr "Yanlış eski şifre. Lütfen tekrar deneyin"
+
+#: Controller/UsersController.php:211;418
+msgid "Passwords do not match. Please try again"
+msgstr "Şifreler eşleşmedi. Lütfen tekrar deneyin"
+
+#: Controller/UsersController.php:268
+msgid "Account information updated."
+msgstr "Hesap bilgileri güncellendi."
+
+#: Controller/UsersController.php:345
+msgid "Account settings updated."
+msgstr "Hesap ayarları güncellendi."
+
+#: Controller/UsersController.php:347
+msgid "Cannot save settings. Please try again after few moments."
+msgstr "Ayarlar kaydedilemedi. Lütfen birkaç dakika sonra tekrar deneyin."
+
+#: Controller/UsersController.php:437
+msgid "Password reset link sent to your email"
+msgstr "Parola sıfırlama bağlantısı e-postanıza gönderildi"
+
+#: Controller/UsersController.php:440
+msgid "E-mail not valid"
+msgstr "E-posta geçerli değil"
+
+#: Controller/UsersController.php:472
+msgid "Promotional code successfully used"
+msgstr "Promosyon kodu başarıyla kullanıldı"
+
+#: Controller/UsersController.php:474;478
+msgid "Invalid promotional code"
+msgstr "Geçersiz promosyon kodu"
+
+#: Controller/UsersController.php:499
+msgid "Please confirm your email."
+msgstr "Lütfen epostanızı onaylayın."
+
+#: Controller/UsersController.php:534;539
+msgid "Username or password is incorrect"
+msgstr "Kullanıcı adı veya şifre yanlış"
+
+#: Controller/WithdrawsController.php:65
+msgid "Lowest amount for cashout is "
+msgstr "Para çekimi için en düşük tutar"
+
+#: Controller/WithdrawsController.php:67
+msgid "Highest amount for cashout is "
+msgstr "Para çekimi için en yüksek tutar"
+
+#: Controller/WithdrawsController.php:69
+msgid "Not enough money for this cashout transaction"
+msgstr "Bu para çekme işlemi için yetersiz bakiye"
+
+#: Controller/WithdrawsController.php:71
+msgid "Previous withdrawal transaction is not completed"
+msgstr "Önceki para çekme işlemi tamamlanmadı"
+
+#: Controller/WithdrawsController.php:74
+msgid "Your withdrawal request for "
+msgstr "Çekim talebiniz"
+
+#: Controller/WithdrawsController.php:100
+msgid "Bank information updated."
+msgstr "Banka bilgileri güncellendi."
+
+#: Controller/WithdrawsController.php:230
+msgid "Withdraw request set as completed"
+msgstr "Para çekme talebi tamamlandı olarak işaretlendi"
+
+#: Controller/WithdrawsController.php:254
+msgid "Amount should be positive"
+msgstr "Girilen tutar pozitif olmalı"
+
+#: Controller/WithdrawsController.php:263
+msgid "User %s is charged by %d %s"
+msgstr "%s kullanıcısından  %d %s tahsil edildi"
+
+#: Controller/WithdrawsController.php:281
+msgid "Withdraw request cancelled"
+msgstr "Para çekme talebi iptal edildi"
+
+#: Controller/WithdrawsController.php:314
+msgid "can't find"
+msgstr "bulamıyorum"
+
+#: Controller/Component/TimeZoneComponent.php:329
+msgid "days"
+msgstr "gün"
+
+#: Controller/Component/TimeZoneComponent.php:329
+msgid "day"
+msgstr "gün"
+
+#: Controller/Component/TimeZoneComponent.php:339
+msgid "h"
+msgstr "s"
+
+#: Controller/Component/TimeZoneComponent.php:349
+msgid "min"
+msgstr "dakika"
+
+#: Event/StaffListener.php:108;112
+msgid "Unlimited"
+msgstr "Sınırsız"
+
+#: Event/StaffListener.php:200
+msgid "The agent cannot be created. You have reach your limit. Please contact your service provider."
+msgstr "Yetkili oluşturma limitini aştınız. Lütfen servis sağlayıcınızla görüşün."
+
+#: Event/UserListener.php:168
+msgid "The user cannot be created. You have reach your limit. Please contact your service provider."
+msgstr "Kullanıcı oluşturma limitinizi aştınız. Lütfen servis sağlayıcınızla görüşün."
+
+#: Model/AppModel.php:170 Model/Bet.php:472;478 Model/Staff.php:116
+#: Model/Ticket.php:209 Model/User.php:538;580
+#: View/Themed/Admin/Leagues/admin_view.ctp:50
+#: View/Themed/Admin/Sports/admin_view.ctp:51
+msgid "Yes"
+msgstr "Evet "
+
+#: Model/AppModel.php:172 Model/Bet.php:472;478 Model/Staff.php:117
+#: Model/Ticket.php:207;208 Model/User.php:538;580
+#: View/Themed/Admin/Leagues/admin_view.ctp:52
+#: View/Themed/Admin/Sports/admin_view.ctp:53
+msgid "No"
+msgstr "Hayır  "
+
+#: Model/AppModel.php:553;721 Model/Event.php:249 Model/Group.php:167
+#: Model/Sport.php:216 Plugin/Content/Model/Menu.php:210
+#: Plugin/Content/Model/Page.php:156 View/Themed/Admin/Sports/admin_view.ctp:57
+#: View/Themed/ChalkPro/Elements/layout-blocks/left-block/search-ticket.ctp:27
+#: View/Themed/ChalkPro/Tickets/history.ctp:37
+#: View/Themed/ChalkPro/Tickets/index.ctp:40
+#: View/Themed/Redesign/Tickets/history.ctp:41
+#: View/Themed/Redesign/Tickets/index.ctp:41
+msgid "View"
+msgstr "Görünüm"
+
+#: Model/AppModel.php:561;725 Model/Event.php:253 Model/Group.php:175
+#: Model/League.php:287 Model/Sport.php:223 Model/Staff.php:251
+#: Model/User.php:409 Plugin/Content/Model/Menu.php:218
+#: Plugin/Content/Model/Page.php:164 View/Themed/Admin/Events/admin_view.ctp:58
+#: View/Themed/Admin/Leagues/admin_view.ctp:56
+#: View/Themed/Admin/Sports/admin_view.ctp:58
+msgid "Edit"
+msgstr "Düzenle "
+
+#: Model/AppModel.php:569 Model/Group.php:183 Model/Staff.php:259
+#: Model/User.php:417 Plugin/Content/Model/Menu.php:226
+#: Plugin/Content/Model/Page.php:172 View/Themed/Admin/Events/admin_view.ctp:59
+#: View/Themed/Admin/Leagues/admin_view.ctp:57
+#: View/Themed/Admin/Tickets/admin_view.ctp:65
+msgid "Delete"
+msgstr "Sil"
+
+#: Model/AppModel.php:696 Model/Event.php:242
+msgid "List"
+msgstr "Liste"
+
+#: Model/AppModel.php:704;714 View/Themed/Admin/Elements/add.ctp:9
+msgid "Create"
+msgstr "Oluştur"
+
+#: Model/Bet.php:452
+#: View/Themed/Admin/Elements/Events/nordicbet/handicap/head.ctp:5
+msgid "Handicap"
+msgstr "Handikap"
+
+#: Model/Bet.php:458
+msgid "Double Chance"
+msgstr "Çifte Şans"
+
+#: Model/Bet.php:464
+msgid "Double Chance Halftime"
+msgstr "Çifte Şans İlk yarı"
+
+#: Model/Bet.php:470
+msgid "Home to Score"
+msgstr "Ev Atacak"
+
+#: Model/Bet.php:476
+msgid "Away to Score"
+msgstr "Deplasman Atacak"
+
+#: Model/Bet.php:482
+msgid "Under/Over"
+msgstr "Üst / Alt"
+
+#: Model/Bet.php:488
+msgid "Halftime/Fulltime"
+msgstr "İlk yarı / Maç sonucu"
+
+#: Model/Bet.php:503
+msgid "Bet type \" %s \" is not implemented for printing."
+msgstr "Bahis türü \" %s \" baskı için uygulanmadı."
+
+#: Model/BonusCode.php:109;136 Model/Currency.php:103;117
+#: View/Themed/ChalkPro/Users/bonus.ctp:13
+msgid "Code"
+msgstr "Kod"
+
+#: Model/BonusCode.php:114;141 Plugin/Payments/View/EgoPay/index.ctp:11
+#: Plugin/Payments/View/Etranzact/index.ctp:11
+#: Plugin/Payments/View/InterSwitch/index.ctp:11
+#: Plugin/Payments/View/PerfectMoney/index.ctp:11
+#: View/Themed/Admin/Risks/admin_warnings.ctp:127
+#: View/Themed/ChalkPro/Deposits/deposit.ctp:11
+#: View/Themed/ChalkPro/Deposits/index.ctp:15
+#: View/Themed/ChalkPro/Elements/Deposits/preview.ctp:13
+#: View/Themed/ChalkPro/Tickets/history.ctp:16
+#: View/Themed/ChalkPro/Tickets/index.ctp:16
+#: View/Themed/ChalkPro/Withdraws/index.ctp:18;43
+#: View/Themed/Redesign/Deposits/deposit.ctp:11
+#: View/Themed/Redesign/Deposits/index.ctp:16;42;43
+#: View/Themed/Redesign/Deposits/preview.ctp:26
+#: View/Themed/Redesign/Tickets/history.ctp:16
+#: View/Themed/Redesign/Tickets/index.ctp:16
+#: View/Themed/Redesign/Tickets/view.ctp:54
+#: View/Themed/Redesign/Withdraws/index.ctp:18;48
+msgid "Amount"
+msgstr "Miktar"
+
+#: Model/BonusCode.php:119;146
+msgid "Times used"
+msgstr "Kullanım Miktarı"
+
+#: Model/BonusCode.php:122;149
+msgid "Expires"
+msgstr "Zaman Aşımı Tarihi"
+
+#: Model/Currency.php:102;116 View/Themed/Admin/Bets/admin_add.ctp:13
+#: View/Themed/Admin/Bets/admin_edit.ctp:35
+#: View/Themed/Admin/Countries/admin_add.ctp:13
+#: View/Themed/Admin/Countries/admin_edit.ctp:35
+#: View/Themed/Admin/Events/admin_view.ctp:38
+#: View/Themed/Admin/Mails/contact.ctp:14
+#: View/Themed/ChalkPro/Mails/contact.ctp:13
+#: View/Themed/Redesign/Mails/contact.ctp:13
+msgid "Name"
+msgstr "İsim"
+
+#: Model/Currency.php:104;118
+msgid "Rate"
+msgstr "Oran"
+
+#: Model/Deposit.php:141
+msgid "Credited by staff"
+msgstr "Yetkili tarafından ödendi"
+
+#: Model/Deposit.php:153 Model/Withdraw.php:141
+msgid "User %s (ID: %d) account was credited by %s"
+msgstr "%s (ID: %d ) kullanıcı hesabına,  %s tarafindan ödeme yapıldı"
+
+#: Model/Deposit.php:458 Model/Withdraw.php:188
+msgid "Complete"
+msgstr "Tamamlandı"
+
+#: Model/Deposit.php:464 Model/Withdraw.php:195
+#: View/Themed/Admin/Results/admin_all_events.ctp:62
+#: View/Themed/Admin/Results/admin_league.ctp:62
+#: View/Themed/Admin/Tickets/admin_view.ctp:58;67
+#: View/Themed/ChalkPro/Tickets/get_history.ctp:26
+#: View/Themed/Redesign/Tickets/get_history.ctp:27
+msgid "Cancel"
+msgstr "İptal et"
+
+#: Model/Deposit.php:493 Model/Withdraw.php:415
+msgid "Amount from"
+msgstr "Miktar dan"
+
+#: Model/Deposit.php:495 Model/Withdraw.php:417
+msgid "Amount to"
+msgstr "Miktar a"
+
+#: Model/Deposit.php:499 View/Themed/ChalkPro/Deposits/index.ctp:17
+#: View/Themed/Redesign/Deposits/index.ctp:18
+msgid "Transaction ID"
+msgstr "İşlem Numarası"
+
+#: Model/Event.php:196 View/Themed/Admin/Elements/user_menu.ctp:32
+msgid "Event name"
+msgstr "Etkinlik adı "
+
+#: Model/Group.php:234
+msgid "List groups"
+msgstr "Grupları listele"
+
+#: Model/Language.php:93 View/Themed/Admin/Users/admin_settings.ctp:33
+#: View/Themed/ChalkPro/Elements/layout-blocks/header-block/languages-list.ctp:1
+#: View/Themed/ChalkPro/Users/settings.ctp:17
+#: View/Themed/Redesign/Users/settings.ctp:23
+msgid "Language"
+msgstr "Dil"
+
+#: Model/League.php:138;177
+msgid "League name"
+msgstr "Lig adı"
+
+#: Model/League.php:235 View/Themed/Admin/Risks/admin_sports.ctp:43
+#: View/Themed/ChalkPro/Tickets/view.ctp:12
+#: View/Themed/Redesign/Tickets/view.ctp:10
+msgid "Sport"
+msgstr "Spor:"
+
+#: Model/League.php:280
+msgid "View events"
+msgstr "Etkinlikleri gör"
+
+#: Model/League.php:294
+msgid "Add Event"
+msgstr "Etkinlik Ekle"
+
+#: Model/Mail.php:67
+msgid "Send Mail"
+msgstr "Eposta Gönder"
+
+#: Model/Mail.php:76
+msgid "Send to All"
+msgstr "Herkese gönder"
+
+#: Model/Result.php:44 View/Themed/Admin/Elements/sidebar.ctp:120
+#: View/Themed/Admin/Events/admin_results.ctp:1
+#: View/Themed/Admin/Results/admin_all_all.ctp:32
+#: View/Themed/Admin/Results/admin_event.ctp:27
+msgid "Results"
+msgstr "Sonuçlar"
+
+#: Model/Result.php:53
+msgid "Finished events in tickets"
+msgstr "Kuponlardaki tamamlanan etkinlikler"
+
+#: Model/Result.php:62
+msgid "Pending events in tickets"
+msgstr "Kuponlardaki beklenen etkinlikler"
+
+#: Model/Result.php:71
+msgid "All finished events"
+msgstr "Tamamlanan tüm etkinlikler"
+
+#: Model/Setting.php:454 View/Themed/Admin/Elements/sidebar.ctp:281
+#: View/Themed/Admin/Risks/admin_warnings.ctp:6
+msgid "Warnings"
+msgstr "Uyarılar"
+
+#: Model/Setting.php:463 View/Themed/Admin/Elements/sidebar.ctp:193
+#: View/Themed/Admin/Settings/admin_withdraws_risks.ctp:43
+#: View/Themed/Admin/Users/admin_settings.ctp:1
+#: View/Themed/ChalkPro/Layouts/user-panel.ctp:67
+#: View/Themed/ChalkPro/Users/settings.ctp:3
+#: View/Themed/Redesign/Layouts/user-panel.ctp:48;78
+#: View/Themed/Redesign/Users/settings.ctp:3
+msgid "Settings"
+msgstr "Ayarlar"
+
+#: Model/Setting.php:476 View/Themed/Admin/Elements/sidebar.ctp:238
+msgid "General Settings"
+msgstr "Genel Ayarlar "
+
+#: Model/Setting.php:485
+msgid "Ticket Settings"
+msgstr "Destek Ayarları"
+
+#: Model/Setting.php:494 View/Themed/Admin/Elements/sidebar.ctp:211
+msgid "Currencies"
+msgstr "Para Birimleri"
+
+#: Model/Setting.php:503
+msgid "SEO Settings"
+msgstr "SEO Ayarları"
+
+#: Model/Setting.php:512 View/Themed/Admin/Elements/sidebar.ctp:225
+msgid "Email templates"
+msgstr "E-posta şablonları"
+
+#: Model/Sport.php:230 View/Themed/Admin/Sports/admin_view.ctp:26
+msgid "Add League"
+msgstr "Lig ekle"
+
+#: Model/Staff.php:197 Model/User.php:569 View/Themed/Admin/Users/login.ctp:12
+#: View/Themed/ChalkPro/Elements/layout-blocks/header-block/user-box.ctp:4
+#: View/Themed/ChalkPro/Users/register.ctp:44
+#: View/Themed/ChalkPro/Users/reset-password.ctp:13
+#: View/Themed/Redesign/Elements/layout-blocks/header-block/user-box.ctp:5
+#: View/Themed/Redesign/Users/register.ctp:77
+#: View/Themed/Redesign/Users/reset-password.ctp:16;17
+msgid "Password"
+msgstr "Parola "
+
+#: Model/Staff.php:268
+msgid "Fund staff"
+msgstr "Fon yetkilisi"
+
+#: Model/Staff.php:276
+msgid "Charge staff"
+msgstr "Tahsilat yetkilisi"
+
+#: Model/Ticket.php:200 Plugin/Reports/Controller/ReportsController.php:759
+msgid "Won"
+msgstr "Kazandı"
+
+#: Model/Ticket.php:202 Plugin/Reports/Controller/ReportsController.php:764
+#: View/Helper/BethHelper.php:124
+msgid "Lost"
+msgstr "Kaybetti"
+
+#: Model/Ticket.php:214 Plugin/Reports/Controller/ReportsController.php:526;790
+#: View/Themed/ChalkPro/Tickets/betslip.ctp:14
+#: View/Themed/Redesign/Tickets/betslip.ctp:9
+msgid "Single"
+msgstr "Tek Maç"
+
+#: Model/Ticket.php:215 Plugin/Reports/Controller/ReportsController.php:530;795
+#: View/Themed/ChalkPro/Tickets/betslip.ctp:15
+#: View/Themed/Redesign/Tickets/betslip.ctp:12
+msgid "Multi"
+msgstr "Kombine"
+
+#: Model/Ticket.php:303
+msgid "Mark as paid"
+msgstr "Ödendi olarak işaretle"
+
+#: Model/Ticket.php:1008;1014
+msgid "Lowest stake amount is %d %s"
+msgstr "En düşük bahis miktarı %d %s"
+
+#: Model/Ticket.php:1016
+msgid "Highest stake amount is %d %s"
+msgstr "En yüksek bahis miktarı %d %s"
+
+#: Model/Ticket.php:1021
+msgid "Not enough money to place the ticket"
+msgstr "Kuponu oynamak için yeterli bakiyen yok"
+
+#: Model/Ticket.php:1048
+msgid "You have reached maximum today's total stake limit which is %.2f %s"
+msgstr "Günlük % .2f% s olan maksimum bahis sınırına ulaştınız"
+
+#: Model/Ticket.php:1067;1071
+msgid "Lowest stake on %s is %d %s"
+msgstr "%s için en düşük bahis %d %s"
+
+#: Model/Ticket.php:1069;1073
+msgid "Highest stake on %s is %d %s"
+msgstr "%s için en yüksek bahis %d %s"
+
+#: Model/Ticket.php:1257
+msgid "Please login or register to place the ticket"
+msgstr "Bahis yapmak için lütfen giriş yapın veya kayıt olun."
+
+#: Model/Ticket.php:1261
+msgid "Sorry, you are not allowed to place tickets. Please contact support."
+msgstr "Malesef bahis yapamazsınız. Lütfen desteğe başvurun."
+
+#: Model/Ticket.php:1265
+msgid "Please select at least %d events to place the ticket"
+msgstr "Kuponu oynayabilmek için lütfen en azından %d maç ekleyin."
+
+#: Model/Ticket.php:1283
+msgid "Following event(s) are already started. <br /> Please amend them from BetSlip:"
+msgstr "Aşağıdaki maç (lar) zaten başlatılmış. <br /> Lütfen kupondan kaldırın:"
+
+#: Model/Ticket.php:1307
+msgid "Printed"
+msgstr "Basıldı"
+
+#: Model/Ticket.php:1326
+#: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:129
+#: View/Themed/Admin/Elements/user_menu.ctp:8
+#: View/Themed/ChalkPro/Tickets/history.ctp:14
+#: View/Themed/ChalkPro/Tickets/index.ctp:14
+#: View/Themed/ChalkPro/Tickets/print_ticket.ctp:11
+#: View/Themed/ChalkPro/Tickets/view.ctp:9
+#: View/Themed/Redesign/Tickets/history.ctp:14
+#: View/Themed/Redesign/Tickets/index.ctp:14
+#: View/Themed/Redesign/Tickets/print_ticket.ctp:11
+#: View/Themed/Redesign/Tickets/view.ctp:5
+msgid "Ticket ID"
+msgstr "Destek Talebi ID"
+
+#: Model/Ticket.php:1328
+msgid "Amount From"
+msgstr "Miktardan"
+
+#: Model/Ticket.php:1329
+msgid "Amount To"
+msgstr "Miktara"
+
+#: Model/Ticket.php:1334
+msgid "Potential Winning From"
+msgstr "Kazanma Olasılığından"
+
+#: Model/Ticket.php:1335
+msgid "Potential Winning To"
+msgstr "Kazanma Olasılığına"
+
+#: Model/Ticket.php:1342
+msgid "Odd From"
+msgstr "Orandan"
+
+#: Model/Ticket.php:1343
+msgid "Odd To"
+msgstr "Orana"
+
+#: Model/User.php:425
+msgid "Fund"
+msgstr "Bakiye"
+
+#: Model/User.php:433 View/Themed/Admin/Withdraws/admin_add.ctp:6
+msgid "Charge"
+msgstr "Tahsil Et"
+
+#: Model/User.php:527;551;568
+#: Plugin/Reports/View/Themed/Admin/Elements/staff.ctp:129
+#: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:130
+#: Plugin/Reports/View/Themed/Admin/Elements/user.ctp:129
+#: View/Themed/Admin/Users/login.ctp:10
+#: View/Themed/ChalkPro/Elements/layout-blocks/header-block/user-box.ctp:3;17
+#: View/Themed/ChalkPro/Users/account.ctp:11
+#: View/Themed/ChalkPro/Users/operator_panel.ctp:31
+#: View/Themed/ChalkPro/Users/register.ctp:42
+#: View/Themed/Redesign/Elements/layout-blocks/header-block/user-box.ctp:4;12
+#: View/Themed/Redesign/Users/account.ctp:13
+#: View/Themed/Redesign/Users/operator_panel.ctp:32
+#: View/Themed/Redesign/Users/register.ctp:72
+msgid "Username"
+msgstr "Kullanıcı Adı"
+
+#: Model/User.php:528;552;570 View/Themed/Admin/Mails/contact.ctp:20
+#: View/Themed/ChalkPro/Mails/contact.ctp:16
+#: View/Themed/Redesign/Mails/contact.ctp:16
+#: View/Themed/Redesign/Users/reset-password.ctp:14
+#: View/Themed/Redesign/Users/reset.ctp:13
+msgid "Email"
+msgstr "E-posta  "
+
+#: Model/User.php:529;571
+msgid "First Name"
+msgstr "Adı"
+
+#: Model/User.php:530;572
+msgid "Last Name"
+msgstr "Soyadı "
+
+#: Model/User.php:531;573
+msgid "Address1"
+msgstr "Adres*"
+
+#: Model/User.php:532;574
+msgid "Address2"
+msgstr "Adres*"
+
+#: Model/User.php:533;575
+msgid "Zip code"
+msgstr "Posta kodu :"
+
+#: Model/User.php:534;576 View/Themed/ChalkPro/Users/account.ctp:30
+#: View/Themed/ChalkPro/Users/register.ctp:21
+#: View/Themed/Redesign/Users/account.ctp:44
+#: View/Themed/Redesign/Users/register.ctp:37
+msgid "City"
+msgstr "Şehir"
+
+#: Model/User.php:535;577 View/Themed/Redesign/Users/account.ctp:49
+#: View/Themed/Redesign/Users/register.ctp:42
+msgid "Country"
+msgstr "Ülke "
+
+#: Model/User.php:536;578
+msgid "Date Of Birth"
+msgstr "Dogum Tarihi"
+
+#: Model/User.php:537;579 View/Themed/ChalkPro/Users/account.ctp:36
+#: View/Themed/ChalkPro/Users/register.ctp:33
+#: View/Themed/Redesign/Users/account.ctp:54
+#: View/Themed/Redesign/Users/register.ctp:60
+msgid "Mobile number"
+msgstr "Cep numarası"
+
+#: Model/User.php:539
+msgid "Day Stake Limit"
+msgstr "Günlük Bahis Limiti"
+
+#: Model/User.php:553 Plugin/Reports/View/Themed/Admin/Elements/staff.ctp:133
+#: Plugin/Reports/View/Themed/Admin/Elements/user.ctp:133
+#: View/Themed/ChalkPro/Elements/layout-blocks/header-block/user-box.ctp:22
+#: View/Themed/Redesign/Elements/layout-blocks/header-block/user-box.ctp:14
+msgid "Balance"
+msgstr "Bakiyesi"
+
+#: Model/Withdraw.php:129
+msgid "Charged by Staff"
+msgstr "Yetkili tarafından tahsil edildi"
+
+#: Model/Withdraw.php:403
+msgid "User ID"
+msgstr "Kullanıcı ID"
+
+#: Model/Withdraw.php:421 Plugin/Content/Model/Slide.php:131
+msgid "Identity number"
+msgstr "Kimlik Numarası"
+
+#: Plugin/AclExtras/Console/Command/AclExtrasShell.php:80
+msgid "Plugin to process"
+msgstr "İşlenecek eklenti"
+
+#: Plugin/AclExtras/Console/Command/AclExtrasShell.php:83
+msgid "Better manage, and easily synchronize you application's ACO tree"
+msgstr "Better manage, and easily synchronize you application's ACO tree"
+
+#: Plugin/AclExtras/Console/Command/AclExtrasShell.php:88
+msgid "Add new ACOs for new controllers and actions. Does not remove nodes from the ACO table."
+msgstr "Add new ACOs for new controllers and actions. Does not remove nodes from the ACO table."
+
+#: Plugin/AclExtras/Console/Command/AclExtrasShell.php:93
+msgid "Perform a full sync on the ACO table.Will create new ACOs or missing controllers and actions.Will also remove orphaned entries that no longer have a matching controller/action"
+msgstr "Perform a full sync on the ACO table.Will create new ACOs or missing controllers and actions.Will also remove orphaned entries that no longer have a matching controller/action"
+
+#: Plugin/AclExtras/Console/Command/AclExtrasShell.php:97
+msgid "Verify the tree structure of either your Aco or Aro Trees"
+msgstr "Verify the tree structure of either your Aco or Aro Trees"
+
+#: Plugin/AclExtras/Console/Command/AclExtrasShell.php:102
+msgid "The type of tree to verify"
+msgstr "The type of tree to verify"
+
+#: Plugin/AclExtras/Console/Command/AclExtrasShell.php:108
+msgid "Recover a corrupted Tree"
+msgstr "Recover a corrupted Tree"
+
+#: Plugin/AclExtras/Console/Command/AclExtrasShell.php:113
+msgid "The type of tree to recover"
+msgstr "The type of tree to recover"
+
+#: Plugin/AclExtras/Lib/AclExtras.php:123
+msgid "<error>Plugin %s not found or not activated</error>"
+msgstr "<error> Eklenti %s bulunamadı veya aktif değil </error>"
+
+#: Plugin/AclExtras/Lib/AclExtras.php:136
+msgid "<success>Aco Update Complete</success>"
+msgstr "<success>Aco Update Complete</success>"
+
+#: Plugin/AclExtras/Lib/AclExtras.php:181 Vendor/shells/aco_sync.php:120
+msgid "Deleted %s and all children"
+msgstr "%s ve tüm bağlantıları silindi."
+
+#: Plugin/AclExtras/Lib/AclExtras.php:222
+msgid "Created Aco node: <success>%s</success>"
+msgstr "Created Aco node: <success>%s</success>"
+
+#: Plugin/AclExtras/Lib/AclExtras.php:275
+msgid "Unable to get methods for \"%s\""
+msgstr " \"%s\" için metodlar alınamıyor"
+
+#: Plugin/AclExtras/Lib/AclExtras.php:296
+msgid "Deleted Aco node: <warning>%s</warning>"
+msgstr "Deleted Aco node: <warning>%s</warning>"
+
+#: Plugin/AclExtras/Lib/AclExtras.php:315
+msgid "<success>Tree is valid and strong</success>"
+msgstr "<success>Tree is valid and strong</success>"
+
+#: Plugin/AclExtras/Lib/AclExtras.php:333
+msgid "Tree has been recovered, or tree did not need recovery."
+msgstr "Tree has been recovered, or tree did not need recovery."
+
+#: Plugin/AclExtras/Lib/AclExtras.php:335
+msgid "<error>Tree recovery failed.</error>"
+msgstr "<error>Tree recovery failed.</error>"
+
+#: Plugin/Content/Controller/SlidesController.php:81
+msgid "Slide cannot be added."
+msgstr "Slayt eklenemez."
+
+#: Plugin/Content/Controller/SlidesController.php:108
+msgid "Slide edited"
+msgstr "Slayt düzenlendi"
+
+#: Plugin/Content/Controller/SlidesController.php:111
+msgid "Slide cannot be edited."
+msgstr "Slayt düzenlenemez."
+
+#: Plugin/Content/Model/Menu.php:301
+msgid "List menus"
+msgstr "Menüleri listele"
+
+#: Plugin/Content/Model/Slide.php:137
+msgid "Words in title"
+msgstr "Başlıktaki kelimeler"
+
+#: Plugin/Content/Model/Slide.php:142
+msgid "Words in description"
+msgstr "Açıklamadaki kelimeler"
+
+#: Plugin/Content/Model/Slide.php:147
+msgid "Url link"
+msgstr "URL bağlantı"
+
+#: Plugin/Content/View/Themed/Admin/Menus/admin_add.ctp:6
+#: Plugin/Content/View/Themed/Admin/News/admin_add.ctp:6
+#: Plugin/Reports/View/Themed/Admin/Reports/admin_cashier_daily.ctp:7
+#: Plugin/Reports/View/Themed/Admin/Reports/admin_financial_report.ctp:7
+#: Plugin/Reports/View/Themed/Admin/Reports/admin_operator_daily.ctp:7
+#: Plugin/Reports/View/Themed/Admin/Reports/admin_sportsbook_daily.ctp:7
+#: View/Themed/Admin/Feeds/admin_add.ctp:6
+#: View/Themed/Admin/Groups/admin_add.ctp:6
+#: View/Themed/Admin/Mails/admin_all.ctp:6
+#: View/Themed/Admin/Mails/admin_index.ctp:6
+#: View/Themed/Admin/Results/admin_all_all.ctp:6
+#: View/Themed/Admin/Results/admin_all_events.ctp:6
+#: View/Themed/Admin/Results/admin_all_leagues.ctp:6
+#: View/Themed/Admin/Results/admin_event.ctp:6
+#: View/Themed/Admin/Results/admin_league.ctp:6
+#: View/Themed/Admin/Results/admin_sport.ctp:6
+#: View/Themed/Admin/Results/admin_view.ctp:6
+#: View/Themed/Admin/Staffs/admin_add.ctp:6
+msgid "Create %s"
+msgstr "%s Oluştur"
+
+#: Plugin/Content/View/Themed/Admin/Menus/admin_edit.ctp:6
+#: Plugin/Content/View/Themed/Admin/News/admin_edit.ctp:6
+#: View/Themed/Admin/Feeds/admin_edit.ctp:6
+#: View/Themed/Admin/Groups/admin_edit.ctp:6
+#: View/Themed/Admin/Leagues/admin_edit.ctp:6
+#: View/Themed/Admin/Settings/admin_promo.ctp:6
+#: View/Themed/Admin/Slides/admin_add.ctp:6
+#: View/Themed/Admin/Slides/admin_edit.ctp:6
+#: View/Themed/Admin/Staffs/admin_edit.ctp:6
+#: View/Themed/Admin/Templates/admin_edit.ctp:6
+#: View/Themed/Admin/Tickets/admin_edit.ctp:6
+#: View/Themed/Admin/Users/admin_edit.ctp:6
+msgid "Edit %s"
+msgstr " %s Düzenle"
+
+#: Plugin/Content/View/Themed/Admin/Menus/admin_index.ctp:6
+#: Plugin/Content/View/Themed/Admin/Menus/admin_translate.ctp:6
+#: Plugin/Content/View/Themed/Admin/Menus/admin_view.ctp:6
+#: Plugin/Content/View/Themed/Admin/News/admin_index.ctp:6
+#: Plugin/Content/View/Themed/Admin/News/admin_translate.ctp:6
+#: Plugin/Content/View/Themed/Admin/News/admin_view.ctp:6
+#: Plugin/Content/View/Themed/Admin/Pages/admin_add.ctp:6
+#: Plugin/Content/View/Themed/Admin/Pages/admin_edit.ctp:6
+#: Plugin/Content/View/Themed/Admin/Pages/admin_index.ctp:6
+#: Plugin/Content/View/Themed/Admin/Pages/admin_translate.ctp:6
+#: Plugin/Content/View/Themed/Admin/Pages/admin_view.ctp:6
+#: View/Themed/Admin/Bets/admin_edit.ctp:6
+#: View/Themed/Admin/Bets/admin_index.ctp:6
+#: View/Themed/Admin/Bets/admin_view.ctp:6
+#: View/Themed/Admin/BonusCodes/admin_add.ctp:6
+#: View/Themed/Admin/BonusCodes/admin_edit.ctp:6
+#: View/Themed/Admin/BonusCodes/admin_index.ctp:6
+#: View/Themed/Admin/BonusCodes/admin_view.ctp:6
+#: View/Themed/Admin/Countries/admin_edit.ctp:6
+#: View/Themed/Admin/Countries/admin_index.ctp:6
+#: View/Themed/Admin/Countries/admin_translate.ctp:6
+#: View/Themed/Admin/Countries/admin_view.ctp:6
+#: View/Themed/Admin/Currencies/admin_add.ctp:6
+#: View/Themed/Admin/Currencies/admin_edit.ctp:6
+#: View/Themed/Admin/Currencies/admin_index.ctp:6
+#: View/Themed/Admin/Currencies/admin_view.ctp:6
+#: View/Themed/Admin/Deposits/admin_index.ctp:6
+#: View/Themed/Admin/Deposits/admin_view.ctp:6
+#: View/Themed/Admin/Events/admin_add.ctp:6
+#: View/Themed/Admin/Events/admin_edit.ctp:6
+#: View/Themed/Admin/Events/admin_index.ctp:6
+#: View/Themed/Admin/Events/admin_view.ctp:6
+#: View/Themed/Admin/Feeds/admin_index.ctp:6
+#: View/Themed/Admin/Feeds/admin_view.ctp:6
+#: View/Themed/Admin/Groups/admin_index.ctp:6
+#: View/Themed/Admin/Groups/admin_view.ctp:6
+#: View/Themed/Admin/Leagues/admin_add.ctp:6
+#: View/Themed/Admin/Leagues/admin_index.ctp:6
+#: View/Themed/Admin/Leagues/admin_view.ctp:6
+#: View/Themed/Admin/MbMenus/admin_add.ctp:6
+#: View/Themed/Admin/MbMenus/admin_edit.ctp:6
+#: View/Themed/Admin/MbMenus/admin_index.ctp:6
+#: View/Themed/Admin/MbMenus/admin_translate.ctp:6
+#: View/Themed/Admin/MbMenus/admin_view.ctp:6
+#: View/Themed/Admin/MhMenus/admin_add.ctp:6
+#: View/Themed/Admin/MhMenus/admin_edit.ctp:6
+#: View/Themed/Admin/MhMenus/admin_index.ctp:6
+#: View/Themed/Admin/MhMenus/admin_translate.ctp:6
+#: View/Themed/Admin/MhMenus/admin_view.ctp:6
+#: View/Themed/Admin/MtMenus/admin_add.ctp:6
+#: View/Themed/Admin/MtMenus/admin_edit.ctp:6
+#: View/Themed/Admin/MtMenus/admin_index.ctp:6
+#: View/Themed/Admin/MtMenus/admin_translate.ctp:6
+#: View/Themed/Admin/MtMenus/admin_view.ctp:6
+#: View/Themed/Admin/PaymentBonusGroups/admin_add.ctp:6
+#: View/Themed/Admin/PaymentBonusGroups/admin_edit.ctp:6
+#: View/Themed/Admin/PaymentBonusGroups/admin_index.ctp:6
+#: View/Themed/Admin/PaymentBonusGroups/admin_view.ctp:6
+#: View/Themed/Admin/Slides/admin_view.ctp:6
+#: View/Themed/Admin/Sports/admin_add.ctp:6
+#: View/Themed/Admin/Sports/admin_edit.ctp:6
+#: View/Themed/Admin/Sports/admin_index.ctp:6
+#: View/Themed/Admin/Sports/admin_translate.ctp:6
+#: View/Themed/Admin/Sports/admin_view.ctp:6
+#: View/Themed/Admin/Staffs/admin_index.ctp:6
+#: View/Themed/Admin/Templates/admin_add.ctp:6
+#: View/Themed/Admin/Templates/admin_index.ctp:6
+#: View/Themed/Admin/Templates/admin_translate.ctp:6
+#: View/Themed/Admin/Templates/admin_view.ctp:6
+#: View/Themed/Admin/Tickets/admin_index.ctp:6
+#: View/Themed/Admin/Users/admin_index.ctp:6
+#: View/Themed/Admin/Users/admin_index_new.ctp:6
+#: View/Themed/Admin/Users/admin_view.ctp:6
+#: View/Themed/Admin/Withdraws/admin_index.ctp:6
+msgid "List %s"
+msgstr "%s Listele"
+
+#: Plugin/Content/View/Themed/ChalkPro/Pages/main.ctp:9
+msgid "Last Minute Bets"
+msgstr "Son Dakika Bahisleri"
+
+#: Plugin/Content/View/Themed/ChalkPro/Pages/main.ctp:14
+msgid "Shortly"
+msgstr "Kısaca"
+
+#: Plugin/Content/View/Themed/ChalkPro/Pages/main.ctp:22
+msgid "%d events available"
+msgstr "%d etkinlikleri mevcut"
+
+#: Plugin/Content/View/Themed/ChalkPro/Pages/main.ctp:35
+msgid "News"
+msgstr "Haberler"
+
+#: Plugin/Content/View/Themed/ChalkPro/Pages/main.ctp:40
+msgid "Read more"
+msgstr "Daha fazla oku"
+
+#: Plugin/Content/View/Themed/ChalkPro/Pages/main.ctp:59;98;137
+msgid "Bet now"
+msgstr "Hemen bahis yap"
+
+#: Plugin/Content/View/Themed/ChalkPro/Pages/main.ctp:60
+msgid "Football"
+msgstr "Futbol"
+
+#: Plugin/Content/View/Themed/ChalkPro/Pages/main.ctp:68;146
+msgid "Draw"
+msgstr "Beraberlik"
+
+#: Plugin/Content/View/Themed/ChalkPro/Pages/main.ctp:99
+msgid "Basketball"
+msgstr "Basketbol"
+
+#: Plugin/Content/View/Themed/ChalkPro/Pages/main.ctp:138
+msgid "Ice Hockey"
+msgstr "Buz Hokeyi"
+
+#: Plugin/Events/Controller/EventsController.php:123
+msgid "Select Sport"
+msgstr "Spor Seç"
+
+#: Plugin/Events/Controller/EventsController.php:183
+msgid "Date %s - %s"
+msgstr "Tarih %s: %s"
+
+#: Plugin/Events/Controller/EventsController.php:212
+msgid "%s / %s / %s"
+msgstr "%1$s%2$s%3$s"
+
+#: Plugin/Events/Controller/SearchController.php:44;67
+msgid "Sorry, no search results found"
+msgstr "Üzgünüz, arama sonucu bulunamadı"
+
+#: Plugin/Events/Controller/SearchController.php:111
+msgid "No search results found"
+msgstr "Hiçbir arama sonucu bulunamadı"
+
+#: Plugin/Events/View/Themed/ChalkPro/search/display-search-results.ctp:5
+msgid "Search results for:"
+msgstr "Arama sonuçları:"
+
+#: Plugin/Events/View/Themed/ChalkPro/search/display-search-results.ctp:24;27;42;47
+msgid "No available events are found for this league"
+msgstr "Bu lig için herhangi bir etkinlik bulunamadı"
+
+#: Plugin/Events/View/Themed/ChalkPro/search/index.ctp:9;18
+#: Plugin/Events/View/Themed/ChalkPro/search/no-search-results.ctp:12;17
+#: View/Themed/Admin/Elements/search.ctp:20
+#: View/Themed/ChalkPro/Elements/layout-blocks/left-block/search-ticket.ctp:5
+msgid "Search"
+msgstr "Ara  "
+
+#: Plugin/Events/View/Themed/ChalkPro/search/no-search-results.ctp:3
+msgid "Search Events"
+msgstr "Etkinlik Ara"
+
+#: Plugin/Events/View/Themed/ChalkPro/search/no-search-results.ctp:10
+msgid "Search another event ID"
+msgstr "Başka etkinlik numarasını ara"
+
+#: Plugin/Events/View/Themed/ChalkPro/search/no-search-results.ctp:15
+msgid "Search another event name"
+msgstr "Başka etkinlik ismini ara"
+
+#: Plugin/Feeds/Console/Command/EnetPulseShell.php:54;80
+msgid "#%d - %s"
+msgstr "395. % Ds"
+
+#: Plugin/Feeds/Console/Command/EnetPulseShell.php:102
+#: Plugin/Feeds/Console/Command/OddServiceShell.php:450
+msgid "Parsing xml start!"
+msgstr "XML Ayrıştırmayı Başlatın!"
+
+#: Plugin/Feeds/Console/Command/EnetPulseShell.php:116
+#: Plugin/Feeds/Console/Command/OddServiceShell.php:466
+msgid "Total objects count: %d"
+msgstr "Toplam nesne sayısı: %d"
+
+#: Plugin/Feeds/Console/Command/EnetPulseShell.php:117
+#: Plugin/Feeds/Console/Command/OddServiceShell.php:467
+msgid "Total queries count: %d"
+msgstr "Toplam sorgu sayısı: %d"
+
+#: Plugin/Feeds/Console/Command/EnetPulseShell.php:123
+#: Plugin/Feeds/Console/Command/OddServiceShell.php:473
+msgid "i: %d; Offset: %d; Limit: %d"
+msgstr "i: %d ; Offset: %d ; Limit: %d"
+
+#: Plugin/Feeds/Console/Command/EnetPulseShell.php:142
+#: Plugin/Feeds/Console/Command/OddServiceShell.php:489
+msgid "Parsing xml by id: %d"
+msgstr "XML yi ID ile ayrıştırıyor: %d"
+
+#: Plugin/Feeds/Controller/EnetPulseController.php:50
+#: Plugin/Feeds/Controller/OddServiceController.php:132
+msgid "%s XML file does not meets validation rules. Import Aborting."
+msgstr "%s XML dosyası doğrulama kuralları karşılamıyor. Aktarma İptal Ediliyor."
+
+#: Plugin/Feeds/Controller/FeedsController.php:55;96
+msgid "All feeds updated"
+msgstr "Tüm beslemeler güncellendi"
+
+#: Plugin/Feeds/Controller/FeedsController.php:68
+msgid "All feeds downloaded"
+msgstr "Tüm beslemeler indirildi"
+
+#: Plugin/Feeds/Controller/FeedsController.php:77
+msgid "All feeds parsed"
+msgstr "Tüm beslemeler çözüldü"
+
+#: Plugin/Feeds/Controller/FeedsController.php:123
+msgid "Feed updated"
+msgstr "Besleme güncellendi"
+
+#: Plugin/Feeds/Controller/FeedsController.php:132;161
+msgid "Cannot find feed"
+msgstr "Besleme bulunamadı"
+
+#: Plugin/Feeds/Model/EnetPulse.php:113
+msgid "%s feed XML unknown tmp_name."
+msgstr "%s besleme XML bilinmeyen tmp_name."
+
+#: Plugin/Feeds/Model/EnetPulse.php:117
+msgid "%s feed xml import possible file upload attack."
+msgstr "%s besleme xml import mümkün dosya yükleme saldırısı."
+
+#: Plugin/Feeds/Model/EnetPulse.php:164 Plugin/Feeds/Model/OddService.php:245
+msgid "%s feed cannot save xml entry to database"
+msgstr "%s besleme veritabanına XML girişini kaydedemiyor"
+
+#: Plugin/Feeds/Model/EnetPulse.php:179
+msgid "%s feed cannot move tmp xml file"
+msgstr "%s besleme tmp xml dosyasının yerini değiştiremiyor"
+
+#: Plugin/Feeds/Model/FeedsAppModel.php:72
+msgid "Update"
+msgstr "Güncelle "
+
+#: Plugin/Feeds/Model/FeedsAppModel.php:94
+msgid "Update All"
+msgstr "Hepsini Güncelle"
+
+#: Plugin/Feeds/Model/OddService.php:179
+msgid "%s feed xml empty request has passed."
+msgstr "%s besleme xml boş isteği geçti."
+
+#: Plugin/Feeds/Model/OddService.php:183
+msgid "%s feed xml expected %d params count, got %d"
+msgstr "%s besleme xml beklenen %d parametre, işlenen %d parametre"
+
+#: Plugin/Feeds/Model/OddService.php:189
+msgid "%s feed xml validate error: %s"
+msgstr "%s besleme xml doğrulama hatası: %s"
+
+#: Plugin/Payments/Config/EgoPay.php:20;25
+#: Plugin/Payments/Config/PerfectMoney.php:19;24
+msgid "Account field are required and should be no larger than 50 characters long."
+msgstr "Hesap alanı gereklidir ve 50 karakterden daha büyük olmamalıdır."
+
+#: Plugin/Payments/Config/EgoPay.php:32
+#: Plugin/Payments/Config/PerfectMoney.php:31
+msgid "Amount field are required and should be a valid monetary amount."
+msgstr "Miktar alanı gereklidir ve geçerli bir parasal tutar olmalıdır."
+
+#: Plugin/Payments/Config/EgoPay.php:36
+#: Plugin/Payments/Config/PerfectMoney.php:35
+msgid "Lowest amount for cash out is %s%s"
+msgstr "Para çekimi için en düşük miktar %s %s"
+
+#: Plugin/Payments/Config/EgoPay.php:40
+#: Plugin/Payments/Config/PerfectMoney.php:39
+msgid "Highest amount for cash out is %s%s"
+msgstr "Para çekimi için en yüksek miktar  %s %s"
+
+#: Plugin/Payments/Config/EgoPay.php:44
+#: Plugin/Payments/Config/PerfectMoney.php:43
+msgid "Not enough balance for requested cash out transaction."
+msgstr "Talep edilen para çekimi için yetersiz bakiye."
+
+#: Plugin/Payments/Config/EgoPay.php:48
+#: Plugin/Payments/Config/PerfectMoney.php:47
+msgid "Cannot add new cash out transaction while previous withdrawal transactions are not completed."
+msgstr "Bir önceki para çekme talebi tamamlanmadan yeni bir talep oluşturamazsınız."
+
+#: Plugin/Payments/Config/Etranzact.php:16
+#: Plugin/Payments/View/EgoPay/index.ctp:17
+#: Plugin/Payments/View/Etranzact/index.ctp:17
+#: Plugin/Payments/View/InterSwitch/index.ctp:17
+#: Plugin/Payments/View/PerfectMoney/index.ctp:17
+#: View/Themed/ChalkPro/Deposits/deposit.ctp:17
+#: View/Themed/ChalkPro/Deposits/index.ctp:2
+#: View/Themed/ChalkPro/Layouts/user-panel.ctp:53
+#: View/Themed/Redesign/Deposits/deposit.ctp:17
+#: View/Themed/Redesign/Deposits/index.ctp:2
+#: View/Themed/Redesign/Layouts/user-panel.ctp:64
+msgid "Deposit"
+msgstr "Yatıracağınız"
+
+#: Plugin/Payments/Controller/EgoPayController.php:104
+msgid "Payment for Deposit %s"
+msgstr "Mevduat için ödeme %s"
+
+#: Plugin/Payments/Controller/EgoPayController.php:138
+#: Plugin/Payments/Controller/PerfectMoneyController.php:118
+msgid "You have requested withdraw by %s payment provider."
+msgstr "%s ile para çekme talebinde bulundun."
+
+#: Plugin/Payments/Controller/EgoPayController.php:204
+#: Plugin/Payments/Controller/PerfectMoneyController.php:181
+msgid ""
+"Wrong callback params passed. Required: %s \n"
+" Passed: %s"
+msgstr "Geçersiz callback parametleri gönderildi. Gerekli: %s \\ n Geçti: %s"
+
+#: Plugin/Payments/Controller/EgoPayController.php:214
+#: Plugin/Payments/Controller/PerfectMoneyController.php:191
+msgid "Unknown %s payment ID. Expected IDS got %s"
+msgstr "Bilinmeyen %s ödeme kimliği. Beklenen ID %s"
+
+#: Plugin/Payments/Controller/EgoPayController.php:223
+#: Plugin/Payments/Controller/PerfectMoneyController.php:200
+msgid ""
+"Cannot find payment or its already processed by requested data: %s \n"
+" Database payment: %s"
+msgstr ""
+"Ödeme bulunamıyor veya daha önce istenilen veri tarafından işlendi: %s \n"
+" \n"
+"Veritabanı ödeme: %s"
+
+#: Plugin/Payments/Controller/EgoPayController.php:227
+msgid ""
+"Invalid payment currency by requested data: %s \n"
+" Database payment: %s"
+msgstr ""
+"İstenilen veriden geçersiz para birimi: %s \n"
+" \n"
+"Veritabanı ödeme: %s"
+
+#: Plugin/Payments/Controller/EgoPayController.php:231
+msgid ""
+"Invalid payment amount by requested data: %s \n"
+" Database payment: %s"
+msgstr "İstenilen veri için geçersiz ödeme tutarı: %s \\ n Veritabanı ödeme: %s"
+
+#: Plugin/Payments/Controller/EgoPayController.php:262
+#: Plugin/Payments/Controller/PerfectMoneyController.php:235
+msgid "You have successfully made payment by %s payment provider."
+msgstr "%s başarıyla ödeme yaptınız."
+
+#: Plugin/Payments/Controller/EtranzactController.php:149
+#: Plugin/Payments/Controller/InterSwitchController.php:160
+msgid "You have successfully made deposit for "
+msgstr "Başarıyla hesap bakiyenize eklediniz"
+
+#: Plugin/Payments/Controller/EtranzactController.php:151
+#: Plugin/Payments/Controller/InterSwitchController.php:162
+msgid "Sorry, we can not find your payment"
+msgstr "Üzgünüz, ödemenizi bulamıyoruz"
+
+#: Plugin/Payments/Controller/PaymentAppController.php:105
+msgid "Provider %s must implement submitPayment() method"
+msgstr "%s ödeme sağlayıcısı submitPayment() yöntemini uygulamalıdır."
+
+#: Plugin/Payments/Controller/PaymentAppController.php:110
+msgid "Provider %s must implement submitWithdraw() method"
+msgstr "%s ödeme sağlayıcısı submitWithdraw() yöntemini uygulamalıdır."
+
+#: Plugin/Payments/Controller/PerfectMoneyController.php:175
+msgid "Error in callback request passed: %s"
+msgstr "Geri arama isteğinde hata: %s"
+
+#: Plugin/Payments/Model/EgoPay.php:118
+#: Plugin/Payments/Model/PerfectMoney.php:148
+msgid "Unknown %s source"
+msgstr "Bilinmeyen %s kaynak"
+
+#: Plugin/Payments/Model/PaymentAppModel.php:128
+msgid "Config %s.Config not found"
+msgstr "Yapılandırma %s .Config bulunamadı"
+
+#: Plugin/Payments/View/EgoPay/index.ctp:3
+#: Plugin/Payments/View/PerfectMoney/index.ctp:3
+msgid "Make deposit by %s payment provider"
+msgstr "%s ile hesap bakiyesi yükle"
+
+#: Plugin/Payments/View/EgoPay/index.ctp:14
+#: Plugin/Payments/View/Etranzact/index.ctp:14
+#: Plugin/Payments/View/InterSwitch/index.ctp:14
+#: Plugin/Payments/View/PerfectMoney/index.ctp:14
+#: View/Themed/ChalkPro/Deposits/deposit.ctp:14
+#: View/Themed/ChalkPro/Elements/Deposits/bonus_code.ctp:3
+#: View/Themed/Redesign/Deposits/deposit.ctp:14
+#: View/Themed/Redesign/Deposits/index.ctp:47
+#: View/Themed/Redesign/Elements/Deposits/bonus_code.ctp:3
+msgid "Bonus code or leave empty"
+msgstr "Bonus kodu varsa girin veya boş bırakın"
+
+#: Plugin/Payments/View/EgoPay/success.ctp:3
+#: Plugin/Payments/View/Etranzact/callback.ctp:3
+#: Plugin/Payments/View/Etranzact/index.ctp:3
+#: Plugin/Payments/View/Etranzact/result.ctp:4
+#: Plugin/Payments/View/InterSwitch/index.ctp:3
+#: Plugin/Payments/View/PaymentApp/result.ctp:3
+#: Plugin/Payments/View/PerfectMoney/success.ctp:3
+#: View/Themed/ChalkPro/Deposits/deposit.ctp:3
+#: View/Themed/ChalkPro/Deposits/index.ctp:33
+#: View/Themed/ChalkPro/Deposits/result.ctp:3
+#: View/Themed/Redesign/Deposits/deposit.ctp:3
+#: View/Themed/Redesign/Deposits/index.ctp:74
+#: View/Themed/Redesign/Deposits/result.ctp:3
+msgid "Make Deposit"
+msgstr "Bakiye Yükle"
+
+#: Plugin/Payments/View/EgoPay/success.ctp:7
+#: Plugin/Payments/View/PerfectMoney/success.ctp:7
+msgid "Your payment has been accepted."
+msgstr "Ödemeniz kabul edildi."
+
+#: Plugin/Payments/View/EgoPay/success.ctp:11
+#: Plugin/Payments/View/Etranzact/callback.ctp:9
+#: Plugin/Payments/View/Etranzact/result.ctp:9
+#: Plugin/Payments/View/PaymentApp/result.ctp:8
+#: Plugin/Payments/View/PerfectMoney/success.ctp:11
+#: View/Themed/ChalkPro/Countries/json/get_countries_menu.ctp:7
+#: View/Themed/ChalkPro/Deposits/choose.ctp:49
+#: View/Themed/ChalkPro/Deposits/result.ctp:8
+#: View/Themed/ChalkPro/Tickets/review.ctp:108
+#: View/Themed/ChalkPro/Tickets/view.ctp:82
+#: View/Themed/Redesign/Countries/json/get_countries_menu.ctp:7
+#: View/Themed/Redesign/Deposits/result.ctp:8
+#: View/Themed/Redesign/Tickets/review.ctp:87
+#: View/Themed/Redesign/Tickets/view.ctp:48
+msgid "Back"
+msgstr "Geri"
+
+#: Plugin/PaymentsNew/cakephp-payments-plugin-develop/Lib/Payment/BasePaymentProcessor.php:153
+msgid "Failed to configure %s!"
+msgstr "Yapılandırılamadı %s !"
+
+#: Plugin/PaymentsNew/cakephp-payments-plugin-develop/Lib/Payment/BasePaymentProcessor.php:157
+msgid "Failed to initialize %s!"
+msgstr "Başlatılamadı %s !"
+
+#: Plugin/PaymentsNew/cakephp-payments-plugin-develop/Lib/Payment/BasePaymentProcessor.php:288;347
+msgid "Required value %s is not set!"
+msgstr "Gerekli değer %s ayarlı değil!"
+
+#: Plugin/PaymentsNew/cakephp-payments-plugin-develop/Lib/Payment/BasePaymentProcessor.php:326
+msgid "Required value is not set for at least one of those fields: %s"
+msgstr "Gerekli değer bu alanların en az biri için ayarlı değil: %s"
+
+#: Plugin/PaymentsNew/cakephp-payments-plugin-develop/Lib/Payment/BasePaymentProcessor.php:370
+msgid "Invalid data type for value %s!"
+msgstr "Değer için geçersiz veri türü %s !"
+
+#: Plugin/PaymentsNew/cakephp-payments-plugin-develop/Lib/Payment/BasePaymentProcessor.php:423
+msgid "The log object must implement a method write($message, $logType)!"
+msgstr "Günlük nesnesi yöntem yazma ($ mesaj, $ logtype) uygulamak gerekir!"
+
+#: Plugin/Queue/Console/Command/QueueShell.php:24
+msgid "Add a task to the queue."
+msgstr "Kuyruğa bir görev ekleme."
+
+#: Plugin/Queue/Console/Command/QueueShell.php:27
+msgid "Use this command to add tasks to the queue"
+msgstr "Kuyruğa görev eklemek için bu komutu kullanın"
+
+#: Plugin/Queue/Console/Command/QueueShell.php:31
+msgid "The actual command string"
+msgstr "Gerçek komut dizesi"
+
+#: Plugin/Queue/Console/Command/QueueShell.php:38
+msgid "The type of task command."
+msgstr "Görev komutunun türü."
+
+#: Plugin/Queue/Console/Command/QueueShell.php:45
+msgid "optional: strtotime parsable scheduled date to execute. 'Sunday 11 pm','Tuesday 2 am' (default null = no restriction)"
+msgstr "İsteğe bağlı: strtotime çözümlenebilir çalıştırma için planlanmış tarih. 'Pazar 11:00', 'Salı 02:00' (varsayılan boş = herhangi bir sınırlama yok)"
+
+#: Plugin/Queue/Console/Command/QueueShell.php:50
+msgid "optional: strtotime parsable scheduled end date to execute. 'Monday 4am' (default null = no restriction)"
+msgstr "İsteğe bağlı: strtotime çözümlenebilir çalıştırma için planlanmış tarih. 'Pazartesi 04:00' (varsayılan boş = herhangi bir sınırlama yok)"
+
+#: Plugin/Queue/Console/Command/QueueShell.php:55
+msgid "optional: string of addition to scheduled if window of start and end are missed. Parsable by strtotime. '+1 day', '+1 week' (default null, required if end is not null)"
+msgstr "İsteğe bağlı: planlanan başlangıç ve bitiş penceresi eksikse ek dize. strtotime tarafından çözümlenebilir. '+1 gün', '+1 hafta' (varasıylan boş, eğer son boş değilse gereklidir)"
+
+#: Plugin/Queue/Console/Command/QueueShell.php:60
+msgid "optional: CPU Percent Limit to run task, 0-100. '95','10' (default null = no restriction)"
+msgstr "İsteğe bağlı: İşlemci Yüzde Limiti, 0-100 görevi çalıştırmak için. '95', '10' (varsayılan boş = herhangi bir sınırlama yok)"
+
+#: Plugin/Queue/Console/Command/QueueShell.php:65
+msgid "optional: Priority of task, lower number the sooner it will run.  '5','100'"
+msgstr "İsteğe bağlı: Görevin önceliği, sayı ne kadar küçükse o kadar önce başlayacaktır. '5', '100'"
+
+#: Plugin/Queue/Console/Command/QueueShell.php:74
+msgid "Run a task in the queue."
+msgstr "Kuyruktaki bir görevi çalıştır."
+
+#: Plugin/Queue/Console/Command/QueueShell.php:77
+msgid "Use this command to run a paticular queue"
+msgstr "Belirli bir işlemi çalıştırmak için bu komutu kullanın"
+
+#: Plugin/Queue/Console/Command/QueueShell.php:81
+msgid "UUID of queue to run"
+msgstr "Çalıştırılacak işlemin UUID si"
+
+#: Plugin/Queue/Console/Command/QueueShell.php:89
+msgid "View a task in the queue."
+msgstr "Kuyruktaki bir görevi görüntüleyin."
+
+#: Plugin/Queue/Console/Command/QueueShell.php:92
+msgid "Use this command to view a paticular queue. Including results."
+msgstr "Kuyruktaki belirli bir görevi ve sonuçlarını görmek için bu komutu kullanın."
+
+#: Plugin/Queue/Console/Command/QueueShell.php:96
+msgid "UUID of queue to view"
+msgstr "Görüntülenecek kuyruk UUID si"
+
+#: Plugin/Queue/Console/Command/QueueShell.php:104
+msgid "Show what is queued."
+msgstr "Kuyruktakileri göster"
+
+#: Plugin/Queue/Console/Command/QueueShell.php:107
+msgid "Use this command to see what X next in queue."
+msgstr "Kuyrukta X olanları görmek için bu komutu kullanın"
+
+#: Plugin/Queue/Console/Command/QueueShell.php:111
+msgid "INT of how many you want to see in the future, \\`10\\`,'5'"
+msgstr "İleride kaç tane göreceğinizin INT değeri, \\ `10 \\` '5'"
+
+#: Plugin/Queue/Console/Command/QueueShell.php:120
+msgid "Process the queue, runs the next limit items on the queue."
+msgstr "Kuyruğu işleyin, kuyrukta bir sonraki öğe limitini çalıştırır."
+
+#: Plugin/Queue/Console/Command/QueueShell.php:124
+msgid "Show the queues in progress."
+msgstr "Kuyrukta işleyenleri göster."
+
+#: Plugin/Queue/Console/Command/QueueShell.php:128
+msgid "Show the in progress count."
+msgstr "İlerleme seviyesini göster."
+
+#: Plugin/Queue/Console/Command/QueueShell.php:132
+msgid "Remove a task from the queue."
+msgstr "Kuyruktan bir görev kaldırın."
+
+#: Plugin/Queue/Console/Command/QueueShell.php:135
+msgid "Use this command to remove a paticular task."
+msgstr "Bu komutu kullanarak belirli bir görevi kaldırın."
+
+#: Plugin/Queue/Console/Command/QueueShell.php:139
+msgid "UUID of task to remove. Will not remove in_process tasks."
+msgstr "Kaldırmak istediğiniz görevin UUIDsi.  in_process dan kaldırmaz kaldırmaz."
+
+#: Plugin/Queue/Console/Command/QueueShell.php:145
+msgid "if true will force a delete even on in_progress tasks."
+msgstr "Eğer doğru seçilirse in_progress tasks dan kaldırmaya zorlanacak."
+
+#: Plugin/Reports/Controller/ReportsController.php:412
+#: Plugin/Reports/View/Themed/Admin/Elements/financial_daily.ctp:159
+msgid "Funded"
+msgstr "Yatırıldı"
+
+#: Plugin/Reports/Controller/ReportsController.php:416
+#: Plugin/Reports/View/Themed/Admin/Elements/financial_daily.ctp:160
+msgid "Charged"
+msgstr "Yüklendi"
+
+#: Plugin/Reports/Controller/ReportsController.php:501;784
+msgid "Ticket types"
+msgstr "Kupon çeşitleri"
+
+#: Plugin/Reports/Controller/ReportsController.php:507
+msgid "Single stake"
+msgstr "Tek Kupon"
+
+#: Plugin/Reports/Controller/ReportsController.php:511
+msgid "Multi stake"
+msgstr "Kombine Kupon"
+
+#: Plugin/Reports/Controller/ReportsController.php:520
+msgid "User finance activity"
+msgstr "Kullanıcı finansal aktivitesi"
+
+#: Plugin/Reports/Controller/ReportsController.php:541
+msgid "Income / Outcome"
+msgstr "Gelir / Gider"
+
+#: Plugin/Reports/Controller/ReportsController.php:547
+#: Plugin/Reports/View/Themed/Admin/Elements/cashier_daily.ctp:154
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:209
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:227
+#: Plugin/Reports/View/Themed/Admin/Elements/staff.ctp:131
+#: Plugin/Reports/View/Themed/Admin/Elements/user.ctp:131
+msgid "Income"
+msgstr "Gelir"
+
+#: Plugin/Reports/Controller/ReportsController.php:551
+#: Plugin/Reports/View/Themed/Admin/Elements/cashier_daily.ctp:155
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:210
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:228
+#: Plugin/Reports/View/Themed/Admin/Elements/staff.ctp:132
+#: Plugin/Reports/View/Themed/Admin/Elements/user.ctp:132
+msgid "Outcome"
+msgstr "Gider"
+
+#: Plugin/Reports/Controller/ReportsController.php:560
+msgid "Placed / Withdrawed"
+msgstr "Bahise Yatırılmış / Çekim Yapılmış"
+
+#: Plugin/Reports/Controller/ReportsController.php:566
+msgid "Placed"
+msgstr "Bahise Yatırılmış"
+
+#: Plugin/Reports/Controller/ReportsController.php:570;741
+msgid "Withdrawed"
+msgstr "Çekim Yapılmış"
+
+#: Plugin/Reports/Controller/ReportsController.php:709
+msgid "Deposited / Withdrawed Amounts"
+msgstr "Yatırılan / Çekilen Miktarlar"
+
+#: Plugin/Reports/Controller/ReportsController.php:715
+msgid "Deposited amount"
+msgstr "Yatırılan miktar"
+
+#: Plugin/Reports/Controller/ReportsController.php:720
+msgid "Withdrawed amount"
+msgstr "Çekilen miktarlar"
+
+#: Plugin/Reports/Controller/ReportsController.php:730
+msgid "Deposited / Withdrawed"
+msgstr "Yatırıldı / Çekildi"
+
+#: Plugin/Reports/Controller/ReportsController.php:736
+msgid "Deposited"
+msgstr "Yatırıldı"
+
+#: Plugin/Reports/Controller/ReportsController.php:753
+msgid "Ticket statuses"
+msgstr "Kupon durumları"
+
+#: Plugin/Reports/Controller/Component/ReportsComponent.php:143
+msgid "All operators"
+msgstr "Tüm operatörler"
+
+#: Plugin/Reports/Model/ReportsAppModel.php:31
+#: View/Themed/Admin/Elements/sidebar.ctp:45
+#: View/Themed/Admin/Elements/statistics.ctp:16
+msgid "Users"
+msgstr "Kullanıcılar"
+
+#: Plugin/Reports/Model/ReportsAppModel.php:40
+#: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:120
+#: View/Themed/Admin/Elements/sidebar.ctp:133
+#: View/Themed/Admin/Elements/statistics.ctp:32
+#: View/Themed/Admin/Users/admin_tickets.ctp:4
+#: View/Themed/ChalkPro/Layouts/user-panel.ctp:46
+#: View/Themed/ChalkPro/Tickets/history.ctp:2
+#: View/Themed/ChalkPro/Tickets/index.ctp:2
+#: View/Themed/Redesign/Layouts/user-panel.ctp:43;57
+#: View/Themed/Redesign/Tickets/history.ctp:3
+#: View/Themed/Redesign/Tickets/index.ctp:3
+msgid "Tickets"
+msgstr "Kuponlar"
+
+#: Plugin/Reports/Model/ReportsAppModel.php:49
+#: View/Themed/Admin/Elements/sidebar.ctp:146
+#: View/Themed/Admin/Elements/statistics.ctp:51
+#: View/Themed/Admin/Users/admin_deposits.ctp:4
+#: View/Themed/Redesign/Layouts/user-panel.ctp:44
+msgid "Deposits"
+msgstr "Yatırımlar"
+
+#: Plugin/Reports/Model/ReportsAppModel.php:58
+#: View/Themed/Admin/Elements/sidebar.ctp:173
+#: View/Themed/Admin/Elements/statistics.ctp:69
+#: View/Themed/Admin/Users/admin_withdraws.ctp:4
+#: View/Themed/ChalkPro/Layouts/user-panel.ctp:60
+#: View/Themed/Redesign/Layouts/user-panel.ctp:45;71
+msgid "Withdraws"
+msgstr "Çekilenler"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/cashier_daily.ctp:101
+#: Plugin/Reports/View/Themed/Admin/Elements/financial_daily.ctp:137
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:122
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:133
+#: Plugin/Reports/View/Themed/Admin/Elements/staff.ctp:109
+#: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:109
+#: Plugin/Reports/View/Themed/Admin/Elements/user.ctp:109
+msgid "Requested at: %s"
+msgstr "Talep: %s"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/cashier_daily.ctp:102
+#: Plugin/Reports/View/Themed/Admin/Elements/financial_daily.ctp:138
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:123
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:134
+#: Plugin/Reports/View/Themed/Admin/Elements/staff.ctp:110
+#: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:110
+#: Plugin/Reports/View/Themed/Admin/Elements/user.ctp:110
+msgid "Requested by: %s"
+msgstr "Tarafından: %s"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/cashier_daily.ctp:106
+msgid "Daily report of cashier %s"
+msgstr "Kasiyer Günlük rapor %s"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/cashier_daily.ctp:107
+#: Plugin/Reports/View/Themed/Admin/Elements/financial_daily.ctp:143
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:128
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:139
+#: Plugin/Reports/View/Themed/Admin/Elements/staff.ctp:115
+#: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:115
+#: Plugin/Reports/View/Themed/Admin/Elements/user.ctp:115
+msgid "From %s to %s"
+msgstr "%1$s den %2$s ye "
+
+#: Plugin/Reports/View/Themed/Admin/Elements/cashier_daily.ctp:112
+#: Plugin/Reports/View/Themed/Admin/Elements/financial_daily.ctp:148
+#: Plugin/Reports/View/Themed/Admin/Elements/staff.ctp:163
+#: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:165
+#: Plugin/Reports/View/Themed/Admin/Elements/user.ctp:163
+msgid "Finances"
+msgstr "Finanslar"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/cashier_daily.ctp:118
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:173
+msgid "Statistics"
+msgstr "İstatistikler"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/cashier_daily.ctp:122
+msgid "Today funded:"
+msgstr "Bugün ödenen:"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/cashier_daily.ctp:123;127
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:155;159
+msgid "%d users"
+msgstr "%d kullanıcılar"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/cashier_daily.ctp:126
+msgid "Today charged:"
+msgstr "Bugün tahsil edilen:"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/cashier_daily.ctp:131
+msgid "Amount of total funds:"
+msgstr "Toplam fon tutarı:"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/cashier_daily.ctp:132;136;166;170
+#: Plugin/Reports/View/Themed/Admin/Elements/financial_daily.ctp:170;171;200;201
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:153;157;178;182;221;225
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:164;168;247;251
+#: Plugin/Reports/View/Themed/Admin/Elements/staff.ctp:144;145;146
+#: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:145;148;180;183
+#: Plugin/Reports/View/Themed/Admin/Elements/user.ctp:144;145;146
+msgid "%.2f %s"
+msgstr "% .2f% S"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/cashier_daily.ctp:135
+msgid "Amount of total charges:"
+msgstr "Toplam tahsilat miktarı:"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/cashier_daily.ctp:146
+#: Plugin/Reports/View/Themed/Admin/Elements/financial_daily.ctp:187
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:201
+msgid "Summary"
+msgstr "Özet"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/cashier_daily.ctp:159
+msgid "Funded: %.2f %s"
+msgstr "Ödenen:% .2f% s"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/cashier_daily.ctp:160
+msgid "Charged: %.2f %s"
+msgstr "Tahsilat:% .2f% s"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/cashier_daily.ctp:165
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:220
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:246
+msgid "Total income:"
+msgstr "Toplam gelir:"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/cashier_daily.ctp:169
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:224
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:250
+msgid "Total outcome:"
+msgstr "Toplam gider:"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/cashier_daily.ctp:177
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:257
+msgid "Total earnings: %.2f %s"
+msgstr "Toplam kazanç:% .2f% s"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/financial_daily.ctp:142
+#: Plugin/Reports/View/Themed/Admin/Reports/admin_financial_report.ctp:25
+#: View/Themed/Admin/Elements/sidebar.ctp:347
+msgid "Admin financial report"
+msgstr "Yönetici finansal raporu"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/financial_daily.ctp:156
+msgid "ID"
+msgstr "ID"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/financial_daily.ctp:157
+#: View/Themed/Admin/Risks/admin_warnings.ctp:33;64;95;126;153
+#: View/Themed/Admin/Tickets/admin_view.ctp:34
+#: View/Themed/ChalkPro/Elements/Deposits/preview.ctp:3
+#: View/Themed/Redesign/Deposits/preview.ctp:16
+#: Plugin/Acl/View/Aros/admin_ajax_user_permissions.ctp:12
+msgid "User"
+msgstr "Kullanıcı"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/financial_daily.ctp:158
+#: Plugin/Reports/View/Themed/Admin/Elements/staff.ctp:130
+#: Plugin/Reports/View/Themed/Admin/Elements/user.ctp:130
+msgid "Group"
+msgstr "Grup"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/financial_daily.ctp:177
+#: Plugin/Reports/View/Themed/Admin/Elements/staff.ctp:153
+#: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:155
+#: Plugin/Reports/View/Themed/Admin/Elements/user.ctp:153
+msgid "No data is available"
+msgstr "Hiçbir veri yok"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/financial_daily.ctp:195
+#: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:173
+msgid "Total Income"
+msgstr "Toplam Gelir"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/financial_daily.ctp:196
+#: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:176
+msgid "Total Outcome"
+msgstr "Toplam Gider"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/financial_daily.ctp:207
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:232
+#: Plugin/Reports/View/Themed/Admin/Elements/staff.ctp:187
+#: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:189
+#: Plugin/Reports/View/Themed/Admin/Elements/user.ctp:187
+msgid "Total earnings %.2f %s"
+msgstr "Toplam kazanç% .2f% s"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:127
+msgid "Daily report of operator %s"
+msgstr "Operatör günlük raporu %s"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:133
+msgid "Offline Tickets"
+msgstr "Çevrimdışı Kuponlar"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:139
+msgid "Today place: %d new ticket(s)"
+msgstr "Bugün oynanan: %d yeni kupon"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:143
+msgid "Single ticket type:"
+msgstr "Tek kupon türü:"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:144;148;187;191
+msgid "%d ticket(s)"
+msgstr "%d kupon (lar)"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:147
+msgid "Multi ticket type:"
+msgstr "Kombine kupon türü:"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:152
+msgid "Staked on single ticket(s):"
+msgstr "Tek kuponlara yapılan bahis:"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:156
+msgid "Staked on multi ticket(s):"
+msgstr "Kombine kuponlara yapılan bahis:"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:167
+msgid "Offline Finances"
+msgstr "Çevrimdışı Finanslar"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:177
+msgid "Stakes income:"
+msgstr "Bahis gelir:"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:181
+msgid "Withdraws outcome:"
+msgstr "Çekilen para sonucu:"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:186
+msgid "Placed:"
+msgstr "Oynandı / Yatırıldı:"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:190
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:158
+msgid "Withdrawed:"
+msgstr "Çekildi:"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:214
+msgid "Stakes income %.2f %s"
+msgstr "Bahis geliri % .2f% s"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:215
+msgid "Winnings outcome %.2f %s"
+msgstr "Kazanç sonucu% .2f% s"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:234
+msgid "Commissions: %.2f %s"
+msgstr "Komisyonlar:% .2f% s"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/reports_form.ctp:18
+msgid "Please select date range:"
+msgstr "Lütfen tarih aralığı seçiniz:"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/reports_form.ctp:23
+#: View/Themed/Admin/Events/admin_print.ctp:21
+msgid "From"
+msgstr "Kimden "
+
+#: Plugin/Reports/View/Themed/Admin/Elements/reports_form.ctp:34
+#: View/Themed/Admin/Events/admin_print.ctp:31
+msgid "To"
+msgstr "Kime "
+
+#: Plugin/Reports/View/Themed/Admin/Elements/reports_form.ctp:43
+msgid "Show"
+msgstr "Göster "
+
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:138
+msgid "Daily sportsbook report"
+msgstr "Günlük sportsbook raporu"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:144
+msgid "Online Finances"
+msgstr "Çevrimiçi Finanslar"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:150
+msgid "Today registered: %d new users"
+msgstr "Bugün kayıt olan: %d yeni kullanıcı"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:154
+msgid "Deposited:"
+msgstr "Yatırılan:"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:163
+msgid "Deposited amount:"
+msgstr "Yatırılan tutar:"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:167
+msgid "Withdrawed amount:"
+msgstr "Çekilen tutar:"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:178
+msgid "Online and offline tickets"
+msgstr "Çevrimiçi ve çevrimdışı kuponlar"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:184
+msgid "Today placed: %d new tickets"
+msgstr "Bugün oynanan: %d yeni kupon"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:188
+msgid "Single type:"
+msgstr "Tek tip:"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:189;193;198;202;206;210
+msgid "%d tickets"
+msgstr "%d kuponlar"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:192
+msgid "Multi type:"
+msgstr "Kombine tip:"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:197
+msgid "Won status:"
+msgstr "Kazanan durum:"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:201
+msgid "Lost status:"
+msgstr "Kaydeben durum:"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:205
+msgid "Pending status:"
+msgstr "Beklemede:"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:209
+msgid "Cancelled status:"
+msgstr "İptal edilen:"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:232
+msgid "Deposited amount %.2f %s"
+msgstr "Yatırılan tutar % .2f% s"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:233
+msgid "Withdrawed amount %.2f %s"
+msgstr "Çekilen tutar % .2f% s"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:236
+msgid "Cashier profit %.2f %s"
+msgstr "Kasiyer kar payı % .2f% s"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:237
+msgid "Cashier loss %.2f %s"
+msgstr "Kasiyer kaybı % .2f% s"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:240
+msgid "Operator profit %.2f %s"
+msgstr "Operatör kazancı % .2f% s"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:241
+msgid "Operator loss %.2f %s"
+msgstr "Operatör kaybı % .2f% s"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/staff.ctp:114
+#: Plugin/Reports/View/Themed/Admin/Reports/admin_staff.ctp:25
+#: View/Themed/Admin/Elements/sidebar.ctp:354
+msgid "Staff report"
+msgstr "Personel raporu"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/staff.ctp:120
+msgid "Staff list"
+msgstr "Personel listesi"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/staff.ctp:128
+#: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:128
+#: Plugin/Reports/View/Themed/Admin/Elements/user.ctp:128
+msgid "Nr"
+msgstr "Nr"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/staff.ctp:141
+#: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:142;143
+#: Plugin/Reports/View/Themed/Admin/Elements/user.ctp:141
+msgid "%d"
+msgstr "%d "
+
+#: Plugin/Reports/View/Themed/Admin/Elements/staff.ctp:142;143
+#: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:144;149
+#: Plugin/Reports/View/Themed/Admin/Elements/user.ctp:142;143
+#: View/Themed/Admin/Slides/admin_index.ctp:6
+#: View/Themed/ChalkPro/Elements/Tickets/BetSlip/flash_message.ctp:7
+#: View/Themed/ChalkPro/Users/operator_panel.ctp:39
+#: View/Themed/Redesign/Elements/Tickets/BetSlip/flash_message.ctp:7
+#: View/Themed/Redesign/Users/operator_panel.ctp:40
+msgid "%s"
+msgstr "%s"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/staff.ctp:147
+#: Plugin/Reports/View/Themed/Admin/Elements/user.ctp:147
+msgid "%.2f %s / %.2f %s"
+msgstr "% .2f% S /% .2f% s"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/staff.ctp:170
+#: Plugin/Reports/View/Themed/Admin/Elements/user.ctp:170
+msgid "Staff income: %.2f %s"
+msgstr "Personel geliri:% .2f% s"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/staff.ctp:171
+#: Plugin/Reports/View/Themed/Admin/Elements/user.ctp:171
+msgid "Staff outcome: %.2f %s"
+msgstr "Personel gideri:% .2f% s"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/staff.ctp:172
+#: Plugin/Reports/View/Themed/Admin/Elements/user.ctp:172
+msgid "Pending potential income: +%.2f %s"
+msgstr "Bekleyen potansiyel gelir. +% 2f% s"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/staff.ctp:173
+#: Plugin/Reports/View/Themed/Admin/Elements/user.ctp:173
+msgid "Pending potential outcome: -%.2f %s"
+msgstr "Bekleyen potansiyel gider: -% 2f% s."
+
+#: Plugin/Reports/View/Themed/Admin/Elements/staff.ctp:179
+#: Plugin/Reports/View/Themed/Admin/Elements/user.ctp:179
+msgid "Factual Income: %.2f %s"
+msgstr "Olgusal Gelir:% .2f% s"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/staff.ctp:180
+#: Plugin/Reports/View/Themed/Admin/Elements/user.ctp:180
+msgid "Factual Outcome: %.2f %s"
+msgstr "Olgusal Sonuç:% .2f% s"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:114
+#: Plugin/Reports/View/Themed/Admin/Reports/admin_tickets.ctp:25
+#: View/Themed/Admin/Elements/sidebar.ctp:312
+msgid "Tickets report"
+msgstr "Kupon raporu"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:131
+#: View/Themed/Admin/Risks/admin_warnings.ctp:34;65;96
+#: View/Themed/Admin/Tickets/admin_view.ctp:37
+#: View/Themed/ChalkPro/Tickets/betslip.ctp:81
+#: View/Themed/Redesign/Tickets/betslip.ctp:88
+msgid "Stake"
+msgstr "Bahis"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:132
+#: View/Themed/Admin/Settings/admin_index.ctp:100
+#: View/Themed/ChalkPro/Tickets/betslip.ctp:74
+#: View/Themed/ChalkPro/Tickets/review.ctp:67
+#: View/Themed/ChalkPro/Tickets/view.ctp:56
+msgid "Service fee"
+msgstr "Servis ücreti"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:133
+#: View/Themed/Admin/Bets/admin_add.ctp:14
+#: View/Themed/Admin/Bets/admin_edit.ctp:36
+#: View/Themed/Admin/Countries/admin_add.ctp:14
+#: View/Themed/Admin/Countries/admin_edit.ctp:36
+#: View/Themed/Admin/Events/admin_view.ctp:39
+#: View/Themed/Admin/Risks/admin_warnings.ctp:35;66;97
+#: View/Themed/Admin/Tickets/admin_printTicket.ctp:21
+#: View/Themed/Admin/Tickets/admin_view.ctp:36;84
+#: View/Themed/Admin/Tickets/printing.ctp:21
+#: View/Themed/ChalkPro/Tickets/history.ctp:15
+#: View/Themed/ChalkPro/Tickets/index.ctp:15
+#: View/Themed/ChalkPro/Tickets/preview.ctp:21
+#: View/Themed/ChalkPro/Tickets/print_ticket.ctp:32
+#: View/Themed/ChalkPro/Tickets/review.ctp:37
+#: View/Themed/ChalkPro/Tickets/view.ctp:17
+#: View/Themed/Redesign/Tickets/history.ctp:15
+#: View/Themed/Redesign/Tickets/index.ctp:15
+#: View/Themed/Redesign/Tickets/preview.ctp:22
+#: View/Themed/Redesign/Tickets/print_ticket.ctp:27
+#: View/Themed/Redesign/Tickets/review.ctp:38
+#: View/Themed/Redesign/Tickets/view.ctp:14
+msgid "Odd"
+msgstr "Oran"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:134
+#: View/Themed/Admin/Tickets/admin_view.ctp:39
+#: View/Themed/Redesign/Tickets/view.ctp:57
+msgid "Return"
+msgstr "Geri dön"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:135
+msgid "STATUS"
+msgstr "DURUM"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:146
+msgid "%d %s"
+msgstr "395. % Ds"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:147
+#: View/Themed/ChalkPro/Users/operator_panel.ctp:40
+#: View/Themed/Redesign/Users/operator_panel.ctp:41
+msgid "%.2f"
+msgstr "f )"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:181
+msgid "+%s %.2f %s"
+msgstr "+ %s % .2f% s"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:182
+msgid "-%s %.2f %s"
+msgstr "- %s % .2f% s"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/user.ctp:114
+#: Plugin/Reports/View/Themed/Admin/Reports/admin_user.ctp:25
+#: View/Themed/Admin/Elements/sidebar.ctp:361
+msgid "User report"
+msgstr "Kullanıcı raporu"
+
+#: Plugin/Reports/View/Themed/Admin/Elements/user.ctp:120
+msgid "Users list"
+msgstr "Kullanıcı listesi"
+
+#: Plugin/Reports/View/Themed/Admin/Reports/admin_cashier_daily.ctp:25
+#: View/Themed/Admin/Elements/sidebar.ctp:326
+msgid "Cashier report"
+msgstr "Kasiyer raporu"
+
+#: Plugin/Reports/View/Themed/Admin/Reports/admin_cashier_daily.ctp:26
+msgid "Please select cashier(s)"
+msgstr "Lütfen kasiyer seçiniz"
+
+#: Plugin/Reports/View/Themed/Admin/Reports/admin_operator_daily.ctp:25
+#: View/Themed/Admin/Elements/sidebar.ctp:333
+msgid "Operator report"
+msgstr "Operatör raporu"
+
+#: Plugin/Reports/View/Themed/Admin/Reports/admin_operator_daily.ctp:26
+msgid "Please select operator(s)"
+msgstr "Lütfen operatör seçiniz"
+
+#: Plugin/Reports/View/Themed/Admin/Reports/admin_staff.ctp:7
+#: Plugin/Reports/View/Themed/Admin/Reports/admin_tickets.ctp:7
+#: View/Themed/Admin/Settings/admin_tickets.ctp:6
+msgid "Tickets %s"
+msgstr "Kuponlar %s"
+
+#: Plugin/Reports/View/Themed/Admin/Reports/admin_user.ctp:7
+msgid "Users %s"
+msgstr "Kullanıcılar %s"
+
+#: Test/Case/Model/TicketTest.php:84
+msgid ""
+"Maximum days stake are: %.2f, counted more. \n"
+" Message: %s. \n"
+" Case: \n"
+" %s"
+msgstr ""
+"Maksimum günlük bahis:% .2f, daha fazla hesaplandı. \n"
+"Mesaj:% s. \n"
+" Olgu: \n"
+"% s"
+
+#: Vendor/EnetPulse/Feeds/ObjectQueryFeed.php:69
+#: Vendor/EnetPulse/Feeds/OddsFeed.php:63
+msgid "OddsFeed Import Start. Total Objects ( %d ) To Process"
+msgstr "OddsFeed İçe aktarmaya başlayın. İşlenecek ( %d ) toplam nesne"
+
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome.php:112
+msgid "OddsFeed :: Object %s Import Start."
+msgstr "OddsFeed :: Nesne %s İçe Aktarmaya başlayın."
+
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome.php:132
+msgid "OddsFeed :: Object %s Map Start."
+msgstr "OddsFeed :: Nesne %s Haritasına başlayın."
+
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome.php:145
+msgid "OddsFeed :: Object %s Reduce Start."
+msgstr "OddsFeed :: Nesne %s Başlatmayı azaltın."
+
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome.php:148
+msgid "OddsFeed :: Object %s Reduce Betting Type ( %s ) Process Start ."
+msgstr "OddsFeed :: Nesne %s Bahis Tipi azaltın ( %s ) Süreç başladı."
+
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome.php:159
+msgid "OddsFeed :: Object %s Reduce Betting Type ( %s ) Not Available For Process, Skipping."
+msgstr "OddsFeed :: Nesne %s Bahis Tipi (azaltın %s ), işlem için uygun değil, atlıyor..."
+
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome.php:172
+msgid "OddsFeed :: Object %s Save Objects Start."
+msgstr "OddsFeed :: Nesne %s Objeleri Kaydetme Başladı."
+
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome.php:173
+msgid "OddsFeed :: Object %s Save Objects Total ( %d ) For Process."
+msgstr "OddsFeed :: Nesne %s kaydet Toplam (Nesneler %d Süreci İçin)."
+
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome.php:176
+msgid "OddsFeed :: Object %s For Save Object Type ( %s ) Total Count ( %d ) To Process."
+msgstr "OddsFeed :: Nesne %s kaydet Nesne Tipi ( %s ) Toplam Sayısı ( %d ) Süreç için."
+
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_12.php:49
+msgid "OddsFeed :: Object Betting Type %s map() With Items Count ( %d ) Start."
+msgstr "OddsFeed :: Nesne Bahis Tipi %s haritası () Öğeler (Kont ile %d ) Başlat."
+
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_12.php:68
+msgid "OddsFeed :: Object Betting Type %s reduce() With Items Count ( %d ) Start."
+msgstr "OddsFeed :: Nesne Bahis Tipi %s Öğeler (Kont ile () azaltmak %d ) Başlat."
+
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_12.php:86
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_1x2.php:86
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_dc.php:86
+msgid "OddsFeed :: Object Betting Type %s Reset() With Items Count ( %d ) Start."
+msgstr "OddsFeed :: Nesne Bahis Tipi %s Öğeler ile Reset () (Kont %d ) Başlat."
+
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_12.php:103
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_1x2.php:104
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_dc.php:103
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_ht_ft.php:99
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_oe.php:97
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_ou.php:97
+msgid "OddsFeed :: Object Betting Type %s getInsertFields() With Items Count ( %d ) Start."
+msgstr "OddsFeed :: Nesne Bahis Tipi %s Öğeler ile getInsertFields () (Kont %d ) Başlat."
+
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_12.php:151
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_1x2.php:161
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_dc.php:155
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_ht_ft.php:132
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_oe.php:132
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_ou.php:132
+msgid "OddsFeed :: Object Betting Type %s getUpdateFields() With Items Count ( %d ) Start."
+msgstr "OddsFeed :: Nesne Bahis Tipi %s Öğeler ile getUpdateFields () (Kont %d ) Başlat."
+
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_1x2.php:49
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_dc.php:49
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_ht_ft.php:48
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_oe.php:48
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_ou.php:48
+msgid "OddsFeed :: Object Betting Type %s Map With Items Count ( %d ) Start."
+msgstr "OddsFeed :: Nesne Bahis Tipi %s Öğeler ile Harita (Kont %d ) Başlat."
+
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_1x2.php:68
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_dc.php:68
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_ht_ft.php:67
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_oe.php:67
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_ou.php:67
+msgid "OddsFeed :: Object Betting Type %s Reduce With Items Count ( %d ) Start."
+msgstr "OddsFeed :: Nesne Bahis Tipi %s (Kont Öğeler ile azaltın %d ) Başlat."
+
+#: Vendor/shells/aco_sync.php:83
+msgid "Available ACO sync commands:"
+msgstr "Mevcut ACO senkronizasyon komutları:"
+
+#: Vendor/shells/aco_sync.php:87
+msgid "For help, run the 'help' command.  For help on a specific command, run 'help <command>'"
+msgstr "Yardım için, 'help' komutunu çalıştırın. Belirli bir komut hakkında yardım için, 'help<komut>' komutunu kullanın."
+
+#: Vendor/shells/aco_sync.php:125
+msgid "Aco Update Complete"
+msgstr "Aco Güncelleme Tamamlandı"
+
+#: Vendor/shells/aco_sync.php:153
+msgid "Created Aco node: %s"
+msgstr "Aco düğümünü Oluşturuldu: %s"
+
+#: Vendor/shells/aco_sync.php:184
+msgid "Deleted Aco node %s"
+msgstr "Silinmiş Aco düğüm %s"
+
+#: Vendor/shells/aco_sync.php:199
+msgid "Usage: cake aco_sync <command>"
+msgstr "Kullanımı: cake aco_sync <komut>"
+
+#: Vendor/shells/aco_sync.php:201
+msgid "Commands:"
+msgstr "Komutlar"
+
+#: Vendor/shells/aco_sync.php:205
+msgid "Add new ACOs for new controllers and actions"
+msgstr "Yeni kontrolörler ve eylemler için yeni ACOS ekle"
+
+#: Vendor/shells/aco_sync.php:206
+msgid "Create new ACO's for controllers and their actions. Does not remove any nodes from ACO table"
+msgstr "Yeni ACO'ların kontrolörleri ve kendi eylemleri için oluşturun. ACO tablosundan düğümlerin kaldırmaz"
+
+#: Vendor/shells/aco_sync.php:210
+msgid "Creates new ACO's for missing controllers and actions. Removes orphaned entries in the ACO table."
+msgstr "denetleyicileri ve eylemleri eksik yeni ACO 's oluşturur. ACO tabloda yetim girdilerini kaldırır."
+
+#: Vendor/shells/aco_sync.php:213
+msgid "Displays this help message, or a message on a specific command."
+msgstr "Bu yardım iletisini veya belirli bir komut hakkında bir mesaj görüntüler."
+
+#: Vendor/shells/aco_sync.php:224
+msgid "Command '%s' not found"
+msgstr "Command ' %s bulunamadı'"
+
+#: View/Helper/BethHelper.php:118
+msgid "Win"
+msgstr "Galibiyet"
+
+#: View/Helper/BethHelper.php:138;158
+msgid "Decimal"
+msgstr "Ondalık"
+
+#: View/Helper/BethHelper.php:141;159
+msgid "Fractional"
+msgstr "Kesirli"
+
+#: View/Helper/BethHelper.php:144;160
+msgid "American"
+msgstr "Amerikan"
+
+#: View/Themed/Admin/Bets/admin_add.ctp:4
+#: View/Themed/Admin/Countries/admin_add.ctp:4
+msgid "Add bet"
+msgstr "Bahis ekle"
+
+#: View/Themed/Admin/Bets/admin_add.ctp:29
+#: View/Themed/Admin/Bets/admin_edit.ctp:55
+#: View/Themed/Admin/Countries/admin_add.ctp:29
+#: View/Themed/Admin/Countries/admin_edit.ctp:55
+#: View/Themed/Admin/Deposits/admin_add.ctp:31
+#: View/Themed/Admin/Elements/edit.ctp:5
+#: View/Themed/Admin/Elements/translate.ctp:9
+#: View/Themed/Admin/Results/admin_all_all.ctp:69
+#: View/Themed/Admin/Results/admin_event.ctp:69
+#: View/Themed/Admin/Users/admin_settings.ctp:39
+#: View/Themed/Admin/Withdraws/admin_add.ctp:31
+msgid "Submit"
+msgstr "Gönder"
+
+#: View/Themed/Admin/Deposits/admin_add.ctp:6
+msgid "Fund %s"
+msgstr "Ödeme yap %s"
+
+#: View/Themed/Admin/Deposits/admin_add.ctp:23
+msgid "Fund user"
+msgstr "Kullanıcıya ödeme yap"
+
+#: View/Themed/Admin/Deposits/admin_add.ctp:24
+msgid "To fund just enter amount into the input field and press submit. For example if you want to fund just credit user with 100 "
+msgstr "Kullanıcıya ödeme yapmak istediğiniz miktarı girin ve gönder tuşuna basın."
+
+#: View/Themed/Admin/Deposits/admin_add.ctp:24
+msgid " just enter that amount into field and press submit"
+msgstr "sadece alana bu miktarı yazın ve gönder tuşuna tıklayın"
+
+#: View/Themed/Admin/Elements/list.ctp:12
+msgid "Data list"
+msgstr "Veri listesi"
+
+#: View/Themed/Admin/Elements/list.ctp:40
+#: View/Themed/Admin/Leagues/admin_view.ctp:34
+#: View/Themed/Admin/Results/admin_all_events.ctp:42
+#: View/Themed/Admin/Results/admin_league.ctp:42
+#: View/Themed/Admin/Sports/admin_view.ctp:35
+#: View/Themed/Admin/Tickets/admin_view.ctp:41;86
+#: Plugin/Acl/View/Elements/design/header.ctp:20
+msgid "Actions"
+msgstr "Aksiyonlar "
+
+#: View/Themed/Admin/Elements/list.ctp:45
+msgid "Translations"
+msgstr "Çeviriler"
+
+#: View/Themed/Admin/Elements/list.ctp:112
+msgid "Are you sure?"
+msgstr "Emin misiniz?"
+
+#: View/Themed/Admin/Elements/list.ctp:140
+msgid "Translate"
+msgstr "Çevir"
+
+#: View/Themed/Admin/Elements/list.ctp:163
+msgid "Total: %.2f %s"
+msgstr "Toplam:% .2f% s"
+
+#: View/Themed/Admin/Elements/list.ctp:182
+msgid "No records found"
+msgstr "Hiçbir kayıt bulunamadı"
+
+#: View/Themed/Admin/Elements/paginator.ctp:4
+#: View/Themed/ChalkPro/Elements/paginator.ctp:4
+#: View/Themed/Redesign/Elements/paginator.ctp:5
+msgid "Page {:page} of {:pages}, showing {:current} records out of {:count} total, starting on record {:start}, ending on {:end}"
+msgstr "{:pages} sayfadan {:page} sayfası içinde toplam {:count} kayıttan {:current} tanesi, {:start}-{:end} arası gösteriliyor."
+
+#: View/Themed/Admin/Elements/paginator.ctp:11
+#: View/Themed/ChalkPro/Elements/paginator.ctp:11
+#: View/Themed/Redesign/Elements/paginator.ctp:14
+#: Plugin/Acl/View/Aros/admin_user_permissions.ctp:62
+#: Plugin/Acl/View/Aros/admin_users.ctp:64
+msgid "previous"
+msgstr "Önceki"
+
+#: View/Themed/Admin/Elements/paginator.ctp:17
+#: View/Themed/ChalkPro/Elements/paginator.ctp:17
+#: View/Themed/Redesign/Elements/paginator.ctp:20
+#: Plugin/Acl/View/Aros/admin_user_permissions.ctp:66
+#: Plugin/Acl/View/Aros/admin_users.ctp:68
+msgid "next"
+msgstr "Sonraki"
+
+#: View/Themed/Admin/Elements/sidebar.ctp:4
+msgid "Content"
+msgstr "İçerik"
+
+#: View/Themed/Admin/Elements/sidebar.ctp:8
+msgid "News management"
+msgstr "Haber yönetimi"
+
+#: View/Themed/Admin/Elements/sidebar.ctp:15
+msgid "Content management"
+msgstr "İçerik Yönetimi"
+
+#: View/Themed/Admin/Elements/sidebar.ctp:22
+msgid "Slider management"
+msgstr "Slider yönetimi"
+
+#: View/Themed/Admin/Elements/sidebar.ctp:29
+msgid "Menus management"
+msgstr "Menü yönetimi"
+
+#: View/Themed/Admin/Elements/sidebar.ctp:36
+msgid "Sidebars"
+msgstr "Yan Taraflar"
+
+#: View/Themed/Admin/Elements/sidebar.ctp:49
+msgid "List users"
+msgstr "Kullanıcıları listele"
+
+#: View/Themed/Admin/Elements/sidebar.ctp:56
+msgid "Create user"
+msgstr "Kullanıcı oluştur"
+
+#: View/Themed/Admin/Elements/sidebar.ctp:65
+msgid "Staff"
+msgstr "Yetkili"
+
+#: View/Themed/Admin/Elements/sidebar.ctp:69
+msgid "List staff"
+msgstr "Yetkilileri listele"
+
+#: View/Themed/Admin/Elements/sidebar.ctp:76
+msgid "Create staff"
+msgstr "Yetkili oluştur"
+
+#: View/Themed/Admin/Elements/sidebar.ctp:85
+#: View/Themed/Admin/Leagues/admin_view.ctp:26
+msgid "Events"
+msgstr "Etkinlikler "
+
+#: View/Themed/Admin/Elements/sidebar.ctp:90
+msgid "Countries"
+msgstr "Ülkeler"
+
+#: View/Themed/Admin/Elements/sidebar.ctp:97
+msgid "Sports and Leagues"
+msgstr "Spor ve Ligler"
+
+#: View/Themed/Admin/Elements/sidebar.ctp:104
+msgid "Events management"
+msgstr "Etkinlik yönetimi"
+
+#: View/Themed/Admin/Elements/sidebar.ctp:111
+msgid "Events Printing"
+msgstr "Etkinlik yazdırma"
+
+#: View/Themed/Admin/Elements/sidebar.ctp:124
+msgid "List results"
+msgstr "Sonuçları listele"
+
+#: View/Themed/Admin/Elements/sidebar.ctp:137
+msgid "List tickets"
+msgstr "Kuponları listele"
+
+#: View/Themed/Admin/Elements/sidebar.ctp:150
+msgid "List deposits"
+msgstr "Yatırımları listele"
+
+#: View/Themed/Admin/Elements/sidebar.ctp:164
+msgid "Deposit risk management"
+msgstr "Yatırım risk yönetimi"
+
+#: View/Themed/Admin/Elements/sidebar.ctp:177
+msgid "List requests"
+msgstr "İstekleri listele"
+
+#: View/Themed/Admin/Elements/sidebar.ctp:184
+msgid "Withdraw settings and risks"
+msgstr "Para çekim ayarları ve riskleri"
+
+#: View/Themed/Admin/Elements/sidebar.ctp:197
+msgid "General settings"
+msgstr "Genel ayarlar"
+
+#: View/Themed/Admin/Elements/sidebar.ctp:204
+msgid "Ticket settings"
+msgstr "Kupon ayarları"
+
+#: View/Themed/Admin/Elements/sidebar.ctp:218
+msgid "SEO settings"
+msgstr "SEO ayarları"
+
+#: View/Themed/Admin/Elements/sidebar.ctp:234
+msgid "Risk management"
+msgstr "Risk yönetimi"
+
+#: View/Themed/Admin/Elements/sidebar.ctp:245
+msgid "Limits for Sports"
+msgstr "Spor sınırları"
+
+#: View/Themed/Admin/Elements/sidebar.ctp:252
+msgid "Limits for Leagues"
+msgstr "Lig sınırları"
+
+#: View/Themed/Admin/Elements/sidebar.ctp:261
+msgid "Marketing"
+msgstr "Pazarlama"
+
+#: View/Themed/Admin/Elements/sidebar.ctp:265
+msgid "Create bonus code"
+msgstr "Bonus kodu oluşturun"
+
+#: View/Themed/Admin/Elements/sidebar.ctp:272
+msgid "Promotion letter"
+msgstr "Promosyon yazısı"
+
+#: View/Themed/Admin/Elements/sidebar.ctp:285
+msgid "List warnings"
+msgstr "Uyarıları listele"
+
+#: View/Themed/Admin/Elements/sidebar.ctp:292
+msgid "Warnings settings"
+msgstr "Uyarı ayarları"
+
+#: View/Themed/Admin/Elements/sidebar.ctp:305
+msgid "Users report"
+msgstr "Kullanıcı raporları"
+
+#: View/Themed/Admin/Elements/sidebar.ctp:319
+msgid "Deposits report"
+msgstr "Yatırım raporları"
+
+#: View/Themed/Admin/Elements/sidebar.ctp:340
+msgid "Sportsbook report"
+msgstr "Spor raporları"
+
+#: View/Themed/Admin/Elements/translate.ctp:7
+msgid "locale"
+msgstr "yerel"
+
+#: View/Themed/Admin/Elements/translate.ctp:8
+msgid "Translate %s"
+msgstr "Çevir %s"
+
+#: View/Themed/Admin/Elements/user_menu.ctp:21
+#: View/Themed/Admin/Tickets/admin_view.ctp:79
+msgid "Event ID"
+msgstr "Olay ID"
+
+#: View/Themed/Admin/Elements/user_menu.ctp:45
+msgid "User:"
+msgstr "Kullanıcı: "
+
+#: View/Themed/Admin/Elements/user_menu.ctp:49
+msgid "Level:"
+msgstr "Seviye:"
+
+#: View/Themed/Admin/Elements/user_menu.ctp:53
+msgid "Current Time:"
+msgstr "Şimdiki zaman:"
+
+#: View/Themed/Admin/Elements/user_menu.ctp:57
+msgid "Current Language:"
+msgstr "Güncel Dil:"
+
+#: View/Themed/Admin/Elements/user_menu.ctp:62
+msgid "Front Page"
+msgstr "Ana Sayfa"
+
+#: View/Themed/Admin/Elements/Events/OddService/under-over/head.ctp:5
+#: View/Themed/Admin/Elements/Events/nordicbet/under-over-match/head.ctp:7
+#: View/Themed/Admin/Elements/Events/nordicbet/under-over-team/head.ctp:5
+msgid "Under / Over"
+msgstr "Üst / Alt"
+
+#: View/Themed/Admin/Elements/Events/nordicbet/double-chance/head.ctp:5
+msgid "Double chance"
+msgstr "Çifte şans"
+
+#: View/Themed/Admin/Events/admin_print.ctp:6
+msgid "%s Printing"
+msgstr "%s Yazdırma"
+
+#: View/Themed/Admin/Events/admin_print.ctp:42
+msgid "Please select sport below:"
+msgstr "Aşağıdaki spor seçiniz:"
+
+#: View/Themed/Admin/Events/admin_print.ctp:49
+msgid "View Events"
+msgstr "Etkinlikleri Gör"
+
+#: View/Themed/Admin/Events/admin_view.ctp:33
+msgid "ID: %d Betting type: %s"
+msgstr "ID: %d Bahis türü: %s"
+
+#: View/Themed/Admin/Events/admin_view.ctp:64
+msgid "Can not find event"
+msgstr "Etkinlik bulunamadı"
+
+#: View/Themed/Admin/Groups/admin_edit.ctp:55
+#: View/Themed/Admin/Risks/admin_index.ctp:66
+#: View/Themed/Admin/Risks/admin_leagues.ctp:59
+#: View/Themed/Admin/Risks/admin_sports.ctp:59
+#: View/Themed/Admin/Settings/admin_deposit.ctp:52
+#: View/Themed/Admin/Settings/admin_deposits.ctp:66
+#: View/Themed/Admin/Settings/admin_deposits_risks.ctp:64
+#: View/Themed/Admin/Settings/admin_index.ctp:105
+#: View/Themed/Admin/Settings/admin_promo.ctp:128
+#: View/Themed/Admin/Settings/admin_referral.ctp:52
+#: View/Themed/Admin/Settings/admin_seo.ctp:82
+#: View/Themed/Admin/Settings/admin_tickets.ctp:62
+#: View/Themed/Admin/Settings/admin_warnings.ctp:72
+#: View/Themed/Admin/Settings/admin_withdraws.ctp:52
+#: View/Themed/Admin/Settings/admin_withdraws_risks.ctp:59
+msgid "Save"
+msgstr "Kaydet"
+
+#: View/Themed/Admin/Layouts/admin_login.ctp:51
+msgid "Staff Login"
+msgstr "Yetkili Girişi"
+
+#: View/Themed/Admin/Layouts/default.ctp:38
+msgid "Administration Panel"
+msgstr "Yönetim Paneli"
+
+#: View/Themed/Admin/Layouts/default.ctp:88
+msgid "Logout"
+msgstr "Çıkış Yap  "
+
+#: View/Themed/Admin/Locales/admin_index.ctp:2
+msgid "Available cultures"
+msgstr "Mevcut Kültürler"
+
+#: View/Themed/Admin/Locales/admin_index.ctp:4
+msgid "Add a culture"
+msgstr "Yeni kültür ekle"
+
+#: View/Themed/Admin/Locales/admin_index.ctp:7
+msgid "Add"
+msgstr "Ekle"
+
+#: View/Themed/Admin/Locales/admin_index.ctp:11
+msgid "Cultures this site supports"
+msgstr "Bu sitenin desteklediği kültürler"
+
+#: View/Themed/Admin/Locales/admin_index.ctp:17
+msgid "X"
+msgstr "X"
+
+#: View/Themed/Admin/Locales/admin_index.ctp:17
+msgid "Are you sure you want to delete "
+msgstr "Silmek istediğine emin misin "
+
+#: View/Themed/Admin/Mails/admin_all.ctp:26
+msgid "Write promotion letter to all user. Messages will arrive to users email addresses."
+msgstr "Tüm kullanıcılara promosyon yazısı gönderin. Mesaj kullanıcıların e-posta adresine gönderilecektir."
+
+#: View/Themed/Admin/Mails/admin_all.ctp:31
+#: View/Themed/Admin/Mails/admin_index.ctp:32
+msgid "Subject:"
+msgstr "Konu:"
+
+#: View/Themed/Admin/Mails/admin_all.ctp:32
+#: View/Themed/Admin/Mails/admin_index.ctp:33
+msgid "Content:"
+msgstr "İçerik:"
+
+#: View/Themed/Admin/Mails/admin_all.ctp:34
+#: View/Themed/Admin/Mails/admin_index.ctp:37
+#: View/Themed/Admin/Mails/contact.ctp:29
+#: View/Themed/ChalkPro/Mails/contact.ctp:22
+#: View/Themed/ChalkPro/Users/reset.ctp:13
+#: View/Themed/Redesign/Mails/contact.ctp:22
+#: View/Themed/Redesign/Users/reset.ctp:16
+msgid "Send"
+msgstr "Gönder"
+
+#: View/Themed/Admin/Mails/admin_index.ctp:26
+msgid "Write promotion letter to certain user. Message will arrive to user email address."
+msgstr "Belirli bir kullanıcıya promosyon yazısı gönderin. Mesaj kullanıcının epostasına gönderilecektir."
+
+#: View/Themed/Admin/Mails/admin_index.ctp:31
+msgid "To:"
+msgstr "Alıcı: "
+
+#: View/Themed/Admin/Mails/contact.ctp:2
+msgid "Contact support team"
+msgstr "Destek ekibiyle iletişime geçin"
+
+#: View/Themed/Admin/Mails/contact.ctp:10
+#: View/Themed/ChalkPro/Mails/contact.ctp:10
+#: View/Themed/Redesign/Mails/contact.ctp:10
+msgid "Subject"
+msgstr "Konu"
+
+#: View/Themed/Admin/Mails/contact.ctp:24
+#: View/Themed/ChalkPro/Mails/contact.ctp:19
+#: View/Themed/Redesign/Mails/contact.ctp:19
+msgid "Message"
+msgstr "Mesaj "
+
+#: View/Themed/Admin/Reports/admin_report.ctp:53
+msgid "Download"
+msgstr "İndir "
+
+#: View/Themed/Admin/Reports/admin_report.ctp:57
+msgid "No data in this period"
+msgstr "Bu dönemde hiçbir veri yok"
+
+#: View/Themed/Admin/Results/admin_all_all.ctp:33
+#: View/Themed/Admin/Results/admin_event.ctp:31
+#: View/Themed/Admin/Tickets/admin_view.ctp:82
+#: View/Themed/ChalkPro/Tickets/view.ctp:18
+#: View/Themed/Redesign/Tickets/view.ctp:15
+msgid "Result"
+msgstr "Sonuç"
+
+#: View/Themed/Admin/Results/admin_all_all.ctp:40
+#: View/Themed/Admin/Results/admin_event.ctp:41
+#: View/Themed/Admin/Tickets/admin_printTicket.ctp:20
+#: View/Themed/Admin/Tickets/admin_view.ctp:83
+#: View/Themed/Admin/Tickets/printing.ctp:20
+#: View/Themed/ChalkPro/Tickets/preview.ctp:20
+#: View/Themed/ChalkPro/Tickets/print_ticket.ctp:31
+#: View/Themed/ChalkPro/Tickets/review.ctp:36
+#: View/Themed/ChalkPro/Tickets/view.ctp:16
+#: View/Themed/Redesign/Tickets/preview.ctp:21
+#: View/Themed/Redesign/Tickets/print_ticket.ctp:26
+#: View/Themed/Redesign/Tickets/review.ctp:37
+#: View/Themed/Redesign/Tickets/view.ctp:13
+msgid "Pick"
+msgstr "Seç"
+
+#: View/Themed/Admin/Results/admin_all_events.ctp:62
+#: View/Themed/Admin/Results/admin_league.ctp:62
+msgid "Are you sure you want to cancel this event?"
+msgstr "Bu etkinliği iptal etmek istediğinizden eminmisiniz ?"
+
+#: View/Themed/Admin/Results/admin_all_events.ctp:72
+#: View/Themed/Admin/Results/admin_all_leagues.ctp:58
+#: View/Themed/Admin/Results/admin_all_sports.ctp:59
+msgid "No events found"
+msgstr "Hiçbir etkinlik bulunamadı"
+
+#: View/Themed/Admin/Results/admin_league.ctp:72
+msgid "No events in this league"
+msgstr "Bu ligde herhangi bir etkinlik yok"
+
+#: View/Themed/Admin/Risks/admin_index.ctp:6
+#: View/Themed/Admin/Risks/admin_index/agent_admin_index.ctp:6
+#: View/Themed/Admin/Risks/admin_index/branch_admin_index.ctp:6
+msgid "Risk Management Settings"
+msgstr "Risk Yönetimi Ayarları"
+
+#: View/Themed/Admin/Risks/admin_index.ctp:29
+#: View/Themed/Admin/Risks/admin_index/agent_admin_index.ctp:29
+#: View/Themed/Admin/Risks/admin_index/branch_admin_index.ctp:29
+msgid "Risk management is crucial for sportsbook. Please be careful in setting all options. If you need help please contact ChalkPro support team."
+msgstr "Risk yönetimi spor bahisleri için çok önemlidir. Bütün ayarları dikkatli bir şekilde yapın. Eğer yardıma ihtiyacınız varsa BetYazilim destek ekibine başvurun."
+
+#: View/Themed/Admin/Risks/admin_index.ctp:45
+#: View/Themed/Admin/Risks/admin_leagues.ctp:41
+#: View/Themed/Admin/Risks/admin_sports.ctp:44
+#: View/Themed/Admin/Risks/admin_index/agent_admin_index.ctp:33
+#: View/Themed/Admin/Risks/admin_index/branch_admin_index.ctp:45
+msgid "Lowest stake"
+msgstr "En düşük bahis"
+
+#: View/Themed/Admin/Risks/admin_index.ctp:46
+#: View/Themed/Admin/Risks/admin_index/agent_admin_index.ctp:34
+#: View/Themed/Admin/Risks/admin_index/branch_admin_index.ctp:34;38;46
+msgid "Lowest amount of money that user must have to place a ticket."
+msgstr "Kullanıcının bahis yapabilmesi için yatırması gereken en düşün miktar"
+
+#: View/Themed/Admin/Risks/admin_index.ctp:49
+#: View/Themed/Admin/Risks/admin_leagues.ctp:42
+#: View/Themed/Admin/Risks/admin_sports.ctp:45
+#: View/Themed/Admin/Risks/admin_index/agent_admin_index.ctp:37
+#: View/Themed/Admin/Risks/admin_index/branch_admin_index.ctp:41
+msgid "Highest stake"
+msgstr "En yüksek bahis"
+
+#: View/Themed/Admin/Risks/admin_index.ctp:50
+#: View/Themed/Admin/Risks/admin_index/agent_admin_index.ctp:38
+#: View/Themed/Admin/Risks/admin_index/branch_admin_index.ctp:42
+msgid "Highest amount of money that user can use place a ticket."
+msgstr "Kullanıcının bahis yapabilmesi için yatırabileceği en yüksek miktar"
+
+#: View/Themed/Admin/Risks/admin_index.ctp:53
+#: View/Themed/Admin/Risks/admin_index/agent_admin_index.ctp:41
+#: View/Themed/Admin/Risks/admin_index/branch_admin_index.ctp:49
+msgid "Highest winning amount"
+msgstr "En yüksek kazanç miktarı"
+
+#: View/Themed/Admin/Risks/admin_index.ctp:54
+#: View/Themed/Admin/Risks/admin_index/agent_admin_index.ctp:42
+#: View/Themed/Admin/Risks/admin_index/branch_admin_index.ctp:50
+msgid "Highest amount of money that can be won in one ticket."
+msgstr "Tek kuponla kazanılabilecek en yüksek tutar."
+
+#: View/Themed/Admin/Risks/admin_index.ctp:57
+msgid "Lowest number of events in one ticket"
+msgstr "Bir kuponda bulunacak en düşük maç sayısı"
+
+#: View/Themed/Admin/Risks/admin_index.ctp:58
+msgid "Lowest number of events that can be enetered into a ticket."
+msgstr "Bir kuponda oynanabilecek en az maç sayısı"
+
+#: View/Themed/Admin/Risks/admin_index.ctp:61
+msgid "Highest number of events in one ticket"
+msgstr "Bir kuponda bulunacak en fazla maç"
+
+#: View/Themed/Admin/Risks/admin_index.ctp:62
+msgid "Highest number of events that can be entered a ticket."
+msgstr "Bir kuponda oynanabilecek en fazla maç"
+
+#: View/Themed/Admin/Risks/admin_leagues.ctp:6
+msgid "List Leagues"
+msgstr "Ligleri Listele"
+
+#: View/Themed/Admin/Risks/admin_leagues.ctp:39
+msgid "League ID"
+msgstr "Lig ID"
+
+#: View/Themed/Admin/Risks/admin_leagues.ctp:40
+#: View/Themed/ChalkPro/Elements/Events/OddService/12.ctp:6
+#: View/Themed/ChalkPro/Elements/Events/OddService/1x2.ctp:5
+#: View/Themed/ChalkPro/Elements/Events/nordicbet/versus-with-draw.ctp:4
+#: View/Themed/ChalkPro/Elements/Events/nordicbet/versus.ctp:4
+#: View/Themed/Redesign/Elements/Events/OddService/12.ctp:6
+#: View/Themed/Redesign/Elements/Events/OddService/1x2.ctp:5
+#: View/Themed/Redesign/Elements/Events/nordicbet/versus-with-draw.ctp:4
+#: View/Themed/Redesign/Elements/Events/nordicbet/versus.ctp:4
+msgid "League"
+msgstr "Lig"
+
+#: View/Themed/Admin/Risks/admin_leagues.ctp:49;50
+#: View/Themed/Admin/Risks/admin_sports.ctp:51;52
+msgid "No limits"
+msgstr "Limit yok"
+
+#: View/Themed/Admin/Risks/admin_sports.ctp:6
+msgid "List Sports"
+msgstr "Spor Türlerini Listele"
+
+#: View/Themed/Admin/Risks/admin_sports.ctp:42
+msgid "Sport ID"
+msgstr "Spor ID"
+
+#: View/Themed/Admin/Risks/admin_warnings.ctp:6
+msgid "List Warnings"
+msgstr "Uyarıları Listele"
+
+#: View/Themed/Admin/Risks/admin_warnings.ctp:25
+msgid "No warnings are available at this moment."
+msgstr "Şuanda herhangi bir uyarı mevcut değildir."
+
+#: View/Themed/Admin/Risks/admin_warnings.ctp:28
+msgid "Odds Alert"
+msgstr "Oran Uyarısı"
+
+#: View/Themed/Admin/Risks/admin_warnings.ctp:31;62;93;124;151
+msgid "Id"
+msgstr "ID"
+
+#: View/Themed/Admin/Risks/admin_warnings.ctp:32;63;94;125;152
+#: View/Themed/Admin/Tickets/admin_view.ctp:33;80
+#: View/Themed/ChalkPro/Deposits/index.ctp:13
+#: View/Themed/ChalkPro/Tickets/get_history.ctp:11
+#: View/Themed/ChalkPro/Tickets/history.ctp:13
+#: View/Themed/ChalkPro/Tickets/index.ctp:13
+#: View/Themed/ChalkPro/Withdraws/index.ctp:12
+#: View/Themed/Redesign/Deposits/index.ctp:14
+#: View/Themed/Redesign/Tickets/get_history.ctp:12
+#: View/Themed/Redesign/Tickets/history.ctp:13
+#: View/Themed/Redesign/Tickets/index.ctp:13
+#: View/Themed/Redesign/Withdraws/index.ctp:12
+msgid "Date"
+msgstr "Tarih"
+
+#: View/Themed/Admin/Risks/admin_warnings.ctp:36;67;98
+#: View/Themed/ChalkPro/Tickets/betslip.ctp:95
+#: View/Themed/ChalkPro/Tickets/history.ctp:17
+#: View/Themed/ChalkPro/Tickets/index.ctp:18
+#: View/Themed/Redesign/Tickets/history.ctp:18
+#: View/Themed/Redesign/Tickets/index.ctp:18
+msgid "Winning"
+msgstr "Kazanan"
+
+#: View/Themed/Admin/Risks/admin_warnings.ctp:59
+msgid "Warning Stakes"
+msgstr "Bahis Uyarıları"
+
+#: View/Themed/Admin/Risks/admin_warnings.ctp:90
+msgid "Warning Winnings"
+msgstr "Uyarı Kazançları"
+
+#: View/Themed/Admin/Risks/admin_warnings.ctp:121
+msgid "Warning Deposits"
+msgstr "Uyarı Yatırımları"
+
+#: View/Themed/Admin/Risks/admin_warnings.ctp:148
+msgid "Warning Withdraws"
+msgstr "Uyarı Çekimleri"
+
+#: View/Themed/Admin/Risks/admin_warnings.ctp:154
+msgid "amount"
+msgstr "miktar"
+
+#: View/Themed/Admin/Risks/admin_index/branch_admin_index.ctp:33
+msgid "Highest number of agents can be created under the branch"
+msgstr "Bu branş altında oluşturulabilecek en yüksek personel sayısı."
+
+#: View/Themed/Admin/Risks/admin_index/branch_admin_index.ctp:37
+msgid "Highest number of users can be created under the agent"
+msgstr "Personel altında oluşturulabilecek en yüksek üye sayısı."
+
+#: View/Themed/Admin/Settings/admin_deposit.ctp:43
+#: View/Themed/Admin/Settings/admin_deposits.ctp:48
+#: View/Themed/Admin/Settings/admin_deposits_risks.ctp:43
+#: View/Themed/Admin/Settings/admin_index.ctp:44
+#: View/Themed/Admin/Settings/admin_promo.ctp:41;73;103
+#: View/Themed/Admin/Settings/admin_referral.ctp:43
+#: View/Themed/Admin/Settings/admin_seo.ctp:47;61
+#: View/Themed/Admin/Settings/admin_tickets.ctp:43
+#: View/Themed/Admin/Settings/admin_warnings.ctp:47
+#: View/Themed/Admin/Settings/admin_withdraws.ctp:43
+#: View/Themed/Admin/Settings/admin_withdraws_risks.ctp:42
+#: View/Themed/ChalkPro/Deposits/index.ctp:14
+#: View/Themed/ChalkPro/Withdraws/index.ctp:13
+#: View/Themed/Redesign/Deposits/index.ctp:15
+#: View/Themed/Redesign/Withdraws/index.ctp:13
+msgid "Description"
+msgstr "Açıklama"
+
+#: View/Themed/Admin/Settings/admin_deposit.ctp:44
+#: View/Themed/Admin/Settings/admin_deposits.ctp:49
+#: View/Themed/Admin/Settings/admin_deposits_risks.ctp:44
+#: View/Themed/Admin/Settings/admin_index.ctp:45
+#: View/Themed/Admin/Settings/admin_promo.ctp:42;74;104
+#: View/Themed/Admin/Settings/admin_referral.ctp:44
+#: View/Themed/Admin/Settings/admin_seo.ctp:48
+#: View/Themed/Admin/Settings/admin_tickets.ctp:44
+#: View/Themed/Admin/Settings/admin_warnings.ctp:48
+#: View/Themed/Admin/Settings/admin_withdraws.ctp:44
+msgid "Value"
+msgstr "Değer"
+
+#: View/Themed/Admin/Settings/admin_deposit.ctp:47
+msgid "Deposit fee percentage"
+msgstr "Yatırım ücret yüzdesi"
+
+#: View/Themed/Admin/Settings/admin_deposits.ctp:6
+msgid "Payment gateways"
+msgstr "Ödeme yöntemleri"
+
+#: View/Themed/Admin/Settings/admin_deposits.ctp:39
+msgid "Please set payment gateways below:"
+msgstr "Lütfen aşağıdaki ödeme yöntemlerini seçin"
+
+#: View/Themed/Admin/Settings/admin_deposits.ctp:47
+msgid "Payments"
+msgstr "Ödemeler"
+
+#: View/Themed/Admin/Settings/admin_deposits_risks.ctp:6
+msgid "Deposits %s"
+msgstr "Yatırımlar %s"
+
+#: View/Themed/Admin/Settings/admin_deposits_risks.ctp:36
+msgid "Please set deposit risk management setting below:"
+msgstr "Lütfen yatırım risk yönetim ayarlarını aşağıdan belirleyin:"
+
+#: View/Themed/Admin/Settings/admin_deposits_risks.ctp:47
+msgid "Allow automated deposits"
+msgstr "Otomatik yatırımlara izin verin"
+
+#: View/Themed/Admin/Settings/admin_deposits_risks.ctp:51
+msgid "Allow manual deposits"
+msgstr "Manuel yatırımlara izin verin"
+
+#: View/Themed/Admin/Settings/admin_deposits_risks.ctp:55
+msgid "Lowest amount for deposit"
+msgstr "Yatırım için en düşük miktar"
+
+#: View/Themed/Admin/Settings/admin_deposits_risks.ctp:59
+msgid "Highest amount for deposit"
+msgstr "Yatırım için en büyük miktar"
+
+#: View/Themed/Admin/Settings/admin_index.ctp:6
+msgid "General %s"
+msgstr "Genel %s"
+
+#: View/Themed/Admin/Settings/admin_index.ctp:37
+msgid "General settings controls some of the most basic configuration settings for your site: your site's title and location, who may register an account at your site, and how dates and times are calculated and displayed."
+msgstr "Genel ayar kontrolleri. En basit düzeyde yapılması gereken konfigurasyon ve değişiklikler. Site ismi, site adresi, kayıt olabilecek kişiler, tarih ve saat ayarları vs."
+
+#: View/Themed/Admin/Settings/admin_index.ctp:48
+msgid "Website name"
+msgstr "Site adı"
+
+#: View/Themed/Admin/Settings/admin_index.ctp:49
+msgid "Enter the name of your sportsbook here. Most themes will display this title, at the top of every page, and in the reader's browser titlebar."
+msgstr "Bahis sitenizin adını buraya girin. Çoğu temada buradaki değer sayfa başıklarında ve üst kısımlarda görüntülenecektir."
+
+#: View/Themed/Admin/Settings/admin_index.ctp:52
+msgid "Copyright"
+msgstr "Telif Hakkı"
+
+#: View/Themed/Admin/Settings/admin_index.ctp:53
+msgid "Owner rights for product use."
+msgstr "Ürün kullanımı için kurucu hakları."
+
+#: View/Themed/Admin/Settings/admin_index.ctp:56
+msgid "Contact Email"
+msgstr "İletişim E-posta"
+
+#: View/Themed/Admin/Settings/admin_index.ctp:57
+msgid "All information through contact form will come to this email address."
+msgstr "İletişim formu aracılığıyla gönderilen tüm postalar bu adrese iletilecektir."
+
+#: View/Themed/Admin/Settings/admin_index.ctp:60
+#: View/Themed/ChalkPro/Layouts/user-tools.ctp:38
+msgid "Registration"
+msgstr "Üye Kaydı"
+
+#: View/Themed/Admin/Settings/admin_index.ctp:61
+msgid "Enable (Yes) or disable (No) registration on website."
+msgstr "Siteye üye olmayı açın (Evet) veya kapatın (Hayır)."
+
+#: View/Themed/Admin/Settings/admin_index.ctp:64
+#: View/Themed/Admin/Users/login.ctp:2;15
+msgid "Login"
+msgstr "Giriş"
+
+#: View/Themed/Admin/Settings/admin_index.ctp:65
+msgid "Enable (Yes) or disable (No) login function."
+msgstr "Siteye giriş yapabilmeyi açın (Evet) veya kapatın (Hayır)."
+
+#: View/Themed/Admin/Settings/admin_index.ctp:68
+msgid "Password reset"
+msgstr "Parola sıfırlama"
+
+#: View/Themed/Admin/Settings/admin_index.ctp:69
+msgid "Enable (Yes) or disable (No) password reset for users."
+msgstr "Eğer açık (Evet) ise bu özellik kullanılır. Kapalı (Hayır) ise özellik devre dışı kalır."
+
+#: View/Themed/Admin/Settings/admin_index.ctp:72
+msgid "Default currency"
+msgstr "Varsayılan para birimi"
+
+#: View/Themed/Admin/Settings/admin_index.ctp:73
+msgid "Choose main currency on website. In order to add new please go to Settings -> Currencies."
+msgstr "Bahis sitesinde ana para birimi seçin. Yeni birim eklemek için Ayarlar  -> Kurlar sayfasını ziyaret edin."
+
+#: View/Themed/Admin/Settings/admin_index.ctp:76
+msgid "Default timezone:"
+msgstr "Varasıylan zaman dilimi"
+
+#: View/Themed/Admin/Settings/admin_index.ctp:77
+msgid "Select time zone for whole website."
+msgstr "Genel site zaman dilimini seçin"
+
+#: View/Themed/Admin/Settings/admin_index.ctp:80
+msgid "Default language"
+msgstr "Varsayılan dil"
+
+#: View/Themed/Admin/Settings/admin_index.ctp:81
+msgid "Select website main language. In order to add new language please contact ChalkPro support team."
+msgstr "Sitenin varasıylan dilini seçin. Daha fazla dil seçeneği için lütfen Bet Yazılım destek ekibiyle iletişime geçin."
+
+#: View/Themed/Admin/Settings/admin_index.ctp:84
+msgid "Charset"
+msgstr "Karakter"
+
+#: View/Themed/Admin/Settings/admin_index.ctp:85
+msgid "Charsets are identifiers used to describe a series of universal characters used in web and internet protocols such as HTML and Microsoft Windows. Default one is \"utf-8\"."
+msgstr "Standart karakter seti \"utf-8\" dir."
+
+#: View/Themed/Admin/Settings/admin_index.ctp:88
+msgid "Items per page"
+msgstr "Sayfa başına öğeler"
+
+#: View/Themed/Admin/Settings/admin_index.ctp:89
+msgid "Number of maximum rows which will be displayed in one page (only in administration panel)"
+msgstr "Tek sayfada görüntülenecek maximum satır sayısı (sadece yönetim paneli için geçerlidir)"
+
+#: View/Themed/Admin/Settings/admin_index.ctp:96
+msgid "Percent of commissions from profit for operator"
+msgstr "Operatörler için kazançtan komisyon yüzdesi"
+
+#: View/Themed/Admin/Settings/admin_index.ctp:97
+msgid "Commissions in %"
+msgstr "Komisyonlar yüzde (%) şeklinde olmalı"
+
+#: View/Themed/Admin/Settings/admin_index.ctp:101
+msgid "Service fee in % from stake"
+msgstr "Bahislerden alınan servis ücreti yüzdesi (%)"
+
+#: View/Themed/Admin/Settings/admin_promo.ctp:38
+msgid "Left promotion sidebar"
+msgstr "Sol tanıtım alanı"
+
+#: View/Themed/Admin/Settings/admin_promo.ctp:45
+msgid "Left active"
+msgstr "Sol aktif"
+
+#: View/Themed/Admin/Settings/admin_promo.ctp:52
+msgid "Show (Yes) or hide (No) left promotion sidebar in front end."
+msgstr "Sol tanıtım alanını anasayfada göster (Evet) veya gizle (Hayır)."
+
+#: View/Themed/Admin/Settings/admin_promo.ctp:59
+msgid "Left sidebar title"
+msgstr "Sol tanıtım alanı başlığı"
+
+#: View/Themed/Admin/Settings/admin_promo.ctp:60
+msgid "Enter left sidebar title."
+msgstr "Sol tanıtım başlığı"
+
+#: View/Themed/Admin/Settings/admin_promo.ctp:63
+msgid "Left sidebar content"
+msgstr "Sol tanıtım başlığını girin"
+
+#: View/Themed/Admin/Settings/admin_promo.ctp:70
+msgid "Right promotion sidebar"
+msgstr "Sağ tanıtım alanı"
+
+#: View/Themed/Admin/Settings/admin_promo.ctp:77
+msgid "Right active"
+msgstr "Sağ aktif"
+
+#: View/Themed/Admin/Settings/admin_promo.ctp:84
+msgid "Show (Yes) or hide (No) right promotion sidebar in front end."
+msgstr "Sağ tanıtım alanını anasayfada göster (Evet) veya gizle (Hayır)."
+
+#: View/Themed/Admin/Settings/admin_promo.ctp:90
+msgid "Right sidebar title"
+msgstr "Sağ tanıtım başlığı"
+
+#: View/Themed/Admin/Settings/admin_promo.ctp:91
+msgid "Enter right sidebar title."
+msgstr "Sağ tanıtım başlığını girin"
+
+#: View/Themed/Admin/Settings/admin_promo.ctp:94
+msgid "Right sidebar content"
+msgstr "Sağ tanıtım alanı içeriği"
+
+#: View/Themed/Admin/Settings/admin_promo.ctp:100
+msgid "Bottom promotion sidebar"
+msgstr "Alt tanıtım alanı"
+
+#: View/Themed/Admin/Settings/admin_promo.ctp:107
+msgid "Bottom active"
+msgstr "Alt aktif"
+
+#: View/Themed/Admin/Settings/admin_promo.ctp:114
+msgid "Show (Yes) or hide (No) bottom promotion sidebar in front end."
+msgstr "Alt tanıtım alanını anasayfada göster (Evet) veya gizle (Hayır)."
+
+#: View/Themed/Admin/Settings/admin_promo.ctp:119
+msgid "Bottom sidebar title"
+msgstr "Alt tanıtım başlığı"
+
+#: View/Themed/Admin/Settings/admin_promo.ctp:120
+msgid "Enter bottom sidebar title."
+msgstr "Alt tanıtım başlığını girin"
+
+#: View/Themed/Admin/Settings/admin_promo.ctp:123
+msgid "Bottom sidebar content"
+msgstr "Alt tanıtım alanı içeriği"
+
+#: View/Themed/Admin/Settings/admin_referral.ctp:7
+msgid "Referral Settings"
+msgstr "Referans Ayarları"
+
+#: View/Themed/Admin/Settings/admin_referral.ctp:39
+msgid "All basic configuration referral system. A referrer is a person who makes money by referring players (called referrals) to your sportsbook."
+msgstr "Referans sistemi temel ayarlar. Referans sistemiyle kullanıcılar yeni üye davet ederek kazanç elde edebilir."
+
+#: View/Themed/Admin/Settings/admin_referral.ctp:47
+msgid "First deposit percentage to referral"
+msgstr "Referans ilk yatırım bonusu "
+
+#: View/Themed/Admin/Settings/admin_referral.ctp:48
+msgid "Percent which get referrer from first referral deposit. Insert percent from 1 to 100."
+msgstr "Üyenin davet ettiği kişinin ilk yatırımından yüzde kaçı referans sahibine yatırılsın."
+
+#: View/Themed/Admin/Settings/admin_seo.ctp:6
+msgid "SEO %s"
+msgstr "SEO %s"
+
+#: View/Themed/Admin/Settings/admin_seo.ctp:36
+msgid "What Is <b>SEO</b> / Search Engine Optimization?"
+msgstr "<b>SEO</b> / Arama Motoru Optimizasyonu Nedir?"
+
+#: View/Themed/Admin/Settings/admin_seo.ctp:40
+msgid "SEO stands for \"search engine optimization.\" It is the process of getting traffic from the \"free,\" \"organic,\" \"editorial\" or \"natural\" listings on search engines. All major search engines such as Google, Yahoo and Bing have such results, where web pages and other content such as videos or local listings are shown and ranked based on what the search engine considers most relevant to users. Payment is not involved, as it is with paid search ads."
+msgstr "SEO \\ açılımı \"arama motoru optimizasyonu. \" Bu \"ücretsiz \" \"organik \" \"editoryal \" ya da arama motorlarında \"doğal \" listelerinden trafik alma işlemidir. Google, Yahoo ve Bing gibi tüm büyük arama motorları bu tür videolar veya yerel listeleri gibi web sayfaları ve diğer içerik gösterilen ve arama motoru kullanıcılarına en alakalı ne düşündüğü dayalı sıralanır böyle bir sonuç var. ödenen arama reklamları ile olduğu gibi ödeme, dahil değildir."
+
+#: View/Themed/Admin/Settings/admin_seo.ctp:53
+msgid "Title tag"
+msgstr "Title etiketi"
+
+#: View/Themed/Admin/Settings/admin_seo.ctp:54
+msgid "A title tag is the main text that describes an online document. It appears in three key places: browsers, search engine results pages, and external websites."
+msgstr "Bir başlık etiketi online bir belge açıklar ana metindir. tarayıcılar, arama motoru sonuç sayfaları ve dış siteleri: Bu üç anahtar yerleri görünür."
+
+#: View/Themed/Admin/Settings/admin_seo.ctp:57
+msgid "Keywords"
+msgstr "Anahtar kelimeler"
+
+#: View/Themed/Admin/Settings/admin_seo.ctp:58
+msgid "Keywords are words or phrases which desribes your website content. Use comma for separation."
+msgstr "Anahtar web sitenizin içeriği tarif etmekte olan kelimeleri veya cümleleri vardır. ayrılması için virgül kullanır."
+
+#: View/Themed/Admin/Settings/admin_seo.ctp:62
+msgid "This description would appear in search engines."
+msgstr "Bu açıklama arama motorlarında görünür."
+
+#: View/Themed/Admin/Settings/admin_seo.ctp:65
+msgid "Reply to email"
+msgstr "Yanıtla e-posta adresi"
+
+#: View/Themed/Admin/Settings/admin_seo.ctp:66
+msgid "Email which would be visible in search engines as part of SEO outputs."
+msgstr "SEO çıktıların parçası olarak arama motorlarında görünür olacak e-posta."
+
+#: View/Themed/Admin/Settings/admin_seo.ctp:69
+msgid "Copyright:"
+msgstr "Telif Hakkı:"
+
+#: View/Themed/Admin/Settings/admin_seo.ctp:70
+msgid "Owner of product which would appear in SEO outputs."
+msgstr "SEO çıktılarında görünür ürünün sahibi."
+
+#: View/Themed/Admin/Settings/admin_seo.ctp:73
+msgid "Bot content revisit time"
+msgstr "Bot içerik tekrar ziyaret süresi"
+
+#: View/Themed/Admin/Settings/admin_seo.ctp:74
+msgid "Write how often search engine bot should revisit you for new content."
+msgstr "Arama motoru botu yeni içerik için size tekrar nasıl sıklıkta yazın."
+
+#: View/Themed/Admin/Settings/admin_seo.ctp:77
+msgid "Author"
+msgstr "Yazar"
+
+#: View/Themed/Admin/Settings/admin_seo.ctp:78
+msgid "Name of product creator."
+msgstr "Ürün sahibinin adı."
+
+#: View/Themed/Admin/Settings/admin_tickets.ctp:37
+msgid "General ticket controls some of the most basic configuration related to tickets and printing functions."
+msgstr "Genel bilet ve baskı fonksiyonları ile ilgili en temel yapılandırma fonskiyonlarını kontrol eder."
+
+#: View/Themed/Admin/Settings/admin_tickets.ctp:47
+msgid "Ticket printing"
+msgstr "Bilet baskı"
+
+#: View/Themed/Admin/Settings/admin_tickets.ctp:50
+msgid "Enable (Yes) or disable (No) ticket printing for users and staff."
+msgstr "kullanıcılar ve personel için (Hayır) bilet baskı (Evet) etkinleştirmek veya devre dışı."
+
+#: View/Themed/Admin/Settings/admin_tickets.ctp:54
+msgid "Ticket preview"
+msgstr "Bilet önizleme"
+
+#: View/Themed/Admin/Settings/admin_tickets.ctp:57
+msgid "Enable (Yes) or disable (No) ticket preview ticket before it is placed."
+msgstr "o yerleştirilmeden önce (Evet) etkinleştirmek veya devre dışı (Hayır) bilet önizleme bilet."
+
+#: View/Themed/Admin/Settings/admin_warnings.ctp:6
+msgid "Warnings %s"
+msgstr "Uyarılar %s"
+
+#: View/Themed/Admin/Settings/admin_warnings.ctp:42
+msgid "Warning settings would help you to filter warning screen with unnecessary alerts. Please consider what is crucial for you sportsbook and use this function to secure your profit."
+msgstr "Ayarları Uyarı gereksiz uyarılar uyarı ekranı filtre yardımcı olacaktır. Eğer Sportsbook'ta ve kar güvenliğini sağlamak için bu işlevi kullanın için çok önemlidir düşünün lütfen."
+
+#: View/Themed/Admin/Settings/admin_warnings.ctp:51
+msgid "Deposit alert"
+msgstr "Yatırım uyarısı"
+
+#: View/Themed/Admin/Settings/admin_warnings.ctp:52
+msgid "System will alert once user deposited same or higher amount of money his/her account."
+msgstr "Sistem para kullanıcı tevdi aynı veya daha yüksek miktarda onun / onu hesap kez uyaracaktır."
+
+#: View/Themed/Admin/Settings/admin_warnings.ctp:55
+msgid "Withdraw alert"
+msgstr "Çekim uyarısı"
+
+#: View/Themed/Admin/Settings/admin_warnings.ctp:56
+msgid "System will alert once user ask for withdraw same or higher amount of money from his/her account."
+msgstr "Kullanıcı bakiyesiyle aynı veya yüksek bir miktar çekmeye çalıştığında sistem onu uyarır."
+
+#: View/Themed/Admin/Settings/admin_warnings.ctp:59
+msgid "Stake alert"
+msgstr "Bahis uyarısı"
+
+#: View/Themed/Admin/Settings/admin_warnings.ctp:60
+msgid "System will alert once user stake a ticket would be with same or higher amount of money."
+msgstr "Kullanıcı aynı veya daha fazla miktarda bahis yapmaya çalıştığında sistem onu uyarır."
+
+#: View/Themed/Admin/Settings/admin_warnings.ctp:63
+msgid "Odds alert"
+msgstr "Oran uyarısı"
+
+#: View/Themed/Admin/Settings/admin_warnings.ctp:64
+msgid "System will alert once odd will reach or would be higher then set in warning settings"
+msgstr "Sistem kullanıcıyı belirlenen uyarı ayarlarından fazla bahis yaptığı zaman uyaracaktır."
+
+#: View/Themed/Admin/Settings/admin_warnings.ctp:67
+msgid "Won amount alert"
+msgstr "Kazanılan miktar uyarısı"
+
+#: View/Themed/Admin/Settings/admin_warnings.ctp:68
+msgid "System will alert staff once user will won ticket with same or higher amount."
+msgstr "Kullanıcı aynı veya yüksek miktarda kazanılan bahis için yetkiliyi uyaracaktır."
+
+#: View/Themed/Admin/Settings/admin_withdraws.ctp:47
+#: View/Themed/Admin/Settings/admin_withdraws_risks.ctp:54
+msgid "Allow withdraws"
+msgstr "Çekime izin ver"
+
+#: View/Themed/Admin/Settings/admin_withdraws_risks.ctp:6
+msgid "Withdraw %s"
+msgstr "Çek %s"
+
+#: View/Themed/Admin/Settings/admin_withdraws_risks.ctp:36
+msgid "Please set withdraw risk management setting below:"
+msgstr "Para çekim risk yönetimini ayarlayın:"
+
+#: View/Themed/Admin/Settings/admin_withdraws_risks.ctp:46
+msgid "Lowest amount for withdraw request"
+msgstr "Para çekme isteği için minimum tutar"
+
+#: View/Themed/Admin/Settings/admin_withdraws_risks.ctp:50
+msgid "Highest amount for withdraw request"
+msgstr "Para çekme isteği için maksimum tutar"
+
+#: View/Themed/Admin/Sports/admin_view.ctp:6
+#: View/Themed/Redesign/Sports/json/get_sports_menu.ctp:3
+msgid "Sports"
+msgstr "Spor Dalları"
+
+#: View/Themed/Admin/Sports/admin_view.ctp:6;27
+msgid "Leagues"
+msgstr "Ligler"
+
+#: View/Themed/Admin/Staffs/admin_view.ctp:6
+#: View/Themed/Admin/Tickets/admin_view.ctp:6
+msgid "View %s"
+msgstr "Görüntüleme %s"
+
+#: View/Themed/Admin/Tickets/admin_printTicket.ctp:3
+#: View/Themed/Admin/Tickets/printing.ctp:3
+#: View/Themed/ChalkPro/Elements/layout-blocks/left-block/search-ticket.ctp:11
+#: View/Themed/ChalkPro/Tickets/preview.ctp:13
+#: View/Themed/ChalkPro/Tickets/print_ticket.ctp:3
+#: View/Themed/ChalkPro/Tickets/review.ctp:15
+#: View/Themed/Redesign/Tickets/preview.ctp:14
+#: View/Themed/Redesign/Tickets/print_ticket.ctp:3
+#: View/Themed/Redesign/Tickets/review.ctp:16
+msgid "Ticket"
+msgstr "Kupon"
+
+#: View/Themed/Admin/Tickets/admin_printTicket.ctp:7
+#: View/Themed/Admin/Tickets/printing.ctp:7
+#: View/Themed/ChalkPro/Tickets/print_ticket.ctp:7
+#: View/Themed/ChalkPro/Tickets/review.ctp:19
+#: View/Themed/Redesign/Tickets/print_ticket.ctp:7
+#: View/Themed/Redesign/Tickets/review.ctp:20
+msgid "Date and time"
+msgstr "Tarih ve saat"
+
+#: View/Themed/Admin/Tickets/admin_printTicket.ctp:11
+#: View/Themed/Admin/Tickets/printing.ctp:11
+#: View/Themed/ChalkPro/Tickets/review.ctp:25
+#: View/Themed/Redesign/Tickets/review.ctp:26
+msgid "Ticket id"
+msgstr "Kupon ID"
+
+#: View/Themed/Admin/Tickets/admin_printTicket.ctp:18
+#: View/Themed/Admin/Tickets/printing.ctp:18
+#: View/Themed/ChalkPro/Tickets/preview.ctp:17
+#: View/Themed/ChalkPro/Tickets/review.ctp:34
+#: View/Themed/Redesign/Tickets/preview.ctp:18
+#: View/Themed/Redesign/Tickets/review.ctp:35
+msgid "Event ID / Date"
+msgstr "Etkinlik ID / Tarih"
+
+#: View/Themed/Admin/Tickets/admin_printTicket.ctp:19
+#: View/Themed/Admin/Tickets/admin_view.ctp:81
+#: View/Themed/Admin/Tickets/printing.ctp:19
+#: View/Themed/ChalkPro/Tickets/preview.ctp:19
+#: View/Themed/ChalkPro/Tickets/print_ticket.ctp:30
+#: View/Themed/ChalkPro/Tickets/review.ctp:35
+#: View/Themed/ChalkPro/Tickets/view.ctp:13
+#: View/Themed/Redesign/Tickets/preview.ctp:20
+#: View/Themed/Redesign/Tickets/print_ticket.ctp:25
+#: View/Themed/Redesign/Tickets/review.ctp:36
+#: View/Themed/Redesign/Tickets/view.ctp:11
+msgid "Event"
+msgstr "Etkinlik"
+
+#: View/Themed/Admin/Tickets/admin_printTicket.ctp:26
+#: View/Themed/Admin/Tickets/printing.ctp:26
+#: View/Themed/ChalkPro/Elements/layout-blocks/left-block/search-ticket.ctp:4
+#: View/Themed/ChalkPro/Tickets/preview.ctp:26
+#: View/Themed/ChalkPro/Tickets/print_ticket.ctp:37
+#: View/Themed/ChalkPro/Tickets/review.ctp:42
+#: View/Themed/Redesign/Tickets/preview.ctp:27
+#: View/Themed/Redesign/Tickets/print_ticket.ctp:32
+#: View/Themed/Redesign/Tickets/review.ctp:43
+msgid "ID:"
+msgstr "ID:"
+
+#: View/Themed/Admin/Tickets/admin_printTicket.ctp:40
+#: View/Themed/Admin/Tickets/printing.ctp:40
+#: View/Themed/Redesign/Tickets/preview.ctp:53
+#: View/Themed/Redesign/Tickets/print_ticket.ctp:54
+#: View/Themed/Redesign/Tickets/review.ctp:64
+msgid "Total:"
+msgstr "Toplam:"
+
+#: View/Themed/Admin/Tickets/admin_printTicket.ctp:44
+#: View/Themed/Admin/Tickets/printing.ctp:44
+#: View/Themed/Redesign/Tickets/preview.ctp:56
+#: View/Themed/Redesign/Tickets/print_ticket.ctp:58
+#: View/Themed/Redesign/Tickets/review.ctp:67
+msgid "Amount:"
+msgstr "Tutar:"
+
+#: View/Themed/Admin/Tickets/admin_printTicket.ctp:49
+#: View/Themed/Admin/Tickets/printing.ctp:49
+#: View/Themed/ChalkPro/Tickets/preview.ctp:74
+#: View/Themed/ChalkPro/Tickets/print_ticket.ctp:72
+#: View/Themed/ChalkPro/Tickets/review.ctp:92
+#: View/Themed/ChalkPro/Tickets/view.ctp:71
+#: View/Themed/Redesign/Tickets/preview.ctp:60
+#: View/Themed/Redesign/Tickets/print_ticket.ctp:63
+#: View/Themed/Redesign/Tickets/review.ctp:71
+msgid "Return:"
+msgstr "İade:"
+
+#: View/Themed/Admin/Tickets/admin_view.ctp:32
+msgid "Ticket Number"
+msgstr "Bilet numarası"
+
+#: View/Themed/Admin/Tickets/admin_view.ctp:35
+msgid "Type"
+msgstr "Tür"
+
+#: View/Themed/Admin/Tickets/admin_view.ctp:38
+#: View/Themed/ChalkPro/Tickets/index.ctp:17
+#: View/Themed/Redesign/Tickets/history.ctp:17
+#: View/Themed/Redesign/Tickets/index.ctp:17
+msgid "Service Fee"
+msgstr "Servis Ücreti"
+
+#: View/Themed/Admin/Tickets/admin_view.ctp:40;85
+#: View/Themed/ChalkPro/Deposits/index.ctp:16
+#: View/Themed/ChalkPro/Elements/layout-blocks/left-block/search-ticket.ctp:17
+#: View/Themed/ChalkPro/Tickets/history.ctp:21
+#: View/Themed/ChalkPro/Tickets/index.ctp:22
+#: View/Themed/ChalkPro/Tickets/view.ctp:20
+#: View/Themed/ChalkPro/Withdraws/index.ctp:17
+#: View/Themed/Redesign/Deposits/index.ctp:17
+#: View/Themed/Redesign/Tickets/history.ctp:22
+#: View/Themed/Redesign/Tickets/index.ctp:22
+#: View/Themed/Redesign/Tickets/view.ctp:16
+#: View/Themed/Redesign/Withdraws/index.ctp:17
+msgid "Status"
+msgstr "Durum"
+
+#: View/Themed/Admin/Tickets/admin_view.ctp:56;64
+#: View/Themed/ChalkPro/Tickets/get_history.ctp:20
+#: View/Themed/ChalkPro/Tickets/history.ctp:40
+#: View/Themed/ChalkPro/Tickets/index.ctp:42
+#: View/Themed/ChalkPro/Tickets/review.ctp:111
+#: View/Themed/ChalkPro/Tickets/view.ctp:85
+#: View/Themed/Redesign/Tickets/get_history.ctp:21
+#: View/Themed/Redesign/Tickets/history.ctp:47
+#: View/Themed/Redesign/Tickets/index.ctp:47
+#: View/Themed/Redesign/Tickets/review.ctp:90
+msgid "Print"
+msgstr "Yazdır"
+
+#: View/Themed/Admin/Tickets/admin_view.ctp:58;67
+msgid "Ticket will be cancelled. Are you sure you want to cancel?"
+msgstr "Kupon iptal edilecektir. İptal etmek istediğinden emin misin?"
+
+#: View/Themed/Admin/Tickets/admin_view.ctp:61
+msgid "No actions are available"
+msgstr "Hiçbir eylem mevcut değil."
+
+#: View/Themed/Admin/Tickets/admin_view.ctp:65
+msgid "Ticket will be deleted. Are you sure you want to delete?"
+msgstr "Kupon silinecektir. Silmek istediğine emin misin?"
+
+#: View/Themed/Admin/Tickets/admin_view.ctp:70
+msgid "Renew ticket events data"
+msgstr "Kupon etkinlik verilerini yenile"
+
+#: View/Themed/Admin/Tickets/admin_view.ctp:70
+msgid "All ticket event information will be updated. Are you sure you want to proceed?"
+msgstr "Tüm kupon etkinlik bilgileri güncellenecektir. Devam etmek istediğinizden emin misiniz?"
+
+#: View/Themed/Admin/Tickets/admin_view.ctp:76
+msgid "Ticket details"
+msgstr "Kupon detayları"
+
+#: View/Themed/Admin/Tickets/admin_view.ctp:104
+msgid "Insert Result"
+msgstr "Sonuç Ekle"
+
+#: View/Themed/Admin/Tickets/admin_view.ctp:113
+msgid "View event"
+msgstr "Etkinlik görüntüle"
+
+#: View/Themed/Admin/Tickets/admin_view.ctp:114
+msgid "Enter result"
+msgstr "Sonuç girin"
+
+#: View/Themed/Admin/Tickets/admin_view.ctp:115
+msgid "Cancel event"
+msgstr "Etkinlik iptal"
+
+#: View/Themed/Admin/Tickets/admin_view.ctp:115
+msgid "Event will be cancelled. Are you sure you want to cancel?"
+msgstr "Etkinlik iptal edilecektir. İptal etmek istediğinizden emin misiniz ?"
+
+#: View/Themed/Admin/Users/admin_add.ctp:6
+msgid "Add %s"
+msgstr "Ekle %s"
+
+#: View/Themed/Admin/Users/admin_index_new.ctp:24
+msgid "Active Users"
+msgstr "Aktif Kullanıcılar"
+
+#: View/Themed/Admin/Users/admin_index_new.ctp:35
+msgid "Registration chart"
+msgstr "Kayıt grafiği"
+
+#: View/Themed/Admin/Users/admin_settings.ctp:23
+#: View/Themed/ChalkPro/Users/settings.ctp:11
+msgid "Odds type"
+msgstr "Oran tipi"
+
+#: View/Themed/Admin/Users/admin_settings.ctp:28
+#: View/Themed/ChalkPro/Users/settings.ctp:14
+#: View/Themed/Redesign/Users/settings.ctp:18
+msgid "Time zone"
+msgstr "Zaman dilimi"
+
+#: View/Themed/Admin/Users/confirm.ctp:2
+#: View/Themed/ChalkPro/Users/confirm.ctp:2
+#: View/Themed/Redesign/Users/confirm.ctp:3
+msgid "Confirmation"
+msgstr "Onay"
+
+#: View/Themed/Admin/Users/confirm.ctp:4
+#: View/Themed/ChalkPro/Users/confirm.ctp:4
+#: View/Themed/Redesign/Users/confirm.ctp:7
+msgid "Email has been confirmed. You can now login."
+msgstr "E-posta adresi doğrulanmıştır. Şimdi giriş yapabilirsiniz."
+
+#: View/Themed/Admin/Users/confirm.ctp:6
+#: View/Themed/ChalkPro/Users/confirm.ctp:6
+#: View/Themed/Redesign/Users/confirm.ctp:9
+msgid "Incorect confirmation code"
+msgstr "Geçersiz onay kodu"
+
+#: View/Themed/Admin/Users/login.ctp:22
+msgid "Register now!"
+msgstr "Şimdi kaydolun"
+
+#: View/Themed/Admin/Users/login.ctp:23
+msgid "Forgotten your password?"
+msgstr "Şifrenizi mi unuttunuz?"
+
+#: View/Themed/Admin/Users/password.ctp:2
+#: View/Themed/ChalkPro/Users/reset-password.ctp:16
+#: View/Themed/Redesign/Users/reset-password.ctp:24
+msgid "Change password"
+msgstr "Şifre değiştir"
+
+#: View/Themed/Admin/Users/password.ctp:12
+msgid "Old password"
+msgstr "Eski şifre"
+
+#: View/Themed/Admin/Users/password.ctp:14
+msgid "New password"
+msgstr "Yeni Şifre"
+
+#: View/Themed/Admin/Users/password.ctp:16
+#: View/Themed/ChalkPro/Users/register.ctp:46
+#: View/Themed/ChalkPro/Users/reset-password.ctp:14
+#: View/Themed/Redesign/Users/register.ctp:82;87
+#: View/Themed/Redesign/Users/reset-password.ctp:19;20
+msgid "Confirm password"
+msgstr "Şifreyi onayla"
+
+#: View/Themed/Admin/Users/password.ctp:19
+#: View/Themed/ChalkPro/Users/account.ctp:57
+#: View/Themed/ChalkPro/Users/settings.ctp:21
+#: View/Themed/Redesign/Users/account.ctp:84
+#: View/Themed/Redesign/Users/settings.ctp:28
+msgid "Change Password"
+msgstr "Şifre değiştir"
+
+#: View/Themed/Admin/Withdraws/admin_add.ctp:23
+msgid "Charge user %s"
+msgstr "%s tahsil et"
+
+#: View/Themed/Admin/Withdraws/admin_add.ctp:24
+msgid "To charge enter amount and money will be reduced from user account. For example if you want to charge just credit user with 200 "
+msgstr "Tahsil etmek istediğiniz miktarı girdiğinizde kullanıcının hesabından düşecektir. Örneğin 200"
+
+#: View/Themed/Admin/Withdraws/admin_add.ctp:24
+msgid " USD just enter that amount into field and press submit"
+msgstr "TL girin ve butona tıklayın"
+
+#: View/Themed/Admin/Withdraws/settings.ctp:2
+msgid "Bank info"
+msgstr "Banka bilgileri"
+
+#: View/Themed/Admin/Withdraws/settings.ctp:3
+msgid "Please provide your bank info"
+msgstr "Lütfen banka hesap bilgilerinizi yazın"
+
+#: View/Themed/Admin/Withdraws/settings.ctp:24
+#: View/Themed/ChalkPro/Users/account.ctp:39
+#: View/Themed/ChalkPro/Users/register.ctp:61
+#: View/Themed/Redesign/Users/account.ctp:59
+#: View/Themed/Redesign/Users/register.ctp:108
+msgid "Bank name"
+msgstr "Banka adı -"
+
+#: View/Themed/Admin/Withdraws/settings.ctp:29
+msgid "Account number"
+msgstr "Hesap numarası"
+
+#: View/Themed/Admin/Withdraws/settings.ctp:36
+#: View/Themed/ChalkPro/Users/account.ctp:54
+#: View/Themed/ChalkPro/Users/settings.ctp:20
+#: View/Themed/Redesign/Users/account.ctp:81
+msgid "Confirm changes"
+msgstr "Değişiklikleri kaydet"
+
+#: View/Themed/ChalkPro/Deposits/choose.ctp:3
+msgid "Choose Payment Gateway"
+msgstr "Ödeme yöntemi seçin"
+
+#: View/Themed/ChalkPro/Deposits/choose.ctp:8
+#: View/Themed/Redesign/Deposits/index.ctp:37
+msgid "Bank Transfer Payment"
+msgstr "Banka Havalesi Ödeme"
+
+#: View/Themed/ChalkPro/Deposits/choose.ctp:16
+msgid "eTranzact"
+msgstr "eTranzact"
+
+#: View/Themed/ChalkPro/Deposits/choose.ctp:23
+msgid "InterSwitch"
+msgstr "INTERSWITCH"
+
+#: View/Themed/ChalkPro/Deposits/choose.ctp:30
+msgid "PerfectMoney"
+msgstr "PerfectMoney"
+
+#: View/Themed/ChalkPro/Deposits/choose.ctp:39
+msgid "EgoPay"
+msgstr "EgoPay"
+
+#: View/Themed/ChalkPro/Deposits/index.ctp:5
+#: View/Themed/Redesign/Deposits/index.ctp:5
+msgid "Please see you latest deposits below:"
+msgstr "Son para yatırma işlemleriniz aşağıdaki gibidir:"
+
+#: View/Themed/ChalkPro/Deposits/index.ctp:30
+#: View/Themed/Redesign/Deposits/index.ctp:71
+msgid "No deposits history found. To make new please follow \"Make New\"."
+msgstr "Para yatırma geçmişi bulunamadı. Hesabınıza para yatırmak için lütfen Para Yatırma seçeneğine tıklayın."
+
+#: View/Themed/ChalkPro/Deposits/preview.ctp:3
+#: View/Themed/Redesign/Deposits/preview.ctp:3
+msgid "Deposit information:"
+msgstr "Yatırım bilgileri:"
+
+#: View/Themed/ChalkPro/Deposits/preview.ctp:16
+#: View/Themed/Redesign/Deposits/preview.ctp:40
+msgid "Request Manual Deposit (Credited Upon Verification)"
+msgstr "Manuel Yatırım Talep Edin (Onay Gerektirir)"
+
+#: View/Themed/ChalkPro/Elements/Deposits/preview.ctp:8
+#: View/Themed/Redesign/Deposits/preview.ctp:21
+msgid "Deposit type"
+msgstr "Yatırım türü"
+
+#: View/Themed/ChalkPro/Elements/Deposits/preview.ctp:19
+msgid "Bonus type"
+msgstr "Bonus türü"
+
+#: View/Themed/ChalkPro/Elements/Deposits/preview.ctp:24
+msgid "Bonus valid until"
+msgstr "Bonus geçerlilik tarihi"
+
+#: View/Themed/ChalkPro/Elements/Deposits/preview.ctp:28
+msgid "Bonus used"
+msgstr "Kullanılan bonus"
+
+#: View/Themed/ChalkPro/Elements/Deposits/preview.ctp:34
+msgid "Bonus amount to your account"
+msgstr "Hesabınıza bonus miktarı"
+
+#: View/Themed/ChalkPro/Elements/Events/OddService/12.ctp:50
+#: View/Themed/ChalkPro/Elements/Events/OddService/1x2.ctp:49
+#: View/Themed/ChalkPro/Elements/Events/nordicbet/versus-with-draw.ctp:36
+#: View/Themed/ChalkPro/Elements/Events/nordicbet/versus.ctp:35
+#: View/Themed/Redesign/Elements/Events/OddService/12.ctp:50
+#: View/Themed/Redesign/Elements/Events/OddService/1x2.ctp:49
+#: View/Themed/Redesign/Elements/Events/nordicbet/versus-with-draw.ctp:36
+#: View/Themed/Redesign/Elements/Events/nordicbet/versus.ctp:35
+msgid "No available odds found for this event"
+msgstr "Bu etkinlik için oran bulunamadı"
+
+#: View/Themed/ChalkPro/Elements/email/html/contact.ctp:5
+#: View/Themed/ChalkPro/Elements/email/text/contact.ctp:5
+#: View/Themed/Redesign/Elements/email/html/contact.ctp:5
+#: View/Themed/Redesign/Elements/email/text/contact.ctp:5
+msgid "From:"
+msgstr "Gönderen: "
+
+#: View/Themed/ChalkPro/Elements/email/html/contact.ctp:6
+#: View/Themed/ChalkPro/Elements/email/text/contact.ctp:6
+#: View/Themed/Redesign/Elements/email/html/contact.ctp:6
+#: View/Themed/Redesign/Elements/email/text/contact.ctp:6
+msgid "Email:"
+msgstr "E-posta:"
+
+#: View/Themed/ChalkPro/Elements/layout-blocks/header-block/header-menu.ctp:1
+msgid "Services"
+msgstr "Servisler"
+
+#: View/Themed/ChalkPro/Elements/layout-blocks/header-block/odds-list.ctp:5
+#: View/Themed/ChalkPro/Tickets/betslip.ctp:22
+msgid "Odds"
+msgstr "Oran"
+
+#: View/Themed/ChalkPro/Elements/layout-blocks/header-block/user-box.ctp:5
+msgid " "
+msgstr " "
+
+#: View/Themed/ChalkPro/Elements/layout-blocks/header-block/user-box.ctp:9
+msgid "Join now"
+msgstr "Şimdi Katıl"
+
+#: View/Themed/ChalkPro/Elements/layout-blocks/header-block/user-box.ctp:13
+msgid "Lost login?"
+msgstr "Şifrenimi Unuttun ?"
+
+#: View/Themed/ChalkPro/Elements/layout-blocks/header-block/user-box.ctp:23
+#: View/Themed/Redesign/Elements/layout-blocks/header-block/user-box.ctp:15
+msgid "%s %.2f"
+msgstr "%s %.2f"
+
+#: View/Themed/ChalkPro/Elements/layout-blocks/header-block/user-box.ctp:26
+#: View/Themed/Redesign/Elements/layout-blocks/header-block/user-box.ctp:11
+msgid "My account"
+msgstr "Hesabım"
+
+#: View/Themed/ChalkPro/Elements/layout-blocks/header-block/user-box.ctp:28
+msgid "OP"
+msgstr "OP"
+
+#: View/Themed/ChalkPro/Elements/layout-blocks/header-block/user-box.ctp:30
+#: View/Themed/Redesign/Elements/layout-blocks/header-block/user-box.ctp:17
+msgid "Log out"
+msgstr "Çıkış Yap"
+
+#: View/Themed/ChalkPro/Elements/layout-blocks/left-block/left-menu.ctp:1
+msgid "Bet Services"
+msgstr "Bahis Hizmetleri"
+
+#: View/Themed/ChalkPro/Elements/layout-blocks/left-block/search-ticket.ctp:1
+msgid "Search Ticket"
+msgstr "Kupon Ara"
+
+#: View/Themed/ChalkPro/Elements/layout-blocks/left-block/search-ticket.ctp:4
+msgid "Enter ticket ID"
+msgstr "Kupon ID Girin"
+
+#: View/Themed/ChalkPro/Elements/layout-blocks/left-block/search-ticket.ctp:13
+msgid "Unknown ticked ID"
+msgstr "Bilinmeyen Kupon ID"
+
+#: View/Themed/ChalkPro/Elements/layout-blocks/left-block/search-ticket.ctp:21
+msgid "Money"
+msgstr "Para"
+
+#: View/Themed/ChalkPro/Elements/layout-blocks/left-block/search-ticket.ctp:26
+msgid "Pay"
+msgstr "Öde"
+
+#: View/Themed/ChalkPro/Elements/layout-blocks/right-block/find-event.ctp:2
+msgid "Find event"
+msgstr "Etkinlik bul"
+
+#: View/Themed/ChalkPro/Elements/layout-blocks/right-block/find-event.ctp:5
+msgid "Search by event name"
+msgstr "İsim ile etkinlik ara"
+
+#: View/Themed/ChalkPro/Elements/layout-blocks/right-block/find-event.ctp:6
+msgid "Search by event ID"
+msgstr "ID ile etkinlik ara"
+
+#: View/Themed/ChalkPro/Layouts/user-panel.ctp:74
+#: View/Themed/ChalkPro/Users/bonus.ctp:3;13
+#: View/Themed/Redesign/Layouts/user-panel.ctp:49;85
+#: View/Themed/Redesign/Users/bonus.ctp:3;16;17
+msgid "Promotional Code"
+msgstr "Promosyon Kodu"
+
+#: View/Themed/ChalkPro/Layouts/user-panel.ctp:81
+#: View/Themed/Redesign/Layouts/user-panel.ctp:50;92
+msgid "Account Information"
+msgstr "Hesap Bilgileri"
+
+#: View/Themed/ChalkPro/Layouts/user-tools.ctp:39
+msgid "Password reminder"
+msgstr "Şifre hatırlatıcı"
+
+#: View/Themed/ChalkPro/Mails/contact.ctp:4
+#: View/Themed/Redesign/Mails/contact.ctp:4
+msgid "Contact Support Team"
+msgstr "Destek Ekibiyle İletişime Geç"
+
+#: View/Themed/ChalkPro/Mails/contact.ctp:8
+#: View/Themed/Redesign/Mails/contact.ctp:8
+msgid "If you have any problem, do not hesitate to contact the customer service using form below:"
+msgstr "Herhangi bir sorun yaşıyorsanız aşağıdaki bilgileri kullanarak bizimle iletişime geçmekten çekinmeyin:"
+
+#: View/Themed/ChalkPro/Sports/display.ctp:11
+msgid "Sport not found"
+msgstr "Spor bulunamadı"
+
+#: View/Themed/ChalkPro/Sports/display.ctp:25;28;43;48
+#: View/Themed/Redesign/Sports/display.ctp:25;28;43;48
+msgid "No available events found for this league"
+msgstr "Bu lig için herhangi bir etkinlik bulunamadı"
+
+#: View/Themed/ChalkPro/Tickets/betslip.ctp:2
+#: View/Themed/Redesign/Tickets/betslip.ctp:2
+msgid "Bet Slip"
+msgstr "Bahis Kuponu"
+
+#: View/Themed/ChalkPro/Tickets/betslip.ctp:21
+msgid "Selections"
+msgstr "Seçimler"
+
+#: View/Themed/ChalkPro/Tickets/betslip.ctp:48
+#: View/Themed/Redesign/Tickets/betslip.ctp:42
+msgid "Your pick"
+msgstr "Sizin seçiminiz"
+
+#: View/Themed/ChalkPro/Tickets/betslip.ctp:60
+#: View/Themed/Redesign/Tickets/betslip.ctp:80
+msgid "Total bets"
+msgstr "Toplam bahisler"
+
+#: View/Themed/ChalkPro/Tickets/betslip.ctp:64
+#: View/Themed/Redesign/Tickets/betslip.ctp:76
+msgid "Total odds"
+msgstr "Toplam oranlar"
+
+#: View/Themed/ChalkPro/Tickets/betslip.ctp:88
+msgid "Total stake"
+msgstr "Toplam bahis"
+
+#: View/Themed/ChalkPro/Tickets/betslip.ctp:105
+#: View/Themed/Redesign/Tickets/betslip.ctp:100
+msgid "Preview"
+msgstr "Önizleme"
+
+#: View/Themed/ChalkPro/Tickets/betslip.ctp:108;110
+#: View/Themed/Redesign/Tickets/betslip.ctp:103;105
+msgid "Place Bet"
+msgstr "Bahis Yap"
+
+#: View/Themed/ChalkPro/Tickets/betslip.ctp:118
+#: View/Themed/Redesign/Tickets/betslip.ctp:60
+msgid "Please select bet"
+msgstr "Bahis seçiniz"
+
+#: View/Themed/ChalkPro/Tickets/get_history.ctp:2
+#: View/Themed/Redesign/Tickets/get_history.ctp:3
+msgid "Ticket History"
+msgstr "Bahis Geçmişi"
+
+#: View/Themed/ChalkPro/Tickets/get_history.ctp:16
+#: View/Themed/Redesign/Tickets/get_history.ctp:17
+msgid "Ticket ID:"
+msgstr "Bahis ID:"
+
+#: View/Themed/ChalkPro/Tickets/get_history.ctp:26
+#: View/Themed/Redesign/Tickets/get_history.ctp:27
+msgid "Are you sure about to cancel this ticket?"
+msgstr "Bu bahsi iptal etmek istediğinizden emin misiniz ?"
+
+#: View/Themed/ChalkPro/Tickets/get_history.ctp:40
+#: View/Themed/Redesign/Tickets/get_history.ctp:41
+msgid "No tickets activity available"
+msgstr "Bahis kupon aktivitesi bulunamadı"
+
+#: View/Themed/ChalkPro/Tickets/history.ctp:5
+msgid "Please see your betting history below:"
+msgstr "Bahis geçmişiniz aşağıdaki gibidir:"
+
+#: View/Themed/ChalkPro/Tickets/history.ctp:19
+#: View/Themed/ChalkPro/Tickets/index.ctp:20
+#: View/Themed/Redesign/Tickets/history.ctp:20
+#: View/Themed/Redesign/Tickets/index.ctp:20
+msgid "Paid"
+msgstr "Ödendi"
+
+#: View/Themed/ChalkPro/Tickets/history.ctp:53
+#: View/Themed/ChalkPro/Tickets/index.ctp:55
+#: View/Themed/Redesign/Tickets/history.ctp:62
+#: View/Themed/Redesign/Tickets/index.ctp:62
+msgid "Note"
+msgstr "Not"
+
+#: View/Themed/ChalkPro/Tickets/history.ctp:54
+#: View/Themed/ChalkPro/Tickets/index.ctp:56
+#: View/Themed/Redesign/Tickets/history.ctp:62
+#: View/Themed/Redesign/Tickets/index.ctp:62
+msgid "To place ticket please use betslip."
+msgstr "Bahis oynamak için lütfen kuponunuzu kullanın."
+
+#: View/Themed/ChalkPro/Tickets/history.ctp:57
+#: View/Themed/Redesign/Tickets/history.ctp:60
+msgid "Pending tickets"
+msgstr "Bekleyen bahisler"
+
+#: View/Themed/ChalkPro/Tickets/index.ctp:5
+#: View/Themed/Redesign/Tickets/history.ctp:5
+#: View/Themed/Redesign/Tickets/index.ctp:5
+msgid "Please see you recently placed tickets below:"
+msgstr "En son yapılan bahisleriniz aşağıdaki gibidir:"
+
+#: View/Themed/ChalkPro/Tickets/index.ctp:49
+msgid "No pending tickets found. For previous tickets please see tickets history."
+msgstr "Değerlendirilmemiş kuponunuz bulunmamaktadır. Lütfen tüm geçmişe göz atın."
+
+#: View/Themed/ChalkPro/Tickets/index.ctp:59
+#: View/Themed/Redesign/Tickets/index.ctp:60
+msgid "History"
+msgstr "Tarih"
+
+#: View/Themed/ChalkPro/Tickets/preview.ctp:2
+#: View/Themed/Redesign/Tickets/preview.ctp:3
+msgid "Ticket Preview"
+msgstr "Kupon Önizleme"
+
+#: View/Themed/ChalkPro/Tickets/preview.ctp:18
+#: View/Themed/Redesign/Tickets/preview.ctp:19
+msgid "Sport / League"
+msgstr "Spor / Lig"
+
+#: View/Themed/ChalkPro/Tickets/preview.ctp:52
+#: View/Themed/ChalkPro/Tickets/print_ticket.ctp:58
+#: View/Themed/ChalkPro/Tickets/review.ctp:63
+#: View/Themed/ChalkPro/Tickets/view.ctp:52
+#: View/Themed/Redesign/Tickets/view.ctp:51
+msgid "Total"
+msgstr "Toplam"
+
+#: View/Themed/ChalkPro/Tickets/preview.ctp:57
+msgid "Service fee: %d %s"
+msgstr "Servis ücreti: %d %s"
+
+#: View/Themed/ChalkPro/Tickets/preview.ctp:62
+#: View/Themed/ChalkPro/Tickets/review.ctp:72;78
+#: View/Themed/ChalkPro/Tickets/view.ctp:62
+msgid "Amount: %01.2f %s"
+msgstr "Tutar:% 01.2f% s"
+
+#: View/Themed/ChalkPro/Tickets/preview.ctp:67
+#: View/Themed/ChalkPro/Tickets/review.ctp:85
+msgid "Total amount:"
+msgstr "Toplam tutar:"
+
+#: View/Themed/ChalkPro/Tickets/preview.ctp:83
+#: View/Themed/Redesign/Tickets/preview.ctp:69
+msgid "Submit Ticket"
+msgstr "Kuponu Oyna"
+
+#: View/Themed/ChalkPro/Tickets/preview.ctp:84
+#: View/Themed/Redesign/Tickets/preview.ctp:70
+msgid "Clear Ticket"
+msgstr "Kuponu Temizle"
+
+#: View/Themed/ChalkPro/Tickets/preview.ctp:90
+#: View/Themed/Redesign/Tickets/preview.ctp:76
+msgid "No bets selected"
+msgstr "Herhangi bir bahis seçilmedi"
+
+#: View/Themed/ChalkPro/Tickets/print_ticket.ctp:18
+msgid "Operator"
+msgstr "Operatör"
+
+#: View/Themed/ChalkPro/Tickets/print_ticket.ctp:20
+msgid "Placer"
+msgstr "Oynayan"
+
+#: View/Themed/ChalkPro/Tickets/print_ticket.ctp:29
+#: View/Themed/Redesign/Tickets/print_ticket.ctp:24
+msgid "ID / Date"
+msgstr "Kimlik / Tarih"
+
+#: View/Themed/ChalkPro/Tickets/print_ticket.ctp:63
+msgid "Service fee ( %s %s ): %01.2f %s"
+msgstr "Servis ücreti ( %s %s ):% 01.2f% s"
+
+#: View/Themed/ChalkPro/Tickets/print_ticket.ctp:68
+#: View/Themed/ChalkPro/Tickets/view.ctp:67
+msgid "Total amount"
+msgstr "Toplam tutar"
+
+#: View/Themed/ChalkPro/Tickets/review.ctp:2
+#: View/Themed/Redesign/Tickets/review.ctp:3
+msgid "Ticket placed"
+msgstr "Oynanan kupon"
+
+#: View/Themed/ChalkPro/Tickets/review.ctp:103
+#: View/Themed/Redesign/Tickets/review.ctp:82
+msgid "Your ticket is created successfully"
+msgstr "Kuponunuz başarıyla oluşturuldu"
+
+#: View/Themed/ChalkPro/Tickets/review.ctp:105
+#: View/Themed/Redesign/Tickets/review.ctp:84
+msgid "Your ticket number is"
+msgstr "Kupon numaranız:"
+
+#: View/Themed/ChalkPro/Tickets/view.ctp:3
+#: View/Themed/Redesign/Tickets/view.ctp:3
+msgid "Ticket information"
+msgstr "Kupon bilgileri"
+
+#: View/Themed/ChalkPro/Tickets/view.ctp:14
+#: View/Themed/Redesign/Tickets/view.ctp:12
+msgid "Betting type"
+msgstr "Bahis türü"
+
+#: View/Themed/ChalkPro/Users/account.ctp:3
+#: View/Themed/Redesign/Users/account.ctp:3
+msgid "Account information"
+msgstr "Hesap Bilgileri"
+
+#: View/Themed/ChalkPro/Users/account.ctp:6
+#: View/Themed/Redesign/Users/account.ctp:5
+#: View/Themed/Redesign/Users/register.ctp:5
+msgid "Please provide full personal information to confirm your identity. Owing to regulations, your access to some products, markets and commission discounts may be restricted until you confirm your identity. You can provide personal documents using our secure email service."
+msgstr "Kimliğinizi doğurayabilmemiz için lütfen tüm kişisel bilgilerinizi bizimle paylaşın. Sitemizdeki bazı promosyon etkinlik ve komisyon değerlerinden faydalanabilmek için hesabın size ait olduğunu doğrulamamız gerekiyor. Kişisel bilgilerinizi güvenli e-posta göndererek bizimle paylaşabilirsiniz."
+
+#: View/Themed/ChalkPro/Users/account.ctp:14
+#: View/Themed/ChalkPro/Users/register.ctp:10
+#: View/Themed/Redesign/Users/account.ctp:18;23
+#: View/Themed/Redesign/Users/register.ctp:13
+msgid "First name"
+msgstr "Ad"
+
+#: View/Themed/ChalkPro/Users/account.ctp:17
+#: View/Themed/ChalkPro/Users/register.ctp:12
+#: View/Themed/Redesign/Users/register.ctp:18
+msgid "Last name"
+msgstr "Soyadı"
+
+#: View/Themed/ChalkPro/Users/account.ctp:20
+#: View/Themed/Redesign/Users/account.ctp:28
+#: View/Themed/Redesign/Users/register.ctp:49
+msgid "Date of birth"
+msgstr "Doğum tarihi"
+
+#: View/Themed/ChalkPro/Users/account.ctp:23
+#: View/Themed/ChalkPro/Users/register.ctp:14
+#: View/Themed/Redesign/Users/account.ctp:34
+#: View/Themed/Redesign/Users/register.ctp:24
+msgid "Address"
+msgstr "Adres"
+
+#: View/Themed/ChalkPro/Users/account.ctp:27
+#: View/Themed/ChalkPro/Users/register.ctp:19
+#: View/Themed/Redesign/Users/account.ctp:39
+#: View/Themed/Redesign/Users/register.ctp:32
+msgid "Zip / Postal code"
+msgstr "Posta kodu"
+
+#: View/Themed/ChalkPro/Users/account.ctp:42
+#: View/Themed/ChalkPro/Users/register.ctp:63
+#: View/Themed/Redesign/Users/account.ctp:64
+#: View/Themed/Redesign/Users/register.ctp:113
+msgid "Bank code"
+msgstr "Banka kodu"
+
+#: View/Themed/ChalkPro/Users/account.ctp:45
+#: View/Themed/ChalkPro/Users/register.ctp:65
+#: View/Themed/Redesign/Users/account.ctp:69
+#: View/Themed/Redesign/Users/register.ctp:118
+msgid "Bank account number"
+msgstr "Banka hesap numarasi"
+
+#: View/Themed/ChalkPro/Users/account.ctp:49
+#: View/Themed/Redesign/Users/account.ctp:76
+msgid "Referral Code"
+msgstr "Davetiye Kodu"
+
+#: View/Themed/ChalkPro/Users/bonus.ctp:6
+#: View/Themed/Redesign/Users/bonus.ctp:5
+msgid "Please add promotional code below to get additional money or other benefit."
+msgstr "Lütfen (varsa) promosyon kodunu aşağıya girin"
+
+#: View/Themed/ChalkPro/Users/bonus.ctp:16
+#: View/Themed/Redesign/Users/bonus.ctp:20
+msgid "Submit bonus code"
+msgstr "Bonus kodu gönderin"
+
+#: View/Themed/ChalkPro/Users/daily_reports.ctp:31
+#: View/Themed/Redesign/Users/daily_reports.ctp:31
+msgid "Requested at"
+msgstr "Talep edilen tarih"
+
+#: View/Themed/ChalkPro/Users/daily_reports.ctp:35
+#: View/Themed/Redesign/Users/daily_reports.ctp:35
+msgid "Requested by"
+msgstr "Talep eden"
+
+#: View/Themed/ChalkPro/Users/daily_reports.ctp:57
+#: View/Themed/ChalkPro/Users/operator_panel.ctp:79
+#: View/Themed/Redesign/Users/daily_reports.ctp:57
+#: View/Themed/Redesign/Users/operator_panel.ctp:80
+msgid "Activity Column"
+msgstr "Etkinlik Sütunu"
+
+#: View/Themed/ChalkPro/Users/operator_panel.ctp:37
+#: View/Themed/Redesign/Users/operator_panel.ctp:38
+msgid "Current balance"
+msgstr "Mevcut bakiye"
+
+#: View/Themed/ChalkPro/Users/operator_panel.ctp:44
+#: View/Themed/Redesign/Users/operator_panel.ctp:45
+msgid "Today placed tickets"
+msgstr "Bugün oynanan kuponlar"
+
+#: View/Themed/ChalkPro/Users/register.ctp:2
+#: View/Themed/Redesign/Users/register.ctp:3
+msgid "Open account with us!"
+msgstr "Bizimle ücretsiz hesap açın!"
+
+#: View/Themed/ChalkPro/Users/register.ctp:8
+msgid "Personal information"
+msgstr "Kişisel bilgi"
+
+#: View/Themed/ChalkPro/Users/register.ctp:25;26
+msgid "Date of birth:"
+msgstr "Doğum tarihi:"
+
+#: View/Themed/ChalkPro/Users/register.ctp:31
+#: View/Themed/ChalkPro/Users/reset.ctp:11
+#: View/Themed/Redesign/Users/register.ctp:55
+#: View/Themed/Redesign/Users/reset-password.ctp:13
+#: View/Themed/Redesign/Users/reset.ctp:12
+msgid "E-mail"
+msgstr "E-posta"
+
+#: View/Themed/ChalkPro/Users/register.ctp:40
+msgid "Account data"
+msgstr "hesap verileri"
+
+#: View/Themed/ChalkPro/Users/register.ctp:48
+#: View/Themed/Redesign/Users/register.ctp:92
+msgid "Personal question"
+msgstr "Gizli soru"
+
+#: View/Themed/ChalkPro/Users/register.ctp:50
+#: View/Themed/Redesign/Users/register.ctp:97
+msgid "Personal answer"
+msgstr "Gizli cevap"
+
+#: View/Themed/ChalkPro/Users/register.ctp:53
+msgid "Referral ID"
+msgstr "Referans ID"
+
+#: View/Themed/ChalkPro/Users/register.ctp:59
+msgid "Bank data (This is section can be filled later)"
+msgstr "Banka bilgileri (bu bölüm daha sonra doldurulabilir)"
+
+#: View/Themed/ChalkPro/Users/register.ctp:70
+#: View/Themed/Redesign/Users/register.ctp:125
+msgid "I am over 21 years of age and have read and accepted"
+msgstr "21 yaşın üzerindeyim, tüm şartları okudum ve kabul ediyorum."
+
+#: View/Themed/ChalkPro/Users/register.ctp:71
+#: View/Themed/Redesign/Users/register.ctp:126
+msgid "responsible gambling and conditions"
+msgstr "Kullanım Şartları"
+
+#: View/Themed/ChalkPro/Users/register.ctp:76
+#: View/Themed/Redesign/Users/register.ctp:130
+msgid "Confirm registration"
+msgstr "Kayıt Ol"
+
+#: View/Themed/ChalkPro/Users/reset-password.ctp:3
+#: View/Themed/ChalkPro/Users/reset.ctp:3
+#: View/Themed/Redesign/Users/reset-password.ctp:3
+#: View/Themed/Redesign/Users/reset.ctp:3
+msgid "Password Reset"
+msgstr "Parola sıfırlama"
+
+#: View/Themed/ChalkPro/Users/reset-password.ctp:7
+#: View/Themed/Redesign/Users/reset-password.ctp:5
+msgid "Enter your new password"
+msgstr "Yeni şifrenizi girin"
+
+#: View/Themed/ChalkPro/Users/reset.ctp:6
+#: View/Themed/Redesign/Users/reset.ctp:5
+msgid "Fill in email details below. Password reset link sent to your entered email. You will be able to create a new password which you can use to login."
+msgstr "Lütfen e-postanızı aşağıdaki sütuna girin. Şifrenizi yenilemek için bir bağlantı gönderilecek. Bu bağlantıyla kendinize yeni bir şifre oluşturabileceksiniz."
+
+#: View/Themed/ChalkPro/Users/settings.ctp:6
+#: View/Themed/Redesign/Users/settings.ctp:5
+msgid "Please set up options for more comfortable view."
+msgstr "Daha rahat bir görünüm için lütfen seçeneklerinizi düzenleyin."
+
+#: View/Themed/ChalkPro/Withdraws/index.ctp:2
+#: View/Themed/Redesign/Withdraws/index.ctp:2
+msgid "Withdraw"
+msgstr "Para Çekme"
+
+#: View/Themed/ChalkPro/Withdraws/index.ctp:5
+#: View/Themed/Redesign/Withdraws/index.ctp:4
+msgid "To withdraw money please insert amount and process transaction below:"
+msgstr "Para çekmek için lütfen dilediğiniz tutarı yazın ve işlemi başlatın:"
+
+#: View/Themed/ChalkPro/Withdraws/index.ctp:14
+#: View/Themed/Redesign/Withdraws/index.ctp:14
+msgid "Withdraw ID"
+msgstr "Para Çekme ID:"
+
+#: View/Themed/ChalkPro/Withdraws/index.ctp:15
+#: View/Themed/Redesign/Withdraws/index.ctp:15
+msgid "Payment Provider"
+msgstr "Ödeme Sağlayıcı"
+
+#: View/Themed/ChalkPro/Withdraws/index.ctp:16
+#: View/Themed/Redesign/Withdraws/index.ctp:16
+msgid "Withdraw Account"
+msgstr "Para Çekme Hesabı:"
+
+#: View/Themed/ChalkPro/Withdraws/index.ctp:41
+#: View/Themed/Redesign/Withdraws/index.ctp:43
+msgid "Withdraw account"
+msgstr "Para Çekme Hesabı:"
+
+#: View/Themed/ChalkPro/Withdraws/index.ctp:43
+msgid "Withdraw amount"
+msgstr "Çekilecek Miktar"
+
+#: View/Themed/ChalkPro/Withdraws/index.ctp:45
+#: View/Themed/Redesign/Withdraws/index.ctp:53
+msgid "Request Manual Withdraw"
+msgstr "Manuel Çekim Talebi"
+
+#: View/Themed/Redesign/Deposits/index.ctp:48
+msgid "Bonus code <br /> ( or leave empty )"
+msgstr "Bonus kodu <br /> (veya boş bırakın)"
+
+#: View/Themed/Redesign/Deposits/preview.ctp:5
+msgid "Please preview deposit information before confirming."
+msgstr "Onaylamadan önce lütfen yatırım bilgilerini gözden geçirin."
+
+#: View/Themed/Redesign/Elements/layout-blocks/header-block/header-menu.ctp:4
+msgid "SIGN UP NOW!"
+msgstr "HEMEN KAYIT OL!"
+
+#: View/Themed/Redesign/Elements/layout-blocks/header-block/user-box.ctp:6
+msgid "Log In"
+msgstr "Giriş "
+
+#: View/Themed/Redesign/Elements/layout-blocks/left-block/bet-information.ctp:1
+msgid "Bet Information"
+msgstr "Bahis Bilgileri"
+
+#: View/Themed/Redesign/Elements/layout-blocks/left-block/search-event.ctp:3
+msgid "Bet search..."
+msgstr "Bahis arama ..."
+
+#: View/Themed/Redesign/Elements/layout-blocks/right-block/site-news.ctp:3
+msgid "Site News"
+msgstr "Site Haberleri"
+
+#: View/Themed/Redesign/Sports/display.ctp:11
+msgid "League not found"
+msgstr "Lig bulunamadı"
+
+#: View/Themed/Redesign/Tickets/betslip.ctp:66
+msgid "Please"
+msgstr "Lütfen"
+
+#: View/Themed/Redesign/Tickets/betslip.ctp:67
+msgid "Log in"
+msgstr "Giriş Yapın"
+
+#: View/Themed/Redesign/Tickets/betslip.ctp:68
+msgid "or"
+msgstr "veya"
+
+#: View/Themed/Redesign/Tickets/betslip.ctp:69
+msgid "Register"
+msgstr "Kayıt Olun!"
+
+#: View/Themed/Redesign/Tickets/betslip.ctp:90
+msgid "%s %s"
+msgstr "{0/} ({1/})"
+
+#: View/Themed/Redesign/Tickets/betslip.ctp:91
+msgid "Possible Winnings"
+msgstr "Olası Kazançlar"
+
+#: View/Themed/Redesign/Tickets/print_ticket.ctp:16
+msgid "Operator ID"
+msgstr "Operatör ID"
+
+#: View/Themed/Redesign/Tickets/print_ticket.ctp:71
+msgid "Powered by ChalkPro.com"
+msgstr "Powered by Betscheme.com"
+
+#: View/Themed/Redesign/Tickets/view.ctp:52;55
+msgid "%01.2f %s"
+msgstr "% 01.2f% s"
+
+#: View/Themed/Redesign/Users/settings.ctp:13
+msgid "Odds Type"
+msgstr "Oran Türü"
+
+#: View/Themed/Redesign/Users/settings.ctp:27
+msgid "Confirm Settings"
+msgstr "Ayarları Kaydet"
+
+#: View/Themed/Redesign/Withdraws/index.ctp:39
+msgid "Payment provider"
+msgstr "Ödeme yöntemi"
+
+#: View/Themed/Redesign/Withdraws/index.ctp:44
+msgid "Payment account"
+msgstr "Ödeme hesabı"
+
+#: View/Themed/Redesign/Withdraws/index.ctp:49
+msgid "Payment amount"
+msgstr "Ödeme miktarı"
+
+#: Model/Mail.php:validation for field email Model/User.php:validation
+msgid "Please enter valid email address"
+msgstr "Lütfen geçerli bir eposta adresi girin."
+
+#: Model/Mail.php:validation for field subject
+msgid "Please enter subject shorter than 100 length"
+msgstr "Lütfen başlığın 100 karakterden az olduğundan emin olun"
+
+#: Model/Mail.php:validation for field content
+msgid "Please enter message"
+msgstr "Lütfen bir mesaj girin"
+
+#: Model/Staff.php:validation for field username Model/User.php:validation
+msgid "Alphabets and numbers only"
+msgstr "Sadece alfanumerik karakterler kullanılabilir."
+
+#: Model/Staff.php:validation for field username Model/User.php:validation
+msgid "Between 5 to 15 characters"
+msgstr "5 ila 15 karakter arasında"
+
+#: Model/Staff.php:validation for field username Model/User.php:validation
+msgid "This username has already been taken."
+msgstr "Bu kullanıcı adı zaten alınmış."
+
+#: Model/Staff.php:validation for field password_raw
+msgid "Mimimum 5 characters long"
+msgstr "Mimimum 5 karakter uzunluğunda"
+
+#: Model/Template.php:validation for field subject;validation content
+#: Plugin/Content/Model/News.php:validation title;validation summary;validation
+#: Plugin/Content/Model/Page.php:validation url;validation
+#: Plugin/Content/Model/Slide.php:validation description;validation image
+msgid "This field cannot be left blank"
+msgstr "Bu alan boş bırakılamaz"
+
+#: Model/User.php:validation for field password_raw;validation password_confirm
+msgid "Mimimum 2 characters long"
+msgstr "Mimimum 2 karakter uzunluğunda"
+
+#: Model/User.php:validation for field email
+msgid "This email has already been registered."
+msgstr "Bu e-posta adresi başkası tarafından kullanılıyor."
+
+#: Model/User.php:validation for field first_name
+msgid "Please enter your name"
+msgstr "Lütfen adınızı giriniz"
+
+#: Model/User.php:validation for field last_name
+msgid "Please enter your surname"
+msgstr "Lütfen soyadınızı girin"
+
+#: Model/User.php:validation for field address1
+msgid "Please enter your street address"
+msgstr "Lütfen sokak adresinizi girin"
+
+#: Model/User.php:validation for field city
+msgid "Please enter city"
+msgstr "Lütfen şehir giriniz"
+
+#: Model/User.php:validation for field country
+msgid "Please enter country"
+msgstr "Lütfen ülkeyi girin"
+
+#: Model/User.php:validation for field date_of_birth
+msgid "User should be over 21 years old to complete registration"
+msgstr "21 yaş altındakiler sitemize kayıt olamazlar."
+
+#: Model/User.php:validation for field mobile_number
+msgid "Please enter valid mobile number"
+msgstr "Lütfen geçerli cep telefonu numarasını girin"
+
+#: Model/User.php:validation for field personal_question
+msgid "Please your personal question"
+msgstr "Kişisel bir soru lütfen"
+
+#: Model/User.php:validation for field personal_answer;validation
+#: bank_name;validation account_number
+msgid "Please enter valid answer"
+msgstr "geçerli cevabı giriniz"
+
+#: Model/User.php:validation for field agree
+msgid "You need to accept the Terms Of Use to be able to register."
+msgstr "Kayıt olabilmek için Kullanım Şartları'nı kabul etmeniz gerekiyor."
+
+#: Plugin/Feeds/Model/EnetPulse.php:validation for field xml
+#: Plugin/Feeds/Model/OddService.php:validation data
+msgid "Error uploading file"
+msgstr "Dosya yüklenirken hata"
+
+#: Plugin/Feeds/Model/OddService.php:validation for field data
+msgid "Unknown server"
+msgstr "Bilinmeyen sunucu"
+
+#: Plugin/Queue/Model/QueueTask.php:validation for field status
+msgid "Please select a valid status"
+msgstr "Lütfen geçerli bir statü seçiniz"
+
+#: Plugin/Queue/Model/QueueTask.php:validation for field type
+msgid "Please select a valid type"
+msgstr "Lütfen geçerli bir tür seçiniz"
+
+#: Plugin/Queue/Model/QueueTask.php:validation for field type
+msgid "Specified Type is not allowed by your configuration file. check Config/queue.php"
+msgstr "Seçilen tür konfigürasyon tarafından reddedildi. Lütfen Config / queue.php dosyasını kontrol edin"
+
+#: Plugin/Queue/Model/QueueTask.php:validation for field scheduled
+msgid "Must be a valid date time stamp."
+msgstr "Geçerli bir tarih timestamp olmalı."
+
+#: Plugin/Queue/Model/QueueTask.php:validation for field scheduled_end
+msgid "Must be a valid datetime stamp, or null."
+msgstr "Geçerli bir tarih timestamp olmalı veya boş bırakılmalı"
+
+#: Plugin/Queue/Model/QueueTask.php:validation for field reschedule
+msgid "Cannot be empty when schedule_end is not null.  Must be a strtotime parsable string."
+msgstr "SCHEDULE_END Null olmadığında boş olamaz. strotime ile ayrıştırılabilir bir dizi olmalıdır."
+
+#: Plugin/Queue/Model/QueueTask.php:validation for field cpu_limit
+msgid "Cpu Percent Limit must be between 0 and 100."
+msgstr "Cpu Yüzde Sınır 0 ile 100 arasında olmalıdır."
+
+#: Plugin/Queue/Model/QueueTask.php:validation for field is_required
+msgid "is_required must be a 0 or 1"
+msgstr "is_required, 0 veya 1 olması gerekir"
+
+#: Plugin/Queue/Model/QueueTask.php:validation for field command
+msgid "No command. Please specify."
+msgstr "Komut yok. Lütfen belirtin."
+
+#: Plugin/Queue/Model/QueueTask.php:validation for field command
+msgid "Command not valid for type."
+msgstr "Tür için geçerli olmayan komut."
+
+#: Plugin/Acl/Controller/AclAppController.php:64
+msgid "The role model name is unknown. The ACL plugin bootstrap.php file has to be loaded in order to work. (see the README file)"
+msgstr "rol model adı bilinmemektedir. ACL eklenti bootstrap.php dosyası çalışmak için yüklenmiş olması gerekir. (README dosyasına bakın)"
+
+#: Plugin/Acl/Controller/AcosController.php:40
+msgid "The actions in the ACO table have been deleted"
+msgstr "ACO tablosundaki eylemler silindi"
+
+#: Plugin/Acl/Controller/AcosController.php:44
+msgid "The actions in the ACO table could not be deleted"
+msgstr "ACO tablosundaki eylemler silinemedi"
+
+#: Plugin/Acl/Controller/ArosController.php:207
+msgid "The user role has been updated"
+msgstr "Kullanıcı rolü güncellendi"
+
+#: Plugin/Acl/Controller/ArosController.php:211
+msgid "The user role could not be updated"
+msgstr "Kullanıcı rolü güncellenemedi"
+
+#: Plugin/Acl/Controller/ArosController.php:398;496
+msgid "The user '%s' does not exist in the ARO table"
+msgstr "Kullanıcı %s 'ARO tablosunda mevcut değil"
+
+#: Plugin/Acl/Controller/ArosController.php:474
+msgid "The permissions have been cleared"
+msgstr "İzinler temizlendi"
+
+#: Plugin/Acl/Controller/ArosController.php:478
+msgid "The permissions could not be cleared"
+msgstr "İzinler temizlenemedi"
+
+#: Plugin/Acl/Controller/ArosController.php:502
+msgid "The specific permissions have been cleared"
+msgstr "Belirli izinler temizlendi"
+
+#: Plugin/Acl/Controller/ArosController.php:506
+msgid "The specific permissions could not be cleared"
+msgstr "Belirli izinler temizlenemedi"
+
+#: Plugin/Acl/Controller/ArosController.php:526;548
+msgid "The role '%s' does not exist in the ARO table"
+msgstr "Rol ' %s ' ARO tablosunda mevcut değil"
+
+#: Plugin/Acl/Controller/Component/AclManagerComponent.php:41
+msgid "the %s directory is not writable"
+msgstr "%s dizini yazılabilir değil"
+
+#: Plugin/Acl/Controller/Component/AclManagerComponent.php:289
+msgid "Aco node '%s' created"
+msgstr "Aco düğüm ' %s oluşturuldu'"
+
+#: Plugin/Acl/Controller/Component/AclManagerComponent.php:415
+msgid "Aco node '%s' has been deleted"
+msgstr "Aco düğüm ' %s ' silindi"
+
+#: Plugin/Acl/Controller/Component/AclManagerComponent.php:419
+msgid "Aco node '%s' could not be deleted"
+msgstr "Aco düğümün ' %s ' silinemedi"
+
+#: Plugin/Acl/Controller/Component/AclManagerComponent.php:504;516
+msgid "An error occured while saving the specific permission"
+msgstr "Özel izin kaydedilirken bir hata oluştu"
+
+#: Plugin/Acl/Controller/Component/AclManagerComponent.php:538
+msgid "An error occured while deleting the specific permission"
+msgstr "Özel izin silinirken bir hata oluştu"
+
+#: Plugin/Acl/Controller/Component/AclManagerComponent.php:548
+msgid "The specific permission id could not be retrieved"
+msgstr "Özel izin IDsi alınamadı"
+
+#: Plugin/Acl/Controller/Component/AclManagerComponent.php:557
+msgid "The child ACO id could not be retrieved"
+msgstr "Alt ACO kimliği alınamadı"
+
+#: Plugin/Acl/Controller/Component/AclManagerComponent.php:570
+msgid "Invalid ARO"
+msgstr "Geçersiz ARO"
+
+#: Plugin/Acl/View/Acos/admin_build_acl.ctp:15
+msgid "The following actions ACOs have been created"
+msgstr "Aşağıdaki eylemler ACOs oluşturulmuştur"
+
+#: Plugin/Acl/View/Acos/admin_build_acl.ctp:22
+#: Plugin/Acl/View/Acos/admin_synchronize.ctp:24
+msgid "There was no new actions ACOs to create"
+msgstr "oluşturmak için yeni eylemler ACOS oldu"
+
+#: Plugin/Acl/View/Acos/admin_build_acl.ctp:29
+msgid "This page allows you to build missing actions ACOs if any."
+msgstr "Bu sayfa size varsa eksik eylemleri ACOS oluşturmanıza olanak verir."
+
+#: Plugin/Acl/View/Acos/admin_build_acl.ctp:36
+#: Plugin/Acl/View/Acos/admin_has_updates.ctp:12
+#: Plugin/Acl/View/Acos/admin_synchronize.ctp:56
+msgid "Missing ACOs"
+msgstr "Eksik ACOS"
+
+#: Plugin/Acl/View/Acos/admin_build_acl.ctp:45
+msgid "Clicking the link will not destroy existing actions ACOs."
+msgstr "Mevcut eylemler ACOS yok olmaz bağlantısını tıklayarak."
+
+#: Plugin/Acl/View/Acos/admin_build_acl.ctp:49
+#: Plugin/Acl/View/Aros/admin_check.ctp:43
+msgid "Build"
+msgstr "Oluştur"
+
+#: Plugin/Acl/View/Acos/admin_build_acl.ctp:55
+msgid "There is no ACO node to create"
+msgstr "oluşturmak için hiçbir ACO düğümü yoktur"
+
+#: Plugin/Acl/View/Acos/admin_empty_acos.ctp:12
+msgid "This page allows you to clear all actions ACOs."
+msgstr "Bu sayfa tüm eylemleri ACOS silmenize olanak sağlar."
+
+#: Plugin/Acl/View/Acos/admin_empty_acos.ctp:20
+msgid "Clicking the link will destroy all existing actions ACOs and associated permissions."
+msgstr "Bağlantıya tıklayarak mevcut tüm ACOS ve ilgili izinleri yok edecektir."
+
+#: Plugin/Acl/View/Acos/admin_empty_acos.ctp:24
+msgid "Clear ACOs"
+msgstr "Temizle ACOs"
+
+#: Plugin/Acl/View/Acos/admin_empty_acos.ctp:24
+msgid "Are you sure you want to destroy all existing ACOs ?"
+msgstr "Tüm mevcut ACOs ları silmek istediğinizden emin misiniz?"
+
+#: Plugin/Acl/View/Acos/admin_empty_acos.ctp:30
+#: Plugin/Acl/View/Acos/admin_prune_acos.ctp:55
+msgid "There is no ACO node to delete"
+msgstr "silmek için hiçbir ACO düğümü yoktur"
+
+#: Plugin/Acl/View/Acos/admin_has_updates.ctp:8
+msgid "Some controllers have been modified, resulting in actions that are not referenced as ACO in the database or ACO records that are obsolete"
+msgstr "Bazı denetleyiciler veritabanında ACO olarak başvurulan eylemler veya eskimiş ACO kayıtlarında ortaya çıkan, modifiye edilmiş"
+
+#: Plugin/Acl/View/Acos/admin_has_updates.ctp:21
+#: Plugin/Acl/View/Acos/admin_synchronize.ctp:28
+msgid "Obsolete ACOs"
+msgstr "Atıl ACOS"
+
+#: Plugin/Acl/View/Acos/admin_has_updates.ctp:29
+msgid "You can update the ACOs by clicking on the following link"
+msgstr "Aşağıdaki linke tıklayarak ACOS güncelleyebilirsiniz"
+
+#: Plugin/Acl/View/Acos/admin_has_updates.ctp:30
+msgid "Synchronize ACOs"
+msgstr "ACOS senkronize"
+
+#: Plugin/Acl/View/Acos/admin_has_updates.ctp:34
+msgid "Please be aware that this message will appear only once. But you can always rebuild the ACOs by going to the ACO tab."
+msgstr "Bu mesaj sadece bir kez görünür unutmayın. Ama sen hep ACO sekmesine giderek ACOS yeniden oluşturabilirsiniz."
+
+#: Plugin/Acl/View/Acos/admin_prune_acos.ctp:15
+msgid "The following actions ACOs have been pruned"
+msgstr "Aşağıdaki eylemler acos budanmış edilmiştir"
+
+#: Plugin/Acl/View/Acos/admin_prune_acos.ctp:22
+msgid "There was no actions ACOs to prune"
+msgstr "budamak için hiçbir eylem ACOS yoktu"
+
+#: Plugin/Acl/View/Acos/admin_prune_acos.ctp:29
+msgid "This page allows you to prune obsolete ACOs."
+msgstr "Bu sayfa eski ACOS budamak için izin verir."
+
+#: Plugin/Acl/View/Acos/admin_prune_acos.ctp:36
+#: Plugin/Acl/View/Acos/admin_synchronize.ctp:67
+msgid "Obsolete ACO nodes"
+msgstr "Atıl ACO düğümleri"
+
+#: Plugin/Acl/View/Acos/admin_prune_acos.ctp:45
+msgid "Clicking the link will not change or remove permissions for actions ACOs that are not obsolete."
+msgstr "bağlantıyı tıklayarak değiştirmek veya eski olmayan eylemler acos izinlerini kaldırmak olmaz."
+
+#: Plugin/Acl/View/Acos/admin_prune_acos.ctp:49
+msgid "Prune"
+msgstr "Kuru erik"
+
+#: Plugin/Acl/View/Acos/admin_synchronize.ctp:12
+msgid "New ACOs"
+msgstr "Yeni ACOS"
+
+#: Plugin/Acl/View/Acos/admin_synchronize.ctp:40
+msgid "There was no action ACO to delete"
+msgstr "silmek için herhangi bir eylem ACO yoktu"
+
+#: Plugin/Acl/View/Acos/admin_synchronize.ctp:47
+msgid "This page allows you to synchronize the existing controllers and actions with the ACO datatable."
+msgstr "Bu sayfa ACO datatable ile mevcut kontrol ve eylemleri senkronize etmenize olanak verir."
+
+#: Plugin/Acl/View/Acos/admin_synchronize.ctp:81
+msgid "Clicking the link will not change or remove permissions for existing actions ACOs."
+msgstr "bağlantıyı tıklayarak değiştirmek veya mevcut eylemler acos izinlerini kaldırmak olmaz."
+
+#: Plugin/Acl/View/Acos/admin_synchronize.ctp:85
+msgid "Synchronize"
+msgstr "Senkronize Et"
+
+#: Plugin/Acl/View/Acos/admin_synchronize.ctp:91
+msgid "The ACO datatable is already synchronized"
+msgstr "ACO datatable zaten eşitlenir"
+
+#: Plugin/Acl/View/Aros/admin_ajax_role_permissions.ctp:17
+#: Plugin/Acl/View/Aros/admin_role_permissions.ctp:17
+msgid "Clear permissions table"
+msgstr "Net izinler tablosu"
+
+#: Plugin/Acl/View/Aros/admin_ajax_role_permissions.ctp:17
+#: Plugin/Acl/View/Aros/admin_role_permissions.ctp:17
+msgid "Are you sure you want to delete all roles and users permissions ?"
+msgstr "Eğer tüm rolleri ve kullanıcıların izinleri silmek istediğinizden emin misiniz?"
+
+#: Plugin/Acl/View/Aros/admin_ajax_role_permissions.ctp:29
+#: Plugin/Acl/View/Aros/admin_role_permissions.ctp:29
+msgid "grant access to <em>all actions</em>"
+msgstr "erişim izni <em> tüm eylemler </ em>"
+
+#: Plugin/Acl/View/Aros/admin_ajax_role_permissions.ctp:30
+#: Plugin/Acl/View/Aros/admin_role_permissions.ctp:30
+msgid "deny access to <em>all actions</em>"
+msgstr "erişim inkar <em> tüm eylemler </ em>"
+
+#: Plugin/Acl/View/Aros/admin_ajax_role_permissions.ctp:40
+#: Plugin/Acl/View/Aros/admin_role_permissions.ctp:40
+msgid "Are you sure you want to grant access to all actions of each controller to the role '%s' ?"
+msgstr "Eğer rol 'her kumandanın tüm eylemler erişim izni vermek istediğinizden emin misiniz %s '?"
+
+#: Plugin/Acl/View/Aros/admin_ajax_role_permissions.ctp:41
+#: Plugin/Acl/View/Aros/admin_role_permissions.ctp:41
+msgid "Are you sure you want to deny access to all actions of each controller to the role '%s' ?"
+msgstr "Eğer rol 'her kumandanın tüm eylemler erişimi reddetmek istediğinizden emin misiniz %s '?"
+
+#: Plugin/Acl/View/Aros/admin_ajax_role_permissions.ctp:59
+#: Plugin/Acl/View/Aros/admin_ajax_user_permissions.ctp:60
+#: Plugin/Acl/View/Aros/admin_role_permissions.ctp:59
+#: Plugin/Acl/View/Aros/admin_user_permissions.ctp:123
+msgid "action"
+msgstr "Eylem: "
+
+#: Plugin/Acl/View/Aros/admin_ajax_role_permissions.ctp:102;168
+#: Plugin/Acl/View/Aros/admin_ajax_user_permissions.ctp:93;140
+msgid "loading"
+msgstr "yükleniyor"
+
+#: Plugin/Acl/View/Aros/admin_ajax_role_permissions.ctp:107;173
+#: Plugin/Acl/View/Aros/admin_ajax_user_permissions.ctp:98;145
+#: Plugin/Acl/View/Aros/admin_role_permissions.ctp:118;200
+#: Plugin/Acl/View/Aros/ajax_role_denied.ctp:6
+#: Plugin/Acl/View/Aros/ajax_role_granted.ctp:6
+#: Plugin/Acl/View/Aros/ajax_user_denied.ctp:12
+#: Plugin/Acl/View/Aros/ajax_user_granted.ctp:12
+msgid "The ACO node is probably missing. Please try to rebuild the ACOs first."
+msgstr "ACO düğüm muhtemelen eksik. İlk ACOS yeniden deneyin."
+
+#: Plugin/Acl/View/Aros/admin_ajax_role_permissions.ctp:136
+#: Plugin/Acl/View/Aros/admin_ajax_user_permissions.ctp:117
+#: Plugin/Acl/View/Aros/admin_role_permissions.ctp:147
+#: Plugin/Acl/View/Aros/admin_user_permissions.ctp:190
+msgid "Plugin"
+msgstr "Eklenti"
+
+#: Plugin/Acl/View/Aros/admin_ajax_role_permissions.ctp:195
+#: Plugin/Acl/View/Aros/admin_ajax_user_permissions.ctp:162
+#: Plugin/Acl/View/Aros/admin_role_permissions.ctp:222
+#: Plugin/Acl/View/Aros/admin_user_permissions.ctp:249
+msgid "authorized"
+msgstr "Yetkili"
+
+#: Plugin/Acl/View/Aros/admin_ajax_role_permissions.ctp:197
+#: Plugin/Acl/View/Aros/admin_ajax_user_permissions.ctp:164
+#: Plugin/Acl/View/Aros/admin_role_permissions.ctp:224
+#: Plugin/Acl/View/Aros/admin_user_permissions.ctp:251
+msgid "blocked"
+msgstr "engellendi"
+
+#: Plugin/Acl/View/Aros/admin_ajax_user_permissions.ctp:14
+#: Plugin/Acl/View/Aros/admin_user_permissions.ctp:77
+msgid "Role"
+msgstr "Röl"
+
+#: Plugin/Acl/View/Aros/admin_ajax_user_permissions.ctp:30
+#: Plugin/Acl/View/Aros/admin_user_permissions.ctp:93
+#: Plugin/Acl/View/Aros/admin_users.ctp:52
+msgid "Update the user role"
+msgstr "Kullanıcı rolü güncelleyin"
+
+#: Plugin/Acl/View/Aros/admin_ajax_user_permissions.ctp:40
+#: Plugin/Acl/View/Aros/admin_user_permissions.ctp:103
+#: Plugin/Acl/View/Elements/design/header.ctp:19
+msgid "Permissions"
+msgstr "İzinler "
+
+#: Plugin/Acl/View/Aros/admin_ajax_user_permissions.ctp:46
+#: Plugin/Acl/View/Aros/admin_user_permissions.ctp:109
+msgid "This user has specific permissions"
+msgstr "Bu kullanıcı özel izinlere sahip"
+
+#: Plugin/Acl/View/Aros/admin_ajax_user_permissions.ctp:48
+#: Plugin/Acl/View/Aros/admin_user_permissions.ctp:111
+msgid "Clear"
+msgstr "Temizle "
+
+#: Plugin/Acl/View/Aros/admin_ajax_user_permissions.ctp:48
+#: Plugin/Acl/View/Aros/admin_user_permissions.ctp:111
+msgid "Are you sure you want to clear the permissions specific to this user ?"
+msgstr "Özellikle bu kullanıcıya verilen izinleri temizlemek istediğinizden emin misiniz?"
+
+#: Plugin/Acl/View/Aros/admin_ajax_user_permissions.ctp:60
+#: Plugin/Acl/View/Aros/admin_user_permissions.ctp:123
+msgid "authorization"
+msgstr "yetki"
+
+#: Plugin/Acl/View/Aros/admin_check.ctp:12
+msgid "Roles without corresponding Aro"
+msgstr "Aro karşılık olmayan röller"
+
+#: Plugin/Acl/View/Aros/admin_check.ctp:27
+msgid "Users without corresponding Aro"
+msgstr "Aro karşılık olmayan kullanıcılar"
+
+#: Plugin/Acl/View/Aros/admin_check.ctp:49
+msgid "There is no missing ARO."
+msgstr "Eksik ARO yoktur."
+
+#: Plugin/Acl/View/Aros/admin_not_acl_requester.ctp:11;18
+msgid "The <em>%s</em> model is not configured to act as an <em>ACL requester</em>"
+msgstr "<Em> %s </ em> model <em> ACL istekte olarak hareket etmek yapılandırılmış </ em> değil"
+
+#: Plugin/Acl/View/Aros/admin_not_acl_requester.ctp:25
+msgid "In a classical ACL configuration, the models that represent the users and the roles must act as <em>ACL requesters</em> (see %s)."
+msgstr "Klasik ACL yapılandırmasında, kullanıcıları temsil modelleri ve rolleri </ em> (bkz <em> ACL requester olarak hareket etmelidir %s )."
+
+#: Plugin/Acl/View/Aros/admin_not_acl_requester.ctp:26
+msgid "Acts As a Requester"
+msgstr "Bir istek sahibi gibi davranır"
+
+#: Plugin/Acl/View/Aros/admin_not_acl_requester.ctp:30
+msgid "If you wish, you can disable this alert by setting the ACL plugin parameter 'acl.check_act_as_requester' to <em>false</em>."
+msgstr "Eğer isterseniz, ACL eklenti parametresini 'acl.check_act_as_requester' ayarlayarak bu uyarıyı devre dışı bırakabilirsiniz <em> false </ em>."
+
+#: Plugin/Acl/View/Aros/admin_user_permissions.ctp:19
+msgid "This page allows to manage users specific rights"
+msgstr "Bu sayfa, kullanıcılara özel haklar yönetmenize olanak sağlar"
+
+#: Plugin/Acl/View/Aros/admin_user_permissions.ctp:25;37
+msgid "user"
+msgstr "kullanıcı"
+
+#: Plugin/Acl/View/Aros/admin_user_permissions.ctp:29
+#: Plugin/Acl/View/Aros/admin_users.ctp:15
+msgid "filter"
+msgstr "filtrele:"
+
+#: Plugin/Acl/View/Aros/admin_user_permissions.ctp:47
+msgid "Manage user specific rights"
+msgstr "kullanıcıya özel haklarını yönetmek"
+
+#: Plugin/Acl/View/Aros/admin_users.ctp:11;23
+msgid "name"
+msgstr "isim"
+
+#: Plugin/Acl/View/Aros/admin_users.ctp:80
+msgid "Some users AROS are missing. Click on a role to assign one to a user."
+msgstr "Bazı kullanıcılar AROS eksik. Bir kullanıcıya bir atamak için bir rolü tıklayın."
+
+#: Plugin/Acl/View/Aros/ajax_role_denied.ctp:6
+#: Plugin/Acl/View/Aros/ajax_role_granted.ctp:6
+msgid "The role node does not exist in the ARO table"
+msgstr "Rol düğüm ARO tabloda mevcut değil"
+
+#: Plugin/Acl/View/Aros/ajax_user_denied.ctp:8
+#: Plugin/Acl/View/Aros/ajax_user_granted.ctp:8
+msgid "The user node does not exist in the ARO table"
+msgstr "kullanıcı düğümü ARO tabloda yok"
+
+#: Plugin/Acl/View/Aros/ajax_user_denied.ctp:16
+#: Plugin/Acl/View/Aros/ajax_user_granted.ctp:16
+msgid "The ARO or the ACO node is probably missing. Please try to rebuild the ACOs first."
+msgstr "ARO veya ACO düğüm muhtemelen eksik. İlk ACOS yeniden deneyin."
+
+#: Plugin/Acl/View/Elements/Acos/links.ctp:6
+msgid "Synchronize actions ACOs"
+msgstr "eylemler ACOS senkronize"
+
+#: Plugin/Acl/View/Elements/Acos/links.ctp:6;7;9
+msgid "are you sure ?"
+msgstr "emin misiniz?"
+
+#: Plugin/Acl/View/Elements/Acos/links.ctp:7
+msgid "Clear actions ACOs"
+msgstr "Net eylemler ACOS"
+
+#: Plugin/Acl/View/Elements/Acos/links.ctp:8
+msgid "Build actions ACOs"
+msgstr "eylemler ACOS inşa"
+
+#: Plugin/Acl/View/Elements/Acos/links.ctp:9
+msgid "Prune actions ACOs"
+msgstr "Erik eylemler ACOS"
+
+#: Plugin/Acl/View/Elements/Aros/links.ctp:6
+msgid "Build missing AROs"
+msgstr "ARoS eksik inşa"
+
+#: Plugin/Acl/View/Elements/Aros/links.ctp:7
+msgid "Users roles"
+msgstr "Kullanıcı rölleri"
+
+#: Plugin/Acl/View/Elements/Aros/links.ctp:11;15
+msgid "Roles permissions"
+msgstr "Röl izinleri"
+
+#: Plugin/Acl/View/Elements/Aros/links.ctp:17
+msgid "Users permissions"
+msgstr "Kullanıcı izinleri"
+
+#: Plugin/Acl/View/Elements/design/header.ctp:10
+msgid "ACL plugin"
+msgstr "ACL eklentisi"
+
+#: Plugin/Acl/View/Errors/missing_aco_nodes.ctp:7
+msgid "go to homepage"
+msgstr "Ana sayfaya git"
+
+#: Plugin/PaymentsNew/cakephp-payments-plugin-develop/Model/PaymentApiLog.php:48
+msgid "Payment process started"
+msgstr "Ödeme işlemi başladı"
+
+#: Plugin/PaymentsNew/cakephp-payments-plugin-develop/Model/PaymentApiLog.php:68
+msgid "Payment process finished"
+msgstr "Ödeme işlemi tamamlandır"
+
+#: Plugin/WebSocket/Lib/Network/Http/WebSocket.php:382
+msgid "Class %s not found."
+msgstr "Sınıf %s bulunamadı."
+
+#: View/Helper/PaginatorHelper.php:99
+msgid "%s does not implement a %s method, it is incompatible with %s"
+msgstr "%s bir uygulamıyor %s yöntemi, onunla uyumsuz %s"
+
+#: View/Helper/PaginatorHelper.php:629
+msgid " of "
+msgstr " Toplam Sonuç:  "
+
+#: webroot/test.php:88
+msgid "Debug setting does not allow access to this url."
+msgstr "Debug ayarı bu url'ye erişime izin vermiyor."

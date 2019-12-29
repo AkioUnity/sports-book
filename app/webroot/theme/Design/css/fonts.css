@@ -1,0 +1,160 @@
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Fira Sans Light'), local('FiraSans-Light'), url(https://fonts.gstatic.com/s/firasans/v5/VTBnrK42EiOBncVyQXZ7j6-j2U0lmluP9RWlSytm3ho.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Fira Sans Light'), local('FiraSans-Light'), url(https://fonts.gstatic.com/s/firasans/v5/VTBnrK42EiOBncVyQXZ7j5X5f-9o1vgP2EXwfjgl7AY.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Fira Sans Light'), local('FiraSans-Light'), url(https://fonts.gstatic.com/s/firasans/v5/VTBnrK42EiOBncVyQXZ7j6aRobkAwv3vxw3jMhVENGA.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Fira Sans Light'), local('FiraSans-Light'), url(https://fonts.gstatic.com/s/firasans/v5/VTBnrK42EiOBncVyQXZ7jz0LW-43aMEzIO6XUTLjad8.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Fira Sans Light'), local('FiraSans-Light'), url(https://fonts.gstatic.com/s/firasans/v5/VTBnrK42EiOBncVyQXZ7j-gdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Fira Sans'), local('FiraSans-Regular'), url(https://fonts.gstatic.com/s/firasans/v5/g5Sf_134cAtTKkNnIjIkXxJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Fira Sans'), local('FiraSans-Regular'), url(https://fonts.gstatic.com/s/firasans/v5/T3abUOg4YgfjOby2l-QudhJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Fira Sans'), local('FiraSans-Regular'), url(https://fonts.gstatic.com/s/firasans/v5/5jAMGMsBXS6xUYEytGcZdBJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Fira Sans'), local('FiraSans-Regular'), url(https://fonts.gstatic.com/s/firasans/v5/MIPWVWI_mY_QERxcMVPEwBJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Fira Sans'), local('FiraSans-Regular'), url(https://fonts.gstatic.com/s/firasans/v5/EjsrzDkQUQCDwsBtLpcVQVtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Fira Sans Medium'), local('FiraSans-Medium'), url(https://fonts.gstatic.com/s/firasans/v5/zM2u8V3CuPVwAAXFQcDi4K-j2U0lmluP9RWlSytm3ho.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Fira Sans Medium'), local('FiraSans-Medium'), url(https://fonts.gstatic.com/s/firasans/v5/zM2u8V3CuPVwAAXFQcDi4JX5f-9o1vgP2EXwfjgl7AY.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Fira Sans Medium'), local('FiraSans-Medium'), url(https://fonts.gstatic.com/s/firasans/v5/zM2u8V3CuPVwAAXFQcDi4KaRobkAwv3vxw3jMhVENGA.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Fira Sans Medium'), local('FiraSans-Medium'), url(https://fonts.gstatic.com/s/firasans/v5/zM2u8V3CuPVwAAXFQcDi4D0LW-43aMEzIO6XUTLjad8.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Fira Sans Medium'), local('FiraSans-Medium'), url(https://fonts.gstatic.com/s/firasans/v5/zM2u8V3CuPVwAAXFQcDi4Ogdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Fira Sans Bold'), local('FiraSans-Bold'), url(https://fonts.gstatic.com/s/firasans/v5/DugPdSljmOTocZOR2CItOq-j2U0lmluP9RWlSytm3ho.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Fira Sans Bold'), local('FiraSans-Bold'), url(https://fonts.gstatic.com/s/firasans/v5/DugPdSljmOTocZOR2CItOpX5f-9o1vgP2EXwfjgl7AY.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Fira Sans Bold'), local('FiraSans-Bold'), url(https://fonts.gstatic.com/s/firasans/v5/DugPdSljmOTocZOR2CItOqaRobkAwv3vxw3jMhVENGA.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Fira Sans Bold'), local('FiraSans-Bold'), url(https://fonts.gstatic.com/s/firasans/v5/DugPdSljmOTocZOR2CItOj0LW-43aMEzIO6XUTLjad8.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Fira Sans Bold'), local('FiraSans-Bold'), url(https://fonts.gstatic.com/s/firasans/v5/DugPdSljmOTocZOR2CItOugdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}

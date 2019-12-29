@@ -1,0 +1,52 @@
+/*
+Syntax error: File to import not found or unreadable: compass/css3.
+              Load path: D:/chalkpro.dev.com/app/View/Themed/Admin/webroot/assets/bootstrap-toggle-buttons/static/sass
+        on line 1 of bootstrap-toggle-buttons.scss
+
+1: @import "compass/css3";
+2: 
+3: // version: 2.8
+4: // by Mattia Larentis - follow me on twitter! @SpiritualGuru
+5: 
+6: $border: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+
+Backtrace:
+bootstrap-toggle-buttons.scss:1
+C:/Program Files/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.10/lib/sass/tree/import_node.rb:67:in `rescue in import'
+C:/Program Files/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.10/lib/sass/tree/import_node.rb:45:in `import'
+C:/Program Files/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.10/lib/sass/tree/import_node.rb:28:in `imported_file'
+C:/Program Files/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.10/lib/sass/tree/import_node.rb:37:in `css_import?'
+C:/Program Files/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:217:in `visit_import'
+C:/Program Files/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.10/lib/sass/tree/visitors/base.rb:37:in `visit'
+C:/Program Files/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:100:in `visit'
+C:/Program Files/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.10/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+C:/Program Files/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.10/lib/sass/tree/visitors/base.rb:53:in `map'
+C:/Program Files/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.10/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+C:/Program Files/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+C:/Program Files/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+C:/Program Files/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+C:/Program Files/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.10/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+C:/Program Files/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:128:in `visit_root'
+C:/Program Files/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.10/lib/sass/tree/visitors/base.rb:37:in `visit'
+C:/Program Files/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:100:in `visit'
+C:/Program Files/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:7:in `visit'
+C:/Program Files/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.10/lib/sass/tree/root_node.rb:20:in `render'
+C:/Program Files/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.10/lib/sass/engine.rb:315:in `_render'
+C:/Program Files/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.10/lib/sass/engine.rb:262:in `render'
+C:/Program Files/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.10/lib/sass/plugin/compiler.rb:362:in `update_stylesheet'
+C:/Program Files/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.10/lib/sass/plugin/compiler.rb:203:in `block in update_stylesheets'
+C:/Program Files/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.10/lib/sass/plugin/compiler.rb:201:in `each'
+C:/Program Files/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.10/lib/sass/plugin/compiler.rb:201:in `update_stylesheets'
+C:/Program Files/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.10/lib/sass/plugin.rb:81:in `update_stylesheets'
+C:/Program Files/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.10/lib/sass/exec.rb:435:in `watch_or_update'
+C:/Program Files/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.10/lib/sass/exec.rb:318:in `process_result'
+C:/Program Files/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.10/lib/sass/exec.rb:41:in `parse'
+C:/Program Files/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.10/lib/sass/exec.rb:21:in `parse!'
+C:/Program Files/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.10/bin/scss:9:in `<top (required)>'
+C:/Program Files/Ruby200-x64/bin/scss:23:in `load'
+C:/Program Files/Ruby200-x64/bin/scss:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: File to import not found or unreadable: compass/css3.\A               Load path: D:/chalkpro.dev.com/app/View/Themed/Admin/webroot/assets/bootstrap-toggle-buttons/static/sass\A         on line 1 of bootstrap-toggle-buttons.scss\A \A 1: @import \"compass/css3\";\A 2: \A 3: // version: 2.8\A 4: // by Mattia Larentis - follow me on twitter! @SpiritualGuru\A 5: \A 6: $border: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);"; }

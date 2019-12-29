@@ -1,0 +1,5 @@
+[27-Aug-2018 16:10:45 UTC] PHP Fatal error:  Call to a member function find() on null in /home/bethades/public_html/play/app/Event/SettingsListener.php on line 45
+[27-Aug-2018 16:13:50 UTC] PHP Fatal error:  Call to a member function getCodesList() on null in /home/bethades/public_html/play/app/Event/SettingsListener.php on line 51
+[27-Aug-2018 16:14:34 UTC] PHP Fatal error:  Call to a member function user() on null in /home/bethades/public_html/play/app/Event/SettingsListener.php on line 56
+[28-Aug-2018 07:00:57 UTC] PHP Fatal error:  Class 'Dompdf\DOMPDF' not found in /home/bethades/public_html/play/app/Plugin/Payments/Console/Command/CreditPaymentShell.php on line 104
+[30-Nov-2018 05:07:01 UTC] PHP Notice:  unserialize(): Error at offset 83 of 19841 bytes in /home/bethades/public_html/lib/Cake/Cache/Engine/FileEngine.php on line 194

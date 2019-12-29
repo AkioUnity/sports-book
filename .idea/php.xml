@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/app/Vendor/dompdf/src" />
+      <path value="$PROJECT_DIR$/app/Vendor/PhpSpreadsheet/docs" />
+      <path value="$PROJECT_DIR$/app/Vendor/PhpSpreadsheet/vendor" />
+      <path value="$PROJECT_DIR$/app/Vendor/dompdf/lib" />
+      <path value="$PROJECT_DIR$/app/Vendor/PHPExcel/Style" />
+      <path value="$PROJECT_DIR$/app/Vendor/PHPExcel/Calculation" />
+      <path value="$PROJECT_DIR$/app/Vendor/PhpSpreadsheet/tests" />
+      <path value="$PROJECT_DIR$/app/Vendor/PHPExcel/RichText" />
+      <path value="$PROJECT_DIR$/app/Vendor/WideImage/vendor" />
+      <path value="$PROJECT_DIR$/app/Vendor/PhpSpreadsheet/samples" />
+      <path value="$PROJECT_DIR$/app/Vendor/PhpSpreadsheet/src" />
+      <path value="$PROJECT_DIR$/app/Vendor/PHPExcel/CachedObjectStorage" />
+      <path value="$PROJECT_DIR$/app/Vendor/WideImage/Mapper" />
+      <path value="$PROJECT_DIR$/app/Vendor/PhpSpreadsheet/bin" />
+      <path value="$PROJECT_DIR$/app/Vendor/WideImage/Font" />
+      <path value="$PROJECT_DIR$/app/Vendor/WideImage/Operation" />
+      <path value="$PROJECT_DIR$/app/Vendor/PHPExcel/Shared" />
+      <path value="$PROJECT_DIR$/app/Vendor/PHPExcel/Reader" />
+      <path value="$PROJECT_DIR$/app/Vendor/PHPExcel/locale" />
+      <path value="$PROJECT_DIR$/app/Vendor/PHPExcel/Worksheet" />
+      <path value="$PROJECT_DIR$/app/Vendor/OddService/Feeds" />
+      <path value="$PROJECT_DIR$/app/Vendor/BlockChain/example" />
+      <path value="$PROJECT_DIR$/app/Vendor/BlockChain/vendor" />
+      <path value="$PROJECT_DIR$/app/Vendor/BlockChain/docs" />
+      <path value="$PROJECT_DIR$/app/Vendor/BlockChain/src" />
+      <path value="$PROJECT_DIR$/app/Vendor/PHPExcel/CalcEngine" />
+      <path value="$PROJECT_DIR$/app/Vendor/PHPExcel/Writer" />
+      <path value="$PROJECT_DIR$/app/Vendor/EnetPulse/Feeds" />
+      <path value="$PROJECT_DIR$/app/Vendor/PHPExcel/Cell" />
+      <path value="$PROJECT_DIR$/app/Vendor/PHPExcel/Chart" />
+    </include_path>
+  </component>
+</project>

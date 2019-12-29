@@ -1,0 +1,1 @@
+<?php echo $this->element('reports_form'); ?>

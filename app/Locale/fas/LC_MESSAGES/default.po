@@ -1,0 +1,6205 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2018-06-03 08:29+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Console/Command/LeaguesShell.php:44
+#: Plugin/Feeds/Console/Command/EnetPulseShell.php:116
+#: Plugin/Feeds/Console/Command/OddServiceShell.php:470
+msgid "Total objects count: %d"
+msgstr ""
+
+#: Console/Command/LeaguesShell.php:45
+#: Plugin/Feeds/Console/Command/EnetPulseShell.php:117
+#: Plugin/Feeds/Console/Command/OddServiceShell.php:471
+msgid "Total queries count: %d"
+msgstr ""
+
+#: Console/Command/LeaguesShell.php:48
+#: Plugin/Feeds/Console/Command/EnetPulseShell.php:123
+#: Plugin/Feeds/Console/Command/OddServiceShell.php:477
+msgid "i: %d; Offset: %d; Limit: %d"
+msgstr ""
+
+#: Controller/AppController.php:319
+msgid "Error, not found."
+msgstr ""
+
+#: Controller/AppController.php:358
+#: Plugin/Content/Controller/SlidesController.php:78
+msgid "Item added"
+msgstr ""
+
+#: Controller/AppController.php:378;431;494
+msgid "This cannot be added."
+msgstr ""
+
+#: Controller/AppController.php:422
+msgid "Sparad!"
+msgstr ""
+
+#: Controller/AppController.php:458
+#: Controller/LanguagesController.php:113
+msgid "Borttaget"
+msgstr ""
+
+#: Controller/AppController.php:460
+msgid "Detta val kan inte raderas."
+msgstr ""
+
+#: Controller/AppController.php:485
+msgid "Sparat"
+msgstr ""
+
+#: Controller/BetsController.php:64;104
+msgid "Spel lagt"
+msgstr ""
+
+#: Controller/BetsController.php:67;107
+msgid "Kunde ej lägga spelet"
+msgstr ""
+
+#: Controller/DepositsController.php:115;125
+msgid "Felaktig bonuskod"
+msgstr ""
+
+#: Controller/DepositsController.php:131
+msgid "Beloppet är för lågt för bonus"
+msgstr ""
+
+#: Controller/DepositsController.php:137
+msgid "Beloppet är för högt för bonus"
+msgstr ""
+
+#: Controller/DepositsController.php:214
+#: Controller/WithdrawsController.php:176
+#: View/Themed/Admin/Risks/admin_warnings.ctp:44;75;106;135
+msgid "Användare avstängd"
+msgstr ""
+
+#: Controller/DepositsController.php:218
+#: Controller/WithdrawsController.php:180
+msgid "Online"
+msgstr ""
+
+#: Controller/DepositsController.php:218
+#: Controller/WithdrawsController.php:180
+msgid "Offline"
+msgstr ""
+
+#: Controller/DepositsController.php:225
+#: Controller/TicketsController.php:123
+#: Controller/WithdrawsController.php:187
+msgid "Status"
+msgstr ""
+
+#: Controller/DepositsController.php:230
+#: Controller/WithdrawsController.php:191
+#: Model/Deposit.php:439
+#: Model/Withdraw.php:223
+msgid "Färdig"
+msgstr ""
+
+#: Controller/DepositsController.php:234
+#: Controller/WithdrawsController.php:195
+#: Model/Deposit.php:430
+#: Model/Ticket.php:203
+#: Model/Withdraw.php:214
+#: Plugin/Reports/Controller/ReportsController.php:1057
+#: Plugin/Reports/View/Themed/Admin/Elements/staff.ctp:134
+#: Plugin/Reports/View/Themed/Admin/Elements/user.ctp:134
+#: View/Helper/BethHelper.php:121
+msgid "Öppet"
+msgstr ""
+
+#: Controller/DepositsController.php:238
+#: Controller/WithdrawsController.php:199
+#: Model/Deposit.php:448
+#: Model/Ticket.php:201
+#: Model/Withdraw.php:232
+#: Plugin/Events/Controller/EventsController.php:63
+#: Plugin/Reports/Controller/ReportsController.php:1062
+#: View/Helper/BethHelper.php:127
+#: View/Themed/Design/Tickets/get_history.ctp:33
+msgid "Avbruten"
+msgstr ""
+
+#: Controller/DepositsController.php:247
+#: Controller/WithdrawsController.php:208
+msgid "Belopp"
+msgstr ""
+
+#: Controller/DepositsController.php:320
+#: Controller/UsersController.php:125
+#: Controller/WithdrawsController.php:285
+msgid "Användaren existerar inte!"
+msgstr ""
+
+#: Controller/DepositsController.php:328
+msgid "Ange ett korrekt belopp!"
+msgstr ""
+
+#: Controller/DepositsController.php:337
+msgid "Användaren %s är krediterad av %s %s"
+msgstr ""
+
+#: Controller/DepositsController.php:339
+#: Controller/WithdrawsController.php:304
+msgid "Vänligen se krediterat belopp"
+msgstr ""
+
+#: Controller/DepositsController.php:377
+msgid "Ingen insättning hittades!"
+msgstr ""
+
+#: Controller/DepositsController.php:383
+msgid "Insättning markerad som \"genomförd\"!"
+msgstr ""
+
+#: Controller/DepositsController.php:390
+msgid "Insättning markerad som genomförd"
+msgstr ""
+
+#: Controller/DepositsController.php:403
+msgid "Insättningen avbruten"
+msgstr ""
+
+#: Controller/DepositsController.php:414
+msgid "Transaktionen är klar"
+msgstr ""
+
+#: Controller/DepositsController.php:432;482
+msgid "Minsta kredit insättningen är "
+msgstr ""
+
+#: Controller/DepositsController.php:435;485
+msgid "Max kredit insättning är "
+msgstr ""
+
+#: Controller/DepositsController.php:448
+#: Controller/WithdrawsController.php:89
+msgid "Manuell begäran"
+msgstr ""
+
+#: Controller/DepositsController.php:452
+msgid "Insättningen är genomförd."
+msgstr ""
+
+#: Controller/DepositsController.php:454
+msgid "Insättningen misslyckades."
+msgstr ""
+
+#: Controller/DepositsController.php:518
+msgid "Ingen"
+msgstr ""
+
+#: Controller/LanguagesController.php:89
+msgid "Språket existerar redan"
+msgstr ""
+
+#: Controller/LanguagesController.php:92
+msgid "Kontakta support för att lägga till flera språk."
+msgstr ""
+
+#: Controller/LanguagesController.php:115
+msgid "går ett att radera"
+msgstr ""
+
+#: Controller/MailsController.php:75;101
+msgid "Epost meddelandet har skickats"
+msgstr ""
+
+#: Controller/MailsController.php:77;103
+msgid "Epost meddelandet kunde inte skickas, försök igen."
+msgstr ""
+
+#: Controller/MailsController.php:132
+msgid "Mailet har skickats"
+msgstr ""
+
+#: Controller/MailsController.php:134
+msgid "Ett eller flera mail kunde ej skickas, försök igen."
+msgstr ""
+
+#: Controller/ReservationTicketsController.php:123
+#: Controller/TicketsController.php:199
+msgid "Kan ej hitta spel id: "
+msgstr ""
+
+#: Controller/ReservationTicketsController.php:202
+msgid "Spel ID: %d ej längre tillgänglig."
+msgstr ""
+
+#: Controller/ReservationTicketsController.php:208
+msgid "Spel %s har redan startats."
+msgstr ""
+
+#: Controller/ReservationTicketsController.php:223
+msgid "Spel med ID: %d har redan startats."
+msgstr ""
+
+#: Controller/ReservationTicketsController.php:345
+#: Controller/TicketsController.php:426
+msgid "Spel existarar ej, Spel ID: %d"
+msgstr ""
+
+#: Controller/ReservationTicketsController.php:350
+msgid "Spel existerar ej. Reservation spel ID: %d"
+msgstr ""
+
+#: Controller/ResultsController.php:126
+msgid "Ange spel resultat"
+msgstr ""
+
+#: Controller/ResultsController.php:133;160;299
+msgid "Resultat har uppdaterats"
+msgstr ""
+
+#: Controller/RisksController.php:45;83;105
+#: Controller/SettingsController.php:45;71;86;100;114;128;142;160;176;194;212
+msgid "Inställningarna har sparats."
+msgstr ""
+
+#: Controller/RisksController.php:47;85
+#: Controller/SettingsController.php:47
+msgid "Kunde ej spara inställningarna."
+msgstr ""
+
+#: Controller/RisksController.php:107
+msgid "Hoppsan, inställningarna kunde ej sparas."
+msgstr ""
+
+#: Controller/SettingsController.php:73;88;102;116;130;144;162;178;196;214
+msgid "Kan ej spara inställningar."
+msgstr ""
+
+#: Controller/TicketsController.php:105
+msgid "Typ"
+msgstr ""
+
+#: Controller/TicketsController.php:273
+msgid "Kan ej hitta spel id: %d "
+msgstr ""
+
+#: Controller/TicketsController.php:287
+msgid "Spel id: %d Spelinformation är uppdaterad."
+msgstr ""
+
+#: Controller/TicketsController.php:322
+msgid "Spelet kunde inte hittas"
+msgstr ""
+
+#: Controller/TicketsController.php:323
+msgid "Okänd spel status"
+msgstr ""
+
+#: Controller/TicketsController.php:324
+msgid "Okänd betalnings status"
+msgstr ""
+
+#: Controller/TicketsController.php:327
+msgid "Ok"
+msgstr ""
+
+#: Controller/TicketsController.php:374
+msgid "Spelet kunde inte hittas, eller redan markerad som betald."
+msgstr ""
+
+#: Controller/TicketsController.php:386
+msgid "Ej tillräckligt med krediter."
+msgstr ""
+
+#: Controller/TicketsController.php:391
+msgid "Spelet är fortfarande pågående elelr förlorat"
+msgstr ""
+
+#: Controller/TicketsController.php:435
+msgid "Spelet redan utskrivet. Spel ID: %d"
+msgstr ""
+
+#: Controller/TicketsController.php:439
+msgid "Kan ej hitta spel. Spel ID: %d"
+msgstr ""
+
+#: Controller/UsersController.php:313;595
+msgid "Lösenordet har ändrats"
+msgstr ""
+
+#: Controller/UsersController.php:316
+msgid "Felaktigt tidigare lösenord. Försök igen"
+msgstr ""
+
+
+#: Controller/UsersController.php:319;599
+msgid "Lösenordet överensstämmer ej, försök igen"
+msgstr ""
+
+#: Controller/UsersController.php:401
+msgid "Uppgifterna sparade."
+msgstr ""
+
+#: Controller/UsersController.php:446
+msgid "Filen är för stor, ladda upp en fil med max 2mb."
+msgstr ""
+
+#: Controller/UsersController.php:451
+msgid "Felaktig filtyp. Följande filtyper är giltiga PDF, JPG, GIF och PNG."
+msgstr ""
+
+#: Controller/UsersController.php:471
+msgid "Spelare %s ( ID: %d ) laddar upp dokument till support."
+msgstr ""
+
+#: Controller/UsersController.php:472
+msgid "Kokumenten har laddats upp."
+msgstr ""
+
+#: Controller/UsersController.php:474
+msgid "Dokumenten har ej skicakts. Försök igen eller kontakta supporten."
+msgstr ""
+
+#: Controller/UsersController.php:530
+msgid "Konto inställningarna uppdaterade."
+msgstr ""
+
+#: Controller/UsersController.php:532
+msgid "Inställningarna kunde ej sparas, försök igen om en liten stund."
+msgstr ""
+
+#: Controller/UsersController.php:622
+msgid "Länk för återställning av lösenor har skickats till dig."
+msgstr ""
+
+#: Controller/UsersController.php:625;629
+msgid "Ogiltig epost adress"
+msgstr ""
+
+#: Controller/UsersController.php:661
+msgid "Bonuskoden har lagts till!"
+msgstr ""
+
+#: Controller/UsersController.php:663
+msgid "Du har redan använt denna bonuskod."
+msgstr ""
+
+#: Controller/UsersController.php:667
+msgid "Felaktig bonuskod"
+msgstr ""
+
+#: Controller/UsersController.php:685
+msgid "Overifierat konto eller felaktiga login uppgifter."
+msgstr ""
+
+#: Controller/UsersController.php:691
+msgid "Ditt konto är avstängt, vänligen kontakta supporten för mera information."
+msgstr ""
+
+#: Controller/UsersController.php:727;732
+msgid "Användarnamn eller lösenord är felaktig"
+msgstr ""
+
+#: Controller/WithdrawsController.php:69
+msgid "Minsta belopp för uttag är "
+msgstr ""
+
+#: Controller/WithdrawsController.php:71
+msgid "Maxbelopp för uttag är "
+msgstr ""
+
+#: Controller/WithdrawsController.php:73
+msgid "Inte tillräckligt med pengar för cash out"
+msgstr ""
+
+#: Controller/WithdrawsController.php:75
+msgid "Föregående transaktions utbegäran ej färdig"
+msgstr ""
+
+#: Controller/WithdrawsController.php:93
+msgid "Din uttagsbegäran för "
+msgstr ""
+
+#: Controller/WithdrawsController.php:120
+msgid "Bank info uppdaterad."
+msgstr ""
+
+#: Controller/WithdrawsController.php:266
+msgid "Uttag markerad som genomförd"
+msgstr ""
+
+#: Controller/WithdrawsController.php:293
+msgid "Saldo skall vara positivt"
+msgstr ""
+
+#: Controller/WithdrawsController.php:302
+msgid "Användare %s är krediterad av %s %s"
+msgstr ""
+
+#: Controller/WithdrawsController.php:321
+msgid "Uttagsbegäran avbruten"
+msgstr ""
+
+#: Controller/WithdrawsController.php:354
+msgid "kan ej hitta"
+msgstr ""
+
+#: Controller/Component/TimeZoneComponent.php:332
+msgid "dagar"
+msgstr ""
+
+#: Controller/Component/TimeZoneComponent.php:332
+msgid "dag"
+msgstr ""
+
+#: Controller/Component/TimeZoneComponent.php:342
+msgid "tim"
+msgstr ""
+
+#: Controller/Component/TimeZoneComponent.php:352
+msgid "min"
+msgstr ""
+
+#: Event/StaffListener.php:140;144
+#: View/Themed/Admin/Risks/admin_index/agent_admin_index.ctp:32;36;40
+#: View/Themed/Admin/Risks/admin_index/branch_admin_index.ctp:32;36;40;44;48
+msgid "Obegränsad"
+msgstr ""
+
+#: Event/StaffListener.php:232
+msgid "The agent cannot be created. You have reach your limit. Please contact your service provider."
+msgstr ""
+
+#: Event/UserListener.php:176
+msgid "The user cannot be created. You have reach your limit. Please contact your service provider."
+msgstr ""
+
+#: Model/AppModel.php:170
+#: Model/Bet.php:540;546
+#: Model/Staff.php:116
+#: Model/Ticket.php:209
+#: Model/User.php:542;588
+#: View/Themed/Admin/Elements/list.ctp:93
+#: View/Themed/Admin/Events/admin_index.ctp:110
+#: View/Themed/Admin/Leagues/admin_view.ctp:52
+#: View/Themed/Admin/Settings/admin_deposit.ctp:38
+#: View/Themed/Admin/Settings/admin_deposits.ctp:35
+#: View/Themed/Admin/Settings/admin_deposits_risks.ctp:33
+#: View/Themed/Admin/Settings/admin_index.ctp:32
+#: View/Themed/Admin/Settings/admin_promo.ctp:35
+#: View/Themed/Admin/Settings/admin_referral.ctp:37
+#: View/Themed/Admin/Settings/admin_tickets.ctp:34
+#: View/Themed/Admin/Settings/admin_warnings.ctp:36
+#: View/Themed/Admin/Settings/admin_withdraws.ctp:38
+#: View/Themed/Admin/Settings/admin_withdraws_risks.ctp:33
+#: View/Themed/Admin/Sports/admin_view.ctp:55
+#: View/Themed/Design/Live/display_sports.ctp:90
+#: View/Themed/Design/Live/select_sport_league.ctp:85
+#: View/Themed/Design/ReservationTickets/index.ctp:28
+#: View/Themed/Design/Sports/display.ctp:86
+msgid "Ja"
+msgstr ""
+
+#: Model/AppModel.php:172
+#: Model/Bet.php:540;546
+#: Model/Staff.php:117
+#: Model/Ticket.php:207;208
+#: Model/User.php:542;588
+#: View/Themed/Admin/Elements/list.ctp:93
+#: View/Themed/Admin/Events/admin_index.ctp:110
+#: View/Themed/Admin/Leagues/admin_view.ctp:54
+#: View/Themed/Admin/Settings/admin_deposit.ctp:38
+#: View/Themed/Admin/Settings/admin_deposits.ctp:35
+#: View/Themed/Admin/Settings/admin_deposits_risks.ctp:33
+#: View/Themed/Admin/Settings/admin_index.ctp:32
+#: View/Themed/Admin/Settings/admin_promo.ctp:35
+#: View/Themed/Admin/Settings/admin_referral.ctp:37
+#: View/Themed/Admin/Settings/admin_tickets.ctp:34
+#: View/Themed/Admin/Settings/admin_warnings.ctp:36
+#: View/Themed/Admin/Settings/admin_withdraws.ctp:38
+#: View/Themed/Admin/Settings/admin_withdraws_risks.ctp:33
+#: View/Themed/Admin/Sports/admin_view.ctp:57
+#: View/Themed/Design/ReservationTickets/index.ctp:28
+msgid "Nej"
+msgstr ""
+
+#: Model/AppModel.php:553;721
+#: Model/Group.php:166
+#: Model/ReservationTicket.php:208
+#: Model/Sport.php:286
+#: Plugin/Content/Model/Menu.php:210
+#: Plugin/Content/Model/Page.php:156
+#: View/Themed/Admin/Sports/admin_view.ctp:62
+#: View/Themed/Design/ReservationTickets/index.ctp:31
+#: View/Themed/Design/Tickets/history.ctp:38
+#: View/Themed/Design/Tickets/index.ctp:38
+msgid "Visa"
+msgstr ""
+
+#: Model/AppModel.php:561;725
+#: Model/Group.php:174
+#: Model/League.php:289
+#: Model/Sport.php:293
+#: Model/Staff.php:365
+#: Model/User.php:411
+#: Plugin/Content/Model/Menu.php:218
+#: Plugin/Content/Model/Page.php:164
+#: View/Themed/Admin/Events/admin_view.ctp:64
+#: View/Themed/Admin/Leagues/admin_view.ctp:58
+#: View/Themed/Admin/Sports/admin_view.ctp:63
+msgid "Redigera"
+msgstr ""
+
+#: Model/AppModel.php:569
+#: Model/Group.php:182
+#: Model/Staff.php:373
+#: Model/User.php:419
+#: Plugin/Content/Model/Menu.php:226
+#: Plugin/Content/Model/Page.php:172
+#: View/Themed/Admin/Events/admin_view.ctp:65
+#: View/Themed/Admin/Leagues/admin_view.ctp:59
+#: View/Themed/Admin/ReservationTickets/admin_view.ctp:65
+#: View/Themed/Admin/Tickets/admin_view.ctp:65
+msgid "Radera"
+msgstr ""
+
+#: Model/AppModel.php:696
+msgid "Lista"
+msgstr ""
+
+#: Model/AppModel.php:704;714
+#: View/Themed/Admin/Elements/add.ctp:9
+#: View/Themed/Admin/Elements/Bets/12.ctp:37
+#: View/Themed/Admin/Elements/Bets/1x2.ctp:48
+#: View/Themed/Admin/Elements/Bets/match-result.ctp:48
+#: View/Themed/Admin/Elements/Bets/match-winner.ctp:37
+msgid "Create"
+msgstr ""
+
+#: Model/Bet.php:520
+#: Plugin/Feeds/Lib/Betclick/Bet.php:13
+#: View/Themed/Admin/Elements/Events/nordicbet/handicap/head.ctp:5
+msgid "Handikapp"
+msgstr ""
+
+#: Model/Bet.php:526
+#: Plugin/Feeds/Lib/Betclick/Bet.php:6
+msgid "Dubbel"
+msgstr ""
+
+#: Model/Bet.php:532
+msgid "Dubbel halvlek"
+msgstr ""
+
+#: Model/Bet.php:538
+msgid "Home to Score"
+msgstr ""
+
+#: Model/Bet.php:544
+msgid "Away to Score"
+msgstr ""
+
+#: Model/Bet.php:550
+#: Plugin/Feeds/Lib/Betclick/Bet.php:12
+msgid "Under/Over"
+msgstr ""
+
+#: Model/Bet.php:556
+msgid "Halftime/Fulltime"
+msgstr ""
+
+#: Model/Bet.php:571
+msgid "Bet type \" %s \" is not implemented for printing."
+msgstr ""
+
+#: Model/BonusCode.php:109;136
+#: Model/Currency.php:103;117
+#: Model/Translate/Translations.php:16
+msgid "Code"
+msgstr ""
+
+#: Model/BonusCode.php:114;141
+#: Model/Translate/Translations.php:17
+#: Plugin/Payments/View/CoinPayments/index.ctp:18
+#: Plugin/Payments/View/EgoPay/index.ctp:11
+#: Plugin/Payments/View/Etranzact/index.ctp:11
+#: Plugin/Payments/View/InterSwitch/index.ctp:11
+#: Plugin/Payments/View/Novinpal/index.ctp:20
+#: Plugin/Payments/View/Paypal/index.ctp:20
+#: Plugin/Payments/View/PerfectMoney/index.ctp:11
+#: Plugin/Payments/View/Skrill/index.ctp:20
+#: View/Themed/Admin/Risks/admin_warnings.ctp:127
+#: View/Themed/Design/Deposits/deposit.ctp:11
+#: View/Themed/Design/Deposits/index.ctp:11;91;92
+#: View/Themed/Design/Deposits/preview.ctp:17
+#: View/Themed/Design/ReservationTickets/index.ctp:12
+#: View/Themed/Design/ReservationTickets/search.ctp:45
+#: View/Themed/Design/ReservationTickets/view.ctp:48
+#: View/Themed/Design/Tickets/history.ctp:12
+#: View/Themed/Design/Tickets/index.ctp:12
+#: View/Themed/Design/Tickets/review.ctp:54
+#: View/Themed/Design/Tickets/view.ctp:54
+#: View/Themed/Design/Withdraws/index-submit.ctp:15
+#: View/Themed/Design/Withdraws/index.ctp:17;49
+msgid "Belopp"
+msgstr ""
+
+#: Model/BonusCode.php:119;146
+msgid "Times used"
+msgstr ""
+
+#: Model/BonusCode.php:122;149
+#: Model/Translate/Translations.php:19
+msgid "Expires"
+msgstr ""
+
+#: Model/Currency.php:102;116
+#: Model/Translate/Translations.php:6
+#: View/Themed/Admin/Bets/admin_edit.ctp:35
+#: View/Themed/Admin/Countries/admin_add.ctp:13
+#: View/Themed/Admin/Countries/admin_edit.ctp:35
+#: View/Themed/Admin/Elements/Bets/12.ctp:6
+#: View/Themed/Admin/Elements/Bets/1x2.ctp:6
+#: View/Themed/Admin/Elements/Bets/match-result.ctp:6
+#: View/Themed/Admin/Elements/Bets/match-winner.ctp:6
+#: View/Themed/Admin/Events/admin_view.ctp:40
+#: View/Themed/Admin/Live/admin_index.ctp:53
+#: View/Themed/Admin/Mails/contact.ctp:14
+msgid "Namn"
+msgstr ""
+
+#: Model/Currency.php:104;118
+#: Model/Translate/Translations.php:23
+msgid "Rate"
+msgstr ""
+
+#: Model/Deposit.php:141
+msgid "Credited by support"
+msgstr ""
+
+#: Model/Deposit.php:153
+#: Model/Withdraw.php:141
+msgid "User %s (ID: %d) account was credited by %s"
+msgstr ""
+
+#: Model/Deposit.php:470
+#: Model/Withdraw.php:188
+msgid "Slutförd"
+msgstr ""
+
+#: Model/Deposit.php:476
+#: Model/Withdraw.php:195
+#: View/Themed/Admin/ReservationTickets/admin_view.ctp:58;67
+#: View/Themed/Admin/Results/admin_all_events.ctp:62
+#: View/Themed/Admin/Results/admin_league.ctp:62
+#: View/Themed/Admin/Tickets/admin_view.ctp:58;67
+#: View/Themed/Design/Tickets/get_history.ctp:27
+msgid "Ångra"
+msgstr ""
+
+#: Model/Deposit.php:506
+#: Model/Withdraw.php:475
+msgid "Belopp från"
+msgstr ""
+
+#: Model/Deposit.php:508
+#: Model/Withdraw.php:477
+msgid "Belopp till"
+msgstr ""
+
+#: Model/Event.php:227;288
+#: View/Themed/Admin/Elements/user_menu.ctp:32
+msgid "Event"
+msgstr ""
+
+#: Model/Group.php:233
+msgid "List groups"
+msgstr ""
+
+#: Model/Language.php:93
+#: Model/Translate/Translations.php:41
+#: View/Themed/Admin/Users/admin_settings.ctp:33
+#: View/Themed/Design/Users/settings.ctp:20
+msgid "Språk"
+msgstr ""
+
+#: Model/League.php:159;203
+msgid "League name"
+msgstr ""
+
+#: Model/League.php:237
+#: View/Themed/Admin/Risks/admin_leagues.ctp:42
+#: View/Themed/Admin/Risks/admin_sports.ctp:45
+#: View/Themed/Design/ReservationTickets/search.ctp:13
+#: View/Themed/Design/ReservationTickets/view.ctp:8
+#: View/Themed/Design/Tickets/view.ctp:8
+msgid "Sport"
+msgstr ""
+
+#: Model/League.php:282
+msgid "View events"
+msgstr ""
+
+#: Model/League.php:296
+msgid "Add Event"
+msgstr ""
+
+#: Model/Mail.php:67
+msgid "Skicka mail"
+msgstr ""
+
+#: Model/Mail.php:76
+msgid "Skicka till alla"
+msgstr ""
+
+#: Model/ReservationTicket.php:133
+#: Model/Ticket.php:214
+#: Plugin/Reports/Controller/ReportsController.php:814;1078
+#: View/Themed/Design/Tickets/betslip.ctp:6
+msgid "Singel"
+msgstr ""
+
+#: Model/ReservationTicket.php:134
+#: Model/Ticket.php:215
+#: Plugin/Reports/Controller/ReportsController.php:818;1083
+#: View/Themed/Design/Tickets/betslip.ctp:7
+msgid "Multi"
+msgstr ""
+
+#: Model/ReservationTicket.php:215
+#: View/Themed/Admin/ReservationTickets/admin_view.ctp:56;64
+#: View/Themed/Admin/Tickets/admin_view.ctp:56;64
+#: View/Themed/Design/ReservationTickets/index.ctp:35
+#: View/Themed/Design/Tickets/get_history.ctp:21
+#: View/Themed/Design/Tickets/history.ctp:44
+#: View/Themed/Design/Tickets/index.ctp:44
+#: View/Themed/Design/Tickets/placed.ctp:16
+#: View/Themed/Design/Tickets/review.ctp:62
+msgid "Print"
+msgstr ""
+
+#: Model/Result.php:44
+#: View/Themed/Admin/Elements/sidebar.ctp:126
+#: View/Themed/Admin/Events/admin_results.ctp:1
+#: View/Themed/Admin/Results/admin_all_all.ctp:32
+#: View/Themed/Admin/Results/admin_event.ctp:28
+msgid "Resultat"
+msgstr ""
+
+#: Model/Result.php:53
+msgid "Finished events in tickets"
+msgstr ""
+
+#: Model/Result.php:62
+msgid "Pågående spel"
+msgstr ""
+
+#: Model/Result.php:71
+msgid "Alla avslutade spel"
+msgstr ""
+
+#: Model/Setting.php:479
+#: View/Themed/Admin/Risks/admin_warnings.ctp:6
+msgid "Warnings"
+msgstr ""
+
+#: Model/Setting.php:488
+#: View/Themed/Admin/Elements/sidebar.ctp:194
+#: View/Themed/Admin/Settings/admin_withdraws_risks.ctp:43
+#: View/Themed/Admin/Users/admin_settings.ctp:1
+#: View/Themed/Design/Layouts/user-panel.ctp:66
+#: View/Themed/Design/Users/settings.ctp:4
+msgid "Settings"
+msgstr ""
+
+#: Model/Setting.php:501
+#: View/Themed/Admin/Elements/sidebar.ctp:239
+msgid "Inställningar"
+msgstr ""
+
+#: Model/Setting.php:510
+msgid "Ticket Settings"
+msgstr ""
+
+#: Model/Setting.php:519
+msgid "Valutor"
+msgstr ""
+
+#: Model/Setting.php:528
+msgid "SEO inställningar"
+msgstr ""
+
+#: Model/Setting.php:537
+#: View/Themed/Admin/Elements/sidebar.ctp:226
+msgid "Epost mallar"
+msgstr ""
+
+#: Model/Sport.php:300
+#: View/Themed/Admin/Sports/admin_view.ctp:26
+msgid "Lägg till liga"
+msgstr ""
+
+#: Model/Staff.php:198
+#: Model/User.php:577
+#: Model/Translate/Translations.php:66
+#: View/Themed/Admin/Users/login.ctp:12
+#: View/Themed/Design/Users/register.ctp:23;25
+#: View/Themed/Design/Users/reset-password.ctp:25
+msgid "Password"
+msgstr ""
+
+#: Model/Staff.php:264
+msgid "Alla"
+msgstr ""
+
+#: Model/Staff.php:274
+msgid "Admins ( %d )"
+msgstr ""
+
+#: Model/Staff.php:284
+msgid "Branches ( %d )"
+msgstr ""
+
+#: Model/Staff.php:294
+msgid "Agents ( %d )"
+msgstr ""
+
+#: Model/Staff.php:304
+msgid "Cashiers ( %d )"
+msgstr ""
+
+#: Model/Staff.php:314
+msgid "Operators ( %d )"
+msgstr ""
+
+#: Model/Staff.php:382
+msgid "Fund staff"
+msgstr ""
+
+#: Model/Staff.php:390
+msgid "Charge staff"
+msgstr ""
+
+#: Model/Ticket.php:200
+#: Plugin/Reports/Controller/ReportsController.php:1047
+msgid "Won"
+msgstr ""
+
+#: Model/Ticket.php:202
+#: Plugin/Reports/Controller/ReportsController.php:1052
+#: View/Helper/BethHelper.php:124
+msgid "Lost"
+msgstr ""
+
+#: Model/Ticket.php:312
+msgid "Mark as paid"
+msgstr ""
+
+#: Model/Ticket.php:904
+msgid "Reservation tickets is not available for live events."
+msgstr ""
+
+#: Model/Ticket.php:940
+msgid "Number of maximum bets in ticket is reached."
+msgstr ""
+
+#: Model/Ticket.php:1037
+msgid "Lowest stake amount is %s %s"
+msgstr ""
+
+#: Model/Ticket.php:1046
+msgid "Du har inte tillräckligt med kredit för detta spel"
+msgstr ""
+
+#: Model/Ticket.php:1073
+msgid "You have reached maximum today's total stake limit which is %s %s"
+msgstr ""
+
+#: Model/Ticket.php:1115
+msgid "Lowest stake amount is %s%s"
+msgstr ""
+
+#: Model/Ticket.php:1118
+msgid "Highest stake amount on %s is %s%s"
+msgstr ""
+
+#: Model/Ticket.php:1121
+msgid "Highest winning amount is %s%s"
+msgstr ""
+
+#: Model/Ticket.php:1124
+msgid "Lowest stake on %s is %d %s"
+msgstr ""
+
+#: Model/Ticket.php:1128;1135
+msgid "Highest stake on %s is %s %s"
+msgstr ""
+
+#: Model/Ticket.php:1132
+msgid "Lowest stake on %s is %s %s"
+msgstr ""
+
+#: Model/Ticket.php:1385
+msgid "Please login or register to place the ticket"
+msgstr ""
+
+#: Model/Ticket.php:1389
+msgid "Sorry, you are not allowed to place tickets. Please contact support."
+msgstr ""
+
+#: Model/Ticket.php:1393
+msgid "Please select at least %d events to place the ticket"
+msgstr ""
+
+#: Model/Ticket.php:1411
+msgid "Following event(s) are already started or no longer active. <br /> Please amend them from BetSlip:"
+msgstr ""
+
+#: Model/Ticket.php:1417
+msgid "Selected event(s) bet(s) are suspended. <br /> Please amend them from BetSlip:"
+msgstr ""
+
+#: Model/Ticket.php:1424
+msgid "Live events are not supported for reservation tickets. <br /> Please amend them from BetSlip:"
+msgstr ""
+
+#: Model/Ticket.php:1426
+msgid "Selected live event(s) bet(s) are changed. <br /> Please amend them from BetSlip or update:"
+msgstr ""
+
+#: Model/Ticket.php:1432
+msgid "Selected event(s) bet(s) are about to start shortly. <br /> Please amend them from BetSlip:"
+msgstr ""
+
+#: Model/Ticket.php:1456
+#: Model/Translate/Translations.php:59
+msgid "Printed"
+msgstr ""
+
+#: Model/Ticket.php:1487
+#: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:129
+#: View/Themed/Admin/Elements/user_menu.ctp:8
+#: View/Themed/Design/Elements/layout-blocks/right-block/search-ticket.ctp:4
+#: View/Themed/Design/Tickets/history.ctp:10
+#: View/Themed/Design/Tickets/index.ctp:10
+#: View/Themed/Design/Tickets/print_ticket.ctp:11
+#: View/Themed/Design/Tickets/view.ctp:3
+msgid "Spel ID"
+msgstr ""
+
+#: Model/Ticket.php:1489
+#: Model/Translate/Translations.php:96
+msgid "Belopp från"
+msgstr ""
+
+#: Model/Ticket.php:1490
+#: Model/Translate/Translations.php:97
+msgid "Belopp till"
+msgstr ""
+
+#: Model/Ticket.php:1495
+msgid "Potentiell vinst från"
+msgstr ""
+
+#: Model/Ticket.php:1496
+msgid "Potentiell vinst till"
+msgstr ""
+
+#: Model/Ticket.php:1503
+#: Model/Translate/Translations.php:104
+msgid "Odd From"
+msgstr ""
+
+#: Model/Ticket.php:1504
+#: Model/Translate/Translations.php:105
+msgid "Odd To"
+msgstr ""
+
+#: Model/User.php:427
+msgid "Kreditera"
+msgstr ""
+
+#: Model/User.php:435
+#: View/Themed/Admin/Withdraws/admin_add.ctp:6
+#: View/Themed/Admin/Withdraws/admin_complete.ctp:6
+msgid "Charge"
+msgstr ""
+
+#: Model/User.php:529;559;576
+#: Model/Translate/Translations.php:65
+#: Plugin/Reports/View/Themed/Admin/Elements/agent.ctp:129
+#: Plugin/Reports/View/Themed/Admin/Elements/agents.ctp:129
+#: Plugin/Reports/View/Themed/Admin/Elements/staff.ctp:129
+#: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:130
+#: Plugin/Reports/View/Themed/Admin/Elements/user.ctp:129
+#: View/Themed/Admin/Users/login.ctp:10
+#: View/Themed/Design/Users/account.ctp:15;17
+#: View/Themed/Design/Users/operator_panel.ctp:32
+#: View/Themed/Design/Users/register.ctp:16;18
+msgid "Användarnamn"
+msgstr ""
+
+#: Model/User.php:530;560;578
+#: Model/Translate/Translations.php:67
+#: View/Themed/Admin/Mails/contact.ctp:20
+#: View/Themed/Design/Users/register.ctp:9;11
+#: View/Themed/Design/Users/reset-password.ctp:21
+#: View/Themed/Design/Users/reset.ctp:23
+msgid "Epost"
+msgstr ""
+
+#: Model/User.php:531;579
+#: Model/Translate/Translations.php:81
+msgid "Namn"
+msgstr ""
+
+#: Model/User.php:532;580
+#: Model/Translate/Translations.php:82
+msgid "Efternamn"
+msgstr ""
+
+#: Model/User.php:533
+#: Model/Translate/Translations.php:31
+#: Plugin/Content/Model/Translate/Translations.php:11
+msgid "Aktiv"
+msgstr ""
+
+#: Model/User.php:533
+msgid "Inaktiv"
+msgstr ""
+
+#: Model/User.php:533
+msgid "Avstängd"
+msgstr ""
+
+#: Model/User.php:534
+#: View/Themed/Design/Users/docs.ctp:7
+msgid "Verifierad"
+msgstr ""
+
+#: Model/User.php:534
+#: View/Themed/Design/Users/docs.ctp:7
+msgid "Ej verifierad"
+msgstr ""
+
+#: Model/User.php:535;581
+#: Model/Translate/Translations.php:84
+msgid "Adress"
+msgstr ""
+
+#: Model/User.php:536;582
+#: Model/Translate/Translations.php:85
+msgid "Adress 2"
+msgstr ""
+
+#: Model/User.php:537;583
+#: View/Themed/Design/Users/account.ctp:38;40
+#: View/Themed/Design/Users/register.ctp:89;91
+msgid "Postnummer"
+msgstr ""
+
+#: Model/User.php:538;584
+#: Model/Translate/Translations.php:87
+#: View/Themed/Design/Users/account.ctp:47;49
+#: View/Themed/Design/Users/register.ctp:96;98
+msgid "Stad"
+msgstr ""
+
+#: Model/User.php:539;585
+#: Model/Translate/Translations.php:88
+#: View/Themed/Design/Users/account.ctp:57;59
+#: View/Themed/Design/Users/register.ctp:76;78
+msgid "Land"
+msgstr ""
+
+#: Model/User.php:540;586
+#: Model/Translate/Translations.php:83
+msgid "Födelsedatum"
+msgstr ""
+
+#: Model/User.php:541;587
+#: View/Themed/Design/Users/account.ctp:66;68
+#: View/Themed/Design/Users/register.ctp:113;115
+msgid "Mobil nummer"
+msgstr ""
+
+#: Model/User.php:543
+msgid "Min stake"
+msgstr ""
+
+#: Model/User.php:543;544;545
+msgid "Global limits"
+msgstr ""
+
+#: Model/User.php:544
+msgid "Max stake"
+msgstr ""
+
+#: Model/User.php:545
+msgid "Max winning"
+msgstr ""
+
+#: Model/User.php:546
+msgid "Day Stake Limit"
+msgstr ""
+
+#: Model/User.php:561
+#: Model/Translate/Translations.php:68
+#: Plugin/Reports/View/Themed/Admin/Elements/staff.ctp:133
+#: Plugin/Reports/View/Themed/Admin/Elements/user.ctp:133
+msgid "Saldo"
+msgstr ""
+
+#: Model/Withdraw.php:129
+msgid "Charged by Staff"
+msgstr ""
+
+#: Model/Translate/Translations.php:3
+msgid "id"
+msgstr ""
+
+#: Model/Translate/Translations.php:4
+msgid "Import Id"
+msgstr ""
+
+#: Model/Translate/Translations.php:5
+msgid "Event Id"
+msgstr ""
+
+#: Model/Translate/Translations.php:7
+msgid "Scope"
+msgstr ""
+
+#: Model/Translate/Translations.php:8
+#: View/Themed/Admin/ReservationTickets/admin_print.ctp:20
+#: View/Themed/Admin/ReservationTickets/admin_view.ctp:83
+#: View/Themed/Admin/Results/admin_all_all.ctp:40
+#: View/Themed/Admin/Results/admin_event.ctp:42
+#: View/Themed/Admin/Tickets/admin_printTicket.ctp:20
+#: View/Themed/Admin/Tickets/admin_view.ctp:83
+#: View/Themed/Admin/Tickets/printing.ctp:20
+#: View/Themed/Design/ReservationTickets/print_ticket.ctp:20
+#: View/Themed/Design/ReservationTickets/search.ctp:16
+#: View/Themed/Design/ReservationTickets/view.ctp:11
+#: View/Themed/Design/Tickets/preview.ctp:21
+#: View/Themed/Design/Tickets/print_ticket.ctp:31
+#: View/Themed/Design/Tickets/review.ctp:26
+#: View/Themed/Design/Tickets/view.ctp:11
+msgid "Pick"
+msgstr ""
+
+#: Model/Translate/Translations.php:10
+msgid "SPel Id"
+msgstr ""
+
+#: Model/Translate/Translations.php:11
+msgid "Event Participant Id"
+msgstr ""
+
+#: Model/Translate/Translations.php:12;57
+#: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:133
+#: View/Themed/Admin/Bets/admin_edit.ctp:36
+#: View/Themed/Admin/Countries/admin_add.ctp:14
+#: View/Themed/Admin/Countries/admin_edit.ctp:36
+#: View/Themed/Admin/Elements/Bets/12.ctp:7
+#: View/Themed/Admin/Elements/Bets/1x2.ctp:7
+#: View/Themed/Admin/Elements/Bets/match-result.ctp:7
+#: View/Themed/Admin/Elements/Bets/match-winner.ctp:7
+#: View/Themed/Admin/Events/admin_view.ctp:41
+#: View/Themed/Admin/Live/admin_index.ctp:54
+#: View/Themed/Admin/ReservationTickets/admin_print.ctp:21
+#: View/Themed/Admin/ReservationTickets/admin_view.ctp:36;84
+#: View/Themed/Admin/Risks/admin_warnings.ctp:35;66;97
+#: View/Themed/Admin/Tickets/admin_printTicket.ctp:21
+#: View/Themed/Admin/Tickets/admin_view.ctp:36;84
+#: View/Themed/Admin/Tickets/printing.ctp:21
+#: View/Themed/Design/ReservationTickets/index.ctp:11
+#: View/Themed/Design/ReservationTickets/print_ticket.ctp:21
+#: View/Themed/Design/ReservationTickets/search.ctp:17
+#: View/Themed/Design/ReservationTickets/view.ctp:12
+#: View/Themed/Design/Tickets/history.ctp:11
+#: View/Themed/Design/Tickets/index.ctp:11
+#: View/Themed/Design/Tickets/preview.ctp:22
+#: View/Themed/Design/Tickets/print_ticket.ctp:32
+#: View/Themed/Design/Tickets/review.ctp:27
+#: View/Themed/Design/Tickets/view.ctp:12
+msgid "Odd"
+msgstr ""
+
+#: Model/Translate/Translations.php:13
+msgid "Line"
+msgstr ""
+
+#: Model/Translate/Translations.php:14
+msgid "Order Id"
+msgstr ""
+
+#: Model/Translate/Translations.php:18
+msgid "Times"
+msgstr ""
+
+#: Model/Translate/Translations.php:21
+msgid "Updated"
+msgstr ""
+
+#: Model/Translate/Translations.php:25
+msgid "User Id"
+msgstr ""
+
+#: Model/Translate/Translations.php:26
+#: View/Themed/Admin/ReservationTickets/admin_view.ctp:33;80
+#: View/Themed/Admin/Risks/admin_warnings.ctp:32;63;94;125;152
+#: View/Themed/Admin/Tickets/admin_view.ctp:33;80
+#: View/Themed/Design/Deposits/index.ctp:9
+#: View/Themed/Design/ReservationTickets/index.ctp:10
+#: View/Themed/Design/Tickets/get_history.ctp:12
+#: View/Themed/Design/Tickets/history.ctp:9
+#: View/Themed/Design/Tickets/index.ctp:9
+#: View/Themed/Design/Withdraws/index.ctp:12
+msgid "Datum"
+msgstr ""
+
+#: Model/Translate/Translations.php:27
+msgid "Transaktions Id"
+msgstr ""
+
+#: Model/Translate/Translations.php:28
+#: View/Themed/Admin/ReservationTickets/admin_view.ctp:40;85
+#: View/Themed/Admin/Tickets/admin_view.ctp:40;85
+#: View/Themed/Design/Deposits/index.ctp:12
+#: View/Themed/Design/Tickets/history.ctp:18
+#: View/Themed/Design/Tickets/index.ctp:18
+#: View/Themed/Design/Tickets/view.ctp:14
+#: View/Themed/Design/Withdraws/index.ctp:16
+msgid "Status"
+msgstr ""
+
+#: Model/Translate/Translations.php:30
+#: View/Themed/Admin/ReservationTickets/admin_view.ctp:82
+#: View/Themed/Admin/Results/admin_all_all.ctp:33
+#: View/Themed/Admin/Results/admin_event.ctp:32
+#: View/Themed/Admin/Tickets/admin_view.ctp:82
+#: View/Themed/Design/ReservationTickets/view.ctp:13
+#: View/Themed/Design/Tickets/view.ctp:13
+msgid "Resultat"
+msgstr ""
+
+#: Model/Translate/Translations.php:32
+msgid "League Id"
+msgstr ""
+
+#: Model/Translate/Translations.php:33;46
+msgid "Feed Type"
+msgstr ""
+
+#: Model/Translate/Translations.php:35
+#: Plugin/Content/Model/Translate/Translations.php:13
+msgid "Parent Id"
+msgstr ""
+
+#: Model/Translate/Translations.php:36
+#: Plugin/Content/Model/Translate/Translations.php:14
+msgid "Lft"
+msgstr ""
+
+#: Model/Translate/Translations.php:37
+#: Plugin/Content/Model/Translate/Translations.php:15
+msgid "Rght"
+msgstr ""
+
+#: Model/Translate/Translations.php:38
+#: Plugin/Content/Model/Translate/Translations.php:7
+msgid "Created"
+msgstr ""
+
+#: Model/Translate/Translations.php:39
+#: Plugin/Content/Model/Translate/Translations.php:8
+msgid "Modified"
+msgstr ""
+
+#: Model/Translate/Translations.php:43
+#: Plugin/Content/Model/Translate/Translations.php:12
+msgid "Order"
+msgstr ""
+
+#: Model/Translate/Translations.php:44
+msgid "Min Bet"
+msgstr ""
+
+#: Model/Translate/Translations.php:45
+msgid "Max Bet"
+msgstr ""
+
+#: Model/Translate/Translations.php:48
+msgid "Bonus Code"
+msgstr ""
+
+#: Model/Translate/Translations.php:50
+#: View/Themed/Admin/Settings/admin_deposit.ctp:44
+#: View/Themed/Admin/Settings/admin_deposits.ctp:49
+#: View/Themed/Admin/Settings/admin_deposits_risks.ctp:44
+#: View/Themed/Admin/Settings/admin_index.ctp:45
+#: View/Themed/Admin/Settings/admin_promo.ctp:42;74;104
+#: View/Themed/Admin/Settings/admin_referral.ctp:44
+#: View/Themed/Admin/Settings/admin_seo.ctp:48
+#: View/Themed/Admin/Settings/admin_tickets.ctp:44
+#: View/Themed/Admin/Settings/admin_warnings.ctp:48
+#: View/Themed/Admin/Settings/admin_withdraws.ctp:44
+msgid "Värde"
+msgstr ""
+
+#: Model/Translate/Translations.php:51
+msgid "Key"
+msgstr ""
+
+#: Model/Translate/Translations.php:53
+#: Plugin/Content/Model/Translate/Translations.php:4
+msgid "Title"
+msgstr ""
+
+#: Model/Translate/Translations.php:54
+#: View/Themed/Admin/Mails/contact.ctp:10
+msgid "Subject"
+msgstr ""
+
+#: Model/Translate/Translations.php:55
+#: Plugin/Content/Model/Translate/Translations.php:6
+#: View/Themed/Admin/Elements/sidebar.ctp:4
+msgid "Content"
+msgstr ""
+
+#: Model/Translate/Translations.php:58
+#: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:134
+#: View/Themed/Admin/ReservationTickets/admin_view.ctp:39
+#: View/Themed/Admin/Tickets/admin_view.ctp:39
+#: View/Themed/Design/ReservationTickets/search.ctp:48
+#: View/Themed/Design/ReservationTickets/view.ctp:51
+#: View/Themed/Design/Tickets/view.ctp:57
+msgid "Return"
+msgstr ""
+
+#: Model/Translate/Translations.php:60
+#: View/Themed/Design/Tickets/history.ctp:16
+#: View/Themed/Design/Tickets/index.ctp:16
+msgid "Paid"
+msgstr ""
+
+#: Model/Translate/Translations.php:62
+msgid "Ticket Id"
+msgstr ""
+
+#: Model/Translate/Translations.php:63
+msgid "Bet Part Id"
+msgstr ""
+
+#: Model/Translate/Translations.php:69
+msgid "Time Zone"
+msgstr ""
+
+#: Model/Translate/Translations.php:70
+msgid "Group Id"
+msgstr ""
+
+#: Model/Translate/Translations.php:71
+msgid "Language Id"
+msgstr ""
+
+#: Model/Translate/Translations.php:72
+msgid "Currency Id"
+msgstr ""
+
+#: Model/Translate/Translations.php:73
+#: View/Themed/Design/Users/settings.ctp:10
+msgid "Odds Type"
+msgstr ""
+
+#: Model/Translate/Translations.php:74
+msgid "Allow Betslip"
+msgstr ""
+
+#: Model/Translate/Translations.php:75
+msgid "Referal Id"
+msgstr ""
+
+#: Model/Translate/Translations.php:76
+msgid "Ip"
+msgstr ""
+
+#: Model/Translate/Translations.php:77
+msgid "Last Visit"
+msgstr ""
+
+#: Model/Translate/Translations.php:78
+msgid "Registration Date"
+msgstr ""
+
+#: Model/Translate/Translations.php:79
+msgid "Personal Question"
+msgstr ""
+
+#: Model/Translate/Translations.php:80
+msgid "Personal Answer"
+msgstr ""
+
+#: Model/Translate/Translations.php:86
+msgid "Zip Code"
+msgstr ""
+
+#: Model/Translate/Translations.php:89
+msgid "Mobile Number"
+msgstr ""
+
+#: Model/Translate/Translations.php:90
+msgid "Confirmation Code"
+msgstr ""
+
+#: Model/Translate/Translations.php:91
+msgid "Bank Name"
+msgstr ""
+
+#: Model/Translate/Translations.php:92
+msgid "Account Number"
+msgstr ""
+
+#: Model/Translate/Translations.php:93
+msgid "Bank Code"
+msgstr ""
+
+#: Model/Translate/Translations.php:94
+msgid "Ticket Count"
+msgstr ""
+
+#: Model/Translate/Translations.php:98
+msgid "Odds From"
+msgstr ""
+
+#: Model/Translate/Translations.php:99
+#: View/Themed/Admin/ReservationTickets/admin_view.ctp:35
+#: View/Themed/Admin/Tickets/admin_view.ctp:35
+msgid "Type"
+msgstr ""
+
+#: Model/Translate/Translations.php:100
+msgid "Return From"
+msgstr ""
+
+#: Model/Translate/Translations.php:101
+msgid "Return To"
+msgstr ""
+
+#: Model/Translate/Translations.php:102
+msgid "Date From"
+msgstr ""
+
+#: Model/Translate/Translations.php:103
+msgid "Date To"
+msgstr ""
+
+#: Plugin/Content/Controller/PagesController.php:118
+#: Plugin/Content/View/Themed/ChalkPro/Pages/main.ctp:60
+#: Plugin/Content/View/Themed/Redesign/Pages/main.ctp:9
+msgid "Fotboll"
+msgstr ""
+
+#: Plugin/Content/Controller/PagesController.php:118
+#: Plugin/Content/View/Themed/ChalkPro/Pages/main.ctp:99
+#: Plugin/Content/View/Themed/Redesign/Pages/main.ctp:40
+msgid "Basket"
+msgstr ""
+
+#: Plugin/Content/Controller/PagesController.php:118
+msgid "Tennis"
+msgstr ""
+
+#: Plugin/Content/Controller/PagesController.php:118
+msgid "Hockey"
+msgstr ""
+
+#: Plugin/Content/Controller/SlidesController.php:81
+msgid "Slide cannot be added."
+msgstr ""
+
+#: Plugin/Content/Controller/SlidesController.php:108
+msgid "Slide edited"
+msgstr ""
+
+#: Plugin/Content/Controller/SlidesController.php:111
+msgid "Slide cannot be edited."
+msgstr ""
+
+#: Plugin/Content/Model/Menu.php:301
+msgid "List menus"
+msgstr ""
+
+#: Plugin/Content/Model/Slide.php:143
+msgid "Identity number"
+msgstr ""
+
+#: Plugin/Content/Model/Slide.php:149
+msgid "Words in title"
+msgstr ""
+
+#: Plugin/Content/Model/Slide.php:154
+msgid "Words in description"
+msgstr ""
+
+#: Plugin/Content/Model/Slide.php:159
+msgid "Url link"
+msgstr ""
+
+#: Plugin/Content/Model/Translate/Translations.php:3
+#: View/Themed/Admin/Risks/admin_warnings.ctp:31;62;93;124;151
+msgid "Id"
+msgstr ""
+
+#: Plugin/Content/Model/Translate/Translations.php:5
+#: Plugin/Reports/View/Themed/Admin/Elements/cashier_daily.ctp:146
+#: Plugin/Reports/View/Themed/Admin/Elements/financial_daily.ctp:187
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:201
+msgid "Sumemring"
+msgstr ""
+
+#: Plugin/Content/Model/Translate/Translations.php:9
+#: View/Themed/Admin/Settings/admin_deposit.ctp:43
+#: View/Themed/Admin/Settings/admin_deposits.ctp:48
+#: View/Themed/Admin/Settings/admin_deposits_risks.ctp:43
+#: View/Themed/Admin/Settings/admin_index.ctp:44
+#: View/Themed/Admin/Settings/admin_promo.ctp:41;73;103
+#: View/Themed/Admin/Settings/admin_referral.ctp:43
+#: View/Themed/Admin/Settings/admin_seo.ctp:47;61
+#: View/Themed/Admin/Settings/admin_tickets.ctp:43
+#: View/Themed/Admin/Settings/admin_warnings.ctp:47
+#: View/Themed/Admin/Settings/admin_withdraws.ctp:43
+#: View/Themed/Admin/Settings/admin_withdraws_risks.ctp:42
+#: View/Themed/Design/Deposits/index.ctp:10
+#: View/Themed/Design/Withdraws/index.ctp:13
+msgid "Beskrivning"
+msgstr ""
+
+#: Plugin/Content/Model/Translate/Translations.php:10
+msgid "Url"
+msgstr ""
+
+#: Plugin/Content/Model/Translate/Translations.php:16
+#: View/Themed/Admin/Settings/admin_seo.ctp:57
+msgid "Sökord"
+msgstr ""
+
+#: Plugin/Content/View/Themed/Admin/Menus/admin_add.ctp:6
+#: Plugin/Content/View/Themed/Admin/News/admin_add.ctp:6
+#: Plugin/Reports/View/Themed/Admin/Reports/admin_cashier_daily.ctp:7
+#: Plugin/Reports/View/Themed/Admin/Reports/admin_financial_report.ctp:7
+#: Plugin/Reports/View/Themed/Admin/Reports/admin_operator_daily.ctp:7
+#: Plugin/Reports/View/Themed/Admin/Reports/admin_sportsbook_daily.ctp:7
+#: View/Themed/Admin/Feeds/admin_add.ctp:6
+#: View/Themed/Admin/Groups/admin_add.ctp:6
+#: View/Themed/Admin/Mails/admin_all.ctp:6
+#: View/Themed/Admin/Mails/admin_index.ctp:6
+#: View/Themed/Admin/Results/admin_all_all.ctp:6
+#: View/Themed/Admin/Results/admin_all_events.ctp:6
+#: View/Themed/Admin/Results/admin_all_leagues.ctp:6
+#: View/Themed/Admin/Results/admin_event.ctp:6
+#: View/Themed/Admin/Results/admin_league.ctp:6
+#: View/Themed/Admin/Results/admin_sport.ctp:6
+#: View/Themed/Admin/Results/admin_view.ctp:6
+#: View/Themed/Admin/Staffs/admin_add.ctp:6
+msgid "Skapa %s"
+msgstr ""
+
+#: Plugin/Content/View/Themed/Admin/Menus/admin_edit.ctp:6
+#: Plugin/Content/View/Themed/Admin/News/admin_edit.ctp:6
+#: View/Themed/Admin/Feeds/admin_edit.ctp:6
+#: View/Themed/Admin/Groups/admin_edit.ctp:6
+#: View/Themed/Admin/Leagues/admin_edit.ctp:6
+#: View/Themed/Admin/Live/admin_index.ctp:6
+#: View/Themed/Admin/Settings/admin_promo.ctp:6
+#: View/Themed/Admin/Slides/admin_add.ctp:6
+#: View/Themed/Admin/Slides/admin_edit.ctp:6
+#: View/Themed/Admin/Staffs/admin_edit.ctp:6
+#: View/Themed/Admin/Templates/admin_edit.ctp:6
+#: View/Themed/Admin/Tickets/admin_edit.ctp:6
+#: View/Themed/Admin/Users/admin_edit.ctp:6
+msgid "Redigera %s"
+msgstr ""
+
+#: Plugin/Content/View/Themed/Admin/Menus/admin_index.ctp:6
+#: Plugin/Content/View/Themed/Admin/Menus/admin_translate.ctp:6
+#: Plugin/Content/View/Themed/Admin/Menus/admin_view.ctp:6
+#: Plugin/Content/View/Themed/Admin/News/admin_index.ctp:6
+#: Plugin/Content/View/Themed/Admin/News/admin_translate.ctp:6
+#: Plugin/Content/View/Themed/Admin/News/admin_view.ctp:6
+#: Plugin/Content/View/Themed/Admin/Pages/admin_add.ctp:6
+#: Plugin/Content/View/Themed/Admin/Pages/admin_edit.ctp:6
+#: Plugin/Content/View/Themed/Admin/Pages/admin_index.ctp:6
+#: Plugin/Content/View/Themed/Admin/Pages/admin_translate.ctp:6
+#: Plugin/Content/View/Themed/Admin/Pages/admin_view.ctp:6
+#: View/Themed/Admin/Bets/admin_edit.ctp:6
+#: View/Themed/Admin/Bets/admin_index.ctp:6
+#: View/Themed/Admin/Bets/admin_view.ctp:6
+#: View/Themed/Admin/BonusCodes/admin_add.ctp:6
+#: View/Themed/Admin/BonusCodes/admin_edit.ctp:6
+#: View/Themed/Admin/BonusCodes/admin_index.ctp:6
+#: View/Themed/Admin/BonusCodes/admin_view.ctp:6
+#: View/Themed/Admin/Countries/admin_edit.ctp:6
+#: View/Themed/Admin/Countries/admin_index.ctp:6
+#: View/Themed/Admin/Countries/admin_translate.ctp:6
+#: View/Themed/Admin/Countries/admin_view.ctp:6
+#: View/Themed/Admin/Currencies/admin_add.ctp:6
+#: View/Themed/Admin/Currencies/admin_edit.ctp:6
+#: View/Themed/Admin/Currencies/admin_index.ctp:6
+#: View/Themed/Admin/Currencies/admin_view.ctp:6
+#: View/Themed/Admin/Deposits/admin_index.ctp:6
+#: View/Themed/Admin/Deposits/admin_view.ctp:6
+#: View/Themed/Admin/Events/admin_add.ctp:6
+#: View/Themed/Admin/Events/admin_edit.ctp:6
+#: View/Themed/Admin/Events/admin_index.ctp:6
+#: View/Themed/Admin/Events/admin_view.ctp:6
+#: View/Themed/Admin/Feeds/admin_index.ctp:6
+#: View/Themed/Admin/Feeds/admin_view.ctp:6
+#: View/Themed/Admin/Groups/admin_index.ctp:6
+#: View/Themed/Admin/Groups/admin_view.ctp:6
+#: View/Themed/Admin/Leagues/admin_add.ctp:6
+#: View/Themed/Admin/Leagues/admin_index.ctp:6
+#: View/Themed/Admin/Leagues/admin_view.ctp:6
+#: View/Themed/Admin/MbMenus/admin_add.ctp:6
+#: View/Themed/Admin/MbMenus/admin_edit.ctp:6
+#: View/Themed/Admin/MbMenus/admin_index.ctp:6
+#: View/Themed/Admin/MbMenus/admin_translate.ctp:6
+#: View/Themed/Admin/MbMenus/admin_view.ctp:6
+#: View/Themed/Admin/MhMenus/admin_add.ctp:6
+#: View/Themed/Admin/MhMenus/admin_edit.ctp:6
+#: View/Themed/Admin/MhMenus/admin_index.ctp:6
+#: View/Themed/Admin/MhMenus/admin_translate.ctp:6
+#: View/Themed/Admin/MhMenus/admin_view.ctp:6
+#: View/Themed/Admin/MtMenus/admin_add.ctp:6
+#: View/Themed/Admin/MtMenus/admin_edit.ctp:6
+#: View/Themed/Admin/MtMenus/admin_index.ctp:6
+#: View/Themed/Admin/MtMenus/admin_translate.ctp:6
+#: View/Themed/Admin/MtMenus/admin_view.ctp:6
+#: View/Themed/Admin/PaymentBonusGroups/admin_add.ctp:6
+#: View/Themed/Admin/PaymentBonusGroups/admin_edit.ctp:6
+#: View/Themed/Admin/PaymentBonusGroups/admin_index.ctp:6
+#: View/Themed/Admin/PaymentBonusGroups/admin_view.ctp:6
+#: View/Themed/Admin/ReservationTickets/admin_index.ctp:6
+#: View/Themed/Admin/Slides/admin_view.ctp:6
+#: View/Themed/Admin/Sports/admin_add.ctp:6
+#: View/Themed/Admin/Sports/admin_edit.ctp:6
+#: View/Themed/Admin/Sports/admin_index.ctp:6
+#: View/Themed/Admin/Sports/admin_translate.ctp:6
+#: View/Themed/Admin/Sports/admin_view.ctp:6
+#: View/Themed/Admin/Templates/admin_add.ctp:6
+#: View/Themed/Admin/Templates/admin_index.ctp:6
+#: View/Themed/Admin/Templates/admin_translate.ctp:6
+#: View/Themed/Admin/Templates/admin_view.ctp:6
+#: View/Themed/Admin/Tickets/admin_index.ctp:6
+#: View/Themed/Admin/Users/admin_index.ctp:6
+#: View/Themed/Admin/Users/admin_index_new.ctp:6
+#: View/Themed/Admin/Users/admin_view.ctp:6
+#: View/Themed/Admin/Withdraws/admin_index.ctp:6
+msgid "List %s"
+msgstr ""
+
+#: Plugin/Content/View/Themed/ChalkPro/Pages/main.ctp:9
+msgid "Sista minuten spel"
+msgstr ""
+
+#: Plugin/Content/View/Themed/ChalkPro/Pages/main.ctp:14
+msgid "Shortly"
+msgstr ""
+
+#: Plugin/Content/View/Themed/ChalkPro/Pages/main.ctp:22
+msgid "%d events available"
+msgstr ""
+
+#: Plugin/Content/View/Themed/ChalkPro/Pages/main.ctp:35
+msgid "Nyheter"
+msgstr ""
+
+#: Plugin/Content/View/Themed/ChalkPro/Pages/main.ctp:40
+msgid "Läs mer"
+msgstr ""
+
+#: Plugin/Content/View/Themed/ChalkPro/Pages/main.ctp:59;98;137
+msgid "Spela"
+msgstr ""
+
+#: Plugin/Content/View/Themed/ChalkPro/Pages/main.ctp:68;146
+msgid "Draw"
+msgstr ""
+
+#: Plugin/Content/View/Themed/ChalkPro/Pages/main.ctp:138
+#: Plugin/Content/View/Themed/Redesign/Pages/main.ctp:71
+msgid "Hockey"
+msgstr ""
+
+#: Plugin/Content/View/Themed/Design/Pages/main.ctp:20
+msgid "Sista minuten"
+msgstr ""
+
+#: Plugin/Events/Controller/EventsController.php:57
+msgid "Renew  successfully scheduled"
+msgstr ""
+
+#: Plugin/Events/Controller/EventsController.php:64
+msgid "Raderad"
+msgstr ""
+
+#: Plugin/Events/Controller/EventsController.php:65
+msgid "Avslutad"
+msgstr ""
+
+#: Plugin/Events/Controller/EventsController.php:66
+#: View/Themed/Design/Elements/Events/Betclick/main_12.ctp:13
+#: View/Themed/Design/Elements/Events/Betclick/main_1x2.ctp:12
+#: View/Themed/Design/Live/display_event.ctp:15
+#: View/Themed/Design/Live/display_sports.ctp:83
+msgid "Pågående"
+msgstr ""
+
+#: Plugin/Events/Controller/EventsController.php:67
+msgid "Avbruten"
+msgstr ""
+
+#: Plugin/Events/Controller/EventsController.php:68
+msgid "Ej startad"
+msgstr ""
+
+#: Plugin/Events/Controller/EventsController.php:69;75
+msgid "Okänd"
+msgstr ""
+
+#: Plugin/Events/Controller/EventsController.php:76
+msgid "Prematch"
+msgstr ""
+
+#: Plugin/Events/Controller/EventsController.php:193
+msgid "Välj sport"
+msgstr ""
+
+#: Plugin/Events/Controller/EventsController.php:253
+msgid "Datum %s - %s"
+msgstr ""
+
+#: Plugin/Events/Controller/EventsController.php:283
+msgid "%s / %s / %s"
+msgstr ""
+
+#: Plugin/Events/Controller/EventsController.php:428;433;444
+#: Plugin/Events/Controller/SearchController.php:46;74
+msgid "Inga resultat hittades"
+msgstr ""
+
+#: Plugin/Events/Controller/EventsController.php:473
+#: Plugin/Events/Controller/SearchController.php:115
+msgid "Inga sökresultat hittades"
+msgstr ""
+
+#: Plugin/Events/View/Themed/Design/Events/display.ctp:5
+#: View/Themed/Design/Live/display_event.ctp:5
+msgid "VS"
+msgstr ""
+
+#: Plugin/Events/View/Themed/Design/Events/display.ctp:10
+#: Plugin/Payments/View/BlockChain/success.ctp:11
+#: Plugin/Payments/View/EgoPay/success.ctp:11
+#: Plugin/Payments/View/Etranzact/callback.ctp:9
+#: Plugin/Payments/View/Etranzact/result.ctp:9
+#: Plugin/Payments/View/LunaWallet/success.ctp:11
+#: Plugin/Payments/View/PaymentApp/result.ctp:8
+#: Plugin/Payments/View/PerfectMoney/success.ctp:11
+#: View/Themed/Design/Deposits/result.ctp:8
+#: View/Themed/Design/Live/display_event.ctp:18
+#: View/Themed/Design/ReservationTickets/search.ctp:63
+#: View/Themed/Design/ReservationTickets/view.ctp:61
+#: View/Themed/Design/Tickets/placed.ctp:14
+#: View/Themed/Design/Tickets/preview.ctp:55
+#: View/Themed/Design/Tickets/review.ctp:60
+#: View/Themed/Design/Tickets/view.ctp:67
+#: View/Themed/Design/Users/register.ctp:146
+msgid "Tillbaka"
+msgstr ""
+
+#: Plugin/Events/View/Themed/Design/search/display-search-results.ctp:57;62
+msgid "Inga tillgängliga spel för denna liga hittades"
+msgstr ""
+
+#: Plugin/Feeds/Console/Command/EnetPulseShell.php:54;80
+msgid "#%d - %s"
+msgstr ""
+
+#: Plugin/Feeds/Console/Command/EnetPulseShell.php:102
+#: Plugin/Feeds/Console/Command/OddServiceShell.php:454
+msgid "Parsing xml start!"
+msgstr ""
+
+#: Plugin/Feeds/Console/Command/EnetPulseShell.php:142
+#: Plugin/Feeds/Console/Command/OddServiceShell.php:493
+msgid "Parsing xml by id: %d"
+msgstr ""
+
+#: Plugin/Feeds/Controller/EnetPulseController.php:50
+#: Plugin/Feeds/Controller/OddServiceController.php:132
+msgid "%s XML file does not meets validation rules. Import Aborting."
+msgstr ""
+
+#: Plugin/Feeds/Controller/FeedsController.php:55;96
+msgid "All feeds updated"
+msgstr ""
+
+#: Plugin/Feeds/Controller/FeedsController.php:68
+msgid "All feeds downloaded"
+msgstr ""
+
+#: Plugin/Feeds/Controller/FeedsController.php:77
+msgid "All feeds parsed"
+msgstr ""
+
+#: Plugin/Feeds/Controller/FeedsController.php:123
+msgid "Feed updated"
+msgstr ""
+
+#: Plugin/Feeds/Controller/FeedsController.php:132;161
+msgid "Cannot find feed"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:4
+msgid "Outright Winner"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:5
+msgid "Match Result"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:7
+msgid "Correct Score"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:8
+msgid "Half-Time Result"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:9
+msgid "Half-Time / Full-Time"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:10
+msgid "First Team To Score"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:11
+msgid "Total Goals"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:14
+msgid "First Goalscorer"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:15
+msgid "Last Goalscorer"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:16
+msgid "Goalscorer"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:17
+msgid "Place 1-4"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:18
+msgid "Relegation"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:19
+msgid "Place 1-3"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:20
+msgid "Number of Goals"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:21
+msgid "Half-Time Correct Score"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:22
+msgid "Match Winner"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:23
+msgid "Drivers Championship Winner"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:24
+msgid "Constructors Championship"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:25
+msgid "Winner"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:26
+msgid "Total Points"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:27
+msgid "Handicap Result"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:28
+msgid "Match Result 2"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:29
+msgid "Stage Winner"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:30
+msgid "First Set Total Points"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:31
+msgid "Sets Handicap"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:32
+msgid "Total Sets"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:33
+msgid "Match Winner 2"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:34
+msgid "Total Goals Odd/Even"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:35
+msgid "First Period Result"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:36
+msgid "Second Period Result"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:37
+msgid "Third Period Result"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:38
+msgid "First Period Total Goals"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:39
+msgid "Second Period Total Goals"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:40
+msgid "Third Period Total Goals"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:41
+msgid "Time of First Goal"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:42
+msgid "First Period Double Chance"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:43
+msgid "Second Period Double Chance"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:44
+msgid "Third Period Double Chance"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:45
+msgid "Race to 3 Goals"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:46
+msgid "Away Team Total Goals"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:47
+msgid "Home Team Total Goals"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:48
+msgid "Drivers Winner"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:49
+msgid "Championship Winner"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:50
+msgid "Head-to-Head Race"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:51
+msgid "Total Goals Line"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:52
+msgid "Clean Sheet"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:53
+msgid "Half with Most Goals"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:54
+msgid "Match Result/Both Teams to Score"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:55
+msgid "First Half Result/Both Teams to Score"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:56
+msgid "Home Team to Win to Nil"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:57
+msgid "Away Team to Win to Nil"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:58
+msgid "1st Half Goals Odd/Even"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:59
+msgid "Away Team Over/Under"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:60
+msgid "Home Team Over/Under"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:61
+msgid "Away Team 1st Half Clean Sheet"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:62
+msgid "Home Team 1st Half Clean Sheet"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:63
+msgid "Double Chance & Both Teams to Score"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:64
+msgid "1st Half Handicap"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:65
+msgid "1st Half Over/Under"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:66
+msgid "1st Half Total Goals"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:67
+msgid "Draw no Bet"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:68
+msgid "Home Team 1st Half Over/Under"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:69
+msgid "Half Time Both Teams To Score"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:70
+msgid "Away Team Total Goals Odd/Even"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:71
+msgid "Half Time Draw No Bet"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:72
+msgid "Next Goal in the 1st Half"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:73
+msgid "Home Team Total Goals Odd/Even"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:74
+msgid "Next Goal in regular time "
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:75
+msgid "Both Teams to Score"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:76
+msgid "Home Team Clean Sheet"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:77
+msgid "Away Team Clean Sheet"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:78
+msgid "Away Team 1st Half Over/Under"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:79
+msgid "Half Time Double Chance"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:80
+msgid "Match and Goals"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:81
+msgid "Next Away Goal Time"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:82
+msgid "Next Goal Time"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:83
+msgid "Next Home Goal Time"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:84
+msgid "Player to score 3 or more"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:85
+msgid "Player to Score 2 or more"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:86
+msgid "Next Goalscorer"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:87
+msgid "Over/Under After 85 Minutes"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:88
+msgid "Over/Under After 80 Minutes"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:89
+msgid "Over/Under After 75 Minutes"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:90
+msgid "Over/Under After 70 Minutes"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:91
+msgid "Over/Under After 65 Minutes"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:92
+msgid "Over/Under After 60 Minutes"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:93
+msgid "Over/Under After 55 Minutes"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:94
+msgid "Over/Under After 50 Minutes"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:95
+msgid "Over/Under After 45 Minutes"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:96
+msgid "Over/Under After 40 Minutes"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:97
+msgid "Over/Under After 35 Minutes"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:98
+msgid "Over/Under After 30 Minutes"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:99
+msgid "Over/Under After 25 Minutes"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:100
+msgid "Over/Under After 20 Minutes"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:101
+msgid "Game Handicap"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:102
+msgid "Total Games"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:103
+msgid "Series Winner"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:104
+msgid "Regular Season Winner"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:105
+msgid "First Round 2 Ball"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:106
+msgid "Tournament Match Bet"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:107
+msgid "Total Runs"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:108
+msgid "Champion"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:109
+msgid "Second Set Winner"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:110
+msgid "First Set Winner"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:111
+msgid "Winning Team"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:112
+msgid "Podium"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:113
+msgid "Points Classification"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:114
+msgid "Conference Winner"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:115
+msgid "Test Set Winner"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:116
+msgid "Test2 Set Winner"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:117
+msgid "Tie Winner"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:118
+msgid "Half Time Result"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:119
+msgid "Half Time / Full Time"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:120
+msgid "Top European"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:121
+msgid "Top American"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:122
+msgid "Third Set Winner"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:123
+msgid "Tie Outcome"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/Bet.php:124
+msgid "Fourth Set Winner"
+msgstr ""
+
+#: Plugin/Feeds/Lib/Betclick/BetPart.php:4;5
+msgid "Under"
+msgstr ""
+
+#: Plugin/Feeds/Model/Betclick.php:213
+#: Plugin/Feeds/Model/OddService.php:179
+msgid "%s feed xml empty request has passed."
+msgstr ""
+
+#: Plugin/Feeds/Model/Betclick.php:217
+#: Plugin/Feeds/Model/OddService.php:183
+msgid "%s feed xml expected %d params count, got %d"
+msgstr ""
+
+#: Plugin/Feeds/Model/Betclick.php:223
+#: Plugin/Feeds/Model/OddService.php:189
+msgid "%s feed xml validate error: %s"
+msgstr ""
+
+#: Plugin/Feeds/Model/Betclick.php:279
+#: Plugin/Feeds/Model/EnetPulse.php:164
+#: Plugin/Feeds/Model/OddService.php:245
+msgid "%s feed cannot save xml entry to database"
+msgstr ""
+
+#: Plugin/Feeds/Model/EnetPulse.php:113
+msgid "%s feed XML unknown tmp_name."
+msgstr ""
+
+#: Plugin/Feeds/Model/EnetPulse.php:117
+msgid "%s feed xml import possible file upload attack."
+msgstr ""
+
+#: Plugin/Feeds/Model/EnetPulse.php:179
+msgid "%s feed cannot move tmp xml file"
+msgstr ""
+
+#: Plugin/Feeds/Model/FeedsAppModel.php:72
+msgid "Update"
+msgstr ""
+
+#: Plugin/Feeds/Model/FeedsAppModel.php:94
+msgid "Update All"
+msgstr ""
+
+#: Plugin/Payments/Config/EgoPay.php:20;25
+#: Plugin/Payments/Config/PerfectMoney.php:19;24
+msgid "Account field are required and should be no larger than 50 characters long."
+msgstr ""
+
+#: Plugin/Payments/Config/EgoPay.php:32
+#: Plugin/Payments/Config/PerfectMoney.php:31
+msgid "Amount field are required and should be a valid monetary amount."
+msgstr ""
+
+#: Plugin/Payments/Config/EgoPay.php:36
+#: Plugin/Payments/Config/PerfectMoney.php:35
+msgid "Lowest amount for cash out is %s%s"
+msgstr ""
+
+#: Plugin/Payments/Config/EgoPay.php:40
+#: Plugin/Payments/Config/PerfectMoney.php:39
+msgid "Highest amount for cash out is %s%s"
+msgstr ""
+
+#: Plugin/Payments/Config/EgoPay.php:44
+#: Plugin/Payments/Config/PerfectMoney.php:43
+msgid "Not enough balance for requested cash out transaction."
+msgstr ""
+
+#: Plugin/Payments/Config/EgoPay.php:48
+#: Plugin/Payments/Config/PerfectMoney.php:47
+msgid "Cannot add new cash out transaction while previous withdrawal transactions are not completed."
+msgstr ""
+
+#: Plugin/Payments/Config/Etranzact.php:16
+#: Plugin/Payments/View/CoinPayments/index.ctp:30
+#: Plugin/Payments/View/EgoPay/index.ctp:17
+#: Plugin/Payments/View/Etranzact/index.ctp:17
+#: Plugin/Payments/View/InterSwitch/index.ctp:17
+#: Plugin/Payments/View/Novinpal/index.ctp:26
+#: Plugin/Payments/View/Paypal/index.ctp:26
+#: Plugin/Payments/View/PerfectMoney/index.ctp:17
+#: Plugin/Payments/View/Skrill/index.ctp:26
+#: View/Themed/Design/Deposits/deposit.ctp:17
+#: View/Themed/Design/Deposits/index.ctp:3
+#: View/Themed/Design/Layouts/user-panel.ctp:52
+msgid "Deposit"
+msgstr ""
+
+#: Plugin/Payments/Controller/BlockChainController.php:159
+#: Plugin/Payments/Controller/EgoPayController.php:138
+#: Plugin/Payments/Controller/PerfectMoneyController.php:118
+msgid "You have requested withdraw by %s payment provider."
+msgstr ""
+
+#: Plugin/Payments/Controller/BlockChainController.php:288
+#: Plugin/Payments/Controller/CoinPaymentsController.php:191
+#: Plugin/Payments/Controller/EgoPayController.php:262
+#: Plugin/Payments/Controller/LunaWalletController.php:220
+#: Plugin/Payments/Controller/NovinpalController.php:175
+#: Plugin/Payments/Controller/PaypalController.php:220
+#: Plugin/Payments/Controller/PerfectMoneyController.php:235
+#: Plugin/Payments/Controller/SkrillController.php:169
+msgid "You have successfully made payment by %s payment provider."
+msgstr ""
+
+#: Plugin/Payments/Controller/CoinPaymentsController.php:171
+#: Plugin/Payments/Controller/EgoPayController.php:223
+#: Plugin/Payments/Controller/NovinpalController.php:145
+#: Plugin/Payments/Controller/PaypalController.php:178
+#: Plugin/Payments/Controller/PerfectMoneyController.php:200
+#: Plugin/Payments/Controller/SkrillController.php:142
+msgid "Cannot find payment or its already processed by requested data: %s \n Database payment: %s"
+msgstr ""
+
+#: Plugin/Payments/Controller/EgoPayController.php:104
+#: Plugin/Payments/Controller/NovinpalController.php:103
+msgid "Payment for Deposit %s"
+msgstr ""
+
+#: Plugin/Payments/Controller/EgoPayController.php:204
+#: Plugin/Payments/Controller/PerfectMoneyController.php:181
+msgid "Wrong callback params passed. Required: %s \n Passed: %s"
+msgstr ""
+
+#: Plugin/Payments/Controller/EgoPayController.php:214
+#: Plugin/Payments/Controller/PerfectMoneyController.php:191
+msgid "Unknown %s payment ID. Expected IDS got %s"
+msgstr ""
+
+#: Plugin/Payments/Controller/EgoPayController.php:227
+msgid "Invalid payment currency by requested data: %s \n Database payment: %s"
+msgstr ""
+
+#: Plugin/Payments/Controller/EgoPayController.php:231
+msgid "Invalid payment amount by requested data: %s \n Database payment: %s"
+msgstr ""
+
+#: Plugin/Payments/Controller/EtranzactController.php:149
+#: Plugin/Payments/Controller/InterSwitchController.php:160
+msgid "You have successfully made deposit for "
+msgstr ""
+
+#: Plugin/Payments/Controller/EtranzactController.php:151
+#: Plugin/Payments/Controller/InterSwitchController.php:162
+msgid "Sorry, we can not find your payment"
+msgstr ""
+
+#: Plugin/Payments/Controller/NovinpalController.php:108
+msgid "Wrong amount. Payment Provider Error Code: %s"
+msgstr ""
+
+#: Plugin/Payments/Controller/NovinpalController.php:137
+msgid "Unknown %s payment ID."
+msgstr ""
+
+#: Plugin/Payments/Controller/PaymentAppController.php:110
+msgid "Provider %s must implement submitPayment() method"
+msgstr ""
+
+#: Plugin/Payments/Controller/PaymentAppController.php:115
+msgid "Provider %s must implement submitWithdraw() method"
+msgstr ""
+
+#: Plugin/Payments/Controller/PaypalController.php:197
+msgid "Callback URI Id doesn't match response ID. Or response is empty: %s \n Database payment: %s"
+msgstr ""
+
+#: Plugin/Payments/Controller/PerfectMoneyController.php:175
+msgid "Error in callback request passed: %s"
+msgstr ""
+
+#: Plugin/Payments/Controller/SkrillController.php:134
+msgid "Signature validation failed."
+msgstr ""
+
+#: Plugin/Payments/Model/BlockChain.php:148
+#: Plugin/Payments/Model/CoinPayment.php:111
+#: Plugin/Payments/Model/EgoPay.php:118
+#: Plugin/Payments/Model/LunaWallet.php:148
+#: Plugin/Payments/Model/Novinpal.php:118
+#: Plugin/Payments/Model/PayPalModel.php:106
+#: Plugin/Payments/Model/PerfectMoney.php:148
+#: Plugin/Payments/Model/Skrill.php:106
+#: Plugin/Payments/Model/WeCashUp.php:111
+msgid "Unknown %s source"
+msgstr ""
+
+#: Plugin/Payments/Model/PaymentAppModel.php:128
+msgid "Config %s.Config not found"
+msgstr ""
+
+#: Plugin/Payments/View/BlockChain/index.ctp:4
+#: Plugin/Payments/View/BlockChain/submit_payment.ctp:3
+#: Plugin/Payments/View/CoinPayments/index.ctp:5
+#: Plugin/Payments/View/EgoPay/index.ctp:3
+#: Plugin/Payments/View/LunaWallet/index.ctp:4
+#: Plugin/Payments/View/LunaWallet/submit_payment.ctp:3
+#: Plugin/Payments/View/Novinpal/index.ctp:5
+#: Plugin/Payments/View/Paypal/index.ctp:5
+#: Plugin/Payments/View/PerfectMoney/index.ctp:3
+#: Plugin/Payments/View/Skrill/index.ctp:5
+#: Plugin/Payments/View/WeCashUp/index.ctp:5
+msgid "Make deposit by %s payment provider"
+msgstr ""
+
+#: Plugin/Payments/View/BlockChain/success.ctp:3
+#: Plugin/Payments/View/EgoPay/success.ctp:3
+#: Plugin/Payments/View/Etranzact/callback.ctp:3
+#: Plugin/Payments/View/Etranzact/index.ctp:3
+#: Plugin/Payments/View/Etranzact/result.ctp:4
+#: Plugin/Payments/View/InterSwitch/index.ctp:3
+#: Plugin/Payments/View/LunaWallet/success.ctp:3
+#: Plugin/Payments/View/PaymentApp/result.ctp:3
+#: Plugin/Payments/View/PerfectMoney/success.ctp:3
+#: View/Themed/Design/Deposits/deposit.ctp:3
+#: View/Themed/Design/Deposits/index.ctp:101
+#: View/Themed/Design/Deposits/result.ctp:3
+msgid "Make Deposit"
+msgstr ""
+
+#: Plugin/Payments/View/BlockChain/success.ctp:7
+#: Plugin/Payments/View/EgoPay/success.ctp:7
+#: Plugin/Payments/View/LunaWallet/success.ctp:7
+#: Plugin/Payments/View/PerfectMoney/success.ctp:7
+msgid "Your payment has been accepted."
+msgstr ""
+
+#: Plugin/Payments/View/CoinPayments/index.ctp:22
+msgid "Valuta"
+msgstr ""
+
+#: Plugin/Payments/View/CoinPayments/index.ctp:27
+#: Plugin/Payments/View/EgoPay/index.ctp:14
+#: Plugin/Payments/View/Etranzact/index.ctp:14
+#: Plugin/Payments/View/InterSwitch/index.ctp:14
+#: Plugin/Payments/View/Novinpal/index.ctp:23
+#: Plugin/Payments/View/Paypal/index.ctp:23
+#: Plugin/Payments/View/PerfectMoney/index.ctp:14
+#: Plugin/Payments/View/Skrill/index.ctp:23
+#: View/Themed/Design/Deposits/deposit.ctp:14
+#: View/Themed/Design/Deposits/index.ctp:98
+#: View/Themed/Design/Elements/Deposits/bonus_code.ctp:3
+msgid "Bonuskod"
+msgstr ""
+
+#: Plugin/Queue/Console/Command/QueueShell.php:24
+msgid "Add a task to the queue."
+msgstr ""
+
+#: Plugin/Queue/Console/Command/QueueShell.php:27
+msgid "Use this command to add tasks to the queue"
+msgstr ""
+
+#: Plugin/Queue/Console/Command/QueueShell.php:31
+msgid "The actual command string"
+msgstr ""
+
+#: Plugin/Queue/Console/Command/QueueShell.php:38
+msgid "The type of task command."
+msgstr ""
+
+#: Plugin/Queue/Console/Command/QueueShell.php:45
+msgid "optional: strtotime parsable scheduled date to execute. 'Sunday 11 pm','Tuesday 2 am' (default null = no restriction)"
+msgstr ""
+
+#: Plugin/Queue/Console/Command/QueueShell.php:50
+msgid "optional: strtotime parsable scheduled end date to execute. 'Monday 4am' (default null = no restriction)"
+msgstr ""
+
+#: Plugin/Queue/Console/Command/QueueShell.php:55
+msgid "optional: string of addition to scheduled if window of start and end are missed. Parsable by strtotime. '+1 day', '+1 week' (default null, required if end is not null)"
+msgstr ""
+
+#: Plugin/Queue/Console/Command/QueueShell.php:60
+msgid "optional: CPU Percent Limit to run task, 0-100. '95','10' (default null = no restriction)"
+msgstr ""
+
+#: Plugin/Queue/Console/Command/QueueShell.php:65
+msgid "optional: Priority of task, lower number the sooner it will run.  '5','100'"
+msgstr ""
+
+#: Plugin/Queue/Console/Command/QueueShell.php:74
+msgid "Run a task in the queue."
+msgstr ""
+
+#: Plugin/Queue/Console/Command/QueueShell.php:77
+msgid "Use this command to run a paticular queue"
+msgstr ""
+
+#: Plugin/Queue/Console/Command/QueueShell.php:81
+msgid "UUID of queue to run"
+msgstr ""
+
+#: Plugin/Queue/Console/Command/QueueShell.php:89
+msgid "View a task in the queue."
+msgstr ""
+
+#: Plugin/Queue/Console/Command/QueueShell.php:92
+msgid "Use this command to view a paticular queue. Including results."
+msgstr ""
+
+#: Plugin/Queue/Console/Command/QueueShell.php:96
+msgid "UUID of queue to view"
+msgstr ""
+
+#: Plugin/Queue/Console/Command/QueueShell.php:104
+msgid "Show what is queued."
+msgstr ""
+
+#: Plugin/Queue/Console/Command/QueueShell.php:107
+msgid "Use this command to see what X next in queue."
+msgstr ""
+
+#: Plugin/Queue/Console/Command/QueueShell.php:111
+msgid "INT of how many you want to see in the future, \\`10\\`,'5'"
+msgstr ""
+
+#: Plugin/Queue/Console/Command/QueueShell.php:120
+msgid "Process the queue, runs the next limit items on the queue."
+msgstr ""
+
+#: Plugin/Queue/Console/Command/QueueShell.php:124
+msgid "Show the queues in progress."
+msgstr ""
+
+#: Plugin/Queue/Console/Command/QueueShell.php:128
+msgid "Show the in progress count."
+msgstr ""
+
+#: Plugin/Queue/Console/Command/QueueShell.php:132
+msgid "Remove a task from the queue."
+msgstr ""
+
+#: Plugin/Queue/Console/Command/QueueShell.php:135
+msgid "Use this command to remove a paticular task."
+msgstr ""
+
+#: Plugin/Queue/Console/Command/QueueShell.php:139
+msgid "UUID of task to remove. Will not remove in_process tasks."
+msgstr ""
+
+#: Plugin/Queue/Console/Command/QueueShell.php:145
+msgid "if true will force a delete even on in_progress tasks."
+msgstr ""
+
+#: Plugin/Reports/Controller/ReportsController.php:700
+#: Plugin/Reports/View/Themed/Admin/Elements/financial_daily.ctp:159
+msgid "Funded"
+msgstr ""
+
+#: Plugin/Reports/Controller/ReportsController.php:704
+#: Plugin/Reports/View/Themed/Admin/Elements/financial_daily.ctp:160
+msgid "Charged"
+msgstr ""
+
+#: Plugin/Reports/Controller/ReportsController.php:789;1072
+msgid "Ticket types"
+msgstr ""
+
+#: Plugin/Reports/Controller/ReportsController.php:795
+msgid "Single stake"
+msgstr ""
+
+#: Plugin/Reports/Controller/ReportsController.php:799
+msgid "Multi stake"
+msgstr ""
+
+#: Plugin/Reports/Controller/ReportsController.php:808
+msgid "User finance activity"
+msgstr ""
+
+#: Plugin/Reports/Controller/ReportsController.php:829
+msgid "Income / Outcome"
+msgstr ""
+
+#: Plugin/Reports/Controller/ReportsController.php:835
+#: Plugin/Reports/View/Themed/Admin/Elements/agent.ctp:132
+#: Plugin/Reports/View/Themed/Admin/Elements/agents.ctp:132
+#: Plugin/Reports/View/Themed/Admin/Elements/branch_agents.ctp:134
+#: Plugin/Reports/View/Themed/Admin/Elements/cashier_daily.ctp:154
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:209
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:227
+#: Plugin/Reports/View/Themed/Admin/Elements/staff.ctp:131
+#: Plugin/Reports/View/Themed/Admin/Elements/user.ctp:131
+msgid "Inkommande"
+msgstr ""
+
+#: Plugin/Reports/Controller/ReportsController.php:839
+#: Plugin/Reports/View/Themed/Admin/Elements/agent.ctp:133
+#: Plugin/Reports/View/Themed/Admin/Elements/agents.ctp:133
+#: Plugin/Reports/View/Themed/Admin/Elements/branch_agents.ctp:135
+#: Plugin/Reports/View/Themed/Admin/Elements/cashier_daily.ctp:155
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:210
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:228
+#: Plugin/Reports/View/Themed/Admin/Elements/staff.ctp:132
+#: Plugin/Reports/View/Themed/Admin/Elements/user.ctp:132
+msgid "Utgående"
+msgstr ""
+
+#: Plugin/Reports/Controller/ReportsController.php:848
+msgid "Placed / Withdrawed"
+msgstr ""
+
+#: Plugin/Reports/Controller/ReportsController.php:854
+msgid "Placed"
+msgstr ""
+
+#: Plugin/Reports/Controller/ReportsController.php:858;1029
+msgid "Withdrawed"
+msgstr ""
+
+#: Plugin/Reports/Controller/ReportsController.php:997
+msgid "Deposited / Withdrawed Amounts"
+msgstr ""
+
+#: Plugin/Reports/Controller/ReportsController.php:1003
+msgid "Deposited amount"
+msgstr ""
+
+#: Plugin/Reports/Controller/ReportsController.php:1008
+msgid "Withdrawed amount"
+msgstr ""
+
+#: Plugin/Reports/Controller/ReportsController.php:1018
+msgid "Deposited / Withdrawed"
+msgstr ""
+
+#: Plugin/Reports/Controller/ReportsController.php:1024
+msgid "Deposited"
+msgstr ""
+
+#: Plugin/Reports/Controller/ReportsController.php:1041
+msgid "Ticket statuses"
+msgstr ""
+
+#: Plugin/Reports/Controller/Component/ReportsComponent.php:143
+msgid "All operators"
+msgstr ""
+
+#: Plugin/Reports/Model/ReportsAppModel.php:31
+#: View/Themed/Admin/Elements/sidebar.ctp:46;50
+#: View/Themed/Admin/Elements/statistics.ctp:16
+#: View/Themed/Admin/Staffs/admin_index.ctp:145
+msgid "Användare"
+msgstr ""
+
+#: Plugin/Reports/Model/ReportsAppModel.php:40
+#: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:120
+#: View/Themed/Admin/Elements/sidebar.ctp:136;140
+#: View/Themed/Admin/Elements/statistics.ctp:32
+#: View/Themed/Admin/Events/admin_view.ctp:42
+#: View/Themed/Admin/Users/admin_tickets.ctp:4
+#: View/Themed/Design/Layouts/user-panel.ctp:45
+#: View/Themed/Design/Tickets/history.ctp:3
+#: View/Themed/Design/Tickets/index.ctp:3
+msgid "Spel"
+msgstr ""
+
+#: Plugin/Reports/Model/ReportsAppModel.php:49
+#: View/Themed/Admin/Elements/sidebar.ctp:159
+#: View/Themed/Admin/Elements/statistics.ctp:51
+#: View/Themed/Admin/Users/admin_deposits.ctp:4
+msgid "Insättningar"
+msgstr ""
+
+#: Plugin/Reports/Model/ReportsAppModel.php:58
+#: View/Themed/Admin/Elements/statistics.ctp:69
+#: View/Themed/Admin/Users/admin_withdraws.ctp:4
+#: View/Themed/Design/Layouts/user-panel.ctp:59
+msgid "Uttag"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/agent.ctp:109
+#: Plugin/Reports/View/Themed/Admin/Elements/agents.ctp:109
+#: Plugin/Reports/View/Themed/Admin/Elements/branch_agents.ctp:109
+#: Plugin/Reports/View/Themed/Admin/Elements/cashier_daily.ctp:101
+#: Plugin/Reports/View/Themed/Admin/Elements/financial_daily.ctp:137
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:122
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:133
+#: Plugin/Reports/View/Themed/Admin/Elements/staff.ctp:109
+#: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:109
+#: Plugin/Reports/View/Themed/Admin/Elements/user.ctp:109
+msgid "Begärd: %s"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/agent.ctp:110
+#: Plugin/Reports/View/Themed/Admin/Elements/agents.ctp:110
+#: Plugin/Reports/View/Themed/Admin/Elements/branch_agents.ctp:110
+#: Plugin/Reports/View/Themed/Admin/Elements/cashier_daily.ctp:102
+#: Plugin/Reports/View/Themed/Admin/Elements/financial_daily.ctp:138
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:123
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:134
+#: Plugin/Reports/View/Themed/Admin/Elements/staff.ctp:110
+#: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:110
+#: Plugin/Reports/View/Themed/Admin/Elements/user.ctp:110
+msgid "Begärd av: %s"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/agent.ctp:114
+#: Plugin/Reports/View/Themed/Admin/Elements/agents.ctp:114
+#: Plugin/Reports/View/Themed/Admin/Reports/admin_agent.ctp:25
+#: View/Themed/Admin/Elements/sidebar.ctp:371;378
+msgid "Agent report"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/agent.ctp:115
+#: Plugin/Reports/View/Themed/Admin/Elements/agents.ctp:115
+#: Plugin/Reports/View/Themed/Admin/Elements/branch_agents.ctp:115
+#: Plugin/Reports/View/Themed/Admin/Elements/cashier_daily.ctp:107
+#: Plugin/Reports/View/Themed/Admin/Elements/financial_daily.ctp:143
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:128
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:139
+#: Plugin/Reports/View/Themed/Admin/Elements/staff.ctp:115
+#: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:115
+#: Plugin/Reports/View/Themed/Admin/Elements/user.ctp:115
+msgid "From %s to %s"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/agent.ctp:120
+#: Plugin/Reports/View/Themed/Admin/Elements/user.ctp:120
+msgid "Users list"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/agent.ctp:128
+#: Plugin/Reports/View/Themed/Admin/Elements/agents.ctp:128
+#: Plugin/Reports/View/Themed/Admin/Elements/staff.ctp:128
+#: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:128
+#: Plugin/Reports/View/Themed/Admin/Elements/user.ctp:128
+msgid "Nr"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/agent.ctp:130
+#: Plugin/Reports/View/Themed/Admin/Elements/agents.ctp:130
+#: Plugin/Reports/View/Themed/Admin/Elements/financial_daily.ctp:158
+#: Plugin/Reports/View/Themed/Admin/Elements/staff.ctp:130
+#: Plugin/Reports/View/Themed/Admin/Elements/user.ctp:130
+msgid "Group"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/agent.ctp:131
+#: Plugin/Reports/View/Themed/Admin/Elements/agents.ctp:131
+msgid "Commissions"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/agent.ctp:142
+#: Plugin/Reports/View/Themed/Admin/Elements/agents.ctp:141
+#: Plugin/Reports/View/Themed/Admin/Elements/branch_agents.ctp:144
+#: Plugin/Reports/View/Themed/Admin/Elements/staff.ctp:141
+#: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:142;143
+#: Plugin/Reports/View/Themed/Admin/Elements/user.ctp:141
+msgid "%d"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/agent.ctp:143;144
+#: Plugin/Reports/View/Themed/Admin/Elements/agents.ctp:142;143
+#: Plugin/Reports/View/Themed/Admin/Elements/branch_agents.ctp:125
+#: Plugin/Reports/View/Themed/Admin/Elements/staff.ctp:142;143
+#: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:144;149
+#: Plugin/Reports/View/Themed/Admin/Elements/user.ctp:142;143
+#: View/Themed/Admin/Slides/admin_index.ctp:6
+#: View/Themed/Admin/Staffs/admin_index.ctp:6
+#: View/Themed/Design/Elements/Tickets/BetSlip/flash_message.ctp:7
+#: View/Themed/Design/Users/operator_panel.ctp:40;41
+msgid "%s"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/agent.ctp:151
+#: Plugin/Reports/View/Themed/Admin/Elements/agents.ctp:144
+msgid "%s %s  ( %s %% )"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/agent.ctp:152;153
+#: Plugin/Reports/View/Themed/Admin/Elements/agents.ctp:145;146
+#: Plugin/Reports/View/Themed/Admin/Elements/branch_agents.ctp:145;146;147;148;181;184
+#: Plugin/Reports/View/Themed/Admin/Elements/cashier_daily.ctp:132;136;166;170
+#: Plugin/Reports/View/Themed/Admin/Elements/financial_daily.ctp:170;171;200;201
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:153;157;178;182;221;225
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:164;168;247;251
+#: Plugin/Reports/View/Themed/Admin/Elements/staff.ctp:144;145;146
+#: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:145;148;180;183
+#: Plugin/Reports/View/Themed/Admin/Elements/user.ctp:144;145;146
+msgid "%.2f %s"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/agent.ctp:160
+#: Plugin/Reports/View/Themed/Admin/Elements/agents.ctp:152
+#: Plugin/Reports/View/Themed/Admin/Elements/financial_daily.ctp:177
+#: Plugin/Reports/View/Themed/Admin/Elements/staff.ctp:153
+#: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:155
+#: Plugin/Reports/View/Themed/Admin/Elements/user.ctp:153
+msgid "No data is available"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/agent.ctp:170
+#: Plugin/Reports/View/Themed/Admin/Elements/agents.ctp:162
+#: Plugin/Reports/View/Themed/Admin/Elements/branch_agents.ctp:166
+#: Plugin/Reports/View/Themed/Admin/Elements/cashier_daily.ctp:112
+#: Plugin/Reports/View/Themed/Admin/Elements/financial_daily.ctp:148
+#: Plugin/Reports/View/Themed/Admin/Elements/staff.ctp:163
+#: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:165
+#: Plugin/Reports/View/Themed/Admin/Elements/user.ctp:163
+msgid "Finances"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/agent.ctp:177
+#: Plugin/Reports/View/Themed/Admin/Elements/agents.ctp:169
+msgid "Total income: %.2f %s"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/agent.ctp:178
+#: Plugin/Reports/View/Themed/Admin/Elements/agents.ctp:170
+msgid "Total outcome: %.2f %s"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/agent.ctp:184
+#: Plugin/Reports/View/Themed/Admin/Elements/agents.ctp:176
+#: Plugin/Reports/View/Themed/Admin/Elements/branch_agents.ctp:190
+#: Plugin/Reports/View/Themed/Admin/Elements/financial_daily.ctp:207
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:232
+#: Plugin/Reports/View/Themed/Admin/Elements/staff.ctp:187
+#: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:189
+#: Plugin/Reports/View/Themed/Admin/Elements/user.ctp:187
+msgid "Total earnings %.2f %s"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/agent.ctp:187
+#: Plugin/Reports/View/Themed/Admin/Elements/agents.ctp:179
+msgid "Total commissions %.2f %s"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/agents.ctp:120
+msgid "Agents list"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/branch_agents.ctp:114
+msgid "Agents Branch report"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/branch_agents.ctp:133
+#: Plugin/Reports/View/Themed/Admin/Elements/financial_daily.ctp:156
+#: View/Themed/Design/Tickets/preview.ctp:28
+msgid "ID"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/branch_agents.ctp:136
+msgid "Pending Income"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/branch_agents.ctp:137
+msgid "Pending Outcome"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/branch_agents.ctp:138;139
+msgid "-"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/branch_agents.ctp:174
+#: Plugin/Reports/View/Themed/Admin/Elements/financial_daily.ctp:195
+#: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:173
+msgid "Total Income"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/branch_agents.ctp:177
+#: Plugin/Reports/View/Themed/Admin/Elements/financial_daily.ctp:196
+#: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:176
+msgid "Total Outcome"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/branch_agents.ctp:182
+#: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:181
+msgid "+%s %.2f %s"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/branch_agents.ctp:183
+#: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:182
+msgid "-%s %.2f %s"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/cashier_daily.ctp:106
+msgid "Daily report of cashier %s"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/cashier_daily.ctp:118
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:173
+msgid "Statistics"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/cashier_daily.ctp:122
+msgid "Today funded:"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/cashier_daily.ctp:123;127
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:155;159
+msgid "%d users"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/cashier_daily.ctp:126
+msgid "Today charged:"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/cashier_daily.ctp:131
+msgid "Amount of total funds:"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/cashier_daily.ctp:135
+msgid "Amount of total charges:"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/cashier_daily.ctp:159
+msgid "Funded: %.2f %s"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/cashier_daily.ctp:160
+msgid "Charged: %.2f %s"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/cashier_daily.ctp:165
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:220
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:246
+msgid "Total income:"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/cashier_daily.ctp:169
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:224
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:250
+msgid "Total outcome:"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/cashier_daily.ctp:177
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:257
+msgid "Total earnings: %.2f %s"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/financial_daily.ctp:142
+#: Plugin/Reports/View/Themed/Admin/Reports/admin_financial_report.ctp:25
+#: View/Themed/Admin/Elements/sidebar.ctp:350
+msgid "Admin financial report"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/financial_daily.ctp:157
+#: View/Themed/Admin/ReservationTickets/admin_view.ctp:34
+#: View/Themed/Admin/Risks/admin_warnings.ctp:33;64;95;126;153
+#: View/Themed/Admin/Tickets/admin_view.ctp:34
+#: View/Themed/Design/Deposits/preview.ctp:15
+#: Plugin/Acl/View/Aros/admin_ajax_user_permissions.ctp:12
+msgid "User"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:127
+msgid "Daily report of operator %s"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:133
+msgid "Offline Tickets"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:139
+msgid "Today place: %d new ticket(s)"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:143
+msgid "Single ticket type:"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:144;148;187;191
+msgid "%d ticket(s)"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:147
+msgid "Multi ticket type:"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:152
+msgid "Staked on single ticket(s):"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:156
+msgid "Staked on multi ticket(s):"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:167
+msgid "Offline Finances"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:177
+msgid "Stakes income:"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:181
+msgid "Withdraws outcome:"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:186
+msgid "Placed:"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:190
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:158
+msgid "Withdrawed:"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:214
+msgid "Stakes income %.2f %s"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:215
+msgid "Winnings outcome %.2f %s"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/operator_daily.ctp:234
+msgid "Commissions: %.2f %s"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/reports_form.ctp:18
+msgid "Please select date range:"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/reports_form.ctp:23
+#: View/Themed/Admin/Events/admin_print.ctp:21
+msgid "From"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/reports_form.ctp:34
+#: View/Themed/Admin/Events/admin_print.ctp:31
+msgid "To"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/reports_form.ctp:43
+msgid "Show"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:138
+msgid "Daily sportsbook report"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:144
+msgid "Online Finances"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:150
+msgid "Today registered: %d new users"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:154
+msgid "Deposited:"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:163
+msgid "Deposited amount:"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:167
+msgid "Withdrawed amount:"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:178
+msgid "Online and offline tickets"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:184
+msgid "Today placed: %d new tickets"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:188
+msgid "Single type:"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:189;193;198;202;206;210
+msgid "%d tickets"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:192
+msgid "Multi type:"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:197
+msgid "Won status:"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:201
+msgid "Lost status:"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:205
+msgid "Pending status:"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:209
+msgid "Cancelled status:"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:232
+msgid "Deposited amount %.2f %s"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:233
+msgid "Withdrawed amount %.2f %s"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:236
+msgid "Cashier profit %.2f %s"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:237
+msgid "Cashier loss %.2f %s"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:240
+msgid "Operator profit %.2f %s"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/sportsbook_daily.ctp:241
+msgid "Operator loss %.2f %s"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/staff.ctp:114
+#: Plugin/Reports/View/Themed/Admin/Reports/admin_staff.ctp:25
+#: View/Themed/Admin/Elements/sidebar.ctp:357
+msgid "Staff report"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/staff.ctp:120
+msgid "Staff list"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/staff.ctp:147
+#: Plugin/Reports/View/Themed/Admin/Elements/user.ctp:147
+msgid "%.2f %s / %.2f %s"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/staff.ctp:170
+#: Plugin/Reports/View/Themed/Admin/Elements/user.ctp:170
+msgid "Staff income: %.2f %s"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/staff.ctp:171
+#: Plugin/Reports/View/Themed/Admin/Elements/user.ctp:171
+msgid "Staff outcome: %.2f %s"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/staff.ctp:172
+#: Plugin/Reports/View/Themed/Admin/Elements/user.ctp:172
+msgid "Pending potential income: +%.2f %s"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/staff.ctp:173
+#: Plugin/Reports/View/Themed/Admin/Elements/user.ctp:173
+msgid "Pending potential outcome: -%.2f %s"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/staff.ctp:179
+#: Plugin/Reports/View/Themed/Admin/Elements/user.ctp:179
+msgid "Factual Income: %.2f %s"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/staff.ctp:180
+#: Plugin/Reports/View/Themed/Admin/Elements/user.ctp:180
+msgid "Factual Outcome: %.2f %s"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:114
+#: View/Themed/Admin/Elements/sidebar.ctp:315
+msgid "Spelhistorik"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:131
+#: View/Themed/Admin/ReservationTickets/admin_view.ctp:37
+#: View/Themed/Admin/Risks/admin_warnings.ctp:34;65;96
+#: View/Themed/Admin/Tickets/admin_view.ctp:37
+#: View/Themed/Design/Tickets/betslip.ctp:74
+msgid "Insats"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:132
+#: View/Themed/Admin/Settings/admin_index.ctp:100
+msgid "Service fee"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:135
+msgid "STATUS"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:146
+msgid "%d %s"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:147
+msgid "%.2f"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Elements/user.ctp:114
+#: Plugin/Reports/View/Themed/Admin/Reports/admin_user.ctp:25
+#: View/Themed/Admin/Elements/sidebar.ctp:364
+msgid "User report"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Reports/admin_agent.ctp:7
+#: Plugin/Reports/View/Themed/Admin/Reports/admin_agents.ctp:7
+msgid "Agents %s"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Reports/admin_agents.ctp:25
+msgid "Agents report"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Reports/admin_cashier_daily.ctp:25
+#: View/Themed/Admin/Elements/sidebar.ctp:329
+msgid "Cashier report"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Reports/admin_cashier_daily.ctp:26
+msgid "Please select cashier(s)"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Reports/admin_operator_daily.ctp:25
+#: View/Themed/Admin/Elements/sidebar.ctp:336
+msgid "Operator report"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Reports/admin_operator_daily.ctp:26
+msgid "Please select operator(s)"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Reports/admin_staff.ctp:7
+#: Plugin/Reports/View/Themed/Admin/Reports/admin_tickets.ctp:7
+#: View/Themed/Admin/Settings/admin_tickets.ctp:6
+msgid "Tickets %s"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Reports/admin_tickets.ctp:25
+msgid "Admin tickets report"
+msgstr ""
+
+#: Plugin/Reports/View/Themed/Admin/Reports/admin_user.ctp:7
+msgid "Users %s"
+msgstr ""
+
+#: Test/Case/Model/TicketTest.php:84
+msgid "Maximum days stake are: %.2f, counted more. \n Message: %s. \n Case: \n %s"
+msgstr ""
+
+#: Vendor/EnetPulse/Feeds/ObjectQueryFeed.php:69
+#: Vendor/EnetPulse/Feeds/OddsFeed.php:63
+msgid "OddsFeed Import Start. Total Objects ( %d ) To Process"
+msgstr ""
+
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome.php:112
+msgid "OddsFeed :: Object %s Import Start."
+msgstr ""
+
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome.php:132
+msgid "OddsFeed :: Object %s Map Start."
+msgstr ""
+
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome.php:145
+msgid "OddsFeed :: Object %s Reduce Start."
+msgstr ""
+
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome.php:148
+msgid "OddsFeed :: Object %s Reduce Betting Type ( %s ) Process Start ."
+msgstr ""
+
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome.php:159
+msgid "OddsFeed :: Object %s Reduce Betting Type ( %s ) Not Available For Process, Skipping."
+msgstr ""
+
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome.php:172
+msgid "OddsFeed :: Object %s Save Objects Start."
+msgstr ""
+
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome.php:173
+msgid "OddsFeed :: Object %s Save Objects Total ( %d ) For Process."
+msgstr ""
+
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome.php:176
+msgid "OddsFeed :: Object %s For Save Object Type ( %s ) Total Count ( %d ) To Process."
+msgstr ""
+
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_12.php:49
+msgid "OddsFeed :: Object Betting Type %s map() With Items Count ( %d ) Start."
+msgstr ""
+
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_12.php:68
+msgid "OddsFeed :: Object Betting Type %s reduce() With Items Count ( %d ) Start."
+msgstr ""
+
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_12.php:86
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_1x2.php:86
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_dc.php:86
+msgid "OddsFeed :: Object Betting Type %s Reset() With Items Count ( %d ) Start."
+msgstr ""
+
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_12.php:103
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_1x2.php:104
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_dc.php:103
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_ht_ft.php:99
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_oe.php:97
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_ou.php:97
+msgid "OddsFeed :: Object Betting Type %s getInsertFields() With Items Count ( %d ) Start."
+msgstr ""
+
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_12.php:151
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_1x2.php:161
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_dc.php:155
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_ht_ft.php:132
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_oe.php:132
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_ou.php:132
+msgid "OddsFeed :: Object Betting Type %s getUpdateFields() With Items Count ( %d ) Start."
+msgstr ""
+
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_1x2.php:49
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_dc.php:49
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_ht_ft.php:48
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_oe.php:48
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_ou.php:48
+msgid "OddsFeed :: Object Betting Type %s Map With Items Count ( %d ) Start."
+msgstr ""
+
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_1x2.php:68
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_dc.php:68
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_ht_ft.php:67
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_oe.php:67
+#: Vendor/EnetPulse/Feeds/OddsFeed/outcome/outcome_ou.php:67
+msgid "OddsFeed :: Object Betting Type %s Reduce With Items Count ( %d ) Start."
+msgstr ""
+
+#: Vendor/shells/aco_sync.php:83
+msgid "Available ACO sync commands:"
+msgstr ""
+
+#: Vendor/shells/aco_sync.php:87
+msgid "For help, run the 'help' command.  For help on a specific command, run 'help <command>'"
+msgstr ""
+
+#: Vendor/shells/aco_sync.php:120
+msgid "Deleted %s and all children"
+msgstr ""
+
+#: Vendor/shells/aco_sync.php:125
+msgid "Aco Update Complete"
+msgstr ""
+
+#: Vendor/shells/aco_sync.php:153
+msgid "Created Aco node: %s"
+msgstr ""
+
+#: Vendor/shells/aco_sync.php:184
+msgid "Deleted Aco node %s"
+msgstr ""
+
+#: Vendor/shells/aco_sync.php:199
+msgid "Usage: cake aco_sync <command>"
+msgstr ""
+
+#: Vendor/shells/aco_sync.php:201
+msgid "Commands:"
+msgstr ""
+
+#: Vendor/shells/aco_sync.php:205
+msgid "Add new ACOs for new controllers and actions"
+msgstr ""
+
+#: Vendor/shells/aco_sync.php:206
+msgid "Create new ACO's for controllers and their actions. Does not remove any nodes from ACO table"
+msgstr ""
+
+#: Vendor/shells/aco_sync.php:210
+msgid "Creates new ACO's for missing controllers and actions. Removes orphaned entries in the ACO table."
+msgstr ""
+
+#: Vendor/shells/aco_sync.php:213
+msgid "Displays this help message, or a message on a specific command."
+msgstr ""
+
+#: Vendor/shells/aco_sync.php:224
+msgid "Command '%s' not found"
+msgstr ""
+
+#: View/Helper/BethHelper.php:118
+msgid "Win"
+msgstr ""
+
+#: View/Helper/BethHelper.php:138;158
+msgid "Decimal"
+msgstr ""
+
+#: View/Helper/BethHelper.php:141;159
+msgid "Fractional"
+msgstr ""
+
+#: View/Helper/BethHelper.php:144;160
+msgid "American"
+msgstr ""
+
+#: View/Themed/Admin/Bets/admin_add.ctp:6
+#: View/Themed/Admin/Users/admin_add.ctp:6
+msgid "Add %s"
+msgstr ""
+
+#: View/Themed/Admin/Bets/admin_edit.ctp:55
+#: View/Themed/Admin/Countries/admin_add.ctp:29
+#: View/Themed/Admin/Countries/admin_edit.ctp:55
+#: View/Themed/Admin/Deposits/admin_add.ctp:31
+#: View/Themed/Admin/Elements/edit.ctp:5
+#: View/Themed/Admin/Elements/translate.ctp:9
+#: View/Themed/Admin/Results/admin_all_all.ctp:65
+#: View/Themed/Admin/Results/admin_event.ctp:67
+#: View/Themed/Admin/Users/admin_settings.ctp:39
+#: View/Themed/Admin/Withdraws/admin_add.ctp:31
+#: View/Themed/Admin/Withdraws/admin_complete.ctp:31
+#: View/Themed/Design/Users/bonus.ctp:21
+#: View/Themed/Design/Users/docs.ctp:17
+msgid "Submit"
+msgstr ""
+
+#: View/Themed/Admin/Countries/admin_add.ctp:4
+msgid "Lägg spel"
+msgstr ""
+
+#: View/Themed/Admin/Dashboard/admin_operator.ctp:93;105;117
+#: View/Themed/Admin/Users/admin_statistics.ctp:88;100;112
+msgid "%s%s"
+msgstr ""
+
+#: View/Themed/Admin/Dashboard/admin_operator.ctp:98;110
+#: View/Themed/Admin/Users/admin_statistics.ctp:93;105
+msgid "%s%s (%s)"
+msgstr ""
+
+#: View/Themed/Admin/Deposits/admin_add.ctp:6
+msgid "Fund %s"
+msgstr ""
+
+#: View/Themed/Admin/Deposits/admin_add.ctp:23
+msgid "Kreditera anväddare"
+msgstr ""
+
+#: View/Themed/Admin/Deposits/admin_add.ctp:24
+msgid "To fund just enter amount into the input field and press submit. For example if you want to fund just credit user with 100 "
+msgstr ""
+
+#: View/Themed/Admin/Deposits/admin_add.ctp:24
+msgid " just enter that amount into field and press submit"
+msgstr ""
+
+#: View/Themed/Admin/Elements/list.ctp:12
+#: View/Themed/Admin/Events/admin_index.ctp:37
+#: View/Themed/Admin/Staffs/admin_index.ctp:37
+msgid "Data list"
+msgstr ""
+
+#: View/Themed/Admin/Elements/list.ctp:39
+#: View/Themed/Admin/Events/admin_index.ctp:63
+#: View/Themed/Admin/Leagues/admin_view.ctp:34
+#: View/Themed/Admin/ReservationTickets/admin_view.ctp:41;86
+#: View/Themed/Admin/Results/admin_all_events.ctp:42
+#: View/Themed/Admin/Results/admin_league.ctp:42
+#: View/Themed/Admin/Sports/admin_view.ctp:36
+#: View/Themed/Admin/Staffs/admin_index.ctp:65
+#: View/Themed/Admin/Tickets/admin_view.ctp:41;86
+#: Plugin/Acl/View/Elements/design/header.ctp:20
+msgid "Actions"
+msgstr ""
+
+#: View/Themed/Admin/Elements/list.ctp:44
+#: View/Themed/Admin/Events/admin_index.ctp:68
+#: View/Themed/Admin/Staffs/admin_index.ctp:70
+msgid "översättningar"
+msgstr ""
+
+#: View/Themed/Admin/Elements/list.ctp:83
+#: View/Themed/Admin/Events/admin_index.ctp:100
+#: View/Themed/Admin/Staffs/admin_index.ctp:105
+#: View/Themed/Design/Deposits/index.ctp:19
+#: View/Themed/Design/Deposits/preview.ctp:22
+#: View/Themed/Design/ReservationTickets/search.ctp:43;46
+#: View/Themed/Design/ReservationTickets/view.ctp:46;49
+#: View/Themed/Design/Tickets/view.ctp:52;55
+msgid "%s %s"
+msgstr ""
+
+#: View/Themed/Admin/Elements/list.ctp:136
+#: View/Themed/Admin/Events/admin_index.ctp:149
+#: View/Themed/Admin/Staffs/admin_index.ctp:201
+msgid "Är d säker?"
+msgstr ""
+
+#: View/Themed/Admin/Elements/list.ctp:164
+#: View/Themed/Admin/Events/admin_index.ctp:177
+#: View/Themed/Admin/Staffs/admin_index.ctp:229
+msgid "Översätt"
+msgstr ""
+
+#: View/Themed/Admin/Elements/list.ctp:187
+#: View/Themed/Admin/Events/admin_index.ctp:200
+msgid "Total: %s %s"
+msgstr ""
+
+#: View/Themed/Admin/Elements/list.ctp:206
+#: View/Themed/Admin/Events/admin_index.ctp:219
+#: View/Themed/Admin/Staffs/admin_index.ctp:271
+msgid "No records found"
+msgstr ""
+
+#: View/Themed/Admin/Elements/paginator.ctp:4
+#: View/Themed/Design/Elements/paginator.ctp:5
+msgid "Page {:page} of {:pages}, showing {:current} records out of {:count} total, starting on record {:start}, ending on {:end}"
+msgstr ""
+
+#: View/Themed/Admin/Elements/paginator.ctp:11
+#: View/Themed/Design/Elements/paginator.ctp:14
+#: Plugin/Acl/View/Aros/admin_user_permissions.ctp:62
+#: Plugin/Acl/View/Aros/admin_users.ctp:64
+msgid "previous"
+msgstr ""
+
+#: View/Themed/Admin/Elements/paginator.ctp:17
+#: View/Themed/Design/Elements/paginator.ctp:20
+#: Plugin/Acl/View/Aros/admin_user_permissions.ctp:66
+#: Plugin/Acl/View/Aros/admin_users.ctp:68
+msgid "nästa"
+msgstr ""
+
+#: View/Themed/Admin/Elements/search.ctp:22
+msgid "Sök"
+msgstr ""
+
+#: View/Themed/Admin/Elements/sidebar.ctp:15
+msgid "Content management"
+msgstr ""
+
+#: View/Themed/Admin/Elements/sidebar.ctp:29
+msgid "Menus management"
+msgstr ""
+
+#: View/Themed/Admin/Elements/sidebar.ctp:57
+msgid "Staff"
+msgstr ""
+
+#: View/Themed/Admin/Elements/sidebar.ctp:64
+msgid "Create user"
+msgstr ""
+
+#: View/Themed/Admin/Elements/sidebar.ctp:71
+msgid "Create staff"
+msgstr ""
+
+#: View/Themed/Admin/Elements/sidebar.ctp:80;85
+msgid "Live Events"
+msgstr ""
+
+#: View/Themed/Admin/Elements/sidebar.ctp:94
+msgid "Prematch Events"
+msgstr ""
+
+#: View/Themed/Admin/Elements/sidebar.ctp:106
+msgid "Prematch events"
+msgstr ""
+
+#: View/Themed/Admin/Elements/sidebar.ctp:113
+msgid "Sports and Leagues"
+msgstr ""
+
+#: View/Themed/Admin/Elements/sidebar.ctp:120
+msgid "Events Printing"
+msgstr ""
+
+#: View/Themed/Admin/Elements/sidebar.ctp:146
+#: View/Themed/Design/ReservationTickets/index.ctp:3
+msgid "Reservation Tickets"
+msgstr ""
+
+#: View/Themed/Admin/Elements/sidebar.ctp:155
+msgid "Finance"
+msgstr ""
+
+#: View/Themed/Admin/Elements/sidebar.ctp:166
+msgid "Withdrawals"
+msgstr ""
+
+#: View/Themed/Admin/Elements/sidebar.ctp:179
+msgid "Deposit settings"
+msgstr ""
+
+#: View/Themed/Admin/Elements/sidebar.ctp:185
+msgid "Withdraw settings"
+msgstr ""
+
+#: View/Themed/Admin/Elements/sidebar.ctp:198
+msgid "General settings"
+msgstr ""
+
+#: View/Themed/Admin/Elements/sidebar.ctp:205
+msgid "Ticket settings"
+msgstr ""
+
+#: View/Themed/Admin/Elements/sidebar.ctp:235
+msgid "Risk management"
+msgstr ""
+
+#: View/Themed/Admin/Elements/sidebar.ctp:246
+msgid "Limits for Sports"
+msgstr ""
+
+#: View/Themed/Admin/Elements/sidebar.ctp:253
+msgid "Limits for Leagues"
+msgstr ""
+
+#: View/Themed/Admin/Elements/sidebar.ctp:262
+msgid "Marketing"
+msgstr ""
+
+#: View/Themed/Admin/Elements/sidebar.ctp:266
+msgid "Create bonus code"
+msgstr ""
+
+#: View/Themed/Admin/Elements/sidebar.ctp:308
+msgid "Users report"
+msgstr ""
+
+#: View/Themed/Admin/Elements/sidebar.ctp:322
+msgid "Deposits report"
+msgstr ""
+
+#: View/Themed/Admin/Elements/sidebar.ctp:343
+msgid "Sportsbook report"
+msgstr ""
+
+#: View/Themed/Admin/Elements/translate.ctp:7
+msgid "locale"
+msgstr ""
+
+#: View/Themed/Admin/Elements/translate.ctp:8
+msgid "Translate %s"
+msgstr ""
+
+#: View/Themed/Admin/Elements/user_menu.ctp:21
+#: View/Themed/Admin/ReservationTickets/admin_view.ctp:79
+#: View/Themed/Admin/Tickets/admin_view.ctp:79
+msgid "Spel ID"
+msgstr ""
+
+#: View/Themed/Admin/Elements/user_menu.ctp:45
+msgid "Användare:"
+msgstr ""
+
+#: View/Themed/Admin/Elements/user_menu.ctp:49
+msgid "Level:"
+msgstr ""
+
+#: View/Themed/Admin/Elements/user_menu.ctp:53
+msgid "Nuvarande tid:"
+msgstr ""
+
+#: View/Themed/Admin/Elements/user_menu.ctp:57
+msgid "Nuvarande språk:"
+msgstr ""
+
+#: View/Themed/Admin/Elements/user_menu.ctp:62
+msgid "Front Page"
+msgstr ""
+
+#: View/Themed/Admin/Elements/Events/OddService/under-over/head.ctp:5
+#: View/Themed/Admin/Elements/Events/nordicbet/under-over-match/head.ctp:7
+#: View/Themed/Admin/Elements/Events/nordicbet/under-over-team/head.ctp:5
+msgid "Under / Over"
+msgstr ""
+
+#: View/Themed/Admin/Elements/Events/nordicbet/double-chance/head.ctp:5
+msgid "Double chance"
+msgstr ""
+
+#: View/Themed/Admin/Events/admin_print.ctp:6
+msgid "%s Printing"
+msgstr ""
+
+#: View/Themed/Admin/Events/admin_print.ctp:42
+msgid "Please select sport below:"
+msgstr ""
+
+#: View/Themed/Admin/Events/admin_print.ctp:49
+msgid "View Events"
+msgstr ""
+
+#: View/Themed/Admin/Events/admin_view.ctp:29
+msgid "Add betting types to event"
+msgstr ""
+
+#: View/Themed/Admin/Events/admin_view.ctp:35
+#: View/Themed/Admin/Live/admin_index.ctp:48
+msgid "ID: %d Betting type: %s"
+msgstr ""
+
+#: View/Themed/Admin/Events/admin_view.ctp:43
+msgid "Staked"
+msgstr ""
+
+#: View/Themed/Admin/Events/admin_view.ctp:70
+msgid "Can not find event"
+msgstr ""
+
+#: View/Themed/Admin/Groups/admin_edit.ctp:55
+#: View/Themed/Admin/Risks/admin_index.ctp:72
+#: View/Themed/Admin/Risks/admin_leagues.ctp:63
+#: View/Themed/Admin/Risks/admin_sports.ctp:61
+#: View/Themed/Admin/Settings/admin_deposit.ctp:52
+#: View/Themed/Admin/Settings/admin_deposits.ctp:66
+#: View/Themed/Admin/Settings/admin_deposits_risks.ctp:80
+#: View/Themed/Admin/Settings/admin_index.ctp:148
+#: View/Themed/Admin/Settings/admin_promo.ctp:128
+#: View/Themed/Admin/Settings/admin_referral.ctp:52
+#: View/Themed/Admin/Settings/admin_seo.ctp:82
+#: View/Themed/Admin/Settings/admin_tickets.ctp:62
+#: View/Themed/Admin/Settings/admin_warnings.ctp:72
+#: View/Themed/Admin/Settings/admin_withdraws.ctp:52
+#: View/Themed/Admin/Settings/admin_withdraws_risks.ctp:59
+msgid "Spara"
+msgstr ""
+
+#: View/Themed/Admin/Layouts/admin_login.ctp:56
+msgid "Staff Login"
+msgstr ""
+
+#: View/Themed/Admin/Leagues/admin_view.ctp:26
+msgid "Events"
+msgstr ""
+
+#: View/Themed/Admin/Live/admin_index.ctp:31
+msgid "Suspend event"
+msgstr ""
+
+#: View/Themed/Admin/Live/admin_index.ctp:35
+msgid "Sport name: %s"
+msgstr ""
+
+#: View/Themed/Admin/Live/admin_index.ctp:36
+msgid "Current time: %s min"
+msgstr ""
+
+#: View/Themed/Admin/Live/admin_index.ctp:40
+msgid "League name: %s"
+msgstr ""
+
+#: View/Themed/Admin/Live/admin_index.ctp:41
+msgid "Current score: %s"
+msgstr ""
+
+#: View/Themed/Admin/Live/admin_index.ctp:44
+msgid "Event name: %s"
+msgstr ""
+
+#: View/Themed/Admin/Live/admin_index.ctp:55
+msgid "Suspend Odd"
+msgstr ""
+
+#: View/Themed/Admin/Locales/admin_index.ctp:2
+msgid "Available cultures"
+msgstr ""
+
+#: View/Themed/Admin/Locales/admin_index.ctp:4
+msgid "Add a culture"
+msgstr ""
+
+#: View/Themed/Admin/Locales/admin_index.ctp:7
+msgid "Add"
+msgstr ""
+
+#: View/Themed/Admin/Locales/admin_index.ctp:11
+msgid "Cultures this site supports"
+msgstr ""
+
+#: View/Themed/Admin/Locales/admin_index.ctp:17
+msgid "X"
+msgstr ""
+
+#: View/Themed/Admin/Locales/admin_index.ctp:17
+msgid "Are you sure you want to delete "
+msgstr ""
+
+#: View/Themed/Admin/Mails/admin_all.ctp:26
+msgid "Write promotion letter to all user. Messages will arrive to users email addresses."
+msgstr ""
+
+#: View/Themed/Admin/Mails/admin_all.ctp:31
+#: View/Themed/Admin/Mails/admin_index.ctp:32
+msgid "Subject:"
+msgstr ""
+
+#: View/Themed/Admin/Mails/admin_all.ctp:32
+#: View/Themed/Admin/Mails/admin_index.ctp:33
+msgid "Content:"
+msgstr ""
+
+#: View/Themed/Admin/Mails/admin_all.ctp:34
+#: View/Themed/Admin/Mails/admin_index.ctp:37
+#: View/Themed/Admin/Mails/contact.ctp:29
+msgid "Send"
+msgstr ""
+
+#: View/Themed/Admin/Mails/admin_index.ctp:26
+msgid "Write promotion letter to certain user. Message will arrive to user email address."
+msgstr ""
+
+#: View/Themed/Admin/Mails/admin_index.ctp:31
+msgid "To:"
+msgstr ""
+
+#: View/Themed/Admin/Mails/contact.ctp:2
+msgid "Contact support team"
+msgstr ""
+
+#: View/Themed/Admin/Mails/contact.ctp:24
+msgid "Message"
+msgstr ""
+
+#: View/Themed/Admin/Reports/admin_report.ctp:53
+msgid "Download"
+msgstr ""
+
+#: View/Themed/Admin/Reports/admin_report.ctp:57
+msgid "No data in this period"
+msgstr ""
+
+#: View/Themed/Admin/ReservationTickets/admin_print.ctp:3
+#: View/Themed/Admin/Tickets/admin_printTicket.ctp:3
+#: View/Themed/Admin/Tickets/printing.ctp:3
+#: View/Themed/Design/ReservationTickets/print_ticket.ctp:3
+#: View/Themed/Design/Tickets/print_ticket.ctp:3
+#: View/Themed/Design/Tickets/review.ctp:20
+msgid "Spel"
+msgstr ""
+
+#: View/Themed/Admin/ReservationTickets/admin_print.ctp:7
+#: View/Themed/Admin/Tickets/admin_printTicket.ctp:7
+#: View/Themed/Admin/Tickets/printing.ctp:7
+#: View/Themed/Design/ReservationTickets/print_ticket.ctp:7
+#: View/Themed/Design/Tickets/preview.ctp:9
+#: View/Themed/Design/Tickets/print_ticket.ctp:7
+#: View/Themed/Design/Tickets/review.ctp:11
+msgid "Datum & tid"
+msgstr ""
+
+#: View/Themed/Admin/ReservationTickets/admin_print.ctp:11
+#: View/Themed/Design/ReservationTickets/index.ctp:9
+#: View/Themed/Design/ReservationTickets/print_ticket.ctp:11
+msgid "Reservation spel ID"
+msgstr ""
+
+#: View/Themed/Admin/ReservationTickets/admin_print.ctp:18
+#: View/Themed/Design/ReservationTickets/print_ticket.ctp:18
+#: View/Themed/Design/Tickets/print_ticket.ctp:29
+msgid "ID / Datum"
+msgstr ""
+
+#: View/Themed/Admin/ReservationTickets/admin_print.ctp:19
+#: View/Themed/Admin/ReservationTickets/admin_view.ctp:81
+#: View/Themed/Admin/Tickets/admin_printTicket.ctp:19
+#: View/Themed/Admin/Tickets/admin_view.ctp:81
+#: View/Themed/Admin/Tickets/printing.ctp:19
+#: View/Themed/Design/ReservationTickets/print_ticket.ctp:19
+#: View/Themed/Design/ReservationTickets/search.ctp:14
+#: View/Themed/Design/ReservationTickets/view.ctp:9
+#: View/Themed/Design/Tickets/preview.ctp:20
+#: View/Themed/Design/Tickets/print_ticket.ctp:30
+#: View/Themed/Design/Tickets/review.ctp:25
+#: View/Themed/Design/Tickets/view.ctp:9
+msgid "Event"
+msgstr ""
+
+#: View/Themed/Admin/ReservationTickets/admin_print.ctp:26
+#: View/Themed/Admin/Tickets/admin_printTicket.ctp:26
+#: View/Themed/Admin/Tickets/printing.ctp:26
+#: View/Themed/Design/ReservationTickets/print_ticket.ctp:26
+#: View/Themed/Design/Tickets/print_ticket.ctp:37
+#: View/Themed/Design/Tickets/review.ctp:32
+msgid "ID:"
+msgstr ""
+
+#: View/Themed/Admin/ReservationTickets/admin_print.ctp:47
+#: View/Themed/Design/ReservationTickets/print_ticket.ctp:47
+#: View/Themed/Design/ReservationTickets/search.ctp:42
+#: View/Themed/Design/ReservationTickets/view.ctp:45
+#: View/Themed/Design/Tickets/print_ticket.ctp:58
+#: View/Themed/Design/Tickets/review.ctp:53
+#: View/Themed/Design/Tickets/view.ctp:51
+msgid "Totalt"
+msgstr ""
+
+#: View/Themed/Admin/ReservationTickets/admin_print.ctp:52
+#: View/Themed/Design/ReservationTickets/print_ticket.ctp:52
+#: View/Themed/Design/Tickets/print_ticket.ctp:63
+msgid "Service fee ( %s %s ): %s %s"
+msgstr ""
+
+#: View/Themed/Admin/ReservationTickets/admin_print.ctp:57
+#: View/Themed/Design/ReservationTickets/print_ticket.ctp:57
+#: View/Themed/Design/Tickets/print_ticket.ctp:68
+msgid "Totalt belopp"
+msgstr ""
+
+#: View/Themed/Admin/ReservationTickets/admin_print.ctp:61
+#: View/Themed/Admin/Tickets/admin_printTicket.ctp:49
+#: View/Themed/Admin/Tickets/printing.ctp:49
+#: View/Themed/Design/ReservationTickets/print_ticket.ctp:61
+#: View/Themed/Design/Tickets/preview.ctp:52
+#: View/Themed/Design/Tickets/print_ticket.ctp:72
+#: View/Themed/Design/Tickets/review.ctp:55
+msgid "Vinst:"
+msgstr ""
+
+#: View/Themed/Admin/ReservationTickets/admin_view.ctp:6
+#: View/Themed/Admin/Staffs/admin_view.ctp:6
+#: View/Themed/Admin/Tickets/admin_view.ctp:6
+msgid "Visa %s"
+msgstr ""
+
+#: View/Themed/Admin/ReservationTickets/admin_view.ctp:32
+#: View/Themed/Admin/Tickets/admin_view.ctp:32
+msgid "Spel ID"
+msgstr ""
+
+#: View/Themed/Admin/ReservationTickets/admin_view.ctp:38
+#: View/Themed/Admin/Tickets/admin_view.ctp:38
+#: View/Themed/Design/ReservationTickets/index.ctp:13
+#: View/Themed/Design/Tickets/history.ctp:13
+#: View/Themed/Design/Tickets/index.ctp:13
+msgid "Service Fee"
+msgstr ""
+
+#: View/Themed/Admin/ReservationTickets/admin_view.ctp:58;67
+#: View/Themed/Admin/Tickets/admin_view.ctp:58;67
+msgid "Ticket will be cancelled. Are you sure you want to cancel?"
+msgstr ""
+
+#: View/Themed/Admin/ReservationTickets/admin_view.ctp:61
+#: View/Themed/Admin/Tickets/admin_view.ctp:61
+msgid "No actions are available"
+msgstr ""
+
+#: View/Themed/Admin/ReservationTickets/admin_view.ctp:65
+#: View/Themed/Admin/Tickets/admin_view.ctp:65
+msgid "Ticket will be deleted. Are you sure you want to delete?"
+msgstr ""
+
+#: View/Themed/Admin/ReservationTickets/admin_view.ctp:76
+#: View/Themed/Admin/Tickets/admin_view.ctp:76
+msgid "Spel översikt"
+msgstr ""
+
+#: View/Themed/Admin/ReservationTickets/admin_view.ctp:104
+#: View/Themed/Admin/Tickets/admin_view.ctp:104
+msgid "Insert Result"
+msgstr ""
+
+#: View/Themed/Admin/ReservationTickets/admin_view.ctp:113
+#: View/Themed/Admin/Tickets/admin_view.ctp:113
+msgid "View event"
+msgstr ""
+
+#: View/Themed/Admin/ReservationTickets/admin_view.ctp:114
+#: View/Themed/Admin/Tickets/admin_view.ctp:114
+msgid "Enter result"
+msgstr ""
+
+#: View/Themed/Admin/ReservationTickets/admin_view.ctp:115
+#: View/Themed/Admin/Tickets/admin_view.ctp:115
+msgid "Cancel event"
+msgstr ""
+
+#: View/Themed/Admin/ReservationTickets/admin_view.ctp:115
+#: View/Themed/Admin/Tickets/admin_view.ctp:115
+msgid "Event will be cancelled. Are you sure you want to cancel?"
+msgstr ""
+
+#: View/Themed/Admin/Results/admin_all_events.ctp:62
+#: View/Themed/Admin/Results/admin_league.ctp:62
+msgid "Are you sure you want to cancel this event?"
+msgstr ""
+
+#: View/Themed/Admin/Results/admin_all_events.ctp:72
+#: View/Themed/Admin/Results/admin_all_leagues.ctp:58
+#: View/Themed/Admin/Results/admin_all_sports.ctp:59
+msgid "No events found"
+msgstr ""
+
+#: View/Themed/Admin/Results/admin_league.ctp:72
+msgid "No events in this league"
+msgstr ""
+
+#: View/Themed/Admin/Risks/admin_index.ctp:6
+#: View/Themed/Admin/Risks/admin_index/agent_admin_index.ctp:6
+#: View/Themed/Admin/Risks/admin_index/branch_admin_index.ctp:6
+msgid "Risk Management Settings"
+msgstr ""
+
+#: View/Themed/Admin/Risks/admin_index.ctp:29
+msgid "Setup risk management to settings to secure your sportbook profit and reduce risks."
+msgstr ""
+
+#: View/Themed/Admin/Risks/admin_index.ctp:47
+msgid "Lock betting till event starts"
+msgstr ""
+
+#: View/Themed/Admin/Risks/admin_index.ctp:48
+msgid "Lock betting for certain minutes till event start date. 0 stands for no lock."
+msgstr ""
+
+#: View/Themed/Admin/Risks/admin_index.ctp:51
+#: View/Themed/Admin/Risks/admin_leagues.ctp:44
+#: View/Themed/Admin/Risks/admin_sports.ctp:46
+#: View/Themed/Admin/Risks/admin_index/agent_admin_index.ctp:31
+#: View/Themed/Admin/Risks/admin_index/branch_admin_index.ctp:43
+msgid "Lowest stake"
+msgstr ""
+
+#: View/Themed/Admin/Risks/admin_index.ctp:52
+#: View/Themed/Admin/Risks/admin_index/agent_admin_index.ctp:32
+#: View/Themed/Admin/Risks/admin_index/branch_admin_index.ctp:32;36;44
+msgid "Lowest amount of money that user must have to place a ticket."
+msgstr ""
+
+#: View/Themed/Admin/Risks/admin_index.ctp:55
+#: View/Themed/Admin/Risks/admin_leagues.ctp:45
+#: View/Themed/Admin/Risks/admin_sports.ctp:47
+#: View/Themed/Admin/Risks/admin_index/agent_admin_index.ctp:35
+#: View/Themed/Admin/Risks/admin_index/branch_admin_index.ctp:39
+msgid "Highest stake"
+msgstr ""
+
+#: View/Themed/Admin/Risks/admin_index.ctp:56
+#: View/Themed/Admin/Risks/admin_index/agent_admin_index.ctp:36
+#: View/Themed/Admin/Risks/admin_index/branch_admin_index.ctp:40
+msgid "Highest amount of money that user can use place a ticket."
+msgstr ""
+
+#: View/Themed/Admin/Risks/admin_index.ctp:59
+#: View/Themed/Admin/Risks/admin_index/agent_admin_index.ctp:39
+#: View/Themed/Admin/Risks/admin_index/branch_admin_index.ctp:47
+msgid "Highest winning amount"
+msgstr ""
+
+#: View/Themed/Admin/Risks/admin_index.ctp:60
+#: View/Themed/Admin/Risks/admin_index/agent_admin_index.ctp:40
+#: View/Themed/Admin/Risks/admin_index/branch_admin_index.ctp:48
+msgid "Highest amount of money that can be won in one ticket."
+msgstr ""
+
+#: View/Themed/Admin/Risks/admin_index.ctp:63
+msgid "Lowest number of events in one ticket"
+msgstr ""
+
+#: View/Themed/Admin/Risks/admin_index.ctp:64
+msgid "Lowest number of events that can be enetered into a ticket."
+msgstr ""
+
+#: View/Themed/Admin/Risks/admin_index.ctp:67
+msgid "Highest number of events in one ticket"
+msgstr ""
+
+#: View/Themed/Admin/Risks/admin_index.ctp:68
+msgid "Highest number of events that can be entered a ticket."
+msgstr ""
+
+#: View/Themed/Admin/Risks/admin_leagues.ctp:6
+msgid "List Leagues"
+msgstr ""
+
+#: View/Themed/Admin/Risks/admin_leagues.ctp:41
+msgid "League ID"
+msgstr ""
+
+#: View/Themed/Admin/Risks/admin_leagues.ctp:43
+msgid "League"
+msgstr ""
+
+#: View/Themed/Admin/Risks/admin_leagues.ctp:53;54
+#: View/Themed/Admin/Risks/admin_sports.ctp:53;54
+msgid "No limits"
+msgstr ""
+
+#: View/Themed/Admin/Risks/admin_sports.ctp:6
+msgid "List Sports"
+msgstr ""
+
+#: View/Themed/Admin/Risks/admin_sports.ctp:44
+msgid "Sport ID"
+msgstr ""
+
+#: View/Themed/Admin/Risks/admin_warnings.ctp:6
+msgid "List Warnings"
+msgstr ""
+
+#: View/Themed/Admin/Risks/admin_warnings.ctp:25
+msgid "No warnings are available at this moment."
+msgstr ""
+
+#: View/Themed/Admin/Risks/admin_warnings.ctp:28
+msgid "Odds Alert"
+msgstr ""
+
+#: View/Themed/Admin/Risks/admin_warnings.ctp:36;67;98
+#: View/Themed/Design/ReservationTickets/index.ctp:14
+#: View/Themed/Design/Tickets/history.ctp:14
+#: View/Themed/Design/Tickets/index.ctp:14
+msgid "Winning"
+msgstr ""
+
+#: View/Themed/Admin/Risks/admin_warnings.ctp:59
+msgid "Warning Stakes"
+msgstr ""
+
+#: View/Themed/Admin/Risks/admin_warnings.ctp:90
+msgid "Warning Winnings"
+msgstr ""
+
+#: View/Themed/Admin/Risks/admin_warnings.ctp:121
+msgid "Warning Deposits"
+msgstr ""
+
+#: View/Themed/Admin/Risks/admin_warnings.ctp:148
+msgid "Warning Withdraws"
+msgstr ""
+
+#: View/Themed/Admin/Risks/admin_warnings.ctp:154
+msgid "belopp"
+msgstr ""
+
+#: View/Themed/Admin/Risks/admin_index/branch_admin_index.ctp:31
+msgid "Highest number of agents can be created under the branch"
+msgstr ""
+
+#: View/Themed/Admin/Risks/admin_index/branch_admin_index.ctp:35
+msgid "Highest number of users can be created under the agent"
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_deposit.ctp:47
+msgid "Deposit fee percentage"
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_deposits.ctp:6
+msgid "Payment gateways"
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_deposits.ctp:39
+msgid "Please set payment gateways below:"
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_deposits.ctp:47
+msgid "Payments"
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_deposits_risks.ctp:6
+msgid "Deposits %s"
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_deposits_risks.ctp:36
+msgid "Setup deposit settings to secure your sportbook profit and reduce risks."
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_deposits_risks.ctp:47
+msgid "Allow automated deposits"
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_deposits_risks.ctp:51
+msgid "Allow manual deposits"
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_deposits_risks.ctp:55
+msgid "Allow bitcoin deposits"
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_deposits_risks.ctp:59
+msgid "Allow NovinPal deposits"
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_deposits_risks.ctp:63
+msgid "Allow Paypal deposits"
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_deposits_risks.ctp:67
+msgid "Allow Skrill deposits"
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_deposits_risks.ctp:71
+msgid "Lowest amount for deposit"
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_deposits_risks.ctp:75
+msgid "Highest amount for deposit"
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_index.ctp:6
+msgid "General %s"
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_index.ctp:37
+msgid "General settings controls some of the most basic configuration settings for your site: your site's title and location, who may register an account at your site, and how dates and times are calculated and displayed."
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_index.ctp:48
+msgid "Sajtens namn"
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_index.ctp:49
+msgid "Enter the name of your sportsbook here. Most themes will display this title, at the top of every page, and in the reader's browser titlebar."
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_index.ctp:52
+msgid "Copyright"
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_index.ctp:53
+msgid "Owner rights for product use."
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_index.ctp:56
+msgid "Contact Email"
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_index.ctp:57
+msgid "All information through contact form will come to this email address."
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_index.ctp:60
+msgid "Skapa konto"
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_index.ctp:61
+msgid "Aktivera (JA) eller neka (Nej) registreringar på sajten."
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_index.ctp:64
+#: View/Themed/Admin/Users/login.ctp:2;15
+#: View/Themed/Design/Users/login.ctp:3;46
+msgid "Logga in"
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_index.ctp:65
+msgid "Enable (Yes) or disable (No) login function."
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_index.ctp:68
+msgid "Password reset"
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_index.ctp:69
+msgid "Enable (Yes) or disable (No) password reset for users."
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_index.ctp:72
+msgid "Default currency"
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_index.ctp:73
+msgid "Choose main currency on website. In order to add new please go to Settings -> Currencies."
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_index.ctp:76
+msgid "Default timezone:"
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_index.ctp:77
+msgid "Select time zone for whole website."
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_index.ctp:80
+msgid "Default language"
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_index.ctp:81
+msgid "Select website main language. In order to add new language please contact Softbroke support team."
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_index.ctp:84
+msgid "Charset"
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_index.ctp:85
+msgid "Charsets are identifiers used to describe a series of universal characters used in web and internet protocols such as HTML and Microsoft Windows. Default one is \"utf-8\"."
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_index.ctp:88
+msgid "Items per page"
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_index.ctp:89
+msgid "Number of maximum rows which will be displayed in one page (only in administration panel)"
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_index.ctp:96
+msgid "Percent of commissions from profit for agent"
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_index.ctp:97
+msgid "Commissions in %"
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_index.ctp:101
+msgid "Service fee in % from stake"
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_index.ctp:104
+msgid "Weekly balance reset"
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_index.ctp:105
+msgid "Enable weekly balance reset."
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_index.ctp:109;110
+msgid "Weekly balance reset balance"
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_index.ctp:113
+msgid "Weekly balance reset time / day"
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_index.ctp:116
+msgid "The balance reset on set week day at midnight (server time UTC)"
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_index.ctp:119
+msgid "Balance format: number of decimal places"
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_index.ctp:120
+msgid "Number n. For example when n=2 amounts will be displayed in: 1.00. When n=0: 1;"
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_index.ctp:123
+msgid "Reservation ticket"
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_index.ctp:124
+msgid "Enable (Yes) or disable (No) reservation ticket on website."
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_index.ctp:127
+msgid "User upload documentation email"
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_index.ctp:128
+msgid "User docs upload email used user panel on website."
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_index.ctp:131
+msgid "Allow user upload documentation"
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_index.ctp:132
+msgid "Enable (Yes) or disable (No) user docs upload in user panel on website."
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_index.ctp:135
+msgid "Import data feed live"
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_index.ctp:136
+msgid "Enable (Yes) or disable (No) to import live data from feed."
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_index.ctp:139
+msgid "Import data feed prematch"
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_index.ctp:140
+msgid "Enable (Yes) or disable (No) to import prematch data from feed."
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_index.ctp:143
+msgid "Feed update odds"
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_index.ctp:144
+msgid "Enable (Yes) or disable (No) to update odds from feed."
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_promo.ctp:38
+msgid "Left promotion sidebar"
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_promo.ctp:45
+msgid "Left active"
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_promo.ctp:52
+msgid "Show (Yes) or hide (No) left promotion sidebar in front end."
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_promo.ctp:59
+msgid "Left sidebar title"
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_promo.ctp:60
+msgid "Enter left sidebar title."
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_promo.ctp:63
+msgid "Left sidebar content"
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_promo.ctp:70
+msgid "Right promotion sidebar"
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_promo.ctp:77
+msgid "Right active"
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_promo.ctp:84
+msgid "Show (Yes) or hide (No) right promotion sidebar in front end."
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_promo.ctp:90
+msgid "Right sidebar title"
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_promo.ctp:91
+msgid "Enter right sidebar title."
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_promo.ctp:94
+msgid "Right sidebar content"
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_promo.ctp:100
+msgid "Bottom promotion sidebar"
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_promo.ctp:107
+msgid "Bottom active"
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_promo.ctp:114
+msgid "Show (Yes) or hide (No) bottom promotion sidebar in front end."
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_promo.ctp:119
+msgid "Bottom sidebar title"
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_promo.ctp:120
+msgid "Enter bottom sidebar title."
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_promo.ctp:123
+msgid "Bottom sidebar content"
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_referral.ctp:7
+msgid "Referral Settings"
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_referral.ctp:39
+msgid "All basic configuration referral system. A referrer is a person who makes money by referring players (called referrals) to your sportsbook."
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_referral.ctp:47
+msgid "First deposit percentage to referral"
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_referral.ctp:48
+msgid "Percent which get referrer from first referral deposit. Insert percent from 1 to 100."
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_seo.ctp:6
+msgid "SEO %s"
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_seo.ctp:36
+msgid "What Is <b>SEO</b> / Search Engine Optimization?"
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_seo.ctp:40
+msgid "SEO stands for \"search engine optimization.\" It is the process of getting traffic from the \"free,\" \"organic,\" \"editorial\" or \"natural\" listings on search engines. All major search engines such as Google, Yahoo and Bing have such results, where web pages and other content such as videos or local listings are shown and ranked based on what the search engine considers most relevant to users. Payment is not involved, as it is with paid search ads."
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_seo.ctp:53
+msgid "Title tag"
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_seo.ctp:54
+msgid "A title tag is the main text that describes an online document. It appears in three key places: browsers, search engine results pages, and external websites."
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_seo.ctp:58
+msgid "Keywords are words or phrases which desribes your website content. Use comma for separation."
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_seo.ctp:62
+msgid "This description would appear in search engines."
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_seo.ctp:65
+msgid "Reply to email"
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_seo.ctp:66
+msgid "Email which would be visible in search engines as part of SEO outputs."
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_seo.ctp:69
+msgid "Copyright:"
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_seo.ctp:70
+msgid "Owner of product which would appear in SEO outputs."
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_seo.ctp:73
+msgid "Bot content revisit time"
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_seo.ctp:74
+msgid "Write how often search engine bot should revisit you for new content."
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_seo.ctp:77
+msgid "Author"
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_seo.ctp:78
+msgid "Name of product creator."
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_tickets.ctp:37
+msgid "Setup tickets settings control frontend functionality."
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_tickets.ctp:47
+msgid "Ticket printing"
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_tickets.ctp:50
+msgid "Enable (Yes) or disable (No) ticket printing for users and staff."
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_tickets.ctp:57
+msgid "Enable (Yes) or disable (No) ticket preview ticket before it is placed."
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_warnings.ctp:6
+msgid "Warnings %s"
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_warnings.ctp:42
+msgid "Warning settings would help you to filter warning screen with unnecessary alerts. Please consider what is crucial for you sportsbook and use this function to secure your profit."
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_warnings.ctp:51
+msgid "Deposit alert"
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_warnings.ctp:52
+msgid "System will alert once user deposited same or higher amount of money his/her account."
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_warnings.ctp:55
+msgid "Withdraw alert"
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_warnings.ctp:56
+msgid "System will alert once user ask for withdraw same or higher amount of money from his/her account."
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_warnings.ctp:59
+msgid "Stake alert"
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_warnings.ctp:60
+msgid "System will alert once user stake a ticket would be with same or higher amount of money."
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_warnings.ctp:63
+msgid "Odds alert"
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_warnings.ctp:64
+msgid "System will alert once odd will reach or would be higher then set in warning settings"
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_warnings.ctp:67
+msgid "Won amount alert"
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_warnings.ctp:68
+msgid "System will alert staff once user will won ticket with same or higher amount."
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_withdraws.ctp:47
+#: View/Themed/Admin/Settings/admin_withdraws_risks.ctp:54
+msgid "Allow withdraws"
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_withdraws_risks.ctp:6
+msgid "Withdraw %s"
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_withdraws_risks.ctp:36
+msgid "Setup withdraw settings to secure your sportbook profit and reduce risks."
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_withdraws_risks.ctp:46
+msgid "Lowest amount for withdraw request"
+msgstr ""
+
+#: View/Themed/Admin/Settings/admin_withdraws_risks.ctp:50
+msgid "Highest amount for withdraw request"
+msgstr ""
+
+#: View/Themed/Admin/Sports/admin_view.ctp:6
+#: View/Themed/Design/Elements/layout-blocks/header-block/header-menu.ctp:7
+msgid "Sports"
+msgstr ""
+
+#: View/Themed/Admin/Sports/admin_view.ctp:6;27
+msgid "Leagues"
+msgstr ""
+
+#: View/Themed/Admin/Sports/admin_view.ctp:61
+msgid "Create event"
+msgstr ""
+
+#: View/Themed/Admin/Staffs/admin_index.ctp:127
+msgid "Cashiers"
+msgstr ""
+
+#: View/Themed/Admin/Staffs/admin_index.ctp:130
+msgid "Branches"
+msgstr ""
+
+#: View/Themed/Admin/Staffs/admin_index.ctp:133
+msgid "Administrators"
+msgstr ""
+
+#: View/Themed/Admin/Staffs/admin_index.ctp:136
+msgid "Agents"
+msgstr ""
+
+#: View/Themed/Admin/Staffs/admin_index.ctp:139
+msgid "Guests"
+msgstr ""
+
+#: View/Themed/Admin/Staffs/admin_index.ctp:142
+msgid "Operators"
+msgstr ""
+
+#: View/Themed/Admin/Staffs/admin_index.ctp:252
+msgid "Total: %.2f %s"
+msgstr ""
+
+#: View/Themed/Admin/Tickets/admin_printTicket.ctp:11
+#: View/Themed/Admin/Tickets/printing.ctp:11
+#: View/Themed/Design/Tickets/review.ctp:12
+msgid "Ticket id"
+msgstr ""
+
+#: View/Themed/Admin/Tickets/admin_printTicket.ctp:18
+#: View/Themed/Admin/Tickets/printing.ctp:18
+#: View/Themed/Design/Tickets/preview.ctp:19
+#: View/Themed/Design/Tickets/review.ctp:24
+msgid "Event ID / Date"
+msgstr ""
+
+#: View/Themed/Admin/Tickets/admin_printTicket.ctp:40
+#: View/Themed/Admin/Tickets/printing.ctp:40
+#: View/Themed/Design/Tickets/preview.ctp:50
+msgid "Total:"
+msgstr ""
+
+#: View/Themed/Admin/Tickets/admin_printTicket.ctp:44
+#: View/Themed/Admin/Tickets/printing.ctp:44
+#: View/Themed/Design/Tickets/preview.ctp:51
+msgid "Belopp:"
+msgstr ""
+
+#: View/Themed/Admin/Users/admin_index_new.ctp:24
+msgid "Aktiva användare"
+msgstr ""
+
+#: View/Themed/Admin/Users/admin_index_new.ctp:35
+msgid "Registreringar"
+msgstr ""
+
+#: View/Themed/Admin/Users/admin_settings.ctp:23
+msgid "Odds typ"
+msgstr ""
+
+#: View/Themed/Admin/Users/admin_settings.ctp:28
+#: View/Themed/Design/Users/settings.ctp:15
+msgid "Tids zon"
+msgstr ""
+
+#: View/Themed/Admin/Users/admin_statistics.ctp:22
+msgid "ANVÄNDARE"
+msgstr ""
+
+#: View/Themed/Admin/Users/admin_statistics.ctp:38
+msgid "BETTING ACTIVITY"
+msgstr ""
+
+#: View/Themed/Admin/Users/admin_statistics.ctp:47
+msgid "Registration date"
+msgstr ""
+
+#: View/Themed/Admin/Users/admin_statistics.ctp:51
+msgid "Total ticket placed"
+msgstr ""
+
+#: View/Themed/Admin/Users/admin_statistics.ctp:55
+msgid "Tickets won"
+msgstr ""
+
+#: View/Themed/Admin/Users/admin_statistics.ctp:59
+msgid "Tickets lost"
+msgstr ""
+
+#: View/Themed/Admin/Users/admin_statistics.ctp:63
+msgid "Tickets pending"
+msgstr ""
+
+#: View/Themed/Admin/Users/admin_statistics.ctp:67
+msgid "Tickets cancelled"
+msgstr ""
+
+#: View/Themed/Admin/Users/admin_statistics.ctp:78
+msgid "FINANCIAL ACTIVITY"
+msgstr ""
+
+#: View/Themed/Admin/Users/admin_statistics.ctp:87
+#: View/Themed/Design/Users/operator_panel.ctp:38
+msgid "Current balance"
+msgstr ""
+
+#: View/Themed/Admin/Users/admin_statistics.ctp:91
+msgid "Senaste insättning"
+msgstr ""
+
+#: View/Themed/Admin/Users/admin_statistics.ctp:99
+msgid "Average deposit"
+msgstr ""
+
+#: View/Themed/Admin/Users/admin_statistics.ctp:103
+msgid "Last withdrawal"
+msgstr ""
+
+#: View/Themed/Admin/Users/admin_statistics.ctp:111
+msgid "Average withdrawal"
+msgstr ""
+
+#: View/Themed/Admin/Users/confirm.ctp:2
+msgid "Confirmation"
+msgstr ""
+
+#: View/Themed/Admin/Users/confirm.ctp:4
+msgid "Epost adressen har verifierats, du kan nu logga in!"
+msgstr ""
+
+#: View/Themed/Admin/Users/confirm.ctp:6
+msgid "Felaktig bekräftelser kod"
+msgstr ""
+
+#: View/Themed/Admin/Users/login.ctp:22
+msgid "Gå med nu!"
+msgstr ""
+
+#: View/Themed/Admin/Users/login.ctp:23
+msgid "Glömt lösenord?"
+msgstr ""
+
+#: View/Themed/Admin/Users/password.ctp:2
+#: View/Themed/Design/Users/reset-password.ctp:36
+msgid "Ändra lösenord"
+msgstr ""
+
+#: View/Themed/Admin/Users/password.ctp:12
+msgid "Gamla lösenordet"
+msgstr ""
+
+#: View/Themed/Admin/Users/password.ctp:14
+msgid "Nytt lösenord"
+msgstr ""
+
+#: View/Themed/Admin/Users/password.ctp:16
+#: View/Themed/Design/Users/register.ctp:30;32
+#: View/Themed/Design/Users/reset-password.ctp:29
+msgid "Bekräfta lösenord"
+msgstr ""
+
+#: View/Themed/Admin/Users/password.ctp:19
+#: View/Themed/Design/Users/settings.ctp:26
+msgid "Ändra lösenord"
+msgstr ""
+
+#: View/Themed/Admin/Withdraws/admin_add.ctp:23
+msgid "Charge user %s"
+msgstr ""
+
+#: View/Themed/Admin/Withdraws/admin_add.ctp:24
+msgid "To charge enter amount and money will be reduced from user account. For example if you want to charge just credit user with 200 "
+msgstr ""
+
+#: View/Themed/Admin/Withdraws/admin_add.ctp:24
+msgid " USD just enter that amount into field and press submit"
+msgstr ""
+
+#: View/Themed/Admin/Withdraws/admin_complete.ctp:23
+msgid "Complete withdrawal"
+msgstr ""
+
+#: View/Themed/Admin/Withdraws/admin_complete.ctp:24
+msgid "To complete withdraw enter a message. Message will be shown in user panel. "
+msgstr ""
+
+#: View/Themed/Admin/Withdraws/settings.ctp:2
+msgid "Bank info"
+msgstr ""
+
+#: View/Themed/Admin/Withdraws/settings.ctp:3
+msgid "Please provide your bank info"
+msgstr ""
+
+#: View/Themed/Admin/Withdraws/settings.ctp:24
+msgid "Bank name"
+msgstr ""
+
+#: View/Themed/Admin/Withdraws/settings.ctp:29
+msgid "Account number"
+msgstr ""
+
+#: View/Themed/Admin/Withdraws/settings.ctp:36
+#: View/Themed/Design/Users/account.ctp:79
+msgid "Confirm changes"
+msgstr ""
+
+#: View/Themed/Design/Deposits/index.ctp:39
+msgid "Bitcoin Payment"
+msgstr ""
+
+#: View/Themed/Design/Deposits/index.ctp:46
+msgid "Luna Wallet Payment"
+msgstr ""
+
+#: View/Themed/Design/Deposits/index.ctp:52
+msgid "Cash"
+msgstr ""
+
+#: View/Themed/Design/Deposits/index.ctp:58
+msgid "Dargah Bank درگاه بانکی‌"
+msgstr ""
+
+#: View/Themed/Design/Deposits/index.ctp:64
+msgid "PayPal Payment"
+msgstr ""
+
+#: View/Themed/Design/Deposits/index.ctp:70
+msgid "Skrill Payment"
+msgstr ""
+
+#: View/Themed/Design/Deposits/index.ctp:76
+msgid "Coin Payments"
+msgstr ""
+
+#: View/Themed/Design/Deposits/index.ctp:82
+msgid "WeCashUp"
+msgstr ""
+
+#: View/Themed/Design/Deposits/index.ctp:97
+msgid "Bonus code"
+msgstr ""
+
+#: View/Themed/Design/Deposits/preview.ctp:4
+msgid "Deposit information:"
+msgstr ""
+
+#: View/Themed/Design/Deposits/preview.ctp:7
+msgid "Please preview deposit information before confirming."
+msgstr ""
+
+#: View/Themed/Design/Deposits/preview.ctp:16
+msgid "Deposit type"
+msgstr ""
+
+#: View/Themed/Design/Deposits/preview.ctp:29
+msgid "Phone number"
+msgstr ""
+
+#: View/Themed/Design/Deposits/preview.ctp:38
+msgid "Request Manual Deposit (Credited Upon Verification)"
+msgstr ""
+
+#: View/Themed/Design/Elements/Events/Betclick/1x2.ctp:21
+#: View/Themed/Design/Elements/Events/Betclick/correct-score.ctp:23
+msgid "goals"
+msgstr ""
+
+#: View/Themed/Design/Elements/Events/Betclick/main_12.ctp:11
+#: View/Themed/Design/Elements/Events/Betclick/main_1x2.ctp:10
+#: View/Themed/Design/Live/display_event.ctp:13
+#: View/Themed/Design/Live/display_sports.ctp:81
+msgid "Time: %s min"
+msgstr ""
+
+#: View/Themed/Design/Elements/Events/Betclick/main_12.ctp:15
+#: View/Themed/Design/Elements/Events/Betclick/main_1x2.ctp:14
+#: View/Themed/Design/Live/display_event.ctp:7
+#: View/Themed/Design/Live/display_sports.ctp:78
+msgid "Score: %s"
+msgstr ""
+
+#: View/Themed/Design/Elements/email/html/contact.ctp:5
+#: View/Themed/Design/Elements/email/text/contact.ctp:5
+msgid "From:"
+msgstr ""
+
+#: View/Themed/Design/Elements/email/html/contact.ctp:6
+#: View/Themed/Design/Elements/email/text/contact.ctp:6
+msgid "Epost:"
+msgstr ""
+
+#: View/Themed/Design/Elements/layout-blocks/header-block/header-menu.ctp:4
+msgid "SKAPA KONTO!"
+msgstr ""
+
+#: View/Themed/Design/Elements/layout-blocks/header-block/user-box.ctp:11
+msgid "Återställ lösenord!"
+msgstr ""
+
+#: View/Themed/Design/Elements/layout-blocks/header-block/user-box.ctp:18
+#: View/Themed/Design/Tickets/betslip.ctp:50
+#: View/Themed/Design/Users/login.ctp:48
+#: View/Themed/Design/Users/register.ctp:145
+msgid "Skapa konto"
+msgstr ""
+
+#: View/Themed/Design/Elements/layout-blocks/header-block/user-box.ctp:30
+msgid "Mitt konto"
+msgstr ""
+
+#: View/Themed/Design/Elements/layout-blocks/header-block/user-box.ctp:31
+msgid "Logga ut"
+msgstr ""
+
+#: View/Themed/Design/Elements/layout-blocks/left-block/bet-information.ctp:1
+msgid "Mina spel"
+msgstr ""
+
+#: View/Themed/Design/Elements/layout-blocks/left-block/search-event.ctp:3
+msgid "Sök spel ID..."
+msgstr ""
+
+#: View/Themed/Design/Elements/layout-blocks/left-block/sports-menu.ctp:4
+msgid "LIVE BETTING"
+msgstr ""
+
+#: View/Themed/Design/Elements/layout-blocks/right-block/search-ticket.ctp:2
+msgid "Spel id"
+msgstr ""
+
+#: View/Themed/Design/Elements/layout-blocks/right-block/site-news.ctp:2
+msgid "Site News"
+msgstr ""
+
+#: View/Themed/Design/Elements/layout-slots/footer-slot.ctp:10
+msgid "Spela på Kredit"
+msgstr ""
+
+#: View/Themed/Design/Elements/layout-slots/footer-slot.ctp:16
+msgid "Ansök och få svar direkt"
+msgstr ""
+
+#: View/Themed/Design/Elements/layout-slots/footer-slot.ctp:26
+#: View/Themed/Design/Layouts/user-tools.ctp:51
+msgid "Kundtjänst"
+msgstr ""
+
+#: View/Themed/Design/Elements/layout-slots/footer-slot.ctp:35
+msgid "Hjälp"
+msgstr ""
+
+#: View/Themed/Design/Elements/layout-slots/footer-slot.ctp:37
+msgid "Krediter"
+msgstr ""
+
+#: View/Themed/Design/Elements/layout-slots/footer-slot.ctp:38
+msgid "Regler & villkor"
+msgstr ""
+
+#: View/Themed/Design/Elements/layout-slots/footer-slot.ctp:39
+msgid "Ansvarsfullt spelande"
+msgstr ""
+
+#: View/Themed/Design/Elements/layout-slots/footer-slot.ctp:40;49
+msgid "Kontakt"
+msgstr ""
+
+#: View/Themed/Design/Elements/layout-slots/footer-slot.ctp:44
+msgid "Om %s"
+msgstr ""
+
+#: View/Themed/Design/Elements/layout-slots/footer-slot.ctp:46
+msgid "Bonus"
+msgstr ""
+
+#: View/Themed/Design/Elements/layout-slots/footer-slot.ctp:47
+msgid "Product Features"
+msgstr ""
+
+#: View/Themed/Design/Elements/layout-slots/footer-slot.ctp:48
+msgid "Package Pricing"
+msgstr ""
+
+#: View/Themed/Design/Elements/layout-slots/footer-slot.ctp:53
+msgid "Intro"
+msgstr ""
+
+#: View/Themed/Design/Elements/layout-slots/footer-slot.ctp:55
+msgid " tar gambling til len ny nivå. Hos oss kan du ansöka om kredit och få svar direkt, inga insättningar krävs och du kan spela tryggt och säkert i den takt som passar dig."
+msgstr ""
+
+#: View/Themed/Design/Elements/layout-slots/footer-slot.ctp:63
+msgid "Är licensierad på Malta."
+msgstr ""
+
+#: View/Themed/Design/Elements/layout-slots/footer-slot.ctp:68
+msgid "2018 alla rättigheter är reserverade, 18 års åldersgräns gäller."
+msgstr ""
+
+#: View/Themed/Design/Elements/layout-slots/footer-slot.ctp:68
+msgid ""
+msgstr ""
+
+#: View/Themed/Design/Elements/layout-slots/top-slot.ctp:7
+msgid " Start"
+msgstr ""
+
+#: View/Themed/Design/Elements/layout-slots/top-slot.ctp:15
+msgid " Sport"
+msgstr ""
+
+#: View/Themed/Design/Elements/layout-slots/top-slot.ctp:21
+msgid " Live sport"
+msgstr ""
+
+#: View/Themed/Design/Layouts/intro.ctp:49
+msgid "Gå med och få dina krediter att spela med direkt på "
+msgstr ""
+
+#: View/Themed/Design/Layouts/intro.ctp:49
+msgid "betting."
+msgstr ""
+
+#: View/Themed/Design/Layouts/intro.ctp:50
+msgid "FOTBOLL"
+msgstr ""
+
+#: View/Themed/Design/Layouts/intro.ctp:58
+msgid "Casino på Kredit - Spela med oss"
+msgstr ""
+
+#: View/Themed/Design/Layouts/intro.ctp:58;67
+msgid ""
+msgstr ""
+
+#: View/Themed/Design/Layouts/intro.ctp:59
+msgid "SPELA NU"
+msgstr ""
+
+#: View/Themed/Design/Layouts/intro.ctp:67
+msgid "RedOdds inhouse poker - Spela med oss"
+msgstr ""
+
+#: View/Themed/Design/Layouts/intro.ctp:68
+msgid "POKER"
+msgstr ""
+
+#: View/Themed/Design/Layouts/intro.ctp:79;112;135
+msgid "Idag"
+msgstr ""
+
+#: View/Themed/Design/Layouts/user-panel.ctp:73
+#: View/Themed/Design/Users/bonus.ctp:4;17
+msgid "Bonuskod"
+msgstr ""
+
+#: View/Themed/Design/Layouts/user-panel.ctp:80
+msgid "Konto information"
+msgstr ""
+
+#: View/Themed/Design/Layouts/user-panel.ctp:87
+msgid "Ladda upp dokument"
+msgstr ""
+
+#: View/Themed/Design/Layouts/user-tools.ctp:54
+msgid "Skype"
+msgstr ""
+
+#: View/Themed/Design/Layouts/user-tools.ctp:55
+msgid "Telefon"
+msgstr ""
+
+#: View/Themed/Design/Layouts/user-tools.ctp:56
+msgid "Epost"
+msgstr ""
+
+#: View/Themed/Design/Layouts/user-tools.ctp:57
+msgid "Övrigt"
+msgstr ""
+
+#: View/Themed/Design/Live/select_sport_league.ctp:108
+msgid "Just nu har vi inga live events"
+msgstr ""
+
+#: View/Themed/Design/ReservationTickets/index.ctp:15
+#: View/Themed/Design/ReservationTickets/search.ctp:7
+#: View/Themed/Design/Tickets/review.ctp:2
+msgid "Spelet är lagt"
+msgstr ""
+
+#: View/Themed/Design/ReservationTickets/index.ctp:44
+#: View/Themed/Design/Tickets/index.ctp:53
+msgid "There are no pending tickets"
+msgstr ""
+
+#: View/Themed/Design/ReservationTickets/index.ctp:50
+#: View/Themed/Design/Tickets/history.ctp:62
+#: View/Themed/Design/Tickets/index.ctp:62
+msgid "Note"
+msgstr ""
+
+#: View/Themed/Design/ReservationTickets/index.ctp:50
+#: View/Themed/Design/Tickets/history.ctp:62
+#: View/Themed/Design/Tickets/index.ctp:62
+msgid "To place ticket please use betslip."
+msgstr ""
+
+#: View/Themed/Design/ReservationTickets/search.ctp:5;76
+#: View/Themed/Design/ReservationTickets/view.ctp:3
+msgid "Reservation Ticket information"
+msgstr ""
+
+#: View/Themed/Design/ReservationTickets/search.ctp:6
+#: View/Themed/Design/ReservationTickets/view.ctp:3
+msgid "Ticket Ticket ID"
+msgstr ""
+
+#: View/Themed/Design/ReservationTickets/search.ctp:7
+msgid "Ticket not placed yet"
+msgstr ""
+
+#: View/Themed/Design/ReservationTickets/search.ctp:15
+#: View/Themed/Design/ReservationTickets/view.ctp:10
+#: View/Themed/Design/Tickets/view.ctp:10
+msgid "Betting type"
+msgstr ""
+
+#: View/Themed/Design/ReservationTickets/search.ctp:59
+#: View/Themed/Design/Tickets/placed.ctp:3
+msgid "Place ticket"
+msgstr ""
+
+#: View/Themed/Design/ReservationTickets/search.ctp:61
+msgid "Ticket already placed"
+msgstr ""
+
+#: View/Themed/Design/ReservationTickets/search.ctp:76
+msgid " Not Found"
+msgstr ""
+
+#: View/Themed/Design/ReservationTickets/search.ctp:78
+msgid "Ticket not found"
+msgstr ""
+
+#: View/Themed/Design/Tickets/betslip.ctp:1
+msgid "Spelkupong"
+msgstr ""
+
+#: View/Themed/Design/Tickets/betslip.ctp:30
+msgid "Your pick"
+msgstr ""
+
+#: View/Themed/Design/Tickets/betslip.ctp:46
+msgid "Information"
+msgstr ""
+
+#: View/Themed/Design/Tickets/betslip.ctp:47
+msgid "OBS!"
+msgstr ""
+
+#: View/Themed/Design/Tickets/betslip.ctp:48
+msgid "Logga in"
+msgstr ""
+
+#: View/Themed/Design/Tickets/betslip.ctp:49
+msgid "eller"
+msgstr ""
+
+#: View/Themed/Design/Tickets/betslip.ctp:51
+msgid "för att spela."
+msgstr ""
+
+#: View/Themed/Design/Tickets/betslip.ctp:55
+msgid "You need at least one bet to place a ticket."
+msgstr ""
+
+#: View/Themed/Design/Tickets/betslip.ctp:68
+msgid "Totala odds"
+msgstr ""
+
+#: View/Themed/Design/Tickets/betslip.ctp:69
+msgid "Antal spel"
+msgstr ""
+
+#: View/Themed/Design/Tickets/betslip.ctp:79
+msgid "Potentiell vinst"
+msgstr ""
+
+#: View/Themed/Design/Tickets/betslip.ctp:85;87
+msgid "Lägg spel"
+msgstr ""
+
+#: View/Themed/Design/Tickets/get_history.ctp:3
+msgid "Spelhistorik"
+msgstr ""
+
+#: View/Themed/Design/Tickets/get_history.ctp:17
+msgid "Spel ID:"
+msgstr ""
+
+#: View/Themed/Design/Tickets/get_history.ctp:27
+msgid "Vill du avbryta spelet?"
+msgstr ""
+
+#: View/Themed/Design/Tickets/get_history.ctp:41
+msgid "Inga spelaktiviteter tillgängliga"
+msgstr ""
+
+#: View/Themed/Design/Tickets/history.ctp:53
+msgid "Det finns ingen spelhistorik"
+msgstr ""
+
+#: View/Themed/Design/Tickets/history.ctp:60
+msgid "Pågående spel"
+msgstr ""
+
+#: View/Themed/Design/Tickets/index.ctp:60
+msgid "Historik"
+msgstr ""
+
+#: View/Themed/Design/Tickets/placed.ctp:11
+msgid "Ticket is placed"
+msgstr ""
+
+#: View/Themed/Design/Tickets/placed.ctp:23
+msgid "Ticket not found."
+msgstr ""
+
+#: View/Themed/Design/Tickets/preview.ctp:16
+msgid "Ticket Preview"
+msgstr ""
+
+#: View/Themed/Design/Tickets/print_ticket.ctp:18
+msgid "Operator"
+msgstr ""
+
+#: View/Themed/Design/Tickets/print_ticket.ctp:20
+msgid "Placer"
+msgstr ""
+
+#: View/Themed/Design/Tickets/review.ctp:57
+msgid "Your ticket is created successfully"
+msgstr ""
+
+#: View/Themed/Design/Tickets/review.ctp:58
+msgid "Your ticket number is"
+msgstr ""
+
+#: View/Themed/Design/Tickets/view.ctp:3
+msgid "Ticket information"
+msgstr ""
+
+#: View/Themed/Design/Users/account.ctp:4
+msgid "Konto översikt"
+msgstr ""
+
+#: View/Themed/Design/Users/account.ctp:9
+msgid "Please provide full personal information to confirm your identity. Owing to regulations, your access to some products, markets and commission discounts may be restricted until you confirm your identity. You can provide personal documents using our secure email service."
+msgstr ""
+
+#: View/Themed/Design/Users/account.ctp:24;26
+#: View/Themed/Design/Users/register.ctp:103;105
+msgid "Adress"
+msgstr ""
+
+#: View/Themed/Design/Users/bonus.ctp:6
+msgid "Please add promotional code below to get additional money or other benefit."
+msgstr ""
+
+#: View/Themed/Design/Users/bonus.ctp:18
+msgid "Enter promotion code"
+msgstr ""
+
+#: View/Themed/Design/Users/daily_reports.ctp:31
+msgid "Requested at"
+msgstr ""
+
+#: View/Themed/Design/Users/daily_reports.ctp:35
+msgid "Requested by"
+msgstr ""
+
+#: View/Themed/Design/Users/daily_reports.ctp:57
+#: View/Themed/Design/Users/operator_panel.ctp:80
+msgid "Activity Column"
+msgstr ""
+
+#: View/Themed/Design/Users/docs.ctp:4
+msgid "Documentation"
+msgstr ""
+
+#: View/Themed/Design/Users/docs.ctp:7
+msgid "Account status: "
+msgstr ""
+
+#: View/Themed/Design/Users/docs.ctp:12
+msgid "File to upload. Only .jpeg,.png,.pdf is accepted. File must be not larger than 2Mb. "
+msgstr ""
+
+#: View/Themed/Design/Users/login.ctp:9
+msgid "Registration successful. Please check email for confirmation mail."
+msgstr ""
+
+#: View/Themed/Design/Users/login.ctp:14
+msgid "Account confirmation successful. You can sign in now."
+msgstr ""
+
+#: View/Themed/Design/Users/login.ctp:19
+msgid "Not valid confirmation code."
+msgstr ""
+
+#: View/Themed/Design/Users/login.ctp:39
+msgid "Remember me"
+msgstr ""
+
+#: View/Themed/Design/Users/login.ctp:40
+msgid "Forgot password?"
+msgstr ""
+
+#: View/Themed/Design/Users/operator_panel.ctp:45
+msgid "Today placed tickets"
+msgstr ""
+
+#: View/Themed/Design/Users/register.ctp:5
+msgid "Skapa konto"
+msgstr ""
+
+#: View/Themed/Design/Users/register.ctp:48
+msgid "Personlig info"
+msgstr ""
+
+#: View/Themed/Design/Users/register.ctp:52;54
+msgid "Namn"
+msgstr ""
+
+#: View/Themed/Design/Users/register.ctp:59;61
+msgid "Efternamn"
+msgstr ""
+
+#: View/Themed/Design/Users/register.ctp:66;68
+msgid "Födelsedatum"
+msgstr ""
+
+#: View/Themed/Design/Users/register.ctp:85
+msgid "Kontakt info"
+msgstr ""
+
+#: View/Themed/Design/Users/register.ctp:120;122
+msgid "Personlig fråga"
+msgstr ""
+
+#: View/Themed/Design/Users/register.ctp:127;129
+msgid "Ditt svar"
+msgstr ""
+
+#: View/Themed/Design/Users/register.ctp:136
+msgid "Jag är över 18 år och accepterar villkor & bestämmelser i samband med registrering."
+msgstr ""
+
+#: View/Themed/Design/Users/register.ctp:136
+msgid "Villkor"
+msgstr ""
+
+#: View/Themed/Design/Users/reset-password.ctp:4
+#: View/Themed/Design/Users/reset.ctp:4
+msgid "Återställ lösenord"
+msgstr ""
+
+#: View/Themed/Design/Users/reset.ctp:7
+msgid "Ange din registrerade epost adress så skickar vi ut ett mail där du kan ändra ditt lösenord."
+msgstr ""
+
+#: View/Themed/Design/Users/reset.ctp:30
+msgid "Ändra"
+msgstr ""
+
+#: View/Themed/Design/Users/settings.ctp:25
+msgid "Bekräfta"
+msgstr ""
+
+#: View/Themed/Design/Withdraws/index-submit.ctp:3
+msgid "Uttag"
+msgstr ""
+
+#: View/Themed/Design/Withdraws/index-submit.ctp:14
+#: View/Themed/Design/Withdraws/index.ctp:48
+msgid "Payment amount"
+msgstr ""
+
+#: View/Themed/Design/Withdraws/index-submit.ctp:20;21
+msgid "Bank"
+msgstr ""
+
+#: View/Themed/Design/Withdraws/index-submit.ctp:26;27
+msgid "Payment account holder"
+msgstr ""
+
+#: View/Themed/Design/Withdraws/index-submit.ctp:32;33
+msgid "Payment account number"
+msgstr ""
+
+#: View/Themed/Design/Withdraws/index-submit.ctp:38;39
+msgid "Card number"
+msgstr ""
+
+#: View/Themed/Design/Withdraws/index-submit.ctp:44;45
+msgid "Other notes"
+msgstr ""
+
+#: View/Themed/Design/Withdraws/index-submit.ctp:49
+#: View/Themed/Design/Withdraws/index.ctp:53
+msgid "Request Manual Withdraw"
+msgstr ""
+
+#: View/Themed/Design/Withdraws/index.ctp:3
+msgid "Withdraw"
+msgstr ""
+
+#: View/Themed/Design/Withdraws/index.ctp:14
+msgid "Withdraw ID"
+msgstr ""
+
+#: View/Themed/Design/Withdraws/index.ctp:15
+msgid "Withdraw Account"
+msgstr ""
+
+#: View/Themed/Design/Withdraws/index.ctp:38
+msgid "Payment provider"
+msgstr ""
+
+#: View/Themed/Design/Withdraws/index.ctp:43
+msgid "Payment account"
+msgstr ""
+
+#: View/Themed/Design/Withdraws/index.ctp:44
+msgid "Withdraw account"
+msgstr ""
+
+#: Model/Event.php:validation for field name
+msgid "Please add event name"
+msgstr ""
+
+#: Model/Event.php:validation for field date
+msgid "Please add event date"
+msgstr ""
+
+#: Model/League.php:validation for field name
+msgid "Please add league name"
+msgstr ""
+
+#: Model/Mail.php:validation for field email
+#: Model/User.php:validation for field email
+msgid "Please enter valid email address"
+msgstr ""
+
+#: Model/Mail.php:validation for field subject
+msgid "Please enter subject shorter than 100 length"
+msgstr ""
+
+#: Model/Mail.php:validation for field content
+msgid "Meddelande"
+msgstr ""
+
+#: Model/Staff.php:validation for field username
+#: Model/User.php:validation for field username
+msgid "Undvik otillåtna tecken"
+msgstr ""
+
+#: Model/Staff.php:validation for field username
+msgid "Mellan 5 till 15 tecken"
+msgstr ""
+
+#: Model/Staff.php:validation for field username
+#: Model/User.php:validation for field username
+msgid "Användarnamnet är upptaget."
+msgstr ""
+
+#: Model/Staff.php:validation for field password_raw
+msgid "Minst 5 tecken"
+msgstr ""
+
+#: Model/Template.php:validation for field subject;validation for field content
+#: Plugin/Content/Model/News.php:validation for field title;validation for field summary;validation for field content
+#: Plugin/Content/Model/Page.php:validation for field title;validation for field url;validation for field content
+#: Plugin/Content/Model/Slide.php:validation for field title;validation for field description;validation for field image
+msgid "Fältet kan inte lämnas tomt"
+msgstr ""
+
+#: Model/User.php:validation for field username
+msgid "Mellan 3 till 15 tecken"
+msgstr ""
+
+#: Model/User.php:validation for field password_raw;validation for field password_confirm
+msgid "Minst 2 tecken"
+msgstr ""
+
+#: Model/User.php:validation for field email
+msgid "Epost adressen är redan registrerad."
+msgstr ""
+
+#: Model/User.php:validation for field first_name
+msgid "Ange ditt namn"
+msgstr ""
+
+#: Model/User.php:validation for field last_name
+msgid "Ange ditt efternamn"
+msgstr ""
+
+#: Model/User.php:validation for field address1
+msgid "ANge din adress"
+msgstr ""
+
+#: Model/User.php:validation for field city
+msgid "Ange din stad"
+msgstr ""
+
+#: Model/User.php:validation for field country
+msgid "Ange ditt land"
+msgstr ""
+
+#: Model/User.php:validation for field date_of_birth
+msgid "18 års åldersgräns gäller vid registrering-"
+msgstr ""
+
+#: Model/User.php:validation for field mobile_number
+msgid "Ange ett giltigt mobilnummer"
+msgstr ""
+
+#: Model/User.php:validation for field personal_question
+msgid "Please your personal question"
+msgstr ""
+
+#: Model/User.php:validation for field personal_answer
+msgid "Please enter valid answer"
+msgstr ""
+
+#: Model/User.php:validation for field agree
+msgid "You need to accept the Terms Of Use to be able to register."
+msgstr ""
+
+#: Plugin/Feeds/Model/EnetPulse.php:validation for field xml
+#: Plugin/Feeds/Model/OddService.php:validation for field data
+msgid "Error uploading file"
+msgstr ""
+
+#: Plugin/Feeds/Model/OddService.php:validation for field data
+msgid "Unknown server"
+msgstr ""
+
+#: Plugin/Queue/Model/QueueTask.php:validation for field status
+msgid "Please select a valid status"
+msgstr ""
+
+#: Plugin/Queue/Model/QueueTask.php:validation for field type
+msgid "Please select a valid type"
+msgstr ""
+
+#: Plugin/Queue/Model/QueueTask.php:validation for field type
+msgid "Specified Type is not allowed by your configuration file. check Config/queue.php"
+msgstr ""
+
+#: Plugin/Queue/Model/QueueTask.php:validation for field scheduled
+msgid "Must be a valid date time stamp."
+msgstr ""
+
+#: Plugin/Queue/Model/QueueTask.php:validation for field scheduled_end
+msgid "Must be a valid datetime stamp, or null."
+msgstr ""
+
+#: Plugin/Queue/Model/QueueTask.php:validation for field reschedule
+msgid "Cannot be empty when schedule_end is not null.  Must be a strtotime parsable string."
+msgstr ""
+
+#: Plugin/Queue/Model/QueueTask.php:validation for field cpu_limit
+msgid "Cpu Percent Limit must be between 0 and 100."
+msgstr ""
+
+#: Plugin/Queue/Model/QueueTask.php:validation for field is_required
+msgid "is_required must be a 0 or 1"
+msgstr ""
+
+#: Plugin/Queue/Model/QueueTask.php:validation for field command
+msgid "No command. Please specify."
+msgstr ""
+
+#: Plugin/Queue/Model/QueueTask.php:validation for field command
+msgid "Command not valid for type."
+msgstr ""
+
+#: Plugin/Acl/Controller/AclAppController.php:64
+msgid "The role model name is unknown. The ACL plugin bootstrap.php file has to be loaded in order to work. (see the README file)"
+msgstr ""
+
+#: Plugin/Acl/Controller/AcosController.php:40
+msgid "The actions in the ACO table have been deleted"
+msgstr ""
+
+#: Plugin/Acl/Controller/AcosController.php:44
+msgid "The actions in the ACO table could not be deleted"
+msgstr ""
+
+#: Plugin/Acl/Controller/ArosController.php:207
+msgid "The user role has been updated"
+msgstr ""
+
+#: Plugin/Acl/Controller/ArosController.php:211
+msgid "The user role could not be updated"
+msgstr ""
+
+#: Plugin/Acl/Controller/ArosController.php:398;496
+msgid "The user '%s' does not exist in the ARO table"
+msgstr ""
+
+#: Plugin/Acl/Controller/ArosController.php:474
+msgid "The permissions have been cleared"
+msgstr ""
+
+#: Plugin/Acl/Controller/ArosController.php:478
+msgid "The permissions could not be cleared"
+msgstr ""
+
+#: Plugin/Acl/Controller/ArosController.php:502
+msgid "The specific permissions have been cleared"
+msgstr ""
+
+#: Plugin/Acl/Controller/ArosController.php:506
+msgid "The specific permissions could not be cleared"
+msgstr ""
+
+#: Plugin/Acl/Controller/ArosController.php:526;548
+msgid "The role '%s' does not exist in the ARO table"
+msgstr ""
+
+#: Plugin/Acl/Controller/Component/AclManagerComponent.php:41
+msgid "the %s directory is not writable"
+msgstr ""
+
+#: Plugin/Acl/Controller/Component/AclManagerComponent.php:289
+msgid "Aco node '%s' created"
+msgstr ""
+
+#: Plugin/Acl/Controller/Component/AclManagerComponent.php:415
+msgid "Aco node '%s' has been deleted"
+msgstr ""
+
+#: Plugin/Acl/Controller/Component/AclManagerComponent.php:419
+msgid "Aco node '%s' could not be deleted"
+msgstr ""
+
+#: Plugin/Acl/Controller/Component/AclManagerComponent.php:504;516
+msgid "An error occured while saving the specific permission"
+msgstr ""
+
+#: Plugin/Acl/Controller/Component/AclManagerComponent.php:538
+msgid "An error occured while deleting the specific permission"
+msgstr ""
+
+#: Plugin/Acl/Controller/Component/AclManagerComponent.php:548
+msgid "The specific permission id could not be retrieved"
+msgstr ""
+
+#: Plugin/Acl/Controller/Component/AclManagerComponent.php:557
+msgid "The child ACO id could not be retrieved"
+msgstr ""
+
+#: Plugin/Acl/Controller/Component/AclManagerComponent.php:570
+msgid "Invalid ARO"
+msgstr ""
+
+#: Plugin/Acl/View/Acos/admin_build_acl.ctp:15
+msgid "The following actions ACOs have been created"
+msgstr ""
+
+#: Plugin/Acl/View/Acos/admin_build_acl.ctp:22
+#: Plugin/Acl/View/Acos/admin_synchronize.ctp:24
+msgid "There was no new actions ACOs to create"
+msgstr ""
+
+#: Plugin/Acl/View/Acos/admin_build_acl.ctp:29
+msgid "This page allows you to build missing actions ACOs if any."
+msgstr ""
+
+#: Plugin/Acl/View/Acos/admin_build_acl.ctp:36
+#: Plugin/Acl/View/Acos/admin_has_updates.ctp:12
+#: Plugin/Acl/View/Acos/admin_synchronize.ctp:56
+msgid "Missing ACOs"
+msgstr ""
+
+#: Plugin/Acl/View/Acos/admin_build_acl.ctp:45
+msgid "Clicking the link will not destroy existing actions ACOs."
+msgstr ""
+
+#: Plugin/Acl/View/Acos/admin_build_acl.ctp:49
+#: Plugin/Acl/View/Aros/admin_check.ctp:43
+msgid "Build"
+msgstr ""
+
+#: Plugin/Acl/View/Acos/admin_build_acl.ctp:55
+msgid "There is no ACO node to create"
+msgstr ""
+
+#: Plugin/Acl/View/Acos/admin_empty_acos.ctp:12
+msgid "This page allows you to clear all actions ACOs."
+msgstr ""
+
+#: Plugin/Acl/View/Acos/admin_empty_acos.ctp:20
+msgid "Clicking the link will destroy all existing actions ACOs and associated permissions."
+msgstr ""
+
+#: Plugin/Acl/View/Acos/admin_empty_acos.ctp:24
+msgid "Clear ACOs"
+msgstr ""
+
+#: Plugin/Acl/View/Acos/admin_empty_acos.ctp:24
+msgid "Are you sure you want to destroy all existing ACOs ?"
+msgstr ""
+
+#: Plugin/Acl/View/Acos/admin_empty_acos.ctp:30
+#: Plugin/Acl/View/Acos/admin_prune_acos.ctp:55
+msgid "There is no ACO node to delete"
+msgstr ""
+
+#: Plugin/Acl/View/Acos/admin_has_updates.ctp:8
+msgid "Some controllers have been modified, resulting in actions that are not referenced as ACO in the database or ACO records that are obsolete"
+msgstr ""
+
+#: Plugin/Acl/View/Acos/admin_has_updates.ctp:21
+#: Plugin/Acl/View/Acos/admin_synchronize.ctp:28
+msgid "Obsolete ACOs"
+msgstr ""
+
+#: Plugin/Acl/View/Acos/admin_has_updates.ctp:29
+msgid "You can update the ACOs by clicking on the following link"
+msgstr ""
+
+#: Plugin/Acl/View/Acos/admin_has_updates.ctp:30
+msgid "Synchronize ACOs"
+msgstr ""
+
+#: Plugin/Acl/View/Acos/admin_has_updates.ctp:34
+msgid "Please be aware that this message will appear only once. But you can always rebuild the ACOs by going to the ACO tab."
+msgstr ""
+
+#: Plugin/Acl/View/Acos/admin_prune_acos.ctp:15
+msgid "The following actions ACOs have been pruned"
+msgstr ""
+
+#: Plugin/Acl/View/Acos/admin_prune_acos.ctp:22
+msgid "There was no actions ACOs to prune"
+msgstr ""
+
+#: Plugin/Acl/View/Acos/admin_prune_acos.ctp:29
+msgid "This page allows you to prune obsolete ACOs."
+msgstr ""
+
+#: Plugin/Acl/View/Acos/admin_prune_acos.ctp:36
+#: Plugin/Acl/View/Acos/admin_synchronize.ctp:67
+msgid "Obsolete ACO nodes"
+msgstr ""
+
+#: Plugin/Acl/View/Acos/admin_prune_acos.ctp:45
+msgid "Clicking the link will not change or remove permissions for actions ACOs that are not obsolete."
+msgstr ""
+
+#: Plugin/Acl/View/Acos/admin_prune_acos.ctp:49
+msgid "Prune"
+msgstr ""
+
+#: Plugin/Acl/View/Acos/admin_synchronize.ctp:12
+msgid "New ACOs"
+msgstr ""
+
+#: Plugin/Acl/View/Acos/admin_synchronize.ctp:40
+msgid "There was no action ACO to delete"
+msgstr ""
+
+#: Plugin/Acl/View/Acos/admin_synchronize.ctp:47
+msgid "This page allows you to synchronize the existing controllers and actions with the ACO datatable."
+msgstr ""
+
+#: Plugin/Acl/View/Acos/admin_synchronize.ctp:81
+msgid "Clicking the link will not change or remove permissions for existing actions ACOs."
+msgstr ""
+
+#: Plugin/Acl/View/Acos/admin_synchronize.ctp:85
+msgid "Synchronize"
+msgstr ""
+
+#: Plugin/Acl/View/Acos/admin_synchronize.ctp:91
+msgid "The ACO datatable is already synchronized"
+msgstr ""
+
+#: Plugin/Acl/View/Aros/admin_ajax_role_permissions.ctp:17
+#: Plugin/Acl/View/Aros/admin_role_permissions.ctp:17
+msgid "Clear permissions table"
+msgstr ""
+
+#: Plugin/Acl/View/Aros/admin_ajax_role_permissions.ctp:17
+#: Plugin/Acl/View/Aros/admin_role_permissions.ctp:17
+msgid "Are you sure you want to delete all roles and users permissions ?"
+msgstr ""
+
+#: Plugin/Acl/View/Aros/admin_ajax_role_permissions.ctp:29
+#: Plugin/Acl/View/Aros/admin_role_permissions.ctp:29
+msgid "grant access to <em>all actions</em>"
+msgstr ""
+
+#: Plugin/Acl/View/Aros/admin_ajax_role_permissions.ctp:30
+#: Plugin/Acl/View/Aros/admin_role_permissions.ctp:30
+msgid "deny access to <em>all actions</em>"
+msgstr ""
+
+#: Plugin/Acl/View/Aros/admin_ajax_role_permissions.ctp:40
+#: Plugin/Acl/View/Aros/admin_role_permissions.ctp:40
+msgid "Are you sure you want to grant access to all actions of each controller to the role '%s' ?"
+msgstr ""
+
+#: Plugin/Acl/View/Aros/admin_ajax_role_permissions.ctp:41
+#: Plugin/Acl/View/Aros/admin_role_permissions.ctp:41
+msgid "Are you sure you want to deny access to all actions of each controller to the role '%s' ?"
+msgstr ""
+
+#: Plugin/Acl/View/Aros/admin_ajax_role_permissions.ctp:59
+#: Plugin/Acl/View/Aros/admin_ajax_user_permissions.ctp:60
+#: Plugin/Acl/View/Aros/admin_role_permissions.ctp:59
+#: Plugin/Acl/View/Aros/admin_user_permissions.ctp:123
+msgid "action"
+msgstr ""
+
+#: Plugin/Acl/View/Aros/admin_ajax_role_permissions.ctp:102;168
+#: Plugin/Acl/View/Aros/admin_ajax_user_permissions.ctp:93;140
+msgid "loading"
+msgstr ""
+
+#: Plugin/Acl/View/Aros/admin_ajax_role_permissions.ctp:107;173
+#: Plugin/Acl/View/Aros/admin_ajax_user_permissions.ctp:98;145
+#: Plugin/Acl/View/Aros/admin_role_permissions.ctp:118;200
+#: Plugin/Acl/View/Aros/ajax_role_denied.ctp:6
+#: Plugin/Acl/View/Aros/ajax_role_granted.ctp:6
+#: Plugin/Acl/View/Aros/ajax_user_denied.ctp:12
+#: Plugin/Acl/View/Aros/ajax_user_granted.ctp:12
+msgid "The ACO node is probably missing. Please try to rebuild the ACOs first."
+msgstr ""
+
+#: Plugin/Acl/View/Aros/admin_ajax_role_permissions.ctp:136
+#: Plugin/Acl/View/Aros/admin_ajax_user_permissions.ctp:117
+#: Plugin/Acl/View/Aros/admin_role_permissions.ctp:147
+#: Plugin/Acl/View/Aros/admin_user_permissions.ctp:190
+msgid "Plugin"
+msgstr ""
+
+#: Plugin/Acl/View/Aros/admin_ajax_role_permissions.ctp:195
+#: Plugin/Acl/View/Aros/admin_ajax_user_permissions.ctp:162
+#: Plugin/Acl/View/Aros/admin_role_permissions.ctp:222
+#: Plugin/Acl/View/Aros/admin_user_permissions.ctp:249
+msgid "authorized"
+msgstr ""
+
+#: Plugin/Acl/View/Aros/admin_ajax_role_permissions.ctp:197
+#: Plugin/Acl/View/Aros/admin_ajax_user_permissions.ctp:164
+#: Plugin/Acl/View/Aros/admin_role_permissions.ctp:224
+#: Plugin/Acl/View/Aros/admin_user_permissions.ctp:251
+msgid "blocked"
+msgstr ""
+
+#: Plugin/Acl/View/Aros/admin_ajax_user_permissions.ctp:14
+#: Plugin/Acl/View/Aros/admin_user_permissions.ctp:77
+msgid "Role"
+msgstr ""
+
+#: Plugin/Acl/View/Aros/admin_ajax_user_permissions.ctp:30
+#: Plugin/Acl/View/Aros/admin_user_permissions.ctp:93
+#: Plugin/Acl/View/Aros/admin_users.ctp:52
+msgid "Update the user role"
+msgstr ""
+
+#: Plugin/Acl/View/Aros/admin_ajax_user_permissions.ctp:40
+#: Plugin/Acl/View/Aros/admin_user_permissions.ctp:103
+#: Plugin/Acl/View/Elements/design/header.ctp:19
+msgid "Permissions"
+msgstr ""
+
+#: Plugin/Acl/View/Aros/admin_ajax_user_permissions.ctp:46
+#: Plugin/Acl/View/Aros/admin_user_permissions.ctp:109
+msgid "This user has specific permissions"
+msgstr ""
+
+#: Plugin/Acl/View/Aros/admin_ajax_user_permissions.ctp:48
+#: Plugin/Acl/View/Aros/admin_user_permissions.ctp:111
+msgid "Clear"
+msgstr ""
+
+#: Plugin/Acl/View/Aros/admin_ajax_user_permissions.ctp:48
+#: Plugin/Acl/View/Aros/admin_user_permissions.ctp:111
+msgid "Are you sure you want to clear the permissions specific to this user ?"
+msgstr ""
+
+#: Plugin/Acl/View/Aros/admin_ajax_user_permissions.ctp:60
+#: Plugin/Acl/View/Aros/admin_user_permissions.ctp:123
+msgid "authorization"
+msgstr ""
+
+#: Plugin/Acl/View/Aros/admin_check.ctp:12
+msgid "Roles without corresponding Aro"
+msgstr ""
+
+#: Plugin/Acl/View/Aros/admin_check.ctp:27
+msgid "Users without corresponding Aro"
+msgstr ""
+
+#: Plugin/Acl/View/Aros/admin_check.ctp:49
+msgid "There is no missing ARO."
+msgstr ""
+
+#: Plugin/Acl/View/Aros/admin_not_acl_requester.ctp:11;18
+msgid "The <em>%s</em> model is not configured to act as an <em>ACL requester</em>"
+msgstr ""
+
+#: Plugin/Acl/View/Aros/admin_not_acl_requester.ctp:25
+msgid "In a classical ACL configuration, the models that represent the users and the roles must act as <em>ACL requesters</em> (see %s)."
+msgstr ""
+
+#: Plugin/Acl/View/Aros/admin_not_acl_requester.ctp:26
+msgid "Acts As a Requester"
+msgstr ""
+
+#: Plugin/Acl/View/Aros/admin_not_acl_requester.ctp:30
+msgid "If you wish, you can disable this alert by setting the ACL plugin parameter 'acl.check_act_as_requester' to <em>false</em>."
+msgstr ""
+
+#: Plugin/Acl/View/Aros/admin_user_permissions.ctp:19
+msgid "This page allows to manage users specific rights"
+msgstr ""
+
+#: Plugin/Acl/View/Aros/admin_user_permissions.ctp:25;37
+msgid "user"
+msgstr ""
+
+#: Plugin/Acl/View/Aros/admin_user_permissions.ctp:29
+#: Plugin/Acl/View/Aros/admin_users.ctp:15
+msgid "filter"
+msgstr ""
+
+#: Plugin/Acl/View/Aros/admin_user_permissions.ctp:47
+msgid "Manage user specific rights"
+msgstr ""
+
+#: Plugin/Acl/View/Aros/admin_users.ctp:11;23
+msgid "name"
+msgstr ""
+
+#: Plugin/Acl/View/Aros/admin_users.ctp:80
+msgid "Some users AROS are missing. Click on a role to assign one to a user."
+msgstr ""
+
+#: Plugin/Acl/View/Aros/ajax_role_denied.ctp:6
+#: Plugin/Acl/View/Aros/ajax_role_granted.ctp:6
+msgid "The role node does not exist in the ARO table"
+msgstr ""
+
+#: Plugin/Acl/View/Aros/ajax_user_denied.ctp:8
+#: Plugin/Acl/View/Aros/ajax_user_granted.ctp:8
+msgid "The user node does not exist in the ARO table"
+msgstr ""
+
+#: Plugin/Acl/View/Aros/ajax_user_denied.ctp:16
+#: Plugin/Acl/View/Aros/ajax_user_granted.ctp:16
+msgid "The ARO or the ACO node is probably missing. Please try to rebuild the ACOs first."
+msgstr ""
+
+#: Plugin/Acl/View/Elements/Acos/links.ctp:6
+msgid "Synchronize actions ACOs"
+msgstr ""
+
+#: Plugin/Acl/View/Elements/Acos/links.ctp:6;7;9
+msgid "are you sure ?"
+msgstr ""
+
+#: Plugin/Acl/View/Elements/Acos/links.ctp:7
+msgid "Clear actions ACOs"
+msgstr ""
+
+#: Plugin/Acl/View/Elements/Acos/links.ctp:8
+msgid "Build actions ACOs"
+msgstr ""
+
+#: Plugin/Acl/View/Elements/Acos/links.ctp:9
+msgid "Prune actions ACOs"
+msgstr ""
+
+#: Plugin/Acl/View/Elements/Aros/links.ctp:6
+msgid "Build missing AROs"
+msgstr ""
+
+#: Plugin/Acl/View/Elements/Aros/links.ctp:7
+msgid "Users roles"
+msgstr ""
+
+#: Plugin/Acl/View/Elements/Aros/links.ctp:11;15
+msgid "Roles permissions"
+msgstr ""
+
+#: Plugin/Acl/View/Elements/Aros/links.ctp:17
+msgid "Users permissions"
+msgstr ""
+
+#: Plugin/Acl/View/Elements/design/header.ctp:10
+msgid "ACL plugin"
+msgstr ""
+
+#: Plugin/Acl/View/Errors/missing_aco_nodes.ctp:7
+msgid "go to homepage"
+msgstr ""
+
+#: Plugin/WebSocket/Lib/Network/Http/WebSocket.php:382
+msgid "Class %s not found."
+msgstr ""
+
+#: View/Helper/PaginatorHelper.php:99
+msgid "%s does not implement a %s method, it is incompatible with %s"
+msgstr ""
+
+#: View/Helper/PaginatorHelper.php:629
+msgid " of "
+msgstr ""
+
+#: webroot/test.php:88
+msgid "Debug setting does not allow access to this url."
+msgstr ""
+

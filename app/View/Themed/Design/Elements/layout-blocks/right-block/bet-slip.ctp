@@ -1,0 +1,1 @@
+<div id="betSlip-block" class="loading"></div>

@@ -1,0 +1,1098 @@
+html{min-height:100%}
+body{background:#e0e0e0 url(../img/bg-faq.jpg) no-repeat scroll top center;background-size:100% auto;overflow-x: hidden;}
+a{text-decoration:none}
+.left{float:left}
+.right{float:right}
+.clear{clear:both}
+header{background:-webkit-linear-gradient(#313132,#1B1C1C);background:-o-linear-gradient(#313132,#1B1C1C);background:-moz-linear-gradient(#313132,#1B1C1C);background:linear-gradient(#313132,#1B1C1C);border-bottom:1px solid #0C0C0C;min-height:100px}
+header .container,nav .container,section .container{margin:0 auto}
+
+#lang_nav ul ul ul{top:0;left:100%}
+#lang_nav ul li:hover > ul{display:block}
+#login-form{float:right;margin:24px 0 0 14px}
+#login-form a{font:14px 'Fira Sans',Arial,Helvetica,sans-serif;color:#5f5f5f}
+#login-form a:hover{color:#fff}
+.form-inputs1,.form-inputs2,.form-submit{float:left;margin:0 0 0 14px;font:14px 'Fira Sans',Arial,Helvetica,sans-serif;color:#5f5f5f}
+.login-input{background:#161616;border:1px solid #626161;width:190px;border-radius:5px;font:500 18px 'Fira Sans',Arial,Helvetica,sans-serif;color:#cdcdcd;padding:8px 8px 8px 30px;margin:0 0 5px}
+.icon-user{background:#161616 url(../img/user-icon.png) no-repeat scroll 8px 10px}
+.icon-pass{background:#161616 url(../img/pass-icon.png) no-repeat scroll 8px 10px}
+.form-inputs2{text-align:right}
+input[type="checkbox"]{display:none}
+.form-inputs1 input[type="checkbox"] + label span{display:inline-block;width:12px;height:12px;margin:2px 4px 0 0;vertical-align:top;background:transparent url(../img/ch1.png) no-repeat scroll 0 0;cursor:pointer}
+.form-inputs1 input[type="checkbox"]:checked + label span{background:transparent url(../img/ch2.png) no-repeat scroll 0 0}
+.btn-silver{display:inline-block;font:500 18px 'Fira Sans',Arial,Helvetica,sans-serif;color:#000;background:-webkit-linear-gradient(#fff,#c2c2c2);background:-o-linear-gradient(#fff,#c2c2c2);background:-moz-linear-gradient(#fff,#c2c2c2);background:linear-gradient(#fff,#c2c2c2);padding:8px 16px;border-radius:5px;margin:0 8px 0 0;cursor:pointer}
+.btn-silver:hover{background:#ededed}
+.btn-blue{display:inline-block;font:500 18px 'Fira Sans',Arial,Helvetica,sans-serif;color:#fcfcfc;background:-webkit-linear-gradient(#72a8d9,#2d6dac);background:-o-linear-gradient(#72a8d9,#2d6dac);background:-moz-linear-gradient(#72a8d9,#2d6dac);background:linear-gradient(#72a8d9,#2d6dac);padding:8px 16px;border-radius:5px;cursor:pointer}
+.btn-blue:hover{background:#528cc3}
+.logo{margin:20px 0 0;float:left}
+#loged{float:right;margin:27px 0 0 14px;background:#1E1E1E;padding:8px;border-radius:6px;color:#686868}
+.usr-pl{float:left;background:transparent url(../img/prof-usr.png) no-repeat scroll 0 0;padding:2px 0 2px 20px;font:13px 'Fira Sans',Arial,Helvetica,sans-serif;color:#5f5f5f;margin:0 20px 0 0}
+.usr-pl a,.usr-mo a{color:#686868}
+.usr-pl a:hover,.usr-mo a:hover{color:#fff}
+.usr-mo{float:left;background:transparent url(../img/prof-mon.png) no-repeat scroll 0 0;padding:2px 0 2px 26px;font:13px 'Fira Sans',Arial,Helvetica,sans-serif;color:#5f5f5f;margin:0 10px 0 0}
+.usr-btn{float:left;display:block;padding:2px 8px;font:13px 'Fira Sans',Arial,Helvetica,sans-serif;color:#fff;background:-webkit-linear-gradient(#72a8d9,#2d6dac);background:-o-linear-gradient(#72a8d9,#2d6dac);background:-moz-linear-gradient(#72a8d9,#2d6dac);background:linear-gradient(#72a8d9,#2d6dac);border-radius:5px;margin:0 0 0 10px}
+.usr-btn:hover{background:#2d6dac}
+#main-menu{background:#161616;border-top:1px solid #262626}
+.menu1{float:right}
+#main-menu ul li{float:left;list-style:none}
+#main-menu ul li a{display:block;padding:16px 12px;font:500 20px 'Fira Sans',Arial,Helvetica,sans-serif;color:#fff;text-transform:uppercase;letter-spacing:-1px}
+#main-menu ul li a:hover{background:-webkit-linear-gradient(#313132,#1B1C1C);background:-o-linear-gradient(#313132,#1B1C1C);background:-moz-linear-gradient(#313132,#1B1C1C);background:linear-gradient(#313132,#1B1C1C)}
+#main-menu ul li.active a{background:-webkit-linear-gradient(#72a8d9,#2d6dac);background:-o-linear-gradient(#72a8d9,#2d6dac);background:-moz-linear-gradient(#72a8d9,#2d6dac);background:linear-gradient(#72a8d9,#2d6dac)}
+.menco{display:inline-block;height:32px;vertical-align:middle}
+.m-ico1{background:transparent url(../img/menu-icon1.png) no-repeat;width:16px}
+.m-ico2{background:transparent url(../img/menu-icon2.png) no-repeat;width:28px}
+.m-ico3{background:transparent url(../img/menu-icon3.png) no-repeat;width:34px}
+.m-ico4{background:transparent url(../img/menu-icon4.png) no-repeat;width:25px}
+.m-ico5{background:transparent url(../img/menu-icon5.png) no-repeat;width:32px}
+.m-ico6 {
+	background: transparent url(../img/menu-icon6.png) no-repeat;
+	width: 32px;
+}
+.m-ico7 {
+	background: transparent url(../img/menu-icon7.png) no-repeat;
+	width: 32px;
+}
+#lang_nav{float:right;margin:8px 0 0 14px;-moz-border-radius:5px;-o-border-radius:5px;-khtml-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;background:-webkit-linear-gradient(#FDFDFD,#C1C1C1);background:-o-linear-gradient(#FDFDFD,#C1C1C1);background:-moz-linear-gradient(#FDFDFD,#C1C1C1);background:linear-gradient(#FDFDFD,#C1C1C1)}
+#lang_nav ul{list-style:none;position:relative;float:left;margin:0}
+#main-menu #lang_nav ul a{display:block;padding:0 8px}
+#lang_nav ul li{position:relative;float:left;margin:0;padding:0}
+#lang_nav ul li:hover{background:#fff;-moz-border-radius:5px 5px 0 0;-o-border-radius:5px 5px 0 0;-khtml-border-radius:5px 5px 0 0;-webkit-border-radius:5px 5px 0 0;border-radius:5px 5px 0 0}
+#lang_nav ul ul{display:none;position:absolute;top:100%;right:0;background:#fff;padding:0;-o-border-radius:0 0 5px 5px;-khtml-border-radius:0 0 5px 5px;-webkit-border-radius:0 0 5px 5px;border-radius:0 0 5px 5px; z-index:1;}
+#lang_nav ul ul li:hover{-moz-border-radius:0 0 5px 5px;-o-border-radius:0 0 5px 5px;-khtml-border-radius:0 0 5px 5px;-webkit-border-radius:0 0 5px 5px;border-radius:0 0 5px 5px}
+#lang_nav ul ul li{float:none}
+#lang_nav ul ul a{padding:8px}
+
+/* intro page design */
+.Banner4LinksFlex{
+	padding: 10px;
+	width: 100%;
+	display: block;
+	overflow: hidden;
+}
+.Banner4Links{
+	float: left;
+	width: 25%;
+	padding: 3px;
+}
+.Banner4Links h2{
+	color: #fff;
+	font:500 20px 'Fira Sans',Arial,Helvetica,sans-serif;
+	text-transform: uppercase;
+}
+
+#main{margin:10px 0}
+.content{float:right}
+.sidebar{float:left}
+.sidebar2{float:right}
+.content-main{float:right;margin:0 .9% 0 0}
+.blue-box{border:4px solid #f3f3f3;border-radius:6px;background:#f3f3f3}
+.blue-in{padding:4px;border-radius:3px;background:#2d6eac}
+.blue-box h5{font:500 17px 'Fira Sans',Arial,Helvetica,sans-serif;color:#81a8cd;text-transform:uppercase;margin:10px}
+.blue-box h5 i{display:inline-block;vertical-align:middle}
+.icon-support{width:23px;height:23px;background:transparent url(../img/icon-support.png) no-repeat scroll 0 0}
+.header-icon{display:block;vertical-align:middle;width:24px;height:24px}
+.white-in{font:14px 'Fira Sans',Arial,Helvetica,sans-serif;padding:4px;border-radius:3px;background:#f3f3f3}
+.white-in ul{list-style:none}
+.white-in ul li{font:14px 'Fira Sans',Arial,Helvetica,sans-serif;color:#434343;border-top:1px solid #fff;border-bottom:1px solid #dadada;padding:10px 0}
+.ico{display:block;vertical-align:middle;float:left;width:25px;height:30px;margin:0 6px 0 0}
+.icon-call{background:transparent url(../img/sha1.png) no-repeat scroll 0 0}
+.icon-contact{background:transparent url(../img/sha1.png) no-repeat scroll 0 -58px}
+.icon-faq{background:transparent url(../img/sha1.png) no-repeat scroll 0 -114px}
+.icon-other{background:transparent url(../img/sha1.png) no-repeat scroll 0 -170px}
+.icon-man{background:transparent url(../img/icon-man.png) no-repeat scroll 0 0}
+.white-in ul li a{color:#3288d9}
+.white-in ul li:last-child{border-bottom:none}
+.white-in ul li:first-child{border-top:none}
+.login-top{border-bottom:1px solid #dadada;padding:12px 0;color:#5F5F5F}
+.info-box{font:16px/20px 'Fira Sans',Arial,Helvetica,sans-serif;color:#5F5F5F;display:block;width:80%;margin:0 auto 12px;padding:6px;text-align:center;border:1px solid #CFCFCF;background:#E0E0E0;border-radius:4px}
+.info-box a{font:500 16px/20px 'Fira Sans',Arial,Helvetica,sans-serif;color:#2D6EAC}
+.info-box a:hover{text-decoration:underline}
+.form-login{width:50%;margin:0 auto}
+.form-input{background:#fff;border:1px solid #DADADA;width:280px;border-radius:5px;font:500 18px 'Fira Sans',Arial,Helvetica,sans-serif;color:#5F5F5F;padding:8px;margin:0 12px 12px 0;float:left}
+.icon-user-w{background:#fff url(../img/user-icon-w.png) no-repeat scroll 8px 10px;padding:8px 8px 8px 30px}
+.icon-pass-w{background:#fff url(../img/pass-icon-w.png) no-repeat scroll 8px 10px;padding:8px 8px 8px 30px}
+.quest{display:block;float:left;width:48px;height:38px;background-image:url(../img/q.png),-webkit-gradient(linear,0% 0%,0% 100%,from(#fff),to(#E5E5E5));background-image:url(../img/q.png),-webkit-linear-gradient(top,#fff,#E5E5E5);background-image:url(../img/q.png),-moz-linear-gradient(top,#fff,#E5E5E5);background-image:url(../img/q.png),-ms-linear-gradient(top,#fff,#E5E5E5);background-image:url(../img/q.png),-o-linear-gradient(top,#fff,#E5E5E5);background-image:url(../img/q.png),linear-gradient(top,#fff,#E5E5E5);background-repeat:no-repeat;background-position:center center;border-radius:5px;cursor:pointer;border:1px solid #DADADA;position:relative}
+.forg{font:14px 'Fira Sans',Arial,Helvetica,sans-serif;margin:0 20px;color:#5F5F5F}
+.forg:hover{color:#2D6EAC}
+a.tooltip span{z-index:10;display:none;padding:14px 20px;margin-top:-30px;margin-left:28px;width:300px;line-height:16px}
+a.tooltip:hover span{display:inline;position:absolute;color:#111;border:1px solid #DCA;background:#fffAF0}
+.callout{z-index:20;position:absolute;top:30px;border:0;left:-12px}
+a.tooltip span{border-radius:4px;box-shadow:5px 5px 8px #CCC}
+.white-in input[type="checkbox"] + label span{display:inline-block;width:25px;height:25px;margin:2px 4px 0 0;vertical-align:top;background:transparent url(../img/ch4.png) no-repeat scroll 0 0;cursor:pointer;vertical-align:-7px}
+.white-in input[type="checkbox"]:checked + label span{background:transparent url(../img/ch3.png) no-repeat scroll 0 0}
+.login-bottom{border-top:1px solid #fff;padding:12px 0}
+.login-btn{margin:0 auto;width:40%}
+.login-btn .btn-blue{border:1px solid #2E6DAC}
+.login-btn .btn-silver{border:1px solid #C2C2C2}
+.login-btn .btn-blue,.login-btn .btn-silver{width:130px;padding:6px 16px}
+.col3{width:32.7%;float:left;margin:0 .3%}
+.registration-form{height:340px;width:100%;display:table;text-align:center}
+.registration-form p{display:table-cell;vertical-align:middle}
+.form-nav{font:14px 'Fira Sans',Arial,Helvetica,sans-serif;padding:4px;border-radius:3px;background:#f3f3f3;margin:4px .3% 0}
+.icon-cre{background:transparent url(../img/icon-acc.png) no-repeat scroll 0 0}
+.icon-pho{background:transparent url(../img/icon-phone.png) no-repeat scroll 3px 0}
+.btn-back{width:32.7%;font:500 18px 'Fira Sans',Arial,Helvetica,sans-serif;padding:4px;cursor:pointer;color:#000;background:-webkit-linear-gradient(#fff,#c2c2c2);background:-o-linear-gradient(#fff,#c2c2c2);background:-moz-linear-gradient(#fff,#c2c2c2);background:linear-gradient(#fff,#c2c2c2);border-radius:5px;float:left;cursor:pointer}
+.btn-back:hover{background:#ededed}
+.btn-regs{width:32.7%;font:500 18px 'Fira Sans',Arial,Helvetica,sans-serif;padding:4px;cursor:pointer;color:#fcfcfc;background:-webkit-linear-gradient(#72a8d9,#2d6dac);background:-o-linear-gradient(#72a8d9,#2d6dac);background:-moz-linear-gradient(#72a8d9,#2d6dac);background:linear-gradient(#72a8d9,#2d6dac);border-radius:5px;float:right;cursor:pointer}
+.btn-regs:hover{background:#528cc3}
+.label-txt{font:bold 13px 'Fira Sans',Arial,Helvetica,sans-serif;display:block;padding:10px 0;color:#434343}
+.error-label{color:#E65858}
+.error-label span{font:normal 13px 'Fira Sans',Arial,Helvetica,sans-serif;margin:0 0 0 30px}
+.form-inp,select{font:13px 'Fira Sans',Arial,Helvetica,sans-serif;padding:10px;background:#fff;border-radius:4px;border:1px solid #DADADA;display:inline-block;width:100%}
+select{overflow:hidden;width:100%;height:38px;-webkit-appearance:none;-moz-appearance:none;appearance:none;background:#fff url(../img/select.png) no-repeat scroll right bottom;color:#757575}
+.form-sides{float:left;width:40%;margin:6px 0 6px 6px}
+option{padding:5px}
+.sm3{float:left;width:30%;margin:0 3.3% 0 0}
+.sm4{float:right;width:66%}
+.rem-box{margin:10px 0 0}
+.rem-txt{float:right;width:88%}
+.rem-txt a{font:bold 13px 'Fira Sans',Arial,Helvetica,sans-serif;color:#2D6EAC}
+input[type=radio]:not(old){width:25px;opacity:0;vertical-align:middle}
+input[type=radio]:not(old) + label{display:inline-block;margin-left:-28px;padding-left:28px;background:url(../img/ch4.png) no-repeat 0 0;line-height:25px}
+input[type=radio]:not(old):checked + label{background:url(../img/ch3.png) no-repeat 0 0}
+.qwe{display:inline;vertical-align:middle;margin:0 0 0 4px}
+.carousel{position:relative}
+.carousel-inner{position:relative;overflow:hidden;width:100%}
+.carousel-inner > .item{display:none;position:relative;-webkit-transition:.6s ease-in-out left;transition:.6s ease-in-out left}
+.carousel-inner > .item > img,.carousel-inner > .item > a > img{line-height:1;width:100%}
+.carousel-inner > .active,.carousel-inner > .next,.carousel-inner > .prev{display:block}
+.carousel-inner > .active{left:0}
+.carousel-inner > .next,.carousel-inner > .prev{position:absolute;top:0;width:100%}
+.carousel-inner > .next{left:100%}
+.carousel-inner > .prev{left:-100%}
+.carousel-inner > .next.left,.carousel-inner > .prev.right{left:0}
+.carousel-inner > .active.left{left:-100%}
+.carousel-inner > .active.right{left:100%}
+.carousel-control{position:absolute;top:0;left:0;bottom:0;width:10%;opacity:.5;filter:alpha(opacity=50);font-size:20px;color:#fff;text-align:center;text-shadow:0 1px 2px rgba(0,0,0,0.6);z-index:20}
+.carousel-control.left{background-image:-webkit-linear-gradient(left,color-stop(rgba(0,0,0,0.5) 0),color-stop(rgba(0,0,0,0.0001) 100%));background-image:linear-gradient(to right,rgba(0,0,0,0.5) 0,rgba(0,0,0,0.0001) 100%);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000',endColorstr='#00000000',GradientType=1);border-radius:4px}
+.carousel-control.right{left:auto;right:0;background-image:-webkit-linear-gradient(left,color-stop(rgba(0,0,0,0.0001) 0),color-stop(rgba(0,0,0,0.5) 100%));background-image:linear-gradient(to right,rgba(0,0,0,0.0001) 0,rgba(0,0,0,0.5) 100%);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000',endColorstr='#80000000',GradientType=1);border-radius:4px}
+.carousel-control:hover,.carousel-control:focus{outline:none;color:#fff;text-decoration:none;opacity:.9;filter:alpha(opacity=90)}
+.carousel-control .icon-prev,.carousel-control .icon-next,.carousel-control .glyphicon-chevron-left,.carousel-control .glyphicon-chevron-right{position:absolute;top:40%;z-index:5;display:inline-block}
+.carousel-control .icon-prev,.carousel-control .glyphicon-chevron-left{left:50%}
+.carousel-control .icon-next,.carousel-control .glyphicon-chevron-right{right:50%}
+.carousel-control .icon-prev,.carousel-control .icon-next{width:20px;height:20px;margin-top:-10px;margin-left:-10px;font-family:serif}
+.carousel-control .icon-prev:before{content:'\2039'}
+.carousel-control .icon-next:before{content:'\203a'}
+.carousel-indicators{position:absolute;bottom:60px;left:50%;z-index:25;width:60%;margin-left:-30%;padding-left:0;list-style:none;text-align:center}
+.slider-main .carousel-indicators{bottom:10px;left:8%}
+.carousel-indicators li{display:inline-block;width:16px;height:16px;margin:1px;text-indent:-999px;border:1px solid #fff;border-radius:16px;cursor:pointer;background-color:#000 \9;background-color:rgba(0,0,0,0)}
+.carousel-indicators .active{margin:0;width:16px;height:16px;margin:1px;background-color:#448ccb}
+.carousel-caption{position:absolute;left:15%;right:15%;bottom:100px;z-index:10;padding-top:20px;padding-bottom:20px;font:30px/40px 'Fira Sans',Arial,Helvetica,sans-serif;color:#fff;text-align:center;text-shadow:0 1px 2px rgba(0,0,0,0.6)}
+.slider-main .carousel-caption{left:0;right:0;bottom:0;z-index:10;padding:10px;font:15px 'Fira Sans',Arial,Helvetica,sans-serif;color:#fff;text-align:justify;background:transparent url(../img/carousel-caption.png)}
+.slider-box{float:right;width:50%;margin:0 50px 0 0;text-align:center}
+.slider-box h1{font:20px 'Fira Sans',Arial,Helvetica,sans-serif;color:#fff}
+.tstamp{background:transparent url(../img/time.png) no-repeat scroll left center;padding:4px;color:#A8A8A8;margin:10px auto;width:46%}
+.carousel-caption .btn{text-shadow:none}
+.btn-more{display:block;width:20%;font:bold 17px 'Fira Sans',Arial,Helvetica,sans-serif;color:#fcfcfc;background:-webkit-linear-gradient(#72a8d9,#2d6dac);background:-o-linear-gradient(#72a8d9,#2d6dac);background:-moz-linear-gradient(#72a8d9,#2d6dac);background:linear-gradient(#72a8d9,#2d6dac);border-radius:4px;padding:10px;border:1px solid #2d6dac;margin:30px auto 6px}
+.btn-more:hover{background:#2d6dac}
+.glyphicon{display:block;width:28px;height:48px}
+.glyphicon-chevron-left{background:transparent url(../img/slider-arrow1.png) no-repeat}
+.glyphicon-chevron-right{background:transparent url(../img/slider-arrow2.png) no-repeat}
+.spa-top{margin:10px 0}
+#content{background:#000;padding:30px 0}
+.top-head,.mid-head{text-align:center;font:bold 18px 'Fira Sans',Arial,Helvetica,sans-serif;color:#fff;text-transform:uppercase;margin:0 0 30px}
+.mid-head{margin:30px 0}
+.mid-head span{color:#538DC5}
+.big-tbl{width:90%;margin:0 auto}
+.big-tbl td{font:14px/22px 'Fira Sans',Arial,Helvetica,sans-serif;border:1px solid #000;padding:20px;background:#212121;color:#6D6D6D;vertical-align:middle}
+.big-tbl td a,.small-tbl td a{color:#6D6D6D}
+.big-tbl td.l-corn{background:#161616;border-radius:4px 0 0 4px;background-clip:padding-box;text-align:center;color:#6D6D6D;font:14px 'Fira Sans',Arial,Helvetica,sans-serif;text-transform:uppercase}
+.big-tbl td.r-corn{background:#161616;border-radius:0 4px 4px 0;background-clip:padding-box;text-align:center;color:#6D6D6D;font:14px 'Fira Sans',Arial,Helvetica,sans-serif;text-transform:uppercase}
+.big-tbl td span{float:right;color:#fff;font:bold 22px/22px 'Fira Sans',Arial,Helvetica,sans-serif;vertical-align:middle}
+.tbl-cell1{float:right;width:49%}
+.tbl-cell2{float:left;width:49%}
+.small-tbl{width:100%}
+.small-tbl td{font:11px/13px 'Fira Sans',Arial,Helvetica,sans-serif;border:1px solid #000;padding:8px;background:#212121;color:#6D6D6D;vertical-align:middle}
+.small-tbl td.l-corn{background:#161616;border-radius:4px 0 0 4px;background-clip:padding-box;text-align:center;color:#6D6D6D;font:11px 'Fira Sans',Arial,Helvetica,sans-serif;text-transform:uppercase}
+.small-tbl td.r-corn{background:#161616;border-radius:0 4px 4px 0;background-clip:padding-box;text-align:center;color:#6D6D6D;font:11px 'Fira Sans',Arial,Helvetica,sans-serif;text-transform:uppercase}
+.small-tbl td span{float:right;color:#fff;font:bold 13px/13px 'Fira Sans',Arial,Helvetica,sans-serif;vertical-align:middle}
+.small-tbl td span a,.big-tbl td span a{color:#fff}
+.small-tbl td span a:hover,.big-tbl td span a:hover,.big-tbl td a:hover,.small-tbl td a:hover{color:#538dc5}
+.faq-list{list-style:none}
+.faq-list li{border-bottom:1px solid #dadada;border-top:1px solid #fff}
+.faq-list li:first-child{border-top:none}
+.faq-list li:last-child{border-bottom:none}
+.faq-list li a{font:bold 14px 'Fira Sans',Arial,Helvetica,sans-serif;color:#4d4d4d;display:block;padding:10px 10px 10px 40px;text-transform:uppercase}
+.faq-list li a:hover{color:#2d6eac}
+.icon-faq1{background:transparent url(../img/faq.png) no-repeat scroll 0 2px}
+.icon-faq2{background:transparent url(../img/faq.png) no-repeat scroll 0 -38px}
+.icon-faq3{background:transparent url(../img/faq.png) no-repeat scroll 0 -79px}
+.icon-faq4{background:transparent url(../img/faq.png) no-repeat scroll 0 -123px}
+.icon-faq5{background:transparent url(../img/faq.png) no-repeat scroll 0 -166px}
+.icon-faq6{background:transparent url(../img/faq.png) no-repeat scroll 0 -208px}
+.icon-faq7{background:transparent url(../img/faq.png) no-repeat scroll 0 -250px}
+.icon-faq8{background:transparent url(../img/faq.png) no-repeat scroll 0 -294px}
+.icon-faq9{background:transparent url(../img/faq.png) no-repeat scroll 0 -336px}
+.icon-faq10{background:transparent url(../img/faq.png) no-repeat scroll 0 -380px}
+.icon-faq11{background:transparent url(../img/faq.png) no-repeat scroll 0 -424px}
+.icon-faq1:hover{background:transparent url(../img/faq1.png) no-repeat scroll 0 2px}
+.icon-faq2:hover{background:transparent url(../img/faq1.png) no-repeat scroll 0 -38px}
+.icon-faq3:hover{background:transparent url(../img/faq1.png) no-repeat scroll 0 -79px}
+.icon-faq4:hover{background:transparent url(../img/faq1.png) no-repeat scroll 0 -123px}
+.icon-faq5:hover{background:transparent url(../img/faq1.png) no-repeat scroll 0 -166px}
+.icon-faq6:hover{background:transparent url(../img/faq1.png) no-repeat scroll 0 -208px}
+.icon-faq7:hover{background:transparent url(../img/faq1.png) no-repeat scroll 0 -250px}
+.icon-faq8:hover{background:transparent url(../img/faq1.png) no-repeat scroll 0 -294px}
+.icon-faq9:hover{background:transparent url(../img/faq1.png) no-repeat scroll 0 -336px}
+.icon-faq10:hover{background:transparent url(../img/faq1.png) no-repeat scroll 0 -380px}
+.icon-faq11:hover{background:transparent url(../img/faq1.png) no-repeat scroll 0 -424px}
+.icon-faqw{background:transparent url(../img/icon-faq.png) no-repeat scroll 0 0}
+.tgl{font:bold 17px/17px 'Fira Sans',Arial,Helvetica,sans-serif;color:#4d4d4d;padding:14px;text-transform:uppercase;cursor:pointer;background:#bbb;background:url(../img/toggle-up.png) no-repeat scroll center right,-moz-linear-gradient(top,#dadada 0%,#bbb 100%);background:url(../img/toggle-up.png) no-repeat scroll center right,-webkit-gradient(linear,0% 0%,0% 100%,from(#dadada),to(#bbb));background:url(../img/toggle-up.png) no-repeat scroll center right,-webkit-linear-gradient(top,#dadada0%,#bbb 100%);background:url(../img/toggle-up.png) no-repeat scroll center right,-o-linear-gradient(top,#dadada 0%,#bbb 100%);background:url(../img/toggle-up.png) no-repeat scroll center right,-ms-linear-gradient(top,#dadada 0%,#bbb 100%);background:url(../img/toggle-up.png) no-repeat scroll center right,linear-gradient(top,#dadada 0%,#bbb 100%)}
+.tgl-first{border-radius:4px 4px 0 0}
+.tgl-last{border-radius:0 0 4px 4px}
+.opened{background:#cacaca url(../img/toggle-down.png) no-repeat scroll center right}
+.tgl-last.opened{border-radius:0}
+.tgl-content{font:13px/22px 'Fira Sans',Arial,Helvetica,sans-serif;color:#4d4d4d;display:none;padding:14px;background:#fff}
+.table-cnt{font:13px/22px 'Fira Sans',Arial,Helvetica,sans-serif;color:#4d4d4d;display:none;padding:0;background:#C2C2C2;border-radius:0 0 4px 4px}
+.tgl-content p{padding:0 0 10px}
+.tgl-content > a{font:bold 13px 'Fira Sans',Arial,Helvetica,sans-serif;color:#2b6aa6}
+.resp-img{margin:14px 0;width:100%;border-radius:4px}
+.tgl-content h1,.tgl-content h2,.tgl-content h3,.tgl-content h4{color:#262626;text-transform:uppercase;margin:0 0 10px}
+.tgl-content h1{font:bold 25px 'Fira Sans',Arial,Helvetica,sans-serif}
+.tgl-content h2{font:bold 20px 'Fira Sans',Arial,Helvetica,sans-serif}
+.tgl-content h3{font:bold 17px 'Fira Sans',Arial,Helvetica,sans-serif}
+.tgl-content h4{font:bold 13px 'Fira Sans',Arial,Helvetica,sans-serif}
+.justify{text-align:justify}
+.tgl-content ul{list-style:none;margin:0 0 10px}
+.tgl-content ul li{border:none;padding:4px 4px 4px 20px;background:transparent url(../img/dot.png) no-repeat scroll 0 7px}
+.img-left{float:left;margin:0 20px 0 0;border-radius:4px}
+.faq-tt{display:inline-block;background:transparent url(../img/qb.png) no-repeat scroll 0 0;width:15px;height:15px;vertical-align:-1px}
+.tgl-content blockquote{font:16px/22px 'Fira Sans',Arial,Helvetica,sans-serif;color:#5F5F5F;background:#EAEAEA;border:1px solid #D9D9D9;padding:14px;border-radius:7px;text-align:center}
+blockquote > a{font:bold 16px 'Fira Sans',Arial,Helvetica,sans-serif;color:#2b6aa6}
+blockquote > a:hover{text-decoration:underline}
+.tgl-table{background:#E0E0E0;border-radius:7px;margin:14px 0}
+.tgl-table td{padding:14px;border-right:1px solid #BFBFBF}
+.tgl-table td:last-child{border:none}
+.block40{width:40%}
+.sep{margin:15px 0}
+.on-top{margin:20px 0 0}
+.table-list{width:100%;border-collapse:collapse;border-radius:0 0 4px 4px}
+.table-list tr{border-bottom:1px solid #fff;border-bottom:1px solid #AAA;background:#C2C2C2}
+.table-list tr:hover{background:#BCBCBC}
+.table-list th, .table-list th a{font:bold 14px 'Fira Sans',Arial,Helvetica,sans-serif;color:#4d4d4d;background:#D4D4D4;padding:14px 10px}
+.table-list td{font:14px 'Fira Sans',Arial,Helvetica,sans-serif;color:#4d4d4d;padding:8px 10px;background:transparent}
+.table-list tr:last-child{border-radius:0 0 4px 4px}
+.blue-small{font:13px 'Fira Sans',Arial,Helvetica,sans-serif;padding:2px 8px;cursor:pointer;color:#fcfcfc;background:-webkit-linear-gradient(#72a8d9,#2d6dac);background:-o-linear-gradient(#72a8d9,#2d6dac);background:-moz-linear-gradient(#72a8d9,#2d6dac);background:linear-gradient(#72a8d9,#2d6dac);border-radius:4px}
+.blue-small:hover{background:#72a8d9}
+.silv-small{font:13px 'Fira Sans',Arial,Helvetica,sans-serif;padding:2px 8px;cursor:pointer;color:#000;background:-webkit-linear-gradient(#fff,#c2c2c2);background:-o-linear-gradient(#fff,#c2c2c2);background:-moz-linear-gradient(#fff,#c2c2c2);background:linear-gradient(#fff,#c2c2c2);border-radius:4px}
+.silv-small:hover{background:#fff}
+#submenu{background:#2D6EAC;padding:15px 0}
+#submenu .container{margin:0 auto}
+#submenu ul{list-style:none}
+#submenu ul > li{float:left;border-left:1px solid #24588A;border-right:1px solid #578BBD;padding:4px 10px;position:relative}
+#submenu ul > li:first-child{border-left:none}
+#submenu ul > li:last-child{border-right:none}
+#submenu ul > li > a{font:14px 'Fira Sans',Arial,Helvetica,sans-serif;color:#fff;text-transform:uppercase}
+#submenu ul > li > a:hover{text-decoration:underline}
+#submenu ul > li > ul{position:absolute;top:100%;right:0;background:#2d6eac;border-radius:0 0 4px 4px;padding:5px;z-index:9999999999;list-style:none;display:none;box-shadow:2px 2px 2px #000}
+#submenu ul > li:hover ul{display:block}
+#submenu ul > li > ul > li{border:none;border-bottom:1px solid #24588A;border-top:1px solid #578BBD;min-width:180px}
+#submenu ul > li > ul > li:first-child{border-top:none}
+#submenu ul > li > ul > li:last-child{border-bottom:none}
+.search-box{border:4px solid #f3f3f3;border-radius:6px;background:#f3f3f3;padding:4px;margin:0 0 10px}
+#submenu ul li a.time{background:transparent url(../img/sub-icon1.png) no-repeat scroll 8px 0;padding:4px 10px 4px 34px}
+#submenu ul li a.chart{background:transparent url(../img/sub-icon2.png) no-repeat scroll 8px 0;padding:4px 10px 4px 34px}
+.srch-inp{font:16px 'Fira Sans',Arial,Helvetica,sans-serif;float:left;background:#fff;border-radius:4px;padding:4px;width:200px}
+.srch-btn{float:right;width:25px;height:25px;background:transparent url(../img/search.png);cursor:pointer}
+.top-important{border-radius:4px;margin:0 0 4px;background:#E7E7E7}
+.top-important a{display:block;padding:10px 10px 10px 50px;font:bold 14px 'Fira Sans',Arial,Helvetica,sans-serif;color:#000;text-transform:uppercase;border-radius:4px}
+
+.sports-menu { background:#E7E7E7; }
+.sports-menu.premierleague { background:#E7E7E7 url(../img/sports-menu/premierleague.png) no-repeat }
+.sports-menu.premierleague a:hover { background:#2D6EAC url(../img/sports-menu/premierleague.png) no-repeat; color:#fff }
+
+.sports-menu { background:#E7E7E7; }
+.sports-menu.championsleague { background:#E7E7E7 url(../img/sports-menu/championsleague.png) no-repeat }
+.sports-menu.championsleague a:hover { background:#2D6EAC url(../img/sports-menu/championsleague.png) no-repeat; color:#fff }
+
+.sports-menu { background:#E7E7E7; }
+.sports-menu.primeradivision { background:#E7E7E7 url(../img/sports-menu/primeradivision.png) no-repeat }
+.sports-menu.primeradivision a:hover { background:#2D6EAC url(../img/sports-menu/primeradivision.png) no-repeat; color:#fff }
+
+.sports-menu { background:#E7E7E7; }
+.sports-menu.bundesliga { background:#E7E7E7 url(../img/sports-menu/bundesliga.png) no-repeat }
+.sports-menu.bundesliga a:hover { background:#2D6EAC url(../img/sports-menu/bundesliga.png) no-repeat; color:#fff }
+
+.sports-menu { background:#E7E7E7; }
+.sports-menu.seriaa { background:#E7E7E7 url(../img/sports-menu/seriaa.png) no-repeat }
+.sports-menu.seriaa a:hover { background:#2D6EAC url(../img/sports-menu/seriaa.png) no-repeat; color:#fff }
+
+.sports-menu { background:#E7E7E7; }
+.sports-menu.superleague { background:#E7E7E7 url(../img/sports-menu/superleague.png) no-repeat }
+.sports-menu.superleague a:hover { background:#2D6EAC url(../img/sports-menu/superleague.png) no-repeat; color:#fff }
+
+.sports-menu { background:#E7E7E7; }
+.sports-menu.league1 { background:#E7E7E7 url(../img/sports-menu/league1.png) no-repeat }
+.sports-menu.league1 a:hover { background:#2D6EAC url(../img/sports-menu/league1.png) no-repeat; color:#fff }
+
+.important1{background:#E7E7E7 url(../img/bet.png) no-repeat scroll 0 0}
+.important1 a:hover{background:#2D6EAC url(../img/bet.png) no-repeat scroll 0 0;color:#fff}
+.important2{background:#E7E7E7 url(../img/bet.png) no-repeat scroll 0 -50px}
+.important2 a:hover{background:#2D6EAC url(../img/bet.png) no-repeat scroll 0 -50px;color:#fff}
+.important3{background:#E7E7E7 url(../img/bet.png) no-repeat scroll 0 -100px}
+.important3 a:hover{background:#2D6EAC url(../img/bet.png) no-repeat scroll 0 -100px;color:#fff}
+.important4{background:#E7E7E7 url(../img/bet.png) no-repeat scroll left bottom}
+.important4 a:hover{background:#2D6EAC url(../img/bet.png) no-repeat scroll left bottom;color:#fff}
+.sports-list{list-style:none}
+.sports-list li{border-bottom:1px solid #dadada;border-top:1px solid #fff}
+.sports-list li:first-child{border-top:none}
+.sports-list li:last-child{border-bottom:none}
+.sports-list li a{font:bold 14px 'Fira Sans',Arial,Helvetica,sans-serif;color:#4d4d4d;display:block;padding:10px 10px 10px 40px;text-transform:uppercase}
+.sports-list li a span{font:normal 14px 'Fira Sans',Arial,Helvetica,sans-serif}
+.sports-list li a:hover{color:#2d6eac}
+.icon-sportFootball{background:transparent url(../img/icons/sports/football-grey.png) no-repeat scroll 4px 8px}
+.icon-sportTennis{background:transparent url(../img/icons/sports/tennis-grey.png) no-repeat scroll 4px 8px}
+.icon-sportFormula1{background:transparent url(../img/icons/sports/formula1-grey.png) no-repeat scroll 4px 8px}
+.icon-sportBasketball{background:transparent url(../img/icons/sports/basketball-grey.png) no-repeat scroll 4px 8px}
+.icon-sportRugbyUnion{background:transparent url(../img/icons/sports/rugbyunion-grey.png) no-repeat scroll 4px 8px}
+.icon-sportCycling{background:transparent url(../img/icons/sports/cycling-grey.png) no-repeat scroll 4px 8px}
+.icon-sportGolf{background:transparent url(../img/icons/sports/golf-grey.png) no-repeat scroll 4px 8px}
+.icon-sportVolleyball{background:transparent url(../img/icons/sports/volleyball-grey.png) no-repeat scroll 4px 8px}
+.icon-sportHandball{background:transparent url(../img/icons/sports/handball-grey.png) no-repeat scroll 4px 8px}
+.icon-sportCricket{background:transparent url(../img/icons/sports/cricket-grey.png) no-repeat scroll 4px 8px}
+.icon-sportIceHockey{background:transparent url(../img/icons/sports/icehockey-grey.png) no-repeat scroll 4px 8px}
+.icon-sportAmericanFootball{background:transparent url(../img/icons/sports/americanfootball-grey.png) no-repeat scroll 4px 8px}
+.icon-sportMotorcycling{background:transparent url(../img/icons/sports/motorcycling-grey.png) no-repeat scroll 4px 8px}
+.icon-sportBoxing{background:transparent url(../img/icons/sports/boxing-grey.png) no-repeat scroll 4px 8px}
+.icon-sportRally{background:transparent url(../img/icons/sports/rally-grey.png) no-repeat scroll 4px 8px}
+.icon-sportBaseball{background:transparent url(../img/icons/sports/baseball-grey.png) no-repeat scroll 4px 8px}
+.icon-sportDarts{background:transparent url(../img/icons/sports/darts-grey.png) no-repeat scroll 4px 8px}
+.icon-sportSnooker{background:transparent url(../img/icons/sports/snooker-grey.png) no-repeat scroll 4px 8px}
+.icon-sportSpeedway{background:transparent url(../img/icons/sports/speedway-grey.png) no-repeat scroll 4px 8px}
+.icon-sportFutsal{background:transparent url(../img/icons/sports/futsal-grey.png) no-repeat scroll 4px 8px}
+.icon-sportCurling{background:transparent url(../img/icons/sports/curling-grey.png) no-repeat scroll 4px 8px}
+.icon-sportAustralianRules{background:transparent url(../img/icons/sports/australianrules-grey.png) no-repeat scroll 4px 8px}
+.icon-sportOlympicAthletics{background:transparent url(../img/icons/sports/olympicathletics-grey.png) no-repeat scroll 4px 8px}
+.icon-sportFloorball{background:transparent url(../img/icons/sports/floorball-grey.png) no-repeat scroll 4px 8px}
+.icon-sportTableTennis{background:transparent url(../img/icons/sports/tabletennis-grey.png) no-repeat scroll 4px 8px}
+.icon-sportRugbyLeague{background:transparent url(../img/icons/sports/rugbyleague-grey.png) no-repeat scroll 4px 8px}
+.icon-sportBeachVolley{background:transparent url(../img/icons/sports/beachvolley-grey.png) no-repeat scroll 4px 8px}
+.icon-sportBeachSoccer{background:transparent url(../img/icons/sports/football-grey.png) no-repeat scroll 4px 8px}
+.icon-sportNascar{background:transparent url(../img/icons/sports/nascar-grey.png) no-repeat scroll 4px 8px}
+.icon-sportBadminton{background:transparent url(../img/icons/sports/badminton-grey.png) no-repeat scroll 4px 8px}
+.icon-sportMartialArts{background:transparent url(../img/icons/sports/martialarts-grey.png) no-repeat scroll 4px 8px}
+.icon-sportRinkHockey{background:transparent url(../img/icons/sports/rinkhockey-grey.png) no-repeat scroll 4px 8px}
+.icon-sportPesapallo{background:transparent url(../img/icons/sports/baseball-grey.png) no-repeat scroll 4px 8px}
+.icon-sportSwimming	{background:transparent url(../img/icons/sports/swimming-grey.png) no-repeat scroll 4px 8px}
+.icon-sportIndycar{background:transparent url(../img/icons/sports/indycar-grey.png) no-repeat scroll 4px 8px}
+.icon-sportFieldHockey{background:transparent url(../img/icons/sports/fieldhockey-grey.png) no-repeat scroll 4px 8px}
+.icon-sportEnduranceRacing{background:transparent url(../img/icons/sports/enduranceRacing-grey.png) no-repeat scroll 4px 8px}
+.icon-sportWaterpolo{background:transparent url(../img/icons/sports/waterpolo-grey.png) no-repeat scroll 4px 8px}
+.icon-sportAthletics{background:transparent url(../img/icons/sports/athletics-grey.png) no-repeat scroll 4px 8px}
+.icon-sportOlympicSwimming{background:transparent url(../img/icons/sports/olympicswimming-grey.png) no-repeat scroll 4px 8px}
+.icon-sportSailing{background:transparent url(../img/icons/sports/sailing-grey.png) no-repeat scroll 4px 8px}
+.icon-sportJudo{background:transparent url(../img/icons/sports/judo-grey.png) no-repeat scroll 4px 8px}
+.icon-sportRowing{background:transparent url(../img/icons/sports/rowing-grey.png) no-repeat scroll 4px 8px}
+.icon-sportDiving{background:transparent url(../img/icons/sports/diving-grey.png) no-repeat scroll 4px 8px}
+.icon-sportArchery{background:transparent url(../img/icons/sports/archery-grey.png) no-repeat scroll 4px 8px}
+.icon-sportRhythmicGymnastics{background:transparent url(../img/icons/sports/rhythmicgymnastics-grey.png) no-repeat scroll 4px 8px}
+.icon-sportTaekwondo{background:transparent url(../img/icons/sports/taekwondo-grey.png) no-repeat scroll 4px 8px}
+.icon-sportWeightlifting{background:transparent url(../img/icons/sports/weightlifting-grey.png) no-repeat scroll 4px 8px}
+.icon-sportOlympicSpecials{background:transparent url(../img/icons/sports/olympicspecials-grey.png) no-repeat scroll 4px 8px}
+.icon-sportFootballSpecials{background:transparent url(../img/icons/sports/footballspecials-grey.png) no-repeat scroll 4px 8px}
+.icon-sportFencing{background:transparent url(../img/icons/sports/fencing-grey.png) no-repeat scroll 4px 8px}
+.icon-sportCanoe-KayakFlatwater{background:transparent url(../img/icons/sports/canoe-kayakflatwater-grey.png) no-repeat scroll 4px 8px}
+.icon-sportCanoe-KayakSlalom{background:transparent url(../img/icons/sports/canoe-kayakslalom-grey.png) no-repeat scroll 4px 8px}
+.icon-sportEquestrian{background:transparent url(../img/icons/sports/equestrian-grey.png) no-repeat scroll 4px 8px}
+.icon-sportArtisticGymnastics{background:transparent url(../img/icons/sports/artisticgymnastics-grey.png) no-repeat scroll 4px 8px}
+.icon-sportTrampolining{background:transparent url(../img/icons/sports/trampolining-grey.png) no-repeat scroll 4px 8px}
+.icon-sportModernPentathlon{background:transparent url(../img/icons/sports/modernpentathlon-grey.png) no-repeat scroll 4px 8px}
+.icon-sportShooting{background:transparent url(../img/icons/sports/shooting-grey.png) no-repeat scroll 4px 8px}
+.icon-sportTriathlon{background:transparent url(../img/icons/sports/triathlon-grey.png) no-repeat scroll 4px 8px}
+.icon-sportWrestling{background:transparent url(../img/icons/sports/wrestling-grey.png) no-repeat scroll 4px 8px}
+.icon-sportSynchronisedSwimming{background:transparent url(../img/icons/sports/swimming-grey.png) no-repeat scroll 4px 8px}
+.icon-sportBandy{background:transparent url(../img/icons/sports/bandy-grey.png) no-repeat scroll 4px 8px}
+.icon-sportAlpineSkiing{background:transparent url(../img/icons/sports/alpineskiing-grey.png) no-repeat scroll 4px 8px}
+.icon-sportBiathlon{background:transparent url(../img/icons/sports/biathlon-grey.png) no-repeat scroll 4px 8px}
+.icon-sportSkiJumping{background:transparent url(../img/icons/sports/alpineskiing-grey.png) no-repeat scroll 4px 8px}
+.icon-sportCross-CountrySkiing{background:transparent url(../img/icons/sports/biathlon-grey.png) no-repeat scroll 4px 8px}
+
+.icon-sport1{background:transparent url(../img/icons/sports/football-grey.png) no-repeat scroll 4px 8px}
+.icon-sport2{background:transparent url(../img/icons/sports/tennis-grey.png) no-repeat scroll 4px 8px}
+.icon-sport3{background:transparent url(../img/icons/sports/formula1-grey.png) no-repeat scroll 4px 8px}
+.icon-sport4{background:transparent url(../img/icons/sports/basketball-grey.png) no-repeat scroll 4px 8px}
+.icon-sport5{background:transparent url(../img/icons/sports/rugbyunion-grey.png) no-repeat scroll 4px 8px}
+.icon-sport6{background:transparent url(../img/icons/sports/cycling-grey.png) no-repeat scroll 4px 8px}
+.icon-sport7{background:transparent url(../img/icons/sports/golf-grey.png) no-repeat scroll 4px 8px}
+.icon-sport8{background:transparent url(../img/icons/sports/volleyball-grey.png) no-repeat scroll 4px 8px}
+.icon-sport9{background:transparent url(../img/icons/sports/handball-grey.png) no-repeat scroll 4px 8px}
+.icon-sport10{background:transparent url(../img/icons/sports/cricket-grey.png) no-repeat scroll 4px 8px}
+.icon-sport11{background:transparent url(../img/icons/sports/icehockey-grey.png) no-repeat scroll 4px 8px}
+.icon-sport12{background:transparent url(../img/icons/sports/americanfootball-grey.png) no-repeat scroll 4px 8px}
+.icon-sport13{background:transparent url(../img/icons/sports/motorcycling-grey.png) no-repeat scroll 4px 8px}
+.icon-sport14{background:transparent url(../img/icons/sports/boxing-grey.png) no-repeat scroll 4px 8px}
+.icon-sport15{background:transparent url(../img/icons/sports/rally-grey.png) no-repeat scroll 4px 8px}
+.icon-sport16{background:transparent url(../img/icons/sports/baseball-grey.png) no-repeat scroll 4px 8px}
+.icon-sport17{background:transparent url(../img/icons/sports/darts-grey.png) no-repeat scroll 4px 8px}
+.icon-sport18{background:transparent url(../img/icons/sports/snooker-grey.png) no-repeat scroll 4px 8px}
+.icon-sport19{background:transparent url(../img/icons/sports/speedway-grey.png) no-repeat scroll 4px 8px}
+.icon-sport20{background:transparent url(../img/icons/sports/futsal-grey.png) no-repeat scroll 4px 8px}
+.icon-sport21{background:transparent url(../img/icons/sports/curling-grey.png) no-repeat scroll 4px 8px}
+.icon-sport22{background:transparent url(../img/icons/sports/australianrules-grey.png) no-repeat scroll 4px 8px}
+.icon-sport23{background:transparent url(../img/icons/sports/olympicathletics-grey.png) no-repeat scroll 4px 8px}
+.icon-sport24{background:transparent url(../img/icons/sports/floorball-grey.png) no-repeat scroll 4px 8px}
+.icon-sport25{background:transparent url(../img/icons/sports/tabletennis-grey.png) no-repeat scroll 4px 8px}
+.icon-sport26{background:transparent url(../img/icons/sports/rugbyleague-grey.png) no-repeat scroll 4px 8px}
+.icon-sport32{background:transparent url(../img/icons/sports/beachvolley-grey.png) no-repeat scroll 4px 8px}
+.icon-sport27{background:transparent url(../img/icons/sports/football-grey.png) no-repeat scroll 4px 8px}
+.icon-sport28{background:transparent url(../img/icons/sports/nascar-grey.png) no-repeat scroll 4px 8px}
+.icon-sport29{background:transparent url(../img/icons/sports/badminton-grey.png) no-repeat scroll 4px 8px}
+.icon-sport30{background:transparent url(../img/icons/sports/martialarts-grey.png) no-repeat scroll 4px 8px}
+.icon-sport31{background:transparent url(../img/icons/sports/rinkhockey-grey.png) no-repeat scroll 4px 8px}
+.icon-sport33{background:transparent url(../img/icons/sports/baseball-grey.png) no-repeat scroll 4px 8px}
+.icon-sport34{background:transparent url(../img/icons/sports/swimming-grey.png) no-repeat scroll 4px 8px}
+.icon-sport35{background:transparent url(../img/icons/sports/indycar-grey.png) no-repeat scroll 4px 8px}
+.icon-sport36{background:transparent url(../img/icons/sports/fieldhockey-grey.png) no-repeat scroll 4px 8px}
+.icon-sport37{background:transparent url(../img/icons/sports/enduranceRacing-grey.png) no-repeat scroll 4px 8px}
+.icon-sport38{background:transparent url(../img/icons/sports/waterpolo-grey.png) no-repeat scroll 4px 8px}
+.icon-sport39{background:transparent url(../img/icons/sports/athletics-grey.png) no-repeat scroll 4px 8px}
+.icon-sport40{background:transparent url(../img/icons/sports/olympicswimming-grey.png) no-repeat scroll 4px 8px}
+.icon-sport41{background:transparent url(../img/icons/sports/sailing-grey.png) no-repeat scroll 4px 8px}
+.icon-sport42{background:transparent url(../img/icons/sports/judo-grey.png) no-repeat scroll 4px 8px}
+.icon-sport43{background:transparent url(../img/icons/sports/rowing-grey.png) no-repeat scroll 4px 8px}
+.icon-sport44{background:transparent url(../img/icons/sports/diving-grey.png) no-repeat scroll 4px 8px}
+.icon-sport45{background:transparent url(../img/icons/sports/archery-grey.png) no-repeat scroll 4px 8px}
+.icon-sport46{background:transparent url(../img/icons/sports/rhythmicgymnastics-grey.png) no-repeat scroll 4px 8px}
+.icon-sport47{background:transparent url(../img/icons/sports/taekwondo-grey.png) no-repeat scroll 4px 8px}
+.icon-sport48{background:transparent url(../img/icons/sports/weightlifting-grey.png) no-repeat scroll 4px 8px}
+.icon-sport49{background:transparent url(../img/icons/sports/olympicspecials-grey.png) no-repeat scroll 4px 8px}
+.icon-sport50{background:transparent url(../img/icons/sports/footballspecials-grey.png) no-repeat scroll 4px 8px}
+.icon-sport51{background:transparent url(../img/icons/sports/fencing-grey.png) no-repeat scroll 4px 8px}
+.icon-sport52{background:transparent url(../img/icons/sports/canoe-kayakflatwater-grey.png) no-repeat scroll 4px 8px}
+.icon-sport53{background:transparent url(../img/icons/sports/canoe-kayakslalom-grey.png) no-repeat scroll 4px 8px}
+.icon-sport54{background:transparent url(../img/icons/sports/equestrian-grey.png) no-repeat scroll 4px 8px}
+.icon-sport55{background:transparent url(../img/icons/sports/artisticgymnastics-grey.png) no-repeat scroll 4px 8px}
+.icon-sport56{background:transparent url(../img/icons/sports/trampolining-grey.png) no-repeat scroll 4px 8px}
+.icon-sport57{background:transparent url(../img/icons/sports/modernpentathlon-grey.png) no-repeat scroll 4px 8px}
+.icon-sport58{background:transparent url(../img/icons/sports/shooting-grey.png) no-repeat scroll 4px 8px}
+.icon-sport59{background:transparent url(../img/icons/sports/triathlon-grey.png) no-repeat scroll 4px 8px}
+.icon-sport60{background:transparent url(../img/icons/sports/wrestling-grey.png) no-repeat scroll 4px 8px}
+.icon-sport61{background:transparent url(../img/icons/sports/swimming-grey.png) no-repeat scroll 4px 8px}
+.icon-sport62{background:transparent url(../img/icons/sports/bandy-grey.png) no-repeat scroll 4px 8px}
+.icon-sport63{background:transparent url(../img/icons/sports/alpineskiing-grey.png) no-repeat scroll 4px 8px}
+.icon-sport64{background:transparent url(../img/icons/sports/biathlon-grey.png) no-repeat scroll 4px 8px}
+.icon-sport65{background:transparent url(../img/icons/sports/alpineskiing-grey.png) no-repeat scroll 4px 8px}
+.icon-sport66{background:transparent url(../img/icons/sports/biathlon-grey.png) no-repeat scroll 4px 8px}
+
+.icon-bucket{width:23px;height:23px;background:transparent url(../img/icon-bucket.png) no-repeat}
+.filter-side{margin:10px 0 0}
+.filter-top{background:#DBDBDB;padding:6px;border-radius:4px 4px 0 0;font:bold 14px 'Fira Sans',Arial,Helvetica,sans-serif;color:#4d4d4d;text-transform:uppercase;border-bottom:1px solid #C5C5C5}
+.filt-close{background:#DBDBDB url(../img/toggle-down-small.png) no-repeat scroll right center;cursor:pointer}
+.filt-close.opened{background:#CFCFCF url(../img/toggle-up-small.png) no-repeat scroll right center;border-radius:4px}
+.filter-con{border-top:1px solid #fff;background:#F3F3F3;padding:6px;font:13px 'Fira Sans',Arial,Helvetica,sans-serif;color:#4d4d4d}
+.last-con{border-radius:0 0 4px 4px}
+.filter-top input[type="checkbox"] + label span,.filter-con input[type="checkbox"] + label span{display:inline-block;width:20px;height:20px;margin:0 4px 0 0;vertical-align:middle;background:transparent url(../img/ch6.png) no-repeat scroll 0 0;cursor:pointer}
+.filter-top input[type="checkbox"]:checked + label span,.filter-con input[type="checkbox"]:checked + label span{background:transparent url(../img/ch5.png) no-repeat scroll 0 0}
+.slider-main{width:100%;margin:0 0 14px}
+.slider-main .carousel,.slider-main .carousel img{border-radius:4px}
+.main-bets{width:100%;margin:0 0 14px;background:#F3F3F3;padding:4px;border-radius:4px}
+.main-bets h1{font:bold 20px 'Fira Sans',Arial,Helvetica,sans-serif;color:#000;padding:5px;text-transform:uppercase}
+.main-bets h1.inside {padding: 7px 0 0 39px;}
+.main-bets .nav-tabs{float:right}
+.main-bets .nav-tabs > li{float:left;margin:0 0 0 10px;list-style:none}
+.main-bets .nav-tabs > li > a{font:bold 14px 'Fira Sans',Arial,Helvetica,sans-serif;display:block;background:#D4D4D4;border-radius:4px;padding:10px 8px 10px 40px;text-transform:uppercase;color:#000}
+.main-bets .nav-tabs > li.tab-bas.active > a{background:#2D6EAC url(../img/top-bets2.png) no-repeat scroll 2px 2px}
+.main-bets .nav-tabs > li.tab-fot.active > a{background:#2D6EAC url(../img/top-bets2.png) no-repeat scroll -140px 2px}
+.main-bets .nav-tabs > li.tab-ten.active > a{background:#2D6EAC url(../img/top-bets2.png) no-repeat scroll -270px 0}
+.main-bets .nav-tabs > li.tab-ice.active > a{background:#2D6EAC url(../img/top-bets2.png) no-repeat scroll -384px 2px}
+.main-bets .nav-tabs > li.tab-bas > a{background:#D4D4D4 url(../img/top-bets.png) no-repeat scroll 2px 2px}
+.main-bets .nav-tabs > li.tab-fot > a{background:#D4D4D4 url(../img/top-bets.png) no-repeat scroll -140px 2px}
+.main-bets .nav-tabs > li.tab-ten > a{background:#D4D4D4 url(../img/top-bets.png) no-repeat scroll -270px 0}
+.main-bets .nav-tabs > li.tab-ice > a{background:#D4D4D4 url(../img/top-bets.png) no-repeat scroll -384px 2px}
+.main-bets .nav-tabs > li.active > a,.main-bets .nav-tabs > li.active > a:hover,.main-bets .nav-tabs > li.active > a:focus{cursor:default;color:#fff}
+.main-bets .tab-content > .tab-pane{display:none}
+.main-bets .tab-content > .active{width:100%;display:block;padding:10px;margin:0;background:#F3F3F3;border-radius:0 0 4px 0}
+.main-bets .tab-content{font:14px 'Fira Sans',Arial,Helvetica,sans-serif}
+.tab-content h4{font:bold 13px 'Fira Sans',Arial,Helvetica,sans-serif;margin:0 0 6px}
+.bets-panel{border-top:1px solid #DADADA;border-bottom:1px solid #fff;list-style:none}
+.tgl-blue-content .bets-panel{border-top:1px solid #265E92;border-bottom:1px solid #427DB4;list-style:none}
+.bets-panel li{font:12px 'Fira Sans',Arial,Helvetica,sans-serif;color:#000;border-top:1px solid #fff;border-bottom:1px solid #DADADA;padding:10px 0}
+.tgl-blue-content .bets-panel li{border-top:1px solid #427DB4;border-bottom:1px solid #265E92;padding:10px}
+.bets-panel li > a,.bets-panel li > p{font:bold 12px 'Fira Sans',Arial,Helvetica,sans-serif;color:#000}
+.tgl-blue-content .bets-panel li > a{font:bold 13px 'Fira Sans',Arial,Helvetica,sans-serif;color:#fff}
+.tgl-blue-content .more-info{font:13px 'Fira Sans',Arial,Helvetica,sans-serif;color:#fff}
+.h2-bets{font:bold 18px 'Fira Sans',Arial,Helvetica,sans-serif;color:#000;margin:20px 0 0}
+.h2-time{font:bold 14px 'Fira Sans',Arial,Helvetica,sans-serif;color:#929292;display:inline-block;padding:0 0 0 18px;margin:0 0 0 10px;background:transparent url(../img/time-small.png) no-repeat scroll 0 2px}
+.box-w2{padding:0 4px;float:left;border-right:1px solid #dadada}
+.box-w3{font:bold 14px 'Fira Sans',Arial,Helvetica,sans-serif;padding:0 4px;float:left;border-left:1px solid #fff;border-right:1px solid #dadada;text-align:center;min-width:160px}
+.box-w3 h5{font:bold 14px 'Fira Sans',Arial,Helvetica,sans-serif;margin:6px 0}
+.box-w4{padding:0 4px;float:left;border-left:1px solid #fff}
+.box-w4 a{float:none;margin:4px auto 0;width:30px}
+.btv{color:#000;cursor:pointer;margin:4px 0}
+.btv span{float:right;display:block;background:#d4d4d4;font:normal 14px 'Fira Sans',Arial,Helvetica,sans-serif;border-left:1px solid #f3f3f3;padding:6px 12px;border-radius:0 4px 4px 0}
+.btv em{font:normal 14px 'Fira Sans',Arial,Helvetica,sans-serif;display:block;float:right;background:#C1C1C1;padding:6px 12px;border-radius:4px 0 0 4px}
+.btv:hover span,.btv:hover em{background:#2c6dab;color:#fff}
+a.add-plus{font:bold 13px 'Fira Sans',Arial,Helvetica,sans-serif;display:block;float:right;background:#d4d4d4;padding:6px;border-radius:4px;color:#515151}
+a.add-plus:hover{background:#fff;color:#528cc3}
+.txt-btv{font:bold 13px 'Fira Sans',Arial,Helvetica,sans-serif;color:#528cc3;float: right;margin: 10px 10px 0 0;
+}
+.lock-btn{background:#265e93 url(../img/pass-icon-wi.png) no-repeat scroll center center;border-radius:4px;color:#515151;width:90px;height:29px;margin:4px 0 0 6px}
+.ttime{font:12px 'Fira Sans',Arial,Helvetica,sans-serif;color:#858585;padding:2px 2px 2px 20px;background:transparent url(../img/time-small.png) no-repeat scroll 0 2px}
+.lmb{font:14px 'Fira Sans',Arial,Helvetica,sans-serif;color:#000;float:left;margin:0 0 0 10px;cursor:pointer}
+.tgl-blue-content .lmb{margin:4px 0 0 10px}
+.lmb span{display:block;float:right;background:#D4D4D4;padding:6px 12px;border-radius:0 4px 4px 0}
+.lmb em{font:normal 14px 'Fira Sans',Arial,Helvetica,sans-serif;display:block;float:right;background:#C1C1C1;padding:6px 12px;border-right:1px solid #F3F3F3;border-radius:4px 0 0 4px}
+.lmb:hover span,.lmb:hover em{background:#2D6EAC;color:#fff}
+.tgl-blue-content .lmb:hover span,.tgl-blue-content .lmb:hover em{background:#fff;color:#2D6EAC}
+.tgl-blue-content .lmb em{border-right:1px solid #2D6EAC}
+.lmb-tv{display:block;width:30px;height:30px;margin:0 0 0 10px;float:left;border-radius:4px;background:#D4D4D4 url(../img/tv.png) no-repeat scroll 5px 6px}
+.lmb-tv:hover{background:#fff url(../img/tv2.png) no-repeat scroll 5px 6px}
+.lmb-chart{display:block;width:30px;height:30px;margin:0 0 0 10px;float:left;border-radius:4px;background:#D4D4D4 url(../img/tv.png) no-repeat scroll -33px 6px}
+.lmb-chart:hover{background:#fff url(../img/tv2.png) no-repeat scroll -33px 6px}
+a.plus{font:normal 14px 'Fira Sans',Arial,Helvetica,sans-serif;color:#000;display:block;float:left;margin:0 0 0 10px;background:#D4D4D4;padding:6px;border-radius:4px;height:30px}
+a.plus:hover{background:#fff;color:#2D6EAC}
+.tgl-blue-content .lmb-tv,.tgl-blue-content .bets-panel li a.plus,.tgl-blue-content .lmb-chart{margin:4px 0 0 10px}
+.banner{width:100%;height:auto;border-radius:6px;position:relative;margin:14px 0}
+.banner img.bg{width:100%;border-radius:6px}
+.vs{position:absolute;top:5px;left:0;width:100%;font:bold 20px 'Fira Sans',Arial,Helvetica,sans-serif;color:#fff;text-align:center;text-transform:uppercase;z-index:99;text-shadow:1px 1px 2px #000}
+.vs span{padding:0 30px}
+.vs a{color:#fff}
+.clock-gray{font:16px 'Fira Sans',Arial,Helvetica,sans-serif;color:#fff;position:absolute;bottom:10px;left:0;text-align:center;width:100%;opacity:.9;text-shadow:1px 1px 2px #000}
+.clock{display:inline;vertical-align:-1px;opacity:1}
+.banner > .btn-silver{position:absolute;left:10px;bottom:10px}
+.light-menu ul{list-style:none;background:#E0E0E0;border-radius:4px;padding:2px;margin:0 0 14px}
+.light-menu ul li{padding:2px 10px;display:inline-block;border-right:1px solid #fff}
+.light-menu ul li:last-child{border:none}
+.light-menu ul li a{font:bold 13px 'Fira Sans',Arial,Helvetica,sans-serif;text-transform:uppercase;color:#6A6A6A}
+.light-menu ul li a:hover{color:#2B68A3}
+.tgl-blue{font:bold 17px/17px 'Fira Sans',Arial,Helvetica,sans-serif;color:#fff;padding:14px;text-transform:uppercase;cursor:pointer;background:#2D6EAC;background:url(../img/toggle-up.png) no-repeat scroll center right,-moz-linear-gradient(top,#2D6EAC 0%,#265E93 100%);background:url(../img/toggle-up.png) no-repeat scroll center right,-webkit-gradient(linear,0% 0%,0% 100%,from(#2D6EAC),to(#265E93));background:url(../img/toggle-up.png) no-repeat scroll center right,-webkit-linear-gradient(top,#2D6EAC 0%,#265E93 100%);background:url(../img/toggle-up.png) no-repeat scroll center right,-o-linear-gradient(top,#2D6EAC 0%,#265E93 100%);background:url(../img/toggle-up.png) no-repeat scroll center right,-ms-linear-gradient(top,#2D6EAC 0%,#265E93 100%);background:url(../img/toggle-up.png) no-repeat scroll center right,linear-gradient(top,#2D6EAC 0%,#265E93 100%)}
+.tgl-blue.opened{background:#2D6EAC;background:url(../img/toggle-down.png) no-repeat scroll center right,-moz-linear-gradient(top,#2D6EAC 0%,#265E93 100%);background:url(../img/toggle-down.png) no-repeat scroll center right,-webkit-gradient(linear,0% 0%,0% 100%,from(#2D6EAC),to(#265E93));background:url(../img/toggle-down.png) no-repeat scroll center right,-webkit-linear-gradient(top,#2D6EAC 0%,#265E93 100%);background:url(../img/toggle-down.png) no-repeat scroll center right,-o-linear-gradient(top,#2D6EAC 0%,#265E93 100%);background:url(../img/toggle-down.png) no-repeat scroll center right,-ms-linear-gradient(top,#2D6EAC 0%,#265E93 100%);background:url(../img/toggle-down.png) no-repeat scroll center right,linear-gradient(top,#2D6EAC 0%,#265E93 100%)}
+.tgl-round,.tgl-extra{border-radius:4px}
+.tgl-round.opened,.tgl-extra.opened{border-radius:4px 4px 0 0}
+.tgl-blue-content{display:none;background:transparent}
+.tgl-small-table,.tgl-blue-table{width:100%;border-collapse:initial}
+.tgl-small-table tr,.tgl-blue-table tr{border-radius:0 0 4px 4px}
+.tgl-small-table tr td{font:12px 'Fira Sans',Arial,Helvetica,sans-serif;color:#3E3E3E;padding:10px 20px;border-right:1px solid #BFBFBF;border-left:1px solid #F1F1F1;background:#E0E0E0}
+.tgl-small-table tr td a{font:12px 'Fira Sans',Arial,Helvetica,sans-serif;color:#000}
+.tgl-small-table tr td a.right{font:bold 12px 'Fira Sans',Arial,Helvetica,sans-serif;color:#000}
+.tgl-small-table tr td a:hover{color:#2D6EAC}
+.tgl-small-table tr td em{font:normal bold 12px 'Fira Sans',Arial,Helvetica,sans-serif;color:#2D6EAC}
+.w50p{width:50%}
+.tgl-blue img{display:inline-block}
+.tgl-small-table tr td:first-child{border-left:none;border-radius:0 0 0 4px}
+.tgl-small-table tr td:last-child{border-right:none;border-radius:0 0 4px 0}
+.tgl-blue-table tr td{font:13px 'Fira Sans',Arial,Helvetica,sans-serif;color:#F2F7FB;padding:10px 20px;border-right:1px solid #265E92;border-left:1px solid #427DB4;background:#2D6EAC}
+.tgl-blue-table tr td a{font:13px 'Fira Sans',Arial,Helvetica,sans-serif;color:#fff}
+.tgl-blue-table tr td a.right{font:bold 13px 'Fira Sans',Arial,Helvetica,sans-serif;color:#fff}
+.tgl-blue-table tr td a:hover{color:#96B7D6}
+.tgl-extra{font:bold 22px/22px 'Fira Sans',Arial,Helvetica,sans-serif;color:#fff;padding:24px 14px}
+.in-blue-cell{background:#2D6EAC;padding:2px;border-radius:0 0 4px 4px}
+.bottom-tbl{width:100%;border-spacing:1px;border-collapse:separate}
+.bottom-tbl td{font:13px 'Fira Sans',Arial,Helvetica,sans-serif;padding:8px;background:#163756;color:#fff;vertical-align:middle}
+.bottom-tbl td.l-corn{background:#122C45;border-radius:4px 0 0 4px;background-clip:padding-box;text-align:center;color:#fff;font:13px 'Fira Sans',Arial,Helvetica,sans-serif;text-transform:uppercase}
+.bottom-tbl td.r-corn{background:#122C45;border-radius:0 4px 4px 0;background-clip:padding-box;text-align:center;color:#fff;font:13px 'Fira Sans',Arial,Helvetica,sans-serif;text-transform:uppercase}
+.bottom-tbl td span{float:right;color:#fff;font:bold 13px/13px 'Fira Sans',Arial,Helvetica,sans-serif;vertical-align:middle}
+.bottom-tbl td a,.bottom-tbl td span a{color:#fff}
+.bottom-tbl td a:hover,.bottom-tbl td span a:hover{color:#538dc5}
+.sidebar2{background:#F3F3F3;border-radius:6px;padding:4px}
+.sidebar2 h2{font:bold 16px 'Fira Sans',Arial,Helvetica,sans-serif;text-transform:uppercase;color:#000;padding:14px 30px}
+.ico-slip{background:transparent url(../img/icon-side1.png) no-repeat scroll 5px 14px}
+#bet-slip-container .loading { position: absolute; display: none; width: 242px; height: 100%; opacity: 0.4;  filter: alpha(opacity=40); background-color: #FFFFff; background-image: url(../img/loader.gif); background-repeat: no-repeat; background-position: 50% 55%; }
+.bl-box{border-radius:4px;padding:4px;background:#2D6EAC}
+.bl-box .nav-tabs{float:left}
+.bl-box .nav-tabs > li{float:left;margin:0 5px 5px 0;list-style:none}
+.bl-box .nav-tabs > li > a{font:bold 11px 'Fira Sans',Arial,Helvetica,sans-serif;display:block;background:#90B1D0;border-radius:3px;padding:5px;color:#000}
+.bl-box .nav-tabs > li.active > a,.bl-box .nav-tabs > li.active > a:hover,.bl-box .nav-tabs > li.active > a:focus{cursor:default;background:#fff}
+.bl-box .tab-content > .tab-pane{display:none}
+.bl-box .tab-content > .active{width:100%;display:block;padding:0;margin:0;background:transparent;border-radius:0 0 4px 0}
+.bl-box .tab-content{font:14px 'Fira Sans',Arial,Helvetica,sans-serif}
+.rell{display:block;float:right;background:transparent url(../img/icon-bucket.png) no-repeat scroll 0 0;width:16px;height:20px;margin:2px 4px 0 0}
+.stake{border-radius:4px;background:#F3F3F3;padding:4px;margin:0 0 4px}
+.stake-top{font:13px 'Fira Sans',Arial,Helvetica,sans-serif;border-bottom:1px solid #DADADA;padding:3px 0}
+.remove{display:block;float:right;width:15px;height:15px;background:transparent url(../img/close.png) no-repeat scroll 0 0;margin:0 0 0 4px}
+.stake a{font:bold 12px/20px 'Fira Sans',Arial,Helvetica,sans-serif;color:#000}
+.stake h3{font:bold 12px/20px 'Fira Sans',Arial,Helvetica,sans-serif;border-top:1px solid #fff;padding:4px 0 0}
+.stake h4{font:bold 12px/20px 'Fira Sans',Arial,Helvetica,sans-serif;text-transform:uppercase;padding:4px 0 0}
+.stake h4 span{color:#2D6EAC}
+.stake-input{font:bold 13px 'Fira Sans',Arial,Helvetica,sans-serif;float:right;padding:4px;background:#fff;border:1px solid #B7B7B7;border-radius:4px;width:40px;text-align:center}
+.stake-no{font:13px 'Fira Sans',Arial,Helvetica,sans-serif;float:left;padding:5px;background:#2D6EAC;border-radius:4px;width:40px;text-align:center;color:#fff}
+.error-log{font:bold 12px 'Fira Sans',Arial,Helvetica,sans-serif;text-transform:uppercase;color:#D34F4F;text-align:center;padding:4px 0 0}
+.total{font:14px 'Fira Sans',Arial,Helvetica,sans-serif;color:#fff;border-bottom:1px solid #28639A;padding:4px 0}
+.stake-total{font:12px 'Fira Sans',Arial,Helvetica,sans-serif;float:right;background:#21527F;color:#fff;padding:4px;border-radius:4px;width:60px;text-align:center}
+.winings{font:14px 'Fira Sans',Arial,Helvetica,sans-serif;color:#fff;border-top:1px solid #427DB4;padding:4px 0}
+.side-btn-silver{width:100%;font:bold 20px 'Fira Sans',Arial,Helvetica,sans-serif;padding:4px 8px;cursor:pointer;color:#fcfcfc;background:-webkit-linear-gradient(#72a8d9,#2d6dac);background:-o-linear-gradient(#72a8d9,#2d6dac);background:-moz-linear-gradient(#72a8d9,#2d6dac);background:linear-gradient(#72a8d9,#2d6dac);border-radius:4px;margin:6px 0 0}
+.side-btn-silver:hover{background:#72a8d9}
+.side-btn-blue{width:100%;font:bold 20px 'Fira Sans',Arial,Helvetica,sans-serif;padding:4px 8px;cursor:pointer;color:#000;background:-webkit-linear-gradient(#fff,#c2c2c2);background:-o-linear-gradient(#fff,#c2c2c2);background:-moz-linear-gradient(#fff,#c2c2c2);background:linear-gradient(#fff,#c2c2c2);border-radius:4px;margin:6px 0 0}
+.side-btn-blue:hover,.side-btn-blue.disabled{background:#fff}
+.ico-login{background:transparent url(../img/icon-side2.png) no-repeat scroll 5px 14px}
+.side-log-user{width:100%;font:19px 'Fira Sans',Arial,Helvetica,sans-serif;padding:4px 8px 4px 30px;border-radius:4px;background:#fff url(../img/side-login.png) no-repeat scroll 3px 4px}
+.side-log-pass{width:100%;font:19px 'Fira Sans',Arial,Helvetica,sans-serif;padding:4px 8px 4px 30px;border-radius:4px;margin:6px 0 0;background:#fff url(../img/side-login.png) no-repeat scroll 3px -36px}
+.wcon{font:14px 'Fira Sans',Arial,Helvetica,sans-serif;color:#505050;background:#F3F3F3;padding:14px;border-radius:4px}
+.live-bett{display:inline-block;width:25px;height:30px;vertical-align:middle;margin:0 10px 0 0;background:transparent url(../img/menu-icon4.png)}
+.arr-r{display:inline-block;background:transparent url(../img/arrow-red.png) no-repeat scroll 0 0;width:11px;height:6px;vertical-align:middle}
+.arr-g{display:inline-block;background:transparent url(../img/arrow-green.png) no-repeat scroll 0 0;width:11px;height:6px;vertical-align:middle}
+.lock{float:left;display:block;width:94px;height:29px;border-radius:4px;background:#265E93 url(../img/pass-icon-wi.png) no-repeat scroll center center;cursor:default;border:1px solid #225586}
+.open-cell{display:block}
+.slider-box .small-tbl,.slider-box .small-tbl tr{border-radius:4px;border:none}
+.slider-box .small-tbl td{border:none}
+.tgl-blue-content h3{font:bold 18px 'Fira Sans',Arial,Helvetica,sans-serif;color:#fff;padding:10px 10px 10px 30px}
+.live-tns{background:transparent url(../img/bets3.png) no-repeat scroll 3px 10px}
+footer{background:#161616 url(../img/bg-footer.png) repeat scroll;color:#484848}
+.deposit{margin:0 auto}
+.inline-cell{float:left}
+footer .logo-inline{display:table;margin-bottom:20px}
+footer .logo-inline a{display:table-cell;padding:0 15px 0 0;height:40px;overflow:hidden}
+footer .logo-inline a:last-child{padding-right:0}
+footer .logo-inline a img{display:block;max-width:100%!important;width:inherit}
+footer .logo-inline a img:last-child{margin-right:0}
+footer .logo-hover a img{margin-bottom:-40px;min-height:80px}
+footer .logo-hover a:hover img{margin:-40px 0 0}
+.img-responsive{display:block;max-width:100%;height:auto}
+.footer-menu{border-top:1px solid #2B2B2B;background:-moz-linear-gradient(top,rgba(0,0,0,0) 0%,rgba(107,107,107,0.15) 100%);background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,rgba(0,0,0,0)),color-stop(100%,rgba(107,107,107,0.15)));background:-webkit-linear-gradient(top,rgba(0,0,0,0) 0%,rgba(107,107,107,0.15) 100%);background:-o-linear-gradient(top,rgba(0,0,0,0) 0%,rgba(107,107,107,0.15) 100%);background:-ms-linear-gradient(top,rgba(0,0,0,0) 0%,rgba(107,107,107,0.15) 100%);background:linear-gradient(to bottom,rgba(0,0,0,0) 0%,rgba(107,107,107,0.15) 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000',endColorstr='#266b6b6b',GradientType=0)}
+.footer-menu > .container{font:11px/28px 'Fira Sans',Arial,Helvetica,sans-serif;margin:0 auto;padding:30px 0}
+.container > .col{float:left}
+footer h4{font:400 14px 'Fira Sans',Arial,Helvetica,sans-serif;text-transform:uppercase;color:#fff;margin:0 0 20px}
+.support, .support .reverse {list-style:none;font:13px 'Fira Sans',Arial,Helvetica,sans-serif}
+.support > li{padding:5px 0}
+.support > li > i{color:#fff;font-size:18px;margin:0 10px 0 0;vertical-align:middle}
+footer a{text-decoration:none;color:#7E7E7E}
+footer a:hover{text-decoration:underline;color:#fff}
+.footer-txt,.copyright{border-top:1px solid #2B2B2B}
+.footer-txt > .container{font:11px/28px 'Fira Sans',Arial,Helvetica,sans-serif;margin:0 auto;padding:4px 0}
+.copyright > .container{font:11px 'Fira Sans',Arial,Helvetic,sans-serif;color:#7E7E7E;margin:0 auto;padding:4px 0}
+.copyright > .container > img{margin:0 10px;display:inline;vertical-align:middle}
+.support > li{
+    font: normal 14px 'Fira Sans',Arial,Helvetic,sans-serif;color:#7E7E7E;
+}
+.virtual-main{
+    padding: 30px 10px;
+    background: #222;
+    overflow: hidden;
+}
+.virtual-main h2 {
+    font: 20px 'Open Sans', Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    color: #fff;
+    margin: 0 0 20px;
+    position: relative;
+    padding: 0 0 15px;
+}
+.virtual-main h2::before {
+	display: block;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+	height: 1px;
+	position: absolute;
+	content: "";
+	background: linear-gradient(to right, rgba(0,0,0,0.03) 0%, #c0c0c0 15%, rgba(0,0,0,0.03) 100%);
+}
+.virtual-item{
+	float: left;
+	width: 24.33%;
+	margin: 5px;
+	position: relative;
+	cursor: pointer;
+}
+
+.virtual-item::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	height: 0;
+	background: rgba(0, 0, 0, .5);
+	opacity: 0;
+	z-index: 99;
+	-webkit-transition: all .3s ease 0s;
+	-moz-transition: all .3s ease 0s;
+	-ms-transition: all .3s ease 0s;
+	-o-transition: all .3s ease 0s;
+	transition: all 0.3s ease 0s;
+}
+.virtual-item img {
+    width: 100%;
+    height: auto;
+}
+.virtual-item h3 {
+	background: linear-gradient(to right, #000, #FF8201 50%);
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+	position: relative;
+	font-weight: bold;
+	font-size: 14px;
+	margin-top: -5px;
+	height: 30px;
+	line-height: 28px;
+}
+
+
+.virtual-item .playg #signin-button, .virtual-item .playg a {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	text-align: center;
+	z-index: 999;
+	font-size: 15px;
+	font-weight: normal;
+	padding: 10px 32px;
+	color: #000;
+	background: #fff;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	opacity:0;
+	visibility: hidden;
+	transition: all ease-in-out .4s;
+	letter-spacing: 1.2px;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+ .virtual-item:hover .playg #signin-button, .virtual-item:hover .playg a {
+    opacity: 1;
+    visibility: visible;
+}
+.virtual-item:hover::after {
+    height: 100%;
+    opacity: 1;
+}
+.ui-listview > li {
+	display: block;
+	position: relative;
+	overflow: visible;
+}
+.homeBox, .homeBoxSport {
+	background-color: #bfd2e1;
+	float: left;
+	font-size: 12px;
+	height: 90%;
+	margin: 1% 0 0 1% !important;
+	position: relative;
+	width: 32%;
+	list-style: none;
+}
+
+.homeBox-span {
+	bottom: 1%;
+	color: #fff;
+	left: 0;
+	line-height: 1.1em;
+	position: absolute !important;
+	text-align: left !important;
+	white-space: normal;
+	width: 98%;
+	z-index: 5;
+	font-weight: 100;
+	padding-left: 2%;
+	font: 500 18px 'Fira Sans',Arial,Helvetica,sans-serif;
+}
+.menuBoxIconContainer {
+	color: #fff;
+	font-family: MobileAppFont !important;
+	font-size: 11em;
+	font-weight: normal !important;
+	height: 90%;
+	left: 0;
+	line-height: 1em;
+	padding-top: 10%;
+	position: absolute !important;
+	text-align: center;
+	top: 0;
+	width: 100%;
+}
+.homeBox a.ui-btn {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	color: #fff !important;
+	display: block !important;
+	padding-top: 100% !important;
+	text-align: center !important;
+	text-decoration: none;
+	text-shadow: none !important;
+	background: #0e70b9;
+	background: -moz-linear-gradient(top,#0e70b9 0,#005693 100%);
+	background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#0e70b9),color-stop(100%,#005693));
+	background: -webkit-linear-gradient(top,#0e70b9 0,#005693 100%);
+	background: -o-linear-gradient(top,#0e70b9 0,#005693 100%);
+	background: -ms-linear-gradient(top,#0e70b9 0,#005693 100%);
+	background: linear-gradient(to bottom,#0e70b9 0,#005693 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0e70b9',endColorstr='#005693',GradientType=0);
+}
+.menuBoxIconContainer {
+	color: #fff;
+	font-size: 11em;
+	font-weight: normal !important;
+	height: 90%;
+	left: 0;
+	line-height: 1em;
+	padding-top: 10%;
+	position: absolute !important;
+	text-align: center;
+	top: 0;
+	width: 100%;
+}
+
+.ui-btn:visited, {
+    background-color: #f6f6f6;
+	border-color:#ddd;
+    color: #333;
+    text-shadow: 0 1px 0 #f3f3f3;
+}
+.tw-betting {
+	background: url("../img/intro/tw-betting.png")no-repeat scroll center;
+	background-size: 90%;
+}
+.tw-sport-1000000 {
+	background: url("../img/intro/tw-sport-1000000.png")no-repeat scroll center;
+	background-size: 90%;
+}
+.tw-live-casino {
+	background: url("../img/intro/tw_live_casino_cards_2.png")no-repeat scroll center;
+	background-size: 90%;
+}
+.tw-slot-casino {
+	background: url("../img/intro/tw_casino_slot.png")no-repeat scroll center;
+	background-size: 90%;
+}
+.tw-virtual-games {
+	background: url("../img/intro/tw-virtual-games.png")no-repeat scroll center;
+	background-size: 90%;
+}
+.tw-contact {
+	background: url("../img/intro/tw-contact.png")no-repeat scroll center;
+	background-size: 90%;
+}
+.mobile-view{
+	display: none;
+}
+.fiveHead h2{
+	display: block;
+	padding: 10px 10px 10px 50px;
+	font: bold 14px 'Fira Sans',Arial,Helvetica,sans-serif;
+	color:#000;
+	cursor: pointer;
+	text-transform: uppercase;
+	border-radius: 4px;
+	border-bottom: 1px solid #dadada;
+	border-top: 1px solid #fff;
+	background: transparent url(../img/icons/sports/soccer.png) no-repeat scroll 4px 2px;
+}
+.fiveSub, .filter-box{
+	display: none;
+}
+.addBet.current em, .addBet.current span, .addBet.current{
+	background:#2c6dab;
+	color:#fff;
+}
+
+@media (max-width: 480px) {
+    header .container,nav .container,section .container,#submenu .container{width:100% !important}
+    .deposit{width:100% !important}
+    .inline-cell{width:90% !important;margin:20px}
+    .container > .col{width:350px;margin:0 0 20px}
+    .footer-menu > .container,.footer-txt > .container,.copyright > .container{width:90% !important}
+    .content{width:79%}
+    .sidebar{width:20%}
+    .sidebar2{width:20%}
+    .content-main{width:58%}
+    .row-form{min-height: auto !important}
+    .registration-form{height: 140px;}
+    .rem-txt{float:right;width:86%}
+    .carousel-indicators{bottom:10px}
+    .block40{width:44%}
+    .srch-inp{width:89% !important;}
+    .slider-box{width:70%}
+    .main-bets h1{float:left}
+    .vs{top:20px !important;font:bold 9px 'Fira Sans',Arial,Helvetica,sans-serif !important;text-align: right !important;left: -10px !important;}
+    .blue-box h5{font:500 14px 'Fira Sans',Arial,Helvetica,sans-serif;color:#81a8cd;text-transform:uppercase;margin:10px}
+    .login-input{background:#161616;border:1px solid #626161;width:140px;border-radius:5px;font:500 18px 'Fira Sans',Arial,Helvetica,sans-serif;color:#cdcdcd;padding:8px 8px 8px 30px;margin:0 0 5px}
+    .icon-user{background:#161616 url(../img/user-icon.png) no-repeat scroll 8px 10px}
+    .icon-pass{background:#161616 url(../img/pass-icon.png) no-repeat scroll 8px 10px}
+    #main-menu ul li a{display:block;padding:16px 12px;font:500 14px 'Fira Sans',Arial,Helvetica,sans-serif;color:#fff;text-transform:uppercase;letter-spacing:-1px}
+    .content-main,.sidebar,.sidebar2,.content{float:none;display:block;width:98%}
+    .content,.sidebar2{margin:0 0 14px}
+    
+    .form-login{width: 80%;}
+    .big-tbl td{padding: 6px;text-align: right;}
+    .top-head, .mid-head{font: bold 15px 'Fira Sans',Arial,Helvetica,sans-serif;margin: 0 0 20px;}
+    .carousel-caption{font: 11px 'Fira Sans',Arial,Helvetica,sans-serif !important;bottom: 30px !important;padding-bottom: 0px;}
+    .carousel-caption > .btn-more{display: none}
+    .small-tbl td{padding: 4px;font: 10px/13px 'Fira Sans',Arial,Helvetica,sans-serif;}
+    .col3{width: 100% !important;}
+/*    #loged{margin: 15px 0 0 -10px;}*/
+    .logo{float: left;left: 10px;top: -5px;}
+    .tbl-cell1, .tbl-cell2{width: 100% !important}
+    .big-tbl{width: 100%;}
+    .slider-main .carousel-indicators{bottom: 0px;left: 49%;}
+    .tstamp{margin: -5px auto;}
+    .slider-box .small-tbl td{text-align: right;}
+    .carousel-indicators li,.carousel-indicators .active{width: 9px;height: 9px;}
+    .main-bets .nav-tabs > li{margin: 10px 0 0 10px;}
+    .lmb{margin: 0px 0px 10px 3px !important;}
+    .btv span{width: 83%;text-align: center;}
+    .box-w2{width: 100%;border-right: none;}
+    .btv.right span{width: 49%;}
+    .box-w3{min-width: 49%;border: none;}
+    .lmb-tv, .lmb-chart, .add-plus {display: none;}
+    .box-w4{border: none;display: flex;width: 100%;padding: 5px 0;margin: 10px 0;border-bottom: 1px solid #ccc;border-top: 1px solid #ccc;}
+    .box-w4 a{margin: 0px auto 0;}
+    a.add-plus{padding: 4px;}
+    .form-inputs2{margin-bottom: 10px;}
+    .form-submit{float: none;text-align: center;}
+    #login-form{width: 100%;margin: 20px 0 15px 14px;}
+    .form-input{width: 74%;}
+    #submenu .left{display: none;}
+    .menutxt{display: none}
+    #main-menu ul li a .menco{display: inline-block !important;}
+    .small-tbl,.clock-gray{display: none}
+    .slider-box h1{font: 18px 'Fira Sans',Arial,Helvetica,sans-serif;}
+    .tstamp{background: none}
+    .main-bets .nav-tabs > li > a{min-height: 38px;padding: 10px 8px 10px 28px;}
+    .main-bets .nav-tabs{float: none;margin-left: auto;margin-right: auto;display: table;}
+    .bets-panel .right {margin-top: 0px !important;}
+    .nerodyti-mobile{display: none}
+    .banner > .btn-silver{left: 5px;bottom: 3px;}
+    .tgl-small-table tr td{padding: 10px 5px;font: 10px 'Fira Sans',Arial,Helvetica,sans-serif;}
+    a.plus{height: 35px !important}
+    .vs span{padding: 0 5px;}
+    .open-cell.slenkama-lentele{overflow: auto}
+    .footer-txt > .container{font: 11px/18px 'Fira Sans',Arial,Helvetica,sans-serif;}
+    .rememberme{display: block;margin-bottom: 10px}
+    .forg{margin: 0}
+    .login-btn .btn-blue{margin-bottom: 15px;}
+    .usr-pl{margin-left: 20px;}
+    #loged{padding-right: 32px;padding-left: 12%;}
+    .homeBox-span{
+    	font-size: 14px;
+    }
+
+}
+.bets-panel li > a, .bets-panel li > p, .ttime{float: left;}
+.bets-panel .pakelti {margin-top: -15px;}
+
+
+@media (max-width: 767px) {
+.mobile-view{
+	display: block;
+}
+header .container,nav .container,section .container,#submenu .container{width:740px}
+.deposit{width:740px}
+.inline-cell{width:700px;margin:20px}
+.container > .col{width:350px;margin:0 0 20px}
+.footer-menu > .container,.footer-txt > .container,.copyright > .container{width:740px}
+.content{width:79%}
+.sidebar{width:20%}
+.sidebar2{width:20%}
+.content-main{width:58%}
+.row-form{min-height:550px}
+.rem-txt{float:right;width:86%}
+.carousel-indicators{bottom:10px}
+.carousel-caption{font:18px 'Fira Sans',Arial,Helvetica,sans-serif;bottom:30px}
+.block40{width:44%}
+.srch-inp{width:680px}
+.slider-box{width:70%}
+.main-bets h1{float:left}
+.vs{top:5px;font:bold 20px 'Fira Sans',Arial,Helvetica,sans-serif}
+.blue-box h5{font:500 14px 'Fira Sans',Arial,Helvetica,sans-serif;color:#81a8cd;text-transform:uppercase;margin:10px}
+.login-input{background:#161616;border:1px solid #626161;width:140px;border-radius:5px;font:500 18px 'Fira Sans',Arial,Helvetica,sans-serif;color:#cdcdcd;padding:8px 8px 8px 30px;margin:0 0 5px}
+.icon-user{background:#161616 url(../img/user-icon.png) no-repeat scroll 8px 10px}
+.icon-pass{background:#161616 url(../img/pass-icon.png) no-repeat scroll 8px 10px}
+#main-menu ul li a{display:block;padding:16px 12px;font:500 14px 'Fira Sans',Arial,Helvetica,sans-serif;color:#fff;text-transform:uppercase;letter-spacing:-1px}
+.content-main,.sidebar,.sidebar2,.content{float:none;display:block;width:100%}
+.content,.sidebar2{margin:0 0 14px}
+.Banner4LinksFlex{
+	display: none;
+}
+}
+@media (min-width: 768px) and (max-width: 999px) {
+header .container,nav .container,section .container,#submenu .container{width:740px}
+.deposit{width:740px}
+.inline-cell{width:700px;margin:20px}
+.container > .col{width:350px;margin:0 0 20px}
+.footer-menu > .container,.footer-txt > .container,.copyright > .container{width:740px}
+.content{width:79%}
+.sidebar{width:20%}
+.sidebar2{width:20%}
+.content-main{width:58%}
+.row-form{min-height:550px}
+.rem-txt{float:right;width:86%}
+.carousel-indicators{bottom:10px}
+.carousel-caption{font:18px 'Fira Sans',Arial,Helvetica,sans-serif;bottom:30px}
+.block40{width:44%}
+.srch-inp{width:680px}
+.slider-box{width:70%}
+.main-bets h1{float:left}
+.vs{top:5px;font:bold 20px 'Fira Sans',Arial,Helvetica,sans-serif}
+.blue-box h5{font:500 14px 'Fira Sans',Arial,Helvetica,sans-serif;color:#81a8cd;text-transform:uppercase;margin:10px}
+.login-input{background:#161616;border:1px solid #626161;width:140px;border-radius:5px;font:500 18px 'Fira Sans',Arial,Helvetica,sans-serif;color:#cdcdcd;padding:8px 8px 8px 30px;margin:0 0 5px}
+.icon-user{background:#161616 url(../img/user-icon.png) no-repeat scroll 8px 10px}
+.icon-pass{background:#161616 url(../img/pass-icon.png) no-repeat scroll 8px 10px}
+#main-menu ul li a{display:block;padding:16px 12px;font:500 14px 'Fira Sans',Arial,Helvetica,sans-serif;color:#fff;text-transform:uppercase;letter-spacing:-1px}
+.content-main,.sidebar,.sidebar2,.content{float:none;display:block;width:100%}
+.content,.sidebar2{margin:0 0 14px}
+}
+@media (min-width: 1000px) {
+header .container,nav .container,section .container,#submenu .container{width:980px}
+.deposit{width:980px}
+.inline-cell{width:400px;margin:20px}
+.container > .col{width:245px}
+.footer-menu > .container,.footer-txt > .container,.copyright > .container{width:980px}
+.content{width:79%}
+.sidebar{width:20%}
+.sidebar2{width:20%}
+.content-main{width:58%}
+.row-form{min-height:550px}
+.rem-txt{float:right;width:86%}
+.carousel-caption{font:24px 'Fira Sans',Arial,Helvetica,sans-serif}
+.block40{width:44%}
+.srch-inp{width:140px}
+.slider-box{width:70%}
+.main-bets h1{float:left}
+.vs{top:20px;font:bold 14px 'Fira Sans',Arial,Helvetica,sans-serif}
+.faq-list li a,.sports-list li a{font:bold 12px 'Fira Sans',Arial,Helvetica,sans-serif;padding:10px 5px 10px 40px}
+}
+@media (min-width: 1200px) {
+header .container,nav .container,section .container,#submenu .container{width:1250px}
+.deposit{width:1250px}
+.inline-cell{width:560px;margin:20px}
+.container > .col{width:255px}
+.footer-menu > .container,.footer-txt > .container,.copyright > .container{width:1020px}
+.content{width:79%}
+.sidebar{width:20%}
+.sidebar2{width:20%}
+.content-main{width:58%}
+.row-form{min-height:550px}
+.rem-txt{float:right;width:86%}
+.carousel-caption{font:30px/40px 'Fira Sans',Arial,Helvetica,sans-serif}
+.block40{width:40%}
+.srch-inp{width:200px}
+.slider-box{width:50%}
+.main-bets h1{float:none}
+.vs{top:5px;font:bold 20px 'Fira Sans',Arial,Helvetica,sans-serif}
+.faq-list li a,.sports-list li a{font:bold 14px 'Fira Sans',Arial,Helvetica,sans-serif;padding:10px 10px 10px 40px}
+}
+.error{border:1px solid #E65858}
+.tooltip{position:absolute;z-index:1020;display:block;visibility:visible;padding:5px;font-size:11px;opacity:0;filter:alpha(opacity=0)}
+.tooltip.in{opacity:1;filter:alpha(opacity=100)}
+.tooltip.top{margin-top:-2px}
+.tooltip.right{margin-left:2px}
+.tooltip.bottom{margin-top:2px}
+.tooltip.left{margin-left:-2px}
+.tooltip.top .tooltip-arrow{bottom:0;left:50%;margin-left:-5px;border-left:5px solid transparent;border-right:5px solid transparent;border-top:5px solid #2D6EAC}
+.tooltip.left .tooltip-arrow{top:50%;right:0;margin-top:-5px;border-top:5px solid transparent;border-bottom:5px solid transparent;border-left:5px solid #2D6EAC}
+.tooltip.bottom .tooltip-arrow{top:0;left:50%;margin-left:-5px;border-left:5px solid transparent;border-right:5px solid transparent;border-bottom:5px solid #2D6EAC}
+.tooltip.right .tooltip-arrow{top:50%;left:0;margin-top:-5px;border-top:5px solid transparent;border-bottom:5px solid transparent;border-right:5px solid #2D6EAC}
+.tooltip-inner{max-width:200px;padding:3px 8px;color:#fff;text-align:left;text-decoration:none;background-color:#2D6EAC;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px}
+.tooltip-arrow{position:absolute;width:0;height:0}
+.on-click:hover, .big-tbl td.r-corn:hover, .small-tbl td.r-corn:hover, .tgl-small-table td:hover, .tgl-blue-table td.r-corn:hover, .bottom-tbl td.r-corn:hover{
+background:#2d6dac;
+color: white;
+cursor: pointer;
+}
+.on-click:hover a, .tgl-small-table tr td:hover em{
+color: white;
+}
+img.roll.betslip { margin: 0 auto; }
+.buttonmove {margin-top: 10px; margin-left: 20px; margin-bottom: 10px}
+.dark-table {padding-top: 15px; padding-left: 10px;}
+.paymenttable {margin-top: 15px; margin-bottom: 25px; width: 96%;}
+.forma-box {margin-top: 15px;}
+.forma-box1 {margin-bottom: 25px;}
+.forma-box2 {margin-bottom: 15px; margin-top: 10px;}
+.form-nav1 {margin-bottom: 10px; margin-top: 10px; margin-right: 10px;}

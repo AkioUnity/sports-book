@@ -18,7 +18,7 @@
 !/logs/empty
 
 # CakePHP 2
-
+/app/Plugin/Casino/*
 /app/tmp/*
 /app/Config/core.php
 /app/Config/database.php

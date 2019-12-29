@@ -1,0 +1,366 @@
+/*.table {
+ width: 100%;
+ max-width: 100%;
+ margin-bottom: 1rem;
+}
+
+table tr{
+}
+table thead th {
+ vertical-align: bottom;
+}
+.table-responsive {
+ display: block;
+ width: 100%;
+ overflow-x: auto;
+ -ms-overflow-style: -ms-autohiding-scrollbar;
+}*/
+
+.table-responsive {
+    background: #2b2b2b;
+}
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+table th,
+table td {
+ padding: 8px 0;
+ vertical-align: top;
+}
+table tr td{
+    border-top:none !important;
+    border-bottom:1px solid #383838;
+    color: #bbb;
+    
+}
+table td b{
+    font-weight:400;
+    color:#fff;
+}
+.table .table {
+     background-color:transparent;
+}
+.table-hover>tbody>tr:hover {
+    background-color: #1b1b1b;
+}
+.backtop {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    color:#fff;
+}
+input{
+    width: 282px;
+    max-width:282px;
+    background: #fff;
+    border-radius: 6px;
+    padding:10px;
+    margin-bottom:10px;
+    color:#121212;
+}
+select option {
+    margin: 40px;
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}
+.clear {
+    clear: both
+}
+img{
+  max-width: 100%;
+}
+ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.h,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5 {
+    font-weight: normal;
+    font-family: 'Open Sans';
+    line-height: 1.1;
+    text-transform: uppercase;
+}
+
+.btn {
+  background-color: transparent;
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  border-radius: 25px;
+  border: 2px solid #2881CD;
+  text-align: center;
+  font-weight: bold;
+  margin: 1rem;
+  padding: .5rem;
+  color: white;
+  transition: all 0.5s ease-out;
+  cursor: pointer;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+input[type='submit'] {
+    cursor:pointer;
+}
+
+body {
+    font-family: 'Open Sans';
+    background: #000000;
+    position: relative;
+    color:#fff;
+    font-size: 13px;
+    line-height: 1.625em;
+}
+
+hr {
+    border-top: 1px solid #383838;
+}
+
+/* =======================Header Design Start============================ */
+
+.header {   
+
+}
+.header-top{
+    background: #171717;
+  border-bottom: 1px solid #0C0C0C;
+  padding: 12px 15px;
+}
+.header_logo{
+  padding: 10px 30px;
+}
+.Top_Banner_Casino{
+  padding:8px 75px;
+}
+#login-btn{
+  float: right;
+}
+#main-menu {
+    margin-bottom: 10px;
+    position: relative;
+}
+
+#main-menu ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+#main-menu ul li:first-child a {
+    line-height: 1
+}
+
+#main-menu ul li a {
+    display: block;
+    padding: 12px 0px 2px;
+    font-family: 'Open Sans';
+    font-size: 13px;
+    color: #fff;
+    text-transform: uppercase;
+    border-bottom: 1px solid transparent;
+    margin: 0 10px;
+}
+
+#main-menu ul li a:hover {
+    border-bottom: 1px solid #fff;
+}
+
+#main-menu ul li.active a {
+    border-bottom: 1px solid #fff;
+}
+
+.clock {
+    display: inline;
+    vertical-align: -1px;
+    position: absolute;
+    right: 10px;
+    top: 6px;
+    text-align: right;
+}
+
+#date_time {
+    width: 165px;
+    color: #fff;
+    line-height: 2;
+    font-family: normal 14px 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+.top-reg {
+    float: left;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.header-login-button, .header-join-button{
+  font-size: 14px;
+  padding: 8px 25px;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+.header-join-button {
+  background-color: #64CBE2;
+  cursor: pointer;
+  border: 3px solid #64CBE2;
+}
+.header-login-button:hover {
+    background-color: #F79820;
+    color: white;
+    text-decoration: none;
+}
+.header-join-button:hover {
+    background-color: #00AE04;
+    border: 3px solid #00AE04;
+    text-decoration: none;
+}
+
+
+/* ======================= Header Design End before Login ============================ */
+
+
+/* ================================ Header Design After Login================================ */
+#loged {
+    margin: 0;
+}
+.usr-pl {
+    float: left;
+    background: transparent url(../images/prof-usr.png) no-repeat scroll 0 0;
+    padding: 2px 0 2px 20px;
+    font: 13px 'Open Sans', Arial, Helvetica, sans-serif;
+    color: #fff;
+    margin: 4px 20px 0 0;
+}
+
+.usr-pl a,
+.usr-mo a {
+    color: #fff;
+}
+
+.usr-pl a:hover,
+.usr-mo a:hover {
+    color: #ccc;
+}
+
+
+.al_login {
+    padding-top: 40px;
+}
+
+.al_login a {
+    color: #fff;
+    font-size: 20px !important;
+    font-family: 'Open Sans';
+}
+
+.usr-mo {
+    float: left;
+    background: transparent url(../images/prof-mon.png) no-repeat scroll 0 0;
+    padding: 2px 0 2px 26px;
+    font: 13px 'Open Sans', Arial, Helvetica, sans-serif;
+    color: #fff;
+    margin: 4px 10px 0 0
+}
+
+.usr-btn {
+    color: #fff;
+    padding: 3px 18px;
+    width: 100%;
+    width: auto;
+    max-width: 100%;
+    cursor: pointer;
+    background-color: transparent;
+    display: inline-block;
+    border: 1px solid #2881CD;
+    border-radius:6px;
+    text-align: center;
+    font-size: 13px;
+    font-family: 'Open Sans';
+    line-height: 1.5;
+    text-transform: capitalize;
+}
+#loged a:hover{
+    color:#ccc;
+}
+.login-container{
+    display:none;
+}
+
+/* ================================ Header Design End================================ */
+
+/* ================================ header-bottom-bar Start================================ */
+.header-bottom-bar{
+    position: relative;
+    z-index: 9;
+}
+#sports-menu {
+    position: relative;
+  background: #2b2b2b;
+  border-bottom: 2px solid #2881CD;
+    z-index: 1;
+    text-align: center;
+    margin: 0 -15px;
+}
+
+#sports-menu li {
+    display: inline-block;
+    list-style: none;
+}
+
+#sports-menu .odd-type li a {
+    box-shadow: none;
+    border: none;
+}
+
+#sports-menu li a {
+  display: inline-block;
+  padding: 12px 12px;
+  font-family: 'Roboto';
+  font-size: 15px;
+  transition: all 0.3s ease-in-out 0s;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+#sports-menu li a:hover {
+    background: #7AC359;
+}
+.list-group a{
+    display:block;
+    padding:10px;
+    border-left:1px solid #383838;
+    border-bottom:1px solid #383838;
+}
+.player h2{
+    color: #2881CD;
+    font-size: 16px;
+}
+.label-info {
+    background-color: #2881CD;
+}
+
+@media (max-width: 767px) {
+    .list-group a{
+        border-left:none;
+    }
+    .table {
+        width: 780px;
+    }
+}

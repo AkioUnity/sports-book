@@ -1,0 +1,17 @@
+# Finger :)
+Options -Indexes
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^(.*)$ index.php [QSA,L]
+
+    # Adds AUTH support to Rest Plugin:
+    RewriteRule .* - [env=HTTP_AUTHORIZATION:%{HTTP:Authorization},last]
+
+    <Files .git/*>
+        order allow,deny
+        deny from all
+    </Files>
+</IfModule>

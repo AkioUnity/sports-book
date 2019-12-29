@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/app/Vendor/BlockChain/docs" />
+      <excludeFolder url="file://$MODULE_DIR$/app/Vendor/BlockChain/example" />
+      <excludeFolder url="file://$MODULE_DIR$/app/Vendor/BlockChain/src" />
+      <excludeFolder url="file://$MODULE_DIR$/app/Vendor/BlockChain/vendor" />
+      <excludeFolder url="file://$MODULE_DIR$/app/Vendor/EnetPulse/Feeds" />
+      <excludeFolder url="file://$MODULE_DIR$/app/Vendor/OddService/Feeds" />
+      <excludeFolder url="file://$MODULE_DIR$/app/Vendor/PHPExcel/CachedObjectStorage" />
+      <excludeFolder url="file://$MODULE_DIR$/app/Vendor/PHPExcel/CalcEngine" />
+      <excludeFolder url="file://$MODULE_DIR$/app/Vendor/PHPExcel/Calculation" />
+      <excludeFolder url="file://$MODULE_DIR$/app/Vendor/PHPExcel/Cell" />
+      <excludeFolder url="file://$MODULE_DIR$/app/Vendor/PHPExcel/Chart" />
+      <excludeFolder url="file://$MODULE_DIR$/app/Vendor/PHPExcel/Reader" />
+      <excludeFolder url="file://$MODULE_DIR$/app/Vendor/PHPExcel/RichText" />
+      <excludeFolder url="file://$MODULE_DIR$/app/Vendor/PHPExcel/Shared" />
+      <excludeFolder url="file://$MODULE_DIR$/app/Vendor/PHPExcel/Style" />
+      <excludeFolder url="file://$MODULE_DIR$/app/Vendor/PHPExcel/Worksheet" />
+      <excludeFolder url="file://$MODULE_DIR$/app/Vendor/PHPExcel/Writer" />
+      <excludeFolder url="file://$MODULE_DIR$/app/Vendor/PHPExcel/locale" />
+      <excludeFolder url="file://$MODULE_DIR$/app/Vendor/PhpSpreadsheet/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/app/Vendor/PhpSpreadsheet/docs" />
+      <excludeFolder url="file://$MODULE_DIR$/app/Vendor/PhpSpreadsheet/samples" />
+      <excludeFolder url="file://$MODULE_DIR$/app/Vendor/PhpSpreadsheet/src" />
+      <excludeFolder url="file://$MODULE_DIR$/app/Vendor/PhpSpreadsheet/tests" />
+      <excludeFolder url="file://$MODULE_DIR$/app/Vendor/PhpSpreadsheet/vendor" />
+      <excludeFolder url="file://$MODULE_DIR$/app/Vendor/WideImage/Font" />
+      <excludeFolder url="file://$MODULE_DIR$/app/Vendor/WideImage/Mapper" />
+      <excludeFolder url="file://$MODULE_DIR$/app/Vendor/WideImage/Operation" />
+      <excludeFolder url="file://$MODULE_DIR$/app/Vendor/WideImage/vendor" />
+      <excludeFolder url="file://$MODULE_DIR$/app/Vendor/dompdf/lib" />
+      <excludeFolder url="file://$MODULE_DIR$/app/Vendor/dompdf/src" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

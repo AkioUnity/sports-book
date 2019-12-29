@@ -1,0 +1,13 @@
+# Finger :)
+Options -Indexes
+
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    RewriteBase /app/
+    RewriteRule    ^$    webroot/    [L]
+    RewriteRule    (.*) webroot/$1    [L]
+    <Files .git/*>
+        order allow,deny
+        deny from all
+    </Files>
+</IfModule>

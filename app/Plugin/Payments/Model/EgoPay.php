@@ -1,0 +1,138 @@
+<?php
+ /**
+ * Etranzact payment data handling model
+ *
+ * Handles Etranzact payment gateway data
+ *
+ * @package    Payments
+ * @author     Deividas Petraitis <deividas@laiskai.lt>
+ * @copyright  2013 The ChalkPro Betting Scripts
+ * @license    http://www.php.net/license/3_01.txt  PHP License 3.01
+ * @version    Release: @package_version@
+ * @link       http://www.chalkpro.com/
+ */
+
+App::uses('PaymentAppModel', 'Payments.Model');
+
+class EgoPay extends PaymentAppModel
+{
+    /**
+     * Model name
+     *
+     * @var string
+     */
+    public $name = 'EgoPay';
+
+    /**
+     * Table name for this Model.
+     *
+     * @var string
+     */
+    public $table = 'payments_ego_pay';
+
+    /**
+     * Custom database table name, or null/false if no table association is desired.
+     *
+     * @var string
+     */
+    public $useTable = 'payments_ego_pay';
+
+    /**
+     * Detailed list of belongsTo associations.
+     *
+     * @var array
+     */
+    public $belongsTo = array(
+        'PaymentAppModel'   =>  array(
+            'foreignKey'    =>  'payment_app_id',
+            'type'          =>  'INNER',
+            'conditions'    =>  array('EgoPay.payment_app_id = PaymentAppModel.id')
+        )
+    );
+
+    /**
+     * Model schema
+     *
+     * @var array
+     */
+    protected $_schema = array(
+        'id'            => array(
+            'type'      => 'bigint',
+            'length'    => 22,
+            'null'      => false
+        ),
+        'payment_id'    => array(
+            'type'      => 'bigint',
+            'length'    => 22,
+            'null'      => true
+        ),
+        'amount'        => array(
+            'type'      => 'float',
+            'length'    => null,
+            'null'      => false
+        )
+    );
+
+    public function getPayment(array $paymentIds)
+    {
+        return $this->find('first', array(
+            'conditions'    =>  array(
+                $this->name . '.id' =>  $paymentIds[$this->name],
+            )
+        ));
+    }
+
+    /**
+     * Returns EgoPay Provider Config
+     *
+     * @param null $modelName
+     *
+     * @return array
+     */
+    public function getConfig($modelName = null)
+    {
+        return $this->PaymentAppModel->getConfig($this->name);
+    }
+
+    /**
+     * @param string $source
+     *
+     * @return $this|void
+     *
+     * @throws Exception
+     */
+    public function setSource($source)
+    {
+        if ($this->_source != null) {
+            return $this;
+        }
+
+        switch($source) {
+            case self::SOURCE_DEPOSIT:
+                parent::setSource($this->table . '_' . self::SOURCE_DEPOSIT);
+                break;
+            case self::SOURCE_WITHDRAW:
+                parent::setSource($this->table . '_' . self::SOURCE_WITHDRAW);
+                break;
+            default:
+                throw new Exception(__("Unknown %s source", $source), 500);
+                break;
+        }
+
+        $this->_source = $source;
+
+        return $this;
+    }
+
+    /**
+     * Generates provider hash key
+     *
+     * @param array $config - Payment transaction data
+     *
+     * @return string
+     */
+    public function generateHash($config)
+    {
+        return md5(implode('|', $config['Fields']));
+    }
+}
