@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="css/reset.css" type="text/css">
+        <link rel="stylesheet" href="css/main.css" type="text/css">
+        <link rel="stylesheet" href="/theme/Design/css/font-awesome.min.css" type="text/css">
+        <link rel="stylesheet" href="/theme/Design/css/style.css" type="text/css">         
+        <link rel="stylesheet" href="css/orientation_utils.css" type="text/css">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, minimal-ui" />
+	<meta name="msapplication-tap-highlight" content="no"/>
+
+        <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="js/createjs.min.js"></script>
+        <script type="text/javascript" src="js/howler.min.js"></script>
+        <script type="text/javascript" src="js/screenfull.js"></script>
+        <script type="text/javascript" src="js/ctl_utils.js"></script>
+        <script type="text/javascript" src="js/sprite_lib.js"></script>
+        <script type="text/javascript" src="js/settings.js"></script>
+        <script type="text/javascript" src="js/CLang.js"></script>
+        <script type="text/javascript" src="js/CPreloader.js"></script>
+        <script type="text/javascript" src="js/CMain.js"></script>
+        <script type="text/javascript" src="js/CTextButton.js"></script>
+        <script type="text/javascript" src="js/CToggle.js"></script>
+        <script type="text/javascript" src="js/CGfxButton.js"></script>
+        <script type="text/javascript" src="js/CMenu.js"></script>
+        <script type="text/javascript" src="js/CGame.js"></script>
+	<script type="text/javascript" src="js/CVector2.js"></script>
+        <script type="text/javascript" src="js/CInterface.js"></script>
+        <script type="text/javascript" src="js/CHelpPanel.js"></script>
+        <script type="text/javascript" src="js/CEndPanel.js"></script>
+	<script type="text/javascript" src="js/CRow.js"></script>
+	<script type="text/javascript" src="js/CShowResult.js"></script>
+        <script type="text/javascript" src="js/CTextToggle.js"></script>
+        <script type="text/javascript" src="js/CCreditsPanel.js"></script>
+        <script type="text/javascript" src="js/CAreYouSurePanel.js"></script>
+        
+    </head>
+    <body ondragstart="return false;" ondrop="return false;" >
+        <div style="position: fixed; background-color: transparent; top: 0px; left: 0px; width: 100%; height: 100%"></div>
+          <script>
+            $(document).ready(function(){
+				//Casino
+				request = $.ajax({
+					type: "post",
+					url: "/eng/casino/games/scratchInit",
+					dataType: "json",
+				});
+				request.fail(function (jqXHR, textStatus, errorThrown){
+					if (jqXHR.status === 403) {
+						window.location.href = '/eng/users/login';
+					} else {
+						alert('Server is not available right now. Please try again later.');
+					}
+				});
+				request.done(function (response, textStatus, jqXHR){
+					startGame(response);
+				});
+			});
+			
+			function startGame(response) {
+                var oMain = new CMain({
+                    
+                                        fullscreen:response.fullscreen, //SET THIS TO FALSE IF YOU DON'T WANT TO SHOW FULLSCREEN BUTTON
+                                        check_orientation:response.check_orientation,     //SET TO FALSE IF YOU DON'T WANT TO SHOW ORIENTATION ALERT ON MOBILE DEVICES   
+                                        show_credits:response.show_credits,          //SET THIS VALUE TO FALSE IF YOU DON'T WANT TO SHOW CREDITS BUTTON
+                    
+                                        bet_to_play:[response.bet_1,response.bet_2,response.bet_3],   //BET TO PLAY A GAME
+                                        player_credit:response.starting_money, //PLAYER'S CREDIT
+
+                                        cash_credit: 0, //TOTAL CREDIT IN CASH. PLAYER BET WILL INCREASE THE CASH, AND PLAYER WIN WILL DECREASE THE CASH. 
+                                                            ///A PLAYER WILL NEVER WIN MORE THEN CURRENT CASH.
+
+                                        //// PRIZE WIN BY THE PLAYER. THE PRIZE IS MULTIPLIED BY THE BET PLAYED
+                                        prize:[ response.prize_1,     //PRIZE FOR COMBO 1
+                                                response.prize_2,     //PRIZE FOR COMBO 2
+                                                response.prize_3,     //PRIZE FOR COMBO 2
+                                                response.prize_4,    //PRIZE FOR COMBO 3
+                                                response.prize_5,    //PRIZE FOR COMBO 4
+                                                response.prize_6,   //PRIZE FOR COMBO 5
+                                                response.prize_7,   //PRIZE FOR COMBO 6
+                                                response.prize_8,  //PRIZE FOR COMBO 7
+                                                response.prize_9], //PRIZE FOR COMBO 8
+
+                                        prizeprob:[ 0,   //OCCURENCE PERCENTAGE FOR PRIZE 1
+                                                    0,   //OCCURENCE PERCENTAGE FOR PRIZE 2
+                                                    0,   //OCCURENCE PERCENTAGE FOR PRIZE 3
+                                                    0,   //OCCURENCE PERCENTAGE FOR PRIZE 4
+                                                    0,    //OCCURENCE PERCENTAGE FOR PRIZE 5
+                                                    0,    //OCCURENCE PERCENTAGE FOR PRIZE 6
+                                                    0,    //OCCURENCE PERCENTAGE FOR PRIZE 7
+                                                    0,    //OCCURENCE PERCENTAGE FOR PRIZE 8
+                                                    0],    //OCCURENCE PERCENTAGE FOR PRIZE 9
+
+                                        win_occurrence: 0,            
+
+                                        //winpercentage MANAGES MULTIPLE WIN OCCURENCE PERCENTAGE FOR EACH GAME
+                                        multiple_win_percentage:
+                                                                [
+                                                                   70,  //WIN IN 1 ROW
+                                                                   25,  //WIN IN 2 ROWS
+                                                                   5    //WIN IN 3 ROWS
+                                                           ],  
+
+                                        scratch_tolerance_per_cell : 50, //AREA PERCENTAGE TO SCRATCH (FOR EACH SYMBOL) TO SHOW FINAL RESULT IN THE FRUIT ROW
+                                        
+                                        //////////////////////////////////////////////////////////////////////////////////////////
+                                        ad_show_counter: 0     //NUMBER OF CARDS PLAYED BEFORE AD SHOWN
+                                        //
+                                        //// THIS FUNCTIONALITY IS ACTIVATED ONLY WITH CTL ARCADE PLUGIN.///////////////////////////
+                                        /////////////////// YOU CAN GET IT AT: /////////////////////////////////////////////////////////
+                                        // http://codecanyon.net/item/ctl-arcade-wordpress-plugin/13856421///////////
+                                        
+                                        
+                                    });
+                                            
+                                           
+                     $(oMain).on("start_session", function(evt) {
+                            if(getParamValue('ctl-arcade') === "true"){
+                                parent.__ctlArcadeStartSession();
+                            }
+                            //...ADD YOUR CODE HERE EVENTUALLY
+                    });
+                     
+                    $(oMain).on("end_session", function(evt) {
+                           if(getParamValue('ctl-arcade') === "true"){
+                               parent.__ctlArcadeEndSession();
+                           }
+                           //...ADD YOUR CODE HERE EVENTUALLY
+                    });
+
+                    $(oMain).on("bet_placed", function (evt, iTotBet) {
+                            //...ADD YOUR CODE HERE EVENTUALLY
+                    });
+
+                    $(oMain).on("save_score", function(evt,iScore) {
+                           if(getParamValue('ctl-arcade') === "true"){
+                               parent.__ctlArcadeSaveScore({score:iScore});
+                           }
+                           //...ADD YOUR CODE HERE EVENTUALLY
+                    });
+
+                    $(oMain).on("show_interlevel_ad", function(evt) {
+                           if(getParamValue('ctl-arcade') === "true"){
+                               parent.__ctlArcadeShowInterlevelAD();
+                           }
+                           //...ADD YOUR CODE HERE EVENTUALLY
+                    });
+                    
+                    $(oMain).on("share_event", function(evt, iScore) {
+                           if(getParamValue('ctl-arcade') === "true"){
+                               parent.__ctlArcadeShareEvent({   img: TEXT_SHARE_IMAGE,
+                                                                title: TEXT_SHARE_TITLE,
+                                                                msg: TEXT_SHARE_MSG1 + iScore + TEXT_SHARE_MSG2,
+                                                                msg_share: TEXT_SHARE_SHARE1 + iScore + TEXT_SHARE_SHARE1});
+                           }
+                           //...ADD YOUR CODE HERE EVENTUALLY
+                    });
+                     
+                     if(isIOS()){ 
+                        setTimeout(function(){sizeHandler();},200); 
+                    }else{
+                        sizeHandler(); 
+                    }
+           }
+
+        </script>
+       
+            <canvas id="canvas" class='ani_hack' width="1500" height="768"> </canvas>
+         <div data-orientation="landscape" class="orientation-msg-container"><p class="orientation-msg-text">Please rotate your device</p></div>
+        <div id="block_game" style="position: fixed; background-color: transparent; top: 0px; left: 0px; width: 100%; height: 100%; display:none"></div>
+                
+    </body>
+</html>

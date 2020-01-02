@@ -286,7 +286,7 @@ class Group extends AppModel
     {
         $groups         =   $this->getGroups();
         $currentUser    =   CakeSession::read('Auth.User');
-
+//        echo ("getAdminGroups");
         if (empty($currentUser)) {
             $adminGroups = $this->find('all', array(
                 'contain'       =>  array(),

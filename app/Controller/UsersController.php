@@ -101,7 +101,8 @@ class UsersController extends AppController
                 }
                 break;
             case Group::AGENT_GROUP:
-                $conditions = array('User.group_id' => Group::USER_GROUP, 'User.referal_id' => $user["id"]);
+                $conditions = array('User.group_id' => Group::USER_GROUP);
+//                $conditions = array('User.group_id' => Group::USER_GROUP, 'User.referal_id' => $user["id"]);
                 break;
             default:
                 $conditions = array('User.id' => $user["id"]);
@@ -710,6 +711,7 @@ class UsersController extends AppController
      */
     public function admin_login()
     {
+//        print_r($this->Auth->user('group_id'));
         if($this->Auth->loggedIn()) {
             $this->redirect(array('plugin' => null, 'controller' => 'dashboard'), 302, true);
         }
@@ -743,7 +745,7 @@ class UsersController extends AppController
             )));
 
             $this->User->updateLastVisit($this->Auth->user('id'));
-
+//            echo $this->Auth->user('id');
             $this->redirect(array('language' => $language, 'plugin' => null, 'controller' => 'dashboard'));
         }
     }

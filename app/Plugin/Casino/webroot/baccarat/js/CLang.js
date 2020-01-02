@@ -1,0 +1,36 @@
+TEXT_BET = ["TIE", "BANKER","PLAYER"];
+TEXT_WIN = "WIN";
+TEXT_SHOW_WIN = [
+                    "TIE - PAYS 8 TO 1",
+                    TEXT_BET[1],
+                    TEXT_BET[2]
+                ];
+TEXT_NO_WIN    = "NO WIN";
+TEXT_PLAY      = "PLAY";
+TEXT_CLEAR     = "CLEAR";
+TEXT_REBET     = "REBET";
+TEXT_DEAL      = "DEAL";
+TEXT_MIN_BET   = "MIN BET";
+TEXT_MAX_BET   = "MAX BET";
+TEXT_NO        = "NO";
+TEXT_YES       = "YES";
+TEXT_RECHARGE  = "RECHARGE";
+TEXT_EXIT      = "EXIT";
+TEXT_MONEY     = "MONEY";
+TEXT_CURRENCY  = "$";
+
+TEXT_DISPLAY_MSG_WAITING_BET = "WAITING FOR YOUR BET";
+TEXT_DISPLAY_MSG_PLAYER_LOSE = "PLAYER LOSES THIS HAND!";
+TEXT_DISPLAY_MSG_PLAYER_WIN = "PLAYER WINS";
+TEXT_DISPLAY_TIE = "THIS HAND IS A TIE!";
+TEXT_DISPLAY_MSG_DEALING = "DEALING...";
+TEXT_NO_MONEY = "YOU DON'T HAVE ENOUGH MONEY!!!";
+TEXT_HAND_WON = "HAND WON BY";
+TEXT_ERROR_MIN_BET = "YOUR BET IS LOWER THAN MINIMUM BET!!";
+
+TEXT_SHARE_IMAGE = "200x200.jpg";
+TEXT_SHARE_TITLE = "Congratulations!";
+TEXT_SHARE_MSG1 = "You collected <strong>";
+TEXT_SHARE_MSG2 = " points</strong>!<br><br>Share your score with your friends!";
+TEXT_SHARE_SHARE1 = "My score is ";
+TEXT_SHARE_SHARE2 = " points! Can you do better?";

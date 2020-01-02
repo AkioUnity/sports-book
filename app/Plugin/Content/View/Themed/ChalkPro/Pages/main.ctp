@@ -65,7 +65,7 @@
                     <th></th>
                     <th></th>
                     <th>1</th>
-                    <th><?php echo __('Draw'); ?></th>
+                    <th><?php echo __('X'); ?></th>
                     <th>2</th>
                     <th></th>
                 </tr>
@@ -143,7 +143,7 @@
                         <th></th>
                         <th></th>
                         <th>1</th>
-                        <th><?php echo __('Draw'); ?></th>
+                        <th><?php echo __('X'); ?></th>
                         <th>2</th>
                         <th></th>
                     </tr>

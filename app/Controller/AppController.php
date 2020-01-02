@@ -217,6 +217,7 @@ class AppController extends Controller
      */
     public function admin_index($conditions = array(), $model = null)
     {
+        echo ("300");
         $model = $this->__getModel($model);
 
         $this->request->data[$model] = $this->request->query;

@@ -45,7 +45,6 @@ class DashboardController extends AppController
     public function beforeFilter()
     {
         parent::beforeFilter();
-
         $this->set('usersCount', $this->User->getCount());
         $this->set('ticketsCount', $this->Ticket->getCount());
         $this->set('depositsCount', $this->Deposit->getCount());
@@ -54,6 +53,8 @@ class DashboardController extends AppController
         $this->User->Behaviors->attach('Containable');
 
         $this->set('activeUsers', $this->User->getCount(array('ticket_count <> 0')));
+//        echo (strtolower(CakeSession::read('Auth.User.Group.name')));
+//        echo ("before filter");
     }
 
     /**
@@ -66,11 +67,14 @@ class DashboardController extends AppController
      */
     public function admin_index($conditions = array(), $model = null)
     {
+
+//        Die (strtolower(CakeSession::read('Auth.User.Group.name')));
         //prevent redirect loop in case group don\'t have access to dashboard \
         if (!$this->Session->check('Auth.User.id')) {
             $this->redirect(array('controller' => 'users', 'action' => 'login'), null, true);
+//            echo ("4");
         }
-
+//        echo ("5");
         // Redirect to user type dashboard
         $this->redirect(
             array(
@@ -79,6 +83,7 @@ class DashboardController extends AppController
             null,
             true
         );
+
     }
 
     /**
@@ -168,6 +173,7 @@ class DashboardController extends AppController
     }
 
     public function admin_agent() {
+        Die (strtolower(CakeSession::read('Auth.User.Group.name')));
         $this->set('user', $this->Auth->user());
         $this->set('referral_url', Router::url('/?r=' . $this->Auth->user('id'), true));
     }
@@ -179,7 +185,7 @@ class DashboardController extends AppController
 
     public function admin_subadmin()
     {
-
+        Die (strtolower(CakeSession::read('Auth.User.Group.name')));
     }
 
     public function admin_tickets()
