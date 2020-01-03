@@ -118,6 +118,7 @@ class BetPart extends AppModel
                 }
             }
         }
+        $betPartName=str_replace("Draw","X",$betPartName);
 
         $BetPart = array(
             'BetPart'   =>  array(
