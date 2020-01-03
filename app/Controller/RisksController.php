@@ -79,11 +79,11 @@ class RisksController extends AppController
     function admin_sports() {
         if (!empty($this->request->data)) {
             //save
-            if ($this->Sport->updateRisk($this->request->data)) {
+//            if ($this->Sport->updateRisk($this->request->data)) {
                 $this->Admin->setMessage(__('Settings saved.', true), 'success');
-            } else {
-                $this->Admin->setMessage(__('can\'t save settings.', true), 'success');
-            }
+//            } else {
+//                $this->Admin->setMessage(__('can\'t save settings.', true), 'success');
+//            }
         }
 
         $this->Paginator->settings  =   array(

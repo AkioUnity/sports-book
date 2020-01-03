@@ -230,14 +230,14 @@ class DepositsController extends AppController
                         'label' =>  __('Completed'),
                         'count' =>  $this->Deposit->getCount(array('Deposit.status' => array(Deposit::DEPOSIT_STATUS_COMPLETED))),
                     ),
-                    1   =>  array(
-                        'label' =>  __('Pending'),
-                        'count' =>  $this->Deposit->getCount(array('Deposit.status' => array(Deposit::DEPOSIT_STATUS_PENDING))),
-                    ),
-                    2   =>  array(
-                        'label' =>  __('Cancelled'),
-                        'count' =>  $this->Deposit->getCount(array('Deposit.status' => array(Deposit::DEPOSIT_STATUS_CANCELLED))),
-                    )
+//                    1   =>  array(
+//                        'label' =>  __('Pending'),
+//                        'count' =>  $this->Deposit->getCount(array('Deposit.status' => array(Deposit::DEPOSIT_STATUS_PENDING))),
+//                    ),
+//                    2   =>  array(
+//                        'label' =>  __('Cancelled'),
+//                        'count' =>  $this->Deposit->getCount(array('Deposit.status' => array(Deposit::DEPOSIT_STATUS_CANCELLED))),
+//                    )
                 )
             ),
 

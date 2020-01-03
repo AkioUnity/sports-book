@@ -73,6 +73,8 @@ class MenusController extends ContentAppController
      */
     public function admin_add($id = null)
     {
+        if ($id!=$this->name)
+            return;
         if ($this->request->is('post') && !empty($this->request->data)) {
             $this->Menu->create();
             $this->Menu->save($this->request->data);
@@ -81,6 +83,5 @@ class MenusController extends ContentAppController
 
         $this->__getModel();
         $this->set('fields',  $this->Menu->getAdd());
-
     }
 }

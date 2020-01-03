@@ -70,14 +70,7 @@ class BonusCode extends AppModel
      */
     public function findBonusCode($code)
     {
-        $options['conditions'] = array(
-            'BonusCode.code' => $code,
-            'BonusCode.times >'     => 0,
-            'BonusCode.expires >'   => gmdate('Y-m-d H:i:s')
-        );
-        $options['recursive'] = -1;
-        $bonusCode = $this->find('first', $options);
-        return $bonusCode;
+
     }
 
     /**
@@ -87,13 +80,7 @@ class BonusCode extends AppModel
      */
     public function useCode($id)
     {
-        $options['conditions'] = array(
-            'BonusCode.id' => $id
-        );
-        $options['recursive'] = -1;
-        $bonusCode = $this->find('first', $options);
-        $bonusCode['BonusCode']['times'] = $bonusCode['BonusCode']['times'] - 1;
-        $this->save($bonusCode);
+
     }
 
     /**

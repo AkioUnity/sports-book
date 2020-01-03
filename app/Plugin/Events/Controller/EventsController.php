@@ -183,6 +183,8 @@ class EventsController extends EventsAppController
      */
     public function admin_print($SportId = null, $dateFrom = null, $dateTo = null)
     {
+        if ($dateFrom!=$dateTo)
+            return;
         App::uses('Bet', 'Model');
 
         ini_set('max_execution_time', 0);
