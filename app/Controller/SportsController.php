@@ -99,6 +99,7 @@ class SportsController extends AppController
         $Sport = isset($this->request->params['pass'][0]) ? $this->Sport->getItem($this->request->params['pass'][0], array('SportI18n' => array('conditions' => array('SportI18n.locale' => 'eng'))), 0) : array();
 
         $LeagueId = isset($this->request->params['pass'][1]) ? $this->request->params['pass'][1] : null;
+//        print_r($Sport);
 
         if (!is_array($Sport) || empty($Sport)) {
             $this->redirect('/');

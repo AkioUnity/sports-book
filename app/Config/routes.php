@@ -46,7 +46,7 @@
     Router::connect('/:language/contact/*', array('plugin' => 'contact', 'controller' => 'contact', 'action' => 'index'));
     Router::connect('/:language/livecasino/*', array('plugin' => 'Livecasino', 'controller' => 'livecasino', 'action' => 'index'));
     Router::connect('/:language/virtualsports/*', array('plugin' => 'Virtualsports', 'controller' => 'virtualsports', 'action' => 'index'));
-
+    Router::connect('/lobby/*', array('controller' => 'lobby', 'action' => 'display'));
 /**
  * Load all plugin routes.  See the CakePlugin documentation on
  * how to customize the loading of plugin routes.

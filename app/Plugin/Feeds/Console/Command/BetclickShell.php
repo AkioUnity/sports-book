@@ -314,7 +314,7 @@ class BetClickShell extends FeedAppShell implements FeedShell
 
             if ($this->importLive == 1) {
                 $this->liveFootball();
-                $this->liveTennis();
+//                $this->liveTennis();
             }
 
             flock($fp, LOCK_UN); // release the lock
