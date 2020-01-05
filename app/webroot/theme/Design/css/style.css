@@ -301,6 +301,9 @@ blockquote > a:hover{text-decoration:underline}
 .sports-menu.premierleague { background:#E7E7E7 url(../img/sports-menu/premierleague.png) no-repeat }
 .sports-menu.premierleague a:hover { background:#2D6EAC url(../img/sports-menu/premierleague.png) no-repeat; color:#fff }
 
+.sports-menu.TunisianLeague { background:#E7E7E7 url(../img/sports-menu/TunisianLeague1.jpg) no-repeat }
+.sports-menu.TunisianLeague a:hover { background:#2D6EAC url(../img/sports-menu/TunisianLeague1.jpg) no-repeat; color:#fff }
+
 .sports-menu { background:#E7E7E7; }
 .sports-menu.championsleague { background:#E7E7E7 url(../img/sports-menu/championsleague.png) no-repeat }
 .sports-menu.championsleague a:hover { background:#2D6EAC url(../img/sports-menu/championsleague.png) no-repeat; color:#fff }

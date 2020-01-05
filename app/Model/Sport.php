@@ -612,12 +612,15 @@ class Sport extends AppModel {
             "recursive"     =>  -1,
             "contain"       =>  array('SportI18n' => array('conditions' => array('SportI18n.locale' => 'eng'))),
             "conditions"    =>  array(
-                "Sport.active"  =>  1
+                'Sport.active'  =>  1,
+                'Sport.menu_active'  =>  1
             ),
             'fields'    =>  array(
                 'Sport.id',
                 'Sport.name'
-            )
+            ),
+            'order' => 'Sport.order'
+
         ));
     }
 

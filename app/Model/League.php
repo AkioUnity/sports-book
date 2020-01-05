@@ -608,9 +608,8 @@ class League extends AppModel
             $options['conditions']["League.id"] = $leagueId;
         }
 
-
         $options['fields'] = array('Event.*', 'League.*');
-        $options['contain'] = array();
+//        $options['contain'] = array();
         $options['joins'] = array(
             array(
                 'table' => 'events',
@@ -622,7 +621,7 @@ class League extends AppModel
                     'Event.active' => $this->admin ? array(0, 1) : 1,
 //                    'Event.date <=' => gmdate('Y-m-d H:i:s'),
                     'Event.type'    => 2,
-                    'Event.last_update >=' => gmdate('Y-m-d H:i:s', strtotime(gmdate('Y-m-d H:i:s')) - 60)
+                    'Event.last_update >=' => gmdate('Y-m-d H:i:s', strtotime(gmdate('Y-m-d H:i:s')) - 60000) //60
                 )
             )
         );
@@ -671,6 +670,8 @@ class League extends AppModel
             }
         }
 
+//        print_r($options);
+//        print_r($leagues);
         return $leagues;
     }
 
