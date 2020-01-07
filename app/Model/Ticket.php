@@ -1043,7 +1043,7 @@ class Ticket extends AppModel
 
         if ($stake > CakeSession::read('Auth.User.balance')) {
             if(CakeSession::read('Auth.User.Group.id') != Group::OPERATOR_GROUP) {
-                return array('status' => false, 'msg' => __('Not enough money to place the ticket'));
+                return array('status' => false, 'msg' => __('You have not enough money'));
             }
         }
 

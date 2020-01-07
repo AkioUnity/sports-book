@@ -1,0 +1,74 @@
+
+a.button {
+    background-color:transparent;
+    background-image: url( 'themes/grey/images/default/btn_right.png' );
+    background-repeat:no-repeat ;
+    background-position:top right;
+    color: #fff;
+    display:inline-block;
+    /*font: bold 12px arial, sans-serif;*/
+    font: normal 13px arial, sans-serif;
+    height: 32px;
+    margin-right: 0px;
+    padding-right: 10px;
+    text-decoration: none;
+
+    display:block; /*opera*/
+	display:inline-block; /*ie*/
+	display:-moz-inline-box; /*ff*/
+}
+
+a.button span {
+    background-color:transparent;
+    background-image: url( 'themes/grey/images/default/btn.png' );
+    background-repeat:no-repeat ;
+    display: block;
+    line-height: 21px;
+    padding: 3px 0 8px 10px;
+}
+
+a.button span img{
+    margin-left:-5px;
+    margin-top:-2px;
+    padding-right:5px;
+}
+
+/*HOVER*/
+a.button:hover {
+    background-image: url( 'themes/grey/images/default/btn_hover_right.png' );
+    color: #fff;
+    outline: none;
+}
+
+a.button:hover span {
+    background-image:url( 'themes/grey/images/default/btn_hover.png');
+}
+
+/*black*/
+a.black {
+    background-image: url( 'themes/grey/images/black/btn_right.png' );
+}
+a.black span {
+    background-image: url( 'themes/grey/images/black/btn.png' );
+}
+
+a.black:hover {
+    background-image: url( 'themes/grey/images/black/btn_hover_right.png' );
+}
+a.black:hover span {
+    background-image: url( 'themes/grey/images/black/btn_hover.png' );
+}
+/*stiky*/
+a.stiky {
+    background-image: url( 'themes/grey/images/stiky/btn_right.png' );
+}
+a.stiky span {
+    background-image: url( 'themes/grey/images/stiky/btn.png' );
+}
+
+a.stiky:hover {
+    background-image: url( 'themes/grey/images/stiky/btn_hover_right.png' );
+}
+a.stiky:hover span {
+    background-image: url( 'themes/grey/images/stiky/btn_hover.png' );
+}

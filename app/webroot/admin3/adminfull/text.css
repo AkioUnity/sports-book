@@ -1,0 +1,66 @@
+H1 {DISPLAY: inline; FONT-SIZE: 10px; MARGIN: 0px; TEXT-TRANSFORM: uppercase}
+H2 {DISPLAY: inline; FONT-SIZE: 11px; MARGIN: 0px}
+
+H3 {DISPLAY: inline; FONT-WEIGHT: normal; FONT-SIZE: 12px; MARGIN: 0px}
+H4 {DISPLAY: inline; FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #800000; MARGIN: 0px; FONT-WEIGHT: bold}
+H5 {DISPLAY: inline; FONT-WEIGHT: normal; FONT-SIZE: 13px; MARGIN: 0px}
+
+BODY        {font-family: Verdana; font-size:10px; COLOR: #ffffff; TEXT-DECORATION: none}
+
+
+TH    {FONT-SIZE: 11px; COLOR: #000000}
+FONT  {FONT-SIZE: 11px; LINE-HEIGHT: 140%}
+TABLE {FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Verdana, Tahoma, Geneva, Helvetica, Arial, Sans-serif}
+TR    {FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Verdana, Tahoma, Geneva, Helvetica, Arial, Sans-serif}
+
+
+
+
+INPUT.as   {
+BORDER-RIGHT:     #94715e 1px solid; 
+BORDER-TOP:       #94715e 1px solid; 
+BORDER-LEFT:      #94715e 1px solid; COLOR: #990000; 
+BORDER-BOTTOM:    #94715e 1px solid; 
+FONT-SIZE: 10px;
+WIDTH: 90%;
+BACKGROUND-COLOR: #e2dcd4}
+
+INPUT   {
+BORDER-RIGHT:     #94715e 1px solid; 
+BORDER-TOP:       #94715e 1px solid; 
+BORDER-LEFT:      #94715e 1px solid; 
+COLOR: #990000; 
+BORDER-BOTTOM:    #94715e 1px solid; 
+FONT-SIZE: 10px;
+WIDTH: auto;
+BACKGROUND-COLOR: #e2dcd4}
+
+TEXTAREA {
+BORDER-RIGHT:     #94715e 1px solid; 
+BORDER-TOP:       #94715e 1px solid; 
+FONT-SIZE: 12px; 
+BORDER-LEFT:      #94715e 1px solid; 
+COLOR: #990000; 
+BORDER-BOTTOM:    #94715e 1px solid; 
+LETTER-SPACING: 1px; 
+BACKGROUND-COLOR: #e2dcd4}
+
+
+
+
+
+b            {font-family: Verdana; font-size:10px; FONT-WEIGHT: bold}
+A            {font-family: Verdana; font-size:10px; COLOR: #000000; TEXT-DECORATION: none}
+a:active     {font-family: Verdana; font-size:10px; COLOR: #990000; TEXT-DECORATION: none}
+a:link       {font-family: Verdana; font-size:10px; COLOR: #990000; TEXT-DECORATION: none}
+a:visited    {font-family: Verdana; font-size:10px; COLOR: #990000; TEXT-DECORATION: none}
+a:hover      {font-family: Verdana; font-size:10px; COLOR: #000099; TEXT-DECORATION: underline}
+
+
+.bold_white          {FONT-WEIGHT: bold; FONT-SIZE: 9px; COLOR: #ffffff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none}
+A.bold_white:link    {FONT-WEIGHT: bold; FONT-SIZE: 9px; COLOR: #ffffff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none}
+A.bold_white:hover   {FONT-WEIGHT: bold; FONT-SIZE: 9px; COLOR: #FFFF00; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: underline blink}
+A.bold_white:visited {FONT-WEIGHT: bold; FONT-SIZE: 9px; COLOR: #ffffff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none}
+
+
+

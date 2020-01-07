@@ -619,9 +619,9 @@ class League extends AppModel
                 'conditions' => array(
                     'League.id = Event.league_id',
                     'Event.active' => $this->admin ? array(0, 1) : 1,
-//                    'Event.date <=' => gmdate('Y-m-d H:i:s'),
-                    'Event.type'    => 2,
-                    'Event.last_update >=' => gmdate('Y-m-d H:i:s', strtotime(gmdate('Y-m-d H:i:s')) - 60000) //60
+                    'Event.date <=' => gmdate('Y-m-d H:i:s'),
+//                    'Event.type'    => 2,
+                    'Event.last_update >=' => gmdate('Y-m-d H:i:s', strtotime(gmdate('Y-m-d H:i:s')) - 50000) //60
                 )
             )
         );

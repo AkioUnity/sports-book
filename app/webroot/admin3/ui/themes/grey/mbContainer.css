@@ -1,0 +1,95 @@
+.mb-resize{
+background:transparent !important;
+border:none !important;
+}
+.mb-resize.ui-resizable-se {
+width: 20px !important;
+height: 20px !important;
+}
+
+.mbproxy{border:1px dotted gray;background: url(themes/grey/images/proxy.png)}
+
+.containerPlus {font-family:Verdana; font-size:13px};
+.containerPlus .spacer {margin-top:10px}
+.containerPlus .buttonBar { position:relative;top:0;float:right;margin-top:-23px; margin-right:15px}
+.containerPlus .buttonBar img {margin-left:5px}
+.containerPlus .content {margin-right:-15px; padding-right:10px;overflow:auto;}
+
+/*
+* default
+*/
+.containerPlus{}
+.containerPlus .no	{ background: url('themes/grey/images/default/no.png') top left no-repeat; }
+.containerPlus .ne	{ background: url('themes/grey/images/default/ne.png') top right no-repeat; margin-left: 21px;}
+.containerPlus .ne img	{left:-10px; top:-10px}
+.containerPlus .n	{ background: url('themes/grey/images/default/n.png') top center repeat-x; margin-right: 20px; -moz-user-select: none; -khtml-user-select: none}
+.containerPlus .n	{ padding-top:8px;height:26px; font-size:15px; white-space:nowrap;overflow:hidden;}
+.containerPlus .n	a{ text-decoration:none;color:#000; font-size:15px;}
+
+.containerPlus .o	{ background: url('themes/grey/images/default/o.png') top left repeat-y;}
+.containerPlus .e	{ background: url('themes/grey/images/default/e.png') top right repeat-y; margin-left: 21px;}
+.containerPlus .c { background: url('themes/grey/images/default/c.png'); margin-right: 23px; padding-top: 1px; padding-bottom: 1px; }
+
+.containerPlus .so	{ background: url('themes/grey/images/default/so.png') bottom left no-repeat;}
+.containerPlus .se	{ background: url('themes/grey/images/default/se.png') bottom right no-repeat; margin-left: 21px;}
+.containerPlus .s { background: url('themes/grey/images/default/s.png') bottom repeat-x; padding-top: 20px; margin-right: 23px;}
+
+
+/*
+* black
+*/
+.containerPlus.black .no	{ background: url('themes/grey/images/black/no.png') top left no-repeat}
+.containerPlus.black .ne	{ background: url('themes/grey/images/black/ne.png') top right no-repeat; margin-left: 21px;}
+.containerPlus.black .n	{ background: url('themes/grey/images/black/n.png') top center repeat-x; margin-right: 25px;height:26px;}
+.containerPlus.black .n	{ padding-top:8px;font-size:15px; color:white;-moz-user-select: none; -khtml-user-select: none}
+.containerPlus.black .n	a{ text-decoration:none;color:#fff; font-size:15px; white-space:nowrap;overflow:hidden;}
+
+.containerPlus.black .o	{ background: url('themes/grey/images/black/o.png') top left repeat-y;}
+.containerPlus.black .e	{ background: url('themes/grey/images/black/e.png') top right repeat-y; margin-left: 21px;}
+.containerPlus.black .c { background: url('themes/grey/images/black/c.png'); margin-right: 25px; padding-top: 1px; padding-bottom: 1px; }
+.containerPlus.black .c .content {color:white;}
+.containerPlus.black .c .content a {color:white;}
+
+.containerPlus.black .so	{ background: url('themes/grey/images/black/so.png') bottom left no-repeat;}
+.containerPlus.black .se	{ background: url('themes/grey/images/black/se.png') bottom right no-repeat; margin-left: 21px;}
+.containerPlus.black .s { background: url('themes/grey/images/black/s.png') bottom repeat-x; padding-top: 20px; margin-right: 25px;}
+
+/*
+* white
+*/
+.containerPlus.white .no	{ background: url('themes/grey/images/white/no.png') top left no-repeat;}
+.containerPlus.white .ne	{ background: url('themes/grey/images/white/ne.png') top right no-repeat; margin-left: 21px;}
+.containerPlus.white .n	{ background: url('themes/grey/images/white/n.png') top center repeat-x; margin-right: 25px;height:26px;}
+.containerPlus.white .n	{ padding-top:8px; font-size:16px;-moz-user-select: none; -khtml-user-select: none}
+
+.containerPlus.white .o	{ background: url('themes/grey/images/white/o.png') top left repeat-y;}
+.containerPlus.white .e	{ background: url('themes/grey/images/white/e.png') top right repeat-y; margin-left: 21px;}
+.containerPlus.white .c { background: url('themes/grey/images/white/c.png'); margin-right: 25px; padding-top: 1px; padding-bottom: 1px; }
+.containerPlus.white .c .content {color:#000;}
+.containerPlus.white .n	a{}
+.containerPlus.white .n	a:hover{ text-decoration:underline}
+
+.containerPlus.white .so	{ background: url('themes/grey/images/white/so.png') bottom left no-repeat;}
+.containerPlus.white .se	{ background: url('themes/grey/images/white/se.png') bottom right no-repeat; margin-left: 21px;}
+.containerPlus.white .s { background: url('themes/grey/images/white/s.png') bottom repeat-x; padding-top: 20px; margin-right: 25px;}
+
+
+/*
+* alert
+*/
+.containerPlus.alert .no	{ background: url('themes/grey/images/alert/no.png') top left no-repeat;}
+.containerPlus.alert .ne	{ background: url('themes/grey/images/alert/ne.png') top right no-repeat; margin-left: 21px;}
+.containerPlus.alert .n	{ background: url('themes/grey/images/alert/n.png') top center repeat-x; margin-right: 25px;height:26px;}
+.containerPlus.alert .n	{ padding-top:8px; font-size:16px;-moz-user-select: none; -khtml-user-select: none}
+
+.containerPlus.alert .o	{ background: url('themes/grey/images/alert/o.png') top left repeat-y;}
+.containerPlus.alert .e	{ background: url('themes/grey/images/alert/e.png') top right repeat-y; margin-left: 21px;}
+.containerPlus.alert .c { background: url('themes/grey/images/alert/c.png'); margin-right: 25px; padding-top: 1px; padding-bottom: 1px; }
+.containerPlus.alert .c .content {color:#000;}
+.containerPlus.alert .n	a{}
+.containerPlus.alert .n	a:hover{ text-decoration:underline}
+
+.containerPlus.alert .so	{ background: url('themes/grey/images/alert/so.png') bottom left no-repeat;}
+.containerPlus.alert .se	{ background: url('themes/grey/images/alert/se.png') bottom right no-repeat; margin-left: 21px;}
+.containerPlus.alert .s { background: url('themes/grey/images/alert/s.png') bottom repeat-x; padding-top: 20px; margin-right: 25px;}
+
