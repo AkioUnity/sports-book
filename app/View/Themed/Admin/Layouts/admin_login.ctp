@@ -11,7 +11,6 @@ Website: http://thevectorlab.net/
 <!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
 <!-- BEGIN HEAD -->
 <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    
     <title>Login page</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <?php echo $this->Html->meta('icon', $this->Html->url('/favicon.ico')); ?>
@@ -38,7 +37,6 @@ Website: http://thevectorlab.net/
 
 <!-- BEGIN LOGIN -->
 <div id="login">
-
     <!-- BEGIN LOGIN FORM -->
     <?php echo $this->MyForm->create($model, array('class' => 'form-vertical no-padding no-margin', 'id' => 'loginform')); ?>
     <form id="loginform" class="form-vertical no-padding no-margin" action="/admin" method="post">
@@ -46,7 +44,7 @@ Website: http://thevectorlab.net/
             <i class="icon-lock"></i>
         </div>
         <div class="control-wrap">
-            <h4><?php echo __('Staff Login'); ?></h4>
+            <h4><?php echo($group_name?$group_name." ":"Admin "); echo __('Staff Login'); ?></h4>
             <div class="control-group">
                 <div class="controls">
                     <div class="input-prepend">
@@ -63,11 +61,13 @@ Website: http://thevectorlab.net/
                     </div>
                 </div>
             </div>
-            <div class="control-group">
+            <div class="control-group" style="display: none">
                 <div class="controls">
                     <div class="input-prepend">
                         <span class="add-on"><i class="icon-tags"></i></span>
-                        <?php echo $this->MyForm->input('group_id', array('type' => 'select', 'options' => $groups, 'class' => 'dropbox', 'style' => 'width: 227px; height: 42px;', 'label' => false, 'div' => false)); ?>
+                        <input type="hidden" name="group_id" value="<?php echo $group_id ?>">
+                        <?php echo $this->MyForm->input('group_id', array('type' => 'hidden', 'value'=>$group_id)); ?>
+<!--                        --><?php //echo $this->MyForm->input('group_id', array('type' => 'select', 'options' => $groups, 'class' => 'dropbox', 'style' => 'width: 227px; height: 42px;', 'label' => false, 'div' => false)); ?>
                     </div>
                     <div class="clearfix space5"></div>
                 </div>

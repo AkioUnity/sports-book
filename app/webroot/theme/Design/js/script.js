@@ -132,10 +132,4 @@ jQuery(document).ready(function( $ ) {
             $("#"+tab_id).addClass('current');
         })
 
-        $('.addBet').click(function(){
-            let bet_id = $(this).attr('id');
-
-            $("#"+bet_id).addClass('current');
-        })
-
 });  // end of jquery main wrapper

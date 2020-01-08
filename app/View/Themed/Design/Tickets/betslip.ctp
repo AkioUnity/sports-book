@@ -6,7 +6,7 @@
                 <li <?php if(count($bets) == 1):?>class="active"<?php endif;?>><a onclick="return false;" href="#betslip-single" aria-controls="betslip-single" role="tab" ><?php echo __("Single"); ?></a></li>
                 <li <?php if(count($bets) > 1):?>class="active"<?php endif;?>><a onclick="return false;" href="#betslip-multi" aria-controls="betslip-multi" role="tab" ><?php echo __("Multi"); ?></a></li>
              <?php else: ?>
-                
+
             <?php endif; ?>
         </ul>
         <div class="clear"></div>
@@ -69,7 +69,49 @@
             <span class="total-bets"><?php echo __('Total bets'); ?>: <?php echo $betsCount; ?></span>
             <div class="clear"></div>
         </div>
+        <style>
+            .stake-ammount ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                margin-bottom: 9px;
+            }
+
+            .stake-ammount {
+                display: table;   /* Allow the centering to work */
+                margin: 0 auto;
+                text-align: center;
+            }
+
+            ul#stakelist li {
+                padding: 10px;
+                float: left;
+                margin: 2px;
+                cursor: pointer;
+                background: #e9ecef;
+                color: black;
+                width: 3.87em;
+                text-align: center;
+                border-radius: .3rem;
+                transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+            }
+            @media (max-width: 767px) {
+                ul#stakelist li {
+                    width: 6em;
+                }
+            }
+        </style>
         <div class="total">
+            <div class="stake-ammount">
+                <h2><?php echo __('System');?></h2>
+                <ul id="stakelist">
+                    <li id="one" class="btn">1</li>
+                    <li id="five" class="btn">5</li>
+                    <li id="ten" class="btn">10</li>
+                    <li id="twenty" class="btn">20</li>
+                </ul>
+            </div>
             <input class="stake-total" name="stake" id="total-stake"  placeholder="<?=Configure::read('Settings.currency');?> 0.00" type="text" value="<?php echo $totalStake; ?>">
             <?php echo __('Stake'); ?>:
             <div class="clear"></div>
@@ -93,6 +135,15 @@
 <script>
     $('.stsckrem').click(function(){
         let stack_id = $(this).attr('id').replace(/\D/g, '');;
+
         $("#"+stack_id).removeClass('current');
     })
+
+    $("#stakelist li").click(function() {
+        //alert('ok');
+        Ticket.setStake($('#total-stake').attr("value",($(this).text())));
+        clearTimeout(typingTimer);
+        typingTimer = setTimeout(doneTyping, doneTypingInterval);
+    });
+    
 </script>

@@ -37,6 +37,16 @@ var Ticket = {
     }, // delayCall
 
     addBet : function(betId) {
+        let item=$("#"+betId);
+        if (item.hasClass('current')){
+            console.log("remove bet"+betId);
+            item.removeClass('current');
+            Ticket.removeBet(betId);
+            return;
+        }
+        let parent=item.parent();
+        parent.children().removeClass('current');
+        item.addClass('current');
         $('.roll.betslip').show();
         $('#bet-slip-container').slideUp();
         jQuery('#bet-slip-container-html').load(Ticket.TicketUrl + '/addBet/' + betId + Ticket.isAJax, function() {

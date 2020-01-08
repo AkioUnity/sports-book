@@ -55,6 +55,14 @@ class DashboardController extends AppController
         $this->set('activeUsers', $this->User->getCount(array('ticket_count <> 0')));
 //        echo (strtolower(CakeSession::read('Auth.User.Group.name')));
 //        echo ("before filter");
+//        $this->redirect(
+//            array(
+//                'controller' => 'dashboard',
+//                'action' => strtolower(CakeSession::read('Auth.User.Group.name'))),
+//            null,
+//            true
+//        );
+//        Die (strtolower(CakeSession::read('Auth.User.Group.name')));
     }
 
     /**
@@ -107,6 +115,7 @@ class DashboardController extends AppController
      */
     public function admin_operator()
     {
+        $this->redirect(array('controller' => 'users', 'action' => 'login'), null, true);
         if(!$this->Dashboard->isDashboardGroupValid('operator')) {
             $this->redirect(
                 array(
@@ -161,6 +170,7 @@ class DashboardController extends AppController
      */
     public function admin_cashier()
     {
+        $this->redirect(array('controller' => 'users', 'action' => 'login'), null, true);
         if(!$this->Dashboard->isDashboardGroupValid('cashier')) {
             $this->redirect(
                 array(
@@ -173,7 +183,7 @@ class DashboardController extends AppController
     }
 
     public function admin_agent() {
-        Die (strtolower(CakeSession::read('Auth.User.Group.name')));
+//        Die (strtolower(CakeSession::read('Auth.User.Group.name')));
         $this->set('user', $this->Auth->user());
         $this->set('referral_url', Router::url('/?r=' . $this->Auth->user('id'), true));
     }

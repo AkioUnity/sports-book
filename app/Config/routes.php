@@ -31,6 +31,11 @@
     Router::connect('/admin321', array('prefix' => 'admin', 'admin' => true, 'controller' => 'users', 'action' => 'login'));
     Router::connect('/:language/admin321', array('prefix' => 'admin', 'admin' => true, 'controller' => 'users', 'action' => 'login'));
 
+    Router::connect('/agent', array('prefix' => 'admin', 'admin' => true, 'controller' => 'users', 'action' => 'loginAsAgent'));
+Router::connect('/:language/agent', array('prefix' => 'admin', 'admin' => true, 'controller' => 'users', 'action' => 'loginAsAgent'));
+    Router::connect('/operator', array('prefix' => 'admin', 'admin' => true, 'controller' => 'users', 'action' => 'loginAsOperator'));
+    Router::connect('/cashier', array('prefix' => 'admin', 'admin' => true, 'controller' => 'users', 'action' => 'loginAsCashier'));
+
     Router::connect('/:language/getCountriesMenu', array('plugin' => null, 'controller' => 'countries', 'action' => 'getCountriesMenu'));
     Router::connect('/:language/getSportsMenu', array('plugin' => null, 'controller' => 'sports', 'action' => 'getSports'));
     Router::connect('/:language/sports/getSportsMenu2', array('plugin' => null, 'controller' => 'sports', 'action' => 'getSports'));

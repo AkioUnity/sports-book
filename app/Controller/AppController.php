@@ -59,9 +59,9 @@ class AppController extends Controller
         'Paginator',
 //        'Security',
         'Auth'  =>  array(
-            'authorize'     =>  array(
-                'Actions'   =>  array('actionPath' => 'controllers')
-            ),
+//            'authorize'     =>  array(
+//                'Actions'   =>  array('actionPath' => 'controllers')
+//            ),
             'loginRedirect'     =>  array('plugin' => false, 'admin' => false, 'controller' => false, 'action' => '/'),
             'logoutRedirect'    =>  array('plugin' => false, 'admin' => false, 'controller' => false, 'action' => '/'),
             'loginAction'       =>  array('plugin' => false, 'admin' => false, 'controller' => 'users', 'action' => 'login'),
@@ -205,6 +205,7 @@ class AppController extends Controller
         RunCpa::getInstance()->captureRequest();
 
         parent::beforeFilter();
+//        echo ("App controller Before");
     }
 
     /**

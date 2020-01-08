@@ -69,7 +69,7 @@ class UsersController extends AppController
     public function beforeFilter()
     {
         parent::beforeFilter();
-        $this->Auth->allow(array('login', 'admin_login', 'admin_logout', 'logout', 'disable', 'docs'/*, 'admin_statistics'*/));
+        $this->Auth->allow(array('login', 'admin_login','admin_loginAsAgent','admin_loginAsOperator','admin_loginAsCashier', 'admin_logout', 'logout', 'disable', 'docs'/*, 'admin_statistics'*/));
     }
 
     /**
@@ -709,9 +709,36 @@ class UsersController extends AppController
     /**
      * Admin login
      */
+    public function admin_login_admin()
+    {
+        $this->set('group_id', Group::ADMINISTRATOR_GROUP);
+        $this->admin_login();
+    }
+
+    public function admin_loginAsAgent()
+    {
+        $this->set('group_id', Group::AGENT_GROUP);
+        $this->set('group_name', "Agent");
+//        $this->render('admin_login');
+        $this->admin_login();
+    }
+
+    public function admin_loginAsOperator()
+    {
+        $this->set('group_id', Group::OPERATOR_GROUP);
+        $this->set('group_name', "Operator");
+        $this->admin_login();
+    }
+
+    public function admin_loginAsCashier()
+    {
+        $this->set('group_id', Group::CASHIER_GROUP);
+        $this->set('group_name', "Cashier");
+        $this->admin_login();
+    }
+
     public function admin_login()
     {
-//        print_r($this->Auth->user('group_id'));
         if($this->Auth->loggedIn()) {
             $this->redirect(array('plugin' => null, 'controller' => 'dashboard'), 302, true);
         }
@@ -723,7 +750,6 @@ class UsersController extends AppController
         $this->set('groups', $this->Group->getAdminGroups());
         $this->set('languages', $this->Language->getLanguagesList2());
         $this->set('model', $this->User->name);
-
         if (!empty($this->request->data)) {
             if(!$this->Auth->login()) {
                 $this->Admin->setMessage(__('Username or password is incorrect'), 'error');
@@ -748,6 +774,8 @@ class UsersController extends AppController
 //            echo $this->Auth->user('id');
             $this->redirect(array('language' => $language, 'plugin' => null, 'controller' => 'dashboard'));
         }
+//        $this->viewPath = 'users';
+        $this->render('admin_login');
     }
 
     /**

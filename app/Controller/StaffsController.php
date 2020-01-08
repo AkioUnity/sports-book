@@ -138,6 +138,11 @@ class StaffsController extends AppController
         if (!empty($this->request->data)) {
             $this->request->data['Staff']['password'] = Security::hash($this->request->data['Staff']['password_raw'], null, true);
             $this->request->data['Staff']['status'] = 1;
+            $this->request->data['Staff']['last_visit']          = gmdate('Y-m-d H:i:s');
+            $this->request->data['Staff']['registration_date']   = gmdate('Y-m-d H:i:s');
+            $this->request->data['Staff']['verified']            = 1;
+//            $this->request->data['Staff']['group_id']            = Group::USER_GROUP;
+//            $this->request->data['Staff']['odds_type']           = 1;
         }
         parent::admin_add($id);
         $this->request->data['Staff']['password'] = '';
