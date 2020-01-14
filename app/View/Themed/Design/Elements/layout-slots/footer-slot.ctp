@@ -4,7 +4,7 @@ font-size: 80%;
 }
 </style>
 
-<div class="deposit">
+<!-- <div class="deposit">
     <div class="clear"></div>
         <div class="inline-cell">
             <h4><?php echo __('Methods of FIAT funding'); ?></h4>
@@ -19,7 +19,7 @@ font-size: 80%;
             </div>
         </div>
     <div class="clear"></div>
-</div>
+</div>-->
 <div class="footer-menu">
     <div class="container">
         <div class="col3">

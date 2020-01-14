@@ -1369,7 +1369,7 @@ msgstr "58/70 (83) contre 54/70 (77)"
 #: View/Themed/Redesign/Tickets/review.ctp:60
 #: View/Themed/Redesign/Tickets/view.ctp:48
 msgid "Back"
-msgstr "Retour"
+msgstr "Gain"
 
 #: Plugin/Events/View/Themed/Redesign/rangeEvents/display-search-results.ctp:7
 #: Plugin/Events/View/Themed/Redesign/rangeEvents/index.ctp:7
@@ -2045,7 +2045,7 @@ msgstr "Aujourd'hui chargé:"
 
 #: Plugin/Reports/View/Themed/Admin/Elements/cashier_daily.ctp:131
 msgid "Amount of total funds:"
-msgstr "Montant total des fonds:"
+msgstr "Mise Totale des fonds:"
 
 #: Plugin/Reports/View/Themed/Admin/Elements/cashier_daily.ctp:135
 msgid "Amount of total charges:"
@@ -2341,7 +2341,7 @@ msgstr "Billets rapport"
 #: View/Themed/Design/Tickets/betslip.ctp:73
 #: View/Themed/Redesign/Tickets/betslip.ctp:86
 msgid "Stake"
-msgstr "Pieu"
+msgstr "COTE TOTALE"
 
 #: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:132
 #: View/Themed/Admin/Settings/admin_index.ctp:100
@@ -2383,7 +2383,7 @@ msgstr "Commission"
 #: View/Themed/Redesign/Tickets/review.ctp:27
 #: View/Themed/Redesign/Tickets/view.ctp:14
 msgid "Odd"
-msgstr "Etrange."
+msgstr "Cotes."
 
 #: Plugin/Reports/View/Themed/Admin/Elements/tickets.ctp:134
 #: View/Themed/Admin/Tickets/admin_view.ctp:39
@@ -3008,7 +3008,7 @@ msgstr "Résultat"
 #: View/Themed/Redesign/Tickets/review.ctp:26
 #: View/Themed/Redesign/Tickets/view.ctp:13
 msgid "Pick"
-msgstr "Choisir"
+msgstr "Choix"
 
 #: View/Themed/Admin/Results/admin_all_events.ctp:62
 #: View/Themed/Admin/Results/admin_league.ctp:62
@@ -3764,7 +3764,7 @@ msgstr "ID :"
 #: View/Themed/Design/Tickets/preview.ctp:50
 #: View/Themed/Redesign/Tickets/preview.ctp:51
 msgid "Total:"
-msgstr "Total :"
+msgstr "Totale :"
 
 #: View/Themed/Admin/Tickets/admin_printTicket.ctp:44
 #: View/Themed/Admin/Tickets/printing.ctp:44
@@ -3786,7 +3786,7 @@ msgstr "Montant :"
 #: View/Themed/Redesign/Tickets/print_ticket.ctp:72
 #: View/Themed/Redesign/Tickets/review.ctp:55
 msgid "Return:"
-msgstr "Retour"
+msgstr "Gain"
 
 #: View/Themed/Admin/Tickets/admin_view.ctp:32
 msgid "Ticket Number"
@@ -4355,7 +4355,7 @@ msgstr "Sport / Ligue"
 #: View/Themed/Redesign/Tickets/review.ctp:53
 #: View/Themed/Redesign/Tickets/view.ctp:51
 msgid "Total"
-msgstr "Total"
+msgstr "Cote totale"
 
 #: View/Themed/ChalkPro/Tickets/preview.ctp:57
 msgid "Service fee: %d %s"
@@ -4370,7 +4370,7 @@ msgstr "Montant:% 01.2f% s"
 #: View/Themed/ChalkPro/Tickets/preview.ctp:67
 #: View/Themed/ChalkPro/Tickets/review.ctp:85
 msgid "Total amount:"
-msgstr "Montant total"
+msgstr "Mise Totale"
 
 #: View/Themed/ChalkPro/Tickets/preview.ctp:83
 msgid "Submit Ticket"
@@ -4413,7 +4413,7 @@ msgstr "Frais (Service %s %s ):% 01.2f% s"
 #: View/Themed/Design/Tickets/print_ticket.ctp:68
 #: View/Themed/Redesign/Tickets/print_ticket.ctp:68
 msgid "Total amount"
-msgstr "Montant total"
+msgstr "Mise Totale"
 
 #: View/Themed/ChalkPro/Tickets/review.ctp:2
 #: View/Themed/Design/Tickets/review.ctp:2

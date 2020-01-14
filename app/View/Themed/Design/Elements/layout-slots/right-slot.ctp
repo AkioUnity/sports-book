@@ -1,3 +1,6 @@
+<div class="box mobile-view">
+    <?php  echo $this->element('layout-blocks/left-block/search-event'); ?>
+</div>
 <!-- Bet Slip Block -->
 <?php if($this->Ticket->isAllowedToPlaceTicket() && $this->MyHtml->checkAcl(array('controller' => 'Tickets', 'action' => 'getBets'))) : ?>
     <img src="<?=$this->Html->url('/theme/Design/img/loader.gif');?>" alt="" class="roll betslip" />

@@ -134,7 +134,6 @@ var App = function () {
     }
 
 
-
     var handleDashboardCalendar = function () {
 
         if (!jQuery().fullCalendar) {
@@ -1111,104 +1110,104 @@ var App = function () {
         $('.date-range').daterangepicker();
 
         $('#dashboard-report-range').daterangepicker({
-            ranges: {
-                'Today': ['today', 'today'],
-                'Yesterday': ['yesterday', 'yesterday'],
-                'Last 7 Days': [Date.today().add({
-                    days: -6
-                }), 'today'],
-                'Last 30 Days': [Date.today().add({
+                ranges: {
+                    'Today': ['today', 'today'],
+                    'Yesterday': ['yesterday', 'yesterday'],
+                    'Last 7 Days': [Date.today().add({
+                        days: -6
+                    }), 'today'],
+                    'Last 30 Days': [Date.today().add({
+                        days: -29
+                    }), 'today'],
+                    'This Month': [Date.today().moveToFirstDayOfMonth(), Date.today().moveToLastDayOfMonth()],
+                    'Last Month': [Date.today().moveToFirstDayOfMonth().add({
+                        months: -1
+                    }), Date.today().moveToFirstDayOfMonth().add({
+                        days: -1
+                    })]
+                },
+                opens: 'left',
+                format: 'MM/dd/yyyy',
+                separator: ' to ',
+                startDate: Date.today().add({
                     days: -29
-                }), 'today'],
-                'This Month': [Date.today().moveToFirstDayOfMonth(), Date.today().moveToLastDayOfMonth()],
-                'Last Month': [Date.today().moveToFirstDayOfMonth().add({
-                    months: -1
-                }), Date.today().moveToFirstDayOfMonth().add({
-                    days: -1
-                })]
+                }),
+                endDate: Date.today(),
+                minDate: '01/01/2012',
+                maxDate: '12/31/2014',
+                locale: {
+                    applyLabel: 'Submit',
+                    fromLabel: 'From',
+                    toLabel: 'To',
+                    customRangeLabel: 'Custom Range',
+                    daysOfWeek: ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa'],
+                    monthNames: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
+                    firstDay: 1
+                },
+                showWeekNumbers: true,
+                buttonClasses: ['btn-danger']
             },
-            opens: 'left',
-            format: 'MM/dd/yyyy',
-            separator: ' to ',
-            startDate: Date.today().add({
-                days: -29
-            }),
-            endDate: Date.today(),
-            minDate: '01/01/2012',
-            maxDate: '12/31/2014',
-            locale: {
-                applyLabel: 'Submit',
-                fromLabel: 'From',
-                toLabel: 'To',
-                customRangeLabel: 'Custom Range',
-                daysOfWeek: ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa'],
-                monthNames: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
-                firstDay: 1
-            },
-            showWeekNumbers: true,
-            buttonClasses: ['btn-danger']
-        },
 
-        function (start, end) {
-            App.blockUI(jQuery("#page"));
-            setTimeout(function () {
-                App.unblockUI(jQuery("#page"));
-                $.gritter.add({
-                    title: 'Dashboard',
-                    text: 'Dashboard date range updated.'
-                });
-                App.scrollTo();
-            }, 1000);
-            $('#dashboard-report-range span').html(start.toString('MMMM d, yyyy') + ' - ' + end.toString('MMMM d, yyyy'));
+            function (start, end) {
+                App.blockUI(jQuery("#page"));
+                setTimeout(function () {
+                    App.unblockUI(jQuery("#page"));
+                    $.gritter.add({
+                        title: 'Dashboard',
+                        text: 'Dashboard date range updated.'
+                    });
+                    App.scrollTo();
+                }, 1000);
+                $('#dashboard-report-range span').html(start.toString('MMMM d, yyyy') + ' - ' + end.toString('MMMM d, yyyy'));
 
-        });
+            });
 
         $('#dashboard-report-range span').html(Date.today().add({
             days: -29
         }).toString('MMMM d, yyyy') + ' - ' + Date.today().toString('MMMM d, yyyy'));
 
         $('#form-date-range').daterangepicker({
-            ranges: {
-                'Today': ['today', 'today'],
-                'Yesterday': ['yesterday', 'yesterday'],
-                'Last 7 Days': [Date.today().add({
-                    days: -6
-                }), 'today'],
-                'Last 30 Days': [Date.today().add({
+                ranges: {
+                    'Today': ['today', 'today'],
+                    'Yesterday': ['yesterday', 'yesterday'],
+                    'Last 7 Days': [Date.today().add({
+                        days: -6
+                    }), 'today'],
+                    'Last 30 Days': [Date.today().add({
+                        days: -29
+                    }), 'today'],
+                    'This Month': [Date.today().moveToFirstDayOfMonth(), Date.today().moveToLastDayOfMonth()],
+                    'Last Month': [Date.today().moveToFirstDayOfMonth().add({
+                        months: -1
+                    }), Date.today().moveToFirstDayOfMonth().add({
+                        days: -1
+                    })]
+                },
+                opens: 'right',
+                format: 'MM/dd/yyyy',
+                separator: ' to ',
+                startDate: Date.today().add({
                     days: -29
-                }), 'today'],
-                'This Month': [Date.today().moveToFirstDayOfMonth(), Date.today().moveToLastDayOfMonth()],
-                'Last Month': [Date.today().moveToFirstDayOfMonth().add({
-                    months: -1
-                }), Date.today().moveToFirstDayOfMonth().add({
-                    days: -1
-                })]
+                }),
+                endDate: Date.today(),
+                minDate: '01/01/2012',
+                maxDate: '12/31/2014',
+                locale: {
+                    applyLabel: 'Submit',
+                    fromLabel: 'From',
+                    toLabel: 'To',
+                    customRangeLabel: 'Custom Range',
+                    daysOfWeek: ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa'],
+                    monthNames: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
+                    firstDay: 1
+                },
+                showWeekNumbers: true,
+                buttonClasses: ['btn-danger']
             },
-            opens: 'right',
-            format: 'MM/dd/yyyy',
-            separator: ' to ',
-            startDate: Date.today().add({
-                days: -29
-            }),
-            endDate: Date.today(),
-            minDate: '01/01/2012',
-            maxDate: '12/31/2014',
-            locale: {
-                applyLabel: 'Submit',
-                fromLabel: 'From',
-                toLabel: 'To',
-                customRangeLabel: 'Custom Range',
-                daysOfWeek: ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa'],
-                monthNames: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
-                firstDay: 1
-            },
-            showWeekNumbers: true,
-            buttonClasses: ['btn-danger']
-        },
 
-        function (start, end) {
-            $('#form-date-range span').html(start.toString('MMMM d, yyyy') + ' - ' + end.toString('MMMM d, yyyy'));
-        });
+            function (start, end) {
+                $('#form-date-range span').html(start.toString('MMMM d, yyyy') + ' - ' + end.toString('MMMM d, yyyy'));
+            });
 
         $('#form-date-range span').html(Date.today().add({
             days: -29
@@ -1410,7 +1409,7 @@ var App = function () {
                 $('#sidebar > ul').hide();
                 $("#container").addClass("sidebar-closed");
             } else {
-               $('#main-content').css({
+                $('#main-content').css({
                     'margin-left': '215px'
                 });
                 $('#sidebar > ul').show();
@@ -1557,17 +1556,43 @@ $('.element').tooltip();
 
 
 // Slider input js
-try{
-    jQuery("#Slider1").slider({ from: 5, to: 50, step: 2.5, round: 1, dimension: '&nbsp;$', skin: "round_plastic" });
-    jQuery("#Slider2").slider({ from: 5000, to: 150000, heterogeneity: ['50/50000'], step: 1000, dimension: '&nbsp;$', skin: "round_plastic" });
-    jQuery("#Slider3").slider({ from: 1, to: 30, heterogeneity: ['50/5', '75/15'], scale: [1, '|', 3, '|', '5', '|', 15, '|', 30], limits: false, step: 1, dimension: '', skin: "round_plastic" });
-    jQuery("#Slider4").slider({ from: 480, to: 1020, step: 15, dimension: '', scale: ['8:00', '9:00', '10:00', '11:00', '12:00', '13:00', '14:00', '15:00', '16:00', '17:00'], limits: false, skin: "round_plastic", calculate: function( value ){
-        var hours = Math.floor( value / 60 );
-        var mins = ( value - hours*60 );
-        return (hours < 10 ? "0"+hours : hours) + ":" + ( mins == 0 ? "00" : mins );
-    }});
+try {
+    jQuery("#Slider1").slider({from: 5, to: 50, step: 2.5, round: 1, dimension: '&nbsp;$', skin: "round_plastic"});
+    jQuery("#Slider2").slider({
+        from: 5000,
+        to: 150000,
+        heterogeneity: ['50/50000'],
+        step: 1000,
+        dimension: '&nbsp;$',
+        skin: "round_plastic"
+    });
+    jQuery("#Slider3").slider({
+        from: 1,
+        to: 30,
+        heterogeneity: ['50/5', '75/15'],
+        scale: [1, '|', 3, '|', '5', '|', 15, '|', 30],
+        limits: false,
+        step: 1,
+        dimension: '',
+        skin: "round_plastic"
+    });
+    jQuery("#Slider4").slider({
+        from: 480,
+        to: 1020,
+        step: 15,
+        dimension: '',
+        scale: ['8:00', '9:00', '10:00', '11:00', '12:00', '13:00', '14:00', '15:00', '16:00', '17:00'],
+        limits: false,
+        skin: "round_plastic",
+        calculate: function (value) {
+            var hours = Math.floor(value / 60);
+            var mins = (value - hours * 60);
+            return (hours < 10 ? "0" + hours : hours) + ":" + (mins == 0 ? "00" : mins);
+        }
+    });
 }
-    catch (e){
+catch (e) {
+    console.log(e);
     errorMessage(e);
 }
 

@@ -69,7 +69,7 @@ class UsersController extends AppController
     public function beforeFilter()
     {
         parent::beforeFilter();
-        $this->Auth->allow(array('login', 'admin_login','admin_loginAsAgent','admin_loginAsOperator','admin_loginAsCashier', 'admin_logout', 'logout', 'disable', 'docs'/*, 'admin_statistics'*/));
+        $this->Auth->allow(array('login', 'admin_login','admin_login_admin','admin_loginAsAgent','admin_loginAsOperator','admin_loginAsCashier', 'admin_logout', 'logout', 'disable', 'docs'/*, 'admin_statistics'*/));
     }
 
     /**
@@ -771,7 +771,7 @@ class UsersController extends AppController
             )));
 
             $this->User->updateLastVisit($this->Auth->user('id'));
-//            echo $this->Auth->user('id');
+
             $this->redirect(array('language' => $language, 'plugin' => null, 'controller' => 'dashboard'));
         }
 //        $this->viewPath = 'users';

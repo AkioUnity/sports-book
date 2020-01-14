@@ -1,6 +1,6 @@
 <?php if($this->MyHtml->checkAcl(array('language' => Configure::read('Config.language'), 'plugin' => 'events', 'controller' => 'search', 'action' => 'index'))): ?>
 <!-- Event Search Block -->
-<div class="box">
+<div class="box desktop-view">
     <?php  echo $this->element('layout-blocks/left-block/search-event'); ?>
 </div>
 <!-- END Event Search Block -->

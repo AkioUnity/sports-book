@@ -28,8 +28,8 @@
 
     Router::connect('/:language/Feeds/OddService/receive_file', array('language' => 'eng', 'plugin' => 'feeds', 'controller' => 'OddService', 'action' => 'receive_file'));
 
-    Router::connect('/admin321', array('prefix' => 'admin', 'admin' => true, 'controller' => 'users', 'action' => 'login'));
-    Router::connect('/:language/admin321', array('prefix' => 'admin', 'admin' => true, 'controller' => 'users', 'action' => 'login'));
+    Router::connect('/admin321', array('prefix' => 'admin', 'admin' => true, 'controller' => 'users', 'action' => 'login_admin'));
+    Router::connect('/:language/admin321', array('prefix' => 'admin', 'admin' => true, 'controller' => 'users', 'action' => 'login_admin'));
 
     Router::connect('/agent', array('prefix' => 'admin', 'admin' => true, 'controller' => 'users', 'action' => 'loginAsAgent'));
 Router::connect('/:language/agent', array('prefix' => 'admin', 'admin' => true, 'controller' => 'users', 'action' => 'loginAsAgent'));
