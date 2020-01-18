@@ -182,7 +182,8 @@ class SportsController extends AppController
         $this->set('data', $result);
         $this->set('Sport', $Sport);
         $this->set('League', $LeagueId);
-        $this->set('slides', $this->Slide->getSlides());
+        $this->set('slides', $this->Sport->League->Event->getSliderEvents());
+//        $this->set('slides', $this->Slide->getSlides());
     }
 
     /**

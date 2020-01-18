@@ -149,6 +149,7 @@ class LiveController extends AppController
         $this->set('data', $League);
         $this->set('Sport', $Sport);
         $this->set('League', $LeagueId);
+        $this->set('slides', $this->Sport->League->Event->getSliderEvents());
     }
 
     public function display_event()
@@ -190,7 +191,8 @@ class LiveController extends AppController
         });
 
 
-        $this->set('slides', $this->Slide->getSlides());
+//        $this->set('slides', $this->Slide->getSlides());
+        $this->set('slides', $this->Sport->League->Event->getSliderEvents());
         $this->set('Event', $Event);
     }
 

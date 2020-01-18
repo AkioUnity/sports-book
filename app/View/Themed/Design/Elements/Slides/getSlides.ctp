@@ -1,3 +1,4 @@
+<?php //print_r($slides) ?>
 <?php if (isset($slides) AND is_array($slides)): ?>
 <div class="slider-main">
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">

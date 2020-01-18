@@ -1,3 +1,4 @@
+<?php echo $this->element('Slides/getSlides', array('slides' => $slides)); ?>
 <div class="main-bets">
     <!-- Banner START -->
     <div class="banner">

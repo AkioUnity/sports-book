@@ -53,8 +53,8 @@ direction: rtl;
                         <ul>
                             <li><i class="ico icon-contact"></i><strong><?php echo __("Skype us"); ?></strong><br /><span class="reverse">reganaMtcejorPkoobstropS</span><div class="clear"></div></li>
                             <li><i class="ico icon-faq"></i><strong><?php echo __("Call us"); ?></strong><br /><span class="reverse">569130 76 073+</span><div class="clear"></div></li>
-                            <li><i class="ico icon-call"></i><strong><?php echo __("Contact us by mail"); ?></strong><br /><a href="http://betscheme.com/#contacts" target="_blank"">Email us</a><div class="clear"></div></li>
-                            <li><i class="ico icon-other"></i><strong><?php echo __("Other contacts"); ?></strong><br /><a href="http://betscheme.com/#contacts" target="_blank"">Contacts</a><div class="clear"></div></li>
+                            <li><i class="ico icon-call"></i><strong><?php echo __("Contact us by mail"); ?></strong><br /><a href="http://planet1x2.com/#contacts" target="_blank"">Email us</a><div class="clear"></div></li>
+                            <li><i class="ico icon-other"></i><strong><?php echo __("Other contacts"); ?></strong><br /><a href="http://planet1x2.com/#contacts" target="_blank"">Contacts</a><div class="clear"></div></li>
                         </ul>
                     </div>
                 </div>

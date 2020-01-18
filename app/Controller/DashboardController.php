@@ -115,7 +115,6 @@ class DashboardController extends AppController
      */
     public function admin_operator()
     {
-        $this->redirect(array('controller' => 'users', 'action' => 'login'), null, true);
         if(!$this->Dashboard->isDashboardGroupValid('operator')) {
             $this->redirect(
                 array(

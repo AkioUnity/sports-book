@@ -1,3 +1,7 @@
+<!-- Slider START -->
+<?php echo $this->element('Slides/getSlides', array('slides' => $slides)); ?>
+<!-- Slider END -->
+
 <?php if($LeagueId != null): ?>
 
 <?php endif; ?>

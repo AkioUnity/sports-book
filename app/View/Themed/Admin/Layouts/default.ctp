@@ -159,7 +159,7 @@
 <!-- END CONTAINER -->
 <!-- BEGIN FOOTER -->
 <div id="footer">
-    The platform is created and powered by Betscheme.com
+    The platform is created and powered by planet1x2.com
 </div>
 <!-- END FOOTER -->
 <!-- BEGIN JAVASCRIPTS -->

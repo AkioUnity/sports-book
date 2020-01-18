@@ -18,7 +18,7 @@ $config = array(
                         'action'        =>  'callback'
                     ), true
                 ),
-                "callback2"                 =>  'http://demo.betscheme.com',
+                "callback2"                 =>  'http://demo.planet1x2.com',
             ),
             'Fields'    =>  array(
                 "callback_url"           =>  Router::url(
