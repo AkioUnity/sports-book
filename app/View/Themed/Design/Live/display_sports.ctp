@@ -1,3 +1,4 @@
+<?php echo "display_sports" ?>
 <?php echo $this->element('Slides/getSlides', array('slides' => $slides)); ?>
 <?php if(isset($data) && is_array($data) && !empty($data)): ?>
 <div class="main-bets">

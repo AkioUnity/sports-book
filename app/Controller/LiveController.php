@@ -140,6 +140,8 @@ class LiveController extends AppController
 
         $LeagueId = isset($this->request->params['pass'][1]) ? $this->request->params['pass'][1] : null;
 
+        $this->set('slides', $this->Sport->League->Event->getSliderEvents());
+
         if (!is_array($Sport) || empty($Sport)) {
             return $this->select_sport_league();
         }
@@ -149,7 +151,7 @@ class LiveController extends AppController
         $this->set('data', $League);
         $this->set('Sport', $Sport);
         $this->set('League', $LeagueId);
-        $this->set('slides', $this->Sport->League->Event->getSliderEvents());
+
     }
 
     public function display_event()

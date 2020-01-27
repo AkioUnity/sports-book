@@ -951,7 +951,7 @@ class Event extends AppModel
 
         $result = array();
 
-        foreach (array(58,2,7,6,4) AS $leagueId) {
+        foreach (array(3,5,8,9,10,11,12,13,14,58,2,7,6,4) AS $leagueId) {
             $options["conditions"]["League.id"] = $leagueId;
             $league = $this->find('first', $options);
 //            print_r($leagueId);

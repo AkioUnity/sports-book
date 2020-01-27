@@ -952,7 +952,7 @@ input[type=radio]:not(old):checked + label {
 
 .slider-main .carousel-indicators {
     bottom: 10px;
-    left: 8%
+    left: 10rem;
 }
 
 .carousel-indicators li {
