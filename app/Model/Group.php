@@ -323,10 +323,16 @@ class Group extends AppModel
                     );
                     break;
                 default:
-                    $adminGroups = array();
+                    $adminGroups = array(
+                        0   =>  self::AGENT_GROUP,
+                        1   =>  self::OPERATOR_GROUP,
+                        2   =>  self::CASHIER_GROUP
+                    );
                     break;
             }
         }
+//        print_r($adminGroups);
+//        print_r($groups);
 
         foreach ($groups AS $groupId => $group) {
             if (!in_array($groupId, $adminGroups)) {

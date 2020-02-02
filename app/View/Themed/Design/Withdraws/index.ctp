@@ -39,7 +39,7 @@
 					<?php  echo $this->Form->input('payment_provider', array('label' => false, 'div' => false, 'options' => $paymentProviders, 'type' => 'select', 'default' => '', 'class' => 'select')); ?>
                     <div class="clear"></div>
                 </div>
-                <div class="forma-box">
+                <div class="forma-box" id="payment_account">
 					<p><?php echo __("Payment account"); ?></p>
 					<?php  echo $this->Form->input('account', array('label' => false, 'div' => false, "placeholder" => __('Withdraw account', true), 'type' => 'text', 'default' => '', 'class' => 'form-input')); ?>
                     <div class="clear"></div>
@@ -50,7 +50,7 @@
                     <div class="clear"></div>
                 </div>
 
-                 <button type="submit" class="btn-silver"><?php echo $this->Form->submit(__('Request Manual Withdraw', true), array('class' => 'blue-submit btn-cente')); ?></button>
+                 <button type="submit" class="btn-silver"><?php echo $this->Form->submit(__('Request Withdraw', true), array('class' => 'blue-submit btn-cente')); ?></button>
                 <div class="clear"></div>
                 <?php echo $this->Form->end(); ?>
             </div>
@@ -65,21 +65,27 @@
     $('select[name="data[Withdraw][payment_provider]"]').change(function() {
         var form = $('form[id="WithdrawIndexForm"]');
         var provider = $(this).val();
+        let payment_account=$("#payment_account");
         switch (provider) {
             case 'Manual' :
-                form.attr("action", "/withdraws/index/submit");
+                form.attr("action", "/eng/withdraws/index/submit");
+                payment_account.show();
+                break;
+            case 'Pin Sale' :
+                form.attr("action", "/eng/withdraws/index");
+                payment_account.hide();
                 break;
             default :
                 form.attr("action", "/payments/" + $(this).val() + "/submitWithdraw");
                 break;
         }
 
-        $('input[name^="data"]').each(function() {
-            $(this).attr('name', 'data' + $(this).attr('id').match(/([A-Z]?[^A-Z]*)/g).slice(0,-1).map(function(namePart, index) {
-                namePart = index == 0 ? provider == 'Manual' ? 'Withdraw' : provider : namePart.toLowerCase();
-                // This will wrap each element of the dates array with quotes
-                return "[" + namePart + "]";
-            }).join(""));
-        });
+        // $('input[name^="data"]').each(function() {
+        //     $(this).attr('name', 'data' + $(this).attr('id').match(/([A-Z]?[^A-Z]*)/g).slice(0,-1).map(function(namePart, index) {
+        //         namePart = index == 0 ? provider == 'Manual' ? 'Withdraw' : provider : namePart.toLowerCase();
+        //         // This will wrap each element of the dates array with quotes
+        //         return "[" + namePart + "]";
+        //     }).join(""));
+        // });
     });
 </script>

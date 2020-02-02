@@ -33,7 +33,10 @@
 
     Router::connect('/agent', array('prefix' => 'admin', 'admin' => true, 'controller' => 'users', 'action' => 'loginAsAgent'));
 Router::connect('/:language/agent', array('prefix' => 'admin', 'admin' => true, 'controller' => 'users', 'action' => 'loginAsAgent'));
+
     Router::connect('/operator', array('prefix' => 'admin', 'admin' => true, 'controller' => 'users', 'action' => 'loginAsOperator'));
+    Router::connect('/:language/operator', array('prefix' => 'admin', 'admin' => true, 'controller' => 'users', 'action' => 'loginAsOperator'));
+
     Router::connect('/cashier', array('prefix' => 'admin', 'admin' => true, 'controller' => 'users', 'action' => 'loginAsCashier'));
 
     Router::connect('/:language/getCountriesMenu', array('plugin' => null, 'controller' => 'countries', 'action' => 'getCountriesMenu'));

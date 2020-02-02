@@ -11,7 +11,7 @@
     <?php echo $this->MyHtml->meta(array('name' => 'copyright', 'content' => Configure::read('Settings.metaCopyright'))); ?>
     <?php echo $this->MyHtml->meta(array('name' => 'revisit-after', 'content' => Configure::read('Settings.metaRevisitTime'))); ?>
     <?php echo $this->MyHtml->meta(array('name' => 'identifier-url', 'content' => Configure::read('Settings.metaIdentifierUrl'))); ?>
-    <meta name="verify-webtopay" content="90d888a7029def4d923a93aaec715262">
+    <meta name="verify-webtopay" content="user-panel.ctp">
     <!-- Core CSS -->
     <?php echo $this->MyHtml->css(array('reset', 'fonts', "icons")); ?>
     <?php if(in_array($this->Language->getLanguage(), array('fas', 'heb'))): ?>
@@ -23,6 +23,8 @@
     <!--[if lt IE 9]>
     <?php echo $this->MyHtml->script(array('html5shiv.min', 'respond.min.js')); ?>
     <![endif]-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 <body <?php if(in_array($this->Language->getLanguage(), array('fas', 'heb'))): ?>dir="rtl"<?php endif; ?>>
 <header>

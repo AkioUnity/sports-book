@@ -435,7 +435,7 @@ $menu = array(
 );
 
 if (!Configure::read('Settings.reservation_ticket_mode')) {
-    unset($menu[5]["sub-menu"][1]);
+//    unset($menu[5]["sub-menu"][1]);
 }
 ?>
 

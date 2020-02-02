@@ -58,6 +58,7 @@ class WithdrawsController extends AppController
         }, $userWithdraws);
 
         $amount = isset($this->request->data['Withdraw']['amount']) ? str_replace(',', '.', $this->request->data['Withdraw']['amount']) : 0;
+//        print_r($this->request->data['Withdraw']);
         $account = isset($this->request->data['Withdraw']['account']) ? $this->request->data['Withdraw']['account'] : "";
         $bank = isset($this->request->data['Withdraw']['bank']) ? $this->request->data['Withdraw']['bank'] : null;
         $accountHolder = isset($this->request->data['Withdraw']['account_holder']) ? $this->request->data['Withdraw']['account_holder'] : null;
@@ -102,7 +103,7 @@ class WithdrawsController extends AppController
             $providers[$provider["value"]] = $provider["title"];
         }
 
-        $this->set('paymentProviders', array("Manual" => "Manual"));
+        $this->set('paymentProviders', array("Manual" => "Manual","Pin Sale" => "Pin Sale"));
         $this->set('data', $userWithdraws);
     }
 

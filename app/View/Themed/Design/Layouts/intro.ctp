@@ -12,7 +12,7 @@
     <?php echo $this->MyHtml->meta(array('name' => 'copyright', 'content' => Configure::read('Settings.metaCopyright'))); ?>
     <?php echo $this->MyHtml->meta(array('name' => 'revisit-after', 'content' => Configure::read('Settings.metaRevisitTime'))); ?>
     <?php echo $this->MyHtml->meta(array('name' => 'identifier-url', 'content' => Configure::read('Settings.metaIdentifierUrl'))); ?>
-    <meta name="verify-webtopay" content="90d888a7029def4d923a93aaec715262">
+    <meta name="verify-webtopay" content="Layouts/intro.ctp">
 
     <!-- Core CSS -->
     <?php echo $this->MyHtml->css(array('reset', 'fonts', "icons")); ?>
