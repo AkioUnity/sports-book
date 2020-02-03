@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="80.241.216.18">
+  <component name="PublishConfigData" serverName="New vps">
     <serverData>
-      <paths name="80.241.216.18">
+      <paths name="New vps">
         <serverdata>
           <mappings>
             <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
-      <paths name="vps">
+      <paths name="old 80.241.216.18">
         <serverdata>
           <mappings>
             <mapping deploy="/" local="$PROJECT_DIR$" web="/" />

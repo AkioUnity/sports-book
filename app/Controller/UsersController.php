@@ -101,8 +101,8 @@ class UsersController extends AppController
                 }
                 break;
             case Group::AGENT_GROUP:
-                $conditions = array('User.group_id' => Group::USER_GROUP);
-//                $conditions = array('User.group_id' => Group::USER_GROUP, 'User.referal_id' => $user["id"]);
+//                $conditions = array('User.group_id' => Group::USER_GROUP);
+                $conditions = array('User.group_id' => Group::USER_GROUP, 'User.referal_id' => $user["id"]);
                 break;
             default:
                 $conditions = array('User.id' => $user["id"]);
