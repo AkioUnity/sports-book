@@ -105,7 +105,8 @@ class UsersController extends AppController
                 $conditions = array('User.group_id' => Group::USER_GROUP, 'User.referal_id' => $user["id"]);
                 break;
             default:
-                $conditions = array('User.id' => $user["id"]);
+                $conditions = array('User.referal_id' => $user["id"]);
+//                $conditions = array('User.id' => $user["id"]);
                 break;
         }
 
@@ -838,6 +839,9 @@ class UsersController extends AppController
             $this->request->data['User']['registration_date']   = gmdate('Y-m-d H:i:s');
             $this->request->data['User']['group_id']            = Group::USER_GROUP;
             $this->request->data['User']['odds_type']           = 1;
+
+            $user       =   $this->Auth->user();
+            $this->request->data['User']['referal_id']            = $user["id"];
         }
 
         parent::admin_add();

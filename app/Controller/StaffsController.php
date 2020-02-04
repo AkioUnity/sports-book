@@ -80,7 +80,8 @@ class StaffsController extends AppController
                 $conditions = array('Staff.group_id' => Group::AGENT_GROUP, 'Staff.referal_id' => $user["id"]);
                 break;
             default:
-                $conditions = array('Staff.id' => $user["id"]);
+                $conditions = array('Staff.referal_id' => $user["id"]);
+//                $conditions = array('Staff.id' => $user["id"]);
                 break;
         }
 
@@ -136,11 +137,13 @@ class StaffsController extends AppController
     public function admin_add($id = null)
     {
         if (!empty($this->request->data)) {
+            $user       =   $this->Auth->user();
             $this->request->data['Staff']['password'] = Security::hash($this->request->data['Staff']['password_raw'], null, true);
             $this->request->data['Staff']['status'] = 1;
             $this->request->data['Staff']['last_visit']          = gmdate('Y-m-d H:i:s');
             $this->request->data['Staff']['registration_date']   = gmdate('Y-m-d H:i:s');
             $this->request->data['Staff']['verified']            = 1;
+            $this->request->data['Staff']['referal_id']            = $user["id"];
 //            $this->request->data['Staff']['group_id']            = Group::USER_GROUP;
 //            $this->request->data['Staff']['odds_type']           = 1;
         }
