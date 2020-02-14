@@ -203,8 +203,25 @@ $menu = array(
             )
         )
     ),
-	
-	6   =>  array(
+    6   =>  array(
+        'title'     =>  __('Manage E-Pin'),
+        'class'     =>  'icon-bolt',
+        'sub-menu'  =>  array(
+            0   =>  array(
+                'title'         =>  __('Generate E-PIN'),
+                'plugin'        =>  null,
+                'controller'    =>  'deposits',
+                'action'        =>  'admin_index'
+            ),
+            1   =>  array(
+                'title'         =>  __('Used E-PIN'),
+                'plugin'        =>  null,
+                'controller'    =>  'deposits',
+                'action'        =>  'admin_index'
+            )
+        )
+    ),
+	17   =>  array(
         'title'     =>  __('Casino'),
         'class'     =>  'icon-play-circle',
         'sub-menu'  =>  array(

@@ -103,6 +103,7 @@ direction: rtl;
 			<div class="card" onclick="location.href='/casino/slot-ramses/index.html';" style='background-image: url("/casino/assets/ramses.jpg");'>&nbsp;</div>
 			<div class="card" onclick="location.href='/casino/slot-space/index.html';" style='background-image: url("/casino/assets/space.jpg");'>&nbsp;</div>
 		<?php endif; ?>
+        <div class="card" onclick="location.href='/casino/wuking-slot/index.html';" style='background-image: url("/casino/assets/wuking-slot.png");'>&nbsp;</div>
 	</div>
 	<?php echo $this->element('layout-slots/center-slot'); ?>
 </section>

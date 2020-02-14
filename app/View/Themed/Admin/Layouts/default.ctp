@@ -90,17 +90,18 @@
             <div class="top-nav ">
                 <ul class="nav pull-right top-menu">
                     <li>
-                        <div id="user-time" style="color: #FFF; margin-top: 15px;"><?=date("H:i:s", strtotime($this->TimeZone->convertTime(time(), 'Y-m-d H:i:s')));?> <?=$this->TimeZone->timeZone();?></div>
+                        <div id="user-time"
+                             style="color: #FFF; margin-top: 15px;"><?= date("H:i:s", strtotime($this->TimeZone->convertTime(time(), 'Y-m-d H:i:s'))); ?> <?= $this->TimeZone->timeZone(); ?></div>
                         <?php $today = getdate(strtotime($this->TimeZone->convertTime(time(), 'Y-m-d H:i:s'))); ?>
                         <script>
-                            var d = new Date(<?php echo $today['year'].",".$today['mon'].",".$today['mday'].",".$today['hours'].",".$today['minutes'].",".$today['seconds']; ?>);
-                            setInterval(function() {
+                            var d = new Date(<?php echo $today['year'] . "," . $today['mon'] . "," . $today['mday'] . "," . $today['hours'] . "," . $today['minutes'] . "," . $today['seconds']; ?>);
+                            setInterval(function () {
                                 d.setSeconds(d.getSeconds() + 1);
-                                var  hours = ("0" + d.getHours()).slice(-2);
-                                var  minutes = ("0" + d.getMinutes()).slice(-2);
-                                var  seconds = ("0" + d.getSeconds()).slice(-2);
-                                var  timezone = "<?=$this->TimeZone->timeZone();?>";
-                                $('#user-time').text((hours +':' + minutes + ':' + seconds  + ' ' + timezone ));
+                                var hours = ("0" + d.getHours()).slice(-2);
+                                var minutes = ("0" + d.getMinutes()).slice(-2);
+                                var seconds = ("0" + d.getSeconds()).slice(-2);
+                                var timezone = "<?=$this->TimeZone->timeZone();?>";
+                                $('#user-time').text((hours + ':' + minutes + ':' + seconds + ' ' + timezone));
                             }, 1000);
                         </script>
                     </li>
@@ -112,7 +113,11 @@
                             </a>
                         </li>
                     <?php endif; ?>
+                    <li class="">
+                        <div class="usr-mo"  style="color: #FFF; margin-top: 15px;margin-left: 10px;"> <?php echo sprintf("%s %s", Configure::read('Settings.currency'), number_format((float)CakeSession::read('Auth.User.balance'), intval(Configure::read('Settings.balance_decimal_places')), '.', '')) ?></div>
+                    </li>
                     <!-- BEGIN USER LOGIN DROPDOWN -->
+
                     <li class="">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                             <?php echo $this->MyHtml->image('/img/user-avatar.png'); ?>

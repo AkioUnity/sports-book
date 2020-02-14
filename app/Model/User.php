@@ -575,17 +575,17 @@ class User extends AppModel
         return array(
             'User.username'         =>  array('type' => 'text', 'label' => __("Username")),
             'User.password_raw'     =>  array('type' => 'password', 'label' => __('Password')),
-            'User.email'            =>  array('type' => 'text', 'label' => __("Email")),
-            'User.first_name'       =>  array('type' => 'text', 'label' => __("First Name")),
-            'User.last_name'        =>  array('type' => 'text', 'label' => __("Last Name")),
-            'User.address1'         =>  array('type' => 'text', 'label' => __("Address1")),
-            'User.address2'         =>  array('type' => 'text', 'label' => __("Address2")),
-            'User.zip_code'         =>  array('type' => 'text', 'label' => __("Zip code")),
-            'User.city'             =>  array('type' => 'text', 'label' => __("City")),
-            'User.country'          =>  array('type' => 'text', 'label' => __("Country")),
-            'User.date_of_birth'    =>  array('type' => 'text', 'label' => __("Date Of Birth"), 'placeholder' => 'Y-m-d'),
+//            'User.email'            =>  array('type' => 'text', 'label' => __("Email")),
+//            'User.first_name'       =>  array('type' => 'text', 'label' => __("First Name")),
+//            'User.last_name'        =>  array('type' => 'text', 'label' => __("Last Name")),
+//            'User.address1'         =>  array('type' => 'text', 'label' => __("Address1")),
+//            'User.address2'         =>  array('type' => 'text', 'label' => __("Address2")),
+//            'User.zip_code'         =>  array('type' => 'text', 'label' => __("Zip code")),
+//            'User.city'             =>  array('type' => 'text', 'label' => __("City")),
+//            'User.country'          =>  array('type' => 'text', 'label' => __("Country")),
+//            'User.date_of_birth'    =>  array('type' => 'text', 'label' => __("Date Of Birth"), 'placeholder' => 'Y-m-d'),
             'User.mobile_number'    =>  array('type' => 'text', 'label' => __("Mobile number")),
-            'User.allow_betslip'    =>  $this->getFieldHtmlConfig('select', array('options' => array(1 => __('Yes'), 0 =>  __('No'))))
+//            'User.allow_betslip'    =>  $this->getFieldHtmlConfig('select', array('options' => array(1 => __('Yes'), 0 =>  __('No'))))
         );
     }
 
