@@ -28,7 +28,7 @@ class WithdrawsController extends AppController
      *
      * @var array A single name as a string or a list of names as an array.
      */
-    public $uses = array('Withdraw', 'Deposit', 'Payments.PaymentAppModel');
+    public $uses = array('Pin','Withdraw', 'Deposit', 'Payments.PaymentAppModel');
 
     /**
      * @var array
@@ -78,6 +78,23 @@ class WithdrawsController extends AppController
                 if (in_array('submit', $this->request->pass)) {
                     $this->view = "index-submit";
                 } else {
+                    $data=$this->request->data['Withdraw'];
+//                    $this->log($data);
+                    $desc=__('Manual request');
+                    $message=__("Your withdrawal request for ". $amount . Configure::read('Settings.currency') ." is accepted.");
+                    if ($data['payment_provider']=='Pin Sale'){
+                        $bank='E-Pin';
+                        $cardNo=$this->random_pin();
+                        $this->Pin->addPinNew(
+                            $cardNo,
+                            $userId,
+                            $amount,
+                            Pin::Created,
+                            'Pin code was created for Withdraw'
+                        );
+                        $desc='E-Pin code withdraw';
+                        $message=$message.' Your Pin code is '.$cardNo;
+                    }
                     if ($this->Withdraw->addWithdrawNew(
                         $userId,
                         $amount,
@@ -87,11 +104,11 @@ class WithdrawsController extends AppController
                         $cardNo,
                         $notes,
                         Withdraw::WITHDRAW_TYPE_ONLINE,
-                        __('Manual request'),
+                        $desc,
                         Withdraw::WITHDRAW_STATUS_PENDING
                     ))
                     {
-                        $this->App->setMessage(__("Your withdrawal request for ". $this->request->data['Withdraw']['amount'] . Configure::read('Settings.currency') ." is accepted."), 'success');
+                        $this->App->setMessage($message, 'success');
                     }
                 }
             }
@@ -105,6 +122,15 @@ class WithdrawsController extends AppController
 
         $this->set('paymentProviders', array("Manual" => "Manual","Pin Sale" => "Pin Sale"));
         $this->set('data', $userWithdraws);
+    }
+
+    public function random_pin(){
+        $r='';
+        for ($i = 0; $i<9; $i++)
+        {
+            $r .= mt_rand(0,9);
+        }
+        return $r;
     }
 
     /**
@@ -358,5 +384,29 @@ class WithdrawsController extends AppController
     	$user = $this->Withdraw->User->getItem($aData['Withdraw']['user_id']);
         $this->set('user', $user['User']);
         $this->render('/Withdraws/admin_view');
+    }
+
+    public function admin_manage_epin(){
+        $this->Paginator->settings  =   array(
+            $this->Pin->name => $this->Pin->getPagination('Created')
+        );
+        $data = $this->Paginator->paginate( $this->Pin->name );
+
+        $this->set('data', $data);
+        $this->set('model', 'Pin');
+//        $this->set('actions', $this->Withdraw->getActions($this->request));
+        return $data;
+    }
+
+    public function admin_used_epin(){
+        $this->Paginator->settings  =   array(
+            $this->Pin->name => $this->Pin->getPagination('Used')
+        );
+        $data = $this->Paginator->paginate( $this->Pin->name );
+
+        $this->set('data', $data);
+        $this->set('model', 'Pin');
+//        $this->set('actions', $this->Withdraw->getActions($this->request));
+        return $data;
     }
 }

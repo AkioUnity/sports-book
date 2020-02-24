@@ -210,14 +210,14 @@ $menu = array(
             0   =>  array(
                 'title'         =>  __('Generate E-PIN'),
                 'plugin'        =>  null,
-                'controller'    =>  'deposits',
-                'action'        =>  'admin_index'
+                'controller'    =>  'withdraws',
+                'action'        =>  'admin_manage_epin'
             ),
             1   =>  array(
                 'title'         =>  __('Used E-PIN'),
                 'plugin'        =>  null,
-                'controller'    =>  'deposits',
-                'action'        =>  'admin_index'
+                'controller'    =>  'withdraws',
+                'action'        =>  'admin_used_epin'
             )
         )
     ),

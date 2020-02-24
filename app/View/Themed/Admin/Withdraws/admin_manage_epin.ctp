@@ -3,7 +3,7 @@
     <div class="row-fluid">
         <div class="span12">
             <!-- BEGIN PAGE TITLE & BREADCRUMB-->
-            <?php  echo $this->element('breadcrumbs', array('data' => $this->Breadcrumb->buildFromURI(array(0 => '', 1 => $this->Admin->getPluralName(), 2 => __('Charge'))))); ?>
+            <?php  echo $this->element('breadcrumbs', array('data' => $this->Breadcrumb->buildFromURI(array(0 => '', 1 => $this->Admin->getSingularName(), 2 => __('List %s', $this->Admin->getPluralName()))))); ?>
             <!-- END PAGE TITLE & BREADCRUMB-->
         </div>
     </div>
@@ -18,22 +18,19 @@
                     <div class="widget-body">
                         <div class="row-fluid">
                             <div class="span12">
-                                <!--BEGIN TABS-->
                                 <div class="table table-custom">
-                                    <h3><?php echo __('Complete withdrawal'); ?></h3>
-                                    <?php echo __('To complete withdraw enter a message. Message will be shown in user panel. '); ?>
-                                    <br />
+                                    <h4>Create E-Pin</h4>
                                     <br />
                                     <div class="tab-content">
                                         <?php
-                                        echo $this->MyForm->create('Withdraw', array('url' => array($id)));
-                                        echo $this->MyForm->input('message');
+                                        echo $this->MyForm->create(null, array('url' => ''));
+                                        echo $this->MyForm->input('amount');
                                         echo $this->MyForm->submit(__('Submit', true), array('class' => 'btn'));
                                         echo $this->MyForm->end();
                                         ?>
                                     </div>
                                 </div>
-                                <!--END TABS-->
+                                <?php echo $this->element('list', array('title'));?>
                             </div>
                             <div class="space10 visible-phone"></div>
                         </div>

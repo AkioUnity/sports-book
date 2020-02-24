@@ -26,7 +26,7 @@
                                         <?php if (!empty($data)): ?>
                                             <div class="row-fluid">
                                                 <div class="span12">
-                                                    <!-- BEGIN TABLE widget-->
+                                                    <!-- Staffs/admin_index.ctp widget-->
                                                     <div class="widget">
                                                         <div class="widget-title">
                                                             <h4>
@@ -189,7 +189,7 @@
                                                                                     if ($field[$model]["group_id"] == Group::USER_GROUP && $field[$model]["referal_id"] == CakeSession::read("Auth.User.group_id") ) {
 
                                                                                     } else {
-                                                                                        $showAction = false;
+//                                                                                        $showAction = false;
                                                                                     }
                                                                                     break;
 

@@ -1133,6 +1133,7 @@ class Model extends Object implements CakeEventListener {
 			$db->cacheSources = $restore;
 
 			if (is_array($sources) && !in_array(strtolower($this->tablePrefix . $tableName), array_map('strtolower', $sources))) {
+//			    $this->log($sources);
 				throw new MissingTableException(array(
 					'table' => $this->tablePrefix . $tableName,
 					'class' => $this->alias,
