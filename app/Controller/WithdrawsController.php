@@ -387,13 +387,37 @@ class WithdrawsController extends AppController
     }
 
     public function admin_manage_epin(){
+        if($this->request->is('post') && isset($this->request->data['Withdraw']['amount'])) {
+            $amount = $this->request->data['Withdraw']['amount'];
+
+            if(!is_numeric($amount)) {
+                $this->Admin->setMessage(__('Amount should be positive'), 'error');
+                $this->redirect($this->referer(), null, true);
+            }
+            if ($amount > $this->Session->read('Auth.User.balance')) {
+                $this->Admin->setMessage(__('Not enough money in balance'), 'error');
+                $this->redirect($this->referer(), null, true);
+            }
+
+            $cardNo=$this->random_pin();
+            $message='Pin code was created by '.$this->Auth->user('username');
+            $this->Pin->addPinNew(
+                $cardNo,
+                $this->Auth->user('id'),
+                $amount,
+                Pin::Created,
+                $message
+            );
+            $this->Admin->setMessage($message.'  amount:', $amount, Configure::read('Settings.currency'), 'success');
+            $this->redirect($this->referer(), null, true);
+        }
         $this->Paginator->settings  =   array(
             $this->Pin->name => $this->Pin->getPagination('Created')
         );
         $data = $this->Paginator->paginate( $this->Pin->name );
 
         $this->set('data', $data);
-        $this->set('model', 'Pin');
+//        $this->set('model', 'Withdraw');
 //        $this->set('actions', $this->Withdraw->getActions($this->request));
         return $data;
     }

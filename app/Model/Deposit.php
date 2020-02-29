@@ -98,6 +98,7 @@ class Deposit extends AppModel
      */
     const DEPOSIT_TYPE_OFFLINE       =   2;
 
+    const Pin_Code_App     =   1;
     /**
      * Deposit status default value
      */
@@ -249,10 +250,14 @@ class Deposit extends AppModel
         $phoneNumber = null,
         $type = self::DEPOSIT_TYPE_ONLINE,
         $description = '',
-        $status = self::DEPOSIT_STATUS_PENDING
+        $status = self::DEPOSIT_STATUS_PENDING,
+        $payment_app_id=0,
+        $deposit_id=''
     )
     {
         $this->create();
+        if ($deposit_id=='')
+            $deposit_id=uniqid($userId . '-');
 
         $result = $this->save(array(
             'Deposit'   =>  array(
@@ -263,8 +268,9 @@ class Deposit extends AppModel
                 'type'          =>  $type,
                 'description'   =>  $description,
                 'date'          =>  gmdate('Y-m-d H:i:s'),
-                'deposit_id'    =>  uniqid($userId . '-'),
-                'status'        =>  Deposit::DEPOSIT_STATUS_PENDING
+                'deposit_id'    =>  $deposit_id,
+                'status'        =>  Deposit::DEPOSIT_STATUS_PENDING,
+                'payment_app_id'    =>  $payment_app_id,
             )
         ));
 

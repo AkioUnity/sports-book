@@ -124,11 +124,11 @@ class SettingsController extends AppController
 
     public function admin_depositsRisks() {
         if (!empty($this->request->data)) {            
-//            if ($this->Setting->saveSettings($this->request->data, 'depositsRisksSettings')) {
-//                $this->Admin->setMessage(__('Settings saved.', true), 'success');
-//            } else {
-//                $this->Admin->setMessage(__('Can\'t save settings.', true), 'error');
-//            }
+            if ($this->Setting->saveSettings($this->request->data, 'depositsRisksSettings')) {
+                $this->Admin->setMessage(__('Settings saved.', true), 'success');
+            } else {
+                $this->Admin->setMessage(__('Can\'t save settings.', true), 'error');
+            }
         }
         $data = $this->Setting->getDepositsRisksSettings();
         $this->request->data = $data;

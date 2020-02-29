@@ -23,7 +23,7 @@
                                     <br />
                                     <div class="tab-content">
                                         <?php
-                                        echo $this->MyForm->create(null, array('url' => ''));
+                                        echo $this->MyForm->create('Withdraw', array('url' => ''));
                                         echo $this->MyForm->input('amount');
                                         echo $this->MyForm->submit(__('Submit', true), array('class' => 'btn'));
                                         echo $this->MyForm->end();

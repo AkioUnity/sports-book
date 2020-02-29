@@ -35,7 +35,8 @@ class DepositsController extends AppController
         3   =>  'PaymentBonusUsage',
         4   =>  'DepositMeta',
         5   =>  'User',
-        6   =>  'Withdraw'
+        6   =>  'Withdraw',
+        7   =>  'Pin'
     );
 
     /**
@@ -427,7 +428,7 @@ class DepositsController extends AppController
 
             $amount = isset($this->request->data['Deposit']['amount']) ? str_replace(',', '.', $this->request->data['Deposit']['amount']) : 0;
             $phone = isset($this->request->data['Deposit']['phone_number']) ? $this->request->data['Deposit']['phone_number'] : null;
-
+            $pin = isset($this->request->data['Deposit']['pin']) ? $this->request->data['Deposit']['pin'] : '';
             if ($amount < Configure::read('Settings.minDeposit')) {
                 $this->App->setMessage(__('Lowest deposit amount is ') . Configure::read('Settings.minDeposit') . Configure::read('Settings.currency'), 'error');
                 $this->redirect($this->referer(), null, true);
@@ -445,9 +446,12 @@ class DepositsController extends AppController
                 $calc['totalAmount'],
                 $phone,
                 Deposit::DEPOSIT_TYPE_ONLINE,
-                __('Manual request'),
-                Deposit::DEPOSIT_STATUS_PENDING
+                __('Manual request by E-Pin'),
+                Deposit::DEPOSIT_STATUS_PENDING,
+                Deposit::Pin_Code_App,
+                $pin
             )) {
+                $this->Pin->setStatus($pin, Pin::Pending);
                 $this->PaymentBonusUsage->commitBonus($ret, $calc, $this->Auth->user('id'));
                 $this->App->setMessage(__('Deposit is accepted.'), 'success');
             }else{
@@ -467,6 +471,7 @@ class DepositsController extends AppController
         $this->layout = 'user-panel';
 
         $bonus_code = 0;
+        $pin_code="";
         $amount = isset($this->request->data['Deposit']['amount']) ? str_replace(',', '.', $this->request->data['Deposit']['amount']) : 0;
 
         if (isset($this->request->data["imp1"]) && $this->request->data["imp1"] != "0") {
@@ -478,6 +483,23 @@ class DepositsController extends AppController
         }
 
         if (!empty($this->request->data)) {
+            $pin=$this->Pin->getPinByCode($amount);
+            if ($pin==null){
+                $this->App->setMessage(__('There isn not Pin code'), 'error');
+                $this->redirect($this->referer());
+            }
+            $pin=$pin['Pin'];
+            if ($pin['status']==Pin::Used){
+                $this->App->setMessage(__('Your pin code was already used'), 'error');
+                $this->redirect($this->referer());
+            }
+            elseif ($pin['status']==Pin::Pending){
+                $this->App->setMessage(__('Your pin code is pending'), 'error');
+                $this->redirect($this->referer());
+            }
+            $amount=$pin['amount'];
+            $pin_code=$pin['pin'];
+
             if ($amount < Configure::read('Settings.minDeposit')) {
                 $this->App->setMessage(__('Lowest deposit amount is ') . Configure::read('Settings.minDeposit') . Configure::read('Settings.currency'), 'error');
                 $this->redirect($this->referer());
@@ -493,10 +515,9 @@ class DepositsController extends AppController
         }
 
         $this->set('bonusCode', $bonus_code);
-
-        $this->set('type', 'Manual Deposit');
-
+        $this->set('type', 'Manual Deposit by E-Pin');
         $this->set('amount', $amount);
+        $this->set('pin', $pin_code);
     }
 
     /**

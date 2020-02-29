@@ -30,12 +30,13 @@
                 <div class="clear"></div>
 
                 <?php echo $this->MyForm->input('amount', array('type' => 'hidden', 'value' => $amount, 'class' => 'inp6')); ?>
+                <?php echo $this->MyForm->input('pin', array('type' => 'hidden', 'value' => $pin, 'class' => 'inp6')); ?>
                 <div class="clear"></div>
 
                 <?php echo $this->MyForm->input('bonus_code', array('type' => 'hidden', 'value' => $bonusCode, 'class' => 'inp6')); ?>
                 <div class="clear"></div>
 
-                <button type="submit" class="btn-blue"><?php echo __("Request Manual Deposit (Credited Upon Verification)");?></button>
+                <button type="submit" class="btn-blue"><?php echo __("Request Deposit");?></button>
 
             <?php echo $this->MyForm->end(); ?>
             </div>

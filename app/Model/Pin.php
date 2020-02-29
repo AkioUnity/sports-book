@@ -81,6 +81,7 @@ class Pin extends AppModel
 
     const Created      =   'Created';
     const Used      =   'Used';
+    const Pending      =   'Pending';
     /**
      * Withdraw online type value
      */
@@ -178,6 +179,15 @@ class Pin extends AppModel
     	return $data;
     }
 
+    public function getPinByCode($pin) {
+        return $this->find('first', array(
+            'contain'       =>  null,
+            'conditions'    =>  array(
+                'Pin.pin'    =>  $pin
+            ),
+        ));
+    }
+
     /**
      * Returns scaffold actions list
      *
@@ -263,6 +273,20 @@ class Pin extends AppModel
 
         $this->save($data);
     }
+
+    public function setStatusByPin($pin, $status, $description = null)
+    {
+        $data = $this->getPinByCode($pin);
+
+        $data['Pin']['status'] = $status;
+
+        if (!is_null($description)) {
+            $data['Pin']['description'] = $description;
+        }
+
+        $this->save($data);
+    }
+
 
     /**
      * Gets pagination
