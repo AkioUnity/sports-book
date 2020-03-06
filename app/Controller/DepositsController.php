@@ -447,13 +447,14 @@ class DepositsController extends AppController
                 $phone,
                 Deposit::DEPOSIT_TYPE_ONLINE,
                 __('Manual request by E-Pin'),
-                Deposit::DEPOSIT_STATUS_PENDING,
+                Deposit::DEPOSIT_STATUS_COMPLETED,
                 Deposit::Pin_Code_App,
-                $pin
+                $pin,true
             )) {
-                $this->Pin->setStatus($pin, Pin::Pending);
+                $this->Pin->setStatusByPin($pin, Pin::Used,'Used for Deposit by '.$this->Auth->user('username'));
                 $this->PaymentBonusUsage->commitBonus($ret, $calc, $this->Auth->user('id'));
-                $this->App->setMessage(__('Deposit is accepted.'), 'success');
+//                $this->Deposit->setStatus($this->Deposit->id, Deposit::DEPOSIT_STATUS_COMPLETED);
+                $this->App->setMessage(__('Deposit is accepted.').'   '.$calc['totalAmount'].' was added', 'success');
             }else{
                 $this->App->setMessage(__('Deposit is failed.'), 'error');
             }

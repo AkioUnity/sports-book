@@ -294,8 +294,12 @@ class Pin extends AppModel
      * @param string $options
      * @return array
      */
-    public function getPagination($options = 'Created')
+    public function getPagination($options = 'Created',$user)
     {
+        $condition=['Pin.status' => $options];
+        if($user['group_id'] != Group::ADMINISTRATOR_GROUP) {
+            $condition['Pin.user_id']=$user['id'];
+        }
         $pagination = array(
             'limit' => Configure::read('Settings.itemsPerPage'),
             'fields' => array(
@@ -309,10 +313,9 @@ class Pin extends AppModel
                 'Pin.created_at',
                 'Pin.used_at'
             ),
-            'conditions' => array(
-                'Pin.status' => $options
-            )
+            'conditions' => $condition
         );
+
         return $pagination;
     }
     

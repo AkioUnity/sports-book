@@ -54,38 +54,22 @@
     </div>
 <?php endif; ?>
 
-<iframe src="https://www.scorebat.com/embed/" frameborder="0" width="600" height="760" allowfullscreen  allow="autoplay; fullscreen" style="width:600px;height:760px;overflow:hidden;display:block;" class="_scorebatEmbeddedPlayer_">
-</iframe>
-<script>(function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://www.scorebat.com/embed/embed.js?v=m2to';
-        fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'scorebat-jssdk'));
-
-    window.onload = function(e){
-        let head = jQuery("#iFrameResizer0").contents().find("head");
-        console.log(head);
-        var css = '<style type="text/css">' +
-            '.EmbedCodeWrapper{display: none};' +
-            '</style>';
-        jQuery(head).append(css);
-    };
-</script>
-
-
-
-<!--<iframe src='https://www.scorebat.com/embed/g/832498/' frameborder='0' width='560' height='590' allowfullscreen-->
-<!--        allow='autoplay; fullscreen' style='width:560px;height:590px;overflow:hidden;display:block;'-->
-<!--        class='_scorebatEmbeddedPlayer_'>-->
+<!--<iframe src="https://www.scorebat.com/embed/" frameborder="0" width="600" height="760" allowfullscreen  allow="autoplay; fullscreen" style="width:600px;height:760px;overflow:hidden;display:block;" class="_scorebatEmbeddedPlayer_">-->
 <!--</iframe>-->
-<!--<script>(function (d, s, id) {-->
+<!--<script>(function(d, s, id) {-->
 <!--        var js, fjs = d.getElementsByTagName(s)[0];-->
 <!--        if (d.getElementById(id)) return;-->
-<!--        js = d.createElement(s);-->
-<!--        js.id = id;-->
+<!--        js = d.createElement(s); js.id = id;-->
 <!--        js.src = 'https://www.scorebat.com/embed/embed.js?v=m2to';-->
 <!--        fjs.parentNode.insertBefore(js, fjs);-->
-<!--    }(document, 'script', 'scorebat-jssdk'));</script>-->
-
+<!--    }(document, 'script', 'scorebat-jssdk'));-->
+<!---->
+<!--    window.onload = function(e){-->
+<!--        let head = jQuery("#iFrameResizer0").contents().find("head");-->
+<!--        console.log(head);-->
+<!--        var css = '<style type="text/css">' +-->
+<!--            '.EmbedCodeWrapper{display: none};' +-->
+<!--            '</style>';-->
+<!--        jQuery(head).append(css);-->
+<!--    };-->
+<!--</script>-->

@@ -408,11 +408,12 @@ class WithdrawsController extends AppController
                 Pin::Created,
                 $message
             );
+            $this->User->addFunds($this->Auth->user('id'), -$amount);
             $this->Admin->setMessage($message.'  amount:', $amount, Configure::read('Settings.currency'), 'success');
             $this->redirect($this->referer(), null, true);
         }
         $this->Paginator->settings  =   array(
-            $this->Pin->name => $this->Pin->getPagination('Created')
+            $this->Pin->name =>  $this->Pin->getPagination('Created',$this->Auth->user())
         );
         $data = $this->Paginator->paginate( $this->Pin->name );
 
@@ -424,7 +425,7 @@ class WithdrawsController extends AppController
 
     public function admin_used_epin(){
         $this->Paginator->settings  =   array(
-            $this->Pin->name => $this->Pin->getPagination('Used')
+            $this->Pin->name => $this->Pin->getPagination('Used',$this->Auth->user())
         );
         $data = $this->Paginator->paginate( $this->Pin->name );
 

@@ -252,7 +252,7 @@ class Deposit extends AppModel
         $description = '',
         $status = self::DEPOSIT_STATUS_PENDING,
         $payment_app_id=0,
-        $deposit_id=''
+        $deposit_id='',$payment_request=false
     )
     {
         $this->create();
@@ -274,7 +274,7 @@ class Deposit extends AppModel
             )
         ));
 
-        $this->setStatus($this->id, $status);
+        $this->setStatus($this->id, $status,$payment_request);
 
         return $result;
     }

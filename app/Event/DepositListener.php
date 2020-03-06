@@ -45,6 +45,7 @@ class DepositListener implements CakeEventListener
             switch($event->data['status']) {
                 case Deposit::DEPOSIT_STATUS_COMPLETED:
                     $event->subject()->User->addBalance( $event->data['userId'], abs($event->data['amount']), $event->data['paymentCallback'] );
+
                     break;
             }
         }
