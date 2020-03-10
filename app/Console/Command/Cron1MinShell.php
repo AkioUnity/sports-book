@@ -11,7 +11,7 @@
  * @version    Release: @package_version@
  * @link       http://www.chalkpro.com/
  */
-
+//php Console/cake.php -app app Cron1Min execute
 class Cron1MinShell extends Shell
 {
     /**
@@ -23,7 +23,8 @@ class Cron1MinShell extends Shell
     {
         /** Queue processor | Process queues */
         try {
-            $this->dispatchShell('Queue.queue process');
+//            $this->dispatchShell('Queue.queue process');
+//            $this->dispatchShell('Feeds.FeedApp importLeagues');
         }catch (Exception $e) {
             CakeLog::write('queue', $e);
         }

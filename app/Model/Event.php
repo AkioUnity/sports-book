@@ -329,6 +329,19 @@ class Event extends AppModel
         );
     }
 
+    public function getNextEvent($event_id)
+    {
+        return $this->find('first', array(
+                'contain'       =>  array(
+                    'Bet'   =>  array( 'BetPart' )
+                ),
+                'conditions'    =>  array(
+                    'Event.id >'   =>  $event_id
+                )
+            )
+        );
+    }
+
     /**
      * Inserts | Updates Event
      *

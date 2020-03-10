@@ -9,4 +9,4 @@
 /*
  * The shell name used for loading shell actions
  */
-    Configure::write('feeds.enabled.feed.name', 'Betclick');
+    Configure::write('feeds.enabled.feed.name', 'Bet365');

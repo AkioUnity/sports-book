@@ -107,7 +107,7 @@ class BetPart extends AppModel
      * @param array $importedBet
      * @return array|bool|int|mixed|string
      */
-    public function insertBetPart($betPartImportId = null, $betPartName, $betId, $betPartOdd, $line, $importedBet = array(), $updateOdd = true)
+    public function insertBetPart($betPartImportId = null, $betPartName, $betId, $betPartOdd, $line, $importedBet = array(), $updateOdd = true,$header=null,$handicap=null)
     {
         $this->create();
 
@@ -126,7 +126,9 @@ class BetPart extends AppModel
                 'name'      =>  $betPartName,
                 'bet_id'    =>  $betId,
                 'odd'       =>  $betPartOdd,
-                'line'      =>  $line
+                'line'      =>  $line,
+                'header'       =>  $header,
+                'handicap'      =>  $handicap
             )
         );
 
