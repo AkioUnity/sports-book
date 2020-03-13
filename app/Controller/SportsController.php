@@ -123,11 +123,13 @@ class SportsController extends AppController
             Bet::BET_TYPE_DRIVERS_CHAMPIONSHIP_WINNER,
             Bet::BET_TYPE_CONSTRUCTORS_CHAMPIONSHIP
         );
-
+        print_r($LeagueId);
+        print_r($League);
         foreach ($League AS $item) {
             if (!isset($result[$item["League"]["id"]])) {
                 $item["League"]["order_id"] = array();
                 $result[$item["League"]["id"]] = $item["League"];
+
             }
 
             if (!isset($result[$item["League"]["id"]]["Event"][$item["Event"]["id"]])) {
@@ -178,7 +180,7 @@ class SportsController extends AppController
             return max($a["order_id"]) > max($b["order_id"]);
         });
 
-
+        print_r($result);
         $this->set('data', $result);
         $this->set('Sport', $Sport);
         $this->set('League', $LeagueId);

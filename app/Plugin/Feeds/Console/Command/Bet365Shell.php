@@ -146,12 +146,8 @@ class Bet365Shell extends FeedAppShell implements FeedShell
             }
         }
     }
-
-    /**
-     * Method which implements events importing / updating
-     *
-     * @return mixed
-     */
+    //cd /var/www/html/app
+    //php Console/cake.php -app app Feeds.Bet365 importEvents
     public function importEvents()
     {
         if ($this->importPrematch != 1) {
@@ -168,7 +164,7 @@ class Bet365Shell extends FeedAppShell implements FeedShell
         $event = $ImportedEvent['Event'];
         $EventId = $event['id'];
         $ImportEventId = $event['import_id'];
-
+        $this->out('prematch:' . $ImportEventId . '  event_id:' . $EventId);
         $this->Setting->updateField('prematch_event_id', $EventId);
         $ImportedEvent['Bet'] = $this->Bet->getBets($EventId);
 
@@ -190,7 +186,7 @@ class Bet365Shell extends FeedAppShell implements FeedShell
                     continue;
 
                 $sourceOddsIds = array();
-                $BetImportId = $ImportEventId . '-' . $bet['id'];
+                $BetImportId = $ImportEventId . $bet['id'];
                 $sourceIds[] = $BetImportId;
 
                 $BetName = $bet['name'];
@@ -221,17 +217,20 @@ class Bet365Shell extends FeedAppShell implements FeedShell
                 }
 
                 foreach ($Odds AS $Odd) {
-                    $betPartImportId = $Odd['id'];
-                    $betPartName = $Odd['name'];
-                    $betPartOdd = $Odd['odds'];
-                    $line = '';
-                    $sourceOddsIds[] = $betPartImportId;
-                    $header = (isset($Odd['header'])) ? $Odd['header'] : null;
-                    $handicap = (isset($Odd['handicap'])) ? $Odd['handicap'] : null;
                     try {
-                        $BetPartId = $this->BetPart->insertBetPart($betPartImportId, $betPartName, $BetId, $betPartOdd, $line, $importedBet, $header, $handicap);
+                        $betPartImportId = $Odd['id'];
+//                        $this->out($betPartImportId);
+                        $betPartName = isset($Odd['name'])?$Odd['name']:null;
+                        $betPartOdd = $Odd['odds'];
+                        $line = '';
+                        $sourceOddsIds[] = $betPartImportId;
+                        $header = (isset($Odd['header'])) ? $Odd['header'] : null;
+                        $handicap = (isset($Odd['handicap'])) ? $Odd['handicap'] : null;
+                        $BetPartId = $this->BetPart->insertBetPart($betPartImportId, $betPartName, $BetId, $betPartOdd, $line, $importedBet, true, $header, $handicap);
                     } catch (Exception $e) {
                         var_dump($e);
+//                        $this->out($Odd);
+//                        var_dump($Odd);
                     }
                 }
 

@@ -694,7 +694,7 @@ class Bet365 extends FeedsAppModel
         $parameter='FI='.$event_id;
         $name='prematch';
         $data=$this->curl($name,$parameter,true);
-        $results=$data->results;
+        $results=$data['results'];
         return $results;
     }
 

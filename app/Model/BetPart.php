@@ -237,7 +237,7 @@ class BetPart extends AppModel
      *
      * @param $BetPartName
      * @param $betType
-     *
+     * getBetPartOrderId($BetPart, $importedBet['Bet']['name']);
      * @return int|mixed
      */
     public function getBetPartOrderId($BetPartName, $betType)
