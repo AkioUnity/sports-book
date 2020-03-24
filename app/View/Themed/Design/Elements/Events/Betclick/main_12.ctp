@@ -1,5 +1,5 @@
+<!--betclick/main_12.ctp-->
 <li>
-
     <a href="<?php echo Router::url(array('language' => Configure::read('Config.language'), 'plugin' => $Event["type"] == 1 ? 'events' : null, 'controller' => $Event["type"] == 1 ? 'events' : 'live', 'action' => $Event["type"] == 1 ? 'display' : 'display_event', $Event["id"])); ?>">
         <?php echo $Event["name"]; ?>
     </a>

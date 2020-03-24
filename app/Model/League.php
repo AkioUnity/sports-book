@@ -319,7 +319,7 @@ class League extends AppModel
         $data = array(
             'League'    =>  array(
 //                'name'      =>  $leagueName,
-                'updated'   =>  time()
+                'updated'   =>  date('Y-m-d H:i:s')
             )
         );
 
@@ -352,6 +352,7 @@ class League extends AppModel
                 'active'        =>  1,
                 'order'         =>  $this->findLastOrder() + 1,
                 'feed_type'     =>  $feedType,
+                'updated'   =>  date('Y-m-d H:i:s')
             )
         ), false);
 
@@ -468,6 +469,7 @@ class League extends AppModel
     public function getActiveLeaguesIds($sportId, $start = null, $end = null, $limit = 30)
     {
         $options['recursive'] = -1;
+        // returns active leagues ids by sport
 
         $options['fields'] = array(
             'League.id'
@@ -532,7 +534,7 @@ class League extends AppModel
             'BetPart.order_id',
             'BetPart.state'
         );
-
+        $options['limit'] = 200;
         $options['conditions'] = array(
             'League.active'     => 1,
             'League.sport_id'   => $sportId,
@@ -589,7 +591,10 @@ class League extends AppModel
             )
         );
 
-        return $this->Event->getMarketsCount($this->find('all', $options));
+//        print_r($options);
+        $res=$this->Event->getMarketsCount($this->find('all', $options));
+        return $res;
+
     }
 
     public function setAdmin($admin)

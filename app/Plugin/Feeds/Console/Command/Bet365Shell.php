@@ -96,7 +96,7 @@ class Bet365Shell extends FeedAppShell implements FeedShell
     }
 
     //php Console/cake.php -app app Feeds.Bet365 importLeagues
-    public function importLeagues()
+    public function importLeagues()  //update leagues,events table
     {
         if ($this->importPrematch != 1) {
             return;
@@ -106,7 +106,7 @@ class Bet365Shell extends FeedAppShell implements FeedShell
         $this->out($sport_id . ' ' . $page);
         $data = $this->Bet365->upcoming($sport_id, $page);
         if ($data == null) {
-            $this->Setting->updateField('upcoming_sport_id', 100);
+            $this->Setting->updateField('upcoming_sport_id', 1000);
             $this->Setting->updateField('upcoming_page', 1);
             $this->out('Import Leauges Done!');
             return;
