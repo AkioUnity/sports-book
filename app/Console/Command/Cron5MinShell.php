@@ -11,7 +11,7 @@
  * @version    Release: @package_version@
  * @link       http://www.chalkpro.com/
  */
-
+//*/5 * * * * cd /var/www/html/app && php Console/cake.php -app app Cron5Min execute
 class Cron5MinShell extends Shell
 {
     /**
@@ -21,37 +21,9 @@ class Cron5MinShell extends Shell
      */
     public function execute()
     {
-        /** Feed Update: Imports | Updates Countries */
-        try {
-//            $this->dispatchShell('Feeds.FeedApp importCountries');
-        }catch (Exception $e) {
-            CakeLog::write('feed', $e);
-        }
-
         /** Feed Update: Imports | Updates Sports */
         try {
-//            $this->dispatchShell('Feeds.FeedApp importSports');
-        }catch (Exception $e) {
-            CakeLog::write('feed', $e);
-        }
-
-        /** Feed Update: Imports | Updates Sports */
-        try {
-//            $this->dispatchShell('Feeds.FeedApp importLeagues');
-        }catch (Exception $e) {
-            CakeLog::write('feed', $e);
-        }
-
-        /** Feed Update: Imports | Updates Events */
-        try {
-//            $this->dispatchShell('Feeds.FeedApp importEvents');
-        }catch (Exception $e) {
-            CakeLog::write('feed', $e);
-        }
-
-        /** App Update: Updates Non Active / Active Leagues */
-        try {
-            $this->dispatchShell('App updateStatuses');
+            $this->dispatchShell('Feeds.FeedApp importLeagues');
         }catch (Exception $e) {
             CakeLog::write('feed', $e);
         }

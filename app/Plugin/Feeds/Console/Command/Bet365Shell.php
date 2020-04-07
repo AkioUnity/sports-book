@@ -222,7 +222,7 @@ class Bet365Shell extends FeedAppShell implements FeedShell
 //                        $this->out($betPartImportId);
                         $betPartName = isset($Odd['name'])?$Odd['name']:null;
                         $betPartOdd = $Odd['odds'];
-                        $line = '';
+                        $line = $betPartName;
                         $sourceOddsIds[] = $betPartImportId;
                         $header = (isset($Odd['header'])) ? $Odd['header'] : null;
                         $handicap = (isset($Odd['handicap'])) ? $Odd['handicap'] : null;

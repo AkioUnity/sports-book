@@ -11,7 +11,7 @@
  * @version    Release: @package_version@
  * @link       http://www.chalkpro.com/
  */
-
+//0 * * * * cd /var/www/html/app && php Console/cake.php -app app Cron1Hour execute
 class Cron1HourShell extends Shell
 {
     /**
@@ -21,6 +21,9 @@ class Cron1HourShell extends Shell
      */
     public function execute()
     {
-
+        try {
+        }catch (Exception $e) {
+            CakeLog::write('queue', $e);
+        }
     }
 }

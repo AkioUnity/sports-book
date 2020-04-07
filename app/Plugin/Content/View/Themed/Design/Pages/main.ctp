@@ -2,7 +2,7 @@
 <?php echo $this->element('Slides/getSlides', array('slides' => $slides)); ?>
 <!-- Slider END -->
 <div class="main-bets">
-    <!--pages/main.ctp-->
+    <!--Design/pages/main.ctp-->
     <ul class="nav nav-tabs" role="tablist">
         <?php $active = null; ?>
         <?php foreach(array_keys($lastMinuteBets) AS $i => $sportName): ?>

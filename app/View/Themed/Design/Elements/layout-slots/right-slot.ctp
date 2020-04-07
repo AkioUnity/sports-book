@@ -1,3 +1,4 @@
+<!--layout-slots/right-slot.ctp-->
 <div class="box mobile-view">
     <?php  echo $this->element('layout-blocks/left-block/search-event'); ?>
 </div>

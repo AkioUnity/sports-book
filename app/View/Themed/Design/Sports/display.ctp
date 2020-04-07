@@ -20,7 +20,7 @@
                         <?php $totalEvents = count($League["Event"]); ?>
                         <?php foreach ($League["Event"] AS $i => $Event): ?>
                             <?php foreach ($Event["Bet"] AS $Bet): ?>
-                                 <?php echo  'bet type:'.$Bet["type"] ?>
+<!--                                --><?php //echo 'bet type:' . $Bet["type"] ?>
                                 <?php switch ($Sport["SportI18n"][0]["content"]):
                                     case Sport::SPORT_TYPE_FOOTBALL:
                                         ?>
@@ -39,12 +39,13 @@
                                     <?php case Sport::SPORT_TYPE_WATERPOLO: ?>
                                     <?php case Sport::SPORT_TYPE_BEACH_SOCCER: ?>
                                     <?php case Sport::SPORT_TYPE_BEACH_VOLLEY: ?>
-                                        <!--                                        --><?php //echo $Bet["type"].'=' ?>
                                         <!--                                        --><?php //if ($Bet["type"] == Bet::BET_TYPE_MATCH_RESULT || $Bet["type"] == Bet::BET_TYPE_SECOND_ROUND_2_BALL): ?>
-                                        <?php echo $this->element('Events/Betclick/main_1x2', array('Event' => $Event, 'Bet' => $Bet)); ?>
-                                        <!--                                        --><?php //endif; ?>
+                                        <?php if ($Bet["type"] == Bet::BET_TYPE_MATCH_RESULT || $Bet["type"] == Bet::BET_TYPE_SECOND_ROUND_2_BALL): ?>
+                                            <?php echo $this->element('Events/Betclick/main_1x2', array('Event' => $Event, 'Bet' => $Bet)); ?>
+                                        <?php endif; ?>
                                         <?php break; ?>
-                                    <?php case Sport::SPORT_TYPE_DARTS: ?>
+                                    <?php case
+                                    Sport::SPORT_TYPE_DARTS: ?>
                                         <?php if ($Bet["type"] == Bet::BET_TYPE_MATCH_WINNER): ?>
                                             <?php echo $this->element('Events/Betclick/main_1x2', array('Event' => $Event, 'Bet' => $Bet)); ?>
                                         <?php endif; ?>

@@ -91,7 +91,7 @@ class Bet extends AppModel
     const BET_TYPE_MATCH_WINNER = 'Match Winner';
 
     /** 1x2 */
-    const BET_TYPE_MATCH_RESULT = 'Match Result';
+    const BET_TYPE_MATCH_RESULT = 'Full Time Result';//'Match Result';
 
     /** Betting type 12 const value */
     const BET_TYPE_12 = '12';
@@ -168,7 +168,7 @@ class Bet extends AppModel
 
     const BET_TYPE_HEAD_TO_HEAD_CHAMPIONSHIP = 'Head-to-Head Championship';
 
-    const BET_TYPE_SECOND_ROUND_2_BALL = 'Second Round 2 Ball';
+    const BET_TYPE_SECOND_ROUND_2_BALL = 'Half Time Result';//'Second Round 2 Ball';
 
     private $betOrder = array(
 

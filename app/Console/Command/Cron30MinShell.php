@@ -31,8 +31,8 @@ class Cron30MinShell extends Shell
         /** Feed Update: Results | Update Results  */
         try {
 //            $this->dispatchShell('Feeds.FeedApp importSports');
-            $this->dispatchShell('Feeds.FeedApp importLeagues');
-            $this->dispatchShell('Feeds.FeedApp importEvents');
+//            $this->dispatchShell('Feeds.FeedApp importLeagues');
+//            $this->dispatchShell('Feeds.FeedApp importEvents');
 //            $this->dispatchShell('Cron5Min execute');
         }catch (Exception $e) {
             CakeLog::write('feed', $e);

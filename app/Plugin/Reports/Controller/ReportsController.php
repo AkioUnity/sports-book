@@ -274,7 +274,7 @@ class ReportsController extends ReportsAppController
                 'username'
             ),
             'conditions'    =>  array(
-                'User.group_id' =>  Group::OPERATOR_GROUP
+                'User.group_id' =>  Group::AGENT_GROUP
             )
         ));
 

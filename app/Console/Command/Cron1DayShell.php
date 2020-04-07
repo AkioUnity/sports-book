@@ -11,7 +11,7 @@
  * @version    Release: @package_version@
  * @link       http://www.chalkpro.com/
  */
-
+//0 0 * * * cd /var/www/html/app && php Console/cake.php -app app Cron1Day execute
 class Cron1DayShell extends Shell
 {
     /**
@@ -23,14 +23,14 @@ class Cron1DayShell extends Shell
     {
         /** Feed Update: Imports | Updates Leagues */
         try {
-            $this->dispatchShell('Feeds.FeedApp importLeagues');
+//            $this->dispatchShell('Feeds.FeedApp importLeagues');
         }catch (Exception $e) {
             CakeLog::write('feed', $e);
         }
 
         /** User weeklyBalance processor | Process queues */
         try {
-            $this->dispatchShell('User weeklyBalance');
+//            $this->dispatchShell('User weeklyBalance');
         }catch (Exception $e) {
             CakeLog::write('queue', $e);
         }
