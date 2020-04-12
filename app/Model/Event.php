@@ -117,6 +117,7 @@ class Event extends AppModel
 
     /**
      * Event status not started value
+     * https://betsapi.com/docs/GLOSSARY.html
      */
     const EVENT_STATUS_NOT_STARTED = 0;
 

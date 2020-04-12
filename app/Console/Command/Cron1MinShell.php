@@ -33,6 +33,7 @@ class Cron1MinShell extends Shell
             $step=4;
             for ($i = $step; $i < 60; $i=$i+$step) {
                 time_sleep_until($start + $i);
+                $this->dispatchShell('Feeds.FeedApp live');  //309
             }
         }catch (Exception $e) {
             CakeLog::write('queue', $e);
