@@ -119,6 +119,7 @@ class BetPart extends AppModel
             }
         }
         $betPartName=str_replace("Draw","X",$betPartName);
+        $line=str_replace("Draw","X",$line);
 
         $BetPart = array(
             'BetPart'   =>  array(
@@ -243,7 +244,7 @@ class BetPart extends AppModel
     public function getBetPartOrderId($BetPartName, $betType)
     {
         $options  = array('trim' => true, 'strtolower' => true);
-        $betType  = UString::clean($betType, $options);
+        $betType  = UString::clean($betType, $options);   //bet_name
 
         if(is_array($BetPartName) && !empty($BetPartName)) {
             $BetPartName = $BetPartName['BetPart']['name'];

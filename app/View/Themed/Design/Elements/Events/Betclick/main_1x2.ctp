@@ -21,12 +21,12 @@
         <?php $parts = array_map(function ($part) {
             return !empty($part["line"]) ? $part["line"] : $part["name"];
         }, $Bet["BetPart"]); ?>
-        <?php if (!in_array(1, $parts)): ?>
-            <div class="lmb lock"></div>
-        <?php endif; ?>
-        <?php if (!in_array('Draw', $parts) && !in_array('X', $parts)): ?>
-            <div class="lmb lock"></div>
-        <?php endif; ?>
+<!--        --><?php //if (!in_array(1, $parts)): ?>
+<!--            <div class="lmb lock"></div>-->
+<!--        --><?php //endif; ?>
+<!--        --><?php //if (!in_array('Draw', $parts) && !in_array('X', $parts)): ?>
+<!--            <div class="lmb lock"></div>-->
+<!--        --><?php //endif; ?>
         <?php foreach ($Bet["BetPart"] AS $BetPart): ?>
             <?php if ((isset($BetPart["suspended"]) && $BetPart["suspended"] == 1) || $Bet['state'] == 'inactive' || $BetPart["state"] == "inactive"): ?>
                 <div class="lmb lock"></div>
@@ -42,9 +42,9 @@
                 </div>
             <?php endif; ?>
         <?php endforeach; ?>
-        <?php if (!in_array(2, $parts)): ?>
-            <div class="lmb lock"></div>
-        <?php endif; ?>
+<!--        --><?php //if (!in_array(2, $parts)): ?>
+<!--            <div class="lmb lock"></div>-->
+<!--        --><?php //endif; ?>
         <a href="" class="lmb-tv" onclick="return false;"></a>
         <a href="" class="lmb-chart" onclick="return false;"></a>
         <a href="<?php echo Router::url(array('language' => Configure::read('Config.language'), 'plugin' => $Event["type"] == 1 ? 'events' : null, 'controller' => $Event["type"] == 1 ? 'events' : 'live', 'action' => $Event["type"] == 1 ? 'display' : 'display_event', $Event["id"])); ?>"

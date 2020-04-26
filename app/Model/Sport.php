@@ -588,6 +588,7 @@ class Sport extends AppModel {
         $this->bindTranslation(array('name' => 'SportI18n'));
 
         $list = array_unique(array_map(function($league) {
+//            print_r($league);  //  Undefined index: League
             return $league["League"]["sport_id"];
         }, $this->League->getLiveLeagues()));
 

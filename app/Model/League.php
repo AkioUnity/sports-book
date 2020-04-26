@@ -625,8 +625,8 @@ class League extends AppModel
                     'League.id = Event.league_id',
                     'Event.active' => $this->admin ? array(0, 1) : 1,
                     'Event.date <=' => gmdate('Y-m-d H:i:s'),
-//                    'Event.type'    => 2,
-                    'Event.last_update >=' => gmdate('Y-m-d H:i:s', strtotime(gmdate('Y-m-d H:i:s')) - 50000) //60
+                    'Event.type'    => 2,  //live
+                    'Event.last_update >=' => gmdate('Y-m-d H:i:s', strtotime(gmdate('Y-m-d H:i:s')) - 1200) //60
                 )
             )
         );
@@ -644,20 +644,20 @@ class League extends AppModel
                     'contain'       =>  array('BetPart'),
                     'conditions'    =>  array(
                         'Bet.event_id'  =>  $event["id"],
-                        'Bet.type'      =>   array(
-                            Bet::BET_TYPE_MATCH_RESULT,
-                            Bet::BET_TYPE_MATCH_WINNER,
-                            Bet::BET_TYPE_HEAD_TO_HEAD_CHAMPIONSHIP,
-                            Bet::BET_TYPE_OUTRIGHT_WINNER,
-                            Bet::BET_TYPE_WINNER,
-                            Bet::BET_TYPE_OUTRIGHT_CHAMPION,
-                            Bet::BET_TYPE_DRIVERS_WINNER,
-                            Bet::BET_TYPE_CHAMPIONSHIP_WINNER,
-                            Bet::BET_TYPE_PLACE_1_3,
-                            Bet::BET_TYPE_DRIVERS_CHAMPIONSHIP_WINNER,
-                            Bet::BET_TYPE_CONSTRUCTORS_CHAMPIONSHIP,
-                            Bet::BET_TYPE_SECOND_ROUND_2_BALL // golf
-                        )
+//                        'Bet.type'      =>   array(
+//                            Bet::BET_TYPE_MATCH_RESULT,
+//                            Bet::BET_TYPE_MATCH_WINNER,
+//                            Bet::BET_TYPE_HEAD_TO_HEAD_CHAMPIONSHIP,
+//                            Bet::BET_TYPE_OUTRIGHT_WINNER,
+//                            Bet::BET_TYPE_WINNER,
+//                            Bet::BET_TYPE_OUTRIGHT_CHAMPION,
+//                            Bet::BET_TYPE_DRIVERS_WINNER,
+//                            Bet::BET_TYPE_CHAMPIONSHIP_WINNER,
+//                            Bet::BET_TYPE_PLACE_1_3,
+//                            Bet::BET_TYPE_DRIVERS_CHAMPIONSHIP_WINNER,
+//                            Bet::BET_TYPE_CONSTRUCTORS_CHAMPIONSHIP,
+//                            Bet::BET_TYPE_SECOND_ROUND_2_BALL // golf
+//                        )
                     )
                 ));
 

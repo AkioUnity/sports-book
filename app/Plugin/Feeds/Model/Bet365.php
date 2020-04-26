@@ -249,6 +249,7 @@ class Bet365 extends FeedsAppModel
                 continue;
             }
             if ($Bet['Bet']['import_id'] == $BetImportId) {
+                echo ("  ".$BetImportId);
                 return $Bet;
             }
         }

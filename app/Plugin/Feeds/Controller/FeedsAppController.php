@@ -35,4 +35,6 @@ class FeedsAppController extends AppController
      * @return mixed
      */
     public function importEvents() {}
+
+    public function live() {}
 }

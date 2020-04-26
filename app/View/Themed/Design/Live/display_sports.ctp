@@ -2,6 +2,7 @@
 <?php echo $this->element('Slides/getSlides', array('slides' => $slides)); ?>
 <?php if(isset($data) && is_array($data) && !empty($data)): ?>
 <div class="main-bets">
+<!--    live/display_sports.ctp-->
     <div class="tab-content">
         <div role="tabpanel" class="tab-pane-sport icon-sport<?=$Sport["Sport"]["id"]?> hover">
             <h1 class="inside"><?php echo $Sport["Sport"]["name"]; ?></h1>

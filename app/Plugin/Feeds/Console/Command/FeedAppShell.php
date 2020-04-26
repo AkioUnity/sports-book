@@ -88,6 +88,14 @@ class FeedAppShell extends AppShell implements FeedShell
         }
     }
 
+    public function live()
+    {
+        try {
+            $this->dispatchShell($this->FeedProvider . ' live');
+        }catch (Exception $e) {
+            CakeLog::write('feed', $e);
+        }
+    }
     /**
      * Method which implements events importing / updating
      *

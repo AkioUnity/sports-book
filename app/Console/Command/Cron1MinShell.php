@@ -31,9 +31,10 @@ class Cron1MinShell extends Shell
             $start = microtime(true);
             set_time_limit(60);
             $step=4;
+            $this->dispatchShell('Feeds.FeedApp live');  //309
             for ($i = $step; $i < 60; $i=$i+$step) {
                 time_sleep_until($start + $i);
-                $this->dispatchShell('Feeds.FeedApp live');  //309
+//                $this->dispatchShell('Feeds.FeedApp live');  //309
             }
         }catch (Exception $e) {
             CakeLog::write('queue', $e);

@@ -95,6 +95,15 @@ class Bet365Shell extends FeedAppShell implements FeedShell
 
     }
 
+//php Console/cake.php -app app Feeds.Bet365 updateDaily
+    public function updateDaily()
+    {
+        $this->Setting->updateField('upcoming_sport_id', 0);
+        $this->Event->deleteAll("DATE(date) < DATE(NOW() - INTERVAL 1 DAY)");
+
+        $this->out('daily Done!');
+    }
+
     //php Console/cake.php -app app Feeds.Bet365 importLeagues
     public function importLeagues()  //update leagues,events table
     {
@@ -173,8 +182,8 @@ class Bet365Shell extends FeedAppShell implements FeedShell
                 $dbOddsIds = array_map(function ($bet) {
                     return $bet["import_id"];
                 }, (array)@$importedBet["BetPart"]);  //old bet_part_import_id array
-
-                $BetId = $this->Bet->insertBet($BetImportId, $EventId, $BetName, $BetName, $importedBet);
+                $bet_type=Bet::GetBetType($BetName);
+                $BetId = $this->Bet->insertBet($BetImportId, $EventId, $BetName, $bet_type, $importedBet);
 
                 $Odds = $bet['odds'];
 
@@ -193,7 +202,7 @@ class Bet365Shell extends FeedAppShell implements FeedShell
                         )
                     );
                 }
-
+                $bet_order=0;
                 foreach ($Odds AS $Odd) {
                     try {
                         $betPartImportId = $Odd['id'];
@@ -201,6 +210,16 @@ class Bet365Shell extends FeedAppShell implements FeedShell
                         $betPartName = isset($Odd['name'])?$Odd['name']:null;
                         $betPartOdd = $Odd['odds'];
                         $line = $betPartName;
+                        if ($bet_type==Bet::BET_TYPE_MATCH_RESULT){
+                            $bet_order++;
+                            if ($bet_order==1)
+                                $line='1';
+                            else if ($bet_order==2)
+                                $line='X';
+                            else
+                                $line='2';
+                        }
+
                         $sourceOddsIds[] = $betPartImportId;
                         $header = (isset($Odd['header'])) ? $Odd['header'] : null;
                         $handicap = (isset($Odd['handicap'])) ? $Odd['handicap'] : null;
@@ -283,24 +302,20 @@ class Bet365Shell extends FeedAppShell implements FeedShell
                 continue;
             $EventId=$this->SaveLeagueAndEvent($filter,$sportId,2); //inPlay
 
-            $ImportedEvent  =   $this->Event->getEventByImportId($ImportEventId, self::FEED_PROVIDER);
-
             $item=$results[$ImportEventId];
             $bet=$item->ma;
-            $sourceOddsIds = array();
+//            $sourceOddsIds = array();
             $BetImportId = $ImportEventId . $bet['id'];
             $BetName = $bet['name'];
 
-            $importedBet = $this->Bet365->getImportedBet($ImportedEvent, $BetImportId); //array() or a bet from list
-            $dbOddsIds = array_map(function ($bet) {
-                return $bet["import_id"];
-            }, (array)@$importedBet["BetPart"]);  //old bet_part_import_id array
-
-            $BetId = $this->Bet->insertBet($BetImportId, $EventId, $BetName, $BetName, $importedBet);
-
+            $importedBet = $this->Bet->getBetByImportId($BetImportId); //array() or a bet from list
+//            $dbOddsIds = array_map(function ($bet) {
+//                return $bet["import_id"];
+//            }, (array)@$importedBet["BetPart"]);  //old bet_part_import_id array
+            $bet_type=Bet::GetBetType($BetName);
+            $BetId = $this->Bet->insertBet($BetImportId, $EventId, $BetName, $bet_type, $importedBet);
             $Odds = $item->odds;
-
-            // Do not update odds
+            // Do not update odds  we can ignore this now
             if (isset($importedBet['BetPart']) && !empty($importedBet['BetPart']) && !$this->updateOdds) {
                 continue;
             }
@@ -315,6 +330,7 @@ class Bet365Shell extends FeedAppShell implements FeedShell
                     )
                 );
             }
+            $bet_order=0;
             foreach ($Odds AS $Odd) {
                 try {
                     $betPartImportId = $Odd['id'];
@@ -322,7 +338,16 @@ class Bet365Shell extends FeedAppShell implements FeedShell
                     $betPartName = isset($Odd['name'])?$Odd['name']:null;
                     $betPartOdd = $Odd['odds'];
                     $line = $betPartName;
-                    $sourceOddsIds[] = $betPartImportId;
+                    if ($bet_type==Bet::BET_TYPE_MATCH_RESULT){
+                        $bet_order++;
+                        if ($bet_order==1)
+                            $line='1';
+                        else if ($bet_order==2)
+                            $line='X';
+                        else
+                            $line='2';
+                    }
+//                    $sourceOddsIds[] = $betPartImportId;
                     $header = null;
                     $handicap =null;
                     $BetPartId = $this->BetPart->insertBetPart($betPartImportId, $betPartName, $BetId, $betPartOdd, $line, $importedBet, true, $header, $handicap);
@@ -332,17 +357,17 @@ class Bet365Shell extends FeedAppShell implements FeedShell
 //                        var_dump($Odd);
                 }
             }
-            $betPartState = (array_diff($dbOddsIds, $sourceOddsIds));
-
-            if (!empty($betPartState)) {
-                print_r($betPartState);
-                $this->Bet->BetPart->updateAll(
-                    array('BetPart.state' => "'inactive'"),   //fields to update
-                    array(
-                        "BetPart.import_id" => $betPartState
-                    )
-                );
-            }
+//            $betPartState = (array_diff($dbOddsIds, $sourceOddsIds));
+//
+//            if (!empty($betPartState)) {
+////                print_r($betPartState);
+//                $this->Bet->BetPart->updateAll(
+//                    array('BetPart.state' => "'inactive'"),   //fields to update
+//                    array(
+//                        "BetPart.import_id" => $betPartState
+//                    )
+//                );
+//            }
         }
     }
 

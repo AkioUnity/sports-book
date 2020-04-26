@@ -91,7 +91,8 @@ class Bet extends AppModel
     const BET_TYPE_MATCH_WINNER = 'Match Winner';
 
     /** 1x2 */
-    const BET_TYPE_MATCH_RESULT = 'Full Time Result';//'Match Result';
+    const BET_TYPE_MATCH_RESULT = '1X2';//'Match Result';
+    const TYPE_1X2=array('Fulltime Result','Full Time Result','Extra Time Result','1st Goal - Extra Time','5th Goal');
 
     /** Betting type 12 const value */
     const BET_TYPE_12 = '12';
@@ -209,6 +210,14 @@ class Bet extends AppModel
         'drivers winner', // Odds_CorrectScore
 
     );
+
+    public static function GetBetType($bet_name)
+    {
+        if (in_array($bet_name,Bet::TYPE_1X2))
+            return Bet::BET_TYPE_MATCH_RESULT;
+        else
+            return $bet_name;
+    }
 
     /**
      * Inserts Bet
@@ -341,6 +350,16 @@ class Bet extends AppModel
         $data = $this->find('all', $options);
 
         return $data;
+    }
+
+    public function getBetByImportId($importId)
+    {
+        $options['conditions'] = array(
+            'Bet.import_id' => $importId
+        );
+        $this->contain('BetPart');
+        $bet = $this->find('first', $options);
+        return $bet;
     }
 
     public function getBetParts($id) {
