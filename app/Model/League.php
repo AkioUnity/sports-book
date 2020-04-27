@@ -670,6 +670,15 @@ class League extends AppModel
                 }
 
                 $leagues[$lIndex]["Event"][$eIndex]["Bet"] = $bet;
+                $leagues[$lIndex]["Event"][$eIndex]["markets_count"] = $this->Event->Bet->find('count', array(
+                    'conditions' => array(
+                        'Event.id'  =>  $event["id"],
+//                    "Bet.type"  =>  array(
+//                        0   =>  Bet::BET_TYPE_MATCH_RESULT,
+//                        1   =>  Bet::BET_TYPE_UNDER_OVER
+//                    )
+                    )
+                ));
             }
         }
 

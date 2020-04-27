@@ -87,7 +87,7 @@ class Bet extends AppModel
      */
     public $hasMany = array('BetPart');
 
-    /** 12  */
+    /** 12  main_1x2  */
     const BET_TYPE_MATCH_WINNER = 'Match Winner';
 
     /** 1x2 */
@@ -166,9 +166,9 @@ class Bet extends AppModel
     const BET_TYPE_DRIVERS_CHAMPIONSHIP_WINNER = 'Drivers Championship Winner';
 
     const BET_TYPE_CONSTRUCTORS_CHAMPIONSHIP = 'Constructors Championship';
-
+//    main_12
     const BET_TYPE_HEAD_TO_HEAD_CHAMPIONSHIP = 'Head-to-Head Championship';
-
+    //main_1x2
     const BET_TYPE_SECOND_ROUND_2_BALL = 'Half Time Result';//'Second Round 2 Ball';
 
     private $betOrder = array(

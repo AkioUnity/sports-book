@@ -863,10 +863,10 @@ class Event extends AppModel
             $data[$index]["Event"]["markets_count"] = $this->Bet->find('count', array(
                 'conditions' => array(
                     'Event.id'  =>  $item["Event"]["id"],
-                    "Bet.type"  =>  array(
-                        0   =>  Bet::BET_TYPE_MATCH_RESULT,
-                        1   =>  Bet::BET_TYPE_UNDER_OVER
-                    )
+//                    "Bet.type"  =>  array(
+//                        0   =>  Bet::BET_TYPE_MATCH_RESULT,
+//                        1   =>  Bet::BET_TYPE_UNDER_OVER
+//                    )
                 )
             ));
         }

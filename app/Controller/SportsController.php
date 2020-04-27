@@ -126,7 +126,7 @@ class SportsController extends AppController
         );
 
 //        print_r($League);
-        print_r($this->Sport->League->getLastQuery());
+//        print_r($this->Sport->League->getLastQuery());
         foreach ($League AS $item) {
             if (!isset($result[$item["League"]["id"]])) {
                 $item["League"]["order_id"] = array();

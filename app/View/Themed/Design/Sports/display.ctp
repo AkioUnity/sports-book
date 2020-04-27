@@ -8,7 +8,7 @@
 
 <?php if (isset($data) && is_array($data) && !empty($data)): ?>
     <div class="main-bets">
-        <!--sports/display.ctp-->
+        <!--sports/display.ctp    eng/sports/2  -->
         <div class="tab-content">
             <div role="tabpanel" class="tab-pane-sport icon-sport<?= $Sport["Sport"]["id"] ?> hover">
                 <h1 class="inside"><?php echo $Sport["Sport"]["name"]; ?></h1>
@@ -20,60 +20,9 @@
                         <?php $totalEvents = count($League["Event"]); ?>
                         <?php foreach ($League["Event"] AS $i => $Event): ?>
                             <?php foreach ($Event["Bet"] AS $Bet): ?>
-<!--                                --><?php //echo 'bet type:' . $Bet["type"] ?>
-                                <?php switch ($Sport["SportI18n"][0]["content"]):
-                                    case Sport::SPORT_TYPE_FOOTBALL:
-                                        ?>
-                                    <?php case Sport::SPORT_TYPE_RUGBY_UNION: ?>
-                                    <?php case Sport::SPORT_TYPE_GOLF: ?>
-                                    <?php case Sport::SPORT_TYPE_HANDBALL: ?>
-                                    <?php case Sport::SPORT_TYPE_ICE_HOCKEY: ?>
-                                    <?php case Sport::SPORT_TYPE_BOXING: ?>
-                                    <?php case Sport::SPORT_TYPE_FLOORBALL: ?>
-                                    <?php case Sport::SPORT_TYPE_FUTSAL: ?>
-                                    <?php case Sport::SPORT_TYPE_RUGBY_LEAGUE: ?>
-                                    <?php case Sport::SPORT_TYPE_CRICKET: ?>
-                                    <?php case Sport::SPORT_TYPE_BANDY: ?>
-                                    <?php case Sport::SPORT_TYPE_PESAPALLO: ?>
-                                    <?php case Sport::SPORT_TYPE_FIELD_HOCKEY: ?>
-                                    <?php case Sport::SPORT_TYPE_WATERPOLO: ?>
-                                    <?php case Sport::SPORT_TYPE_BEACH_SOCCER: ?>
-                                    <?php case Sport::SPORT_TYPE_BEACH_VOLLEY: ?>
-                                        <!--                                        --><?php //if ($Bet["type"] == Bet::BET_TYPE_MATCH_RESULT || $Bet["type"] == Bet::BET_TYPE_SECOND_ROUND_2_BALL): ?>
-                                        <?php if ($Bet["type"] == Bet::BET_TYPE_MATCH_RESULT || $Bet["type"] == Bet::BET_TYPE_SECOND_ROUND_2_BALL): ?>
-                                            <?php echo $this->element('Events/Betclick/main_1x2', array('Event' => $Event, 'Bet' => $Bet)); ?>
-                                        <?php endif; ?>
-                                        <?php break; ?>
-                                    <?php case
-                                    Sport::SPORT_TYPE_DARTS: ?>
-                                        <?php if ($Bet["type"] == Bet::BET_TYPE_MATCH_WINNER): ?>
-                                            <?php echo $this->element('Events/Betclick/main_1x2', array('Event' => $Event, 'Bet' => $Bet)); ?>
-                                        <?php endif; ?>
-                                        <?php break; ?>
-                                    <?php case Sport::SPORT_TYPE_VOLLEYBALL: ?>
-                                        <?php if ($Bet["type"] == Bet::BET_TYPE_MATCH_RESULT): ?>
-                                            <?php echo $this->element('Events/Betclick/main_12', array('Event' => $Event, 'Bet' => $Bet)); ?>
-                                        <?php endif; ?>
-                                        <?php break; ?>
-                                    <?php case Sport::SPORT_TYPE_FORMULA_1: ?>
-                                        <?php if ($Bet["type"] == Bet::BET_TYPE_HEAD_TO_HEAD_CHAMPIONSHIP): ?>
-                                            <?php echo $this->element('Events/Betclick/main_12', array('Event' => $Event, 'Bet' => $Bet)); ?>
-                                        <?php endif; ?>
-                                        <?php break; ?>
-                                    <?php case Sport::SPORT_TYPE_TENNIS: ?>
-                                    <?php case Sport::SPORT_TYPE_BASKETBALL: ?>
-                                    <?php case Sport::SPORT_TYPE_MARTIAL_ARTS: ?>
-                                    <?php case Sport::SPORT_TYPE_TABLE_TENNIS: ?>
-                                    <?php case Sport::SPORT_TYPE_SNOOKER: ?>
-                                    <?php case Sport::SPORT_TYPE_BASEBALL: ?>
-                                    <?php case Sport::SPORT_TYPE_CURLING: ?>
-                                    <?php case Sport::SPORT_TYPE_AUSTRALIAN_RULES: ?>
-                                    <?php case Sport::SPORT_TYPE_AMERICAN_FOOTBALL: ?>
-                                        <?php if ($Bet["type"] == Bet::BET_TYPE_MATCH_WINNER): ?>
-                                            <?php echo $this->element('Events/Betclick/main_12', array('Event' => $Event, 'Bet' => $Bet)); ?>
-                                        <?php endif; ?>
-                                        <?php break; ?>
-                                    <?php endswitch; ?>
+<!--                                --><?php //echo ' '. $Bet["id"] ?>
+                                <?php echo $this->element('Events/Betclick/event', array('Event' => $Event, 'Bet' => $Bet)); ?>
+
                                 <?php if (in_array($Bet["type"], array(
                                     Bet::BET_TYPE_OUTRIGHT_WINNER, Bet::BET_TYPE_DRIVERS_WINNER,
                                     Bet::BET_TYPE_OUTRIGHT_CHAMPION, Bet::BET_TYPE_CHAMPIONSHIP_WINNER,
