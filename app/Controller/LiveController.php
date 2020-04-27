@@ -145,7 +145,7 @@ class LiveController extends AppController
         if (!is_array($Sport) || empty($Sport)) {
             return $this->select_sport_league();
         }
-
+//        eng/live-betting/2
         $League = $this->Sport->League->getLiveLeagues($Sport["Sport"]["id"], $LeagueId);
 
         $this->set('data', $League);

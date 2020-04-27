@@ -1,5 +1,5 @@
 <?php echo $this->element('Slides/getSlides', array('slides' => $slides)); ?>
-<!--/live/display_event.ctp-->
+<!--/live/display_event.ctp  -->
 <div class="main-bets">
     <!-- Banner START -->
     <div class="banner">

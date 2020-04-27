@@ -169,7 +169,7 @@ class BetPart extends AppModel
 
             usort($events[$eventIndex]['Bet'], array($this->Bet, 'sortBet'));
         }
-
+//        print_r($events);
         return $events;
     }
 

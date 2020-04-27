@@ -94,12 +94,6 @@ class Bet extends AppModel
     const BET_TYPE_MATCH_RESULT = '1X2';//'Match Result';
     const TYPE_1X2=array('Fulltime Result','Full Time Result','Extra Time Result','1st Goal - Extra Time','5th Goal');
 
-    /** Betting type 12 const value */
-    const BET_TYPE_12 = '12';
-
-    /** Betting type 1X2 const value */
-    const BET_TYPE_1X2 = '1X2';
-
     /** Betting type Under/Over const value */
     const BET_TYPE_UNDER_OVER = 'Under/Over';
 
@@ -118,14 +112,6 @@ class Bet extends AppModel
     const BET_TYPE_WINNER = 'Winner';
 
     const BET_TYPE_OUTRIGHT_WINNER = 'Outright Winner';
-
-    const BET_TYPE_OUTRIGHT_CHAMPION = 'Champion';
-
-    const BET_TYPE_DRIVERS_WINNER = 'Drivers Winner';
-
-    const BET_TYPE_CHAMPIONSHIP_WINNER = 'Championship Winner';
-
-    const BET_TYPE_PLACE_1_3 = 'Place 1-3';
 
     /** Betting type First Team To Score const value */
     const BET_TYPE_FIRST_TEAM_TO_SCORE = 'First Team To Score';
@@ -162,14 +148,6 @@ class Bet extends AppModel
 
     /** Betting type Both Teams To Score const value */
     const BET_TYPE_BOTH_TEAMS_TO_SCORE = 'Both Teams To Score';
-
-    const BET_TYPE_DRIVERS_CHAMPIONSHIP_WINNER = 'Drivers Championship Winner';
-
-    const BET_TYPE_CONSTRUCTORS_CHAMPIONSHIP = 'Constructors Championship';
-//    main_12
-    const BET_TYPE_HEAD_TO_HEAD_CHAMPIONSHIP = 'Head-to-Head Championship';
-    //main_1x2
-    const BET_TYPE_SECOND_ROUND_2_BALL = 'Half Time Result';//'Second Round 2 Ball';
 
     private $betOrder = array(
 

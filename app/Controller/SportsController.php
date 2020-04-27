@@ -114,15 +114,11 @@ class SportsController extends AppController
         $bet_oder = array(
             Bet::BET_TYPE_MATCH_RESULT,
             Bet::BET_TYPE_MATCH_WINNER,
-            Bet::BET_TYPE_HEAD_TO_HEAD_CHAMPIONSHIP,
-            Bet::BET_TYPE_OUTRIGHT_WINNER,
-            Bet::BET_TYPE_WINNER,
-            Bet::BET_TYPE_OUTRIGHT_CHAMPION,
-            Bet::BET_TYPE_DRIVERS_WINNER,
-            Bet::BET_TYPE_CHAMPIONSHIP_WINNER,
-            Bet::BET_TYPE_PLACE_1_3,
-            Bet::BET_TYPE_DRIVERS_CHAMPIONSHIP_WINNER,
-            Bet::BET_TYPE_CONSTRUCTORS_CHAMPIONSHIP
+
+
+
+
+
         );
 
 //        print_r($League);

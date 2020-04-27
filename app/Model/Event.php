@@ -614,7 +614,7 @@ class Event extends AppModel
 //            'Event.date <='     => gmdate('Y-m-d H:i:s'),
             'Event.active = ?'      =>  1,
             'Event.type'    => 2,
-            'Event.last_update >=' => gmdate('Y-m-d H:i:s', strtotime('- 60 seconds'))
+//            'Event.last_update >=' => gmdate('Y-m-d H:i:s', strtotime('- 60 seconds'))
         );
 
         $options['order'] = 'Event.date ASC';
@@ -704,9 +704,7 @@ class Event extends AppModel
                         )
                     ),
                     'conditions'    =>  array(
-                        "type"  =>  array(
-                            1   =>  Bet::BET_TYPE_MATCH_RESULT
-                        )
+                        "type"  =>  array( 1   =>  Bet::BET_TYPE_MATCH_RESULT )
                     )
                 )
             ),
@@ -731,11 +729,11 @@ class Event extends AppModel
                             'BetPart.odd >='    => 1
                         )
                     ),
-                    'conditions'    =>  array(
-                        "type"  =>  array(
-                            2   =>  Bet::BET_TYPE_MATCH_WINNER
-                        )
-                    )
+//                    'conditions'    =>  array(
+//                        "type"  =>  array(
+//                            2   =>  Bet::BET_TYPE_MATCH_WINNER
+//                        )
+//                    )
                 )
             ),
             'conditions'    =>  array(
@@ -759,11 +757,11 @@ class Event extends AppModel
                             'BetPart.odd >='    => 1
                         )
                     ),
-                    'conditions'    =>  array(
-                        "type"  =>  array(
-                            2   =>  Bet::BET_TYPE_MATCH_WINNER
-                        )
-                    )
+//                    'conditions'    =>  array(
+//                        "type"  =>  array(
+//                            2   =>  Bet::BET_TYPE_MATCH_WINNER
+//                        )
+//                    )
                 )
             ),
             'conditions'    =>  array(
@@ -787,11 +785,11 @@ class Event extends AppModel
                             'BetPart.odd >='    => 1
                         )
                     ),
-                    'conditions'    =>  array(
-                        "type"  =>  array(
-                            1   =>  Bet::BET_TYPE_MATCH_RESULT
-                        )
-                    )
+//                    'conditions'    =>  array(
+//                        "type"  =>  array(
+//                            1   =>  Bet::BET_TYPE_MATCH_RESULT
+//                        )
+//                    )
                 )
             ),
             'conditions'    =>  array(
@@ -881,11 +879,11 @@ class Event extends AppModel
                 'League'    =>  array('Sport'),
                 'Bet'       =>  array(
                     'BetPart',
-                    'conditions'    =>  array(
-                        "type"  =>  array(
-                            1   =>  Bet::BET_TYPE_MATCH_RESULT
-                        )
-                    )
+//                    'conditions'    =>  array(
+//                        "type"  =>  array(
+//                            1   =>  Bet::BET_TYPE_MATCH_RESULT
+//                        )
+//                    )
                 )
             ),
             'conditions'    =>  array(
@@ -946,9 +944,9 @@ class Event extends AppModel
                 ),
                 'conditions' => array(
                     'Event.id = Bet.event_id',
-                    'Bet.type'  =>  array(
-                        Bet::BET_TYPE_MATCH_RESULT
-                    )
+//                    'Bet.type'  =>  array(
+//                        Bet::BET_TYPE_MATCH_RESULT
+//                    )
                 )
             ),
             array(
