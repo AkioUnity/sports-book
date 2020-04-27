@@ -440,7 +440,6 @@ class League extends AppModel
         $options['conditions'] = array(
             'Event.league_id'   =>  $leagueId,
             'Event.date >'      =>  gmdate('Y-m-d H:i:s'),
-            'Event.result'      => "",
             'Event.active'      =>  1
         );
 
@@ -492,7 +491,6 @@ class League extends AppModel
                     'League.id = Event.league_id',
                     'Event.active' => 1,
                     'Event.date >' => gmdate('Y-m-d H:i:s'),
-                    'Event.result'      => "",
                 )
             )
         );
@@ -509,7 +507,7 @@ class League extends AppModel
         return $data;
     }
 
-    public function getLeagues($sportId, $leagueId)
+    public function getLeagues($sportId, $leagueId)  //only show sports  /eng/sports/1
     {
         $options['recursive'] = -1;
 
@@ -554,7 +552,6 @@ class League extends AppModel
                     'League.id = Event.league_id',
                     'Event.active' => 1,
                     'Event.date >' => gmdate('Y-m-d H:i:s'),
-                    'Event.result'      => "",
                 )
             ),
             array(
@@ -593,6 +590,7 @@ class League extends AppModel
 
 //        print_r($options);
         $res=$this->Event->getMarketsCount($this->find('all', $options));
+//        print_r($res);
         return $res;
 
     }
@@ -603,7 +601,7 @@ class League extends AppModel
         return $this;
     }
 
-    public function getLiveLeagues($sportId = null, $leagueId = null)
+    public function getLiveLeagues($sportId = null, $leagueId = null)  //get live-event data models
     {
         if ($sportId != null) {
             $options['conditions']["League.sport_id"] = $sportId;

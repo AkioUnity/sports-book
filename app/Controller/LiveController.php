@@ -128,7 +128,7 @@ class LiveController extends AppController
      *
      * @return void
      */
-    public function display_sports()
+    public function display_sports()   //live-betting all event
     {
         if ($this->theme == "Redesign") {
             $this->layout = "inside";
@@ -154,7 +154,7 @@ class LiveController extends AppController
 
     }
 
-    public function display_event()
+    public function display_event()  //live-betting a event detail
     {
         if (count($this->request->params['pass']) < 1) {
             exit;

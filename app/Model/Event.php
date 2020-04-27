@@ -712,7 +712,6 @@ class Event extends AppModel
             ),
             'conditions'    =>  array(
                 'Event.date >'      => gmdate('Y-m-d H:i:s'),
-                'Event.result'      => "",
                 'Event.active'      => Event::EVENT_ACTIVE_STATE,
                 "League.sport_id"   =>  Sport::SPORT_ID_FOOTBALL,
 
@@ -858,17 +857,16 @@ class Event extends AppModel
         );
     }
 
-    public function getMarketsCount($data)
+    public function getMarketsCount($data)  //bet count per every event
     {
         foreach ($data AS $index => $item) {
             $data[$index]["Event"]["markets_count"] = $this->Bet->find('count', array(
                 'conditions' => array(
                     'Event.id'  =>  $item["Event"]["id"],
-                   /* "Bet.type"  =>  array(
+                    "Bet.type"  =>  array(
                         0   =>  Bet::BET_TYPE_MATCH_RESULT,
-                        1   =>  Bet::BET_TYPE_1X2,
-                        2   =>  Bet::BET_TYPE_UNDER_OVER
-                    )*/
+                        1   =>  Bet::BET_TYPE_UNDER_OVER
+                    )
                 )
             ));
         }
@@ -1054,7 +1052,6 @@ class Event extends AppModel
             'fields'            => array('import_id'),
             'conditions'        =>  array(
                 'Event.active'  =>  1,
-                'Event.result'  =>  '',
             ),
             'limit'             =>  $limit,
             'offset'            =>  $offset,

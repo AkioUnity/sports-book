@@ -89,8 +89,9 @@ class SportsController extends AppController
      *
      * @return void
      */
-    public function display()
+    public function display()  //called only  eng/sport/1
     {
+//        echo ("display");
         if ($this->theme == "Redesign") {
             $this->layout = "inside";
         }
@@ -125,7 +126,7 @@ class SportsController extends AppController
         );
 
 //        print_r($League);
-//        print_r($this->Sport->League->getLastQuery());
+        print_r($this->Sport->League->getLastQuery());
         foreach ($League AS $item) {
             if (!isset($result[$item["League"]["id"]])) {
                 $item["League"]["order_id"] = array();
