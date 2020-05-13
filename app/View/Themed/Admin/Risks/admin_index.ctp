@@ -43,10 +43,10 @@
                                         ?>
 
                                         <table class="table table-bordered table-striped">
-                                            <tr>
-                                                <td><?php echo __('Lock betting till event starts'); ?></td>
-                                                <td><?php echo $this->MyForm->input($settings['betBeforeEventStartDate']['id'], array('value' => $settings['betBeforeEventStartDate']['value'])); ?><span style="font-size: x-small; font-style:italic; padding-left: 10px;"><?php echo __("Lock betting for certain minutes till event start date. 0 stands for no lock."); ?></span></td>
-                                            </tr>
+<!--                                            <tr>-->
+<!--                                                <td>--><?php //echo __('Lock betting till event starts'); ?><!--</td>-->
+<!--                                                <td>--><?php //echo $this->MyForm->input($settings['betBeforeEventStartDate']['id'], array('value' => $settings['betBeforeEventStartDate']['value'])); ?><!--<span style="font-size: x-small; font-style:italic; padding-left: 10px;">--><?php //echo __("Lock betting for certain minutes till event start date. 0 stands for no lock."); ?><!--</span></td>-->
+<!--                                            </tr>-->
                                             <tr>
                                                 <td><?php echo __('Lowest stake'); ?></td>
                                                 <td><?php echo $this->MyForm->input($settings['minBet']['id'], array('value' => $settings['minBet']['value'])); ?><span style="font-size: x-small; font-style:italic; padding-left: 10px;"><?php echo __("Lowest amount of money that user must have to place a ticket."); ?></span></td>

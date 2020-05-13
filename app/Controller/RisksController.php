@@ -51,20 +51,20 @@ class RisksController extends AppController
         $settings = $this->Setting->getRiskSettings();
 
         switch ($this->Auth->user('group_id')) {
-            case Group::BRANCH_GROUP:
-                $settings["highest_number_of_agents"]["value"] = $this->User->UserSettings->getSetting('highest_number_of_agents');
-                $settings["highest_number_of_users"]["value"] = $this->User->UserSettings->getSetting('highest_number_of_users');
-                $settings["maxBet"]["value"] = $this->User->UserSettings->getSetting('highest_stake_of_agents_users');
-                $settings["minBet"]["value"] = $this->User->UserSettings->getSetting('lowest_stake_of_agents_users');
-                $settings["maxWin"]["value"] = $this->User->UserSettings->getSetting('highest_winning_amount_of_agents_users');
-                $view = "admin_index/branch_admin_index";
-                break;
-            case Group::AGENT_GROUP:
-                $settings["maxBet"]["value"] = $this->User->UserSettings->getSetting('highest_stake_of_agents_users', $this->Auth->user('referal_id'));
-                $settings["minBet"]["value"] = $this->User->UserSettings->getSetting('lowest_stake_of_agents_users', $this->Auth->user('referal_id'));
-                $settings["maxWin"]["value"] = $this->User->UserSettings->getSetting('highest_winning_amount_of_agents_users', $this->Auth->user('referal_id'));
-                $view = "admin_index/agent_admin_index";
-                break;
+//            case Group::BRANCH_GROUP:
+//                $settings["highest_number_of_agents"]["value"] = $this->User->UserSettings->getSetting('highest_number_of_agents');
+//                $settings["highest_number_of_users"]["value"] = $this->User->UserSettings->getSetting('highest_number_of_users');
+//                $settings["maxBet"]["value"] = $this->User->UserSettings->getSetting('highest_stake_of_agents_users');
+//                $settings["minBet"]["value"] = $this->User->UserSettings->getSetting('lowest_stake_of_agents_users');
+//                $settings["maxWin"]["value"] = $this->User->UserSettings->getSetting('highest_winning_amount_of_agents_users');
+//                $view = "admin_index/branch_admin_index";
+//                break;
+//            case Group::AGENT_GROUP:
+//                $settings["maxBet"]["value"] = $this->User->UserSettings->getSetting('highest_stake_of_agents_users', $this->Auth->user('referal_id'));
+//                $settings["minBet"]["value"] = $this->User->UserSettings->getSetting('lowest_stake_of_agents_users', $this->Auth->user('referal_id'));
+//                $settings["maxWin"]["value"] = $this->User->UserSettings->getSetting('highest_winning_amount_of_agents_users', $this->Auth->user('referal_id'));
+//                $view = "admin_index/agent_admin_index";
+//                break;
             default:
                 $view = "admin_index";
                 break;
@@ -99,14 +99,14 @@ class RisksController extends AppController
     }
 
     function admin_leagues($sportId = null) {
-        if (!empty($this->request->data)) {
-            //save
-            if ($this->League->updateRisk($this->request->data)) {
-                $this->Admin->setMessage(__('Settings saved.', true), 'success');
-            } else {
-                $this->Admin->setMessage(__('Error, cannot save settings.', true), 'error');
-            }
-        }
+//        if (!empty($this->request->data)) {
+//            //save
+//            if ($this->League->updateRisk($this->request->data)) {
+//                $this->Admin->setMessage(__('Settings saved.', true), 'success');
+//            } else {
+//                $this->Admin->setMessage(__('Error, cannot save settings.', true), 'error');
+//            }
+//        }
 
         $this->Paginator->settings  =   array(
             $this->League->name => array(

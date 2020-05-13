@@ -20,7 +20,7 @@ class ContentController extends CasinoAppController
 	
     public function index() 
     {
-        $this->layout = 'casino';
+        $this->layout = 'new_casino';
         /*
         $this->set('data', $result);
         $this->set('Sport', $Sport);
