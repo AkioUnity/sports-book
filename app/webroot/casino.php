@@ -6,14 +6,14 @@ $client = new Client(array(
     'sslKeyPath' => __DIR__.'/../../ssl/apikey.pem',
 ));
 
-//$bankGroup=array('Id'=>"new_bank_group",'Currency'=>'EUR');
+//$bankGroup=array('Id'=>"planet",'Currency'=>'EUR');
 //var_export($client->setBankGroup($bankGroup));
-
+//die;
 //https://planet1x2.com/casino.php?GameId=super_hot_20_html
 if (isset($_GET["GameId"])){
     $demoSession=array(
         'GameId'=>$_GET["GameId"],
-        'BankGroupId'=>'new_bank_group',
+        'BankGroupId'=>'planet',
         'StartBalance'=>10000
     );
     print_r($client->createDemoSession($demoSession));

@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -39,13 +37,15 @@
     .cardHolder {
         display: flex;
         flex-flow: row wrap;
+        justify-content: center;
     }
 
     .card {
         flex: 1;
         margin: .5em;
-        height: 300px;
-        min-width: 400px;
+        height: 235px;
+        width: 235px;
+        min-width: 235px;
         background-color: #161616;
         background-image: url("/Casino/assets/coming.png");
         border-radius: 3px;
@@ -66,97 +66,20 @@
         }
     }
 </style>
-
 <header>
     <?php echo $this->element('layout-slots/header-slot'); ?>
 </header>
-
 <?php echo $this->element('layout-slots/top-slot'); ?>
-<!--/Design/Layouts/casino.ctp-->
+<!--/Design/Layouts/new_casino.ctp-->
 <section id="main">
     <div class="cardHolder">
-        <?php if (!$this->Session->check('Auth.User') AND Configure::read('Settings.login') == 1): ?>
-            <div class="card" onclick="location.href='/<?= Configure::read('Config.language'); ?>/users/login';"
-                 style='background-image: url("casino/assets/bingo.jpg");'>&nbsp;
-            </div>
-            <div class="card" onclick="location.href='/<?= Configure::read('Config.language'); ?>/users/login';"
-                 style='background-image: url("/Casino/assets/keno.jpg");'>&nbsp;
-            </div>
-            <div class="card" onclick="location.href='/<?= Configure::read('Config.language'); ?>/users/login';"
-                 style='background-image: url("/Casino/assets/bj.png");'>&nbsp;
-            </div>
-            <div class="card" onclick="location.href='/<?= Configure::read('Config.language'); ?>/users/login';"
-                 style='background-image: url("/Casino/assets/roulette-royale.jpg");'>&nbsp;
-            </div>
-            <div class="card" onclick="location.href='/<?= Configure::read('Config.language'); ?>/users/login';"
-                 style='background-image: url("/Casino/assets/highlow.png");'>&nbsp;
-            </div>
-            <div class="card" onclick="location.href='/<?= Configure::read('Config.language'); ?>/users/login';"
-                 style='background-image: url("/Casino/assets/roulette.png");'>&nbsp;
-            </div>
-            <div class="card" onclick="location.href='/<?= Configure::read('Config.language'); ?>/users/login';"
-                 style='background-image: url("/Casino/assets/stud.jpg");'></div>
-            <div class="card" onclick="location.href='/<?= Configure::read('Config.language'); ?>/users/login';"
-                 style='background-image: url("/Casino/assets/baccarat.jpg");'></div>
-            <div class="card" onclick="location.href='/<?= Configure::read('Config.language'); ?>/users/login';"
-                 style='background-image: url("/Casino/assets/scratch.jpg");'></div>
-            <div class="card" onclick="location.href='/<?= Configure::read('Config.language'); ?>/users/login';"
-                 style='background-image: url("/Casino/assets/chicken.jpg");'></div>
-            <div class="card" onclick="location.href='/<?= Configure::read('Config.language'); ?>/users/login';"
-                 style='background-image: url("/Casino/assets/christmas.jpg");'></div>
-            <div class="card" onclick="location.href='/<?= Configure::read('Config.language'); ?>/users/login';"
-                 style='background-image: url("/Casino/assets/fruits.jpg");'></div>
-            <div class="card" onclick="location.href='/<?= Configure::read('Config.language'); ?>/users/login';"
-                 style='background-image: url("/Casino/assets/ramses.jpg");'></div>
-            <div class="card" onclick="location.href='/<?= Configure::read('Config.language'); ?>/users/login';"
-                 style='background-image: url("/Casino/assets/space.jpg");'></div>
-        <?php else: ?>
-            <div class="card" onclick="location.href='/Casino/keno/index.html';"
-                 style='background-image: url("/Casino/assets/keno.jpg");'>&nbsp;
-            </div>
-            <div class="card" onclick="location.href='/Casino/bingo/index.html';"
-                 style='background-image: url("/Casino/assets/bingo.jpg");'>&nbsp;
-            </div>
-            <div class="card" onclick="location.href='/Casino/blackjack/index.html';"
-                 style='background-image: url("/Casino/assets/bj.png");'>&nbsp;
-            </div>
-            <div class="card" onclick="location.href='/Casino/roulette-royale/index.html';"
-                 style='background-image: url("/Casino/assets/roulette-royale.jpg");'>&nbsp;
-            </div>
-            <div class="card" onclick="location.href='/Casino/highlow/index.html';"
-                 style='background-image: url("/Casino/assets/highlow.png");'>&nbsp;
-            </div>
-            <div class="card" onclick="location.href='/Casino/roulette/index.html';"
-                 style='background-image: url("/Casino/assets/roulette.png");'>&nbsp;
-            </div>
-            <div class="card" onclick="location.href='/Casino/stud/index.html';"
-                 style='background-image: url("/Casino/assets/stud.jpg");'>&nbsp;
-            </div>
-            <div class="card" onclick="location.href='/Casino/baccarat/index.html';"
-                 style='background-image: url("/Casino/assets/baccarat.jpg");'>&nbsp;
-            </div>
-            <div class="card" onclick="location.href='/Casino/scratch/index.html';"
-                 style='background-image: url("/Casino/assets/scratch.jpg");'>&nbsp;
-            </div>
-            <div class="card" onclick="location.href='/Casino/slot-chicken/index.html';"
-                 style='background-image: url("/Casino/assets/chicken.jpg");'>&nbsp;
-            </div>
-            <div class="card" onclick="location.href='/Casino/slot-christmas/index.html';"
-                 style='background-image: url("/Casino/assets/christmas.jpg");'>&nbsp;
-            </div>
-            <div class="card" onclick="location.href='/Casino/slot-fruits/index.html';"
-                 style='background-image: url("/Casino/assets/fruits.jpg");'>&nbsp;
-            </div>
-            <div class="card" onclick="location.href='/Casino/slot-ramses/index.html';"
-                 style='background-image: url("/Casino/assets/ramses.jpg");'>&nbsp;
-            </div>
-            <div class="card" onclick="location.href='/Casino/slot-space/index.html';"
-                 style='background-image: url("/Casino/assets/space.jpg");'>&nbsp;
-            </div>
-        <?php endif; ?>
-        <div class="card" onclick="location.href='/Casino/wuking-slot/index.html';"
-             style='background-image: url("/Casino/assets/wuking-slot.png");'>&nbsp;
-        </div>
+        <!--        --><?php //if (!$this->Session->check('Auth.User') AND Configure::read('Settings.login') == 1): ?>
+        <?php foreach ($games as $key => $value) { ?>
+            <a href="content/createDemoSession?GameId=<?php echo $value['Id'];?>" target="_blank">
+                <div class="card" style='background-image: url("/Casino/games/<?php echo $value['Id'] ?>.jpg");'>
+                </div>
+            </a>
+        <?php } ?>
     </div>
     <?php echo $this->element('layout-slots/center-slot'); ?>
 </section>
@@ -174,29 +97,20 @@
         });
     });
 </script>
-<!--<script src='//production-assets.codepen.io/assets/common/stopExecutionOnTimeout-b2a7b3fe212eaa732349046d8416e00a9dec26eb7fd347590fbced3ab38af52e.js'></script>-->
-<script>var boxes = document.querySelectorAll('.card');
-    var delay = .05; // seconds
-
-    var last = boxes[0].offsetTop;
-    var col = 0;
-    var row = 0;
-    for (var i = 0; i < boxes.length; i++) {
-        // if (window.CP.shouldStopExecution(1)) {
-        //     break;
-        // }
-        if (boxes[i].offsetTop > last) {
-            row = row + 1;
-            col = 0;
-        }
-        var last = boxes[i].offsetTop;
-
-        boxes[i].style.animationDelay = (row + col) * delay + 's';
-        col = col + 1;
-    }
-    // window.CP.exitedLoop(1);
-
-    //# sourceURL=pen.js
+<script>
+    // var boxes = document.querySelectorAll('.card');
+    // var delay = .05; // seconds
+    // var last = boxes[0].offsetTop;
+    // var col = 0;
+    // var row = 0;
+    // for (var i = 0; i < boxes.length; i++) {
+    //     if (boxes[i].offsetTop > last) {
+    //         row = row + 1;
+    //         col = 0;
+    //     }
+    //     var last = boxes[i].offsetTop;
+    //     boxes[i].style.animationDelay = (row + col) * delay + 's';
+    //     col = col + 1;
+    // }
 </script>
 </body>
-</html>
