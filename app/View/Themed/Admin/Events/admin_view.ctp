@@ -13,7 +13,7 @@
         <?php echo $this->element('flash_message'); ?>
         <div class="row-fluid ">
             <div class="span12">
-                <!-- BEGIN INLINE TABS PORTLET-->
+                <!-- BEGIN INLINE TABS PORTLET  admin_view.ctp-->
                 <div class="widget">
                     <div class="widget-body">
                         <?php echo $this->element('search');?>
@@ -24,7 +24,7 @@
                                         <?php echo $this->element('tabs');?>
                                     <div class="tab-content">
                                         <?php if (!empty($event)): ?>
-                                            <h2><?php echo $event['Event']['id']; ?> <?php echo $event['Event']['name']; ?></h2>
+                                            <h2><?php echo $event['Event']['import_id']; ?> <?php echo $event['Event']['name']; ?></h2>
 
                                             <button type='button' class='btn' style='float: left; margin-right: 15px;' onclick="window.location.href='<?=$referer;?>'"><?=__("Go Back");?></button>
                                             <?php echo $this->MyHtml->link(__("Add betting types to event"), array('language' => $this->language->getLanguage(), 'plugin' => null, 'controller' => 'Bets', 'action' => 'admin_add', $event['Event']["id"], 0), array('class' => isset($action['class']) ? $action['class'] : 'btn btn-danger', 'aco' => false)); ?>

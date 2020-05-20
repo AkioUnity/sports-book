@@ -26,9 +26,9 @@ font-size: 80%;
             <h4><?php echo __('Support'); ?></h4>
             <ul class="support">
                 <!-- <li><i class="fa fa-skype"></i> <span class="reverse">wissemneifer</span></li> -->
-                <li><i class="fa fa-envelope-o"></i> <span class="reverse"><a href="mailto:support@planet1x2.com">support@planet1x2.com </a></span></li>
+                <li><i class="fa fa-envelope-o"></i> <span class=""><a href="mailto:support@planet1x2.com">support@planet1x2.com </a></span></li>
                 <!-- <li><i class="fa fa-phone"></i> <span class="reverse">+352 621 177 744 Mobile|Whatsapp</span></li> -->
-                <li><i class="fa fa-clock-o"></i>  <span class="reverse">Support 24/7</span></li>
+                <li><i class="fa fa-clock-o"></i>  <span class="">Support 24/7</span></li>
             </ul>
 
         </div>

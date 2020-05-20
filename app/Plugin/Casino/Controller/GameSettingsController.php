@@ -18,8 +18,15 @@ class GameSettingsController extends CasinoAppController
      */
     public $uses = array('Casino.GameSetting');
 
+    public function admin_site()
+    {
+        $this->redirect('https://admin.c27.games/reports/agents');
+        die;
+    }
+
     public function admin_highlow()
     {
+
         if (!empty($this->request->data)) {
             if ($this->GameSetting->saveSettings($this->request->data, 'highLowSettings')) {
                 $this->Admin->setMessage(__('Settings saved.', true), 'success');

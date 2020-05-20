@@ -8,18 +8,16 @@
         </div>
     </div>
     <!-- END PAGE HEADER-->
-    <!-- BEGIN PAGE CONTENT-->
     <div id="page" class="dashboard">
         <?php echo $this->element('flash_message'); ?>
         <div class="row-fluid ">
             <div class="span12">
-                <!-- BEGIN INLINE TABS PORTLET-->
                 <div class="widget">
                     <div class="widget-body">
                         <?php echo $this->element('search');?>
                         <div class="row-fluid">
                             <div class="span12">
-                                <!--BEGIN TABS-->
+                                <!--Mails/admin_all.ctp-->
                                 <div class="table table-custom">
                                     <?php echo $this->element('tabs');?>
                                     <div class="tab-content">

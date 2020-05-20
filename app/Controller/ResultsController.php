@@ -144,9 +144,8 @@ class ResultsController extends AppController
 
         $this->view = 'admin_allSports';
     }
-
+//http://dev.planet1x2.com/eng/admin/results/allAll
     public function admin_allAll() {
-        
         //parse results first
         if (!empty($this->request->data)) {
             foreach ($this->request->data as $result) {                
@@ -182,8 +181,6 @@ class ResultsController extends AppController
                 }
             }
         }
-
-        
 
         $this->set('data', $events);
         $this->set('tabs', $this->Result->getTabs($this->params->params));
@@ -312,8 +309,7 @@ class ResultsController extends AppController
     public function __setWinLoose($betPartId, $win) {
 
     	$ticketsParts = $this->Ticket->getTicketsPartsByBetPartId($betPartId);
-        
-        
+
         if ($win != 1) {
             $status = Ticket::TICKET_STATUS_LOST;
         } else {

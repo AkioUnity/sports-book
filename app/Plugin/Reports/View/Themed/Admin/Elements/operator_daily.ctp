@@ -113,6 +113,7 @@
     .clear { clear: both; }
 
 </style>
+<!--operator_daily.ctp-->
 <div class="container">
     <div class="header">
         <div class="logo">

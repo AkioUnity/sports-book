@@ -65,7 +65,7 @@
         <div class="clear"></div>
     </div>
 </nav>
-<?php if($this->layout != "intro"): ?>
+<?php if($this->layout != "intro" && $this->layout != "new_casino" ): ?>
 <div id="submenu">
     <div class="container">
         <div class="right">

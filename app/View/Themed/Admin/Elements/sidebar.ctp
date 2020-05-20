@@ -226,17 +226,17 @@ $menu = array(
         'class'     =>  'icon-play-circle',
         'sub-menu'  =>  array(
             0   =>  array(
-                'title'         =>  __('Settings'),
+                'title'         =>  __('Admin'),
                 'plugin'        =>  'casino',
                 'controller'    =>  'GameSettings',
-                'action'        =>  'admin_highlow',
+                'action'        =>  'admin_site',
             ),
-            1   =>  array(
-                'title'         =>  __('Logs'),
-                'plugin'        =>  'casino',
-                'controller'    =>  'GameLogs',
-                'action'        =>  'admin_highlow'
-            )
+//            1   =>  array(
+//                'title'         =>  __('Logs'),
+//                'plugin'        =>  'casino',
+//                'controller'    =>  'GameLogs',
+//                'action'        =>  'admin_highlow'
+//            )
         )
     ),
     7  =>  array(

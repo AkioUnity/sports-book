@@ -19,17 +19,14 @@
                         <?php echo $this->element('search');?>
                         <div class="row-fluid">
                             <div class="span12">
-                                <!--BEGIN TABS-->
+                                <!--Results/admin_all_all.ctp-->
                                 <div class="table table-custom">
                                     <?php echo $this->element('tabs');?>
                                     <div class="tab-content">
                                         <?php if (!empty($data)): ?>
-
                                             <?php echo $this->MyForm->create('Result'); ?>
-
                                             <?php foreach ($data as $event): ?>
-
-                                                <h2><?php echo $event['Event']['name']; ?> <?php echo __('Results'); ?></h2>
+                                                <h3><?php echo $event['Event']['import_id'].':'.$event['Event']['name']; ?> <?php echo __('Results'); ?></h3>
                                                 <?php echo $this->MyForm->input('Result', array('label' => __('Result', true), 'value' => $event['Event']['result'], 'name' => "data[{$event['Event']['id']}][Event][result]", 'type' => 'text', 'class' => 'input-short')); ?>
                                                 <?php echo $this->MyForm->input('Result', array('value' => $event['Event']['id'], 'name' => "data[{$event['Event']['id']}][Event][id]", 'type' => 'hidden')); ?>
 

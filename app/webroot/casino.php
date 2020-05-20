@@ -6,9 +6,9 @@ $client = new Client(array(
     'sslKeyPath' => __DIR__.'/../../ssl/apikey.pem',
 ));
 
-//$bankGroup=array('Id'=>"planet",'Currency'=>'EUR');
-//var_export($client->setBankGroup($bankGroup));
-//die;
+$bankGroup=array('Id'=>"planet_TND",'Currency'=>'TND');
+var_export($client->setBankGroup($bankGroup));
+die;
 //https://planet1x2.com/casino.php?GameId=super_hot_20_html
 if (isset($_GET["GameId"])){
     $demoSession=array(

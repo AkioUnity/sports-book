@@ -33,7 +33,17 @@ class ContentController extends CasinoAppController
     public function index() 
     {
         $this->layout = 'new_casino';
-        $this->set('games', $this->client->listGames()['Games']);
+        $listGames=$this->client->listGames()['Games'];
+        $games=array();
+        $brands=array();
+        foreach ($listGames as $key => $value){
+            $games[]=array('Id'=>$value['Id'],'SectionId'=>$value['SectionId']);
+            if (!in_array($value['SectionId'],$brands))
+                $brands[]=$value['SectionId'];
+
+        }
+        $this->set('games', $games);
+        $this->set('brands', $brands);
         /*
         $this->set('data', $result);
         $this->set('Sport', $Sport);
@@ -53,7 +63,7 @@ class ContentController extends CasinoAppController
         $player=array(
             'Id'=>'admin',
             'Nick'=>'admin',
-            'BankGroupId'=>'planet'
+            'BankGroupId'=>'planet_TND'
         );
         print_r($this->client->setPlayer($player));
         die;
@@ -83,7 +93,7 @@ class ContentController extends CasinoAppController
     {
         $demoSession=array(
             'GameId'=>$this->request->query['GameId'],
-            'BankGroupId'=>'planet',
+            'BankGroupId'=>'planet_TND',
             'StartBalance'=>10000
         );
         $this->redirect($this->client->createDemoSession($demoSession)['SessionUrl']);

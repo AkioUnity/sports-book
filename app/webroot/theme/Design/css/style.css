@@ -372,9 +372,12 @@ input[type="checkbox"] {
 }
 
 #main {
-    margin: 10px 0
+    margin: 10px 0;
 }
 
+.main{
+    background: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 360px, rgb(28, 18, 12) 796px, rgb(28, 18, 12) 100%);
+}
 .content {
     float: right
 }

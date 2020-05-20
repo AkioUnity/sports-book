@@ -53,7 +53,7 @@ class Bet365Shell extends FeedAppShell implements FeedShell
      *
      * @var array A single name as a string or a list of names as an array.
      */
-    public $uses = array('Feeds.Bet365', 'Country', 'Sport', 'League', 'Event', 'Bet', 'BetPart', 'Setting', 'Currency', 'Ticket');
+    public $uses = array('Feeds.Bet365', 'Country', 'Sport', 'League', 'Event', 'Bet', 'BetPart', 'Setting', 'Currency', 'Ticket','TicketPart');
 
     /**
      * Initializes the Shell
@@ -104,6 +104,31 @@ class Bet365Shell extends FeedAppShell implements FeedShell
         $this->out('daily Done!');
     }
 
+    //cd /var/www/html/app
+    //php Console/cake.php -app app Feeds.Bet365 checkResult
+    public function checkResult()
+    {
+        $event=$this->Event->findFinishedEvent();
+        print_r($event);
+    }
+
+    public function __setWinLoose($betPartId, $win) {
+
+        $ticketsParts = $this->Ticket->getTicketsPartsByBetPartId($betPartId);
+
+        if ($win != 1) {
+            $status = Ticket::TICKET_STATUS_LOST;
+        } else {
+            $status = Ticket::TICKET_STATUS_WON;
+            $this->Bet->setPick($betPartId);
+        }
+        foreach ($ticketsParts as $ticketPart) {
+            $this->TicketPart->setStatus($ticketPart['TicketPart']['id'], $status);
+        }
+        //}
+    }
+
+    //cd /var/www/html/app
     //php Console/cake.php -app app Feeds.Bet365 importLeagues
     public function importLeagues()  //update leagues,events table
     {
@@ -244,7 +269,7 @@ class Bet365Shell extends FeedAppShell implements FeedShell
             }
         }
         // not longer in source
-        $this->Bet->setInactive($EventId, array_diff($dbIds, $sourceIds));
+//        $this->Bet->setInactive($EventId, array_diff($dbIds, $sourceIds));
     }
 
     public function SaveLeagueAndEvent($res,$SportId,$EventType){

@@ -61,12 +61,11 @@ class EventsController extends EventsAppController
 
         $status = array(
             Event::EVENT_STATUS_CANCELLED   =>  __("Cancelled"),
-            Event::EVENT_STATUS_DELETED   =>  __("Deleted"),
+            Event::EVENT_STATUS_Removed  =>  __("Deleted"),
             Event::EVENT_STATUS_FINISHED   =>  __("Finished"),
             Event::EVENT_STATUS_IN_PROGRESS   =>  __("In progress"),
             Event::EVENT_STATUS_INTERRUPTED   =>  __("Interrupted"),
             Event::EVENT_STATUS_NOT_STARTED   =>  __("Not Started"),
-            Event::EVENT_STATUS_UNKNOWN   =>  __("Unknown"),
         );
 
         $eventLink = Router::url(array('language' => Configure::read('Config.language'), 'plugin' => 'events', 'controller' => 'events', 'action' => 'admin_view'), true);

@@ -125,36 +125,13 @@ class Event extends AppModel
      * Event status in progress value
      */
     const EVENT_STATUS_IN_PROGRESS = 1;
-
-    /**
-     * Event status finished value
-     */
-    const EVENT_STATUS_FINISHED = 2;
-
-    /**
-     * Event status cancelled value
-     */
-    const EVENT_STATUS_CANCELLED = 3;
-
-    /**
-     * Event status interrupted value
-     */
-    const EVENT_STATUS_INTERRUPTED = 4;
-
-    /**
-     * Event status interrupted value
-     */
-    const EVENT_STATUS_SUSPENDED = 5;
-
-    /**
-     * Event status unknown value
-     */
-    const EVENT_STATUS_UNKNOWN = 5;
-
-    /**
-     * Event status deleted value
-     */
-    const EVENT_STATUS_DELETED = 6;
+    const EVENT_STATUS_Fixed = 2;
+    const EVENT_STATUS_FINISHED = 3;
+    const EVENT_STATUS_Postponed = 4;
+    const EVENT_STATUS_CANCELLED = 5;
+    const EVENT_STATUS_Walkover = 6;
+    const EVENT_STATUS_INTERRUPTED = 7;
+    const EVENT_STATUS_Removed    = 99;
 
     /**
      * Active event status value
@@ -585,9 +562,6 @@ class Event extends AppModel
 
         $options['conditions'] = array(
             'Event.id'          => $id,
-            'Event.date >'      => gmdate('Y-m-d H:i:s'),
-            'Event.active = ?'      =>  1,
-            'Event.type = ?'      =>  1
         );
 
         $options['order'] = 'Event.date ASC';
@@ -611,15 +585,26 @@ class Event extends AppModel
         );
         $options['conditions'] = array(
             'Event.id'          => $id,
-//            'Event.date <='     => gmdate('Y-m-d H:i:s'),
-            'Event.active = ?'      =>  1,
-            'Event.type'    => 2,
 //            'Event.last_update >=' => gmdate('Y-m-d H:i:s', strtotime('- 60 seconds'))
         );
 
         $options['order'] = 'Event.date ASC';
 
         return $this->find('first', $options);
+    }
+
+    public function findFinishedEvent()
+    {
+        $data = $this->find('first', array(
+            'conditions'    =>  array(
+                'Event.status'          => self::EVENT_STATUS_IN_PROGRESS,
+                'Event.last_update <' => gmdate('Y-m-d H:i:s', strtotime('-2 minutes'))
+            )
+        ));
+
+        $data['Event']['status'] = self::EVENT_STATUS_FINISHED;  //later, we should change this from api result
+//        $this->save($data);
+        return $data;
     }
 
     /**
