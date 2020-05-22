@@ -17,6 +17,9 @@ App::uses('Folder', 'Utility');
 App::uses('File', 'Utility');
 App::uses('VerifyRecaptcha', 'Lib/Recaptcha');
 
+use outcomebet\casino25\api\client\Client;
+require __DIR__.'/../../vendor/autoload.php';
+
 class UsersController extends AppController
 {
     /**
@@ -701,10 +704,39 @@ class UsersController extends AppController
 
             $this->User->updateLastVisit($this->Auth->user('id'));
 
+            $this->casino_login();
+
             $this->redirect('/' . Configure::read('Config.language'));
         }
 
         $this->set('request_pass_params', $this->request->params["pass"]);
+    }
+
+    public function casino_login(){
+        $this->client = new Client(array(
+            'url' => 'https://api.casinovegas.org/v1/',
+            'sslKeyPath' => __DIR__.'/../../ssl/apikey.pem',
+        ));
+
+        $player=array(
+            'Id'=>$this->Auth->user('username'),
+            'Nick'=>$this->Auth->user('username'),
+            'BankGroupId'=>'planet_TND'
+        );
+        $this->client->setPlayer($player);
+
+        $player=array(
+            'PlayerId'=>$this->Auth->user('username')
+        );
+        $balance=$this->client->getBalance($player)['Amount'];
+        $player_balance=$this->Auth->user('balance')*100;
+        if ($balance!=$player_balance){
+            $player=array(
+                'PlayerId'=>$this->Auth->user('username'),
+                'Amount'=>(int)($player_balance-$balance)
+            );
+            $this->client->changeBalance($player);
+        }
     }
 
     /**

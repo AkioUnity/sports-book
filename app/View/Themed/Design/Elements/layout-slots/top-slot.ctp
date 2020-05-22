@@ -55,12 +55,12 @@
                 </li>
             <?php endif;?>
 
-            <li>
-                <a href="/<?=Configure::read('Config.language');?>/virtualsports">
-                    <i class="menco m-ico7"></i>
-                    <span class="menutxt"><?php echo __('Virtual Sports'); ?></span>
-                </a>
-            </li>
+<!--            <li>-->
+<!--                <a href="/--><?//=Configure::read('Config.language');?><!--/virtualsports">-->
+<!--                    <i class="menco m-ico7"></i>-->
+<!--                    <span class="menutxt">--><?php //echo __('Virtual Sports'); ?><!--</span>-->
+<!--                </a>-->
+<!--            </li>-->
         </ul>
         <div class="clear"></div>
     </div>

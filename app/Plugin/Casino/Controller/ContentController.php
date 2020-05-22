@@ -61,30 +61,35 @@ class ContentController extends CasinoAppController
     public function set_player()
     {
         $player=array(
-            'Id'=>'admin',
-            'Nick'=>'admin',
+            'Id'=>$this->Auth->user('username'),
+            'Nick'=>$this->Auth->user('username'),
             'BankGroupId'=>'planet_TND'
         );
-        print_r($this->client->setPlayer($player));
-        die;
+        $this->client->setPlayer($player);
+//        die;
     }
-    //http://dev.planet1x2.com/eng/casino/content/getBalance?PlayerId=admin
-    public function getBalance()
+
+    public function changeBalance()
     {
         $player=array(
-            'PlayerId'=>$this->request->query['PlayerId']
+            'PlayerId'=>$this->Auth->user('username'),
+            'Amount'=>(int)($this->Auth->user('balance'))
         );
-        print_r($this->client->getBalance($player));
-        die;
+        $this->client->changeBalance($player);
     }
+
     //http://dev.planet1x2.com/eng/casino/content/createSession?PlayerId=admin&GameId=jacks_or_better
     public function createSession()
     {
+//        $this->set_player();
+//        $this->changeBalance();
+
         $session=array(
-            'PlayerId'=>$this->request->query['PlayerId'],
+            'PlayerId'=>$this->Auth->user('username'),
             'GameId'=>$this->request->query['GameId']
         );
-        print_r($this->client->createSession($session));
+        $this->redirect($this->client->createSession($session)['SessionUrl']);
+//        print_r($this->client->createSession($session));
         die;
     }
 
@@ -97,6 +102,34 @@ class ContentController extends CasinoAppController
             'StartBalance'=>10000
         );
         $this->redirect($this->client->createDemoSession($demoSession)['SessionUrl']);
+        die;
+    }
+
+    //http://dev.planet1x2.com/eng/casino/content/getBalance?PlayerId=admin
+    public function getBalance()
+    {
+//        print_r($this->Auth->user());
+        $player=array(
+            'PlayerId'=>$this->request->query['PlayerId']
+        );
+        echo($this->client->getBalance($player)['Amount']);
+        die;
+    }
+//http://dev.planet1x2.com/eng/casino/content/changeBalance0?PlayerId=admin&Amount=25
+    public function changeBalance0()
+    {
+        $player=array(
+            'PlayerId'=>$this->request->query['PlayerId'],
+            'Amount'=>(int)($this->request->query['Amount'])
+        );
+        print_r($this->client->changeBalance($player));
+        die;
+    }
+
+    //http://dev.planet1x2.com/eng/casino/content/listSessions
+    public function listSessions()
+    {
+        print_r($this->client->listSessions());
         die;
     }
 }

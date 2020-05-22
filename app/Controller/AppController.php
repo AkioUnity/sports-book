@@ -30,6 +30,9 @@ App::uses('RunCpa', 'Lib/RunCpa');
 
 App::import('Plugin/WebSocket/Lib/Network/Http', 'WebSocket', array('file'=>'WebSocket.php'));
 
+use outcomebet\casino25\api\client\Client;
+require __DIR__.'/../../vendor/autoload.php';
+
 class AppController extends Controller
 {
     /**
@@ -38,7 +41,7 @@ class AppController extends Controller
      * @var $name string
      */
     public $name = 'App';
-
+    public $client;
     /**
      * Array containing the names of components this controller uses.
      *
@@ -206,6 +209,20 @@ class AppController extends Controller
 
         parent::beforeFilter();
 //        echo ("App controller Before");
+
+        if($this->Auth->loggedIn()) {
+            $this->client = new Client(array(
+                'url' => 'https://api.casinovegas.org/v1/',
+                'sslKeyPath' => __DIR__.'/../../ssl/apikey.pem',
+            ));
+
+            $player=array(
+                'PlayerId'=>$this->Auth->user('username')
+            );
+            $balance=$this->client->getBalance($player)['Amount']/100;
+            if ($balance!=CakeSession::read('Auth.User.balance'))
+                $this->User->setBalance($this->Auth->user('id'),$balance);
+        }
     }
 
     /**

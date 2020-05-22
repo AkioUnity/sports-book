@@ -675,6 +675,27 @@ class User extends AppModel
         return $User['User']['balance'];
     }
 
+    public function setBalance($userId, $amount)
+    {
+        $User = $this->getItem($userId);
+
+        if (empty($User)) {
+            return 0;
+        }
+
+        $User['User']['balance'] = $amount;
+
+        if ($User['User']['balance'] < 0) {
+            $User['User']['balance'] = 0;
+        }
+
+        $this->save($User,false);
+
+        if (CakeSession::read('Auth.User.id') == $userId) {
+            CakeSession::write('Auth.User.balance', $amount);
+        }
+    }
+
     /**
      * Adds user balance
      *

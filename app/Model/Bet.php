@@ -92,7 +92,9 @@ class Bet extends AppModel
 
     /** 1x2 */
     const BET_TYPE_MATCH_RESULT = '1X2';//'Match Result';
-    const TYPE_1X2=array('Fulltime Result','Full Time Result','Extra Time Result','1st Goal - Extra Time','5th Goal');
+    const TYPE_1X2=array('Fulltime Result','Full Time Result');
+
+    const TYPE_1X2_Other=array('Extra Time Result','1st Goal - Extra Time','5th Goal');
 
     /** Betting type Under/Over const value */
     const BET_TYPE_UNDER_OVER = 'Under/Over';

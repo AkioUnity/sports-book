@@ -27,7 +27,7 @@
             <?php foreach ($games as $value) { ?>
                 <div class="col-sm-6 col-lg-3 isotope-item <?php echo $value['SectionId']?>">
                     <div class="portfolio-item">
-                        <a href="content/createDemoSession?GameId=<?php echo $value['Id']; ?>" target="_blank">
+                        <a href="content/createSession?GameId=<?php echo $value['Id']; ?>" target="_blank">
                             <span class="thumb-info thumb-info-lighten border-radius-0">
                                 <span class="thumb-info-wrapper border-radius-0">
                                     <img src="/Casino/games/<?php echo $value['Id'] ?>.jpg"
