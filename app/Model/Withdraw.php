@@ -266,7 +266,7 @@ class Withdraw extends AppModel
      * @param string $options
      * @return array
      */
-    public function getPagination($options = 'pending')
+    public function getPagination()
     {
         $pagination = array(
             'limit' => Configure::read('Settings.itemsPerPage'),
@@ -285,10 +285,7 @@ class Withdraw extends AppModel
                 'Withdraw.description',
                 'Withdraw.notes',
                 'Withdraw.status'
-            ),
-            'conditions' => array(
-                'Withdraw.status' => $options
-            )                
+            )
         );
         return $pagination;
     }
@@ -440,6 +437,7 @@ class Withdraw extends AppModel
         $this->create();
 
         if($this->save($data)) {
+            echo 'wid:'.$amount.' ';
             $this->getEventManager()->dispatch(new CakeEvent('Model.Withdraw.addWithdraw', $this, array(
                 'userId'    =>  $userId,
                 'amount'    =>  $amount

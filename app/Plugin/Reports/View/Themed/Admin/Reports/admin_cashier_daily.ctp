@@ -1,6 +1,5 @@
-<?php if(!isset($show) OR $show == false): ?>
+<!-- admin_cashier_daily.ctp-->
 <div class="container-fluid">
-    <!-- BEGIN PAGE HEADER-->
     <div class="row-fluid">
         <div class="span12">
             <!-- BEGIN PAGE TITLE & BREADCRUMB-->
@@ -8,8 +7,7 @@
             <!-- END PAGE TITLE & BREADCRUMB-->
         </div>
     </div>
-    <!-- END PAGE HEADER-->
-    <!-- BEGIN PAGE CONTENT-->
+    <?php if(!isset($show) OR $show == false): ?>
     <div id="page" class="dashboard">
         <?php echo $this->element('flash_message'); ?>
         <div class="row-fluid ">
@@ -36,8 +34,7 @@
             </div>
         </div>
     </div>
-    <!-- END PAGE CONTENT-->
+    <?php else: ?>
+        <?php echo $this->element('cashier_daily'); ?>
+    <?php endif; ?>
 </div>
-<?php else: ?>
-    <?php echo $this->element('cashier_daily'); ?>
-<?php endif; ?>

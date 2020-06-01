@@ -24,7 +24,7 @@ class ContentController extends CasinoAppController
     public function beforeFilter()
     {
         $this->client = new Client(array(
-            'url' => 'https://api.casinovegas.org/v1/',
+            'url' => 'https://api.c27.games/v1/',
             'sslKeyPath' => __DIR__.'/../../../../ssl/apikey.pem',
         ));
         parent::beforeFilter();
@@ -84,6 +84,36 @@ class ContentController extends CasinoAppController
 //        $this->set_player();
 //        $this->changeBalance();
 
+        if (!CakeSession::check('casino.balance')){
+            $player=array(
+                'PlayerId'=>$this->Auth->user('username')
+            );
+            $casinoBalance=$this->client->getBalance($player)['Amount'];
+            $player_balance=$this->Auth->user('balance')*100;
+            if ($casinoBalance!=$player_balance){
+                $player=array(
+                    'PlayerId'=>$this->Auth->user('username'),
+                    'Amount'=>(int)($player_balance-$casinoBalance)
+                );
+                $this->client->changeBalance($player);
+            }
+        }
+        else{
+            $diffBalance=CakeSession::read('Auth.User.balance')-CakeSession::read('old.balance')-CakeSession::read('changed.casino.balance');
+            if ($diffBalance!=0){
+                $player=array(
+                    'PlayerId'=>$this->Auth->user('username'),
+                    'Amount'=>(int)($diffBalance*100)
+                );
+                $this->client->changeBalance($player);
+            }
+        }
+        CakeSession::write('old.balance', CakeSession::read('Auth.User.balance'));
+        CakeSession::write('casino.balance', CakeSession::read('Auth.User.balance')*100);
+
+//                $this->User->setBalance($this->Auth->user('id'),$balance);
+
+
         $session=array(
             'PlayerId'=>$this->Auth->user('username'),
             'GameId'=>$this->request->query['GameId']
@@ -112,7 +142,7 @@ class ContentController extends CasinoAppController
         $player=array(
             'PlayerId'=>$this->request->query['PlayerId']
         );
-        echo($this->client->getBalance($player)['Amount']);
+        print_r($this->client->getBalance($player));
         die;
     }
 //http://dev.planet1x2.com/eng/casino/content/changeBalance0?PlayerId=admin&Amount=25

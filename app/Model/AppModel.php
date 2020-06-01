@@ -633,6 +633,12 @@ class AppModel extends Model
         return $this->find('count', array('conditions' => $options));
     }
 
+    public function getTotalAmount($options = array())
+    {
+        return $this->find('all', array('conditions' => $options,
+            'fields'=>array('sum(amount) as total')))[0][0]['total'];
+    }
+
     /**
      * Returns parent id
      *

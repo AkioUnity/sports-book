@@ -714,7 +714,7 @@ class UsersController extends AppController
 
     public function casino_login(){
         $this->client = new Client(array(
-            'url' => 'https://api.casinovegas.org/v1/',
+            'url' => 'https://api.c27.games/v1/',
             'sslKeyPath' => __DIR__.'/../../ssl/apikey.pem',
         ));
 
@@ -724,19 +724,24 @@ class UsersController extends AppController
             'BankGroupId'=>'planet_TND'
         );
         $this->client->setPlayer($player);
+    }
 
-        $player=array(
-            'PlayerId'=>$this->Auth->user('username')
-        );
-        $balance=$this->client->getBalance($player)['Amount'];
-        $player_balance=$this->Auth->user('balance')*100;
-        if ($balance!=$player_balance){
+    public function refresh_casino(){
+        if($this->Auth->loggedIn()) {
+            $this->client = new Client(array(
+                'url' => 'https://api.c27.games/v1/',
+                'sslKeyPath' => __DIR__.'/../../ssl/apikey.pem',
+            ));
+
             $player=array(
-                'PlayerId'=>$this->Auth->user('username'),
-                'Amount'=>(int)($player_balance-$balance)
+                'PlayerId'=>$this->Auth->user('username')
             );
-            $this->client->changeBalance($player);
+            $balance=$this->client->getBalance($player)['Amount']/100;
+            if ($balance!=CakeSession::read('Auth.User.balance'))
+                $this->User->setBalance($this->Auth->user('id'),$balance);
         }
+        $this->redirect($this->referer());
+        exit;
     }
 
     /**

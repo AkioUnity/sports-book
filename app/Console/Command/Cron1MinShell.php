@@ -28,6 +28,7 @@ class Cron1MinShell extends Shell
 //            $this->dispatchShell('Queue.queue process');
 //            $this->dispatchShell('Feeds.FeedApp importLeagues');
             $this->dispatchShell('Feeds.FeedApp importEvents');  //309
+            $this->dispatchShell('Feeds.Bet365 checkResult');
             $start = microtime(true);
             set_time_limit(60);
             $step=5;

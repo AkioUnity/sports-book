@@ -63,6 +63,7 @@ class EventsController extends EventsAppController
             Event::EVENT_STATUS_CANCELLED   =>  __("Cancelled"),
             Event::EVENT_STATUS_Removed  =>  __("Deleted"),
             Event::EVENT_STATUS_FINISHED   =>  __("Finished"),
+            Event::EVENT_STATUS_FINISHED_NoResult   =>  __("Finished"),
             Event::EVENT_STATUS_IN_PROGRESS   =>  __("In progress"),
             Event::EVENT_STATUS_INTERRUPTED   =>  __("Interrupted"),
             Event::EVENT_STATUS_NOT_STARTED   =>  __("Not Started"),

@@ -2,14 +2,6 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="0f0909e1-4ac1-4ce8-8460-d1481aa22e98" name="old 80.241.216.18" url="http://80.241.216.18">
-        <fileTransfer host="80.241.216.18" port="21" rootFolder="/public_html">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
-          </advancedOptions>
-          <option name="port" value="21" />
-        </fileTransfer>
-      </webServer>
       <webServer id="eee9bb20-57b6-46b8-9715-308209782a96" name="New vps" url="http://173.212.240.92">
         <fileTransfer host="173.212.240.92" port="22" rootFolder="/var/www/html" accessType="SFTP">
           <advancedOptions>

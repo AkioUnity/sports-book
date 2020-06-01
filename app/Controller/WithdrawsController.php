@@ -189,6 +189,10 @@ class WithdrawsController extends AppController
             $conditions = array_merge(array($conditions), $this->Withdraw->getSearchConditions($this->request->data));
         }
 
+        if($this->Auth->user('group_id') != Group::ADMINISTRATOR_GROUP) {
+            $conditions = array_merge(array($conditions), array('User.referal_id'=>$this->Auth->user('id')));
+        }
+
         $this->Paginator->settings  =   array(
             $this->Withdraw->name => $this->Withdraw->getPagination()
         );
@@ -197,6 +201,8 @@ class WithdrawsController extends AppController
 
         $data = $this->Paginator->paginate( $this->Withdraw->name );
 
+        $total=$this->Withdraw->getTotalAmount($conditions);
+
         foreach ($data as $i => $row) {
             foreach ($row['User'] as $key => $value) {
                 if($key == 'username' && $value == null) {
@@ -204,6 +210,7 @@ class WithdrawsController extends AppController
                 }
 //                $data[$i]['Withdraw']['user_id'] = $row['User']['username'];
             }
+//            print_r($row);
             $data[$i]['Withdraw']["type"] = $row["Withdraw"]["type"] == 1 ? __("Online") : __("Offline");
         }
 
@@ -262,6 +269,7 @@ class WithdrawsController extends AppController
         $this->set('chartsData', $chartsData);
 
         $this->set('data', $data);
+        $this->set('totalAmount', $total);
         $this->set('model', 'Withdraw');
         $this->set('actions', $this->Withdraw->getActions($this->request));
         $this->set('tabs', $this->Withdraw->getTabs($this->request->params));
@@ -290,6 +298,12 @@ class WithdrawsController extends AppController
         if (!empty($this->request->data)) {
             $description = isset($this->request->data["Withdraw"]["message"]) ? $this->request->data["Withdraw"]["message"] : null;
             $this->Withdraw->setStatus($id, Withdraw::WITHDRAW_STATUS_COMPLETED, $description);
+
+            $withdraw = $this->Withdraw->getItem($id);
+            $amount = $withdraw['Withdraw']['amount'];
+//            $userId = $withdraw['Withdraw']['user_id'];
+            $this->Withdraw->User->addFunds($this->Auth->user('id'), $amount);
+
             $this->Admin->setMessage(__('Withdraw request set as completed'), 'success');
             $this->redirect(array('admin' => true, 'plugin' => null, 'controller' => 'withdraws', 'action' => 'index'), 302, true);
         }

@@ -31,64 +31,64 @@ class Event extends AppModel
      * @var array
      */
     protected $_schema = array(
-        'id'        => array(
-            'type'      => 'bigint',
-            'length'    => 20,
-            'null'      => false
+        'id' => array(
+            'type' => 'bigint',
+            'length' => 20,
+            'null' => false
         ),
-        'import_id'     => array(
-            'type'      => 'bigint',
-            'length'    => 255,
-            'null'      => false
+        'import_id' => array(
+            'type' => 'bigint',
+            'length' => 255,
+            'null' => false
         ),
-        'name'      => array(
-            'type'      => 'string',
-            'length'    => 255,
-            'null'      => true
+        'name' => array(
+            'type' => 'string',
+            'length' => 255,
+            'null' => true
         ),
-        'status'    => array(
-            'type'      => 'int',
-            'length'    => 1,
-            'null'      => false
+        'status' => array(
+            'type' => 'int',
+            'length' => 1,
+            'null' => false
         ),
-        'type'      => array(
-            'type'      => 'int',
-            'length'    => 1,
-            'null'      => false
+        'type' => array(
+            'type' => 'int',
+            'length' => 1,
+            'null' => false
         ),
-        'date'      => array(
-            'type'      => 'string',
-            'length'    => null,
-            'null'      => true
+        'date' => array(
+            'type' => 'string',
+            'length' => null,
+            'null' => true
         ),
-        'result'    => array(
-            'type'      => 'string',
-            'length'    => 20,
-            'null'      => false
+        'result' => array(
+            'type' => 'string',
+            'length' => 20,
+            'null' => false
         ),
-        'active'    => array(
-            'type'      => 'tinyint',
-            'length'    => 1,
-            'null'      => true
+        'active' => array(
+            'type' => 'tinyint',
+            'length' => 1,
+            'null' => true
         ),
         'league_id' => array(
-            'type'      => 'int',
-            'length'    => 11,
-            'null'      => true
+            'type' => 'int',
+            'length' => 11,
+            'null' => true
         ),
         'feed_type' => array(
-            'type'      => 'string',
-            'length'    => 10,
-            'null'      => false
+            'type' => 'string',
+            'length' => 10,
+            'null' => false
         )
     );
 
     public $validate = array(
-        'name'  =>  array(
+        'name' => array(
             'rule' => array('minLength', '2'),
             'message' => 'Please add event name'
         ),
-        'date'  =>  array(
+        'date' => array(
             'rule' => array('minLength', '2'),
             'message' => 'Please add event date'
         )
@@ -127,31 +127,35 @@ class Event extends AppModel
     const EVENT_STATUS_IN_PROGRESS = 1;
     const EVENT_STATUS_Fixed = 2;
     const EVENT_STATUS_FINISHED = 3;
+    const EVENT_STATUS_FINISHED_NoResult = 31;
     const EVENT_STATUS_Postponed = 4;
     const EVENT_STATUS_CANCELLED = 5;
     const EVENT_STATUS_Walkover = 6;
     const EVENT_STATUS_INTERRUPTED = 7;
-    const EVENT_STATUS_Removed    = 99;
+    const EVENT_STATUS_Removed = 99;
 
     /**
      * Active event status value
      */
-    const EVENT_ACTIVE_STATE        =   1;
+    const EVENT_ACTIVE_STATE = 1;
 
     /**
      * Not active event status value
      */
-    const EVENT_INACTIVE_STATE      =   0;
+    const EVENT_INACTIVE_STATE = 0;
 
     /**
      * PreMatch event type value
      */
-    const EVENT_TYPE_PREMATCH       =   1;
+    const EVENT_TYPE_PREMATCH = 1;
 
     /**
      * Live event type value
      */
-    const EVENT_TYPE_LIVE           =   2;
+    const EVENT_TYPE_LIVE = 2;
+
+    const Ticket_No = 'no';
+    const Ticket_Yes = 'yes';
 
     /**
      * Constructor. Binds the model's database table to the object.
@@ -174,7 +178,7 @@ class Event extends AppModel
     public function getSearch()
     {
         return array(
-            'Event.name'    =>  array('type' => 'text')
+            'Event.name' => array('type' => 'text')
         );
     }
 
@@ -187,44 +191,44 @@ class Event extends AppModel
     {
         $fields = array(
 
-            "Event.sport_id"    =>  array(
-                'type'      =>  'select',
-                'options'   =>   $this->League->Sport->getList(),
-                'default'   =>  $sportId,
-                'disabled'  =>  true,
-                'error'     =>  false
+            "Event.sport_id" => array(
+                'type' => 'select',
+                'options' => $this->League->Sport->getList(),
+                'default' => $sportId,
+                'disabled' => true,
+                'error' => false
             ),
 
-            "Event.league_id"   =>  array(
-                'type'      =>  'select',
-                'options'   =>  $this->League->getList(),
-                'error'     =>  false
+            "Event.league_id" => array(
+                'type' => 'select',
+                'options' => $this->League->getList(),
+                'error' => false
             ),
 
-            'Event.name'       =>  array(
-                'label'     =>  __('Event name'),
-                'error'     =>  false
+            'Event.name' => array(
+                'label' => __('Event name'),
+                'error' => false
             ),
 
-            'Event.date'   => array(
-                'div'       =>  'control-group',
-                'class'     =>  'm-ctrl-medium',
-                'before'    =>  '<div class="controls">',
-                'type'      =>  'text',
-                'placeholder'   =>  'example: 2014-10-23 14:20',
-                'after'     =>  '</div>',
-                'error'     =>  false
+            'Event.date' => array(
+                'div' => 'control-group',
+                'class' => 'm-ctrl-medium',
+                'before' => '<div class="controls">',
+                'type' => 'text',
+                'placeholder' => 'example: 2014-10-23 14:20',
+                'after' => '</div>',
+                'error' => false
             ),
 
-            'Event.active'      =>  array(
-                'style'     =>  '',
-                'div'       =>  'control-group',
-                'before'    =>  '<div class="controls"><label for="EventActive">Active</label><div class="transition-value-toggle-button">',
-                'type'      =>  'checkbox',
-                'class'     => 'toggle',
-                'after'     =>  '</div></div>',
-                'label'     =>  false,
-                'error'     =>  false
+            'Event.active' => array(
+                'style' => '',
+                'div' => 'control-group',
+                'before' => '<div class="controls"><label for="EventActive">Active</label><div class="transition-value-toggle-button">',
+                'type' => 'checkbox',
+                'class' => 'toggle',
+                'after' => '</div></div>',
+                'label' => false,
+                'error' => false
             ),
         );
 
@@ -248,41 +252,41 @@ class Event extends AppModel
 
         return array(
 
-            "Event.sport_id"    =>  array(
-                'type'      =>  'select',
-                'options'   =>   $this->League->Sport->getList(),
-                'default'   =>  $league["League"]["sport_id"],
-                'disabled'  =>  true
+            "Event.sport_id" => array(
+                'type' => 'select',
+                'options' => $this->League->Sport->getList(),
+                'default' => $league["League"]["sport_id"],
+                'disabled' => true
             ),
 
-            "Event.league_id"   =>  array(
-                'type'      =>  'select',
-                'options'   =>  $this->League->getList(),
-                'default'   =>  $data["Event"]["league_id"],
-                'disabled'  =>  true
+            "Event.league_id" => array(
+                'type' => 'select',
+                'options' => $this->League->getList(),
+                'default' => $data["Event"]["league_id"],
+                'disabled' => true
             ),
 
-            'Event.name'       =>  array(
-                'label'     =>  __('Event name')
+            'Event.name' => array(
+                'label' => __('Event name')
             ),
 
-            'Event.date'   => array(
-                'div'       =>  'control-group',
-                'class'     =>  'm-ctrl-medium',
-                'before'    =>  '<div class="controls">',
-                'type'      =>  'text',
-                'placeholder'   =>  'example: 2014-10-23 14:20',
-                'after'     =>  '</div>'
+            'Event.date' => array(
+                'div' => 'control-group',
+                'class' => 'm-ctrl-medium',
+                'before' => '<div class="controls">',
+                'type' => 'text',
+                'placeholder' => 'example: 2014-10-23 14:20',
+                'after' => '</div>'
             ),
 
-            'Event.active'      =>  array(
-                'style'     =>  '',
-                'div'       =>  'control-group',
-                'before'    =>  '<div class="controls"><label for="EventActive">Active</label><div class="transition-value-toggle-button">',
-                'type'      =>  'checkbox',
-                'class'     => 'toggle',
-                'after'     =>  '</div></div>',
-                'label'     =>  false
+            'Event.active' => array(
+                'style' => '',
+                'div' => 'control-group',
+                'before' => '<div class="controls"><label for="EventActive">Active</label><div class="transition-value-toggle-button">',
+                'type' => 'checkbox',
+                'class' => 'toggle',
+                'after' => '</div></div>',
+                'label' => false
             ),
         );
     }
@@ -297,11 +301,11 @@ class Event extends AppModel
     public function getEventByImportId($importEventId)
     {
         return $this->find('first', array(
-                'contain'       =>  array(
-                    'Bet'   =>  array( 'BetPart' )
+                'contain' => array(
+                    'Bet' => array('BetPart')
                 ),
-                'conditions'    =>  array(
-                    'Event.import_id'   =>  $importEventId
+                'conditions' => array(
+                    'Event.import_id' => $importEventId
                 )
             )
         );
@@ -310,11 +314,11 @@ class Event extends AppModel
     public function getNextEvent($event_id)
     {
         return $this->find('first', array(
-                'contain'       =>  array(
-                    'Bet'   =>  array( 'BetPart' )
+                'contain' => array(
+                    'Bet' => array('BetPart')
                 ),
-                'conditions'    =>  array(
-                    'Event.id >'   =>  $event_id
+                'conditions' => array(
+                    'Event.id >' => $event_id
                 )
             )
         );
@@ -323,16 +327,16 @@ class Event extends AppModel
     /**
      * Inserts | Updates Event
      *
-     * @param null|int    $eventId
-     * @param null|int    $importId
-     * @param string      $eventName
-     * @param int         $status
-     * @param int         $type
-     * @param string      $startDate
+     * @param null|int $eventId
+     * @param null|int $importId
+     * @param string $eventName
+     * @param int $status
+     * @param int $type
+     * @param string $startDate
      * @param null|string $eventResult
-     * @param int         $eventState
-     * @param int         $leagueId
-     * @param string      $feedType
+     * @param int $eventState
+     * @param int $leagueId
+     * @param string $feedType
      *
      * @return array|bool|int|mixed|string
      */
@@ -355,17 +359,17 @@ class Event extends AppModel
         $this->create();
 
         $data = array(
-            'import_id'     =>  $importId,
-            'name'          =>  $eventName,
-            'status'        =>  $status,
-            'type'          =>  $type,
-            'duration'      =>  $duration,
-            'date'          =>  $startDate,
-            'last_update'   =>  $lastUpdate,
-            'result'        =>  $eventResult,
-            'active'        =>  $eventState,
-            'league_id'     =>  $leagueId,
-            'feed_type'     =>  $feedType
+            'import_id' => $importId,
+            'name' => $eventName,
+            'status' => $status,
+            'type' => $type,
+            'duration' => $duration,
+            'date' => $startDate,
+            'last_update' => $lastUpdate,
+            'result' => $eventResult,
+            'active' => $eventState,
+            'league_id' => $leagueId,
+            'feed_type' => $feedType
         );
 
         if (!is_null($eventId)) {
@@ -376,7 +380,7 @@ class Event extends AppModel
             unset($data['import_id']);
         }
 
-        if ($this->hasAny(array("Event.id" => $eventId))){
+        if ($this->hasAny(array("Event.id" => $eventId))) {
             unset($data["active"]); // in case admin has disabled this event, do not update this field.
         }
         $this->save($data);
@@ -391,7 +395,7 @@ class Event extends AppModel
      * @param       $eventName
      * @param       $eventDate
      * @param       $leagueId
-     * @param null  $feedType
+     * @param null $feedType
      * @param array $importedEvent
      *
      * @deprecated Use saveEvent() instead
@@ -403,18 +407,18 @@ class Event extends AppModel
         $this->create();
 
         $data = array(
-            'Event' =>  array(
-                'import_id' =>  $importEventId,
-                'name'      =>  $eventName,
-                'league_id' =>  $leagueId,
-                'date'      =>  $eventDate,
+            'Event' => array(
+                'import_id' => $importEventId,
+                'name' => $eventName,
+                'league_id' => $leagueId,
+                'date' => $eventDate,
             )
         );
 
-        if(is_array($importedEvent) && isset($importedEvent['Event']['id'])) {
+        if (is_array($importedEvent) && isset($importedEvent['Event']['id'])) {
             $this->id = $importedEvent['Event']['id'];
-        }else{
-            $data['Event']['active']    = self::EVENT_ACTIVE_STATE;
+        } else {
+            $data['Event']['active'] = self::EVENT_ACTIVE_STATE;
             $data['Event']['feed_type'] = $feedType;
         }
 
@@ -427,7 +431,7 @@ class Event extends AppModel
      * Updates event state
      *
      * @param      $eventId
-     * @param int  $state
+     * @param int $state
      * @param bool $byImportId
      *
      * @return bool
@@ -436,21 +440,21 @@ class Event extends AppModel
     {
         $this->create();
 
-        if($byImportId != false) {
+        if ($byImportId != false) {
             $EventData = $this->getEventByImportId($eventId);
 
-            if(empty($EventData)) {
+            if (empty($EventData)) {
                 return false;
             }
 
             $this->id = $EventData['Event']['id'];
-        }else{
+        } else {
             $this->id = $eventId;
         }
 
         $this->save(array(
-            'Event' =>  array(
-                'active'    =>  $state
+            'Event' => array(
+                'active' => $state
             )
         ));
 
@@ -487,8 +491,7 @@ class Event extends AppModel
                 if ($this->Bet->hasTickets($bet['id'])) {
                     $bets[] = $this->Bet->getBetParts($bet['id']);
                 }
-            }
-            else {
+            } else {
                 $bets[] = $this->Bet->getBetParts($bet['id']);
             }
         }
@@ -515,8 +518,8 @@ class Event extends AppModel
         }
 
         $options['fields'] = array(
-            0   =>  'Event.id',
-            1   =>  'Event.league_id'
+            0 => 'Event.id',
+            1 => 'Event.league_id'
         );
 
         $options['group'] = 'Event.league_id';
@@ -534,12 +537,12 @@ class Event extends AppModel
     public function findEvents($name)
     {
         return $this->find('all', array(
-            'conditions'    =>  array(
-                'Event.name LIKE ?'     =>  array('%' . $name . '%'),
-                'Event.date > ?'        =>  array(gmdate('Y-m-d H:i:s')),
-                'Event.active = ?'      =>  1
+            'conditions' => array(
+                'Event.name LIKE ?' => array('%' . $name . '%'),
+                'Event.date > ?' => array(gmdate('Y-m-d H:i:s')),
+                'Event.active = ?' => 1
             ),
-            'order'         =>  array('Event.date ASC')
+            'order' => array('Event.date ASC')
         ));
     }
 
@@ -553,15 +556,15 @@ class Event extends AppModel
     {
         $options['contain'] = array(
             "League",
-            "Bet"       =>  array(
-                "conditions"    =>  array(
+            "Bet" => array(
+                "conditions" => array(
                     "Bet.state" => "active"
                 )
             )
         );
 
         $options['conditions'] = array(
-            'Event.id'          => $id,
+            'Event.id' => $id,
         );
 
         $options['order'] = 'Event.date ASC';
@@ -579,12 +582,11 @@ class Event extends AppModel
     {
         $options["contain"] = array(
             "League",
-            "Bet" => array(
-//                "conditions"    => array('Bet.state !=' => 'inactive')
+            "Bet" => array(//                "conditions"    => array('Bet.state !=' => 'inactive')
             )
         );
         $options['conditions'] = array(
-            'Event.id'          => $id,
+            'Event.id' => $id,
 //            'Event.last_update >=' => gmdate('Y-m-d H:i:s', strtotime('- 60 seconds'))
         );
 
@@ -596,14 +598,55 @@ class Event extends AppModel
     public function findFinishedEvent()
     {
         $data = $this->find('first', array(
-            'conditions'    =>  array(
-                'Event.status'          => self::EVENT_STATUS_IN_PROGRESS,
+            'contain' => array(
+                'Bet' => array(
+                    'BetPart' => array(
+                        'conditions' => array(
+                            'BetPart.state' => 'active',
+                            'BetPart.odd >=' => 1
+                        )
+                    ),
+//                    'conditions'    =>  array(
+//                        "type"  =>  array(
+//                            1   =>  Bet::BET_TYPE_MATCH_RESULT
+//                        )
+//                    )
+                )
+            ),
+            'conditions' => array(
+                'Event.status' => self::EVENT_STATUS_IN_PROGRESS,
                 'Event.last_update <' => gmdate('Y-m-d H:i:s', strtotime('-2 minutes'))
             )
         ));
+        return $data;
+    }
 
-        $data['Event']['status'] = self::EVENT_STATUS_FINISHED;  //later, we should change this from api result
-//        $this->save($data);
+    public function findTicketEvent()
+    {
+        $data = $this->find('all', array(
+            'contain' => array(
+                'Bet' => array(
+                    'BetPart' => array(
+                        'conditions' => array(
+                            'BetPart.state' => 'active',
+                            'BetPart.odd >=' => 1
+                        )
+                    ),
+//                    'conditions'    =>  array(
+//                        "type"  =>  array(
+//                            1   =>  Bet::BET_TYPE_MATCH_RESULT
+//                        )
+//                    )
+                )
+            ),
+            'conditions' => array(
+                'Event.status <=' => self::EVENT_STATUS_IN_PROGRESS,
+                'Event.date <' => gmdate('Y-m-d H:i:s', strtotime('-2 minutes')),
+                'ticket'=>Event::Ticket_Yes
+            ),
+            'order' => 'Event.date ASC',
+            'limit' => 10,
+        ));
         return $data;
     }
 
@@ -616,8 +659,8 @@ class Event extends AppModel
     public function setResults($eventId, array $Results)
     {
         $Event = $this->find('first', array(
-            'contain'       =>  array(),
-            'conditions'    =>  array(
+            'contain' => array(),
+            'conditions' => array(
                 'Event.id' => $eventId
             )
         ));
@@ -632,8 +675,8 @@ class Event extends AppModel
             $this->save($data);
 
             $this->getEventManager()->dispatch(new CakeEvent('Model.Event.setResults', $this, array(
-                "Event"     =>  $Event["Event"],
-                "Results"   =>  $Results
+                "Event" => $Event["Event"],
+                "Results" => $Results
             )));
 
         } catch (Exception $e) {
@@ -650,7 +693,7 @@ class Event extends AppModel
     public function setResult($id, $result = '')
     {
         $data = $this->find('first', array(
-            'conditions'    =>  array(
+            'conditions' => array(
                 'Event.id' => $id
             )
         ));
@@ -660,7 +703,21 @@ class Event extends AppModel
         $this->save($data);
     }
 
-    function deleteEvents($leagueId) {
+    public function setStatus($id, $status)
+    {
+        $data = $this->find('first', array(
+            'conditions' => array(
+                'Event.id' => $id
+            )
+        ));
+
+        $data['Event']['status'] = $status;
+
+        $this->save($data);
+    }
+
+    function deleteEvents($leagueId)
+    {
         $options['conditions'] = array(
             'League.sport_id' => $sportId
         );
@@ -679,39 +736,39 @@ class Event extends AppModel
     public function getLastMinuteEvents()
     {
         $Football = $this->find('all', array(
-            'contain'       =>  array(
-                'League'    =>  array('Sport'),
-                'Bet'       =>  array(
-                    'BetPart'   =>  array(
-                        'conditions'    =>  array(
-                            'BetPart.state'    => 'active',
-                            'BetPart.odd >='    => 1
+            'contain' => array(
+                'League' => array('Sport'),
+                'Bet' => array(
+                    'BetPart' => array(
+                        'conditions' => array(
+                            'BetPart.state' => 'active',
+                            'BetPart.odd >=' => 1
                         )
                     ),
-                    'conditions'    =>  array(
-                        "type"  =>  array( 1   =>  Bet::BET_TYPE_MATCH_RESULT )
+                    'conditions' => array(
+                        "type" => array(1 => Bet::BET_TYPE_MATCH_RESULT)
                     )
                 )
             ),
-            'conditions'    =>  array(
-                'Event.date >'      => gmdate('Y-m-d H:i:s'),
-                'Event.active'      => Event::EVENT_ACTIVE_STATE,
-                "League.sport_id"   =>  Sport::SPORT_ID_FOOTBALL,
+            'conditions' => array(
+                'Event.date >' => gmdate('Y-m-d H:i:s'),
+                'Event.active' => Event::EVENT_ACTIVE_STATE,
+                "League.sport_id" => Sport::SPORT_ID_FOOTBALL,
 
             ),
-            'order'         =>  'Event.date ASC',
-            'limit'         =>  7,
-            'group'         =>  'Event.league_id, Event.id'
+            'order' => 'Event.date ASC',
+            'limit' => 7,
+            'group' => 'Event.league_id, Event.id'
         ));
 
         $Basketball = $this->find('all', array(
-            'contain'       =>  array(
-                'League'    =>  array('Sport'),
-                'Bet'       =>  array(
-                    'BetPart'   =>  array(
-                        'conditions'    =>  array(
-                            'BetPart.state'    => 'active',
-                            'BetPart.odd >='    => 1
+            'contain' => array(
+                'League' => array('Sport'),
+                'Bet' => array(
+                    'BetPart' => array(
+                        'conditions' => array(
+                            'BetPart.state' => 'active',
+                            'BetPart.odd >=' => 1
                         )
                     ),
 //                    'conditions'    =>  array(
@@ -721,25 +778,25 @@ class Event extends AppModel
 //                    )
                 )
             ),
-            'conditions'    =>  array(
-                'Event.date >'      => gmdate('Y-m-d H:i:s'),
-                'Event.active'      => Event::EVENT_ACTIVE_STATE,
-                "League.sport_id"   =>  Sport::SPORT_ID_BASKETBALL
+            'conditions' => array(
+                'Event.date >' => gmdate('Y-m-d H:i:s'),
+                'Event.active' => Event::EVENT_ACTIVE_STATE,
+                "League.sport_id" => Sport::SPORT_ID_BASKETBALL
 
             ),
-            'order'         =>  'Event.date ASC',
-            'limit'         =>  7,
-            'group'         =>  'Event.league_id, Event.id'
+            'order' => 'Event.date ASC',
+            'limit' => 7,
+            'group' => 'Event.league_id, Event.id'
         ));
 
         $Tennis = $this->find('all', array(
-            'contain'       =>  array(
-                'League'    =>  array('Sport'),
-                'Bet'       =>  array(
-                    'BetPart'   =>  array(
-                        'conditions'    =>  array(
-                            'BetPart.state'    => 'active',
-                            'BetPart.odd >='    => 1
+            'contain' => array(
+                'League' => array('Sport'),
+                'Bet' => array(
+                    'BetPart' => array(
+                        'conditions' => array(
+                            'BetPart.state' => 'active',
+                            'BetPart.odd >=' => 1
                         )
                     ),
 //                    'conditions'    =>  array(
@@ -749,25 +806,25 @@ class Event extends AppModel
 //                    )
                 )
             ),
-            'conditions'    =>  array(
-                'Event.date >'      => gmdate('Y-m-d H:i:s'),
-                'Event.active'      => Event::EVENT_ACTIVE_STATE,
-                "League.sport_id"   =>  Sport::SPORT_ID_TENNIS
+            'conditions' => array(
+                'Event.date >' => gmdate('Y-m-d H:i:s'),
+                'Event.active' => Event::EVENT_ACTIVE_STATE,
+                "League.sport_id" => Sport::SPORT_ID_TENNIS
 
             ),
-            'order'         =>  'Event.date ASC',
-            'limit'         =>  7,
-            'group'         =>  'Event.league_id, Event.id'
+            'order' => 'Event.date ASC',
+            'limit' => 7,
+            'group' => 'Event.league_id, Event.id'
         ));
 
         $IceHockey = $this->find('all', array(
-            'contain'       =>  array(
-                'League'    =>  array('Sport'),
-                'Bet'       =>  array(
-                    'BetPart'   =>  array(
-                        'conditions'    =>  array(
-                            'BetPart.state'    => 'active',
-                            'BetPart.odd >='    => 1
+            'contain' => array(
+                'League' => array('Sport'),
+                'Bet' => array(
+                    'BetPart' => array(
+                        'conditions' => array(
+                            'BetPart.state' => 'active',
+                            'BetPart.odd >=' => 1
                         )
                     ),
 //                    'conditions'    =>  array(
@@ -777,19 +834,19 @@ class Event extends AppModel
 //                    )
                 )
             ),
-            'conditions'    =>  array(
-                'Event.date >'      => gmdate('Y-m-d H:i:s'),
-                'Event.active'      => Event::EVENT_ACTIVE_STATE,
-                "League.sport_id"   =>  Sport::SPORT_ID_ICE_HOCKEY
+            'conditions' => array(
+                'Event.date >' => gmdate('Y-m-d H:i:s'),
+                'Event.active' => Event::EVENT_ACTIVE_STATE,
+                "League.sport_id" => Sport::SPORT_ID_ICE_HOCKEY
 
             ),
-            'order'         =>  'Event.date ASC',
-            'limit'         =>  7,
-            'group'         =>  'Event.league_id, Event.id'
+            'order' => 'Event.date ASC',
+            'limit' => 7,
+            'group' => 'Event.league_id, Event.id'
         ));
 
         foreach ($Football AS $index => $item) {
-            foreach($item["Bet"] AS $betIndex => $bet) {
+            foreach ($item["Bet"] AS $betIndex => $bet) {
                 if (empty($bet["BetPart"])) {
                     unset($item["Bet"][$betIndex]);
                 }
@@ -800,7 +857,7 @@ class Event extends AppModel
         }
 
         foreach ($Basketball AS $index => $item) {
-            foreach($item["Bet"] AS $betIndex => $bet) {
+            foreach ($item["Bet"] AS $betIndex => $bet) {
                 if (empty($bet["BetPart"])) {
                     unset($item["Bet"][$betIndex]);
                 }
@@ -811,7 +868,7 @@ class Event extends AppModel
         }
 
         foreach ($Tennis AS $index => $item) {
-            foreach($item["Bet"] AS $betIndex => $bet) {
+            foreach ($item["Bet"] AS $betIndex => $bet) {
                 if (empty($bet["BetPart"])) {
                     unset($item["Bet"][$betIndex]);
                 }
@@ -822,7 +879,7 @@ class Event extends AppModel
         }
 
         foreach ($IceHockey AS $index => $item) {
-            foreach($item["Bet"] AS $betIndex => $bet) {
+            foreach ($item["Bet"] AS $betIndex => $bet) {
                 if (empty($bet["BetPart"])) {
                     unset($item["Bet"][$betIndex]);
                 }
@@ -833,10 +890,10 @@ class Event extends AppModel
         }
 
         return array(
-            'Football'      =>  $this->getMarketsCount($Football),
-            'Basketball'    =>  $this->getMarketsCount($Basketball),
-            'Tennis'        =>  $this->getMarketsCount($Tennis),
-            'IceHockey'     =>  $this->getMarketsCount($IceHockey)
+            'Football' => $this->getMarketsCount($Football),
+            'Basketball' => $this->getMarketsCount($Basketball),
+            'Tennis' => $this->getMarketsCount($Tennis),
+            'IceHockey' => $this->getMarketsCount($IceHockey)
         );
     }
 
@@ -845,7 +902,7 @@ class Event extends AppModel
         foreach ($data AS $index => $item) {
             $data[$index]["Event"]["markets_count"] = $this->Bet->find('count', array(
                 'conditions' => array(
-                    'Event.id'  =>  $item["Event"]["id"],
+                    'Event.id' => $item["Event"]["id"],
 //                    "Bet.type"  =>  array(
 //                        0   =>  Bet::BET_TYPE_MATCH_RESULT,
 //                        1   =>  Bet::BET_TYPE_UNDER_OVER
@@ -860,9 +917,9 @@ class Event extends AppModel
     public function getSliderEvents()
     {
         $Events = $this->find('all', array(
-            'contain'       =>  array(
-                'League'    =>  array('Sport'),
-                'Bet'       =>  array(
+            'contain' => array(
+                'League' => array('Sport'),
+                'Bet' => array(
                     'BetPart',
 //                    'conditions'    =>  array(
 //                        "type"  =>  array(
@@ -871,14 +928,14 @@ class Event extends AppModel
 //                    )
                 )
             ),
-            'conditions'    =>  array(
-                'Event.date >'      => gmdate('Y-m-d H:i:s'),
-                "League.id"         =>  array(2,7,6,4)
+            'conditions' => array(
+                'Event.date >' => gmdate('Y-m-d H:i:s'),
+                "League.id" => array(2, 7, 6, 4)
 
             ),
-            'order'         =>  'Event.date ASC',
-            'limit'         =>  10,
-            'group'         =>  'Event.league_id, Event.id'
+            'order' => 'Event.date ASC',
+            'limit' => 10,
+            'group' => 'Event.league_id, Event.id'
         ));
 
 
@@ -897,7 +954,7 @@ class Event extends AppModel
         );
 
         $options['conditions'] = array(
-            'Event.date >'  => gmdate('Y-m-d H:i:s')
+            'Event.date >' => gmdate('Y-m-d H:i:s')
         );
 
         $options["limit"] = 1;
@@ -907,7 +964,7 @@ class Event extends AppModel
             array(
                 'table' => 'leagues',
                 'alias' => 'League',
-                'type'  => 'inner',
+                'type' => 'inner',
 
                 'conditions' => array(
                     'League.id = Event.league_id',
@@ -918,11 +975,11 @@ class Event extends AppModel
             array(
                 'table' => 'bets',
                 'alias' => 'Bet',
-                'type'  => 'inner',
-                'joins' =>       array(
+                'type' => 'inner',
+                'joins' => array(
                     'table' => 'bet_parts',
                     'alias' => 'BetPart',
-                    'type'  => 'inner',
+                    'type' => 'inner',
                     'conditions' => array(
                         'Bet.id = BetPart.bet_id'
                     )
@@ -937,7 +994,7 @@ class Event extends AppModel
             array(
                 'table' => 'bet_parts',
                 'alias' => 'BetPart',
-                'type'  => 'inner',
+                'type' => 'inner',
                 'conditions' => array(
                     'Bet.id = BetPart.bet_id'
                 )
@@ -946,7 +1003,7 @@ class Event extends AppModel
 
         $result = array();
 
-        foreach (array(3,5,8,9,10,11,12,13,14,58,2,7,6,4) AS $leagueId) {
+        foreach (array(3, 5, 8, 9, 10, 11, 12, 13, 14, 58, 2, 7, 6, 4) AS $leagueId) {
             $options["conditions"]["League.id"] = $leagueId;
             $league = $this->find('first', $options);
 //            print_r($leagueId);
@@ -971,11 +1028,12 @@ class Event extends AppModel
      * @param $event
      * @return array
      */
-    public function countLastMinuteEvents($event)  {
+    public function countLastMinuteEvents($event)
+    {
         return $this->find('count', array(
-            'conditions'            =>  array(
-                'Event.date'        => $event['date'],
-                'Event.league_id'   => $event['league_id']
+            'conditions' => array(
+                'Event.date' => $event['date'],
+                'Event.league_id' => $event['league_id']
             )
         ));
     }
@@ -996,22 +1054,21 @@ class Event extends AppModel
         }
 
         $options = array(
-            'recursive'         =>  1,
-            'conditions'        =>  array(
-                'Event.league_id'   =>  $leagueId,
-                'Event.active'      =>  1
+            'recursive' => 1,
+            'conditions' => array(
+                'Event.league_id' => $leagueId,
+                'Event.active' => 1
             ),
-            'order'             =>  array('Event.date ASC')
+            'order' => array('Event.date ASC')
         );
 
-        if($endDate != null)
-        {
+        if ($endDate != null) {
             $options['conditions']['Event.date BETWEEN ? AND ?'] = array($startDate, $endDate);
-        }else{
+        } else {
             $options['conditions']['Event.date >'] = $startDate;
         }
 
-        if($limit != null) {
+        if ($limit != null) {
             $options['limit'] = $limit;
         }
 
@@ -1027,18 +1084,18 @@ class Event extends AppModel
      *
      * @return array
      */
-    public function getNonResultingEvents1Day($type = 'all',  $offset = null, $limit = null)
+    public function getNonResultingEvents1Day($type = 'all', $offset = null, $limit = null)
     {
         return $this->find($type, array(
-            'contain'           =>  array(),
-            'recursive'         =>  -1,
-            'fields'            => array('import_id'),
-            'conditions'        =>  array(
-                'Event.active'  =>  1,
+            'contain' => array(),
+            'recursive' => -1,
+            'fields' => array('import_id'),
+            'conditions' => array(
+                'Event.active' => 1,
             ),
-            'limit'             =>  $limit,
-            'offset'            =>  $offset,
-            'order'             =>  array('Event.date DESC')
+            'limit' => $limit,
+            'offset' => $offset,
+            'order' => array('Event.date DESC')
         ));
     }
 
@@ -1050,23 +1107,23 @@ class Event extends AppModel
      * @param null $limit
      * @return array
      */
-    public function getNonResultingEvents30Min($type = 'all',  $offset = null, $limit = null)
+    public function getNonResultingEvents30Min($type = 'all', $offset = null, $limit = null)
     {
         $query = array(
-            'contain'           =>  array(),
-            'recursive'         =>  -1,
-            'fields'            =>  array('import_id'),
-            'conditions'        =>  array(
-                'Event.active'  =>  1,
-                'Event.date >='    =>  gmdate('Y-m-d H:i:s', strtotime('-1 day')),
-                'Event.date <='    =>  gmdate('Y-m-d H:i:s')
+            'contain' => array(),
+            'recursive' => -1,
+            'fields' => array('import_id'),
+            'conditions' => array(
+                'Event.active' => 1,
+                'Event.date >=' => gmdate('Y-m-d H:i:s', strtotime('-1 day')),
+                'Event.date <=' => gmdate('Y-m-d H:i:s')
             ),
-            'limit'             =>  $limit,
-            'offset'            =>  $offset,
-            'order'             =>  array('Event.date ASC')
+            'limit' => $limit,
+            'offset' => $offset,
+            'order' => array('Event.date ASC')
         );
 
-        if(strtolower($type) == 'count') {
+        if (strtolower($type) == 'count') {
             unset($query['limit']);
             unset($query['offset']);
         }
@@ -1078,8 +1135,8 @@ class Event extends AppModel
     {
         $settings = parent::getPagination();
         $settings["contain"] = array(
-            "League"    =>  array(
-                "fields"    =>  array('name')
+            "League" => array(
+                "fields" => array('name')
             )
         );
 
@@ -1091,20 +1148,20 @@ class Event extends AppModel
         $startDate = gmdate('Y-m-d H:i:s');
 
         $options = array(
-            'recursive'         =>  1,
-            'contain'           =>  array(
-                'Bet'   =>  array(
-                    'conditions'    =>  array(
-                        'Bet.type'  => $bettingType
+            'recursive' => 1,
+            'contain' => array(
+                'Bet' => array(
+                    'conditions' => array(
+                        'Bet.type' => $bettingType
                     )
                 ),
                 'League'
             ),
-            'conditions'        =>  array(
-                'Event.league_id'   =>  $leagueId,
-                'Event.active'      =>  1
+            'conditions' => array(
+                'Event.league_id' => $leagueId,
+                'Event.active' => 1
             ),
-            'order'             =>  array('Event.date ASC')
+            'order' => array('Event.date ASC')
         );
 
         $options['conditions']['Event.date >'] = $startDate;
@@ -1112,14 +1169,13 @@ class Event extends AppModel
         $result = $this->find('all', $options);
 
         // containable returns empty
-        foreach ($result AS  $i => $event) {
+        foreach ($result AS $i => $event) {
             if (empty($event["Bet"])) {
                 unset($result[$i]);
             }
         }
 
-        foreach($result AS $i => $Event)
-        {
+        foreach ($result AS $i => $Event) {
             foreach ($Event['Bet'] AS $iB => $bet) {
                 $result[$i]["Bet"][$iB]["BetPart"] = $this->Bet->BetPart->getBetParts($bet['id']);
             }
@@ -1141,21 +1197,21 @@ class Event extends AppModel
     public function getPrintingEvents($SportId, $LeagueId, $BetTypes = array(), $dateFrom, $dateTo)
     {
         return $this->find('all', array(
-            'contain'   =>  array(
-                'League'    =>  array(
-                    'conditions' =>  array(
-                        'League.sport_id'   =>  $SportId
+            'contain' => array(
+                'League' => array(
+                    'conditions' => array(
+                        'League.sport_id' => $SportId
                     )
                 ),
-                'Bet'       =>  array(
-                    'conditions'    =>  array(
-                        'Bet.type'  =>  $BetTypes,
+                'Bet' => array(
+                    'conditions' => array(
+                        'Bet.type' => $BetTypes,
                     )
                 )
             ),
-            'conditions'    =>  array(
-                'Event.league_id' =>  $LeagueId,
-                'Event.date BETWEEN ? AND ?'    =>  array($this->dateToStart($dateFrom), $this->dateToEnd($dateTo))
+            'conditions' => array(
+                'Event.league_id' => $LeagueId,
+                'Event.date BETWEEN ? AND ?' => array($this->dateToStart($dateFrom), $this->dateToEnd($dateTo))
             )
         ));
     }
@@ -1171,16 +1227,16 @@ class Event extends AppModel
         }
 
         $startDate = gmdate('Y-m-d', strtotime($dateFrom)) . ' ' . gmdate("H:i:s");
-        $endDate =  $this->dateToEnd($dateTo);
+        $endDate = $this->dateToEnd($dateTo);
 
         return $this->find('all', array(
-            'conditions'    =>  array(
-                'Event.active = ?'      =>  1,
-                'Event.date BETWEEN ? AND ?'    =>  array($startDate, $endDate),
+            'conditions' => array(
+                'Event.active = ?' => 1,
+                'Event.date BETWEEN ? AND ?' => array($startDate, $endDate),
 //                'Event.date BETWEEN ? AND ? AND Event.date >= ?'    =>  array($this->dateToStart($dateFrom), $this->dateToEnd($dateTo), gmdate('Y-m-d H:i:s', time())),
 //                'Event.date <= ?'        =>  array(gmdate('Y-m-d H:i:s', strtotime('+'.Configure::read('events_start_date').' minutes'))),
             ),
-            'order'     =>  array('Event.date DESC'),
+            'order' => array('Event.date DESC'),
         ));
     }
 }

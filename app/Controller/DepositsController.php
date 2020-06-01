@@ -332,13 +332,15 @@ class DepositsController extends AppController
 
             $staffNotice = $this->Withdraw->getStaffNotice($User['User']['username'], $User['User']['id'], $this->Auth->user('username'));
             $usersNotice = $this->Deposit->getUsersNotice($User['User']['username'], $User['User']['id']);
-
             if ($this->Deposit->addDeposit($User['User']['id'], $amount, null, Deposit::DEPOSIT_TYPE_OFFLINE, $usersNotice, Deposit::DEPOSIT_STATUS_COMPLETED)) {
+                //strange part = agent VS cashier
                 $this->Withdraw->addWithdraw($this->Auth->user('id'), '-', $amount, Withdraw::WITHDRAW_TYPE_OFFLINE, $staffNotice, Withdraw::WITHDRAW_STATUS_COMPLETED);
+
                 $this->Admin->setMessage(__('User %s is credited by %s %s', $User['User']['username'], $amount, Configure::read('Settings.currency')), 'success');
             } else {
                 $this->Admin->setMessage(__('Please check entered amount'), 'error');
             }
+
 
             $this->redirect($this->referer(), null, true);
         }

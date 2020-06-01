@@ -37,8 +37,6 @@
                 
                 <div class="col-lg-3 col-md-5">
                     <div id="loged">
-                        
-                            
                         <div class="usr-pl">
                            <?php print_r($_SESSION['Auth']['User']['username']);?>
                         </div>

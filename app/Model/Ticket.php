@@ -249,12 +249,17 @@ class Ticket extends AppModel
     {
         $data['TicketPart'] = array();
 
+        $BetModel = new Bet();
         foreach ($bets as $bet) {
             $bet['BetPart']['bet_part_id'] = $bet['BetPart']['id'];
             $bet['BetPart']['event_id'] = $bet["Bet"]["event_id"];
             $bet['BetPart']["status"] = 0;
             unset($bet['BetPart']['id']);
             $data['TicketPart'][] = $bet['BetPart'];
+
+            $event = $BetModel->Event->getItem($bet["Bet"]["event_id"]);
+            $event['Event']['ticket']=Event::Ticket_Yes;
+            $BetModel->Event->save($event);
         }
 
         $data['Ticket'] = array(
@@ -1188,7 +1193,7 @@ class Ticket extends AppModel
 
         if (count($bets) == 1 && !CakeSession::check('Ticket.type')) {
             CakeSession::write('Ticket.type', 1);
-            return 1;
+            return self::TICKET_TYPE_SINGLE;
         }
 
         //we have type set
@@ -1196,7 +1201,7 @@ class Ticket extends AppModel
             // 1 -> 2 change to multi
             if (count($bets) == 1) {
                 CakeSession::write('Ticket.type', 1);
-                return 1;
+                return self::TICKET_TYPE_SINGLE;
             }
             if (count($bets) == 2) {
                 // nebutinai switchiname, kadangi i single leis pereiti
@@ -1207,7 +1212,7 @@ class Ticket extends AppModel
             //we don\'t allow multiple single bets, change to multi
             if ((Configure::read('Settings.allowMultiSingleBets') == 0) && (CakeSession::read('Ticket.type') == 1)) {
                 CakeSession::write('Ticket.type', 2);
-                return 2;
+                return self::TICKET_TYPE_MULTI;
             }
         }
 
@@ -1232,7 +1237,6 @@ class Ticket extends AppModel
             $utc_str = gmdate("M d Y H:i:s", time());
 
             $utc = strtotime($utc_str);
-
             if (strtotime($bet['Bet']['date']) < $utc && $bet["Event"]["type"] != 2) {
                 $started[] = $bet;
             }

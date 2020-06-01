@@ -695,6 +695,24 @@ class Bet365 extends FeedsAppModel
         return $results;
     }
 
+    public function result($event_id)
+    {
+        $parameter = 'event_id=' . $event_id;
+        $name = 'result';
+        $data = $this->curl($name, $parameter);
+        $results = $data->results;
+        return $results[0];
+    }
+
+    public function results($event_ids)
+    {
+        $parameter = 'event_id=' . $event_ids;
+        $name = 'result';
+        $data = $this->curl($name, $parameter);
+        $results = $data->results;
+        return $results;
+    }
+
     public function inplay_filter()
     {
         $name = 'inplay_filter';

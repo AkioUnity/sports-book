@@ -636,9 +636,9 @@ class ReportsController extends ReportsAppController
                 $user = $this->request->data['Report']['user_id'];
             }else{
                 if($this->request->data['Report']['user_id'] == 0) {
-                    if($this->Auth->user('Group.id') == Group::ADMINISTRATOR_GROUP) {
+//                    if($this->Auth->user('Group.id') == Group::ADMINISTRATOR_GROUP) {
                         $user = array_filter(array_merge(array($user), array_keys($users)));
-                    }
+//                    }
                 }
             }
         }
@@ -674,7 +674,7 @@ class ReportsController extends ReportsAppController
         );
 
         if(isset($this->request->data['Report']['from']) || isset($this->request->data['Report']['to'])) {
-            $this->layout = 'empty';
+//            $this->layout = 'empty';
             $this->set('show', true);
         }else{
             $this->set('show', false);

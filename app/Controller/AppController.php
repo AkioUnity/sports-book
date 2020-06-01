@@ -210,18 +210,24 @@ class AppController extends Controller
         parent::beforeFilter();
 //        echo ("App controller Before");
 
-        if($this->Auth->loggedIn()) {
+        if ($this->Auth->loggedIn() && CakeSession::check('casino.balance') && !strpos($_SERVER['REQUEST_URI'],'/tickets/')){
             $this->client = new Client(array(
-                'url' => 'https://api.casinovegas.org/v1/',
+                'url' => 'https://api.c27.games/v1/',
                 'sslKeyPath' => __DIR__.'/../../ssl/apikey.pem',
             ));
-
             $player=array(
                 'PlayerId'=>$this->Auth->user('username')
             );
-            $balance=$this->client->getBalance($player)['Amount']/100;
-            if ($balance!=CakeSession::read('Auth.User.balance'))
-                $this->User->setBalance($this->Auth->user('id'),$balance);
+            $casinoBalance=$this->client->getBalance($player)['Amount'];
+            $diffCasinoBalance=$casinoBalance-CakeSession::read('casino.balance');
+            if ($diffCasinoBalance!=0){
+                $newBalance=CakeSession::read('Auth.User.balance')+$diffCasinoBalance/100;
+                $this->User->setBalance($this->Auth->user('id'),$newBalance);
+                CakeSession::write('casino.balance', $casinoBalance);
+            }
+            CakeSession::write('changed.casino.balance', $diffCasinoBalance);
+//            echo ('diff:'.$diffCasinoBalance.'  casino.balance='.$casinoBalance);
+//            echo $_SERVER['REQUEST_URI'];
         }
     }
 
