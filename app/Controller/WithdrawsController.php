@@ -201,8 +201,6 @@ class WithdrawsController extends AppController
 
         $data = $this->Paginator->paginate( $this->Withdraw->name );
 
-        $total=$this->Withdraw->getTotalAmount($conditions);
-
         foreach ($data as $i => $row) {
             foreach ($row['User'] as $key => $value) {
                 if($key == 'username' && $value == null) {
@@ -269,6 +267,7 @@ class WithdrawsController extends AppController
         $this->set('chartsData', $chartsData);
 
         $this->set('data', $data);
+        $total=$this->Withdraw->getTotalAmount($conditions);
         $this->set('totalAmount', $total);
         $this->set('model', 'Withdraw');
         $this->set('actions', $this->Withdraw->getActions($this->request));

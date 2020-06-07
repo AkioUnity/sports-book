@@ -1,5 +1,5 @@
 <div class="container-fluid">
-    <!-- BEGIN PAGE HEADER-->
+    <!-- admin_add.ctp-->
     <div class="row-fluid">
         <div class="span12">
             <!-- BEGIN PAGE TITLE & BREADCRUMB-->
@@ -7,8 +7,6 @@
             <!-- END PAGE TITLE & BREADCRUMB-->
         </div>
     </div>
-    <!-- END PAGE HEADER-->
-    <!-- BEGIN PAGE CONTENT-->
     <div id="page" class="dashboard">
         <?php echo $this->element('flash_message'); ?>
         <div class="row-fluid ">
@@ -26,7 +24,7 @@
                                     <br />
                                     <div class="tab-content">
                                         <?php
-                                        echo $this->MyForm->create(null, array('url' => array($user["User"]["id"])));
+                                        echo $this->MyForm->create('Withdraw', array('url' => array($user["User"]["id"])));
                                         echo $this->MyForm->input('amount');
                                         echo $this->MyForm->submit(__('Submit', true), array('class' => 'btn'));
                                         echo $this->MyForm->end();

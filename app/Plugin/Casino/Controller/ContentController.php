@@ -30,27 +30,51 @@ class ContentController extends CasinoAppController
         parent::beforeFilter();
     }
 
-    public function index() 
+    public function index()
     {
-        $this->layout = 'new_casino';
+        $name=$this->request->query('brand');
         $listGames=$this->client->listGames()['Games'];
         $games=array();
         $brands=array();
         foreach ($listGames as $key => $value){
-            $games[]=array('Id'=>$value['Id'],'SectionId'=>$value['SectionId']);
+            if (!$name){
+                if (in_array($value['Id'],$this->mainGames))
+                    $games[]=array('Id'=>$value['Id'],'SectionId'=>$value['SectionId']);
+            }
+            else if ($value['SectionId']==$name)
+                $games[]=array('Id'=>$value['Id'],'SectionId'=>$value['SectionId']);
             if (!in_array($value['SectionId'],$brands))
                 $brands[]=$value['SectionId'];
+        }//        print_r($games);
 
-        }
         $this->set('games', $games);
         $this->set('brands', $brands);
-        /*
-        $this->set('data', $result);
-        $this->set('Sport', $Sport);
-        $this->set('League', $LeagueId);
-        $this->set('slides', $this->Slide->getSlides());
-        */
+        $this->layout = 'new_casino';
+//        print_r($games);
+//        $this->brand('netent');
     }
+
+    public function brand($name)
+    {
+
+        $listGames=$this->client->listGames()['Games'];
+        $games=array();
+        $brands=array();
+        foreach ($listGames as $key => $value){
+            if ($value['SectionId']==$name)
+                $games[]=array('Id'=>$value['Id'],'SectionId'=>$value['SectionId']);
+            if (!in_array($value['SectionId'],$brands))
+                $brands[]=$value['SectionId'];
+        }//        print_r($games);
+
+        $this->set('games', $games);
+        $this->set('brands', $brands);
+        $this->layout = 'new_casino';
+//        $this->viewPath = "layout";
+        $this->render('Layouts/new_casino','new_casino');
+//        $this->render('/app/View/Themed/Design/Layouts/new_casino');
+    }
+
 //http://dev.planet1x2.com/eng/casino/content/api
     public function api()
     {
@@ -162,4 +186,75 @@ class ContentController extends CasinoAppController
         print_r($this->client->listSessions());
         die;
     }
+
+    public $mainGames=array('bookofradeluxe_gt_html',
+        'bookofraclassic_gt_html',
+        'sizzling_hot_classic_html',
+        'faust_gt_html',
+        'bookofradeluxe6_gt_html',
+        'jack_hammer_touch',
+        'starburst_touch',
+        'goldenark_gt_html',
+        'lordoftheocean_gt_html',
+        'book_of_ra_classic_html',
+        'luckyladyscharmdeluxe_gt_html',
+        'sizzlinghotdeluxe_gt_html',
+        'cool_diamonds_original',
+        'hot_scatter_original',
+        'aztec_secret_original',
+        'lovely_lady_original',
+        'dolphinspearldeluxe_gt_html',
+        'jack_hammer_2_touch',
+        'reel_rush_html',
+        'jack_and_the_beanstalk_touch',
+        'fruitshop_christmas',
+        'hot_twenty_original',
+        'fruit_spin',
+        'dolphinspearlclassic_gt_html',
+        'allways_fruits_original',
+        'redlady_gt_html',
+        'joker_pro',
+        'a_book_of_aztec_original',
+        'joh_wzdn',
+        'wild_shark_original',
+        'casinova_original',
+        'dazzlingdiamonds_gt_html',
+        'wolf_moon_original',
+        'lucky_coin_original',
+        'pharaohstomb_gt_html',
+        'book_of_fortune_original',
+        'bells_on_fire_original',
+        'lucky_bells_original',
+        'dragons_kingdom_original',
+        'mysticsecrets_gt_html',
+        'blackjack_double_exposure',
+        'diamond_cats_original',
+        'fruitshop_touch',
+        'motr_wzdn',
+        'pharaons_gold2_classic_html',
+        's777_wzdn',
+        'arising_phoenix_original',
+        'choy_sun_doa_html',
+        'twin_spin_touch',
+        'columbusdeluxe_gt_html',
+        'scruffy_duck',
+        'lf_wzdn',
+        'bells_on_fire_hot_original',
+        'hot_star_original',
+        'justjewelsdeluxe_gt_html',
+        'gorilla_gt_html',
+        'wild_wild_west',
+        'hot_seven_original',
+        'dynastyofra_gt_html',
+        'plentyontwenty_gt_html',
+        'sizzlinghot6extragold_gt_html',
+        'roaringforties_gt_html',
+        'mf_wzdn',
+        'alwayshotdeluxe_gt_html',
+        'jb_wzdn',
+        'pyramid_new',
+        'admiral_nelson_original',
+        'roulette_touch',
+        'the_money_game_classic_html'
+    );
 }

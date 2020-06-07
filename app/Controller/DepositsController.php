@@ -201,6 +201,10 @@ class DepositsController extends AppController
             $conditions = array_merge(array($conditions), $this->Deposit->getSearchConditions($this->request->data));
         }
 
+        if($this->Auth->user('group_id') != Group::ADMINISTRATOR_GROUP) {
+            $conditions = array_merge(array($conditions), array('User.referal_id'=>$this->Auth->user('id')));
+        }
+
         $this->Paginator->settings  =   array(
             $this->Deposit->name => $this->Deposit->getPagination()
         );
@@ -272,6 +276,9 @@ class DepositsController extends AppController
             )
         ));
 
+        $total=$this->Deposit->getTotalAmount($conditions);
+        $this->set('totalAmount', $total);
+
         $this->set('data', $data);
         $this->set('model', 'Deposit');
         $this->set('actions', $this->Deposit->getActions($this->request));
@@ -334,7 +341,9 @@ class DepositsController extends AppController
             $usersNotice = $this->Deposit->getUsersNotice($User['User']['username'], $User['User']['id']);
             if ($this->Deposit->addDeposit($User['User']['id'], $amount, null, Deposit::DEPOSIT_TYPE_OFFLINE, $usersNotice, Deposit::DEPOSIT_STATUS_COMPLETED)) {
                 //strange part = agent VS cashier
-                $this->Withdraw->addWithdraw($this->Auth->user('id'), '-', $amount, Withdraw::WITHDRAW_TYPE_OFFLINE, $staffNotice, Withdraw::WITHDRAW_STATUS_COMPLETED);
+                if($this->Auth->user('group_id') == Group::AGENT_GROUP) {
+                    $this->Withdraw->addWithdraw($this->Auth->user('id'), '-', $amount, Withdraw::WITHDRAW_TYPE_OFFLINE, $staffNotice, Withdraw::WITHDRAW_STATUS_COMPLETED);
+                }
 
                 $this->Admin->setMessage(__('User %s is credited by %s %s', $User['User']['username'], $amount, Configure::read('Settings.currency')), 'success');
             } else {

@@ -84,7 +84,7 @@
 
                    <li class="homeBox"><a href="/<?=Configure::read('Config.language');?>/casino/content" class="ui-btn"><span class="homeBox-span"><?php echo __('Casino');?></span><span class="menuBoxIconContainer tw-slot-casino"></span></a></li>
 
-                   <li class="homeBox"><a href="/<?=Configure::read('Config.language');?>/virtualsports" class="ui-btn"><span class="homeBox-span"><?php echo __('Virtual games');?></span><span class="menuBoxIconContainer tw-virtual-games"></span></a></li>
+<!--                   <li class="homeBox"><a href="/--><?//=Configure::read('Config.language');?><!--/virtualsports" class="ui-btn"><span class="homeBox-span">--><?php //echo __('Virtual games');?><!--</span><span class="menuBoxIconContainer tw-virtual-games"></span></a></li>-->
 
                    <li class="homeBox"><a href="mailto:support@planet1x2.com" class="ui-btn"><span class="homeBox-span"><?php echo __('Contact');?></span><span class="menuBoxIconContainer tw-contact"></span></a></li>
 
