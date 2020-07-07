@@ -106,33 +106,39 @@ class Bet365Shell extends FeedAppShell implements FeedShell
 
     //cd /var/www/html/app
     //php Console/cake.php -app app Feeds.Bet365 checkEventResult
-    public function checkEventResult()
+    public function checkEventResult()  //by ticket_id
     {
-        $id = '9';
-        $ticket = $this->Ticket->getTicket($id);
+        $ticket_id = '51';
+        $ticket = $this->Ticket->getTicket($ticket_id);
         foreach ($ticket['TicketPart'] as $item) {
             $event = $this->Event->getItem($item['event_id']);
             $event = $this->Event->getEventByImportId($event['Event']['import_id']);
-//            print_r($event);
+            print_r($event['Event']);
             $this->SetResult($event);
         }
     }
 
     //cd /var/www/html/app
     //php Console/cake.php -app app Feeds.Bet365 checkEventResult0
-    public function checkEventResult0()
+    public function checkEventResult0()  //by event import_id
     {
-        $import_id = '89515484';
+        $import_id = '90175284';
         $event = $this->Event->getEventByImportId($import_id);
         $eventResult = $this->Bet365->result($event['Event']['import_id']);
         $event['Event']['result'] = $eventResult->ss;
-//            print_r($event);
+        print_r($event['Event']);
         $this->SetResult($event);
     }
 
     public function SetResult($event)
     {
         $result = $event['Event']['result'];
+        if ($event['Event']['status']!=Event::EVENT_STATUS_FINISHED || $event['Event']['type']==Event::TYPE_PREMATCH){
+//                CakeLog::write('ticket_result', 'yet not finished Event ID:');
+            $this->out($result . ' yet not finished Event ID:' .$event['Event']['id']. ' Ticket:' .$event['Event']['ticket']);
+            return;
+        }
+        CakeLog::write('ticket_result', 'Set Result Event ID:'.$event['Event']['id'].' result: '.$result);
         if ($result && strlen($result) > 2) {
             $strpos = strpos($result, ',');
             if ($strpos > -1) {
@@ -158,6 +164,7 @@ class Bet365Shell extends FeedAppShell implements FeedShell
             }
         } else {
             $this->Event->setStatus($event['Event']['id'], Event::EVENT_STATUS_FINISHED_NoResult);
+            CakeLog::write('ticket_result', 'finished no result.  import_id:'.$event['Event']['import_id']);
         }
     }
 
@@ -375,10 +382,13 @@ class Bet365Shell extends FeedAppShell implements FeedShell
             $EventDuration = strtotime("now") - strtotime($EventStartDate);
         }
 
-        if (is_null($EventId)) {
-            $EventId = $this->Event->saveEvent($EventId, $ImportEventId, $EventName, $EventStatus, $EventType, $EventDuration, $EventStartDate, date('Y-m-d H:i:s'), $EventScore, Event::EVENT_ACTIVE_STATE, $LeagueId, self::FEED_PROVIDER);
+//        if ($ImportEventId==89541975){
+//            print_r($EventId);
+//        }
+
+        $EventId = $this->Event->saveEvent($EventId, $ImportEventId, $EventName, $EventStatus, $EventType, $EventDuration, $EventStartDate, date('Y-m-d H:i:s'), $EventScore, Event::EVENT_ACTIVE_STATE, $LeagueId, self::FEED_PROVIDER);
+//        if ($ImportEventId==89541975)
 //            $this->out('#League:' . $LeagueId . '-' . $LeagueImportId . ' #EventId: ' . $EventId . ' - ' . $ImportEventId);
-        }
 
         return $EventId;
     }
@@ -402,7 +412,10 @@ class Bet365Shell extends FeedAppShell implements FeedShell
             $ImportEventId = $filter->id;  //check...
             if (!array_key_exists($ImportEventId, $results))
                 continue;
+//            if ($ImportEventId==89541975)
+//                print_r($ImportEventId);
             $EventId = $this->SaveLeagueAndEvent($filter, $sportId, 2); //inPlay
+
 
             $item = $results[$ImportEventId];
             $bet = $item->ma;

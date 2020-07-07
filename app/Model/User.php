@@ -658,6 +658,7 @@ class User extends AppModel
      */
     public function addFunds($userId, $amount)
     {
+        CakeLog::write('ticket_result', 'addFunds $userId: '.$userId.' amount:  '.$amount);
         $User = $this->getItem($userId);
 
         if (empty($User)) {

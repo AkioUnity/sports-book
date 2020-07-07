@@ -1,10 +1,10 @@
 <!--betclick/event.ctp-->
 <li>
-    <a href="<?php echo Router::url(array('language' => Configure::read('Config.language'), 'plugin' => $Event["type"] == 1 ? 'events' : null, 'controller' => $Event["type"] == 1 ? 'events' : 'live', 'action' => $Event["type"] == 1 ? 'display' : 'display_event', $Event["id"])); ?>">
+    <a href="<?php echo Router::url(array('language' => Configure::read('Config.language'), 'plugin' => $Event["type"] == Event::TYPE_PREMATCH ? 'events' : null, 'controller' => $Event["type"] == Event::TYPE_PREMATCH ? 'events' : 'live', 'action' => $Event["type"] == Event::TYPE_PREMATCH ? 'display' : 'display_event', $Event["id"])); ?>">
         <?php echo $Event["name"]; ?>
     </a>
     <br/>
-    <?php if ($Event["type"] == Event::EVENT_TYPE_LIVE): ?>
+    <?php if ($Event["type"] == Event::TYPE_LIVE): ?>
         <div class="ttime">
             <?php $time = round($Event['duration'] / 60); ?>
             <?php if ($time >= 0): ?>
@@ -38,7 +38,7 @@
         <?php endforeach; ?>
         <a href="" class="lmb-tv" onclick="return false;"></a>
         <a href="" class="lmb-chart" onclick="return false;"></a>
-        <a href="<?php echo Router::url(array('language' => Configure::read('Config.language'), 'plugin' => $Event["type"] == 1 ? 'events' : null, 'controller' => $Event["type"] == 1 ? 'events' : 'live', 'action' => $Event["type"] == 1 ? 'display' : 'display_event', $Event["id"])); ?>"
+        <a href="<?php echo Router::url(array('language' => Configure::read('Config.language'), 'plugin' => $Event["type"] == Event::TYPE_PREMATCH ? 'events' : null, 'controller' => $Event["type"] == Event::TYPE_PREMATCH ? 'events' : 'live', 'action' => $Event["type"] == Event::TYPE_PREMATCH ? 'display' : 'display_event', $Event["id"])); ?>"
            class="plus click-add"><?= sprintf("+%d", $Event["markets_count"]) ?></a>
         <div class="clear"></div>
     </div>

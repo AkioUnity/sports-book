@@ -15,7 +15,8 @@
 App::uses('AppModel', 'Model');
 
 
-class Sport extends AppModel {
+class Sport extends AppModel
+{
 
     /**
      * Model name
@@ -30,40 +31,40 @@ class Sport extends AppModel {
      * @var array
      */
     protected $_schema = array(
-        'id'        => array(
-            'type'      => 'int',
-            'length'    => 11,
-            'null'      => false
+        'id' => array(
+            'type' => 'int',
+            'length' => 11,
+            'null' => false
         ),
-        'name'      => array(
-            'type'      => 'string',
-            'length'    => 255,
-            'null'      => true
+        'name' => array(
+            'type' => 'string',
+            'length' => 255,
+            'null' => true
         ),
-        'active'    => array(
-            'type'      => 'tinyint',
-            'length'    => 1,
-            'null'      => false
+        'active' => array(
+            'type' => 'tinyint',
+            'length' => 1,
+            'null' => false
         ),
-        'order'     => array(
-            'type'      => 'bigint',
-            'length'    => 20,
-            'null'      => false
+        'order' => array(
+            'type' => 'bigint',
+            'length' => 20,
+            'null' => false
         ),
-        'min_bet'   => array(
-            'type'      => 'int',
-            'length'    => 11,
-            'null'      => false
+        'min_bet' => array(
+            'type' => 'int',
+            'length' => 11,
+            'null' => false
         ),
-        'max_bet'   => array(
-            'type'      => 'int',
-            'length'    => 11,
-            'null'      => false
+        'max_bet' => array(
+            'type' => 'int',
+            'length' => 11,
+            'null' => false
         ),
         'feed_type' => array(
-            'type'      => 'string',
-            'length'    => 10,
-            'null'      => false
+            'type' => 'string',
+            'length' => 10,
+            'null' => false
         )
     );
 
@@ -85,7 +86,7 @@ class Sport extends AppModel {
     public $actsAs = array(
         'Containable',
         'Translate' => array(
-            0   =>  'name'
+            0 => 'name'
         )
     );
 
@@ -181,7 +182,7 @@ class Sport extends AppModel {
     /** Australian rules type value */
     const SPORT_TYPE_AUSTRALIAN_RULES = 'Australian Rules';
 
-    const SPORT_TYPE_OLYMPIC_ATHLETICS  = 'Olympic Athletics';
+    const SPORT_TYPE_OLYMPIC_ATHLETICS = 'Olympic Athletics';
 
     /** Cricket type value */
     const SPORT_TYPE_CRICKET = 'Cricket';
@@ -232,9 +233,9 @@ class Sport extends AppModel {
     /**
      * Get item wrapper
      *
-     * @param int   $id        - Item Id
-     * @param array $contain   - Contain array
-     * @param int   $recursive - Recursive
+     * @param int $id - Item Id
+     * @param array $contain - Contain array
+     * @param int $recursive - Recursive
      *
      * @return array
      */
@@ -244,10 +245,10 @@ class Sport extends AppModel {
 
         // find first translations not binding..
         $result = $this->find('all', array(
-            'recursive'     =>  $recursive,
-            'contain'       =>  $contain,
-            'conditions'    =>  array(
-                $this->name . '.id' =>  $id
+            'recursive' => $recursive,
+            'contain' => $contain,
+            'conditions' => array(
+                $this->name . '.id' => $id
             )
         ), true);
 
@@ -262,13 +263,13 @@ class Sport extends AppModel {
     public function getPagination()
     {
         return array(
-            'contain'   =>  array(),
-            "fields"    =>  array(
-                0   =>  'Sport.id',
-                1   =>  'Sport__i18n_name',
-                2   =>  'Sport.active'
+            'contain' => array(),
+            "fields" => array(
+                0 => 'Sport.id',
+                1 => 'Sport__i18n_name',
+                2 => 'Sport.active'
             ),
-            'limit' =>  Configure::read('Settings.itemsPerPage')
+            'limit' => Configure::read('Settings.itemsPerPage')
         );
     }
 
@@ -282,25 +283,25 @@ class Sport extends AppModel {
     public function getActions(CakeRequest $cakeRequest)
     {
         return array(
-            0   =>  array(
-                'name'          => __('View', true),
-                'controller'    => null,
-                'action'        => 'admin_view',
-                'class'         => 'btn btn-mini'
+            0 => array(
+                'name' => __('View', true),
+                'controller' => null,
+                'action' => 'admin_view',
+                'class' => 'btn btn-mini'
             ),
 
-            1   =>  array(
-                'name'          => __('Edit', true),
-                'controller'    => null,
-                'action'        => 'admin_edit',
-                'class'         => 'btn btn-mini btn-primary'
+            1 => array(
+                'name' => __('Edit', true),
+                'controller' => null,
+                'action' => 'admin_edit',
+                'class' => 'btn btn-mini btn-primary'
             ),
 
-            2   =>  array(
-                'name'          => __('Add League', true),
-                'controller'    => 'leagues',
-                'action'        => 'admin_add',
-                'class'         => 'btn btn-mini btn-danger'
+            2 => array(
+                'name' => __('Add League', true),
+                'controller' => 'leagues',
+                'action' => 'admin_add',
+                'class' => 'btn btn-mini btn-danger'
             )
         );
     }
@@ -313,8 +314,8 @@ class Sport extends AppModel {
     public function getEdit($data)
     {
         $fields = array(
-            'Sport.id'      =>  array(),
-            'Sport.active'  =>  array('type' => 'checkbox')
+            'Sport.id' => array(),
+            'Sport.active' => array('type' => 'checkbox')
         );
         return $fields;
     }
@@ -334,23 +335,23 @@ class Sport extends AppModel {
         $this->create();
 
         $data = array(
-            'Sport' =>  array(
-                'import_id' =>  $importId,
-                'name'      =>  $sportName,
-                'updated'   =>  time()
+            'Sport' => array(
+                'import_id' => $importId,
+                'name' => $sportName,
+                'updated' => time()
             )
         );
 
-        if($update == true) {
+        if ($update == true) {
             $sport = $this->find('first', array(
                     'recursive' => -1,
                     'conditions' => array(
-                        'Sport.import_id'   =>  $importId,
-                        'Sport.feed_type'   =>  $feedType
+                        'Sport.import_id' => $importId,
+                        'Sport.feed_type' => $feedType
                     ))
             );
 
-            if(!empty($sport)) {
+            if (!empty($sport)) {
                 $this->id = $sport['Sport']['id'];
 
                 $this->save($data);
@@ -359,8 +360,8 @@ class Sport extends AppModel {
             }
         }
 
-        $data['Sport']['active']    = 1;
-        $data['Sport']['order']     = $this->findLastOrder() + 1;
+        $data['Sport']['active'] = 1;
+        $data['Sport']['order'] = $this->findLastOrder() + 1;
         $data['Sport']['feed_type'] = $feedType;
 
         $sportData = $this->save($data, false);
@@ -381,9 +382,9 @@ class Sport extends AppModel {
     {
         $this->bindTranslation(array('name'));
         $options = array(
-            'fields'        =>  $fields,
-            'conditions'    =>  array(
-                'Sport.id'          =>  $sportId
+            'fields' => $fields,
+            'conditions' => array(
+                'Sport.id' => $sportId
             )
         );
 
@@ -396,23 +397,23 @@ class Sport extends AppModel {
     {
         $this->bindTranslation(array('name'));
         $options = array(
-            'fields'        =>  array('Sport.id', 'Sport.name'),
-            'contain'       =>  array(
-                'League'    =>  array(
-                    'fields'        =>  array(
+            'fields' => array('Sport.id', 'Sport.name'),
+            'contain' => array(
+                'League' => array(
+                    'fields' => array(
                         'League.id',
                         'League.country_id',
                         'League.name'
                     ),
-                    'conditions'    =>  array(
-                        'League.sport_id'   =>  $sportId,
-                        'League.active'     =>  1
+                    'conditions' => array(
+                        'League.sport_id' => $sportId,
+                        'League.active' => 1
                     )
                 )
             ),
-            'conditions'    =>  array(
-                'Sport.id'          =>  $sportId,
-                'Sport.active'      =>  1
+            'conditions' => array(
+                'Sport.id' => $sportId,
+                'Sport.active' => 1
             )
         );
 
@@ -421,30 +422,30 @@ class Sport extends AppModel {
 
     public function getLiveLeagues($sportId)
     {
-        $list = array_unique(array_map(function($league) {
+        $list = array_unique(array_map(function ($league) {
             return $league["League"]["id"];
         }, $this->League->getLiveLeagues()));
 
         $this->bindTranslation(array('name'));
         $options = array(
-            'fields'        =>  array('Sport.id', 'Sport.name'),
-            'contain'       =>  array(
-                'League'    =>  array(
-                    'fields'        =>  array(
+            'fields' => array('Sport.id', 'Sport.name'),
+            'contain' => array(
+                'League' => array(
+                    'fields' => array(
                         'League.id',
                         'League.country_id',
                         'League.name'
                     ),
-                    'conditions'    =>  array(
-                        'League.id'         =>  $list,
-                        'League.sport_id'   =>  $sportId,
+                    'conditions' => array(
+                        'League.id' => $list,
+                        'League.sport_id' => $sportId,
 //                        'League.active'     =>  1
                     )
                 )
             ),
-            'conditions'    =>  array(
-                'Sport.id'          =>  $sportId,
-                'Sport.active'      =>  1
+            'conditions' => array(
+                'Sport.id' => $sportId,
+                'Sport.active' => 1
             )
         );
 
@@ -462,8 +463,8 @@ class Sport extends AppModel {
         $this->contain();
 
         return $this->find('first', array(
-            'conditions'    =>  array(
-                'Sport.import_id'   =>  $importId
+            'conditions' => array(
+                'Sport.import_id' => $importId
             )
         ));
     }
@@ -477,16 +478,16 @@ class Sport extends AppModel {
     {
         $options = array(
 
-            'conditions' =>  array(
-                'Sport.active'      =>  1
+            'conditions' => array(
+                'Sport.active' => 1
             ),
 
-            'order'  =>  'Sport__i18n_name ASC'
+            'order' => 'Sport__i18n_name ASC'
         );
 
-        $options['contain'] =  array(
-            'League' =>  array(
-                'conditions'    =>  array('League.active' => true)
+        $options['contain'] = array(
+            'League' => array(
+                'conditions' => array('League.active' => true)
             )
         );
 
@@ -494,13 +495,11 @@ class Sport extends AppModel {
 
         $list = array();
 
-        foreach ($sports as $sport)
-        {
+        foreach ($sports as $sport) {
             $leagues = array();
             $count = 0;
 
-            foreach ($sport['League'] as $league)
-            {
+            foreach ($sport['League'] as $league) {
                 if ($this->League->isActive($league)) {
                     $count++;
                     $leagues[] = $league; //add league
@@ -508,7 +507,7 @@ class Sport extends AppModel {
             }
 
             if ($count > 0) {
-                $list[] =  $sport['Sport'];
+                $list[] = $sport['Sport'];
             }
         }
 
@@ -528,36 +527,36 @@ class Sport extends AppModel {
             'League.active' => 1
         );
 
-        if($countryId != null) {
+        if ($countryId != null) {
             $LeagueConditions['League.country_id'] = $countryId;
         }
 
-        if($returnLeagues == true) {
+        if ($returnLeagues == true) {
             $contain = array(
-                'League' =>  array(
-                    'conditions'    =>  $LeagueConditions,
-                    'order'         =>  array('League.name ASC')
+                'League' => array(
+                    'conditions' => $LeagueConditions,
+                    'order' => array('League.name ASC')
                 )
             );
-        }else{
+        } else {
             $this->contain();
             $contain = null;
         }
 
-        $Sports =  $this->find('all', array(
-            'conditions'    => array(
-                'Sport.active'      =>  1
+        $Sports = $this->find('all', array(
+            'conditions' => array(
+                'Sport.active' => 1
             ),
-            'contain'       =>  $contain,
-            'order'         =>  array('Sport__i18n_name ASC')
+            'contain' => $contain,
+            'order' => array('Sport__i18n_name ASC')
         ));
 
-        if($countryId == null) {
+        if ($countryId == null) {
             return $Sports;
         }
 
-        foreach($Sports AS $index => $Sport) {
-            if(empty($Sport['League'])) {
+        foreach ($Sports AS $index => $Sport) {
+            if (empty($Sport['League'])) {
                 unset($Sports[$index]);
             }
         }
@@ -586,19 +585,24 @@ class Sport extends AppModel {
     public function getLiveMenuList()
     {
         $this->bindTranslation(array('name' => 'SportI18n'));
+        $liveLeagues=$this->League->getLiveLeagues();
 
-        $list = array_unique(array_map(function($league) {
-//            print_r($league);  //  Undefined index: League
-            return $league["League"]["sport_id"];
-        }, $this->League->getLiveLeagues()));
+        $array_map=array_map(function ($league) {
+            if (isset($league["League"]["sport_id"]))
+                return $league["League"]["sport_id"];
+//            else
+//                print_r($league);  //  Undefined index: League
+        }, $liveLeagues);
+
+        $list = array_unique($array_map);
 
         return $this->find('all', array(
-            "recursive"     =>  -1,
-            "contain"       =>  array('SportI18n' => array('conditions' => array('SportI18n.locale' => 'eng'))),
-            "conditions"    =>  array(
-                "Sport.id"  =>  $list
+            "recursive" => -1,
+            "contain" => array('SportI18n' => array('conditions' => array('SportI18n.locale' => 'eng'))),
+            "conditions" => array(
+                "Sport.id" => $list
             ),
-            'fields'    =>  array(
+            'fields' => array(
                 'Sport.id',
                 'Sport.name'
             )
@@ -610,13 +614,13 @@ class Sport extends AppModel {
         $this->bindTranslation(array('name' => 'SportI18n'));
 
         return $this->find('all', array(
-            "recursive"     =>  -1,
-            "contain"       =>  array('SportI18n' => array('conditions' => array('SportI18n.locale' => 'eng'))),
-            "conditions"    =>  array(
-                'Sport.active'  =>  1,
-                'Sport.menu_active'  =>  1
+            "recursive" => -1,
+            "contain" => array('SportI18n' => array('conditions' => array('SportI18n.locale' => 'eng'))),
+            "conditions" => array(
+                'Sport.active' => 1,
+                'Sport.menu_active' => 1
             ),
-            'fields'    =>  array(
+            'fields' => array(
                 'Sport.id',
                 'Sport.name'
             ),
@@ -634,10 +638,10 @@ class Sport extends AppModel {
     {
         $this->bindTranslation(array('name'));
         return $this->find('list', array(
-            "conditions"    =>  array(
-                "Sport.active"  =>  1
+            "conditions" => array(
+                "Sport.active" => 1
             ),
-            'fields'    =>  array(
+            'fields' => array(
                 'Sport.id',
                 'Sport.name'
             )

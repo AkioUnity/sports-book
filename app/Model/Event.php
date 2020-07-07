@@ -52,8 +52,8 @@ class Event extends AppModel
             'null' => false
         ),
         'type' => array(
-            'type' => 'int',
-            'length' => 1,
+            'type' => 'enum',
+            'length' => null,
             'null' => false
         ),
         'date' => array(
@@ -79,6 +79,11 @@ class Event extends AppModel
         'feed_type' => array(
             'type' => 'string',
             'length' => 10,
+            'null' => false
+        ),
+        'ticket' => array(
+            'type' => 'enum',
+            'length' => null,
             'null' => false
         )
     );
@@ -144,15 +149,8 @@ class Event extends AppModel
      */
     const EVENT_INACTIVE_STATE = 0;
 
-    /**
-     * PreMatch event type value
-     */
-    const EVENT_TYPE_PREMATCH = 1;
-
-    /**
-     * Live event type value
-     */
-    const EVENT_TYPE_LIVE = 2;
+    const TYPE_PREMATCH = 'Prematch';// 1;
+    const TYPE_LIVE = 'Live';//2;
 
     const Ticket_No = 'no';
     const Ticket_Yes = 'yes';
@@ -346,7 +344,7 @@ class Event extends AppModel
         $importId = null,
         $eventName,
         $status = self::EVENT_STATUS_NOT_STARTED,
-        $type = self::EVENT_TYPE_PREMATCH,
+        $type = self::TYPE_PREMATCH,
         $duration = null,
         $startDate,
         $lastUpdate = null,
@@ -642,7 +640,7 @@ class Event extends AppModel
             'conditions' => array(
                 'Event.status <=' => self::EVENT_STATUS_IN_PROGRESS,
                 'Event.date <' => gmdate('Y-m-d H:i:s', strtotime('-2 minutes')),
-                'ticket'=>Event::Ticket_Yes
+                'Event.ticket'=>Event::Ticket_Yes
             ),
             'order' => 'Event.date ASC',
             'limit' => 10,
@@ -673,12 +671,6 @@ class Event extends AppModel
             $data['Event']['result'] = implode(" - ", array($Results[0]["value"], $Results[1]["value"]));
 
             $this->save($data);
-
-            $this->getEventManager()->dispatch(new CakeEvent('Model.Event.setResults', $this, array(
-                "Event" => $Event["Event"],
-                "Results" => $Results
-            )));
-
         } catch (Exception $e) {
             // TODO : log
         }

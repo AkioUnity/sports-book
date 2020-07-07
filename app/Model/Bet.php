@@ -377,15 +377,6 @@ class Bet extends AppModel
         return true;
     }
 
-    public function setResult($id, $result = '') {
-        $options['conditions'] = array(
-            'Bet.id' => $id
-        );
-        $data = $this->find('first', $options);
-        $data['Bet']['result'] = $result;
-        $this->save($data);
-    }
-
     /**
      * Returns scaffold add fields
      *

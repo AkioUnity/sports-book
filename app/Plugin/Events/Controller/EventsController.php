@@ -159,7 +159,7 @@ class EventsController extends EventsAppController
         if (isset($this->request->data["Event"]) && !empty($this->request->data["Event"])) {
             $this->request->data["Event"]["import_id"] = 0;
             $this->request->data["Event"]["status"] = 0;
-            $this->request->data["Event"]["type"] = 1;
+            $this->request->data["Event"]["type"] = Event::TYPE_PREMATCH;
             $this->request->data["Event"]["result"] = "";
             $this->request->data["Event"]["feed_type"] = "Manual";
             $this->request->data["Event"]["date"] = !empty($this->request->data["Event"]["date"]) ? gmdate("Y-m-d H:i:s", strtotime($this->request->data["Event"]["date"])) : "";

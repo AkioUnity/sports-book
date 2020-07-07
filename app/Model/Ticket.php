@@ -15,6 +15,7 @@
 App::uses('AppModel', 'Model');
 App::import('Model','Bet');
 App::import('Model','Group');
+App::import('Model','Setting');
 App::uses('TicketListener', 'Event');
 
 class Ticket extends AppModel
@@ -78,8 +79,8 @@ class Ticket extends AppModel
             'null'      => false
         ),
         'paid'      => array(
-            'type'      => 'tinyint',
-            'length'    => 1,
+            'type'      => 'enum',
+            'length'    => null,
             'null'      => false
         )
     );
@@ -118,21 +119,13 @@ class Ticket extends AppModel
      * Ticket type single value
      */
     const TICKET_TYPE_SINGLE        =  1;
-
-    /**
-     * Ticket type multi value
-     */
     const TICKET_TYPE_MULTI         =  2;
 
     /**
      * Ticket condition unpaid value
      */
-    const TICKET_CONDITION_UNPAID   =   0;
-
-    /**
-     * Ticket condition paid value
-     */
-    const TICKET_CONDITION_PAID     =   1;
+    const UNPAID   =   1;
+    const PAID = 2;
 
     /**
      * Ticket status default value
@@ -158,11 +151,6 @@ class Ticket extends AppModel
      * Ticket status won value
      */
     const TICKET_STATUS_WON         =   1;
-
-    /**
-     * Paid ticket value
-     */
-    const PAID = 1;
 
     /**
      * Ticket types
@@ -273,7 +261,7 @@ class Ticket extends AppModel
             'date'                  =>  gmdate('Y-m-d H:i:s'),
             'status'                =>  self::TICKET_STATUS_PENDING,
             'printed'               =>  0,
-            'paid'                  =>  0
+            'paid'                  =>  Ticket::UNPAID
         );
 
         $this->create();
@@ -308,6 +296,7 @@ class Ticket extends AppModel
         {
             $actions = array_map(function($action){
                 if($action['action'] == 'admin_edit' || $action['action'] == 'admin_delete') {
+//                    print_r($action);
                     return null;
                 }
                 return $action;
@@ -319,9 +308,10 @@ class Ticket extends AppModel
                 'action'        => 'admin_markAsPaid',
                 'class'         => 'btn btn-mini btn-warning',
                 'conditions'    =>  array(
-                    'Ticket.paid' =>  'Unpaid'
+                    'Ticket.paid' =>  Ticket::UNPAID
                 )
             );
+//            print_r($actions);
         }
 
         return $actions;
@@ -498,15 +488,14 @@ class Ticket extends AppModel
      *
      * @param $ticketId
      */
-    public function updateStatusByBets($ticketId)
+    public function updateStatusByBets($ticketId)  //from ticketPart update (set win or lost)
     {
         $Ticket = $this->getTicket($ticketId);
-
+        CakeLog::write('ticket_result', 'updateStatusByBets TicketID:'.$ticketId);
         if (empty($Ticket)) { return; }
 
         $newOdd = 1;
         $newStatus = null;
-        $newReturn = null;
 
         $oldStatus = $Ticket['Ticket']['status'];
         $oldReturn = $Ticket['Ticket']['return'];
@@ -522,12 +511,13 @@ class Ticket extends AppModel
 
         $newStatus = $this->getTicketStatusAssoc($this->checkTicketPending($statuses), $this->checkTicketWon($statuses), $this->checkTicketLost($statuses), $newOdd);
 
-        $newReturn = $this->getMaxWinning($Ticket['Ticket']['amount'] * $newOdd);
+        $newReturn = $Ticket['Ticket']['amount'] * $newOdd;
+        $newReturn = $this->getMaxWinning($newReturn);
 
         $Ticket['Ticket']['odd']    = $newOdd;
         $Ticket['Ticket']['return'] = $newReturn;
         $Ticket['Ticket']['status'] = $newStatus;
-
+        CakeLog::write('ticket_result', 'oldReturn: '.$oldReturn.' newReturn: '.$newReturn.'  oldStatus: '.$oldStatus.'  newStatus: '.$newStatus);
         $this->save($Ticket);
 
         $this->getEventManager()->dispatch(new CakeEvent('Model.Ticket.updateStatus', $this, array(
@@ -700,9 +690,15 @@ class Ticket extends AppModel
      * @return mixed
      */
     public function getMaxWinning($winning) {
-        if ($winning > Configure::read('Settings.maxWin')) {
-            $winning = Configure::read('Settings.maxWin');
+        $maxWin=Configure::read('Settings.maxWin');
+        if ($maxWin==null){
+            $Setting=new Setting();
+            $maxWin=$Setting->getValue('maxWin');
         }
+        if ($winning > $maxWin) {
+            $winning = $maxWin;
+        }
+//        CakeLog::write('ticket_result', ' getMaxWinning: '.$winning);
         return $winning;
     }
 
@@ -828,7 +824,7 @@ class Ticket extends AppModel
      */
     public function assignTicketPaid($ticketPaid, $ticket = array())
     {
-        $ticketPaidTypes = array(null => 'Unpaid', false => 'Unpaid', 1 => 'Paid');
+        $ticketPaidTypes = array(null => 'Unpaid', 1 => 'Unpaid', 2 => 'Paid');
 
         if(!isset($ticketPaidTypes[$ticketPaid]))
             return $ticketPaid;
@@ -902,7 +898,7 @@ class Ticket extends AppModel
 
         $event = $BetModel->Event->getItem($newBet['Bet']['event_id']);
 
-        if ($event["Event"]["type"] == Event::EVENT_TYPE_LIVE) {
+        if ($event["Event"]["type"] == Event::TYPE_LIVE) {
             if (Configure::read('Settings.reservation_ticket_mode') && !CakeSession::check('Auth.User.id')) {
                 return array(
                     'status'    =>  false,
@@ -922,7 +918,7 @@ class Ticket extends AppModel
         $newBet['Bet']['date'] = $event['Event']['date'];
 
         $newBet['Bet']['Sport'] = array(
-            'name'      => $league['Sport']['name'],
+//            'name'      => $league['Sport']['name'],
             'min_bet'   => $league['Sport']['min_bet'],
             'max_bet'   => $league['Sport']['max_bet']
         );
@@ -1237,7 +1233,9 @@ class Ticket extends AppModel
             $utc_str = gmdate("M d Y H:i:s", time());
 
             $utc = strtotime($utc_str);
-            if (strtotime($bet['Bet']['date']) < $utc && $bet["Event"]["type"] != 2) {
+            if (strtotime($bet['Bet']['date']) < $utc && $bet["Event"]["type"] != Event::TYPE_LIVE) {
+                print_r ($bet["Event"]);
+                die;
                 $started[] = $bet;
             }
             
@@ -1255,7 +1253,7 @@ class Ticket extends AppModel
         $bets       =   $this->getBetsFromSession();
 
         foreach ($bets AS $bet) {
-            if ($bet["Event"]["type"] != 2) {
+            if ($bet["Event"]["type"] != Event::TYPE_LIVE) {
                 continue;
             }
 

@@ -14,7 +14,7 @@
     <div class="row">
         <?php foreach ($games as $value) { ?>
             <div class="col-md-4 col-sm-6 col-xl-3">
-                <a href="content/createSession?GameId=<?php echo $value['Id']; ?>" target="_blank">
+                <a href="content/createSession?GameId=<?php echo $value['Id']; ?>" >
                     <img src="/Casino/games/<?php echo $value['Id'] ?>.jpg" alt=""
                          style="width: 100%;padding-top: 20px">
                 </a>

@@ -250,7 +250,7 @@ class TicketsController extends AppController
             $this->redirect(array('controller' => 'tickets', 'action' => 'index'), 302, true);
         }
 
-        $ticket['Ticket']['paid'] = 1;
+        $ticket['Ticket']['paid'] = Ticket::PAID;
 
         $this->Ticket->save($ticket);
 

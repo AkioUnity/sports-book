@@ -777,7 +777,7 @@ class ReportsController extends ReportsAppController
                 'conditions'    =>  array(
                     'Ticket.date BETWEEN ? AND ?'  => array($this->beginOfDay, $this->endOfDay),
                     'Ticket.user_id'    =>  $user,
-                    'Ticket.paid'       =>  Ticket::TICKET_CONDITION_PAID
+                    'Ticket.paid'       =>  Ticket::PAID
                 )
             )
         );

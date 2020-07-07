@@ -220,12 +220,22 @@ class AppController extends Controller
             );
             $casinoBalance=$this->client->getBalance($player)['Amount'];
             $diffCasinoBalance=$casinoBalance-CakeSession::read('casino.balance');
+
+//            CakeLog::write('casino', 'AppController-----  casinoBalance '.$casinoBalance.'     casino.balance '.CakeSession::read('casino.balance'));
+
             if ($diffCasinoBalance!=0){
                 $newBalance=CakeSession::read('Auth.User.balance')+$diffCasinoBalance/100;
                 $this->User->setBalance($this->Auth->user('id'),$newBalance);
+//                CakeSession::write('old.balance', CakeSession::read('Auth.User.balance'));
                 CakeSession::write('casino.balance', $casinoBalance);
+
+                CakeLog::write('casino', 'AppController-------  changed.casino.balance '.$diffCasinoBalance.'  casino.balance '.CakeSession::read('casino.balance').'  User.balance '.CakeSession::read('Auth.User.balance').'  old.balance '.CakeSession::read('old.balance'));
+
             }
+
+
             CakeSession::write('changed.casino.balance', $diffCasinoBalance);
+
 //            echo ('diff:'.$diffCasinoBalance.'  casino.balance='.$casinoBalance);
 //            echo $_SERVER['REQUEST_URI'];
         }

@@ -107,7 +107,6 @@ class ContentController extends CasinoAppController
     {
 //        $this->set_player();
 //        $this->changeBalance();
-
         if (!CakeSession::check('casino.balance')){
             $player=array(
                 'PlayerId'=>$this->Auth->user('username')
@@ -123,21 +122,25 @@ class ContentController extends CasinoAppController
             }
         }
         else{
-            $diffBalance=CakeSession::read('Auth.User.balance')-CakeSession::read('old.balance')-CakeSession::read('changed.casino.balance');
+//            $diffBalance=CakeSession::read('Auth.User.balance')-CakeSession::read('old.balance')-CakeSession::read('changed.casino.balance');
+            $diffBalance=CakeSession::read('Auth.User.balance')*100-CakeSession::read('casino.balance');
             if ($diffBalance!=0){
                 $player=array(
                     'PlayerId'=>$this->Auth->user('username'),
-                    'Amount'=>(int)($diffBalance*100)
+                    'Amount'=>(int)($diffBalance)
                 );
                 $this->client->changeBalance($player);
+
+                CakeLog::write('casino', 'ContentController------diff '.$diffBalance.' User.Balance '.CakeSession::read('Auth.User.balance').' old.blalance '.CakeSession::read('old.balance').' changed.casino.balance '.CakeSession::read('changed.casino.balance'));
             }
         }
+
         CakeSession::write('old.balance', CakeSession::read('Auth.User.balance'));
         CakeSession::write('casino.balance', CakeSession::read('Auth.User.balance')*100);
 
+        CakeLog::write('casino', 'old.balance '.CakeSession::read('old.balance').'    casino.balance '.CakeSession::read('casino.balance'));
+
 //                $this->User->setBalance($this->Auth->user('id'),$balance);
-
-
         $session=array(
             'PlayerId'=>$this->Auth->user('username'),
             'GameId'=>$this->request->query['GameId']

@@ -103,7 +103,7 @@ var Ticket = {
                         $('a.viewTicket').css({'display' : 'none'});
                     }
 
-                    if((response.data.Ticket.status == 'Won' || response.data.Ticket.status == 'Cancelled') && response.data.Ticket.paid == 'Unpaid') {
+                    if((response.data.Ticket.status == 'Won' || response.data.Ticket.status == 'Cancelled') && response.data.Ticket.paid == 1) {
                         ResponseContainer.find('a.payTicket').css({'display' : 'block'});
                     }else{
                         ResponseContainer.find('a.payTicket').css({'display' : 'none'});

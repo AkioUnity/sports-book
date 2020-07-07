@@ -38,7 +38,7 @@ class TicketFixture extends CakeTestFixture {
                 'type'      =>  Ticket::TICKET_TYPE_SINGLE,
                 'status'    =>  -2,
                 'printed'   =>  0,
-                'paid'      =>  -1
+                'paid'      =>  Ticket::UNPAID
             ),
             1   =>  array(
                 'id'        =>  2,
@@ -50,7 +50,7 @@ class TicketFixture extends CakeTestFixture {
                 'type'      =>  Ticket::TICKET_TYPE_MULTI,
                 'status'    =>  -2,
                 'printed'   =>  0,
-                'paid'      =>  -1
+                'paid'      =>  Ticket::UNPAID
             )
         );
 
